@@ -3,15 +3,5 @@ import Link from "next/link";
 import {SiteFooter} from "@/components/site-footer";
 import {SiteHeader} from "@/components/site-header";
 type Frame={id:string;slug:string;title:string;source_file:string;asset_path:string;width:number;height:number;family:string;canonical_route:string;feature_tags:string[];related_renditions:string[]};
-export function PrototypeFrame({frame}:{frame:Frame}){
- return <><SiteHeader/><div className="prototype">
-  <main><p className="muted">Visual reference · {frame.family}</p><h1>{frame.title}</h1>
-   <Image src={frame.asset_path} alt={frame.title} width={frame.width||1600} height={frame.height||1000} priority />
-  </main>
-  <aside><Link className="prototypeBack" href="/prototypes">← All screens</Link><h2>Implementation contract</h2><p><b>Canonical area</b><br/><code>{frame.canonical_route}</code></p>
-   <h3>Feature tags</h3>{frame.feature_tags.map(x=><span className="pill" style={{margin:4}} key={x}>{x}</span>)}
-   <h3>Rule</h3><p className="muted">Image text and numbers are illustrative. Production UI must use source-backed domain data and shared components.</p>
-   {frame.related_renditions.length>0&&<><h3>Related renditions</h3><ul>{frame.related_renditions.map(x=><li key={x}>{x}</li>)}</ul></>}
-  </aside>
- </div><SiteFooter/></>
-}
+const friendly=(value:string)=>value.replaceAll("_"," ").replaceAll("-"," ").replace(/\b\w/g,letter=>letter.toUpperCase());
+export function PrototypeFrame({frame}:{frame:Frame}){return <><SiteHeader/><div className="prototype"><main><p className="muted">Mosque project concept · {friendly(frame.family)}</p><h1>{frame.title}</h1><Image src={frame.asset_path} alt={`${frame.title} mosque project concept`} width={frame.width||1600} height={frame.height||1000} priority/></main><aside><Link className="prototypeBack" href="/prototypes">← All concepts</Link><h2>What this concept explores</h2><p>Use this visual to discuss possible workflows and priorities with your team. Text, numbers and layouts shown in the artwork are examples—not project facts, prices or approvals.</p><h3>Ideas shown</h3><div>{frame.feature_tags.map(tag=><span className="pill" style={{margin:4}} key={tag}>{friendly(tag)}</span>)}</div><h3>Continue with a working tool</h3><Link className="button small" href={frame.canonical_route}>Open related workspace →</Link><div className="taskGate">Concept image · confirm requirements, evidence and qualified reviews in the working project.</div></aside></div><SiteFooter/></>}
