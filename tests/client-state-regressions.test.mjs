@@ -1,0 +1,5 @@
+import test from "node:test";import assert from "node:assert/strict";import fs from "node:fs";
+const read=path=>fs.readFileSync(new URL(`../${path}`,import.meta.url),"utf8");
+test("project controls do not assume a jurisdiction",()=>{const source=read("apps/web/components/project-control-center.tsx");assert.match(source,/permitJurisdiction:""/);assert.match(source,/Choose a jurisdiction/);assert.doesNotMatch(source,/permitJurisdiction:"ke-nairobi"/)});
+test("range changes persist the current value instead of stale state",()=>{const source=read("apps/web/components/project-control-center.tsx");assert.match(source,/onChange=\{event=>save\(\{\.\.\.state,allocations:/);assert.match(source,/onChange=\{event=>save\(\{\.\.\.state,phases:/);assert.doesNotMatch(source,/onPointerUp=\{\(\)=>commit\(state,/)});
+test("device-local list readers recover from wrong data shapes",()=>{for(const path of ["apps/web/components/resource-hub.tsx","apps/web/components/project-process-board.tsx","apps/web/components/local-project-workspace.tsx"])assert.match(read(path),/Array\.isArray/)});

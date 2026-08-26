@@ -16,7 +16,7 @@ const stages=[
 
 export function ProjectProcessBoard(){
   const [active,setActive]=useState(0);const [saved,setSaved]=useState(0);const [complete,setComplete]=useState<string[]>([]);
-  useEffect(()=>{try{setSaved(JSON.parse(localStorage.getItem("mosque-build.pattern-shortlist.v1")||"[]").length);setComplete(JSON.parse(localStorage.getItem("mosque-build.process-progress.v1")||"[]"))}catch{}},[]);
+  useEffect(()=>{try{const patterns=JSON.parse(localStorage.getItem("mosque-build.pattern-shortlist.v1")||"[]");const progress=JSON.parse(localStorage.getItem("mosque-build.process-progress.v1")||"[]");setSaved(Array.isArray(patterns)?patterns.length:0);setComplete(Array.isArray(progress)?progress.filter(item=>typeof item==="string"):[])}catch{setSaved(0);setComplete([])}},[]);
   const checkId=(stageName:string,check:string)=>`${stageName}:${check}`;const persist=(next:string[])=>{setComplete(next);try{localStorage.setItem("mosque-build.process-progress.v1",JSON.stringify(next))}catch{}};const toggle=(id:string)=>persist(complete.includes(id)?complete.filter(item=>item!==id):[...complete,id]);
   const total=stages.reduce((sum,item)=>sum+item.checks.length,0);const completed=complete.filter(id=>stages.some(item=>item.checks.some(check=>checkId(item.name,check)===id))).length;const percent=Math.round(completed/total*100);
   const stage=stages[active];

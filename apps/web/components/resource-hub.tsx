@@ -6,7 +6,7 @@ import {resourceLibrary,resourceStages,type ResourceStage} from "@/data/resource
 const savedKey="mosque-build.resource-plan.v1";
 export function ResourceHub(){
   const [query,setQuery]=useState("");const [stage,setStage]=useState<"All"|ResourceStage>("All");const [kind,setKind]=useState("All");const [saved,setSaved]=useState<string[]>([]);const [onlySaved,setOnlySaved]=useState(false);const [ready,setReady]=useState(false);
-  useEffect(()=>{try{setSaved(JSON.parse(localStorage.getItem(savedKey)||"[]"))}catch{}setReady(true)},[]);
+  useEffect(()=>{try{const value=JSON.parse(localStorage.getItem(savedKey)||"[]");setSaved(Array.isArray(value)?value.filter(item=>typeof item==="string"):[])}catch{setSaved([])}setReady(true)},[]);
   const persist=(next:string[])=>{setSaved(next);try{localStorage.setItem(savedKey,JSON.stringify(next))}catch{}};
   const toggle=(id:string)=>persist(saved.includes(id)?saved.filter(item=>item!==id):[...saved,id]);
   const results=useMemo(()=>{const needle=query.trim().toLowerCase();return resourceLibrary.filter(item=>(stage==="All"||item.stage===stage)&&(kind==="All"||item.kind===kind)&&(!onlySaved||saved.includes(item.id))&&(!needle||`${item.title} ${item.summary} ${item.tags.join(" ")}`.toLowerCase().includes(needle)))},[query,stage,kind,onlySaved,saved]);

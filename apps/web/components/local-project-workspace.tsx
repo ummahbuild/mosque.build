@@ -20,7 +20,7 @@ function buildTasks(draft:Draft):Task[]{
 
 export function LocalProjectWorkspace(){
   const [draft,setDraft]=useState<Draft|null>(null);const [ready,setReady]=useState(false);const [completed,setCompleted]=useState<string[]>([]);const [filter,setFilter]=useState<"all"|"open"|"complete">("all");
-  useEffect(()=>{try{const raw=localStorage.getItem(draftKey);if(raw)setDraft(JSON.parse(raw));const saved=localStorage.getItem(progressKey);if(saved)setCompleted(JSON.parse(saved))}catch{}finally{setReady(true)}},[]);
+  useEffect(()=>{try{const raw=localStorage.getItem(draftKey);if(raw){const value=JSON.parse(raw);if(value&&typeof value==="object")setDraft(value)}const saved=localStorage.getItem(progressKey);if(saved){const value=JSON.parse(saved);setCompleted(Array.isArray(value)?value.filter(item=>typeof item==="string"):[])}}catch{setCompleted([])}finally{setReady(true)}},[]);
   const tasks=useMemo(()=>draft?buildTasks(draft):[],[draft]);const visible=tasks.filter(task=>filter==="all"||(filter==="complete")===completed.includes(task.id));const percent=tasks.length?Math.round(completed.filter(id=>tasks.some(task=>task.id===id)).length/tasks.length*100):0;
   const toggle=(id:string)=>setCompleted(current=>{const next=current.includes(id)?current.filter(item=>item!==id):[...current,id];try{localStorage.setItem(progressKey,JSON.stringify(next))}catch{}return next});
   if(!ready)return <section className="workspaceState" role="status"><span className="loadingPulse"/><h1>Loading your local project…</h1></section>;
