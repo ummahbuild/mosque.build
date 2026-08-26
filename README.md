@@ -12,6 +12,8 @@ The public application currently includes:
 
 - a six-step private, on-device project brief and resumable project workspace;
 - conceptual mosque massing and project-linked design selections;
+- searchable 40-item lifecycle resource library with a private saved plan;
+- persistent 24-checkpoint project lifecycle preparation board;
 - sourced jurisdiction, funding and waqf starting points with explicit verification boundaries;
 - pattern studies with provenance and review metadata;
 - procurement comparison and local construction evidence logs;

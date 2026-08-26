@@ -1,5 +1,7 @@
 # What to build next
 
+The completed device-local resource and lifecycle batch is recorded in [`FUNCTIONALITY_BATCH_100.md`](./FUNCTIONALITY_BATCH_100.md). The queue below begins where that executable preparation workflow stops.
+
 This queue converts the broad roadmap into contributor-sized outcomes. Create or link a GitHub issue before implementation. Never mark an item complete solely because a visual reference or schema exists.
 
 ## P0 — open-source release blockers
