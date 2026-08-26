@@ -1,0 +1,222 @@
+flowchart TB
+  subgraph AUTH_001_SG["AUTH-001 — Authenticate user"]
+    AUTH_001_TRIG["Trigger: login/signup/deep link"]
+    AUTH_001_AUTH["Auth/RLS: Supabase Auth"]
+    AUTH_001_VAL["Validate: credential validity; rate limits; MFA if required"]
+    AUTH_001_WRITE["Writes: auth.users session; profile bootstrap if new"]
+    AUTH_001_EVT["Events: user.authenticated"]
+    AUTH_001_DOWN["Downstream: load org memberships; load entitlements; load permissions"]
+    AUTH_001_FAIL["Failures: invalid credential; MFA required; provider unavailable"]
+    AUTH_001_AUD["Audit: security auth event"]
+    AUTH_001_TRIG --> AUTH_001_AUTH --> AUTH_001_VAL --> AUTH_001_WRITE --> AUTH_001_EVT --> AUTH_001_DOWN
+    AUTH_001_VAL -. fail .-> AUTH_001_FAIL
+    AUTH_001_WRITE --> AUTH_001_AUD
+  end
+  subgraph DIR_001_SG["DIR-001 — Ingest mosque candidate"]
+    DIR_001_TRIG["Trigger: scheduled import/manual discovery/provider event"]
+    DIR_001_AUTH["Auth/RLS: server ingestion role"]
+    DIR_001_VAL["Validate: source allowed; provider terms; minimum identity fields"]
+    DIR_001_WRITE["Writes: ingestion_candidate; provider_link"]
+    DIR_001_EVT["Events: mosque.candidate_discovered"]
+    DIR_001_DOWN["Downstream: normalize; dedupe/entity match; review queue"]
+    DIR_001_FAIL["Failures: source timeout; invalid coordinates; duplicate"]
+    DIR_001_AUD["Audit: ingestion job log"]
+    DIR_001_TRIG --> DIR_001_AUTH --> DIR_001_VAL --> DIR_001_WRITE --> DIR_001_EVT --> DIR_001_DOWN
+    DIR_001_VAL -. fail .-> DIR_001_FAIL
+    DIR_001_WRITE --> DIR_001_AUD
+  end
+  subgraph DIR_002_SG["DIR-002 — Verify and publish mosque profile"]
+    DIR_002_TRIG["Trigger: candidate reviewed or mosque claim"]
+    DIR_002_AUTH["Auth/RLS: reviewer/platform editor or scoped mosque admin"]
+    DIR_002_VAL["Validate: identity; active status; location; rights; source freshness"]
+    DIR_002_WRITE["Writes: mosques; aliases; facilities; hours; services; provider links"]
+    DIR_002_EVT["Events: mosque.verified; mosque.published"]
+    DIR_002_DOWN["Downstream: search index; SEO page; map cache; related content links"]
+    DIR_002_FAIL["Failures: conflicting sources; unverified status; rights issue"]
+    DIR_002_AUD["Audit: field-level provenance + change log"]
+    DIR_002_TRIG --> DIR_002_AUTH --> DIR_002_VAL --> DIR_002_WRITE --> DIR_002_EVT --> DIR_002_DOWN
+    DIR_002_VAL -. fail .-> DIR_002_FAIL
+    DIR_002_WRITE --> DIR_002_AUD
+  end
+  subgraph DES_001_SG["DES-001 — Create/branch mosque design scenario"]
+    DES_001_TRIG["Trigger: user starts mockup or duplicates public design"]
+    DES_001_AUTH["Auth/RLS: project edit capability"]
+    DES_001_VAL["Validate: license/copy permission if based on public design; project membership"]
+    DES_001_WRITE["Writes: design_scenario; design_version; source_design_reference"]
+    DES_001_EVT["Events: design.scenario_created"]
+    DES_001_DOWN["Downstream: geometry kernel; cost estimate; permit checks; render previews"]
+    DES_001_FAIL["Failures: unsupported import; license restriction; invalid geometry"]
+    DES_001_AUD["Audit: scenario lineage"]
+    DES_001_TRIG --> DES_001_AUTH --> DES_001_VAL --> DES_001_WRITE --> DES_001_EVT --> DES_001_DOWN
+    DES_001_VAL -. fail .-> DES_001_FAIL
+    DES_001_WRITE --> DES_001_AUD
+  end
+  subgraph DES_002_SG["DES-002 — Publish reusable mosque design"]
+    DES_002_TRIG["Trigger: designer/owner publishes approved concept/template"]
+    DES_002_AUTH["Auth/RLS: owner/designer + publish capability"]
+    DES_002_VAL["Validate: rights ownership; no confidential project data; structural/legal disclaimer; license selected"]
+    DES_002_WRITE["Writes: public_design; design_license; design_files; credits; copy_count"]
+    DES_002_EVT["Events: design.published_public"]
+    DES_002_DOWN["Downstream: design gallery; SEO page; copy/fork action; architect portfolio"]
+    DES_002_FAIL["Failures: rights unclear; confidential content; missing license"]
+    DES_002_AUD["Audit: publication and revision history"]
+    DES_002_TRIG --> DES_002_AUTH --> DES_002_VAL --> DES_002_WRITE --> DES_002_EVT --> DES_002_DOWN
+    DES_002_VAL -. fail .-> DES_002_FAIL
+    DES_002_WRITE --> DES_002_AUD
+  end
+  subgraph DES_003_SG["DES-003 — Re-upload external architect revision"]
+    DES_003_TRIG["Trigger: DWG/DXF/IFC/PDF/image upload"]
+    DES_003_AUTH["Auth/RLS: project edit + file permission"]
+    DES_003_VAL["Validate: file type; malware scan; rights/source metadata"]
+    DES_003_WRITE["Writes: source_asset; import_job; design_diff"]
+    DES_003_EVT["Events: design.external_revision_uploaded"]
+    DES_003_DOWN["Downstream: parse; calibrate; diff; manual reconciliation; new design version"]
+    DES_003_FAIL["Failures: parse failure; unsupported geometry; conflict"]
+    DES_003_AUD["Audit: source file hash + accepted changes"]
+    DES_003_TRIG --> DES_003_AUTH --> DES_003_VAL --> DES_003_WRITE --> DES_003_EVT --> DES_003_DOWN
+    DES_003_VAL -. fail .-> DES_003_FAIL
+    DES_003_WRITE --> DES_003_AUD
+  end
+  subgraph COST_001_SG["COST-001 — Generate versioned estimate"]
+    COST_001_TRIG["Trigger: design/program/material change or manual estimate"]
+    COST_001_AUTH["Auth/RLS: project cost capability"]
+    COST_001_VAL["Validate: price freshness; currency/source; unknown values flagged"]
+    COST_001_WRITE["Writes: cost_estimate; cost_lines; fx_snapshot; confidence"]
+    COST_001_EVT["Events: cost.estimate_created"]
+    COST_001_DOWN["Downstream: budget dashboard; funding gap; campaign drift check; cash flow"]
+    COST_001_FAIL["Failures: missing price data; stale quote; unknown duty"]
+    COST_001_AUD["Audit: immutable estimate inputs"]
+    COST_001_TRIG --> COST_001_AUTH --> COST_001_VAL --> COST_001_WRITE --> COST_001_EVT --> COST_001_DOWN
+    COST_001_VAL -. fail .-> COST_001_FAIL
+    COST_001_WRITE --> COST_001_AUD
+  end
+  subgraph SRC_001_SG["SRC-001 — Vendor publishes product/service"]
+    SRC_001_TRIG["Trigger: vendor creates listing/feed"]
+    SRC_001_AUTH["Auth/RLS: verified vendor role"]
+    SRC_001_VAL["Validate: vendor verification; category; technical fields; rights; claims moderation"]
+    SRC_001_WRITE["Writes: supplier; product; offer; technical_doc; price_snapshot"]
+    SRC_001_EVT["Events: vendor.listing_submitted"]
+    SRC_001_DOWN["Downstream: moderation; search index; product gallery; supplier profile"]
+    SRC_001_FAIL["Failures: unverified vendor; copyright issue; misleading certification"]
+    SRC_001_AUD["Audit: vendor + reviewer history"]
+    SRC_001_TRIG --> SRC_001_AUTH --> SRC_001_VAL --> SRC_001_WRITE --> SRC_001_EVT --> SRC_001_DOWN
+    SRC_001_VAL -. fail .-> SRC_001_FAIL
+    SRC_001_WRITE --> SRC_001_AUD
+  end
+  subgraph SRC_002_SG["SRC-002 — Vendor adds real mosque reference project"]
+    SRC_002_TRIG["Trigger: vendor submits portfolio reference"]
+    SRC_002_AUTH["Auth/RLS: verified vendor"]
+    SRC_002_VAL["Validate: match real mosque/project; evidence review; permission for media; no false endorsement"]
+    SRC_002_WRITE["Writes: vendor_reference; mosque_vendor_link; reference_evidence"]
+    SRC_002_EVT["Events: vendor.reference_submitted"]
+    SRC_002_DOWN["Downstream: mosque-side confirmation request; review; portfolio badge"]
+    SRC_002_FAIL["Failures: unverifiable project; client disputes claim; rights issue"]
+    SRC_002_AUD["Audit: evidence + reviewer + mosque confirmation"]
+    SRC_002_TRIG --> SRC_002_AUTH --> SRC_002_VAL --> SRC_002_WRITE --> SRC_002_EVT --> SRC_002_DOWN
+    SRC_002_VAL -. fail .-> SRC_002_FAIL
+    SRC_002_WRITE --> SRC_002_AUD
+  end
+  subgraph PROC_001_SG["PROC-001 — RFQ and quote comparison"]
+    PROC_001_TRIG["Trigger: project item ready for sourcing"]
+    PROC_001_AUTH["Auth/RLS: procurement role"]
+    PROC_001_VAL["Validate: spec completeness; vendor eligibility"]
+    PROC_001_WRITE["Writes: rfq; quote; quote_normalization; award_recommendation"]
+    PROC_001_EVT["Events: rfq.issued; quote.received"]
+    PROC_001_DOWN["Downstream: technical review; commercial compare; PO"]
+    PROC_001_FAIL["Failures: quote expired; spec deviation; currency ambiguity"]
+    PROC_001_AUD["Audit: bid/award history"]
+    PROC_001_TRIG --> PROC_001_AUTH --> PROC_001_VAL --> PROC_001_WRITE --> PROC_001_EVT --> PROC_001_DOWN
+    PROC_001_VAL -. fail .-> PROC_001_FAIL
+    PROC_001_WRITE --> PROC_001_AUD
+  end
+  subgraph FUND_001_SG["FUND-001 — Create campaign from approved project baseline"]
+    FUND_001_TRIG["Trigger: fundraising team starts campaign"]
+    FUND_001_AUTH["Auth/RLS: fundraising + finance approval"]
+    FUND_001_VAL["Validate: recipient verification; tax disclosure status; restricted fund terms; public-safe design assets"]
+    FUND_001_WRITE["Writes: campaign; campaign_version; campaign_budget; funding_channel_links"]
+    FUND_001_EVT["Events: campaign.created"]
+    FUND_001_DOWN["Downstream: Stripe/PayPal/direct channels; LaunchGood external link; public campaign page; share kit"]
+    FUND_001_FAIL["Failures: recipient unverified; tax status unknown; budget not approved"]
+    FUND_001_AUD["Audit: campaign version history"]
+    FUND_001_TRIG --> FUND_001_AUTH --> FUND_001_VAL --> FUND_001_WRITE --> FUND_001_EVT --> FUND_001_DOWN
+    FUND_001_VAL -. fail .-> FUND_001_FAIL
+    FUND_001_WRITE --> FUND_001_AUD
+  end
+  subgraph FUND_002_SG["FUND-002 — Aggregate fundraising across channels"]
+    FUND_002_TRIG["Trigger: payment webhook/manual sync/external campaign refresh"]
+    FUND_002_AUTH["Auth/RLS: server connectors + finance role"]
+    FUND_002_VAL["Validate: idempotency; currency conversion; channel/source ID; settlement state"]
+    FUND_002_WRITE["Writes: funding_transactions; external_campaign_snapshots; pledges; grants; in_kind_contributions; reconciliation_entries"]
+    FUND_002_EVT["Events: funding.aggregate_updated"]
+    FUND_002_DOWN["Downstream: campaign progress; fund balances; cash-flow; public transparency; 3D funded objects"]
+    FUND_002_FAIL["Failures: provider unavailable; unmatched transfer; duplicate webhook; FX missing"]
+    FUND_002_AUD["Audit: source transaction IDs + reconciliation log"]
+    FUND_002_TRIG --> FUND_002_AUTH --> FUND_002_VAL --> FUND_002_WRITE --> FUND_002_EVT --> FUND_002_DOWN
+    FUND_002_VAL -. fail .-> FUND_002_FAIL
+    FUND_002_WRITE --> FUND_002_AUD
+  end
+  subgraph FUND_003_SG["FUND-003 — Verify nonprofit/charity/fiscal sponsor status"]
+    FUND_003_TRIG["Trigger: recipient onboarding or periodic review"]
+    FUND_003_AUTH["Auth/RLS: finance/legal reviewer"]
+    FUND_003_VAL["Validate: jurisdiction source; document validity; recipient bank/entity match"]
+    FUND_003_WRITE["Writes: legal_entity_status; tax_receipt_policy; verification_record"]
+    FUND_003_EVT["Events: recipient.verification_updated"]
+    FUND_003_DOWN["Downstream: tax-deductible display gate; receipt issuer config; campaign eligibility"]
+    FUND_003_FAIL["Failures: status unclear; expired documentation; entity mismatch"]
+    FUND_003_AUD["Audit: reviewer + evidence + date"]
+    FUND_003_TRIG --> FUND_003_AUTH --> FUND_003_VAL --> FUND_003_WRITE --> FUND_003_EVT --> FUND_003_DOWN
+    FUND_003_VAL -. fail .-> FUND_003_FAIL
+    FUND_003_WRITE --> FUND_003_AUD
+  end
+  subgraph FUND_004_SG["FUND-004 — Publish financial and construction transparency page"]
+    FUND_004_TRIG["Trigger: campaign/project goes public or scheduled update"]
+    FUND_004_AUTH["Auth/RLS: project/fundraising publish capability"]
+    FUND_004_VAL["Validate: no confidential contract/donor data; numbers reconcile; design/budget version current"]
+    FUND_004_WRITE["Writes: public_transparency_snapshot"]
+    FUND_004_EVT["Events: transparency.snapshot_published"]
+    FUND_004_DOWN["Downstream: public campaign; donor updates; SEO/share cards"]
+    FUND_004_FAIL["Failures: reconciliation mismatch; stale project baseline; privacy conflict"]
+    FUND_004_AUD["Audit: snapshot hash + approver"]
+    FUND_004_TRIG --> FUND_004_AUTH --> FUND_004_VAL --> FUND_004_WRITE --> FUND_004_EVT --> FUND_004_DOWN
+    FUND_004_VAL -. fail .-> FUND_004_FAIL
+    FUND_004_WRITE --> FUND_004_AUD
+  end
+  subgraph BUILD_001_SG["BUILD-001 — Record field progress"]
+    BUILD_001_TRIG["Trigger: daily report/photo/inspection/quantity update"]
+    BUILD_001_AUTH["Auth/RLS: field/project role"]
+    BUILD_001_VAL["Validate: project scope; offline mutation ID; evidence"]
+    BUILD_001_WRITE["Writes: daily_report; progress_update; site_media"]
+    BUILD_001_EVT["Events: progress.updated"]
+    BUILD_001_DOWN["Downstream: schedule; payment review; public progress candidate; 3D status"]
+    BUILD_001_FAIL["Failures: offline conflict; invalid activity; missing evidence"]
+    BUILD_001_AUD["Audit: reporter/device/time"]
+    BUILD_001_TRIG --> BUILD_001_AUTH --> BUILD_001_VAL --> BUILD_001_WRITE --> BUILD_001_EVT --> BUILD_001_DOWN
+    BUILD_001_VAL -. fail .-> BUILD_001_FAIL
+    BUILD_001_WRITE --> BUILD_001_AUD
+  end
+  subgraph BUILD_002_SG["BUILD-002 — Certify progress/payment"]
+    BUILD_002_TRIG["Trigger: payment application or milestone review"]
+    BUILD_002_AUTH["Auth/RLS: authorized certifier/finance"]
+    BUILD_002_VAL["Validate: baseline; approved changes; evidence; retainage rules"]
+    BUILD_002_WRITE["Writes: payment_application; certified_progress; payment_certificate"]
+    BUILD_002_EVT["Events: payment.certified"]
+    BUILD_002_DOWN["Downstream: cash flow; funding need; contract balance; transparency summary"]
+    BUILD_002_FAIL["Failures: claim exceeds evidence; unapproved change; missing inspection"]
+    BUILD_002_AUD["Audit: certifier + evidence"]
+    BUILD_002_TRIG --> BUILD_002_AUTH --> BUILD_002_VAL --> BUILD_002_WRITE --> BUILD_002_EVT --> BUILD_002_DOWN
+    BUILD_002_VAL -. fail .-> BUILD_002_FAIL
+    BUILD_002_WRITE --> BUILD_002_AUD
+  end
+  subgraph OPS_001_SG["OPS-001 — Handover installed item into asset register"]
+    OPS_001_TRIG["Trigger: commissioning/handover acceptance"]
+    OPS_001_AUTH["Auth/RLS: handover/facilities role"]
+    OPS_001_VAL["Validate: commissioning status; asset minimum fields"]
+    OPS_001_WRITE["Writes: asset; maintenance_plan; warranty_record"]
+    OPS_001_EVT["Events: asset.handed_over"]
+    OPS_001_DOWN["Downstream: preventive maintenance; QR tag; replacement reserve"]
+    OPS_001_FAIL["Failures: missing O&M; missing serial/model; commissioning unresolved"]
+    OPS_001_AUD["Audit: handover package"]
+    OPS_001_TRIG --> OPS_001_AUTH --> OPS_001_VAL --> OPS_001_WRITE --> OPS_001_EVT --> OPS_001_DOWN
+    OPS_001_VAL -. fail .-> OPS_001_FAIL
+    OPS_001_WRITE --> OPS_001_AUD
+  end

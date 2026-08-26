@@ -1,0 +1,44 @@
+{
+  "source_types": [
+    "Stripe",
+    "PayPal",
+    "LaunchGood external campaign",
+    "bank transfer/ACH",
+    "M-Pesa/mobile money",
+    "cash",
+    "grant",
+    "major gift",
+    "matching gift",
+    "pledge",
+    "in-kind material",
+    "pro-bono service",
+    "land donation",
+    "waqf income"
+  ],
+  "canonical_amounts": [
+    "gross pledged",
+    "gross collected",
+    "processor/platform fees",
+    "refunds/chargebacks",
+    "FX gain/loss",
+    "net received",
+    "restricted balance",
+    "unrestricted balance",
+    "committed spend",
+    "paid spend",
+    "available cash"
+  ],
+  "publication_modes": [
+    "private finance",
+    "board summary",
+    "donor transparency",
+    "public campaign snapshot"
+  ],
+  "controls": [
+    "reconcile external platform totals to actual settlement/bank deposits",
+    "preserve source transaction IDs",
+    "do not double-count cross-platform transfers",
+    "external campaign snapshots are timestamped",
+    "public totals only publish from approved reconciled snapshot"
+  ]
+}

@@ -1,0 +1,574 @@
+[
+  {
+    "id": "SCR-001",
+    "name": "Scan Existing Space",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-002",
+    "name": "Scan Session",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-003",
+    "name": "Measurement Review",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-004",
+    "name": "Existing Building Model",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-005",
+    "name": "Room Recognition",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-006",
+    "name": "Existing Services",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-007",
+    "name": "Condition Survey",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-008",
+    "name": "Convert Room",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-009",
+    "name": "Prayer Room Planner",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-010",
+    "name": "Qibla Fit",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-011",
+    "name": "Saff Layout",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-012",
+    "name": "Capacity Compare",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-013",
+    "name": "Demolition Plan",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-014",
+    "name": "New Work Plan",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-015",
+    "name": "Reuse/Salvage",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-016",
+    "name": "Wudu Conversion",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-017",
+    "name": "Accessibility Conversion",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-018",
+    "name": "MEP Conversion",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-019",
+    "name": "Acoustic Conversion",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-020",
+    "name": "Lighting Conversion",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-021",
+    "name": "Conversion Budget",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-022",
+    "name": "Conversion Timeline",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-023",
+    "name": "Conversion Compare",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-024",
+    "name": "Temporary Musalla",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-025",
+    "name": "Phased Opening",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  },
+  {
+    "id": "SCR-026",
+    "name": "Conversion Readiness",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "offline",
+      "uncertain_scan",
+      "professional_review_required"
+    ],
+    "must_show": [
+      "source/scan version",
+      "confidence",
+      "current vs proposed",
+      "cost impact",
+      "schedule impact",
+      "permit/review flags"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "design_visibility": [
+    "private",
+    "team",
+    "community review",
+    "public reference",
+    "public copyable"
+  ],
+  "license_modes": [
+    "all rights reserved/reference only",
+    "project-specific reuse permission",
+    "custom permissive license selected by owner",
+    "open-source/open-content license where owner explicitly chooses"
+  ],
+  "required_public_fields": [
+    "title",
+    "designer/architect credits",
+    "project/source",
+    "design version",
+    "location/climate assumptions",
+    "capacity",
+    "gross area",
+    "program",
+    "materials",
+    "estimated cost date/currency",
+    "license",
+    "disclaimer",
+    "downloadable assets"
+  ],
+  "copy_behavior": [
+    "fork into new project",
+    "preserve source design attribution",
+    "disconnect cost/regulatory assumptions from original geography unless explicitly compatible",
+    "recalculate qibla/site/permit/cost for destination project",
+    "show copied-from lineage"
+  ]
+}

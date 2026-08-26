@@ -1,0 +1,121 @@
+[
+  {
+    "key": "tree_planting",
+    "unit": "each",
+    "components": [
+      "tree",
+      "pit excavation",
+      "soil amendment",
+      "stakes/support if required",
+      "mulch",
+      "irrigation emitter",
+      "establishment care"
+    ]
+  },
+  {
+    "key": "rain_garden",
+    "unit": "m2",
+    "components": [
+      "excavation",
+      "engineered/native soil as designed",
+      "plants",
+      "mulch",
+      "inlet/outlet",
+      "underdrain if designed",
+      "overflow"
+    ]
+  },
+  {
+    "key": "permeable_paving",
+    "unit": "m2",
+    "components": [
+      "subgrade",
+      "open-graded base as designed",
+      "pavers/surface",
+      "edge restraints",
+      "drainage connection if required"
+    ]
+  },
+  {
+    "key": "trellis_green_facade",
+    "unit": "m2",
+    "components": [
+      "support frame/cables",
+      "anchors",
+      "planters/root zone if needed",
+      "irrigation",
+      "plants",
+      "access allowance"
+    ]
+  },
+  {
+    "key": "living_wall",
+    "unit": "m2",
+    "components": [
+      "support",
+      "modules/growing media",
+      "irrigation",
+      "drainage",
+      "plants",
+      "controls/pump allowance",
+      "maintenance access"
+    ]
+  },
+  {
+    "key": "green_roof",
+    "unit": "m2",
+    "components": [
+      "roof protection/root barrier",
+      "drainage",
+      "growing media",
+      "plants",
+      "edge/fire/maintenance zones as designed"
+    ]
+  },
+  {
+    "key": "drip_irrigation_zone",
+    "unit": "zone",
+    "components": [
+      "controller/valve",
+      "filter",
+      "pressure regulation",
+      "main/lateral",
+      "emitters",
+      "flush points"
+    ]
+  },
+  {
+    "key": "cistern_irrigation",
+    "unit": "set",
+    "components": [
+      "tank",
+      "inlet/overflow",
+      "filter",
+      "pump",
+      "controls",
+      "nonpotable distribution"
+    ]
+  },
+  {
+    "key": "pergola_planting",
+    "unit": "m2_shade",
+    "components": [
+      "pergola structure",
+      "climber support",
+      "plants",
+      "irrigation",
+      "maintenance access"
+    ]
+  },
+  {
+    "key": "edible_garden_bed",
+    "unit": "m2",
+    "components": [
+      "bed/soil",
+      "irrigation",
+      "plants/seeds",
+      "paths",
+      "compost/mulch"
+    ]
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "src_iso19650_1",
+    "name": "ISO 19650-1:2018",
+    "url": "https://www.iso.org/standard/68078.html",
+    "type": "information_management",
+    "use": [
+      "BIM information management",
+      "recording",
+      "versioning",
+      "organization"
+    ],
+    "status": "verified_primary"
+  },
+  {
+    "id": "src_iso19650_2",
+    "name": "ISO 19650-2:2018",
+    "url": "https://www.iso.org/standard/68080.html",
+    "type": "information_management_delivery",
+    "use": [
+      "delivery phase",
+      "information exchange",
+      "project information"
+    ],
+    "status": "verified_primary"
+  },
+  {
+    "id": "src_iso19650_3",
+    "name": "ISO 19650-3:2020",
+    "url": "https://www.iso.org/standard/75109.html",
+    "type": "information_management_operations",
+    "use": [
+      "operational phase",
+      "asset information"
+    ],
+    "status": "verified_primary"
+  },
+  {
+    "id": "src_iso19650_6",
+    "name": "ISO 19650-6:2025",
+    "url": "https://www.iso.org/standard/82705.html",
+    "type": "health_safety_information",
+    "use": [
+      "health and safety information"
+    ],
+    "status": "verified_primary"
+  },
+  {
+    "id": "src_buildingsmart_bcf",
+    "name": "buildingSMART BIM Collaboration Format (BCF)",
+    "url": "https://www.buildingsmart.org/standards/bsi-standards/bim-collaboration-format/",
+    "type": "openBIM_issue_exchange",
+    "use": [
+      "model-linked issues",
+      "coordination",
+      "REST exchange"
+    ],
+    "status": "verified_primary"
+  },
+  {
+    "id": "src_buildingsmart_ids",
+    "name": "buildingSMART Information Delivery Specification (IDS)",
+    "url": "https://www.buildingsmart.org/standards/bsi-standards/information-delivery-specification-ids/",
+    "type": "openBIM_information_requirements",
+    "use": [
+      "machine-readable information requirements",
+      "IFC validation"
+    ],
+    "status": "verified_primary"
+  },
+  {
+    "id": "src_wbdg_commissioning",
+    "name": "Whole Building Design Guide — Building Commissioning",
+    "url": "https://www.wbdg.org/building-commissioning",
+    "type": "commissioning",
+    "use": [
+      "owner project requirements",
+      "design/construction verification",
+      "handover"
+    ],
+    "status": "verified_primary_reference"
+  },
+  {
+    "id": "src_wbdg_gsa_cx",
+    "name": "GSA Commissioning Guide via WBDG",
+    "url": "https://www.wbdg.org/gsa/criteria/building-commissioning-guide",
+    "type": "commissioning_framework",
+    "use": [
+      "planning through occupancy",
+      "team roles"
+    ],
+    "status": "verified_primary_reference"
+  }
+]

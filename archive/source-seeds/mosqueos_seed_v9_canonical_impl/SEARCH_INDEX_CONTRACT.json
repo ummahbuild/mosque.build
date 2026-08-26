@@ -1,0 +1,73 @@
+{
+  "entity_types": [
+    "mosque",
+    "architect/person",
+    "style",
+    "material",
+    "component",
+    "technique",
+    "supplier",
+    "product",
+    "blueprint",
+    "video",
+    "guide"
+  ],
+  "mosque_search_document": {
+    "fields": [
+      "id",
+      "canonical_name",
+      "aliases",
+      "local_names",
+      "geom",
+      "city",
+      "country",
+      "active_status",
+      "claimed",
+      "verification_quality",
+      "facilities",
+      "services",
+      "languages",
+      "jumuah",
+      "women_space",
+      "accessible",
+      "madrasa",
+      "janazah",
+      "ramadan"
+    ],
+    "filters": [
+      "distance",
+      "open_now_if_live",
+      "facility",
+      "service",
+      "language",
+      "women_space",
+      "accessible",
+      "parking",
+      "madrasa",
+      "janazah",
+      "iftar",
+      "taraweeh"
+    ],
+    "ranking": [
+      "exact canonical/alias match",
+      "text relevance",
+      "distance",
+      "verified/claimed quality",
+      "freshness",
+      "facility match",
+      "active status"
+    ],
+    "anti_signals": [
+      "permanently_closed",
+      "stale/unverified hours",
+      "duplicate candidate",
+      "low source quality"
+    ]
+  },
+  "implementation": [
+    "Postgres FTS + trigram initially",
+    "PostGIS geography for radius/distance",
+    "search-service adapter for future OpenSearch/Typesense"
+  ],
+  "guardrail": "Google ranking/reviews are not copied into mosque.build ranking unless provider terms explicitly allow the intended use."
+}

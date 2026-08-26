@@ -1,0 +1,58 @@
+flowchart LR
+  subgraph identity["Identity"]
+    AUTH_001["Authenticate user"]
+  end
+  subgraph directory["Directory"]
+    DIR_001["Ingest mosque candidate"]
+    DIR_002["Verify and publish mosque profile"]
+  end
+  subgraph design["Design"]
+    DES_001["Create/branch mosque design scenario"]
+    DES_002["Publish reusable mosque design"]
+    DES_003["Re-upload external architect revision"]
+  end
+  subgraph cost["Cost"]
+    COST_001["Generate versioned estimate"]
+  end
+  subgraph sourcing["Sourcing"]
+    SRC_001["Vendor publishes product/service"]
+    SRC_002["Vendor adds real mosque reference project"]
+  end
+  subgraph procurement["Procurement"]
+    PROC_001["RFQ and quote comparison"]
+  end
+  subgraph fundraising["Fundraising"]
+    FUND_001["Create campaign from approved project baseline"]
+    FUND_002["Aggregate fundraising across channels"]
+    FUND_003["Verify nonprofit/charity/fiscal sponsor status"]
+    FUND_004["Publish financial and construction transparency page"]
+  end
+  subgraph construction["Construction"]
+    BUILD_001["Record field progress"]
+    BUILD_002["Certify progress/payment"]
+  end
+  subgraph operations["Operations"]
+    OPS_001["Handover installed item into asset register"]
+  end
+  AUTH_001 --> DIR_002
+  AUTH_001 --> DES_001
+  AUTH_001 --> SRC_001
+  AUTH_001 --> FUND_001
+  DIR_002 --> DES_001
+  DIR_002 --> SRC_002
+  DES_001 --> DES_002
+  DES_001 --> COST_001
+  DES_003 --> DES_001
+  COST_001 --> FUND_001
+  COST_001 --> PROC_001
+  SRC_001 --> PROC_001
+  SRC_002 --> SRC_001
+  FUND_001 --> FUND_002
+  FUND_003 --> FUND_001
+  FUND_002 --> FUND_004
+  BUILD_001 --> BUILD_002
+  BUILD_001 --> FUND_004
+  BUILD_002 --> FUND_004
+  PROC_001 --> BUILD_001
+  BUILD_001 --> OPS_001
+  DES_002 --> FUND_001

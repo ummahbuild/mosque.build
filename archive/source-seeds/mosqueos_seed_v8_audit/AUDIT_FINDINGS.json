@@ -1,0 +1,227 @@
+[
+  {
+    "id": "AUD-001",
+    "severity": "critical",
+    "area": "canonical data model",
+    "title": "No single canonical authority layer across v0-v7",
+    "finding": "Components, materials, features, screens, sources, and backlog items are split across version folders. A code harness can reasonably import multiple competing definitions without knowing which record is authoritative.",
+    "fix": "Create stable canonical entity namespaces, a supersedes map, and a single root registry. New modules extend canonical IDs instead of creating parallel taxonomies.",
+    "status": "fixed_in_v8_design"
+  },
+  {
+    "id": "AUD-002",
+    "severity": "critical",
+    "area": "data completion",
+    "title": "Scale targets are mostly ingestion capacity, not completed factual datasets",
+    "finding": "The 5,000 mosque, 10,000 supplier/product, 1,600 drawing, 550 video and country-regulatory targets are structured queues/shells, not verified records.",
+    "fix": "Separate target_count, candidate_count, verified_count, reviewed_count and publishable_count. UI/docs must never call target slots 'ingested'.",
+    "status": "fixed_in_v8_metrics"
+  },
+  {
+    "id": "AUD-003",
+    "severity": "critical",
+    "area": "costs",
+    "title": "Material cost catalog is structurally rich but largely unpriced",
+    "finding": "Most 170 cost records explicitly have null local/import quotes. The platform cannot yet make production-grade regional cost claims.",
+    "fix": "Add cost-data coverage metrics, quote ingestion pipeline, regional price books, freshness SLAs, and fallback hierarchy. Only deterministic placeholders can be used before verified quotes.",
+    "status": "open_data_collection_blocker"
+  },
+  {
+    "id": "AUD-004",
+    "severity": "critical",
+    "area": "regulations",
+    "title": "Regulatory packs are global shells, not verified jurisdiction packs",
+    "finding": "249 geographic shells were created, but launch-grade planning/building/fire/accessibility/tax/waqf rules require official-source research by country and subnational jurisdiction.",
+    "fix": "Require launch-jurisdiction completeness score and qualified review. Default all other packs to research_required.",
+    "status": "open_research_blocker"
+  },
+  {
+    "id": "AUD-005",
+    "severity": "high",
+    "area": "schema",
+    "title": "No executable Supabase schema/migrations or RLS policies",
+    "finding": "A table inventory exists but not SQL migrations, indexes, foreign keys, triggers, storage policies, RPC functions, or RLS test fixtures.",
+    "fix": "Generate migration plan, canonical table contracts, RLS role matrix and SQL test requirements before implementation can be called production-ready.",
+    "status": "specified_in_v8"
+  },
+  {
+    "id": "AUD-006",
+    "severity": "high",
+    "area": "offline/mobile",
+    "title": "Offline behavior is mentioned but conflict resolution is underspecified",
+    "finding": "Field reports, scans, inspections, photos, tasks and edits can be created offline, but there is no canonical outbox, idempotency, conflict or attachment retry protocol.",
+    "fix": "Define local mutation envelope, client UUIDs, version numbers, last-write rules only for safe entities, conflict queue for high-value records, and deterministic attachment retry.",
+    "status": "fixed_in_v8_contract"
+  },
+  {
+    "id": "AUD-007",
+    "severity": "high",
+    "area": "3D/design",
+    "title": "Three.js vision lacks a canonical geometric kernel contract",
+    "finding": "Features exist for massing, floors, rooms, qibla and saff, but units, coordinate systems, snapping, topology, undo/redo, constraints, geometry versioning and validation rules are not defined.",
+    "fix": "Add geometric kernel requirements and deterministic pure-function architecture separate from rendering.",
+    "status": "fixed_in_v8_contract"
+  },
+  {
+    "id": "AUD-008",
+    "severity": "high",
+    "area": "religious accuracy",
+    "title": "Religious-review requirement exists but prayer/qibla methodology is incomplete",
+    "finding": "The product distinguishes religious claims from architecture, but it does not yet define qibla geodesic calculation, prayer-time methods, Asr method, high-latitude handling, or mosque-published iqama provenance.",
+    "fix": "Add a religious-calculation policy registry and treat calculated prayer times separately from congregation schedules.",
+    "status": "fixed_in_v8_contract"
+  },
+  {
+    "id": "AUD-009",
+    "severity": "high",
+    "area": "property/adaptive reuse",
+    "title": "Property discovery/listing ingestion lacks licensing and transaction workflow depth",
+    "finding": "Paste listing/search concepts exist, but there is no canonical real-estate provider policy, listing freshness model, broker/contact workflow, offer/LOI state machine, financing contingency, closing checklist or appraisal workflow.",
+    "fix": "Add property acquisition lifecycle and provider-rights abstraction.",
+    "status": "fixed_in_v8"
+  },
+  {
+    "id": "AUD-010",
+    "severity": "high",
+    "area": "construction",
+    "title": "Progress monitoring lacks a canonical schedule/cost baseline relationship",
+    "finding": "Progress, schedule of values, activities and payment claims are modeled, but baseline revision rules and linkage among WBS/activity/cost code/model object are not canonical.",
+    "fix": "Introduce Control Account / Work Package links and immutable baseline revisions.",
+    "status": "fixed_in_v8"
+  },
+  {
+    "id": "AUD-011",
+    "severity": "high",
+    "area": "operations",
+    "title": "No full operating calendar / recurring workload engine",
+    "finding": "Maintenance, Ramadan and programs exist, but no unified recurrence/calendar engine covers daily opening, salah preparation, cleaning, inspections, classes, payroll, permits, warranties, Ramadan and annual governance.",
+    "fix": "Add recurrence engine with iCal-compatible rules, owners, escalation and completion evidence.",
+    "status": "fixed_in_v8"
+  },
+  {
+    "id": "AUD-012",
+    "severity": "high",
+    "area": "governance/finance",
+    "title": "Accounting integration and fund accounting are not yet complete",
+    "finding": "Restricted funds and donations are modeled, but chart of accounts, journal mapping, bank reconciliation, fiscal year, accrual/cash accounting modes, vendor bills and financial statements are missing.",
+    "fix": "Add accounting ledger boundary and integrations; mosque.build need not replace accounting software but must map transactions correctly.",
+    "status": "fixed_in_v8_scope"
+  },
+  {
+    "id": "AUD-013",
+    "severity": "high",
+    "area": "privacy/security",
+    "title": "Security controls exist but no formal threat model, incident response or RPO/RTO",
+    "finding": "MFA/RLS/backups are referenced without explicit SLOs, recovery objectives, breach/incident workflow or threat inventory.",
+    "fix": "Add threat model, security incident plan, RPO/RTO targets by data class, key rotation and disaster-recovery test cadence.",
+    "status": "fixed_in_v8"
+  },
+  {
+    "id": "AUD-014",
+    "severity": "high",
+    "area": "content",
+    "title": "Exact UI copy is incomplete across the full route/state inventory",
+    "finding": "Screen contracts exist, but most states contain structural slots rather than production copy.",
+    "fix": "Create copy registry keyed by route/state/action/error with translation/review status.",
+    "status": "open_content_blocker"
+  },
+  {
+    "id": "AUD-015",
+    "severity": "medium",
+    "area": "i18n",
+    "title": "Localization and RTL are largely absent",
+    "finding": "A global mosque product requires language packs, locale-aware dates/numbers/currencies, Arabic RTL, local scripts, transliteration and units.",
+    "fix": "Add i18n/RTL architecture and translation review workflow.",
+    "status": "fixed_in_v8_contract"
+  },
+  {
+    "id": "AUD-016",
+    "severity": "medium",
+    "area": "search",
+    "title": "Search and ranking are not fully specified",
+    "finding": "Directory/search exists, but ranking signals, typo handling, aliases, multilingual search, geospatial radius, closed locations, duplicate handling and source trust are not canonical.",
+    "fix": "Add search index document schema and ranking policy.",
+    "status": "fixed_in_v8"
+  },
+  {
+    "id": "AUD-017",
+    "severity": "medium",
+    "area": "notifications",
+    "title": "No canonical notification preference and escalation system",
+    "finding": "Push/email/SMS are mentioned but not unified across permit deadlines, overdue RFIs, donations, maintenance, prayer/program announcements and Ramadan.",
+    "fix": "Add event-to-notification policy, user preferences, quiet hours, severity and dedupe.",
+    "status": "fixed_in_v8"
+  },
+  {
+    "id": "AUD-018",
+    "severity": "medium",
+    "area": "subscriptions/business model",
+    "title": "Commercial entitlement model is missing",
+    "finding": "Business models are listed but no plan/entitlement architecture exists for public users, projects, mosque operations, professionals or enterprise portfolios.",
+    "fix": "Add entitlement matrix independent of payment provider.",
+    "status": "fixed_in_v8"
+  },
+  {
+    "id": "AUD-019",
+    "severity": "medium",
+    "area": "SEO",
+    "title": "SEO route design is strong but content-quality gates need stronger canonicalization",
+    "finding": "Programmatic routes exist; thin-page guardrails exist, but no per-page minimum evidence/content score or duplicate-content fingerprint.",
+    "fix": "Add indexability scoring and canonical entity selection.",
+    "status": "fixed_in_v8"
+  },
+  {
+    "id": "AUD-020",
+    "severity": "medium",
+    "area": "accessibility",
+    "title": "Accessibility is a major product domain but app accessibility targets are generic",
+    "finding": "Building accessibility is detailed, while digital accessibility lacks explicit conformance target, focus order, screen reader labels, reduced motion, 3D alternatives and non-visual plan access.",
+    "fix": "Add WCAG-oriented digital acceptance criteria and accessible alternatives for visual tools.",
+    "status": "fixed_in_v8"
+  },
+  {
+    "id": "AUD-021",
+    "severity": "medium",
+    "area": "naming",
+    "title": "Canonical domain formatting is inconsistent",
+    "finding": "Some manifests use 'mosque.build'; others use 'https://mosque.build'.",
+    "fix": "Canonical origin = https://mosque.build; canonical brand/domain token = mosque.build.",
+    "status": "fixed_in_v8"
+  },
+  {
+    "id": "AUD-022",
+    "severity": "medium",
+    "area": "people data",
+    "title": "Life status and biographical seeds contain explicit 'verify' placeholders",
+    "finding": "The seed correctly marks uncertainty, but any public profile generator must exclude these fields until reviewed.",
+    "fix": "Add publishability gate for people authority records.",
+    "status": "fixed_in_v8"
+  },
+  {
+    "id": "AUD-023",
+    "severity": "medium",
+    "area": "source URLs",
+    "title": "Source freshness and availability are not continuously monitored",
+    "finding": "Source registries store URLs/verification dates but no automated broken-link/supersession monitor exists.",
+    "fix": "Add scheduled source-health checks, checksum/snapshot metadata where allowed, and superseded-source relationships.",
+    "status": "fixed_in_v8"
+  },
+  {
+    "id": "AUD-024",
+    "severity": "medium",
+    "area": "analytics",
+    "title": "Analytics events exist only at a coarse level",
+    "finding": "There is no canonical event naming/versioning/privacy schema across 3D edits, cost comparisons, property analysis, donations and operations.",
+    "fix": "Add analytics dictionary and prohibit raw sensitive values in analytics payloads.",
+    "status": "fixed_in_v8"
+  },
+  {
+    "id": "AUD-025",
+    "severity": "medium",
+    "area": "AI/suggestions",
+    "title": "Suggestion engine lacks explicit explainability and authority boundaries",
+    "finding": "Suggestions are powerful but need to distinguish deterministic calculations, heuristic recommendations and any future AI-generated narrative.",
+    "fix": "Each suggestion must declare engine_type, inputs, sources, confidence, impacts, and whether professional review is required.",
+    "status": "fixed_in_v8"
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "project": {
+    "id": "proj_demo_conversion_001",
+    "name": "Demo Warehouse-to-Mosque Conversion",
+    "project_type": "adaptive_reuse",
+    "base_currency": "KES",
+    "stage": "schematic_design"
+  },
+  "site": {
+    "building_type": "warehouse",
+    "area_m2": 850,
+    "scan_source": "demo_manual",
+    "status": "synthetic_demo"
+  },
+  "program": {
+    "daily_capacity": 250,
+    "jumuah_capacity": 450,
+    "spaces": [
+      "main prayer hall",
+      "women/family prayer",
+      "wudu",
+      "madrasa",
+      "community hall",
+      "office",
+      "storage"
+    ]
+  },
+  "scenario": {
+    "id": "scen_demo_balanced",
+    "name": "Balanced Conversion",
+    "features": [
+      "retain primary structure",
+      "add internal prayer zoning",
+      "new wudu",
+      "madrasa partitions",
+      "basic audio",
+      "carpet"
+    ]
+  },
+  "cart_demo": [
+    {
+      "generic_spec": "prayer_carpet_system",
+      "quantity": 520,
+      "unit": "m2"
+    },
+    {
+      "generic_spec": "wudu_station_basic",
+      "quantity": 12,
+      "unit": "each"
+    },
+    {
+      "generic_spec": "audio_zone",
+      "quantity": 3,
+      "unit": "zone"
+    },
+    {
+      "generic_spec": "quran_shelving",
+      "quantity": 18,
+      "unit": "linear_m"
+    }
+  ],
+  "note": "Synthetic demo project only; not factual cost/regulatory data."
+}

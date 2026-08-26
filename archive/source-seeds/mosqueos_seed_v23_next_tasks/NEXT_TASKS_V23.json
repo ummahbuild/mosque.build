@@ -1,0 +1,57 @@
+[
+  {
+    "rank": 1,
+    "task": "Wire 0003-0005 SQL into ordered Supabase migrations with real policies",
+    "status": "next"
+  },
+  {
+    "rank": 2,
+    "task": "Implement stable domain ID generation + project/scenario/version repositories",
+    "status": "next"
+  },
+  {
+    "rank": 3,
+    "task": "Expand core geometry functions into wall joins/openings/room solver",
+    "status": "next"
+  },
+  {
+    "rank": 4,
+    "task": "Build saff layout UI and test irregular rooms/columns/doors",
+    "status": "next"
+  },
+  {
+    "rank": 5,
+    "task": "Implement assembly takeoff runner using v19 assemblies + v23 rules",
+    "status": "next"
+  },
+  {
+    "rank": 6,
+    "task": "Build engineering assumption/issue register UI and APIs",
+    "status": "next"
+  },
+  {
+    "rank": 7,
+    "task": "Build local sourcing scorer over v13/v14 vendor/product records",
+    "status": "next"
+  },
+  {
+    "rank": 8,
+    "task": "Implement construction packages/submittals/ITP instances",
+    "status": "next"
+  },
+  {
+    "rank": 9,
+    "task": "Implement daily labor/productivity and lookahead constraints",
+    "status": "next"
+  },
+  {
+    "rank": 10,
+    "task": "Implement commissioning readiness matrix",
+    "status": "next"
+  },
+  {
+    "rank": 11,
+    "task": "Build end-to-end warehouse conversion demo against all above",
+    "status": "next"
+  }
+]

@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "CS001",
+    "name": "Cost Home",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS002",
+    "name": "Estimate Assumptions",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS003",
+    "name": "Estimate Confidence",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS004",
+    "name": "Currencies",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS005",
+    "name": "FX History",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS006",
+    "name": "Location Factors",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS007",
+    "name": "Construction Index",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS008",
+    "name": "Commodity Inputs",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS009",
+    "name": "Local Quotes",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS010",
+    "name": "Imported Products",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS011",
+    "name": "HS Classification",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS012",
+    "name": "Duties & Taxes",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS013",
+    "name": "Freight",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS014",
+    "name": "Landed Cost",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS015",
+    "name": "Material Price Book",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS016",
+    "name": "Labor Price Book",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS017",
+    "name": "Plant Price Book",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS018",
+    "name": "Assemblies",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS019",
+    "name": "BOQ",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS020",
+    "name": "Area Estimate",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS021",
+    "name": "Room Estimate",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS022",
+    "name": "Trade Estimate",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS023",
+    "name": "Professional Fees",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS024",
+    "name": "Permit Fees",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS025",
+    "name": "Utility Connections",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS026",
+    "name": "Contingency",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS027",
+    "name": "Escalation",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS028",
+    "name": "Cash Flow",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS029",
+    "name": "Lifecycle Cost",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS030",
+    "name": "Maintenance Reserve",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS031",
+    "name": "Operating Cost",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS032",
+    "name": "Ramadan Operating Cost",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS033",
+    "name": "Waqf Coverage",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS034",
+    "name": "Compare Local vs Import",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS035",
+    "name": "Compare Materials",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS036",
+    "name": "Scenario Manager",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS037",
+    "name": "Scenario Versions",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS038",
+    "name": "Scenario Branches",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS039",
+    "name": "Scenario Compare",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS040",
+    "name": "Rebase Costs",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS041",
+    "name": "Tender Baseline",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS042",
+    "name": "Estimate Audit Trail",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS043",
+    "name": "Price Freshness",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS044",
+    "name": "Data Sources",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS045",
+    "name": "Supplier Quotes",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS046",
+    "name": "Cost Alerts",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS047",
+    "name": "Budget Optimizer",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS048",
+    "name": "Value Engineering",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS049",
+    "name": "Funding Gap",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  },
+  {
+    "id": "CS050",
+    "name": "Opening Reserve",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "stale",
+      "unknown_source",
+      "permission_required"
+    ],
+    "required": [
+      "currency",
+      "date",
+      "source disclosure",
+      "confidence",
+      "assumptions",
+      "save/version behavior"
+    ]
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "fx": [
+    {
+      "id": "cbk_html_feed",
+      "source": "Central Bank of Kenya",
+      "access": "public web data",
+      "authentication": "none observed",
+      "adapter": "scheduled parser/manual fallback",
+      "scope": "KES pairs",
+      "priority": 1
+    },
+    {
+      "id": "ecb_sdmx",
+      "source": "ECB",
+      "access": "REST/SDMX API",
+      "authentication": "none for public data",
+      "adapter": "SDMX REST",
+      "scope": "ECB reference currencies",
+      "priority": 2
+    }
+  ],
+  "commodities": [
+    {
+      "id": "worldbank_pink_sheet",
+      "source": "World Bank",
+      "access": "monthly XLS/API references",
+      "authentication": "public",
+      "adapter": "scheduled ingest",
+      "scope": "metals/energy/raw materials",
+      "priority": 1
+    }
+  ],
+  "trade": [
+    {
+      "id": "un_comtrade",
+      "source": "UN Comtrade",
+      "access": "API/download",
+      "authentication": "free API key for higher limits",
+      "adapter": "REST",
+      "scope": "HS-code import/export values and quantities",
+      "priority": 1
+    }
+  ],
+  "local_construction_index": [
+    {
+      "id": "knbs_cipi",
+      "source": "KNBS",
+      "access": "published quarterly reports",
+      "authentication": "public",
+      "adapter": "scheduled ingest/manual review",
+      "scope": "Kenya construction input indices",
+      "priority": 1
+    }
+  ],
+  "customs": [
+    {
+      "id": "kra_eac_cet",
+      "source": "KRA/EAC CET",
+      "access": "official tariff/guidance",
+      "authentication": "public",
+      "adapter": "tariff table ingestion + human-reviewed HS mapping",
+      "scope": "Kenya/EAC",
+      "priority": 1
+    }
+  ],
+  "shipping": [
+    {
+      "id": "freight_quote_adapter",
+      "source": "carrier/freight-forwarder quotation",
+      "access": "project-specific",
+      "authentication": "provider-specific",
+      "adapter": "manual quote + future provider connectors",
+      "scope": "actual project freight",
+      "priority": 1,
+      "note": "No single open global freight API is treated as authoritative for project landed cost."
+    },
+    {
+      "id": "comtrade_unit_value_benchmark",
+      "source": "UN Comtrade",
+      "access": "API",
+      "adapter": "benchmark only",
+      "scope": "historical import unit values",
+      "priority": 2,
+      "note": "Not a substitute for freight or supplier quote."
+    }
+  ],
+  "supplier_prices": [
+    {
+      "id": "supplier_quote",
+      "source": "supplier/manufacturer",
+      "access": "quote/catalog",
+      "adapter": "manual/API/feed",
+      "scope": "product/project",
+      "priority": 1
+    },
+    {
+      "id": "market_price_snapshot",
+      "source": "authorized reseller/marketplace",
+      "access": "provider-specific",
+      "adapter": "URL snapshot",
+      "scope": "discovery only",
+      "priority": 2
+    }
+  ]
+}

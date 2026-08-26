@@ -1,0 +1,31 @@
+{
+  "priorities": [
+    "native/local suitability",
+    "nursery availability",
+    "climate fit",
+    "water demand",
+    "maintenance skill",
+    "replacement availability"
+  ],
+  "vendor_types": [
+    "nursery",
+    "arborist",
+    "landscape architect/designer",
+    "landscape contractor",
+    "irrigation contractor",
+    "soil/compost supplier",
+    "paver/stone supplier",
+    "trellis fabricator"
+  ],
+  "compare": [
+    "plant/source cost",
+    "delivery",
+    "establishment warranty",
+    "mature size",
+    "water use",
+    "maintenance",
+    "replacement stock",
+    "local provenance"
+  ],
+  "seasonality": "Plant procurement and installation must support seasonal availability and establishment windows."
+}

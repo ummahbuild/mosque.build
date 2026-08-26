@@ -1,0 +1,46 @@
+{
+  "launch_geography": "Kenya / Nairobi metro",
+  "why": "Existing project context and ability to complete one jurisdiction deeply before global claims.",
+  "completion_targets": [
+    {
+      "dataset": "mosque directory",
+      "target": "500+ Nairobi/metro candidates, 200+ verified enriched profiles before claiming strong local coverage"
+    },
+    {
+      "dataset": "regulatory",
+      "target": "Nairobi planning/building/fire/accessibility/change-of-use/food/school/noise/charity/waqf pack with official sources and review"
+    },
+    {
+      "dataset": "costs",
+      "target": "50+ core construction-material/rate observations + 20+ assemblies + labor/plant/professional-fee ranges from verified sources/quotes"
+    },
+    {
+      "dataset": "suppliers",
+      "target": "100+ verified Kenya suppliers/products across structure, carpet, wudu, AV, fire, security, doors/windows, tile/stone, solar, cleaning"
+    },
+    {
+      "dataset": "adaptive reuse",
+      "target": "10+ Kenya/Nairobi conversion case studies"
+    },
+    {
+      "dataset": "operations",
+      "target": "10+ public/consented mosque operating-budget/annual-report case studies"
+    },
+    {
+      "dataset": "architects/builders",
+      "target": "25+ Kenya/East Africa mosque architects/builders/craftspeople verified"
+    },
+    {
+      "dataset": "styles/materials",
+      "target": "East African/Swahili/Horn regional architecture enrichment reviewed"
+    }
+  ],
+  "no_launch_claims_until": [
+    "claim-a-mosque workflow abuse tested",
+    "hours/prayer-time provenance visible",
+    "directory duplicates controlled",
+    "official regulatory sources reviewed",
+    "cost estimates display uncertainty and source age",
+    "local map/search performance tested"
+  ]
+}

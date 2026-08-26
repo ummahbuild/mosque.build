@@ -1,0 +1,36 @@
+{
+  "common_data_environment_states": [
+    "work_in_progress",
+    "shared",
+    "published/authorized",
+    "archived"
+  ],
+  "model_requirements": [
+    "unique stable object ID",
+    "classification",
+    "space/system membership",
+    "type",
+    "manufacturer/model where installed",
+    "maintainable flag",
+    "asset tag where applicable",
+    "warranty fields",
+    "commissioning status",
+    "linked O&M documentation"
+  ],
+  "IDS_use_cases": [
+    "Require all maintainable mechanical equipment to have type/model/system/location fields",
+    "Require doors on designated escape routes to carry required fire/egress attributes in the information model where modeled",
+    "Require wudu fixtures to identify flow/fixture type and room association",
+    "Require installed assets at handover to include asset-register minimum fields"
+  ],
+  "BCF_use_cases": [
+    "design clash",
+    "qibla/layout issue",
+    "site coordination",
+    "RFI-linked model issue",
+    "quality defect",
+    "commissioning issue",
+    "handover data gap"
+  ],
+  "guardrail": "IFC/IDS/BCF support is interoperability infrastructure, not a claim that mosque.build replaces authoring BIM software."
+}

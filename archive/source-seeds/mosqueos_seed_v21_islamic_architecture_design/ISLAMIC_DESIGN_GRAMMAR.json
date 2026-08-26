@@ -1,0 +1,68 @@
+{
+  "ornament_hierarchy": [
+    {
+      "zone": "qibla/mihrab",
+      "priority": "high",
+      "allowed": [
+        "calligraphy zone",
+        "geometric/vegetal frame",
+        "material emphasis"
+      ],
+      "rule": "avoid overwhelming functional legibility"
+    },
+    {
+      "zone": "main prayer hall",
+      "priority": "medium_high",
+      "allowed": [
+        "ceiling pattern",
+        "frieze",
+        "screen",
+        "carpet geometry"
+      ],
+      "rule": "coordinate with saff/qibla clarity"
+    },
+    {
+      "zone": "courtyard/portal",
+      "priority": "medium_high",
+      "allowed": [
+        "tile",
+        "muqarnas",
+        "stone carving",
+        "calligraphy zone"
+      ]
+    },
+    {
+      "zone": "wudu",
+      "priority": "medium",
+      "allowed": [
+        "durable tile pattern",
+        "screen"
+      ],
+      "rule": "durability/cleanability dominates"
+    },
+    {
+      "zone": "madrasa/community",
+      "priority": "medium_low",
+      "allowed": [
+        "simplified pattern bands",
+        "local craft"
+      ]
+    },
+    {
+      "zone": "service/back-of-house",
+      "priority": "low",
+      "allowed": [
+        "minimal ornament"
+      ],
+      "rule": "maintenance and cost first"
+    }
+  ],
+  "mixing_rules": [
+    "Style packs are reference grammars, not authenticity guarantees.",
+    "Cross-regional combinations are allowed when explicitly intentional, but UI should identify the sources being mixed.",
+    "Historic reconstruction mode is stricter than contemporary inspiration mode.",
+    "Do not auto-generate sacred text as decorative filler.",
+    "Calligraphy uses placeholders until exact text, orthography, translation context and calligrapher/reviewer approval are supplied.",
+    "Ornament should not obscure exits, safety signage, accessibility cues or maintenance access."
+  ]
+}

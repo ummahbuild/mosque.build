@@ -1,0 +1,53 @@
+{
+  "location_levels": [
+    "country",
+    "state/province",
+    "county/region",
+    "metro/city",
+    "site"
+  ],
+  "factors": [
+    "construction input index",
+    "labor market",
+    "material availability",
+    "distance to port",
+    "distance to supplier",
+    "urban congestion",
+    "site access",
+    "security",
+    "weather season",
+    "altitude",
+    "island/remote logistics",
+    "currency risk",
+    "import dependence",
+    "project scale",
+    "quality tier",
+    "working hours",
+    "religious/community volunteer contribution if explicitly modeled"
+  ],
+  "quality_tiers": [
+    {
+      "id": "essential",
+      "description": "Durable functional mosque with minimal custom ornament."
+    },
+    {
+      "id": "standard",
+      "description": "Good commercial/institutional quality."
+    },
+    {
+      "id": "enhanced",
+      "description": "Higher finish quality and selective custom craft."
+    },
+    {
+      "id": "heritage_craft",
+      "description": "Specialist traditional craft/restoration; project-specific quoting required."
+    }
+  ],
+  "rules": [
+    "Never derive a city construction rate solely from GDP or CPI.",
+    "National indices adjust verified local quotes; they do not replace local quotes.",
+    "Imported specialist mosque products must expose landed-cost assumptions.",
+    "Volunteer/in-kind work appears as both market-value contribution and cash-cost reduction so total project value remains visible.",
+    "Show P10/P50/P90 or low/base/high where enough uncertainty data exists."
+  ]
+}

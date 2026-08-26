@@ -1,0 +1,54 @@
+{
+  "scene_node": [
+    "object_id",
+    "kind",
+    "transform",
+    "geometry_ref",
+    "material_ref",
+    "visibility",
+    "pickable",
+    "semantic_refs"
+  ],
+  "geometry_types": [
+    "mesh",
+    "polyline",
+    "polygon",
+    "extrusion",
+    "primitive_box",
+    "primitive_cylinder",
+    "instance_set",
+    "point_cloud_reference"
+  ],
+  "semantic_refs": [
+    "design_version",
+    "space",
+    "product",
+    "assembly",
+    "cost_line",
+    "WBS",
+    "inspection",
+    "asset"
+  ],
+  "adapter_methods": [
+    "init",
+    "loadScene",
+    "patchNodes",
+    "removeNodes",
+    "setCamera",
+    "hitTest",
+    "setOverlay",
+    "captureImage",
+    "dispose"
+  ],
+  "capability_flags": [
+    "PBR",
+    "WebGPU",
+    "native_GPU",
+    "instancing",
+    "shadows",
+    "section_planes",
+    "large_BIM",
+    "AR_candidate",
+    "offline_assets"
+  ]
+}

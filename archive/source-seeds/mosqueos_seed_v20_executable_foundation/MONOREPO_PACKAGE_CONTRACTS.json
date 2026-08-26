@@ -1,0 +1,111 @@
+{
+  "apps": {
+    "web": [
+      "public directory",
+      "project workspace",
+      "3D editor",
+      "fundraising",
+      "marketplace"
+    ],
+    "mobile": [
+      "field capture",
+      "offline workflows",
+      "mosque profiles",
+      "light project review"
+    ],
+    "admin": [
+      "claims",
+      "moderation",
+      "source review",
+      "regulatory review",
+      "rights"
+    ],
+    "vendor": [
+      "vendor storefront",
+      "products",
+      "3D uploads",
+      "RFQs",
+      "quotes",
+      "orders"
+    ]
+  },
+  "packages": {
+    "domain": [
+      "IDs",
+      "entities",
+      "events",
+      "validation",
+      "versioning"
+    ],
+    "db": [
+      "generated types",
+      "queries",
+      "transactions",
+      "mappers"
+    ],
+    "geometry-kernel": [
+      "walls",
+      "rooms",
+      "openings",
+      "transforms",
+      "constraints",
+      "diff"
+    ],
+    "qibla-prayer": [
+      "bearing",
+      "saff layout",
+      "capacity"
+    ],
+    "cost-engine": [
+      "takeoff",
+      "assemblies",
+      "regional factors",
+      "FX snapshots"
+    ],
+    "procurement": [
+      "cart",
+      "RFQ",
+      "quote compare",
+      "PO",
+      "shipments"
+    ],
+    "construction": [
+      "WBS",
+      "progress",
+      "ITP",
+      "RFI",
+      "submittal",
+      "change"
+    ],
+    "offline-sync": [
+      "outbox",
+      "conflicts",
+      "attachments"
+    ],
+    "search": [
+      "FTS",
+      "trigram",
+      "PostGIS radius",
+      "ranking"
+    ],
+    "permissions": [
+      "capabilities",
+      "policy helpers"
+    ],
+    "notifications": [
+      "event routing",
+      "preferences",
+      "dedupe"
+    ],
+    "analytics": [
+      "event schemas",
+      "privacy filtering"
+    ],
+    "content": [
+      "copy registry",
+      "reviews",
+      "sources",
+      "rights"
+    ]
+  }
+}

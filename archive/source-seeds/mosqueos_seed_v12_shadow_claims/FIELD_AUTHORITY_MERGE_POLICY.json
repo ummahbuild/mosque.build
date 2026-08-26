@@ -1,0 +1,52 @@
+{
+  "field_authority_examples": [
+    {
+      "field": "canonical_name",
+      "authority": "verified admin + editorial aliases",
+      "conflict": "keep aliases and review"
+    },
+    {
+      "field": "official_domain",
+      "authority": "verified admin/domain proof",
+      "conflict": "manual if replacing previously verified domain"
+    },
+    {
+      "field": "opening_hours",
+      "authority": "verified admin preferred; provider retained as secondary provenance",
+      "freshness": "admin confirmation can expire"
+    },
+    {
+      "field": "iqama_jumuah",
+      "authority": "verified mosque admin/official schedule only",
+      "freshness": "short-lived/current schedule"
+    },
+    {
+      "field": "address",
+      "authority": "verified admin + geospatial/provider corroboration"
+    },
+    {
+      "field": "architect",
+      "authority": "architecture/editorial evidence",
+      "conflict": "admin may suggest correction, not instant overwrite"
+    },
+    {
+      "field": "built_year",
+      "authority": "architecture/heritage sources",
+      "conflict": "admin suggestion enters review"
+    },
+    {
+      "field": "facilities",
+      "authority": "verified admin strongest, community/provider suggestions reviewable"
+    },
+    {
+      "field": "donation_url",
+      "authority": "verified admin only for prominent direct donation CTA"
+    },
+    {
+      "field": "tax_status",
+      "authority": "separate legal/entity verification workflow; mosque claim alone insufficient"
+    }
+  ],
+  "history": "Never destroy previous sourced values; store superseded field assertions.",
+  "conflict_ui": "Show 'information differs between sources' internally; public UI chooses canonical value and may disclose uncertainty where material."
+}

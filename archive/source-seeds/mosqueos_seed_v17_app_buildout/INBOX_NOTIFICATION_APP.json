@@ -1,0 +1,46 @@
+{
+  "inbox_types": [
+    "task",
+    "approval",
+    "RFI",
+    "submittal",
+    "inspection",
+    "delivery",
+    "budget",
+    "funding",
+    "claim",
+    "maintenance",
+    "campaign",
+    "source review"
+  ],
+  "actions": [
+    "open",
+    "approve/reject",
+    "assign",
+    "snooze",
+    "mark read",
+    "mute topic"
+  ],
+  "priority": [
+    "info",
+    "normal",
+    "high",
+    "critical"
+  ],
+  "preferences": [
+    "project",
+    "mosque",
+    "vendor",
+    "finance",
+    "construction",
+    "maintenance",
+    "campaigns",
+    "directory"
+  ],
+  "badges": [
+    "app",
+    "tab",
+    "project",
+    "object"
+  ]
+}

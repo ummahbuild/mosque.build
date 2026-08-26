@@ -1,0 +1,71 @@
+{
+  "artifact_types": [
+    "interactive 3D model",
+    "GLTF/GLB",
+    "IFC",
+    "DXF",
+    "SVG floor plan",
+    "PDF floor plan",
+    "PNG/JPEG render",
+    "360 panorama",
+    "walkthrough video",
+    "before/after conversion render",
+    "section/elevation sheet",
+    "presentation board",
+    "donor campaign image",
+    "social media image",
+    "construction-phasing animation",
+    "material board",
+    "BOQ CSV",
+    "cost report PDF"
+  ],
+  "render_presets": [
+    "day exterior",
+    "night exterior",
+    "golden hour",
+    "aerial/site",
+    "street approach",
+    "courtyard",
+    "main prayer hall",
+    "women/family prayer area",
+    "wudu",
+    "madrasa",
+    "community hall",
+    "Ramadan iftar setup",
+    "Eid overflow",
+    "construction phase",
+    "before conversion",
+    "after conversion",
+    "exploded systems",
+    "donor funded/unfunded"
+  ],
+  "version_rules": [
+    "every exported artifact references project/scenario/design_version",
+    "renders retain camera, lighting preset, material version and generation settings",
+    "cost-bearing presentation exports freeze cost snapshot and currency date",
+    "public campaign assets can only originate from an approved scenario/version",
+    "re-uploaded modified plans create a new source asset and reconciliation task rather than overwriting the model"
+  ],
+  "reupload_workflow": [
+    "upload PDF/DWG/DXF/IFC/image/scan",
+    "detect existing project/scenario",
+    "extract/parse where supported",
+    "manual registration/calibration",
+    "compare to current geometry",
+    "show additions/deletions/moves",
+    "map external layers/objects",
+    "accept selected changes",
+    "create new design version",
+    "recalculate quantities/costs",
+    "flag permit/procurement impacts"
+  ],
+  "share_modes": [
+    "private team",
+    "architect/consultant review",
+    "contractor bid package",
+    "board read-only",
+    "donor public",
+    "community feedback",
+    "permit submission package"
+  ]
+}

@@ -1,0 +1,309 @@
+[
+  {
+    "id": "preset_maghrebi_andalusi",
+    "name": "Maghrebi–Andalusi concept preset",
+    "style_id": "style_maghrebi_andalusi",
+    "default_patterns": [
+      "pat_zellige_star_cross",
+      "pat_arabesque_vine",
+      "pat_palmette_band"
+    ],
+    "mode": "contemporary_reference",
+    "status": "design_seed_not_historic_reconstruction"
+  },
+  {
+    "id": "preset_ottoman",
+    "name": "Ottoman concept preset",
+    "style_id": "style_ottoman",
+    "default_patterns": [
+      "pat_iznik_floral_panel",
+      "pat_calligraphy_frieze"
+    ],
+    "mode": "contemporary_reference",
+    "status": "design_seed_not_historic_reconstruction"
+  },
+  {
+    "id": "preset_persian",
+    "name": "Persian / Iranian concept preset",
+    "style_id": "style_persian",
+    "default_patterns": [
+      "pat_girih_basic",
+      "pat_muqarnas_nishapur_seed",
+      "pat_karbandi_star_vault"
+    ],
+    "mode": "contemporary_reference",
+    "status": "design_seed_not_historic_reconstruction"
+  },
+  {
+    "id": "preset_mamluk",
+    "name": "Mamluk Egyptian concept preset",
+    "style_id": "style_mamluk",
+    "default_patterns": [
+      "pat_mamluk_interlace",
+      "pat_muqarnas_nishapur_seed"
+    ],
+    "mode": "contemporary_reference",
+    "status": "design_seed_not_historic_reconstruction"
+  },
+  {
+    "id": "preset_sudano_sahelian",
+    "name": "Sudano-Sahelian concept preset",
+    "style_id": "style_sudano_sahelian",
+    "default_patterns": [
+      "pat_sudano_buttress_rhythm"
+    ],
+    "mode": "contemporary_reference",
+    "status": "design_seed_not_historic_reconstruction"
+  },
+  {
+    "id": "preset_swahili_coastal",
+    "name": "Swahili Coastal concept preset",
+    "style_id": "style_swahili_coastal",
+    "default_patterns": [
+      "pat_swahili_carved_door"
+    ],
+    "mode": "contemporary_reference",
+    "status": "design_seed_not_historic_reconstruction"
+  },
+  {
+    "id": "preset_south_asian",
+    "name": "South Asian Sultanate / Mughal spectrum concept preset",
+    "style_id": "style_south_asian",
+    "default_patterns": [
+      "pat_jali_hex",
+      "pat_jali_star8"
+    ],
+    "mode": "contemporary_reference",
+    "status": "design_seed_not_historic_reconstruction"
+  },
+  {
+    "id": "preset_malay_indonesian",
+    "name": "Malay–Indonesian concept preset",
+    "style_id": "style_malay_indonesian",
+    "default_patterns": [],
+    "mode": "contemporary_reference",
+    "status": "design_seed_not_historic_reconstruction"
+  },
+  {
+    "id": "preset_chinese_mosque",
+    "name": "Chinese mosque regional traditions concept preset",
+    "style_id": "style_chinese_mosque",
+    "default_patterns": [],
+    "mode": "contemporary_reference",
+    "status": "design_seed_not_historic_reconstruction"
+  },
+  {
+    "id": "preset_balkan",
+    "name": "Balkan mosque traditions concept preset",
+    "style_id": "style_balkan",
+    "default_patterns": [
+      "pat_calligraphy_frieze"
+    ],
+    "mode": "contemporary_reference",
+    "status": "design_seed_not_historic_reconstruction"
+  },
+  {
+    "id": "preset_contemporary_minimal",
+    "name": "Contemporary Minimal Mosque concept preset",
+    "style_id": "style_contemporary_minimal",
+    "default_patterns": [],
+    "mode": "contemporary_reference",
+    "status": "design_seed_not_historic_reconstruction"
+  },
+  {
+    "id": "preset_hypostyle",
+    "name": "Hypostyle courtyard mosque layout preset",
+    "typology_id": "typ_hypostyle",
+    "mode": "spatial_template",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_four_iwan",
+    "name": "Four-iwan courtyard mosque layout preset",
+    "typology_id": "typ_four_iwan",
+    "mode": "spatial_template",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_central_dome",
+    "name": "Central-dome mosque layout preset",
+    "typology_id": "typ_central_dome",
+    "mode": "spatial_template",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_multi_dome",
+    "name": "Multi-dome prayer hall layout preset",
+    "typology_id": "typ_multi_dome",
+    "mode": "spatial_template",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_flat_roof_vernacular",
+    "name": "Flat/low-roof vernacular mosque layout preset",
+    "typology_id": "typ_flat_roof_vernacular",
+    "mode": "spatial_template",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_compact_urban",
+    "name": "Compact urban mosque layout preset",
+    "typology_id": "typ_compact_urban",
+    "mode": "spatial_template",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_mosque_madrasa",
+    "name": "Mosque + madrasa courtyard complex layout preset",
+    "typology_id": "typ_mosque_madrasa",
+    "mode": "spatial_template",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_adaptive_reuse",
+    "name": "Adaptive reuse mosque layout preset",
+    "typology_id": "typ_adaptive_reuse",
+    "mode": "spatial_template",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_star8_square",
+    "name": "Eight-point star from square/45° grid application preset",
+    "pattern_id": "pat_star8_square",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_star10_rosette",
+    "name": "Ten-point star / decagonal rosette application preset",
+    "pattern_id": "pat_star10_rosette",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_star12",
+    "name": "Twelve-point star grid application preset",
+    "pattern_id": "pat_star12",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_square_octagon",
+    "name": "Square-and-octagon tessellation application preset",
+    "pattern_id": "pat_square_octagon",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_girih_basic",
+    "name": "Girih-style strapwork seed application preset",
+    "pattern_id": "pat_girih_basic",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_mamluk_interlace",
+    "name": "Mamluk-style dense interlace seed application preset",
+    "pattern_id": "pat_mamluk_interlace",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_arabesque_vine",
+    "name": "Continuous arabesque vine application preset",
+    "pattern_id": "pat_arabesque_vine",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_palmette_band",
+    "name": "Palmette frieze band application preset",
+    "pattern_id": "pat_palmette_band",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_muqarnas_nishapur_seed",
+    "name": "Nishapur-inspired muqarnas cell seed application preset",
+    "pattern_id": "pat_muqarnas_nishapur_seed",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_karbandi_star_vault",
+    "name": "Karbandi star-vault rib seed application preset",
+    "pattern_id": "pat_karbandi_star_vault",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_jali_hex",
+    "name": "Hexagonal jali lattice application preset",
+    "pattern_id": "pat_jali_hex",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_jali_star8",
+    "name": "Eight-point star jali application preset",
+    "pattern_id": "pat_jali_star8",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_brick_herringbone",
+    "name": "Decorative brick herringbone field application preset",
+    "pattern_id": "pat_brick_herringbone",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_brick_basket",
+    "name": "Brick basket-weave field application preset",
+    "pattern_id": "pat_brick_basket",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_zellige_star_cross",
+    "name": "Star-and-cross zellige seed application preset",
+    "pattern_id": "pat_zellige_star_cross",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_iznik_floral_panel",
+    "name": "Floral ceramic panel seed application preset",
+    "pattern_id": "pat_iznik_floral_panel",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_calligraphy_frieze",
+    "name": "Calligraphy frieze path application preset",
+    "pattern_id": "pat_calligraphy_frieze",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_mashrabiya_square",
+    "name": "Square-grid mashrabiya seed application preset",
+    "pattern_id": "pat_mashrabiya_square",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_sudano_buttress_rhythm",
+    "name": "Sudano-Sahelian buttress/façade rhythm seed application preset",
+    "pattern_id": "pat_sudano_buttress_rhythm",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  },
+  {
+    "id": "preset_pat_swahili_carved_door",
+    "name": "Swahili carved-door panel grammar seed application preset",
+    "pattern_id": "pat_swahili_carved_door",
+    "mode": "ornament_seed",
+    "status": "design_seed"
+  }
+]

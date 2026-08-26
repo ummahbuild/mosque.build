@@ -1,0 +1,125 @@
+[
+  {
+    "id": "M0",
+    "name": "Foundation",
+    "includes": [
+      "repo shell",
+      "auth",
+      "organizations",
+      "RLS",
+      "routing",
+      "design system",
+      "analytics",
+      "error monitoring"
+    ]
+  },
+  {
+    "id": "M1",
+    "name": "Directory",
+    "includes": [
+      "mosque public pages",
+      "map/search",
+      "shadow profiles",
+      "claims",
+      "admin profile editing"
+    ]
+  },
+  {
+    "id": "M2",
+    "name": "Project Workspace",
+    "includes": [
+      "projects",
+      "members",
+      "site",
+      "requirements",
+      "scenarios",
+      "versions",
+      "documents"
+    ]
+  },
+  {
+    "id": "M3",
+    "name": "3D Editor Alpha",
+    "includes": [
+      "geometry kernel",
+      "3D canvas",
+      "rooms",
+      "qibla",
+      "prayer rows",
+      "product placement",
+      "saved scenarios"
+    ]
+  },
+  {
+    "id": "M4",
+    "name": "Cost + Marketplace",
+    "includes": [
+      "takeoff",
+      "cost estimates",
+      "vendor/product directory",
+      "cart",
+      "compare",
+      "RFQs"
+    ]
+  },
+  {
+    "id": "M5",
+    "name": "Fundraising",
+    "includes": [
+      "campaigns",
+      "Stripe/direct flows",
+      "external channel aggregation",
+      "restricted funds",
+      "transparency"
+    ]
+  },
+  {
+    "id": "M6",
+    "name": "Construction Field",
+    "includes": [
+      "schedule",
+      "daily reports",
+      "photos",
+      "deliveries",
+      "RFIs",
+      "submittals",
+      "inspections",
+      "progress"
+    ]
+  },
+  {
+    "id": "M7",
+    "name": "Commissioning + Handover",
+    "includes": [
+      "commissioning",
+      "punch",
+      "as-builts",
+      "assets",
+      "warranties",
+      "training"
+    ]
+  },
+  {
+    "id": "M8",
+    "name": "Operations",
+    "includes": [
+      "maintenance",
+      "programs",
+      "Ramadan",
+      "staff/volunteers",
+      "utilities",
+      "asset lifecycle"
+    ]
+  },
+  {
+    "id": "M9",
+    "name": "Scale",
+    "includes": [
+      "vendor feeds",
+      "regulatory packs",
+      "more geographies",
+      "API/public integrations",
+      "enterprise portfolios"
+    ]
+  }
+]

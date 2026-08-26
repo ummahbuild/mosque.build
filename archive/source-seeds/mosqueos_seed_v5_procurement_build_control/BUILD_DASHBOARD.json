@@ -1,0 +1,52 @@
+{
+  "executive_cards": [
+    "overall verified progress",
+    "contract time elapsed",
+    "forecast completion",
+    "original budget",
+    "approved changes",
+    "committed cost",
+    "paid to date",
+    "forecast final cost",
+    "contingency remaining",
+    "cash needed next 90 days"
+  ],
+  "quality": [
+    "open inspections",
+    "failed inspections",
+    "open snag items",
+    "overdue submittals",
+    "overdue RFIs",
+    "work awaiting approval"
+  ],
+  "procurement": [
+    "long-lead items",
+    "approved products not ordered",
+    "late deliveries",
+    "materials on site",
+    "damaged/rejected deliveries"
+  ],
+  "safety": [
+    "days since incident",
+    "open safety actions",
+    "emergency equipment checks"
+  ],
+  "mosque_specific": [
+    "prayer hall progress",
+    "wudu progress",
+    "women/family facilities progress",
+    "madrasa progress",
+    "audio progress",
+    "carpet status",
+    "mihrab/minbar status",
+    "Ramadan/opening readiness"
+  ],
+  "visuals": [
+    "site plan heatmap",
+    "3D model colored by status",
+    "timeline",
+    "cash flow curve",
+    "progress photos comparison",
+    "floor-by-floor status"
+  ]
+}

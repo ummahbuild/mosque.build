@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "design",
+    "eyebrow": "PLAN + DESIGN",
+    "title": "Design around worship, community and reality.",
+    "summary": "Build a community brief, test sites and adaptive reuse, orient to qibla, plan prayer capacity, wudu, accessibility, interiors, parking, landscape and phased growth.",
+    "features": [
+      "Community brief + space program",
+      "Site + adaptive reuse scenarios",
+      "Qibla, saff and capacity engine",
+      "2D / 3D design workspace",
+      "Interior + materials + Quick Replace",
+      "Wudu + accessibility",
+      "Parking + garage planning",
+      "Landscape + climate response"
+    ],
+    "cta": "Open Design Studio"
+  },
+  {
+    "slug": "permits",
+    "eyebrow": "PERMITS + COMPLIANCE",
+    "title": "Make the approval path legible.",
+    "summary": "Select the project jurisdiction, organize likely approvals and authority sources, assign documents and comments, and preserve a clear record from feasibility to occupancy.",
+    "features": [
+      "Jurisdiction selector",
+      "Source-backed requirement records",
+      "Planning / zoning / change-of-use",
+      "Fire + life-safety review gates",
+      "Accessibility checks",
+      "Submission packages + comments",
+      "Inspection readiness",
+      "Occupancy / opening checklist"
+    ],
+    "cta": "Explore permit workflow"
+  },
+  {
+    "slug": "funding",
+    "eyebrow": "FUNDING + WAQF",
+    "title": "Connect every contribution to a real project need.",
+    "summary": "Turn an abstract fundraising target into transparent components, restricted purposes, cash-flow needs, project progress and long-term operating sustainability.",
+    "features": [
+      "Project budget + confidence",
+      "Component sponsorships",
+      "Restricted-fund tracking",
+      "Campaign transparency",
+      "Donor updates + receipts boundary",
+      "Waqf / reserve planning",
+      "Cash-flow visibility",
+      "Public project page"
+    ],
+    "cta": "Explore funding"
+  },
+  {
+    "slug": "marketplace",
+    "eyebrow": "SOURCE + PROCURE",
+    "title": "Find what the mosque needs, compare it, then bind it to the project.",
+    "summary": "Discover products, local suppliers, specialist vendors and professionals; compare technical fit, source evidence, landed cost, lead time, samples, RFQs and alternatives.",
+    "features": [
+      "Product + vendor discovery",
+      "Local sourcing ladder",
+      "Technical comparison",
+      "Quick Replace",
+      "Samples + submittals",
+      "RFQ + quote comparison",
+      "Landed-cost snapshots",
+      "Project cart / procurement plan"
+    ],
+    "cta": "Explore marketplace"
+  },
+  {
+    "slug": "construction",
+    "eyebrow": "BUILD + VERIFY",
+    "title": "Keep the site connected to the decisions that created it.",
+    "summary": "Coordinate schedule, packages, RFIs, submittals, evidence, inspections, change orders, progress and handover without losing the institutional history in chats and inboxes.",
+    "features": [
+      "Construction schedule",
+      "Daily/site reports",
+      "RFIs + submittals",
+      "Inspection / ITP hold points",
+      "Progress evidence",
+      "Change orders",
+      "Payment-progress separation",
+      "Commissioning + handover"
+    ],
+    "cta": "Explore construction"
+  },
+  {
+    "slug": "operations",
+    "eyebrow": "OPEN + OPERATE",
+    "title": "Opening day is the beginning of the building lifecycle.",
+    "summary": "Turn handover into an asset register, preventive maintenance, work orders, warranties, recurring operations and post-occupancy learning.",
+    "features": [
+      "Asset register",
+      "Warranty + manuals",
+      "Preventive maintenance",
+      "Work orders",
+      "Utilities + operating costs",
+      "Ramadan / event modes",
+      "Reserves + lifecycle planning",
+      "Post-occupancy review"
+    ],
+    "cta": "Explore operations"
+  }
+]

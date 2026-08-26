@@ -1,0 +1,54 @@
+{
+  "cost_buckets": [
+    "survey/scan",
+    "design/professional",
+    "permits",
+    "demolition",
+    "repairs",
+    "structure",
+    "fire/life safety",
+    "accessibility",
+    "electrical",
+    "lighting",
+    "HVAC/ventilation",
+    "plumbing",
+    "wudu/drainage",
+    "toilets",
+    "acoustics",
+    "floor prep",
+    "carpet",
+    "paint/finish",
+    "mihrab/minbar",
+    "Quran/shoe storage",
+    "audio/AV",
+    "security",
+    "furniture",
+    "cleaning",
+    "contingency",
+    "opening reserve"
+  ],
+  "estimate_logic": [
+    "derive quantities from existing + proposed geometry",
+    "reuse existing serviceable components where approved",
+    "separate repair cost from mosque-fitout cost",
+    "price local and imported options separately",
+    "link every line to source/assumption/confidence",
+    "calculate low/base/high by design maturity",
+    "track owner/in-kind labor separately from market value"
+  ],
+  "delta_modes": [
+    "existing condition -> minimal conversion",
+    "existing condition -> balanced conversion",
+    "existing condition -> full conversion",
+    "scenario A -> scenario B"
+  ],
+  "outputs": [
+    "total conversion cost",
+    "cost per prayer place",
+    "cost per m2",
+    "annual operating impact",
+    "maintenance reserve impact",
+    "funding gap",
+    "cash need by phase"
+  ]
+}

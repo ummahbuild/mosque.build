@@ -1,0 +1,3 @@
+import {ScrollView,Text,View,StyleSheet} from "react-native";
+const rows=["Assess need","Site & feasibility","Design","Permits","Funding","Procurement","Construction","Commissioning","Operations"];
+export default function Project(){return <ScrollView contentContainerStyle={s.root}><Text style={s.h}>My Mosque</Text>{rows.map((r,i)=><View style={s.card} key={r}><Text style={s.n}>{i+1}</Text><Text>{r}</Text></View>)}</ScrollView>}const s=StyleSheet.create({root:{padding:20,backgroundColor:"#f7f3ea"},h:{fontSize:28,fontWeight:"700",marginBottom:16},card:{backgroundColor:"white",padding:18,borderRadius:14,marginBottom:10,flexDirection:"row",gap:12},n:{fontWeight:"700",color:"#0b5b4a"}});

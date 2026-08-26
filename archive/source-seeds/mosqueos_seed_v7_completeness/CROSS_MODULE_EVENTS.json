@@ -1,0 +1,578 @@
+[
+  {
+    "event": "project.created",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "site.selected",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "property.scan.completed",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "qibla.verified",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "program.baseline.approved",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "design.version.created",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "design.baseline.approved",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "cost.estimate.created",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "cost.baseline.approved",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "permit.requirement.added",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "permit.approved",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "supplier.shortlisted",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "submittal.approved",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "purchase_order.issued",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "delivery.received",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "inspection.failed",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "inspection.passed",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "rfi.opened",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "rfi.closed",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "change.approved",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "payment.certified",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "progress.updated",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "system.ready_for_commissioning",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "commissioning.test.passed",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "commissioning.test.failed",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "handover.asset.created",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "occupancy.approval.recorded",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "mosque.opened",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "maintenance.task.generated",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "warranty.expiring",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "asset.failed",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  },
+  {
+    "event": "post_occupancy.feedback.received",
+    "required_envelope": [
+      "event_id",
+      "occurred_at",
+      "actor_id_or_system",
+      "organization_id",
+      "project_or_mosque_id",
+      "schema_version",
+      "payload"
+    ],
+    "rules": [
+      "idempotent consumers",
+      "audit retained",
+      "PII minimized",
+      "downstream failures retried safely"
+    ]
+  }
+]

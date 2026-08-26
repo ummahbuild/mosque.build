@@ -1,0 +1,241 @@
+{
+  "processes": [
+    {
+      "id": "CP-01",
+      "name": "Design-to-construction release",
+      "steps": [
+        "design milestone approval",
+        "discipline coordination",
+        "current drawing/spec set",
+        "cost/schedule baseline",
+        "release package",
+        "transmittal"
+      ],
+      "outputs": [
+        "authorized construction information"
+      ]
+    },
+    {
+      "id": "CP-02",
+      "name": "Tender/bid package",
+      "steps": [
+        "scope/package",
+        "drawings/specs",
+        "BOQ/schedule",
+        "commercial terms",
+        "site information",
+        "questions/addenda",
+        "bid receipt",
+        "technical/commercial evaluation"
+      ],
+      "outputs": [
+        "award recommendation"
+      ]
+    },
+    {
+      "id": "CP-03",
+      "name": "Vendor prequalification",
+      "steps": [
+        "identity",
+        "capacity",
+        "similar references",
+        "technical capability",
+        "financial/commercial review as applicable",
+        "safety/quality capability",
+        "approval/conditions"
+      ],
+      "outputs": [
+        "approved bidder/vendor status"
+      ]
+    },
+    {
+      "id": "CP-04",
+      "name": "Submittal",
+      "steps": [
+        "contractor/vendor submits",
+        "document/product match",
+        "technical review",
+        "comments",
+        "revise",
+        "approve/approve with comments/reject"
+      ],
+      "outputs": [
+        "approved project-specific submittal"
+      ]
+    },
+    {
+      "id": "CP-05",
+      "name": "Sample/mockup",
+      "steps": [
+        "define acceptance criteria",
+        "source sample",
+        "review aesthetics/technical",
+        "site mockup if needed",
+        "record approval",
+        "bind approval to product/finish"
+      ],
+      "outputs": [
+        "sample approval"
+      ]
+    },
+    {
+      "id": "CP-06",
+      "name": "Method statement",
+      "steps": [
+        "scope",
+        "resources",
+        "sequence",
+        "temporary works",
+        "quality controls",
+        "safety controls",
+        "hold points",
+        "review"
+      ],
+      "outputs": [
+        "accepted method plan"
+      ]
+    },
+    {
+      "id": "CP-07",
+      "name": "Pre-installation meeting",
+      "steps": [
+        "scope interfaces",
+        "latest information",
+        "materials/submittals",
+        "site readiness",
+        "quality hold points",
+        "logistics",
+        "safety",
+        "schedule"
+      ],
+      "outputs": [
+        "release to start or actions"
+      ]
+    },
+    {
+      "id": "CP-08",
+      "name": "Material receiving",
+      "steps": [
+        "PO/delivery match",
+        "quantity",
+        "condition",
+        "documents",
+        "storage requirements",
+        "inspection",
+        "accept/quarantine/reject"
+      ],
+      "outputs": [
+        "receiving record"
+      ]
+    },
+    {
+      "id": "CP-09",
+      "name": "Installation + inspection",
+      "steps": [
+        "work starts",
+        "progress evidence",
+        "ITP checks",
+        "hold/witness",
+        "defects/NCR",
+        "rework",
+        "accept"
+      ],
+      "outputs": [
+        "accepted installed work"
+      ]
+    },
+    {
+      "id": "CP-10",
+      "name": "Change control",
+      "steps": [
+        "potential change",
+        "scope",
+        "technical review",
+        "cost/time quote",
+        "funding check",
+        "approval",
+        "design/contract/schedule update",
+        "implementation"
+      ],
+      "outputs": [
+        "approved/rejected change"
+      ]
+    },
+    {
+      "id": "CP-11",
+      "name": "Payment certification",
+      "steps": [
+        "contractor claim",
+        "quantity/progress evidence",
+        "approved changes",
+        "stored material rules",
+        "review",
+        "certification",
+        "payment workflow"
+      ],
+      "outputs": [
+        "certified amount"
+      ]
+    },
+    {
+      "id": "CP-12",
+      "name": "Commissioning",
+      "steps": [
+        "commissioning plan",
+        "pre-functional",
+        "functional tests",
+        "integrated scenarios",
+        "issues",
+        "retest",
+        "training"
+      ],
+      "outputs": [
+        "commissioned system"
+      ]
+    },
+    {
+      "id": "CP-13",
+      "name": "Handover",
+      "steps": [
+        "punch closeout",
+        "as-builts",
+        "O&M",
+        "asset data",
+        "warranty",
+        "spares",
+        "training",
+        "keys/access",
+        "acceptance"
+      ],
+      "outputs": [
+        "facility handover"
+      ]
+    },
+    {
+      "id": "CP-14",
+      "name": "Defects/warranty",
+      "steps": [
+        "defect raised",
+        "warranty check",
+        "assign vendor/contractor",
+        "repair",
+        "verify",
+        "close"
+      ],
+      "outputs": [
+        "closed warranty case"
+      ]
+    }
+  ],
+  "cross_links": [
+    "object IDs",
+    "WBS/activity",
+    "cost codes",
+    "supplier/product",
+    "RFI/submittal",
+    "inspection",
+    "documents",
+    "funding source",
+    "asset"
+  ]
+}

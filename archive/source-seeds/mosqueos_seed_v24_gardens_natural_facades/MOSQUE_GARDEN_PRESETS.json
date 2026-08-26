@@ -1,0 +1,157 @@
+[
+  {
+    "id": "garden_sahn_shade",
+    "name": "Shaded Sahn Garden",
+    "components": [
+      "shade trees",
+      "permeable paving",
+      "seating",
+      "optional water feature",
+      "arcade planting"
+    ],
+    "priorities": [
+      "shade",
+      "circulation",
+      "low maintenance"
+    ]
+  },
+  {
+    "id": "garden_east_africa_courtyard",
+    "name": "East Africa Climate-Responsive Courtyard",
+    "components": [
+      "local-climate tree palette",
+      "shaded veranda/pergola",
+      "rain capture",
+      "durable paving"
+    ],
+    "priorities": [
+      "shade",
+      "rain handling",
+      "local sourcing"
+    ],
+    "note": "species chosen from verified local palette"
+  },
+  {
+    "id": "garden_arid_low_water",
+    "name": "Low-Water Mosque Garden",
+    "components": [
+      "low-water plants",
+      "deep mulch/gravel zones",
+      "drip irrigation",
+      "rainwater storage"
+    ],
+    "priorities": [
+      "water efficiency",
+      "shade",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "garden_tropical_rain",
+    "name": "Tropical Rain-Responsive Mosque Garden",
+    "components": [
+      "high-rainfall drainage",
+      "rain gardens",
+      "tree canopy",
+      "covered paths"
+    ],
+    "priorities": [
+      "stormwater",
+      "shade",
+      "humidity-safe facade planting"
+    ]
+  },
+  {
+    "id": "garden_madrasa_edible",
+    "name": "Madrasa Learning Garden",
+    "components": [
+      "edible beds",
+      "herbs",
+      "compost learning zone",
+      "shade",
+      "handwash"
+    ],
+    "priorities": [
+      "education",
+      "food-safe water",
+      "child safety"
+    ]
+  },
+  {
+    "id": "garden_ramadan_iftar",
+    "name": "Ramadan Iftar Garden",
+    "components": [
+      "washable dining surface",
+      "shade/lighting",
+      "waste stations",
+      "water points",
+      "temporary seating"
+    ],
+    "priorities": [
+      "turnover",
+      "cleaning",
+      "night use"
+    ]
+  },
+  {
+    "id": "garden_reflection",
+    "name": "Quiet Reflection Garden",
+    "components": [
+      "shade",
+      "seating",
+      "fragrant/local planting option",
+      "water optional"
+    ],
+    "priorities": [
+      "quiet",
+      "accessible route",
+      "low distraction"
+    ]
+  },
+  {
+    "id": "garden_green_facade",
+    "name": "Trellised Natural Facade",
+    "components": [
+      "independent trellis",
+      "climber plants",
+      "maintenance path",
+      "drip irrigation"
+    ],
+    "priorities": [
+      "shade",
+      "facade separation",
+      "maintainability"
+    ]
+  },
+  {
+    "id": "garden_stormwater",
+    "name": "Stormwater Mosque Landscape",
+    "components": [
+      "rain garden",
+      "bioswale",
+      "permeable paving",
+      "cistern",
+      "tree pits"
+    ],
+    "priorities": [
+      "runoff management",
+      "maintenance access"
+    ]
+  },
+  {
+    "id": "garden_urban_compact",
+    "name": "Compact Urban Green Mosque",
+    "components": [
+      "planters",
+      "roof garden candidate",
+      "green screen",
+      "small trees",
+      "vertical greening"
+    ],
+    "priorities": [
+      "space efficiency",
+      "maintenance",
+      "structure review"
+    ]
+  }
+]

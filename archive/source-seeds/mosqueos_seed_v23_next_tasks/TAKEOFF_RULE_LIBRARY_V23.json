@@ -1,0 +1,135 @@
+[
+  {
+    "key": "wall_finish",
+    "object_kind": "wall",
+    "formula": "net_wall_area",
+    "unit": "m2",
+    "inputs": [
+      "length",
+      "height",
+      "opening_area"
+    ],
+    "waste_default_pct": 5
+  },
+  {
+    "key": "floor_finish",
+    "object_kind": "space",
+    "formula": "floor_area",
+    "unit": "m2",
+    "inputs": [
+      "room_polygon_area"
+    ],
+    "waste_default_pct": 5
+  },
+  {
+    "key": "ceiling_finish",
+    "object_kind": "space",
+    "formula": "ceiling_area",
+    "unit": "m2",
+    "inputs": [
+      "room_polygon_area"
+    ],
+    "waste_default_pct": 5
+  },
+  {
+    "key": "carpet",
+    "object_kind": "space",
+    "formula": "floor_area",
+    "unit": "m2",
+    "inputs": [
+      "prayer_floor_area"
+    ],
+    "waste_default_pct": 7
+  },
+  {
+    "key": "roof_membrane",
+    "object_kind": "roof",
+    "formula": "roof_surface_area",
+    "unit": "m2",
+    "inputs": [
+      "roof_area"
+    ],
+    "waste_default_pct": 8
+  },
+  {
+    "key": "paint_wall",
+    "object_kind": "wall",
+    "formula": "net_wall_area",
+    "unit": "m2",
+    "inputs": [
+      "length",
+      "height",
+      "opening_area"
+    ],
+    "waste_default_pct": 3
+  },
+  {
+    "key": "doors",
+    "object_kind": "door",
+    "formula": "count",
+    "unit": "each",
+    "inputs": [],
+    "waste_default_pct": 0
+  },
+  {
+    "key": "windows",
+    "object_kind": "window",
+    "formula": "count",
+    "unit": "each",
+    "inputs": [],
+    "waste_default_pct": 0
+  },
+  {
+    "key": "wudu_positions",
+    "object_kind": "wudu_station",
+    "formula": "count",
+    "unit": "each",
+    "inputs": [],
+    "waste_default_pct": 0
+  },
+  {
+    "key": "lights",
+    "object_kind": "light",
+    "formula": "count",
+    "unit": "each",
+    "inputs": [],
+    "waste_default_pct": 0
+  },
+  {
+    "key": "speakers",
+    "object_kind": "speaker",
+    "formula": "count",
+    "unit": "each",
+    "inputs": [],
+    "waste_default_pct": 0
+  },
+  {
+    "key": "solar_panels",
+    "object_kind": "solar_panel",
+    "formula": "count",
+    "unit": "each",
+    "inputs": [],
+    "waste_default_pct": 2
+  },
+  {
+    "key": "demolition_wall",
+    "object_kind": "wall",
+    "formula": "gross_wall_area",
+    "unit": "m2",
+    "inputs": [
+      "length",
+      "height"
+    ],
+    "waste_default_pct": 0
+  },
+  {
+    "key": "quran_shelving",
+    "object_kind": "Quran_shelf",
+    "formula": "linear_length",
+    "unit": "linear_m",
+    "inputs": [
+      "width"
+    ],
+    "waste_default_pct": 0
+  }
+]

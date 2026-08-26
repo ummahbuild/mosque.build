@@ -1,0 +1,67 @@
+{
+  "vendor_profile_sections": [
+    "overview",
+    "verification",
+    "categories",
+    "products",
+    "services",
+    "delivery regions",
+    "languages",
+    "lead times",
+    "samples",
+    "technical documents",
+    "BIM/CAD",
+    "certifications",
+    "real mosque references",
+    "reviews/evidence",
+    "RFQ",
+    "contact",
+    "claim profile"
+  ],
+  "product_profile_sections": [
+    "gallery",
+    "technical data",
+    "variants",
+    "compatible design objects",
+    "supplier offers",
+    "price history",
+    "shipping/delivery",
+    "landed cost calculator",
+    "reference projects",
+    "downloads",
+    "samples",
+    "add to mockup",
+    "add to project cart",
+    "compare"
+  ],
+  "search_filters": [
+    "category",
+    "country",
+    "ships to project",
+    "local supplier",
+    "price observed",
+    "lead time",
+    "sample",
+    "BIM/CAD",
+    "verified vendor",
+    "verified mosque reference",
+    "installer",
+    "warranty",
+    "manufacturer vs reseller",
+    "project stage"
+  ],
+  "ranking": [
+    "technical/category match",
+    "delivery fit",
+    "verified identity",
+    "verified references",
+    "freshness",
+    "lead time",
+    "project compatibility"
+  ],
+  "anti_ranking": [
+    "sponsored status alone",
+    "unverified marketing claims",
+    "stale unavailable product"
+  ]
+}

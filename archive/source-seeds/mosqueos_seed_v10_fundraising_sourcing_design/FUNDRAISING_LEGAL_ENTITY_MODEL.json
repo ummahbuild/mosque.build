@@ -1,0 +1,58 @@
+{
+  "US_entity_modes": [
+    {
+      "id": "existing_mosque_church_501c3",
+      "name": "Existing mosque/religious congregation qualifying under 501(c)(3)",
+      "tax_display_rule": "Only display tax-deductible after organization verifies qualifying status/documentation and admin attestation.",
+      "notes": "Churches, synagogues, temples and mosques that meet 501(c)(3) requirements may be automatically tax exempt without Form 1023 recognition."
+    },
+    {
+      "id": "recognized_501c3",
+      "name": "IRS-recognized 501(c)(3) organization",
+      "verification": [
+        "EIN",
+        "legal name",
+        "IRS determination/status evidence or authoritative lookup",
+        "authorized representative"
+      ],
+      "tax_display_rule": "Tax-deductibility indicator can be enabled after verification."
+    },
+    {
+      "id": "fiscal_sponsor",
+      "name": "Fiscal sponsorship / qualified nonprofit intermediary",
+      "verification": [
+        "sponsor legal entity",
+        "written sponsorship agreement",
+        "campaign/fund restriction",
+        "donation recipient",
+        "receipt issuer"
+      ],
+      "tax_display_rule": "Receipts/tax claims belong to verified sponsor structure, not unverified project committee."
+    },
+    {
+      "id": "non_exempt_project",
+      "name": "Unincorporated/new project or nonqualified recipient",
+      "tax_display_rule": "Do not display tax-deductible. Allow pledges/non-tax representations only through legally supported payment flow."
+    }
+  ],
+  "global_fields": [
+    "legal entity",
+    "registration number",
+    "tax status",
+    "charity status",
+    "bank account name",
+    "beneficial/authorized contacts",
+    "receipt issuer",
+    "fundraising permits/registrations where applicable",
+    "restricted-fund terms",
+    "country",
+    "jurisdiction",
+    "review date"
+  ],
+  "rules": [
+    "Never infer tax deductibility from organization name containing mosque/masjid.",
+    "Never claim zakat eligibility solely because campaign is mosque-related.",
+    "Tax, charity-registration and fundraising rules are jurisdiction-specific.",
+    "Separate religious labels such as zakat/sadaqah/waqf from legal/tax status."
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "RLS-001",
+    "test": "anonymous cannot read project_sites"
+  },
+  {
+    "id": "RLS-002",
+    "test": "org A user cannot read org B design_objects"
+  },
+  {
+    "id": "RLS-003",
+    "test": "project viewer can read but not mutate design_objects"
+  },
+  {
+    "id": "RLS-004",
+    "test": "project editor can create design version/object rows within own project"
+  },
+  {
+    "id": "RLS-005",
+    "test": "vendor cannot read competing vendor quotes unless explicitly shared"
+  },
+  {
+    "id": "RLS-006",
+    "test": "vendor can submit quote only to RFQ they were invited to"
+  },
+  {
+    "id": "RLS-007",
+    "test": "ordinary project user cannot mutate certified inspection result"
+  },
+  {
+    "id": "RLS-008",
+    "test": "domain_events cannot be client-mutated except through approved RPC/server path"
+  },
+  {
+    "id": "RLS-009",
+    "test": "archived project membership loses write access"
+  },
+  {
+    "id": "RLS-010",
+    "test": "finance-only data remains unavailable to construction-only role"
+  }
+]

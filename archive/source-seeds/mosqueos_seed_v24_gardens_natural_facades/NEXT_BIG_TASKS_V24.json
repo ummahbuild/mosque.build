@@ -1,0 +1,62 @@
+[
+  {
+    "rank": 1,
+    "task": "Implement room/wall/opening solver and irregular saff engine in shared geometry package",
+    "status": "next"
+  },
+  {
+    "rank": 2,
+    "task": "Implement v19 assembly takeoff runner and cost rollup",
+    "status": "next"
+  },
+  {
+    "rank": 3,
+    "task": "Implement real Supabase RLS policies/tests for migrations 0003-0006",
+    "status": "next"
+  },
+  {
+    "rank": 4,
+    "task": "Build local sourcing index joining vendor/product/locality/delivery/reference data",
+    "status": "next"
+  },
+  {
+    "rank": 5,
+    "task": "Seed verified Kenya/East Africa landscape nurseries, plants/materials and construction vendors",
+    "status": "next"
+  },
+  {
+    "rank": 6,
+    "task": "Build landscape editor with trees/planting zones/irrigation/stormwater layers",
+    "status": "next"
+  },
+  {
+    "rank": 7,
+    "task": "Implement shadow simulation using tree mature canopy and built shading",
+    "status": "next"
+  },
+  {
+    "rank": 8,
+    "task": "Implement rainwater/irrigation water-balance scenarios",
+    "status": "next"
+  },
+  {
+    "rank": 9,
+    "task": "Implement green facade compatibility and maintenance checks",
+    "status": "next"
+  },
+  {
+    "rank": 10,
+    "task": "Implement construction packages/ITP for landscape and facade systems",
+    "status": "next"
+  },
+  {
+    "rank": 11,
+    "task": "Add landscape assets to maintenance/work-order system",
+    "status": "next"
+  },
+  {
+    "rank": 12,
+    "task": "Build end-to-end warehouse-to-mosque demo including courtyard/garden and local sourcing",
+    "status": "next"
+  }
+]

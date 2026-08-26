@@ -1,0 +1,56 @@
+{
+  "capture_modes": [
+    "manual room draw",
+    "phone camera walkthrough",
+    "LiDAR/room scan where supported",
+    "photo set",
+    "360 capture",
+    "uploaded floor plan PDF",
+    "image floor plan",
+    "DXF/DWG reference",
+    "IFC import",
+    "surveyed dimensions"
+  ],
+  "scan_pipeline": [
+    "create scan session",
+    "capture rooms/openings/columns/stairs/fixtures",
+    "infer provisional geometry",
+    "ask user to confirm critical dimensions",
+    "calibrate scale",
+    "assign floor/level",
+    "detect/mark existing services",
+    "flag uncertain geometry",
+    "create existing-building model",
+    "save scan version"
+  ],
+  "captured_elements": [
+    "walls",
+    "doors",
+    "windows",
+    "columns",
+    "beams",
+    "ceiling height",
+    "stairs",
+    "ramps",
+    "toilets",
+    "sinks",
+    "floor drains",
+    "electrical panels",
+    "lights",
+    "HVAC grilles/units",
+    "water points",
+    "waste points",
+    "structural cracks",
+    "damp/leaks",
+    "roof/ceiling conditions",
+    "fixed furniture",
+    "parking/site access"
+  ],
+  "uncertainty_rules": [
+    "camera/LiDAR geometry is provisional until critical dimensions are confirmed",
+    "do not infer structural capacity from visual scan",
+    "do not infer absence of asbestos/lead/mold/contamination from photos",
+    "store confidence per element/measurement",
+    "allow surveyor/architect verified dimensions to supersede provisional values without deleting history"
+  ]
+}

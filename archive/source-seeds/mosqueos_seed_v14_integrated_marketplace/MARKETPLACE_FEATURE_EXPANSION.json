@@ -1,0 +1,322 @@
+[
+  {
+    "id": "MKT-001",
+    "name": "add product to mockup",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-002",
+    "name": "add product to project cart",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-003",
+    "name": "save product",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-004",
+    "name": "create collection",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-005",
+    "name": "generic-to-named product swap",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-006",
+    "name": "named-to-generic rollback",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-007",
+    "name": "auto quantity from design",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-008",
+    "name": "manual quantity override with reason",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-009",
+    "name": "cart cost subtotal",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-010",
+    "name": "landed subtotal",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-011",
+    "name": "tax/duty unknown flag",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-012",
+    "name": "shipping ETA",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-013",
+    "name": "order-by date",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-014",
+    "name": "schedule float",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-015",
+    "name": "lead-time risk",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-016",
+    "name": "price freshness",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-017",
+    "name": "quote expiry",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-018",
+    "name": "sample workflow",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-019",
+    "name": "technical review",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-020",
+    "name": "submittal link",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-021",
+    "name": "RFQ link",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-022",
+    "name": "quote link",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-023",
+    "name": "PO link",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-024",
+    "name": "delivery link",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-025",
+    "name": "asset link",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-026",
+    "name": "compare 2 products",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-027",
+    "name": "compare 5 products",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-028",
+    "name": "compare local/import",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-029",
+    "name": "compare lifecycle cost",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-030",
+    "name": "compare lead time",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-031",
+    "name": "compare references",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-032",
+    "name": "vendor storefront",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-033",
+    "name": "vendor claim",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-034",
+    "name": "vendor product feed",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-035",
+    "name": "vendor availability",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-036",
+    "name": "vendor service area",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-037",
+    "name": "vendor installer map",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-038",
+    "name": "verified reference mosque",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-039",
+    "name": "reference dispute",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-040",
+    "name": "reference confirmation",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-041",
+    "name": "project-specific rating",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-042",
+    "name": "favorite vendor",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-043",
+    "name": "vendor shortlist",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-044",
+    "name": "design palette",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-045",
+    "name": "materials board",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-046",
+    "name": "procurement board",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-047",
+    "name": "long-lead dashboard",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-048",
+    "name": "project cart by floor",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-049",
+    "name": "project cart by trade",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-050",
+    "name": "cart by construction phase",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-051",
+    "name": "cart by funding status",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-052",
+    "name": "cart by approval status",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-053",
+    "name": "cart by shipping status",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-054",
+    "name": "cashflow from POs",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-055",
+    "name": "procurement timeline overlay",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-056",
+    "name": "shipping/customs tasks",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-057",
+    "name": "arrival risk to construction",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-058",
+    "name": "storage readiness",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-059",
+    "name": "damaged delivery workflow",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-060",
+    "name": "alternate product proposal",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-061",
+    "name": "value engineering product swap",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-062",
+    "name": "funded component sourcing",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-063",
+    "name": "donor-funded object to PO",
+    "status": "specified"
+  },
+  {
+    "id": "MKT-064",
+    "name": "public product attribution in reusable design",
+    "status": "specified"
+  }
+]

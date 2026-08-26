@@ -1,0 +1,111 @@
+{
+  "roles": [
+    {
+      "id": "public",
+      "description": "Unauthenticated/public reader"
+    },
+    {
+      "id": "member",
+      "description": "Authenticated ordinary user"
+    },
+    {
+      "id": "mosque_editor",
+      "description": "Can propose/edit claimed mosque profile data within assigned mosque"
+    },
+    {
+      "id": "mosque_admin",
+      "description": "Administrative control for assigned mosque"
+    },
+    {
+      "id": "project_member",
+      "description": "Assigned project collaborator"
+    },
+    {
+      "id": "project_manager",
+      "description": "Project-level management and approvals within configured thresholds"
+    },
+    {
+      "id": "finance",
+      "description": "Finance/donation visibility and transaction workflows"
+    },
+    {
+      "id": "facilities",
+      "description": "Assets, work orders, inspections, maintenance"
+    },
+    {
+      "id": "reviewer",
+      "description": "Editorial/domain reviewer"
+    },
+    {
+      "id": "org_admin",
+      "description": "Organization membership, roles and settings"
+    },
+    {
+      "id": "platform_editor",
+      "description": "Canonical public-data/editorial management"
+    },
+    {
+      "id": "platform_admin",
+      "description": "Privileged platform administration"
+    }
+  ],
+  "capability_groups": {
+    "directory": [
+      "mosque.read_public",
+      "mosque.propose_edit",
+      "mosque.edit_claimed",
+      "mosque.claim.review"
+    ],
+    "project": [
+      "project.read",
+      "project.edit",
+      "project.manage_members",
+      "project.approve_baseline",
+      "project.manage_decisions"
+    ],
+    "finance": [
+      "donation.read",
+      "donation.reconcile",
+      "fund.manage",
+      "budget.edit",
+      "budget.approve",
+      "waqf.read",
+      "waqf.manage"
+    ],
+    "build": [
+      "rfi.manage",
+      "submittal.manage",
+      "inspection.manage",
+      "progress.edit",
+      "payment_application.review",
+      "change_order.approve"
+    ],
+    "operations": [
+      "asset.manage",
+      "work_order.manage",
+      "program.manage",
+      "staff.manage",
+      "volunteer.manage",
+      "incident.manage"
+    ],
+    "content": [
+      "content.draft",
+      "content.review",
+      "content.publish",
+      "source.manage",
+      "rights.manage"
+    ],
+    "admin": [
+      "org.manage",
+      "role.assign",
+      "audit.read",
+      "integration.manage"
+    ]
+  },
+  "principles": [
+    "Capabilities are assigned to roles; application code checks capabilities, not role display names.",
+    "Row Level Security remains the final database authorization boundary.",
+    "Platform-admin bypasses are server-only and audited.",
+    "Finance, incidents, safeguarding and security-layout data require narrower capabilities than ordinary project membership."
+  ]
+}

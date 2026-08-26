@@ -1,0 +1,53 @@
+{
+  "tiers": [
+    {
+      "tier": "mobile_low",
+      "target": "older/lower-memory Android",
+      "rules": [
+        "aggressive LOD",
+        "KTX2",
+        "instancing",
+        "no full IFC",
+        "stream/selective rooms"
+      ]
+    },
+    {
+      "tier": "mobile_high",
+      "target": "modern iOS/Android",
+      "rules": [
+        "Filament PBR",
+        "moderate LOD",
+        "section/review",
+        "AR candidate"
+      ]
+    },
+    {
+      "tier": "web_standard",
+      "target": "mainstream laptop/tablet browser",
+      "rules": [
+        "WebGL2 baseline",
+        "optional WebGPU",
+        "stream BIM"
+      ]
+    },
+    {
+      "tier": "web_high",
+      "target": "desktop workstation",
+      "rules": [
+        "WebGPU where stable",
+        "large BIM",
+        "advanced shadows",
+        "analysis overlays"
+      ]
+    }
+  ],
+  "budget_fields": [
+    "triangles",
+    "draw_calls",
+    "texture_memory_MB",
+    "loaded_nodes",
+    "BIM_fragment_MB",
+    "frame_time_ms"
+  ],
+  "rule": "Each published product/design asset must have performance metadata and at least a mobile-compatible representation."
+}

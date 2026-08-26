@@ -1,0 +1,35 @@
+name: Feature proposal
+description: Propose a scoped capability with evidence and review boundaries.
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Community or project problem
+      description: Explain the need without assuming a technical solution.
+    validations: {required: true}
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Testable outcome
+      description: State what a user can do and how reviewers can verify it.
+    validations: {required: true}
+  - type: dropdown
+    id: area
+    attributes:
+      label: Product area
+      options: ["Brief and governance", "Site and design", "Permits", "Budget and funding", "Marketplace and procurement", "Construction", "Operations", "Knowledge and preservation", "Platform and accessibility"]
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sources and dependencies
+      description: Include authoritative sources, dates, rights and external dependencies where applicable.
+  - type: checkboxes
+    id: gates
+    attributes:
+      label: Review gates
+      options:
+        - label: I identified professional, authority, security, privacy, accessibility, religious-content and rights review needs.
+          required: true

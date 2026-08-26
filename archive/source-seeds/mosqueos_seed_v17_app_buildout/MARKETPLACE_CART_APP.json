@@ -1,0 +1,57 @@
+{
+  "journey": [
+    "Search",
+    "Product detail",
+    "3D preview",
+    "Compare",
+    "Add to mockup",
+    "Add to project cart",
+    "Review",
+    "RFQ",
+    "Approve",
+    "Order",
+    "Track"
+  ],
+  "cart_views": [
+    "All",
+    "By floor",
+    "By trade",
+    "By room",
+    "By construction phase",
+    "By approval",
+    "By funding",
+    "By shipping"
+  ],
+  "line_item_fields": [
+    "product/spec",
+    "quantity",
+    "variant",
+    "unit cost",
+    "landed cost",
+    "lead time",
+    "need-by",
+    "approval",
+    "RFQ",
+    "quote",
+    "PO",
+    "shipment",
+    "installation"
+  ],
+  "bulk_actions": [
+    "request quotes",
+    "assign reviewer",
+    "export RFQ",
+    "change need-by date",
+    "move to package",
+    "mark generic",
+    "compare alternates"
+  ],
+  "warnings": [
+    "technical approval missing",
+    "sample pending",
+    "quote expired",
+    "lead time conflicts with schedule",
+    "budget exceeded",
+    "funding unavailable"
+  ]
+}

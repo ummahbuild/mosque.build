@@ -1,0 +1,89 @@
+{
+  "parameter_types": [
+    "enum",
+    "number",
+    "boolean",
+    "material",
+    "color",
+    "dimension",
+    "accessory_set",
+    "orientation"
+  ],
+  "examples": [
+    {
+      "product": "mosque carpet",
+      "params": [
+        "pattern",
+        "colorway",
+        "roll width",
+        "pile/material",
+        "saff spacing"
+      ]
+    },
+    {
+      "product": "wudu station",
+      "params": [
+        "single/multi station",
+        "seat type",
+        "tap type",
+        "left/right services",
+        "finish",
+        "accessible variant"
+      ]
+    },
+    {
+      "product": "chandelier",
+      "params": [
+        "diameter",
+        "drop",
+        "ring count",
+        "finish",
+        "lamp/LED configuration"
+      ]
+    },
+    {
+      "product": "mihrab",
+      "params": [
+        "width",
+        "height",
+        "depth",
+        "stone/tile/wood finish",
+        "calligraphy panel placeholder"
+      ]
+    },
+    {
+      "product": "Quran shelf",
+      "params": [
+        "width",
+        "height",
+        "bay count",
+        "wall/free-standing",
+        "finish"
+      ]
+    },
+    {
+      "product": "door",
+      "params": [
+        "width",
+        "height",
+        "leaf count",
+        "swing",
+        "finish",
+        "hardware set",
+        "fire-rating option where certified"
+      ]
+    }
+  ],
+  "outputs": [
+    "3D geometry/variant",
+    "SKU or custom configuration",
+    "dimensions",
+    "price impact",
+    "lead-time impact",
+    "technical review status"
+  ],
+  "rules": [
+    "Only vendor-supported or project-defined parameter ranges allowed.",
+    "Custom configurations create a quote-needed state if no fixed price exists."
+  ]
+}

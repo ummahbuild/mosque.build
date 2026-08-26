@@ -1,0 +1,134 @@
+[
+  {
+    "id": "typ_hypostyle",
+    "name": "Hypostyle courtyard mosque",
+    "layout": [
+      "courtyard/sahn",
+      "columned prayer hall",
+      "qibla wall"
+    ],
+    "source_refs": [
+      "src_smarthistory_mosque_intro",
+      "src_smarthistory_types",
+      "src_archnet_religious_arch"
+    ],
+    "generator_params": [
+      "courtyard_ratio",
+      "bay_spacing",
+      "aisle_count",
+      "prayer_hall_depth"
+    ]
+  },
+  {
+    "id": "typ_four_iwan",
+    "name": "Four-iwan courtyard mosque",
+    "layout": [
+      "central courtyard",
+      "four iwans",
+      "qibla iwan emphasized"
+    ],
+    "source_refs": [
+      "src_smarthistory_types",
+      "src_smarthistory_isfahan"
+    ],
+    "generator_params": [
+      "court_ratio",
+      "iwan_depth",
+      "qibla_iwan_scale",
+      "corner_rooms"
+    ]
+  },
+  {
+    "id": "typ_central_dome",
+    "name": "Central-dome mosque",
+    "layout": [
+      "central domed prayer volume",
+      "supporting bays/semi-domes optional"
+    ],
+    "source_refs": [
+      "src_archnet_religious_arch"
+    ],
+    "generator_params": [
+      "dome_diameter",
+      "support_bay",
+      "gallery",
+      "semi_domes"
+    ]
+  },
+  {
+    "id": "typ_multi_dome",
+    "name": "Multi-dome prayer hall",
+    "layout": [
+      "repeated domed structural bays"
+    ],
+    "source_refs": [],
+    "generator_params": [
+      "bay_count_x",
+      "bay_count_y",
+      "dome_span"
+    ]
+  },
+  {
+    "id": "typ_flat_roof_vernacular",
+    "name": "Flat/low-roof vernacular mosque",
+    "layout": [
+      "simple hall/courtyard",
+      "climate/material adaptation"
+    ],
+    "source_refs": [],
+    "generator_params": [
+      "hall_ratio",
+      "courtyard",
+      "veranda",
+      "wall_mass"
+    ]
+  },
+  {
+    "id": "typ_compact_urban",
+    "name": "Compact urban mosque",
+    "layout": [
+      "stacked/compact program",
+      "street-aligned envelope",
+      "rotated prayer hall possible"
+    ],
+    "source_refs": [],
+    "generator_params": [
+      "site_depth",
+      "floors",
+      "qibla_rotation",
+      "vertical_circulation"
+    ]
+  },
+  {
+    "id": "typ_mosque_madrasa",
+    "name": "Mosque + madrasa courtyard complex",
+    "layout": [
+      "prayer",
+      "courtyard",
+      "teaching rooms/iwan or classroom edges"
+    ],
+    "source_refs": [
+      "src_smarthistory_sultan_hasan"
+    ],
+    "generator_params": [
+      "classroom_count",
+      "courtyard_ratio",
+      "prayer_share"
+    ]
+  },
+  {
+    "id": "typ_adaptive_reuse",
+    "name": "Adaptive reuse mosque",
+    "layout": [
+      "existing shell",
+      "inserted prayer orientation/program"
+    ],
+    "source_refs": [],
+    "generator_params": [
+      "existing_shell",
+      "qibla_rotation",
+      "demolition_budget",
+      "service_reuse"
+    ]
+  }
+]

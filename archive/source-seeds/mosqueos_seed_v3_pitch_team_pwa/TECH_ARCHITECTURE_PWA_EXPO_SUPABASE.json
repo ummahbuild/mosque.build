@@ -1,0 +1,111 @@
+{
+  "recommended_monorepo": {
+    "apps": {
+      "web": "Next.js public SEO/AEO site + authenticated web workspace/PWA shell where appropriate",
+      "mobile": "Expo Router React Native app for iOS/Android",
+      "admin": "Next.js internal moderation/editorial/operations console"
+    },
+    "packages": {
+      "domain": "shared domain models and validation",
+      "supabase": "generated DB types, clients and query modules",
+      "design_system": "tokens + cross-platform primitives",
+      "geometry": "pure mosque/site/qibla/saff/cost geometry",
+      "cost_engine": "regional cost assumptions and deterministic calculators",
+      "permissions": "role and capability definitions",
+      "analytics": "event contracts",
+      "content": "shared copy/content schema",
+      "api_contracts": "request/response and Edge Function schemas",
+      "seo": "structured-data builders for public web"
+    }
+  },
+  "backend": {
+    "platform": "Supabase",
+    "services": [
+      "Postgres",
+      "PostGIS extension where available/configured",
+      "Auth",
+      "Storage",
+      "Realtime selectively",
+      "Edge Functions",
+      "scheduled/queued jobs through appropriate backend infrastructure"
+    ],
+    "principles": [
+      "One canonical data model for web/mobile",
+      "RLS enabled on all user/org/project scoped data",
+      "Publishable client key only in client apps; secret/server keys never shipped to Expo or browser",
+      "Server/admin operations use protected server environments",
+      "Provider webhooks are verified and idempotent",
+      "Files carry ownership, project, classification and rights metadata",
+      "Materialized/public read models for high-traffic directory/SEO surfaces"
+    ]
+  },
+  "shared_vs_platform_specific": {
+    "shared": [
+      "auth domain",
+      "projects",
+      "mosques",
+      "budgets",
+      "tasks",
+      "documents metadata",
+      "programs",
+      "maintenance",
+      "donations state",
+      "content models",
+      "geometry logic",
+      "cost logic",
+      "validation"
+    ],
+    "web_only": [
+      "large Three.js professional editor initially",
+      "rich SEO/AEO pages",
+      "bulk admin/editorial",
+      "advanced CAD import workflows"
+    ],
+    "mobile_native": [
+      "camera/site photos",
+      "push notifications",
+      "QR/asset scan",
+      "field inspections",
+      "offline checklists",
+      "location-aware nearby mosque",
+      "mobile wallet donation flows where supported"
+    ],
+    "both": [
+      "project dashboard",
+      "mosque profiles",
+      "tasks",
+      "budgets",
+      "donation status",
+      "room/program calendar",
+      "maintenance",
+      "Ramadan/iftar",
+      "claim/edit mosque",
+      "notifications preferences"
+    ]
+  },
+  "pwa_requirements": [
+    "Installable manifest with mosque.build branding",
+    "Service worker/offline shell strategy",
+    "Offline-safe project drafts and field checklists",
+    "Explicit stale-data indicators",
+    "Static/server rendered public SEO pages",
+    "Responsive desktop/tablet/mobile layouts",
+    "Share targets where browser support allows",
+    "Push only where supported and permissioned",
+    "No assumption PWA feature parity equals native feature parity"
+  ],
+  "expo_requirements": [
+    "Expo Router",
+    "Deep links aligned with public mosque.build URLs",
+    "Supabase auth session persistence",
+    "Secure local token/session handling",
+    "Camera/photo uploads",
+    "Location permissions only when needed",
+    "Push notifications",
+    "Offline queue for field tasks/inspections",
+    "Background sync only where platform rules and implementation support it",
+    "EAS build/update/release channels",
+    "Native store privacy disclosures",
+    "Universal links/app links"
+  ]
+}

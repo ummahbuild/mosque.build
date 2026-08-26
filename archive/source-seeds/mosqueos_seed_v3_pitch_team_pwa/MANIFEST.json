@@ -1,0 +1,23 @@
+{
+  "version": "3.0-pitch-team-universal-app",
+  "generated": "2026-08-16",
+  "canonical_domain": "https://mosque.build",
+  "counts": {
+    "backlog_items": 795,
+    "dream_team_roles": 80,
+    "landing_sections": 6,
+    "schema_domains": 12,
+    "workstreams": 9
+  },
+  "files": [
+    "DREAM_TEAM.json",
+    "HIRING_PLAN.json",
+    "LANDING_PAGE_COPY.json",
+    "PITCH_DECK_CONTENT.json",
+    "PITCH_TEAM_PRODUCT_CONTEXT.md",
+    "PLATFORM_PARITY.json",
+    "PRODUCT_BACKLOG.json",
+    "SUPABASE_SCHEMA_INVENTORY.json",
+    "TECH_ARCHITECTURE_PWA_EXPO_SUPABASE.json"
+  ]
+}

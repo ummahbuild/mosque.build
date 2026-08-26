@@ -1,0 +1,39 @@
+{
+  "exclusions": [
+    "columns as polygons",
+    "door swing arcs",
+    "fixed furniture",
+    "imam zone",
+    "accessible circulation",
+    "temporary partitions"
+  ],
+  "row_features": [
+    "front-row emphasis",
+    "multi-room continuation",
+    "overflow links",
+    "late-arrival aisles",
+    "accessible positions",
+    "women/family zoning"
+  ],
+  "metrics": [
+    "usable positions",
+    "theoretical positions",
+    "row continuity",
+    "qibla efficiency",
+    "door conflict count",
+    "column interruption count",
+    "circulation penalty"
+  ],
+  "modes": [
+    "daily",
+    "Jumuah",
+    "Taraweeh",
+    "Eid indoor",
+    "lecture"
+  ],
+  "future": [
+    "non-convex polygon clipping",
+    "aisle optimization",
+    "crowd-flow simulation"
+  ]
+}

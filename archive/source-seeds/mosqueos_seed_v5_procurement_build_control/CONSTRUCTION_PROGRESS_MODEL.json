@@ -1,0 +1,171 @@
+{
+  "progress_methods": [
+    "weighted schedule of values",
+    "quantity installed",
+    "milestone complete",
+    "inspection accepted",
+    "earned value proxy",
+    "manual verified percent"
+  ],
+  "rules": [
+    "A photo alone cannot certify payment or completion.",
+    "Reported contractor progress, site-observed progress, and certified progress are separate values.",
+    "Each progress claim stores date, reporter, evidence, reviewer, and confidence.",
+    "Critical concealed work should have inspection/photo evidence before closure where project practice requires it."
+  ],
+  "entities": [
+    "work_breakdown_items",
+    "schedule_activities",
+    "progress_updates",
+    "daily_reports",
+    "site_photos",
+    "360_photos",
+    "drone_media",
+    "inspection_records",
+    "payment_applications",
+    "schedule_of_values",
+    "certified_values",
+    "earned_progress",
+    "forecast_dates"
+  ],
+  "phases": [
+    {
+      "phase": "preconstruction",
+      "activities": [
+        "site due diligence",
+        "survey",
+        "design",
+        "engineering",
+        "permit",
+        "procurement planning",
+        "mobilization"
+      ]
+    },
+    {
+      "phase": "sitework",
+      "activities": [
+        "demolition",
+        "clearing",
+        "temporary works",
+        "earthworks",
+        "drainage",
+        "underground utilities"
+      ]
+    },
+    {
+      "phase": "substructure",
+      "activities": [
+        "excavation",
+        "foundations",
+        "ground beams",
+        "slab",
+        "waterproofing"
+      ]
+    },
+    {
+      "phase": "superstructure",
+      "activities": [
+        "columns",
+        "beams",
+        "walls",
+        "upper floors",
+        "stairs",
+        "roof structure"
+      ]
+    },
+    {
+      "phase": "enclosure",
+      "activities": [
+        "roofing",
+        "waterproofing",
+        "external walls",
+        "doors",
+        "windows",
+        "facade"
+      ]
+    },
+    {
+      "phase": "mep_roughin",
+      "activities": [
+        "electrical rough-in",
+        "plumbing rough-in",
+        "HVAC rough-in",
+        "fire systems",
+        "IT/security rough-in"
+      ]
+    },
+    {
+      "phase": "interiors",
+      "activities": [
+        "partitions",
+        "plaster",
+        "ceilings",
+        "tile",
+        "paint",
+        "joinery",
+        "stone",
+        "carpet"
+      ]
+    },
+    {
+      "phase": "mosque_fitout",
+      "activities": [
+        "mihrab",
+        "minbar",
+        "Quran shelving",
+        "shoe storage",
+        "wudu",
+        "audio",
+        "prayer displays",
+        "calligraphy"
+      ]
+    },
+    {
+      "phase": "community_fitout",
+      "activities": [
+        "madrasa",
+        "library",
+        "offices",
+        "kitchen",
+        "youth",
+        "community hall",
+        "janazah"
+      ]
+    },
+    {
+      "phase": "site_external",
+      "activities": [
+        "parking",
+        "landscape",
+        "lighting",
+        "signage",
+        "fencing",
+        "courtyard"
+      ]
+    },
+    {
+      "phase": "commissioning",
+      "activities": [
+        "MEP testing",
+        "fire testing",
+        "audio tuning",
+        "access control",
+        "water balancing",
+        "HVAC balancing",
+        "cleaning"
+      ]
+    },
+    {
+      "phase": "handover",
+      "activities": [
+        "snag closeout",
+        "as-builts",
+        "warranties",
+        "training",
+        "asset register",
+        "occupancy approvals",
+        "opening"
+      ]
+    }
+  ]
+}

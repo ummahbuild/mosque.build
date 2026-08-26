@@ -1,0 +1,79 @@
+[
+  {
+    "id": "archnet_cad_collection",
+    "title": "Archnet CAD drawing (.dwg) collection",
+    "format": "collection",
+    "source": "src_archnet_cad_collection",
+    "rights": "item_specific",
+    "ingest_policy": "metadata_and_link"
+  },
+  {
+    "id": "hazrat_bilal_drawings",
+    "title": "Hazrat Bilal Mosque Drawings",
+    "format": "drawing_package",
+    "contains": [
+      "site plan",
+      "floor plans",
+      "elevations",
+      "sections"
+    ],
+    "source": "src_archnet_hazrat_bilal_drawings",
+    "rights": "verify_item_terms",
+    "ingest_policy": "metadata_and_link"
+  },
+  {
+    "id": "shah_sultan_dwg",
+    "title": "Shah Sultan Mosque — floor plan and elevation",
+    "format": "DWG AutoCAD 2000",
+    "contains": [
+      "floor plan",
+      "elevation"
+    ],
+    "source": "src_archnet_shah_sultan_dwg",
+    "rights": "verify_item_terms",
+    "ingest_policy": "metadata_and_link"
+  },
+  {
+    "id": "ibn_tulun_dwg",
+    "title": "Ibn Tulun Mosque — floor plan",
+    "format": "DWG AutoCAD 2000",
+    "contains": [
+      "floor plan"
+    ],
+    "source": "src_archnet_ibn_tulun_dwg",
+    "rights": "verify_item_terms",
+    "ingest_policy": "metadata_and_link"
+  },
+  {
+    "id": "melek_ahmed_pasa_dwg",
+    "title": "Melek Ahmed Paşa Mosque — floor plan and elevation",
+    "format": "DWG AutoCAD 2000",
+    "url": "https://www.archnet.org/publications/1497",
+    "rights": "copyrighted_Gulru_Necipoglu",
+    "ingest_policy": "metadata_and_link"
+  },
+  {
+    "id": "semiz_ali_pasa_dwg",
+    "title": "Semiz Ali Paşa Mosque — floor plan and cross-section",
+    "format": "DWG AutoCAD 2000",
+    "url": "https://www.archnet.org/publications/1470",
+    "rights": "copyrighted_Gulru_Necipoglu",
+    "ingest_policy": "metadata_and_link"
+  },
+  {
+    "id": "atik_ali_pasa_dwg",
+    "title": "Atik Ali Paşa Mosque — plan and cross-section",
+    "format": "DWG AutoCAD 2000",
+    "url": "https://www.archnet.org/publications/1443",
+    "rights": "verify_item_terms",
+    "ingest_policy": "metadata_and_link"
+  },
+  {
+    "id": "great_mosque_gaza_dwg",
+    "title": "Great Mosque of Gaza — floor plan",
+    "format": "DWG AutoCAD 2000",
+    "url": "https://www.archnet.org/publications/1387",
+    "rights": "verify_item_terms",
+    "ingest_policy": "metadata_and_link"
+  }
+]

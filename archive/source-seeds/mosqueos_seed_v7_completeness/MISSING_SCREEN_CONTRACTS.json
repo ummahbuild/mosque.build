@@ -1,0 +1,1740 @@
+[
+  {
+    "id": "MX001",
+    "group": "requirements",
+    "name": "Owner Requirements",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX002",
+    "group": "requirements",
+    "name": "Community Brief",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX003",
+    "group": "requirements",
+    "name": "Religious Function Brief",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX004",
+    "group": "requirements",
+    "name": "Accessibility Brief",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX005",
+    "group": "requirements",
+    "name": "Operations Brief",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX006",
+    "group": "requirements",
+    "name": "Information Requirements",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX007",
+    "group": "requirements",
+    "name": "Requirement Traceability",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX008",
+    "group": "requirements",
+    "name": "Requirement Changes",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX009",
+    "group": "governance",
+    "name": "Project Governance",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX010",
+    "group": "governance",
+    "name": "Decision Matrix",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX011",
+    "group": "governance",
+    "name": "Approvals",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX012",
+    "group": "governance",
+    "name": "Board Resolutions",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX013",
+    "group": "governance",
+    "name": "Conflict Disclosures",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX014",
+    "group": "governance",
+    "name": "Delegated Authority",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX015",
+    "group": "governance",
+    "name": "Risk Register",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX016",
+    "group": "governance",
+    "name": "Insurance",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX017",
+    "group": "quality",
+    "name": "QA/QC Home",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX018",
+    "group": "quality",
+    "name": "Inspection Test Plans",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX019",
+    "group": "quality",
+    "name": "Hold Points",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX020",
+    "group": "quality",
+    "name": "Mockups",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX021",
+    "group": "quality",
+    "name": "Nonconformances",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX022",
+    "group": "quality",
+    "name": "Corrective Actions",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX023",
+    "group": "quality",
+    "name": "Tests",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX024",
+    "group": "quality",
+    "name": "Quality Dashboard",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX025",
+    "group": "commissioning",
+    "name": "Commissioning Home",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX026",
+    "group": "commissioning",
+    "name": "OPR",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX027",
+    "group": "commissioning",
+    "name": "Commissioning Plan",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX028",
+    "group": "commissioning",
+    "name": "Prefunctional Checklists",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX029",
+    "group": "commissioning",
+    "name": "Functional Tests",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX030",
+    "group": "commissioning",
+    "name": "Commissioning Issues",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX031",
+    "group": "commissioning",
+    "name": "Training",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX032",
+    "group": "commissioning",
+    "name": "Seasonal Tests",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX033",
+    "group": "commissioning",
+    "name": "Commissioning Report",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX034",
+    "group": "facilities",
+    "name": "Asset Hierarchy",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX035",
+    "group": "facilities",
+    "name": "Asset Detail",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX036",
+    "group": "facilities",
+    "name": "Preventive Maintenance",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX037",
+    "group": "facilities",
+    "name": "Work Orders",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX038",
+    "group": "facilities",
+    "name": "QR Service Request",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX039",
+    "group": "facilities",
+    "name": "Meters",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX040",
+    "group": "facilities",
+    "name": "Utilities",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX041",
+    "group": "facilities",
+    "name": "Warranty Claims",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX042",
+    "group": "facilities",
+    "name": "Spare Parts",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX043",
+    "group": "facilities",
+    "name": "Condition Surveys",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX044",
+    "group": "facilities",
+    "name": "Replacement Plan",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX045",
+    "group": "data",
+    "name": "Data Governance",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX046",
+    "group": "data",
+    "name": "Retention",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX047",
+    "group": "data",
+    "name": "Access Review",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX048",
+    "group": "data",
+    "name": "Audit Logs",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX049",
+    "group": "data",
+    "name": "Provider Provenance",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX050",
+    "group": "data",
+    "name": "Data Export",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX051",
+    "group": "data",
+    "name": "Deletion Requests",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX052",
+    "group": "data",
+    "name": "Backups",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX053",
+    "group": "data",
+    "name": "Restore Tests",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX054",
+    "group": "data",
+    "name": "Integration Health",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX055",
+    "group": "bim",
+    "name": "CDE",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX056",
+    "group": "bim",
+    "name": "Model Register",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX057",
+    "group": "bim",
+    "name": "IFC Viewer",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX058",
+    "group": "bim",
+    "name": "BCF Issues",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX059",
+    "group": "bim",
+    "name": "IDS Requirements",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX060",
+    "group": "bim",
+    "name": "Model Validation",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX061",
+    "group": "bim",
+    "name": "Object Data",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX062",
+    "group": "bim",
+    "name": "Handover Data Completeness",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX063",
+    "group": "stakeholder",
+    "name": "Stakeholders",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX064",
+    "group": "stakeholder",
+    "name": "Community Survey",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX065",
+    "group": "stakeholder",
+    "name": "Design Review",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX066",
+    "group": "stakeholder",
+    "name": "3D Feedback",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX067",
+    "group": "stakeholder",
+    "name": "Accessibility Review",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX068",
+    "group": "stakeholder",
+    "name": "Neighbor Engagement",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX069",
+    "group": "stakeholder",
+    "name": "Decision Responses",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX070",
+    "group": "stakeholder",
+    "name": "Post Occupancy Survey",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX071",
+    "group": "sustainability",
+    "name": "Energy Model",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX072",
+    "group": "sustainability",
+    "name": "Water Model",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX073",
+    "group": "sustainability",
+    "name": "Material Impact",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX074",
+    "group": "sustainability",
+    "name": "Local Sourcing",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX075",
+    "group": "sustainability",
+    "name": "Resilience",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX076",
+    "group": "sustainability",
+    "name": "Solar",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX077",
+    "group": "sustainability",
+    "name": "Rainwater",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX078",
+    "group": "sustainability",
+    "name": "Waste Plan",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  },
+  {
+    "id": "MX079",
+    "group": "sustainability",
+    "name": "Performance Dashboard",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "unauthorized",
+      "stale_external_data"
+    ],
+    "requirements": [
+      "role/permission model",
+      "audit history",
+      "source/evidence where factual",
+      "mobile/desktop behavior",
+      "export/report behavior"
+    ],
+    "status": "specified"
+  }
+]

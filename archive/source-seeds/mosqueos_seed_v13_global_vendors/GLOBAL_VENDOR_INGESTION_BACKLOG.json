@@ -1,0 +1,1634 @@
+[
+  {
+    "id": "VING-0001",
+    "region": "Türkiye",
+    "category_family": "prayer_flooring",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0002",
+    "region": "Türkiye",
+    "category_family": "wudu_sanitary",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0003",
+    "region": "Türkiye",
+    "category_family": "mihrab_minbar_craft",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0004",
+    "region": "Türkiye",
+    "category_family": "lighting",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0005",
+    "region": "Türkiye",
+    "category_family": "audio_av",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0006",
+    "region": "Türkiye",
+    "category_family": "dome_minaret",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0007",
+    "region": "Türkiye",
+    "category_family": "tile_stone_finish",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0008",
+    "region": "Türkiye",
+    "category_family": "doors_windows_screens",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0009",
+    "region": "Türkiye",
+    "category_family": "furniture_storage",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0010",
+    "region": "Türkiye",
+    "category_family": "donation_technology",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0011",
+    "region": "Türkiye",
+    "category_family": "prayer_technology",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0012",
+    "region": "Türkiye",
+    "category_family": "cleaning_maintenance",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0013",
+    "region": "Türkiye",
+    "category_family": "security_fire",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0014",
+    "region": "Türkiye",
+    "category_family": "energy_hvac",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0015",
+    "region": "Türkiye",
+    "category_family": "community_madrasa",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0016",
+    "region": "Türkiye",
+    "category_family": "janazah",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0017",
+    "region": "Türkiye",
+    "category_family": "landscape_site",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0018",
+    "region": "China",
+    "category_family": "prayer_flooring",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0019",
+    "region": "China",
+    "category_family": "wudu_sanitary",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0020",
+    "region": "China",
+    "category_family": "mihrab_minbar_craft",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0021",
+    "region": "China",
+    "category_family": "lighting",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0022",
+    "region": "China",
+    "category_family": "audio_av",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0023",
+    "region": "China",
+    "category_family": "dome_minaret",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0024",
+    "region": "China",
+    "category_family": "tile_stone_finish",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0025",
+    "region": "China",
+    "category_family": "doors_windows_screens",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0026",
+    "region": "China",
+    "category_family": "furniture_storage",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0027",
+    "region": "China",
+    "category_family": "donation_technology",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0028",
+    "region": "China",
+    "category_family": "prayer_technology",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0029",
+    "region": "China",
+    "category_family": "cleaning_maintenance",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0030",
+    "region": "China",
+    "category_family": "security_fire",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0031",
+    "region": "China",
+    "category_family": "energy_hvac",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0032",
+    "region": "China",
+    "category_family": "community_madrasa",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0033",
+    "region": "China",
+    "category_family": "janazah",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0034",
+    "region": "China",
+    "category_family": "landscape_site",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0035",
+    "region": "Gulf/GCC",
+    "category_family": "prayer_flooring",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0036",
+    "region": "Gulf/GCC",
+    "category_family": "wudu_sanitary",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0037",
+    "region": "Gulf/GCC",
+    "category_family": "mihrab_minbar_craft",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0038",
+    "region": "Gulf/GCC",
+    "category_family": "lighting",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0039",
+    "region": "Gulf/GCC",
+    "category_family": "audio_av",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0040",
+    "region": "Gulf/GCC",
+    "category_family": "dome_minaret",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0041",
+    "region": "Gulf/GCC",
+    "category_family": "tile_stone_finish",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0042",
+    "region": "Gulf/GCC",
+    "category_family": "doors_windows_screens",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0043",
+    "region": "Gulf/GCC",
+    "category_family": "furniture_storage",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0044",
+    "region": "Gulf/GCC",
+    "category_family": "donation_technology",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0045",
+    "region": "Gulf/GCC",
+    "category_family": "prayer_technology",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0046",
+    "region": "Gulf/GCC",
+    "category_family": "cleaning_maintenance",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0047",
+    "region": "Gulf/GCC",
+    "category_family": "security_fire",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0048",
+    "region": "Gulf/GCC",
+    "category_family": "energy_hvac",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0049",
+    "region": "Gulf/GCC",
+    "category_family": "community_madrasa",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0050",
+    "region": "Gulf/GCC",
+    "category_family": "janazah",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0051",
+    "region": "Gulf/GCC",
+    "category_family": "landscape_site",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0052",
+    "region": "UK/Europe",
+    "category_family": "prayer_flooring",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0053",
+    "region": "UK/Europe",
+    "category_family": "wudu_sanitary",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0054",
+    "region": "UK/Europe",
+    "category_family": "mihrab_minbar_craft",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0055",
+    "region": "UK/Europe",
+    "category_family": "lighting",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0056",
+    "region": "UK/Europe",
+    "category_family": "audio_av",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0057",
+    "region": "UK/Europe",
+    "category_family": "dome_minaret",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0058",
+    "region": "UK/Europe",
+    "category_family": "tile_stone_finish",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0059",
+    "region": "UK/Europe",
+    "category_family": "doors_windows_screens",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0060",
+    "region": "UK/Europe",
+    "category_family": "furniture_storage",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0061",
+    "region": "UK/Europe",
+    "category_family": "donation_technology",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0062",
+    "region": "UK/Europe",
+    "category_family": "prayer_technology",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0063",
+    "region": "UK/Europe",
+    "category_family": "cleaning_maintenance",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0064",
+    "region": "UK/Europe",
+    "category_family": "security_fire",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0065",
+    "region": "UK/Europe",
+    "category_family": "energy_hvac",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0066",
+    "region": "UK/Europe",
+    "category_family": "community_madrasa",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0067",
+    "region": "UK/Europe",
+    "category_family": "janazah",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0068",
+    "region": "UK/Europe",
+    "category_family": "landscape_site",
+    "target_vendor_records": 59,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0069",
+    "region": "USA/Canada",
+    "category_family": "prayer_flooring",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0070",
+    "region": "USA/Canada",
+    "category_family": "wudu_sanitary",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0071",
+    "region": "USA/Canada",
+    "category_family": "mihrab_minbar_craft",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0072",
+    "region": "USA/Canada",
+    "category_family": "lighting",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0073",
+    "region": "USA/Canada",
+    "category_family": "audio_av",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0074",
+    "region": "USA/Canada",
+    "category_family": "dome_minaret",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0075",
+    "region": "USA/Canada",
+    "category_family": "tile_stone_finish",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0076",
+    "region": "USA/Canada",
+    "category_family": "doors_windows_screens",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0077",
+    "region": "USA/Canada",
+    "category_family": "furniture_storage",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0078",
+    "region": "USA/Canada",
+    "category_family": "donation_technology",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0079",
+    "region": "USA/Canada",
+    "category_family": "prayer_technology",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0080",
+    "region": "USA/Canada",
+    "category_family": "cleaning_maintenance",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0081",
+    "region": "USA/Canada",
+    "category_family": "security_fire",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0082",
+    "region": "USA/Canada",
+    "category_family": "energy_hvac",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0083",
+    "region": "USA/Canada",
+    "category_family": "community_madrasa",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0084",
+    "region": "USA/Canada",
+    "category_family": "janazah",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0085",
+    "region": "USA/Canada",
+    "category_family": "landscape_site",
+    "target_vendor_records": 47,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0086",
+    "region": "South Asia",
+    "category_family": "prayer_flooring",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0087",
+    "region": "South Asia",
+    "category_family": "wudu_sanitary",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0088",
+    "region": "South Asia",
+    "category_family": "mihrab_minbar_craft",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0089",
+    "region": "South Asia",
+    "category_family": "lighting",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0090",
+    "region": "South Asia",
+    "category_family": "audio_av",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0091",
+    "region": "South Asia",
+    "category_family": "dome_minaret",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0092",
+    "region": "South Asia",
+    "category_family": "tile_stone_finish",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0093",
+    "region": "South Asia",
+    "category_family": "doors_windows_screens",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0094",
+    "region": "South Asia",
+    "category_family": "furniture_storage",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0095",
+    "region": "South Asia",
+    "category_family": "donation_technology",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0096",
+    "region": "South Asia",
+    "category_family": "prayer_technology",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0097",
+    "region": "South Asia",
+    "category_family": "cleaning_maintenance",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0098",
+    "region": "South Asia",
+    "category_family": "security_fire",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0099",
+    "region": "South Asia",
+    "category_family": "energy_hvac",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0100",
+    "region": "South Asia",
+    "category_family": "community_madrasa",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0101",
+    "region": "South Asia",
+    "category_family": "janazah",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0102",
+    "region": "South Asia",
+    "category_family": "landscape_site",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0103",
+    "region": "Southeast Asia",
+    "category_family": "prayer_flooring",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0104",
+    "region": "Southeast Asia",
+    "category_family": "wudu_sanitary",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0105",
+    "region": "Southeast Asia",
+    "category_family": "mihrab_minbar_craft",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0106",
+    "region": "Southeast Asia",
+    "category_family": "lighting",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0107",
+    "region": "Southeast Asia",
+    "category_family": "audio_av",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0108",
+    "region": "Southeast Asia",
+    "category_family": "dome_minaret",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0109",
+    "region": "Southeast Asia",
+    "category_family": "tile_stone_finish",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0110",
+    "region": "Southeast Asia",
+    "category_family": "doors_windows_screens",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0111",
+    "region": "Southeast Asia",
+    "category_family": "furniture_storage",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0112",
+    "region": "Southeast Asia",
+    "category_family": "donation_technology",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0113",
+    "region": "Southeast Asia",
+    "category_family": "prayer_technology",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0114",
+    "region": "Southeast Asia",
+    "category_family": "cleaning_maintenance",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0115",
+    "region": "Southeast Asia",
+    "category_family": "security_fire",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0116",
+    "region": "Southeast Asia",
+    "category_family": "energy_hvac",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0117",
+    "region": "Southeast Asia",
+    "category_family": "community_madrasa",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0118",
+    "region": "Southeast Asia",
+    "category_family": "janazah",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0119",
+    "region": "Southeast Asia",
+    "category_family": "landscape_site",
+    "target_vendor_records": 53,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0120",
+    "region": "Africa",
+    "category_family": "prayer_flooring",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0121",
+    "region": "Africa",
+    "category_family": "wudu_sanitary",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0122",
+    "region": "Africa",
+    "category_family": "mihrab_minbar_craft",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0123",
+    "region": "Africa",
+    "category_family": "lighting",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0124",
+    "region": "Africa",
+    "category_family": "audio_av",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0125",
+    "region": "Africa",
+    "category_family": "dome_minaret",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0126",
+    "region": "Africa",
+    "category_family": "tile_stone_finish",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0127",
+    "region": "Africa",
+    "category_family": "doors_windows_screens",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0128",
+    "region": "Africa",
+    "category_family": "furniture_storage",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0129",
+    "region": "Africa",
+    "category_family": "donation_technology",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0130",
+    "region": "Africa",
+    "category_family": "prayer_technology",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0131",
+    "region": "Africa",
+    "category_family": "cleaning_maintenance",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0132",
+    "region": "Africa",
+    "category_family": "security_fire",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0133",
+    "region": "Africa",
+    "category_family": "energy_hvac",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0134",
+    "region": "Africa",
+    "category_family": "community_madrasa",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0135",
+    "region": "Africa",
+    "category_family": "janazah",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0136",
+    "region": "Africa",
+    "category_family": "landscape_site",
+    "target_vendor_records": 71,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0137",
+    "region": "North Africa",
+    "category_family": "prayer_flooring",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0138",
+    "region": "North Africa",
+    "category_family": "wudu_sanitary",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0139",
+    "region": "North Africa",
+    "category_family": "mihrab_minbar_craft",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0140",
+    "region": "North Africa",
+    "category_family": "lighting",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0141",
+    "region": "North Africa",
+    "category_family": "audio_av",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0142",
+    "region": "North Africa",
+    "category_family": "dome_minaret",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0143",
+    "region": "North Africa",
+    "category_family": "tile_stone_finish",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0144",
+    "region": "North Africa",
+    "category_family": "doors_windows_screens",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0145",
+    "region": "North Africa",
+    "category_family": "furniture_storage",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0146",
+    "region": "North Africa",
+    "category_family": "donation_technology",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0147",
+    "region": "North Africa",
+    "category_family": "prayer_technology",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0148",
+    "region": "North Africa",
+    "category_family": "cleaning_maintenance",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0149",
+    "region": "North Africa",
+    "category_family": "security_fire",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0150",
+    "region": "North Africa",
+    "category_family": "energy_hvac",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0151",
+    "region": "North Africa",
+    "category_family": "community_madrasa",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0152",
+    "region": "North Africa",
+    "category_family": "janazah",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0153",
+    "region": "North Africa",
+    "category_family": "landscape_site",
+    "target_vendor_records": 35,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0154",
+    "region": "Central Asia",
+    "category_family": "prayer_flooring",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0155",
+    "region": "Central Asia",
+    "category_family": "wudu_sanitary",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0156",
+    "region": "Central Asia",
+    "category_family": "mihrab_minbar_craft",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0157",
+    "region": "Central Asia",
+    "category_family": "lighting",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0158",
+    "region": "Central Asia",
+    "category_family": "audio_av",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0159",
+    "region": "Central Asia",
+    "category_family": "dome_minaret",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0160",
+    "region": "Central Asia",
+    "category_family": "tile_stone_finish",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0161",
+    "region": "Central Asia",
+    "category_family": "doors_windows_screens",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0162",
+    "region": "Central Asia",
+    "category_family": "furniture_storage",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0163",
+    "region": "Central Asia",
+    "category_family": "donation_technology",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0164",
+    "region": "Central Asia",
+    "category_family": "prayer_technology",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0165",
+    "region": "Central Asia",
+    "category_family": "cleaning_maintenance",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0166",
+    "region": "Central Asia",
+    "category_family": "security_fire",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0167",
+    "region": "Central Asia",
+    "category_family": "energy_hvac",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0168",
+    "region": "Central Asia",
+    "category_family": "community_madrasa",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0169",
+    "region": "Central Asia",
+    "category_family": "janazah",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0170",
+    "region": "Central Asia",
+    "category_family": "landscape_site",
+    "target_vendor_records": 24,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0171",
+    "region": "Latin America",
+    "category_family": "prayer_flooring",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0172",
+    "region": "Latin America",
+    "category_family": "wudu_sanitary",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0173",
+    "region": "Latin America",
+    "category_family": "mihrab_minbar_craft",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0174",
+    "region": "Latin America",
+    "category_family": "lighting",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0175",
+    "region": "Latin America",
+    "category_family": "audio_av",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0176",
+    "region": "Latin America",
+    "category_family": "dome_minaret",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0177",
+    "region": "Latin America",
+    "category_family": "tile_stone_finish",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0178",
+    "region": "Latin America",
+    "category_family": "doors_windows_screens",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0179",
+    "region": "Latin America",
+    "category_family": "furniture_storage",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0180",
+    "region": "Latin America",
+    "category_family": "donation_technology",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0181",
+    "region": "Latin America",
+    "category_family": "prayer_technology",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0182",
+    "region": "Latin America",
+    "category_family": "cleaning_maintenance",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0183",
+    "region": "Latin America",
+    "category_family": "security_fire",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0184",
+    "region": "Latin America",
+    "category_family": "energy_hvac",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0185",
+    "region": "Latin America",
+    "category_family": "community_madrasa",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0186",
+    "region": "Latin America",
+    "category_family": "janazah",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0187",
+    "region": "Latin America",
+    "category_family": "landscape_site",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0188",
+    "region": "Australia/NZ",
+    "category_family": "prayer_flooring",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0189",
+    "region": "Australia/NZ",
+    "category_family": "wudu_sanitary",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0190",
+    "region": "Australia/NZ",
+    "category_family": "mihrab_minbar_craft",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0191",
+    "region": "Australia/NZ",
+    "category_family": "lighting",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0192",
+    "region": "Australia/NZ",
+    "category_family": "audio_av",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0193",
+    "region": "Australia/NZ",
+    "category_family": "dome_minaret",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0194",
+    "region": "Australia/NZ",
+    "category_family": "tile_stone_finish",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0195",
+    "region": "Australia/NZ",
+    "category_family": "doors_windows_screens",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0196",
+    "region": "Australia/NZ",
+    "category_family": "furniture_storage",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0197",
+    "region": "Australia/NZ",
+    "category_family": "donation_technology",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0198",
+    "region": "Australia/NZ",
+    "category_family": "prayer_technology",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0199",
+    "region": "Australia/NZ",
+    "category_family": "cleaning_maintenance",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0200",
+    "region": "Australia/NZ",
+    "category_family": "security_fire",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0201",
+    "region": "Australia/NZ",
+    "category_family": "energy_hvac",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0202",
+    "region": "Australia/NZ",
+    "category_family": "community_madrasa",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0203",
+    "region": "Australia/NZ",
+    "category_family": "janazah",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  },
+  {
+    "id": "VING-0204",
+    "region": "Australia/NZ",
+    "category_family": "landscape_site",
+    "target_vendor_records": 12,
+    "status": "research_queue",
+    "required": "real vendor identity + source + country + category + current website + evidence tier"
+  }
+]

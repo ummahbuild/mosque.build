@@ -1,0 +1,53 @@
+{
+  "modes": [
+    "Plant",
+    "Tree",
+    "Garden Bed",
+    "Rain Garden",
+    "Bioswale",
+    "Permeable Paving",
+    "Irrigation",
+    "Water Reuse",
+    "Natural Facade",
+    "Shade Review"
+  ],
+  "object_inspector": [
+    "species/archetype",
+    "mature dimensions",
+    "root zone",
+    "water demand",
+    "sun",
+    "maintenance",
+    "supplier",
+    "cost",
+    "planting date",
+    "asset status"
+  ],
+  "overlays": [
+    "year1 canopy",
+    "year5 canopy",
+    "year15 canopy",
+    "irrigation zones",
+    "stormwater flow",
+    "shade hours",
+    "root exclusion",
+    "maintenance access"
+  ],
+  "commands": [
+    "place tree",
+    "draw bed",
+    "draw bioswale",
+    "assign plant palette",
+    "connect irrigation zone",
+    "change water source",
+    "convert facade to trellis green facade"
+  ],
+  "warnings": [
+    "root conflict",
+    "insufficient maintenance access",
+    "water demand too high",
+    "unknown climate fit",
+    "green facade structure review",
+    "stormwater overflow unresolved"
+  ]
+}

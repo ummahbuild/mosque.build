@@ -1,0 +1,2738 @@
+[
+  {
+    "id": "RGQ-00001",
+    "region_id": "REG-001",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00002",
+    "region_id": "REG-001",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00003",
+    "region_id": "REG-001",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00004",
+    "region_id": "REG-001",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00005",
+    "region_id": "REG-001",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00006",
+    "region_id": "REG-001",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00007",
+    "region_id": "REG-001",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00008",
+    "region_id": "REG-001",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00009",
+    "region_id": "REG-001",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00010",
+    "region_id": "REG-002",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00011",
+    "region_id": "REG-002",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00012",
+    "region_id": "REG-002",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00013",
+    "region_id": "REG-002",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00014",
+    "region_id": "REG-002",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00015",
+    "region_id": "REG-002",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00016",
+    "region_id": "REG-002",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00017",
+    "region_id": "REG-002",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00018",
+    "region_id": "REG-002",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00019",
+    "region_id": "REG-003",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00020",
+    "region_id": "REG-003",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00021",
+    "region_id": "REG-003",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00022",
+    "region_id": "REG-003",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00023",
+    "region_id": "REG-003",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00024",
+    "region_id": "REG-003",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00025",
+    "region_id": "REG-003",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00026",
+    "region_id": "REG-003",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00027",
+    "region_id": "REG-003",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00028",
+    "region_id": "REG-004",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00029",
+    "region_id": "REG-004",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00030",
+    "region_id": "REG-004",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00031",
+    "region_id": "REG-004",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00032",
+    "region_id": "REG-004",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00033",
+    "region_id": "REG-004",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00034",
+    "region_id": "REG-004",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00035",
+    "region_id": "REG-004",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00036",
+    "region_id": "REG-004",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00037",
+    "region_id": "REG-005",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00038",
+    "region_id": "REG-005",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00039",
+    "region_id": "REG-005",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00040",
+    "region_id": "REG-005",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00041",
+    "region_id": "REG-005",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00042",
+    "region_id": "REG-005",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00043",
+    "region_id": "REG-005",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00044",
+    "region_id": "REG-005",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00045",
+    "region_id": "REG-005",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00046",
+    "region_id": "REG-006",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00047",
+    "region_id": "REG-006",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00048",
+    "region_id": "REG-006",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00049",
+    "region_id": "REG-006",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00050",
+    "region_id": "REG-006",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00051",
+    "region_id": "REG-006",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00052",
+    "region_id": "REG-006",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00053",
+    "region_id": "REG-006",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00054",
+    "region_id": "REG-006",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00055",
+    "region_id": "REG-007",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00056",
+    "region_id": "REG-007",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00057",
+    "region_id": "REG-007",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00058",
+    "region_id": "REG-007",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00059",
+    "region_id": "REG-007",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00060",
+    "region_id": "REG-007",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00061",
+    "region_id": "REG-007",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00062",
+    "region_id": "REG-007",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00063",
+    "region_id": "REG-007",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00064",
+    "region_id": "REG-008",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00065",
+    "region_id": "REG-008",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00066",
+    "region_id": "REG-008",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00067",
+    "region_id": "REG-008",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00068",
+    "region_id": "REG-008",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00069",
+    "region_id": "REG-008",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00070",
+    "region_id": "REG-008",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00071",
+    "region_id": "REG-008",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00072",
+    "region_id": "REG-008",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00073",
+    "region_id": "REG-009",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00074",
+    "region_id": "REG-009",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00075",
+    "region_id": "REG-009",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00076",
+    "region_id": "REG-009",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00077",
+    "region_id": "REG-009",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00078",
+    "region_id": "REG-009",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00079",
+    "region_id": "REG-009",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00080",
+    "region_id": "REG-009",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00081",
+    "region_id": "REG-009",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00082",
+    "region_id": "REG-010",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00083",
+    "region_id": "REG-010",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00084",
+    "region_id": "REG-010",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00085",
+    "region_id": "REG-010",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00086",
+    "region_id": "REG-010",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00087",
+    "region_id": "REG-010",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00088",
+    "region_id": "REG-010",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00089",
+    "region_id": "REG-010",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00090",
+    "region_id": "REG-010",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00091",
+    "region_id": "REG-011",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00092",
+    "region_id": "REG-011",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00093",
+    "region_id": "REG-011",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00094",
+    "region_id": "REG-011",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00095",
+    "region_id": "REG-011",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00096",
+    "region_id": "REG-011",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00097",
+    "region_id": "REG-011",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00098",
+    "region_id": "REG-011",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00099",
+    "region_id": "REG-011",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00100",
+    "region_id": "REG-012",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00101",
+    "region_id": "REG-012",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00102",
+    "region_id": "REG-012",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00103",
+    "region_id": "REG-012",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00104",
+    "region_id": "REG-012",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00105",
+    "region_id": "REG-012",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00106",
+    "region_id": "REG-012",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00107",
+    "region_id": "REG-012",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00108",
+    "region_id": "REG-012",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00109",
+    "region_id": "REG-013",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00110",
+    "region_id": "REG-013",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00111",
+    "region_id": "REG-013",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00112",
+    "region_id": "REG-013",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00113",
+    "region_id": "REG-013",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00114",
+    "region_id": "REG-013",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00115",
+    "region_id": "REG-013",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00116",
+    "region_id": "REG-013",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00117",
+    "region_id": "REG-013",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00118",
+    "region_id": "REG-014",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00119",
+    "region_id": "REG-014",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00120",
+    "region_id": "REG-014",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00121",
+    "region_id": "REG-014",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00122",
+    "region_id": "REG-014",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00123",
+    "region_id": "REG-014",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00124",
+    "region_id": "REG-014",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00125",
+    "region_id": "REG-014",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00126",
+    "region_id": "REG-014",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00127",
+    "region_id": "REG-015",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00128",
+    "region_id": "REG-015",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00129",
+    "region_id": "REG-015",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00130",
+    "region_id": "REG-015",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00131",
+    "region_id": "REG-015",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00132",
+    "region_id": "REG-015",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00133",
+    "region_id": "REG-015",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00134",
+    "region_id": "REG-015",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00135",
+    "region_id": "REG-015",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00136",
+    "region_id": "REG-016",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00137",
+    "region_id": "REG-016",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00138",
+    "region_id": "REG-016",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00139",
+    "region_id": "REG-016",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00140",
+    "region_id": "REG-016",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00141",
+    "region_id": "REG-016",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00142",
+    "region_id": "REG-016",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00143",
+    "region_id": "REG-016",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00144",
+    "region_id": "REG-016",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00145",
+    "region_id": "REG-017",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00146",
+    "region_id": "REG-017",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00147",
+    "region_id": "REG-017",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00148",
+    "region_id": "REG-017",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00149",
+    "region_id": "REG-017",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00150",
+    "region_id": "REG-017",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00151",
+    "region_id": "REG-017",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00152",
+    "region_id": "REG-017",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00153",
+    "region_id": "REG-017",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00154",
+    "region_id": "REG-018",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00155",
+    "region_id": "REG-018",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00156",
+    "region_id": "REG-018",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00157",
+    "region_id": "REG-018",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00158",
+    "region_id": "REG-018",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00159",
+    "region_id": "REG-018",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00160",
+    "region_id": "REG-018",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00161",
+    "region_id": "REG-018",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00162",
+    "region_id": "REG-018",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00163",
+    "region_id": "REG-019",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00164",
+    "region_id": "REG-019",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00165",
+    "region_id": "REG-019",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00166",
+    "region_id": "REG-019",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00167",
+    "region_id": "REG-019",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00168",
+    "region_id": "REG-019",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00169",
+    "region_id": "REG-019",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00170",
+    "region_id": "REG-019",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00171",
+    "region_id": "REG-019",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00172",
+    "region_id": "REG-020",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00173",
+    "region_id": "REG-020",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00174",
+    "region_id": "REG-020",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00175",
+    "region_id": "REG-020",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00176",
+    "region_id": "REG-020",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00177",
+    "region_id": "REG-020",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00178",
+    "region_id": "REG-020",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00179",
+    "region_id": "REG-020",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00180",
+    "region_id": "REG-020",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00181",
+    "region_id": "REG-021",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00182",
+    "region_id": "REG-021",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00183",
+    "region_id": "REG-021",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00184",
+    "region_id": "REG-021",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00185",
+    "region_id": "REG-021",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00186",
+    "region_id": "REG-021",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00187",
+    "region_id": "REG-021",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00188",
+    "region_id": "REG-021",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00189",
+    "region_id": "REG-021",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00190",
+    "region_id": "REG-022",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00191",
+    "region_id": "REG-022",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00192",
+    "region_id": "REG-022",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00193",
+    "region_id": "REG-022",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00194",
+    "region_id": "REG-022",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00195",
+    "region_id": "REG-022",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00196",
+    "region_id": "REG-022",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00197",
+    "region_id": "REG-022",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00198",
+    "region_id": "REG-022",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00199",
+    "region_id": "REG-023",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00200",
+    "region_id": "REG-023",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00201",
+    "region_id": "REG-023",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00202",
+    "region_id": "REG-023",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00203",
+    "region_id": "REG-023",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00204",
+    "region_id": "REG-023",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00205",
+    "region_id": "REG-023",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00206",
+    "region_id": "REG-023",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00207",
+    "region_id": "REG-023",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00208",
+    "region_id": "REG-024",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00209",
+    "region_id": "REG-024",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00210",
+    "region_id": "REG-024",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00211",
+    "region_id": "REG-024",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00212",
+    "region_id": "REG-024",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00213",
+    "region_id": "REG-024",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00214",
+    "region_id": "REG-024",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00215",
+    "region_id": "REG-024",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00216",
+    "region_id": "REG-024",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00217",
+    "region_id": "REG-025",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00218",
+    "region_id": "REG-025",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00219",
+    "region_id": "REG-025",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00220",
+    "region_id": "REG-025",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00221",
+    "region_id": "REG-025",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00222",
+    "region_id": "REG-025",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00223",
+    "region_id": "REG-025",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00224",
+    "region_id": "REG-025",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00225",
+    "region_id": "REG-025",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00226",
+    "region_id": "REG-026",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00227",
+    "region_id": "REG-026",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00228",
+    "region_id": "REG-026",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00229",
+    "region_id": "REG-026",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00230",
+    "region_id": "REG-026",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00231",
+    "region_id": "REG-026",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00232",
+    "region_id": "REG-026",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00233",
+    "region_id": "REG-026",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00234",
+    "region_id": "REG-026",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00235",
+    "region_id": "REG-027",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00236",
+    "region_id": "REG-027",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00237",
+    "region_id": "REG-027",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00238",
+    "region_id": "REG-027",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00239",
+    "region_id": "REG-027",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00240",
+    "region_id": "REG-027",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00241",
+    "region_id": "REG-027",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00242",
+    "region_id": "REG-027",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00243",
+    "region_id": "REG-027",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00244",
+    "region_id": "REG-028",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00245",
+    "region_id": "REG-028",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00246",
+    "region_id": "REG-028",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00247",
+    "region_id": "REG-028",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00248",
+    "region_id": "REG-028",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00249",
+    "region_id": "REG-028",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00250",
+    "region_id": "REG-028",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00251",
+    "region_id": "REG-028",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00252",
+    "region_id": "REG-028",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00253",
+    "region_id": "REG-029",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00254",
+    "region_id": "REG-029",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00255",
+    "region_id": "REG-029",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00256",
+    "region_id": "REG-029",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00257",
+    "region_id": "REG-029",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00258",
+    "region_id": "REG-029",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00259",
+    "region_id": "REG-029",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00260",
+    "region_id": "REG-029",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00261",
+    "region_id": "REG-029",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00262",
+    "region_id": "REG-030",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00263",
+    "region_id": "REG-030",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00264",
+    "region_id": "REG-030",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00265",
+    "region_id": "REG-030",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00266",
+    "region_id": "REG-030",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00267",
+    "region_id": "REG-030",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00268",
+    "region_id": "REG-030",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00269",
+    "region_id": "REG-030",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00270",
+    "region_id": "REG-030",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00271",
+    "region_id": "REG-031",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00272",
+    "region_id": "REG-031",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00273",
+    "region_id": "REG-031",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00274",
+    "region_id": "REG-031",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00275",
+    "region_id": "REG-031",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00276",
+    "region_id": "REG-031",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00277",
+    "region_id": "REG-031",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00278",
+    "region_id": "REG-031",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00279",
+    "region_id": "REG-031",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00280",
+    "region_id": "REG-032",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00281",
+    "region_id": "REG-032",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00282",
+    "region_id": "REG-032",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00283",
+    "region_id": "REG-032",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00284",
+    "region_id": "REG-032",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00285",
+    "region_id": "REG-032",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00286",
+    "region_id": "REG-032",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00287",
+    "region_id": "REG-032",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00288",
+    "region_id": "REG-032",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00289",
+    "region_id": "REG-033",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00290",
+    "region_id": "REG-033",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00291",
+    "region_id": "REG-033",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00292",
+    "region_id": "REG-033",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00293",
+    "region_id": "REG-033",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00294",
+    "region_id": "REG-033",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00295",
+    "region_id": "REG-033",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00296",
+    "region_id": "REG-033",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00297",
+    "region_id": "REG-033",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00298",
+    "region_id": "REG-034",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00299",
+    "region_id": "REG-034",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00300",
+    "region_id": "REG-034",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00301",
+    "region_id": "REG-034",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00302",
+    "region_id": "REG-034",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00303",
+    "region_id": "REG-034",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00304",
+    "region_id": "REG-034",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00305",
+    "region_id": "REG-034",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00306",
+    "region_id": "REG-034",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00307",
+    "region_id": "REG-035",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00308",
+    "region_id": "REG-035",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00309",
+    "region_id": "REG-035",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00310",
+    "region_id": "REG-035",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00311",
+    "region_id": "REG-035",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00312",
+    "region_id": "REG-035",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00313",
+    "region_id": "REG-035",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00314",
+    "region_id": "REG-035",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00315",
+    "region_id": "REG-035",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00316",
+    "region_id": "REG-036",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00317",
+    "region_id": "REG-036",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00318",
+    "region_id": "REG-036",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00319",
+    "region_id": "REG-036",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00320",
+    "region_id": "REG-036",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00321",
+    "region_id": "REG-036",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00322",
+    "region_id": "REG-036",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00323",
+    "region_id": "REG-036",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00324",
+    "region_id": "REG-036",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00325",
+    "region_id": "REG-037",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00326",
+    "region_id": "REG-037",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00327",
+    "region_id": "REG-037",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00328",
+    "region_id": "REG-037",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00329",
+    "region_id": "REG-037",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00330",
+    "region_id": "REG-037",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00331",
+    "region_id": "REG-037",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00332",
+    "region_id": "REG-037",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00333",
+    "region_id": "REG-037",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00334",
+    "region_id": "REG-038",
+    "domain": "mosque_examples",
+    "target": 25,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00335",
+    "region_id": "REG-038",
+    "domain": "architecture_references",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00336",
+    "region_id": "REG-038",
+    "domain": "vendors",
+    "target": 40,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00337",
+    "region_id": "REG-038",
+    "domain": "products",
+    "target": 80,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00338",
+    "region_id": "REG-038",
+    "domain": "materials_crafts",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00339",
+    "region_id": "REG-038",
+    "domain": "professionals",
+    "target": 15,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00340",
+    "region_id": "REG-038",
+    "domain": "landscape_plants",
+    "target": 20,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00341",
+    "region_id": "REG-038",
+    "domain": "cost_observations",
+    "target": 50,
+    "status": "population_queue",
+    "verified_count": 0
+  },
+  {
+    "id": "RGQ-00342",
+    "region_id": "REG-038",
+    "domain": "regulatory_sources",
+    "target": 10,
+    "status": "population_queue",
+    "verified_count": 0
+  }
+]

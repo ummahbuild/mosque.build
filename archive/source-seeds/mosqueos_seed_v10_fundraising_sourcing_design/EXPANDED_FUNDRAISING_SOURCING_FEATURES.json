@@ -1,0 +1,2810 @@
+[
+  {
+    "id": "FUND-0001",
+    "domain": "design_artifacts",
+    "name": "save unlimited scenario",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0002",
+    "domain": "design_artifacts",
+    "name": "branch scenario",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0003",
+    "domain": "design_artifacts",
+    "name": "lock milestone",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0004",
+    "domain": "design_artifacts",
+    "name": "scenario diff",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0005",
+    "domain": "design_artifacts",
+    "name": "plan diff",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0006",
+    "domain": "design_artifacts",
+    "name": "material diff",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0007",
+    "domain": "design_artifacts",
+    "name": "cost diff",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0008",
+    "domain": "design_artifacts",
+    "name": "permit diff",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0009",
+    "domain": "design_artifacts",
+    "name": "render history",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0010",
+    "domain": "design_artifacts",
+    "name": "camera bookmarks",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0011",
+    "domain": "design_artifacts",
+    "name": "day/night render",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0012",
+    "domain": "design_artifacts",
+    "name": "aerial render",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0013",
+    "domain": "design_artifacts",
+    "name": "interior render",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0014",
+    "domain": "design_artifacts",
+    "name": "before/after render",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0015",
+    "domain": "design_artifacts",
+    "name": "360 render",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0016",
+    "domain": "design_artifacts",
+    "name": "walkthrough",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0017",
+    "domain": "design_artifacts",
+    "name": "construction phase render",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0018",
+    "domain": "design_artifacts",
+    "name": "donor render",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0019",
+    "domain": "design_artifacts",
+    "name": "social render",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0020",
+    "domain": "design_artifacts",
+    "name": "presentation board",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0021",
+    "domain": "design_artifacts",
+    "name": "PDF plan",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0022",
+    "domain": "design_artifacts",
+    "name": "SVG plan",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0023",
+    "domain": "design_artifacts",
+    "name": "DXF export",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0024",
+    "domain": "design_artifacts",
+    "name": "IFC export",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0025",
+    "domain": "design_artifacts",
+    "name": "GLTF export",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0026",
+    "domain": "design_artifacts",
+    "name": "BOQ export",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0027",
+    "domain": "design_artifacts",
+    "name": "cost export",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0028",
+    "domain": "design_artifacts",
+    "name": "re-upload PDF",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0029",
+    "domain": "design_artifacts",
+    "name": "re-upload DXF",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0030",
+    "domain": "design_artifacts",
+    "name": "re-upload IFC",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0031",
+    "domain": "design_artifacts",
+    "name": "re-upload image plan",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0032",
+    "domain": "design_artifacts",
+    "name": "calibrate plan",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0033",
+    "domain": "design_artifacts",
+    "name": "overlay plan",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0034",
+    "domain": "design_artifacts",
+    "name": "accept diff",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0035",
+    "domain": "design_artifacts",
+    "name": "reject diff",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0036",
+    "domain": "design_artifacts",
+    "name": "render approval",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0037",
+    "domain": "sourcing_marketplace",
+    "name": "product category",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0038",
+    "domain": "sourcing_marketplace",
+    "name": "product class",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0039",
+    "domain": "sourcing_marketplace",
+    "name": "manufacturer",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0040",
+    "domain": "sourcing_marketplace",
+    "name": "model",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0041",
+    "domain": "sourcing_marketplace",
+    "name": "variant",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0042",
+    "domain": "sourcing_marketplace",
+    "name": "supplier offer",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0043",
+    "domain": "sourcing_marketplace",
+    "name": "price snapshot",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0044",
+    "domain": "sourcing_marketplace",
+    "name": "lead time",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0045",
+    "domain": "sourcing_marketplace",
+    "name": "MOQ",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0046",
+    "domain": "sourcing_marketplace",
+    "name": "warranty",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0047",
+    "domain": "sourcing_marketplace",
+    "name": "country origin",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0048",
+    "domain": "sourcing_marketplace",
+    "name": "delivery region",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0049",
+    "domain": "sourcing_marketplace",
+    "name": "installer available",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0050",
+    "domain": "sourcing_marketplace",
+    "name": "sample available",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0051",
+    "domain": "sourcing_marketplace",
+    "name": "BIM available",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0052",
+    "domain": "sourcing_marketplace",
+    "name": "CAD available",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0053",
+    "domain": "sourcing_marketplace",
+    "name": "spec sheet",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0054",
+    "domain": "sourcing_marketplace",
+    "name": "certificate",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0055",
+    "domain": "sourcing_marketplace",
+    "name": "project reference",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0056",
+    "domain": "sourcing_marketplace",
+    "name": "request sample",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0057",
+    "domain": "sourcing_marketplace",
+    "name": "sample status",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0058",
+    "domain": "sourcing_marketplace",
+    "name": "RFQ",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0059",
+    "domain": "sourcing_marketplace",
+    "name": "quote",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0060",
+    "domain": "sourcing_marketplace",
+    "name": "quote expiry",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0061",
+    "domain": "sourcing_marketplace",
+    "name": "quote compare",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0062",
+    "domain": "sourcing_marketplace",
+    "name": "supplier shortlist",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0063",
+    "domain": "sourcing_marketplace",
+    "name": "supplier prequal",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0064",
+    "domain": "sourcing_marketplace",
+    "name": "technical question",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0065",
+    "domain": "sourcing_marketplace",
+    "name": "approved product",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0066",
+    "domain": "sourcing_marketplace",
+    "name": "approved alternate",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0067",
+    "domain": "sourcing_marketplace",
+    "name": "procurement hold",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0068",
+    "domain": "sourcing_marketplace",
+    "name": "long lead alert",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0069",
+    "domain": "sourcing_marketplace",
+    "name": "supplier claim",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0070",
+    "domain": "sourcing_marketplace",
+    "name": "catalog feed",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0071",
+    "domain": "sourcing_marketplace",
+    "name": "supplier API",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0072",
+    "domain": "sourcing_marketplace",
+    "name": "sponsored listing disclosure",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0073",
+    "domain": "funding_legal",
+    "name": "entity verification",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0074",
+    "domain": "funding_legal",
+    "name": "EIN field",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0075",
+    "domain": "funding_legal",
+    "name": "501c3 status",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0076",
+    "domain": "funding_legal",
+    "name": "church automatic exemption mode",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0077",
+    "domain": "funding_legal",
+    "name": "IRS recognized mode",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0078",
+    "domain": "funding_legal",
+    "name": "fiscal sponsor mode",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0079",
+    "domain": "funding_legal",
+    "name": "nonexempt mode",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0080",
+    "domain": "funding_legal",
+    "name": "authorized representative",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0081",
+    "domain": "funding_legal",
+    "name": "bank recipient verification",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0082",
+    "domain": "funding_legal",
+    "name": "receipt issuer",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0083",
+    "domain": "funding_legal",
+    "name": "tax-deductible toggle gated",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0084",
+    "domain": "funding_legal",
+    "name": "jurisdiction fundraising registration",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0085",
+    "domain": "funding_legal",
+    "name": "restricted fund terms",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0086",
+    "domain": "funding_legal",
+    "name": "legal review status",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0087",
+    "domain": "funding_legal",
+    "name": "charity status expiry/review",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0088",
+    "domain": "funding_legal",
+    "name": "entity document vault",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0089",
+    "domain": "funding_legal",
+    "name": "campaign recipient lock",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0090",
+    "domain": "crowdfunding",
+    "name": "LaunchGood link",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0091",
+    "domain": "crowdfunding",
+    "name": "LaunchGood campaign snapshot",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0092",
+    "domain": "crowdfunding",
+    "name": "external raised amount",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0093",
+    "domain": "crowdfunding",
+    "name": "external update sync",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0094",
+    "domain": "crowdfunding",
+    "name": "Stripe donations",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0095",
+    "domain": "crowdfunding",
+    "name": "Stripe recurring",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0096",
+    "domain": "crowdfunding",
+    "name": "Stripe payment links",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0097",
+    "domain": "crowdfunding",
+    "name": "PayPal donations",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0098",
+    "domain": "crowdfunding",
+    "name": "PayPal nonprofit",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0099",
+    "domain": "crowdfunding",
+    "name": "bank transfer",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0100",
+    "domain": "crowdfunding",
+    "name": "cash donation",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0101",
+    "domain": "crowdfunding",
+    "name": "M-Pesa adapter",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0102",
+    "domain": "crowdfunding",
+    "name": "campaign total aggregation",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0103",
+    "domain": "crowdfunding",
+    "name": "channel fees",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0104",
+    "domain": "crowdfunding",
+    "name": "net proceeds",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0105",
+    "domain": "crowdfunding",
+    "name": "refunds",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0106",
+    "domain": "crowdfunding",
+    "name": "chargebacks",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0107",
+    "domain": "crowdfunding",
+    "name": "external transfer reconciliation",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0108",
+    "domain": "crowdfunding",
+    "name": "campaign attribution",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0109",
+    "domain": "crowdfunding",
+    "name": "UTM tracking",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0110",
+    "domain": "crowdfunding",
+    "name": "channel health",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0111",
+    "domain": "campaign_builder",
+    "name": "whole mosque campaign",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0112",
+    "domain": "campaign_builder",
+    "name": "land campaign",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0113",
+    "domain": "campaign_builder",
+    "name": "conversion campaign",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0114",
+    "domain": "campaign_builder",
+    "name": "wudu campaign",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0115",
+    "domain": "campaign_builder",
+    "name": "madrasa campaign",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0116",
+    "domain": "campaign_builder",
+    "name": "solar campaign",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0117",
+    "domain": "campaign_builder",
+    "name": "carpet campaign",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0118",
+    "domain": "campaign_builder",
+    "name": "accessibility campaign",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0119",
+    "domain": "campaign_builder",
+    "name": "waqf campaign",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0120",
+    "domain": "campaign_builder",
+    "name": "maintenance reserve campaign",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0121",
+    "domain": "campaign_builder",
+    "name": "campaign story",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0122",
+    "domain": "campaign_builder",
+    "name": "community need block",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0123",
+    "domain": "campaign_builder",
+    "name": "3D render block",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0124",
+    "domain": "campaign_builder",
+    "name": "floor plan block",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0125",
+    "domain": "campaign_builder",
+    "name": "budget block",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0126",
+    "domain": "campaign_builder",
+    "name": "timeline block",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0127",
+    "domain": "campaign_builder",
+    "name": "team block",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0128",
+    "domain": "campaign_builder",
+    "name": "permit stage block",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0129",
+    "domain": "campaign_builder",
+    "name": "risk block",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0130",
+    "domain": "campaign_builder",
+    "name": "operating plan block",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0131",
+    "domain": "campaign_builder",
+    "name": "updates",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0132",
+    "domain": "campaign_builder",
+    "name": "FAQ",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0133",
+    "domain": "campaign_builder",
+    "name": "share kit",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0134",
+    "domain": "campaign_builder",
+    "name": "QR campaign",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0135",
+    "domain": "campaign_builder",
+    "name": "embed widget",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0136",
+    "domain": "capital_stack",
+    "name": "funding sources",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0137",
+    "domain": "capital_stack",
+    "name": "uses of funds",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0138",
+    "domain": "capital_stack",
+    "name": "funding gap",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0139",
+    "domain": "capital_stack",
+    "name": "cash on hand",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0140",
+    "domain": "capital_stack",
+    "name": "pledged",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0141",
+    "domain": "capital_stack",
+    "name": "collected",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0142",
+    "domain": "capital_stack",
+    "name": "restricted available",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0143",
+    "domain": "capital_stack",
+    "name": "committed cost",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0144",
+    "domain": "capital_stack",
+    "name": "90-day cash need",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0145",
+    "domain": "capital_stack",
+    "name": "construction threshold",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0146",
+    "domain": "capital_stack",
+    "name": "phase threshold",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0147",
+    "domain": "capital_stack",
+    "name": "bridge scenario",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0148",
+    "domain": "capital_stack",
+    "name": "matching gifts",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0149",
+    "domain": "capital_stack",
+    "name": "major donor pipeline",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0150",
+    "domain": "capital_stack",
+    "name": "grant pipeline",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0151",
+    "domain": "capital_stack",
+    "name": "in-kind valuation",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0152",
+    "domain": "capital_stack",
+    "name": "land donation",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0153",
+    "domain": "capital_stack",
+    "name": "pro bono services",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0154",
+    "domain": "capital_stack",
+    "name": "FX downside",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0155",
+    "domain": "capital_stack",
+    "name": "cost overrun scenario",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0156",
+    "domain": "capital_stack",
+    "name": "operating reserve target",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0157",
+    "domain": "capital_stack",
+    "name": "waqf coverage",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0158",
+    "domain": "component_crowdfunding",
+    "name": "fundable 3D object",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0159",
+    "domain": "component_crowdfunding",
+    "name": "symbolic sponsorship",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0160",
+    "domain": "component_crowdfunding",
+    "name": "object target",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0161",
+    "domain": "component_crowdfunding",
+    "name": "partial funding",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0162",
+    "domain": "component_crowdfunding",
+    "name": "multiple donors",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0163",
+    "domain": "component_crowdfunding",
+    "name": "anonymous donor",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0164",
+    "domain": "component_crowdfunding",
+    "name": "public donor name consent",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0165",
+    "domain": "component_crowdfunding",
+    "name": "funded state",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0166",
+    "domain": "component_crowdfunding",
+    "name": "ordered state",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0167",
+    "domain": "component_crowdfunding",
+    "name": "installed state",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0168",
+    "domain": "component_crowdfunding",
+    "name": "commissioned state",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0169",
+    "domain": "component_crowdfunding",
+    "name": "donor update",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0170",
+    "domain": "component_crowdfunding",
+    "name": "object price change",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0171",
+    "domain": "component_crowdfunding",
+    "name": "restricted allocation",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0172",
+    "domain": "component_crowdfunding",
+    "name": "overfund handling",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0173",
+    "domain": "component_crowdfunding",
+    "name": "underfund handling",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0174",
+    "domain": "component_crowdfunding",
+    "name": "component substitution",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0175",
+    "domain": "component_crowdfunding",
+    "name": "sponsorship certificate",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0176",
+    "domain": "component_crowdfunding",
+    "name": "campaign object inventory",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0177",
+    "domain": "donation_ops",
+    "name": "pledge",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0178",
+    "domain": "donation_ops",
+    "name": "one-time donation",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0179",
+    "domain": "donation_ops",
+    "name": "recurring donation",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0180",
+    "domain": "donation_ops",
+    "name": "settlement",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0181",
+    "domain": "donation_ops",
+    "name": "payout",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0182",
+    "domain": "donation_ops",
+    "name": "cash box session",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0183",
+    "domain": "donation_ops",
+    "name": "two-person cash count",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0184",
+    "domain": "donation_ops",
+    "name": "deposit match",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0185",
+    "domain": "donation_ops",
+    "name": "receipt",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0186",
+    "domain": "donation_ops",
+    "name": "corrected receipt",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0187",
+    "domain": "donation_ops",
+    "name": "void receipt",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0188",
+    "domain": "donation_ops",
+    "name": "processor fee",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0189",
+    "domain": "donation_ops",
+    "name": "platform fee",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0190",
+    "domain": "donation_ops",
+    "name": "FX conversion",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0191",
+    "domain": "donation_ops",
+    "name": "restricted allocation",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0192",
+    "domain": "donation_ops",
+    "name": "unrestricted allocation",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0193",
+    "domain": "donation_ops",
+    "name": "refund",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0194",
+    "domain": "donation_ops",
+    "name": "partial refund",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0195",
+    "domain": "donation_ops",
+    "name": "chargeback",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0196",
+    "domain": "donation_ops",
+    "name": "reversal",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0197",
+    "domain": "donation_ops",
+    "name": "unmatched transaction",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0198",
+    "domain": "donation_ops",
+    "name": "manual adjustment",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0199",
+    "domain": "donation_ops",
+    "name": "reconciliation approval",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0200",
+    "domain": "donation_ops",
+    "name": "fund transfer approval",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0201",
+    "domain": "donation_ops",
+    "name": "donor statement",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0202",
+    "domain": "transparency",
+    "name": "public budget",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0203",
+    "domain": "transparency",
+    "name": "summary budget",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0204",
+    "domain": "transparency",
+    "name": "full budget",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0205",
+    "domain": "transparency",
+    "name": "raised vs spent",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0206",
+    "domain": "transparency",
+    "name": "fund balance",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0207",
+    "domain": "transparency",
+    "name": "construction progress",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0208",
+    "domain": "transparency",
+    "name": "photo update",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0209",
+    "domain": "transparency",
+    "name": "milestone update",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0210",
+    "domain": "transparency",
+    "name": "change-order disclosure",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0211",
+    "domain": "transparency",
+    "name": "budget revision notice",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0212",
+    "domain": "transparency",
+    "name": "donor update log",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0213",
+    "domain": "transparency",
+    "name": "campaign closeout",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0214",
+    "domain": "transparency",
+    "name": "annual project report",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0215",
+    "domain": "transparency",
+    "name": "download report",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  },
+  {
+    "id": "FUND-0216",
+    "domain": "transparency",
+    "name": "audit document link",
+    "status": "specified",
+    "acceptance": [
+      "role/capability defined",
+      "money/legal claims source or verification state",
+      "version history preserved",
+      "provider error and disconnect behavior defined",
+      "audit trail exists for high-value changes"
+    ]
+  }
+]

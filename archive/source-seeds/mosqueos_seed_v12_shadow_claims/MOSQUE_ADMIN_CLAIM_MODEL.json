@@ -1,0 +1,37 @@
+{
+  "roles": [
+    "primary_owner",
+    "mosque_admin",
+    "profile_editor",
+    "prayer_schedule_editor",
+    "program_editor",
+    "finance_campaign_admin",
+    "facilities_admin",
+    "read_only"
+  ],
+  "approval_workflows": [
+    "new claim review",
+    "ownership transfer",
+    "legal entity change",
+    "official domain change",
+    "donation recipient change",
+    "tax-status change",
+    "dispute resolution"
+  ],
+  "admin_console": [
+    "claim evidence viewer",
+    "DNS verification evidence",
+    "source comparison",
+    "field-level provenance",
+    "risk score",
+    "competing claims",
+    "audit log",
+    "approve",
+    "approve limited role",
+    "request more evidence",
+    "reject",
+    "revoke",
+    "transfer",
+    "lock sensitive fields"
+  ]
+}

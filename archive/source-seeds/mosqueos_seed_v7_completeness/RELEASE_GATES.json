@@ -1,0 +1,60 @@
+{
+  "PWA": [
+    "install manifest",
+    "offline shell",
+    "responsive",
+    "SEO public pages",
+    "auth recovery",
+    "upload retry",
+    "provider unavailable states",
+    "payments production smoke",
+    "accessibility audit",
+    "performance budgets",
+    "sitemap/robots/canonical validation"
+  ],
+  "Expo": [
+    "iOS/Android builds",
+    "deep links",
+    "push permissions",
+    "camera",
+    "location optional permission",
+    "offline queue",
+    "file/photo upload retry",
+    "secure session",
+    "store privacy disclosures",
+    "crash reporting",
+    "accessibility",
+    "release channel rollback plan"
+  ],
+  "backend": [
+    "migration test",
+    "RLS test suite",
+    "backup",
+    "restore test",
+    "webhook idempotency",
+    "rate limiting",
+    "audit logging",
+    "secrets check",
+    "storage policies",
+    "data retention jobs",
+    "job dead-letter handling",
+    "monitoring/alerts"
+  ],
+  "construction_professional": [
+    "legal disclaimers",
+    "jurisdiction source disclosure",
+    "estimate confidence display",
+    "structural/MEP professional-review gates",
+    "permit approval evidence state",
+    "no unsafe scan inference",
+    "drawing rights validation"
+  ],
+  "financial": [
+    "restricted funds",
+    "payment reconciliation",
+    "refund/chargeback",
+    "cash reconciliation",
+    "audit exports",
+    "currency snapshot immutability"
+  ]
+}

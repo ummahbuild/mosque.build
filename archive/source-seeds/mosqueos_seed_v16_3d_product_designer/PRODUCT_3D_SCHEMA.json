@@ -1,0 +1,89 @@
+{
+  "product_3d_record_fields": [
+    "product_3d_id",
+    "product_id",
+    "vendor_id",
+    "canonical_product_class",
+    "version",
+    "status",
+    "source_file",
+    "source_file_hash",
+    "source_format",
+    "model_units",
+    "scale_verified",
+    "origin_point",
+    "bounding_box",
+    "dimensions",
+    "weight",
+    "materials",
+    "finishes",
+    "LOD",
+    "polygon_count",
+    "texture_set",
+    "anchor_points",
+    "connection_points",
+    "service_connections",
+    "clearance_zones",
+    "maintenance_zones",
+    "mounting_rules",
+    "orientation_rules",
+    "host_requirements",
+    "environmental_limits",
+    "performance_data",
+    "cost_ref",
+    "lead_time_ref",
+    "BIM_CAD_refs",
+    "license",
+    "media_rights",
+    "review_status",
+    "published_at"
+  ],
+  "formats": [
+    "GLB/GLTF",
+    "IFC",
+    "OBJ",
+    "FBX import",
+    "STEP metadata/import adapter",
+    "DWG/DXF 2D reference",
+    "manufacturer BIM object"
+  ],
+  "status": [
+    "draft",
+    "processing",
+    "needs_scale_review",
+    "needs_metadata",
+    "technical_review",
+    "approved_for_library",
+    "published",
+    "superseded",
+    "withdrawn"
+  ],
+  "lod_levels": [
+    {
+      "id": "LOD_preview",
+      "purpose": "directory thumbnail/fast mobile preview",
+      "polygon_budget": "very low"
+    },
+    {
+      "id": "LOD_design",
+      "purpose": "interactive project design",
+      "polygon_budget": "moderate"
+    },
+    {
+      "id": "LOD_detail",
+      "purpose": "close-up/render/product review",
+      "polygon_budget": "higher"
+    },
+    {
+      "id": "LOD_bim",
+      "purpose": "IFC/BIM data mapping",
+      "note": "semantic information more important than render detail"
+    }
+  ],
+  "guardrails": [
+    "Never infer real structural capacity from mesh appearance.",
+    "3D model dimensions must be verified against manufacturer/vendor technical data before technical approval.",
+    "Decorative render meshes and authoritative dimensional/BIM representations may be separate assets.",
+    "Vendor-supplied files retain vendor/source provenance and license."
+  ]
+}

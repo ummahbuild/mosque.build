@@ -1,0 +1,309 @@
+[
+  {
+    "id": "former_church",
+    "name": "Former Church / Chapel",
+    "advantages": [
+      "existing assembly use may reduce some conversion friction in some jurisdictions",
+      "large worship hall",
+      "existing parking possible",
+      "toilets and offices may already exist",
+      "recognizable civic architecture"
+    ],
+    "risks": [
+      "heritage/listing restrictions",
+      "denominational fixtures and iconography removal decisions",
+      "qibla misalignment",
+      "fixed pew layouts",
+      "organ lofts/stages",
+      "acoustic profile",
+      "roof maintenance",
+      "community sensitivities",
+      "title/use covenants"
+    ],
+    "scan_focus": [
+      "sanctuary geometry",
+      "qibla fit",
+      "pew anchoring",
+      "stage/chancel",
+      "balconies",
+      "toilets",
+      "parking",
+      "fire exits",
+      "roof",
+      "bell tower/steeple",
+      "heritage fabric"
+    ]
+  },
+  {
+    "id": "community_center",
+    "name": "Former Community Center",
+    "advantages": [
+      "already community-oriented",
+      "multiple rooms",
+      "kitchen",
+      "accessible entrance often present",
+      "parking",
+      "flexible halls"
+    ],
+    "risks": [
+      "hall proportions may be poor for saff layout",
+      "low ceilings",
+      "acoustics",
+      "insufficient wudu drainage",
+      "shared-use restrictions",
+      "aging mechanical systems"
+    ],
+    "scan_focus": [
+      "main hall",
+      "classrooms",
+      "kitchen",
+      "toilets",
+      "storage",
+      "HVAC",
+      "roof",
+      "accessible circulation",
+      "parking",
+      "qibla"
+    ]
+  },
+  {
+    "id": "warehouse",
+    "name": "Warehouse / Light Industrial",
+    "advantages": [
+      "large column-light floorplates",
+      "high ceilings",
+      "flexibility",
+      "often lower fit-out cost per m2"
+    ],
+    "risks": [
+      "change of occupancy",
+      "fire/life-safety upgrades",
+      "thermal envelope",
+      "toilets",
+      "accessibility",
+      "parking",
+      "daylight",
+      "acoustics",
+      "sprinklers",
+      "industrial contamination"
+    ],
+    "scan_focus": [
+      "column grid",
+      "clear height",
+      "slab",
+      "roof",
+      "loading bays",
+      "hazard history",
+      "fire suppression",
+      "toilets",
+      "parking",
+      "qibla efficiency"
+    ]
+  },
+  {
+    "id": "retail",
+    "name": "Retail / Supermarket / Big Box",
+    "advantages": [
+      "visibility",
+      "parking",
+      "open floor area",
+      "services",
+      "public access"
+    ],
+    "risks": [
+      "lease restrictions",
+      "change of use",
+      "landlord consent",
+      "parking conflicts",
+      "shopping-center covenants",
+      "delivery circulation",
+      "operating hours"
+    ],
+    "scan_focus": [
+      "lease/title",
+      "parking allocation",
+      "service yard",
+      "toilets",
+      "roof",
+      "HVAC",
+      "signage rights",
+      "entrances",
+      "qibla"
+    ]
+  },
+  {
+    "id": "school",
+    "name": "Former School",
+    "advantages": [
+      "classrooms ready for madrasa",
+      "assembly hall",
+      "toilets",
+      "play areas",
+      "kitchen",
+      "administration"
+    ],
+    "risks": [
+      "school-specific safeguarding/site issues",
+      "maintenance backlog",
+      "asbestos/lead depending on age/jurisdiction",
+      "oversized campus costs",
+      "sports/field maintenance"
+    ],
+    "scan_focus": [
+      "assembly hall",
+      "classrooms",
+      "fire compartments",
+      "toilets",
+      "accessibility",
+      "roof",
+      "boilers/HVAC",
+      "kitchen",
+      "grounds",
+      "qibla"
+    ]
+  },
+  {
+    "id": "office",
+    "name": "Office Building",
+    "advantages": [
+      "good services",
+      "accessible entries",
+      "offices/classrooms",
+      "urban locations"
+    ],
+    "risks": [
+      "small structural bays",
+      "low floor-to-floor height",
+      "parking",
+      "landlord restrictions",
+      "floor loading",
+      "prayer hall fragmentation"
+    ],
+    "scan_focus": [
+      "column grid",
+      "core",
+      "stairs/lifts",
+      "toilets",
+      "floor loading",
+      "MEP",
+      "qibla fit",
+      "lease/title"
+    ]
+  },
+  {
+    "id": "house",
+    "name": "House / Villa",
+    "advantages": [
+      "low entry cost in some markets",
+      "neighborhood presence",
+      "incremental start"
+    ],
+    "risks": [
+      "residential zoning/use",
+      "neighbors/noise",
+      "parking",
+      "occupant load",
+      "fire exits",
+      "accessibility",
+      "toilets",
+      "structural walls",
+      "insurance"
+    ],
+    "scan_focus": [
+      "zoning",
+      "parking",
+      "street width",
+      "room walls",
+      "stairs",
+      "toilets",
+      "accessible entrance",
+      "garden",
+      "neighbors",
+      "qibla"
+    ]
+  },
+  {
+    "id": "cinema_theater",
+    "name": "Cinema / Theater",
+    "advantages": [
+      "assembly occupancy history",
+      "large halls",
+      "acoustics infrastructure",
+      "toilets",
+      "egress"
+    ],
+    "risks": [
+      "raked floors",
+      "windowless halls",
+      "complex HVAC",
+      "stage/screen removal",
+      "lease restrictions",
+      "high energy use"
+    ],
+    "scan_focus": [
+      "floor slope",
+      "egress",
+      "HVAC",
+      "toilets",
+      "acoustics",
+      "roof",
+      "qibla",
+      "lobby"
+    ]
+  },
+  {
+    "id": "hotel",
+    "name": "Hotel / Hostel",
+    "advantages": [
+      "rooms for classrooms/offices/guest accommodation",
+      "commercial kitchen",
+      "toilets",
+      "lifts"
+    ],
+    "risks": [
+      "fragmented prayer space",
+      "complex fire strategy",
+      "operating conversion cost",
+      "high maintenance",
+      "vertical circulation"
+    ],
+    "scan_focus": [
+      "ballroom",
+      "ground-floor halls",
+      "cores",
+      "guest floors",
+      "fire systems",
+      "kitchen",
+      "parking",
+      "qibla"
+    ]
+  },
+  {
+    "id": "factory",
+    "name": "Factory / Industrial Plant",
+    "advantages": [
+      "large span structure",
+      "land",
+      "expansion space"
+    ],
+    "risks": [
+      "contamination",
+      "heavy remediation",
+      "industrial zoning",
+      "poor public access",
+      "utilities",
+      "fire risk legacy"
+    ],
+    "scan_focus": [
+      "Phase I/II environmental assessment where relevant",
+      "roof",
+      "structure",
+      "floor slab",
+      "hazards",
+      "fire systems",
+      "parking",
+      "public transport",
+      "qibla"
+    ]
+  }
+]

@@ -1,0 +1,4838 @@
+[
+  {
+    "id": "SCRBL-00001",
+    "feature": "phone room scan",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00002",
+    "feature": "phone room scan",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00003",
+    "feature": "phone room scan",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00004",
+    "feature": "phone room scan",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00005",
+    "feature": "phone room scan",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00006",
+    "feature": "phone room scan",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00007",
+    "feature": "LiDAR room scan",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00008",
+    "feature": "LiDAR room scan",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00009",
+    "feature": "LiDAR room scan",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00010",
+    "feature": "LiDAR room scan",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00011",
+    "feature": "LiDAR room scan",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00012",
+    "feature": "LiDAR room scan",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00013",
+    "feature": "manual dimension capture",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00014",
+    "feature": "manual dimension capture",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00015",
+    "feature": "manual dimension capture",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00016",
+    "feature": "manual dimension capture",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00017",
+    "feature": "manual dimension capture",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00018",
+    "feature": "manual dimension capture",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00019",
+    "feature": "photo anchored measurement",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00020",
+    "feature": "photo anchored measurement",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00021",
+    "feature": "photo anchored measurement",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00022",
+    "feature": "photo anchored measurement",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00023",
+    "feature": "photo anchored measurement",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00024",
+    "feature": "photo anchored measurement",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00025",
+    "feature": "floor plan calibration",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00026",
+    "feature": "floor plan calibration",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00027",
+    "feature": "floor plan calibration",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00028",
+    "feature": "floor plan calibration",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00029",
+    "feature": "floor plan calibration",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00030",
+    "feature": "floor plan calibration",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00031",
+    "feature": "existing wall recognition",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00032",
+    "feature": "existing wall recognition",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00033",
+    "feature": "existing wall recognition",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00034",
+    "feature": "existing wall recognition",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00035",
+    "feature": "existing wall recognition",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00036",
+    "feature": "existing wall recognition",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00037",
+    "feature": "door/window recognition",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00038",
+    "feature": "door/window recognition",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00039",
+    "feature": "door/window recognition",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00040",
+    "feature": "door/window recognition",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00041",
+    "feature": "door/window recognition",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00042",
+    "feature": "door/window recognition",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00043",
+    "feature": "column recognition",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00044",
+    "feature": "column recognition",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00045",
+    "feature": "column recognition",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00046",
+    "feature": "column recognition",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00047",
+    "feature": "column recognition",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00048",
+    "feature": "column recognition",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00049",
+    "feature": "service point mapping",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00050",
+    "feature": "service point mapping",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00051",
+    "feature": "service point mapping",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00052",
+    "feature": "service point mapping",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00053",
+    "feature": "service point mapping",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00054",
+    "feature": "service point mapping",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00055",
+    "feature": "condition tags",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00056",
+    "feature": "condition tags",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00057",
+    "feature": "condition tags",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00058",
+    "feature": "condition tags",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00059",
+    "feature": "condition tags",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00060",
+    "feature": "condition tags",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00061",
+    "feature": "measurement confidence",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00062",
+    "feature": "measurement confidence",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00063",
+    "feature": "measurement confidence",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00064",
+    "feature": "measurement confidence",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00065",
+    "feature": "measurement confidence",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00066",
+    "feature": "measurement confidence",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00067",
+    "feature": "scan version history",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00068",
+    "feature": "scan version history",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00069",
+    "feature": "scan version history",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00070",
+    "feature": "scan version history",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00071",
+    "feature": "scan version history",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00072",
+    "feature": "scan version history",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00073",
+    "feature": "verified survey override",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00074",
+    "feature": "verified survey override",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00075",
+    "feature": "verified survey override",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00076",
+    "feature": "verified survey override",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00077",
+    "feature": "verified survey override",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00078",
+    "feature": "verified survey override",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00079",
+    "feature": "existing-room classification",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00080",
+    "feature": "existing-room classification",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00081",
+    "feature": "existing-room classification",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00082",
+    "feature": "existing-room classification",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00083",
+    "feature": "existing-room classification",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00084",
+    "feature": "existing-room classification",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00085",
+    "feature": "convert room to prayer",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00086",
+    "feature": "convert room to prayer",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00087",
+    "feature": "convert room to prayer",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00088",
+    "feature": "convert room to prayer",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00089",
+    "feature": "convert room to prayer",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00090",
+    "feature": "convert room to prayer",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00091",
+    "feature": "convert room to women/family prayer",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00092",
+    "feature": "convert room to women/family prayer",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00093",
+    "feature": "convert room to women/family prayer",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00094",
+    "feature": "convert room to women/family prayer",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00095",
+    "feature": "convert room to women/family prayer",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00096",
+    "feature": "convert room to women/family prayer",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00097",
+    "feature": "temporary musalla",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00098",
+    "feature": "temporary musalla",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00099",
+    "feature": "temporary musalla",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00100",
+    "feature": "temporary musalla",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00101",
+    "feature": "temporary musalla",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00102",
+    "feature": "temporary musalla",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00103",
+    "feature": "Jumuah overflow conversion",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00104",
+    "feature": "Jumuah overflow conversion",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00105",
+    "feature": "Jumuah overflow conversion",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00106",
+    "feature": "Jumuah overflow conversion",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00107",
+    "feature": "Jumuah overflow conversion",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00108",
+    "feature": "Jumuah overflow conversion",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00109",
+    "feature": "qibla overlay",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00110",
+    "feature": "qibla overlay",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00111",
+    "feature": "qibla overlay",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00112",
+    "feature": "qibla overlay",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00113",
+    "feature": "qibla overlay",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00114",
+    "feature": "qibla overlay",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00115",
+    "feature": "angled saff layout",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00116",
+    "feature": "angled saff layout",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00117",
+    "feature": "angled saff layout",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00118",
+    "feature": "angled saff layout",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00119",
+    "feature": "angled saff layout",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00120",
+    "feature": "angled saff layout",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00121",
+    "feature": "capacity calculation",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00122",
+    "feature": "capacity calculation",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00123",
+    "feature": "capacity calculation",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00124",
+    "feature": "capacity calculation",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00125",
+    "feature": "capacity calculation",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00126",
+    "feature": "capacity calculation",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00127",
+    "feature": "column obstruction scoring",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00128",
+    "feature": "column obstruction scoring",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00129",
+    "feature": "column obstruction scoring",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00130",
+    "feature": "column obstruction scoring",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00131",
+    "feature": "column obstruction scoring",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00132",
+    "feature": "column obstruction scoring",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00133",
+    "feature": "door-row conflict",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00134",
+    "feature": "door-row conflict",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00135",
+    "feature": "door-row conflict",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00136",
+    "feature": "door-row conflict",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00137",
+    "feature": "door-row conflict",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00138",
+    "feature": "door-row conflict",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00139",
+    "feature": "shoe zone recommendation",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00140",
+    "feature": "shoe zone recommendation",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00141",
+    "feature": "shoe zone recommendation",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00142",
+    "feature": "shoe zone recommendation",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00143",
+    "feature": "shoe zone recommendation",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00144",
+    "feature": "shoe zone recommendation",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00145",
+    "feature": "Quran storage placement",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00146",
+    "feature": "Quran storage placement",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00147",
+    "feature": "Quran storage placement",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00148",
+    "feature": "Quran storage placement",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00149",
+    "feature": "Quran storage placement",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00150",
+    "feature": "Quran storage placement",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00151",
+    "feature": "audio zone recommendation",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00152",
+    "feature": "audio zone recommendation",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00153",
+    "feature": "audio zone recommendation",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00154",
+    "feature": "audio zone recommendation",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00155",
+    "feature": "audio zone recommendation",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00156",
+    "feature": "audio zone recommendation",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00157",
+    "feature": "lighting recommendation",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00158",
+    "feature": "lighting recommendation",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00159",
+    "feature": "lighting recommendation",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00160",
+    "feature": "lighting recommendation",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00161",
+    "feature": "lighting recommendation",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00162",
+    "feature": "lighting recommendation",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00163",
+    "feature": "carpet quantity",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00164",
+    "feature": "carpet quantity",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00165",
+    "feature": "carpet quantity",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00166",
+    "feature": "carpet quantity",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00167",
+    "feature": "carpet quantity",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00168",
+    "feature": "carpet quantity",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00169",
+    "feature": "women/family partition options",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00170",
+    "feature": "women/family partition options",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00171",
+    "feature": "women/family partition options",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00172",
+    "feature": "women/family partition options",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00173",
+    "feature": "women/family partition options",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00174",
+    "feature": "women/family partition options",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00175",
+    "feature": "accessible prayer positions",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00176",
+    "feature": "accessible prayer positions",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00177",
+    "feature": "accessible prayer positions",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00178",
+    "feature": "accessible prayer positions",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00179",
+    "feature": "accessible prayer positions",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00180",
+    "feature": "accessible prayer positions",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00181",
+    "feature": "wudu proximity score",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00182",
+    "feature": "wudu proximity score",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00183",
+    "feature": "wudu proximity score",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00184",
+    "feature": "wudu proximity score",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00185",
+    "feature": "wudu proximity score",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00186",
+    "feature": "wudu proximity score",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00187",
+    "feature": "convert room to wudu",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00188",
+    "feature": "convert room to wudu",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00189",
+    "feature": "convert room to wudu",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00190",
+    "feature": "convert room to wudu",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00191",
+    "feature": "convert room to wudu",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00192",
+    "feature": "convert room to wudu",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00193",
+    "feature": "wudu station auto-layout",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00194",
+    "feature": "wudu station auto-layout",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00195",
+    "feature": "wudu station auto-layout",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00196",
+    "feature": "wudu station auto-layout",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00197",
+    "feature": "wudu station auto-layout",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00198",
+    "feature": "wudu station auto-layout",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00199",
+    "feature": "drainage point planning",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00200",
+    "feature": "drainage point planning",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00201",
+    "feature": "drainage point planning",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00202",
+    "feature": "drainage point planning",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00203",
+    "feature": "drainage point planning",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00204",
+    "feature": "drainage point planning",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00205",
+    "feature": "water demand update",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00206",
+    "feature": "water demand update",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00207",
+    "feature": "water demand update",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00208",
+    "feature": "water demand update",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00209",
+    "feature": "water demand update",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00210",
+    "feature": "water demand update",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00211",
+    "feature": "wet/dry zone",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00212",
+    "feature": "wet/dry zone",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00213",
+    "feature": "wet/dry zone",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00214",
+    "feature": "wet/dry zone",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00215",
+    "feature": "wet/dry zone",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00216",
+    "feature": "wet/dry zone",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00217",
+    "feature": "convert room to madrasa",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00218",
+    "feature": "convert room to madrasa",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00219",
+    "feature": "convert room to madrasa",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00220",
+    "feature": "convert room to madrasa",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00221",
+    "feature": "convert room to madrasa",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00222",
+    "feature": "convert room to madrasa",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00223",
+    "feature": "convert room to community hall",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00224",
+    "feature": "convert room to community hall",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00225",
+    "feature": "convert room to community hall",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00226",
+    "feature": "convert room to community hall",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00227",
+    "feature": "convert room to community hall",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00228",
+    "feature": "convert room to community hall",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00229",
+    "feature": "dual-use room planner",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00230",
+    "feature": "dual-use room planner",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00231",
+    "feature": "dual-use room planner",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00232",
+    "feature": "dual-use room planner",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00233",
+    "feature": "dual-use room planner",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00234",
+    "feature": "dual-use room planner",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00235",
+    "feature": "iftar setup planner",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00236",
+    "feature": "iftar setup planner",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00237",
+    "feature": "iftar setup planner",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00238",
+    "feature": "iftar setup planner",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00239",
+    "feature": "iftar setup planner",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00240",
+    "feature": "iftar setup planner",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00241",
+    "feature": "demolition layer",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00242",
+    "feature": "demolition layer",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00243",
+    "feature": "demolition layer",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00244",
+    "feature": "demolition layer",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00245",
+    "feature": "demolition layer",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00246",
+    "feature": "demolition layer",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00247",
+    "feature": "new-work layer",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00248",
+    "feature": "new-work layer",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00249",
+    "feature": "new-work layer",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00250",
+    "feature": "new-work layer",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00251",
+    "feature": "new-work layer",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00252",
+    "feature": "new-work layer",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00253",
+    "feature": "reuse layer",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00254",
+    "feature": "reuse layer",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00255",
+    "feature": "reuse layer",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00256",
+    "feature": "reuse layer",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00257",
+    "feature": "reuse layer",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00258",
+    "feature": "reuse layer",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00259",
+    "feature": "salvage inventory",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00260",
+    "feature": "salvage inventory",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00261",
+    "feature": "salvage inventory",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00262",
+    "feature": "salvage inventory",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00263",
+    "feature": "salvage inventory",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00264",
+    "feature": "salvage inventory",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00265",
+    "feature": "existing asset reuse",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00266",
+    "feature": "existing asset reuse",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00267",
+    "feature": "existing asset reuse",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00268",
+    "feature": "existing asset reuse",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00269",
+    "feature": "existing asset reuse",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00270",
+    "feature": "existing asset reuse",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00271",
+    "feature": "repair-vs-replace",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00272",
+    "feature": "repair-vs-replace",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00273",
+    "feature": "repair-vs-replace",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00274",
+    "feature": "repair-vs-replace",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00275",
+    "feature": "repair-vs-replace",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00276",
+    "feature": "repair-vs-replace",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00277",
+    "feature": "conversion cost delta",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00278",
+    "feature": "conversion cost delta",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00279",
+    "feature": "conversion cost delta",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00280",
+    "feature": "conversion cost delta",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00281",
+    "feature": "conversion cost delta",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00282",
+    "feature": "conversion cost delta",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00283",
+    "feature": "cost per added prayer place",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00284",
+    "feature": "cost per added prayer place",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00285",
+    "feature": "cost per added prayer place",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00286",
+    "feature": "cost per added prayer place",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00287",
+    "feature": "cost per added prayer place",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00288",
+    "feature": "cost per added prayer place",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00289",
+    "feature": "conversion timeline",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00290",
+    "feature": "conversion timeline",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00291",
+    "feature": "conversion timeline",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00292",
+    "feature": "conversion timeline",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00293",
+    "feature": "conversion timeline",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00294",
+    "feature": "conversion timeline",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00295",
+    "feature": "construction phase generator",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00296",
+    "feature": "construction phase generator",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00297",
+    "feature": "construction phase generator",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00298",
+    "feature": "construction phase generator",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00299",
+    "feature": "construction phase generator",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00300",
+    "feature": "construction phase generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00301",
+    "feature": "permit trigger flags",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00302",
+    "feature": "permit trigger flags",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00303",
+    "feature": "permit trigger flags",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00304",
+    "feature": "permit trigger flags",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00305",
+    "feature": "permit trigger flags",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00306",
+    "feature": "permit trigger flags",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00307",
+    "feature": "change-of-use checklist",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00308",
+    "feature": "change-of-use checklist",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00309",
+    "feature": "change-of-use checklist",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00310",
+    "feature": "change-of-use checklist",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00311",
+    "feature": "change-of-use checklist",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00312",
+    "feature": "change-of-use checklist",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00313",
+    "feature": "fire/egress review flag",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00314",
+    "feature": "fire/egress review flag",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00315",
+    "feature": "fire/egress review flag",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00316",
+    "feature": "fire/egress review flag",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00317",
+    "feature": "fire/egress review flag",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00318",
+    "feature": "fire/egress review flag",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00319",
+    "feature": "accessibility review flag",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00320",
+    "feature": "accessibility review flag",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00321",
+    "feature": "accessibility review flag",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00322",
+    "feature": "accessibility review flag",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00323",
+    "feature": "accessibility review flag",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00324",
+    "feature": "accessibility review flag",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00325",
+    "feature": "product sourcing from converted room",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00326",
+    "feature": "product sourcing from converted room",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00327",
+    "feature": "product sourcing from converted room",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00328",
+    "feature": "product sourcing from converted room",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00329",
+    "feature": "product sourcing from converted room",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00330",
+    "feature": "product sourcing from converted room",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00331",
+    "feature": "add conversion items to cart",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00332",
+    "feature": "add conversion items to cart",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00333",
+    "feature": "add conversion items to cart",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00334",
+    "feature": "add conversion items to cart",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00335",
+    "feature": "add conversion items to cart",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00336",
+    "feature": "add conversion items to cart",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00337",
+    "feature": "fund conversion campaign",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00338",
+    "feature": "fund conversion campaign",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00339",
+    "feature": "fund conversion campaign",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00340",
+    "feature": "fund conversion campaign",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00341",
+    "feature": "fund conversion campaign",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00342",
+    "feature": "fund conversion campaign",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00343",
+    "feature": "phased opening plan",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00344",
+    "feature": "phased opening plan",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00345",
+    "feature": "phased opening plan",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00346",
+    "feature": "phased opening plan",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00347",
+    "feature": "phased opening plan",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00348",
+    "feature": "phased opening plan",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00349",
+    "feature": "before/after render",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00350",
+    "feature": "before/after render",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00351",
+    "feature": "before/after render",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00352",
+    "feature": "before/after render",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00353",
+    "feature": "before/after render",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00354",
+    "feature": "before/after render",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00355",
+    "feature": "before/after floor plan",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00356",
+    "feature": "before/after floor plan",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00357",
+    "feature": "before/after floor plan",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00358",
+    "feature": "before/after floor plan",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00359",
+    "feature": "before/after floor plan",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00360",
+    "feature": "before/after floor plan",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00361",
+    "feature": "conversion scenario compare",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00362",
+    "feature": "conversion scenario compare",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00363",
+    "feature": "conversion scenario compare",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00364",
+    "feature": "conversion scenario compare",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00365",
+    "feature": "conversion scenario compare",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00366",
+    "feature": "conversion scenario compare",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00367",
+    "feature": "scan-to-as-built handover",
+    "slice": "UX/spec",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00368",
+    "feature": "scan-to-as-built handover",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00369",
+    "feature": "scan-to-as-built handover",
+    "slice": "geometry/engine",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00370",
+    "feature": "scan-to-as-built handover",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00371",
+    "feature": "scan-to-as-built handover",
+    "slice": "Expo/scan",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  },
+  {
+    "id": "SCRBL-00372",
+    "feature": "scan-to-as-built handover",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "existing/proposed states stay separate",
+      "scan uncertainty preserved",
+      "budget/schedule integration works",
+      "professional review gates defined",
+      "offline/mobile behavior tested where relevant"
+    ]
+  }
+]

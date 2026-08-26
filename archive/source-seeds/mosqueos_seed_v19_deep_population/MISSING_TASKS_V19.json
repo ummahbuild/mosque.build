@@ -1,0 +1,650 @@
+[
+  {
+    "id": "GAP-0001",
+    "area": "design",
+    "task": "roof parametrics",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0002",
+    "area": "design",
+    "task": "stair/vertical circulation deeper engine",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0003",
+    "area": "design",
+    "task": "facade pattern/jali generator",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0004",
+    "area": "design",
+    "task": "acoustic zoning",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0005",
+    "area": "design",
+    "task": "daylight/shading",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0006",
+    "area": "design",
+    "task": "landscape",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0007",
+    "area": "design",
+    "task": "parking/site circulation",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0008",
+    "area": "design",
+    "task": "sections/elevations automation",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0009",
+    "area": "construction",
+    "task": "resource loading",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0010",
+    "area": "construction",
+    "task": "crew productivity",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0011",
+    "area": "construction",
+    "task": "earned value",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0012",
+    "area": "construction",
+    "task": "weather delays",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0013",
+    "area": "construction",
+    "task": "temporary works register",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0014",
+    "area": "construction",
+    "task": "permit-to-work optional module",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0015",
+    "area": "construction",
+    "task": "material storage inventory",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0016",
+    "area": "construction",
+    "task": "equipment utilization",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0017",
+    "area": "construction",
+    "task": "site induction",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0018",
+    "area": "cost",
+    "task": "regional labor",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0019",
+    "area": "cost",
+    "task": "plant rates",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0020",
+    "area": "cost",
+    "task": "professional fees",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0021",
+    "area": "cost",
+    "task": "utility connection fees",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0022",
+    "area": "cost",
+    "task": "permit fees",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0023",
+    "area": "cost",
+    "task": "escalation curves",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0024",
+    "area": "cost",
+    "task": "shipping quote ingestion",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0025",
+    "area": "cost",
+    "task": "tariff classifier",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0026",
+    "area": "marketplace",
+    "task": "500 product records",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0027",
+    "area": "marketplace",
+    "task": "verified distributor relationships",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0028",
+    "area": "marketplace",
+    "task": "sample tracking",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0029",
+    "area": "marketplace",
+    "task": "substitution workflow",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0030",
+    "area": "marketplace",
+    "task": "returns/warranty",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0031",
+    "area": "marketplace",
+    "task": "supplier performance",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0032",
+    "area": "directory",
+    "task": "more real mosque ingestion",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0033",
+    "area": "directory",
+    "task": "claim onboarding copy",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0034",
+    "area": "directory",
+    "task": "duplicate resolution UI",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0035",
+    "area": "directory",
+    "task": "per-field freshness expiry",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0036",
+    "area": "fundraising",
+    "task": "fiscal sponsor onboarding",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0037",
+    "area": "fundraising",
+    "task": "grant database adapters",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0038",
+    "area": "fundraising",
+    "task": "matching gifts",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0039",
+    "area": "fundraising",
+    "task": "pledge collections",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0040",
+    "area": "fundraising",
+    "task": "public closeout reporting",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0041",
+    "area": "operations",
+    "task": "cleaning route optimization",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0042",
+    "area": "operations",
+    "task": "room booking",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0043",
+    "area": "operations",
+    "task": "staff shift scheduler",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0044",
+    "area": "operations",
+    "task": "utility anomaly alerts",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0045",
+    "area": "operations",
+    "task": "capital reserve forecast",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0046",
+    "area": "operations",
+    "task": "annual condition survey",
+    "priority": "P1",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0047",
+    "area": "implementation",
+    "task": "actual monorepo",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0048",
+    "area": "implementation",
+    "task": "SQL migrations",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0049",
+    "area": "implementation",
+    "task": "RLS tests",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0050",
+    "area": "implementation",
+    "task": "API implementation",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0051",
+    "area": "implementation",
+    "task": "Three.js geometry package",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0052",
+    "area": "implementation",
+    "task": "Expo SQLite sync",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0053",
+    "area": "implementation",
+    "task": "CI",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  },
+  {
+    "id": "GAP-0054",
+    "area": "implementation",
+    "task": "seed runner",
+    "priority": "P0",
+    "status": "missing_or_partial",
+    "done_when": [
+      "implemented or factual data populated",
+      "tested/reviewed",
+      "canonical docs updated"
+    ]
+  }
+]

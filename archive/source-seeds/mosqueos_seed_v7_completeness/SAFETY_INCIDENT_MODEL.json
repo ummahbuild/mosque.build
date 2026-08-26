@@ -1,0 +1,32 @@
+{
+  "construction": [
+    "induction",
+    "PPE tracking",
+    "toolbox talks",
+    "hazard observations",
+    "near misses",
+    "incidents",
+    "first aid",
+    "permit-to-work record where project uses one",
+    "hot-work record",
+    "working-at-height checks",
+    "excavation checks",
+    "temporary electrical checks",
+    "public separation",
+    "site access log"
+  ],
+  "operations": [
+    "fire evacuation",
+    "medical emergency",
+    "missing child",
+    "slip/fall",
+    "food safety",
+    "crowd congestion",
+    "severe weather",
+    "utility outage",
+    "lift entrapment response",
+    "water leak",
+    "carbon monoxide/gas alarm where relevant"
+  ],
+  "privacy_rule": "Sensitive security plans, camera layouts and access credentials are restricted by role and excluded from public project pages."
+}

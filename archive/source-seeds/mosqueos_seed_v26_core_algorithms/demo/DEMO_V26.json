@@ -1,0 +1,29 @@
+{
+  "project": "demo_v26_green_adaptive_reuse",
+  "inputs": {
+    "building": {
+      "type": "warehouse",
+      "area_m2": 850
+    },
+    "program": {
+      "jumuah": 450,
+      "daily": 250
+    },
+    "landscape": {
+      "courtyard": true,
+      "rain_garden": true,
+      "trellis_facade": true
+    }
+  },
+  "gates": [
+    "closed room cycles found",
+    "prayer layout usable capacity > 0",
+    "takeoff generated",
+    "unknown rates surfaced",
+    "engineering assumptions present",
+    "local sourcing query prepared",
+    "construction package map prepared",
+    "landscape maintenance assets prepared"
+  ],
+  "truth": "synthetic demo only"
+}

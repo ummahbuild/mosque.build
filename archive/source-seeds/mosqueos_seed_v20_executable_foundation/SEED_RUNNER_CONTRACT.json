@@ -1,0 +1,20 @@
+{
+  "commands": [
+    "seed:core-taxonomy",
+    "seed:conversion-presets",
+    "seed:assemblies",
+    "seed:itp",
+    "seed:commissioning",
+    "seed:vendor-examples",
+    "seed:product-examples",
+    "seed:shadow-mosques",
+    "seed:demo-project"
+  ],
+  "rules": [
+    "idempotent upsert by stable IDs",
+    "environment-aware",
+    "factual data and demo data separated",
+    "demo data never published as real directory facts",
+    "seed logs counts created/updated/skipped"
+  ]
+}

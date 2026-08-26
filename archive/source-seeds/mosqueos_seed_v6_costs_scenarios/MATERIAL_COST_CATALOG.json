@@ -1,0 +1,6972 @@
+[
+  {
+    "id": "MAT-0001",
+    "name": "OPC cement",
+    "group": "cementitious",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0002",
+    "name": "PPC cement",
+    "group": "cementitious",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0003",
+    "name": "white cement",
+    "group": "cementitious",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0004",
+    "name": "masonry cement",
+    "group": "cementitious",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0005",
+    "name": "lime",
+    "group": "cementitious",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0006",
+    "name": "hydrated lime",
+    "group": "cementitious",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0007",
+    "name": "grout",
+    "group": "cementitious",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0008",
+    "name": "non-shrink grout",
+    "group": "cementitious",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0009",
+    "name": "tile adhesive",
+    "group": "cementitious",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0010",
+    "name": "self-leveling compound",
+    "group": "cementitious",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0011",
+    "name": "river sand",
+    "group": "aggregates",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0012",
+    "name": "manufactured sand",
+    "group": "aggregates",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0013",
+    "name": "ballast",
+    "group": "aggregates",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0014",
+    "name": "crushed stone",
+    "group": "aggregates",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0015",
+    "name": "gravel",
+    "group": "aggregates",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0016",
+    "name": "lightweight aggregate",
+    "group": "aggregates",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0017",
+    "name": "stone dust",
+    "group": "aggregates",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0018",
+    "name": "fill material",
+    "group": "aggregates",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0019",
+    "name": "hardcore",
+    "group": "aggregates",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0020",
+    "name": "topsoil",
+    "group": "aggregates",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0021",
+    "name": "ready-mix C20/25",
+    "group": "concrete",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0022",
+    "name": "ready-mix C25/30",
+    "group": "concrete",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0023",
+    "name": "ready-mix C30/37",
+    "group": "concrete",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0024",
+    "name": "precast slab",
+    "group": "concrete",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0025",
+    "name": "precast stair",
+    "group": "concrete",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0026",
+    "name": "precast lintel",
+    "group": "concrete",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0027",
+    "name": "precast column",
+    "group": "concrete",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0028",
+    "name": "precast beam",
+    "group": "concrete",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0029",
+    "name": "concrete paver",
+    "group": "concrete",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0030",
+    "name": "terrazzo precast",
+    "group": "concrete",
+    "default_unit": "m3",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0031",
+    "name": "rebar 8mm",
+    "group": "steel",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0032",
+    "name": "rebar 10mm",
+    "group": "steel",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0033",
+    "name": "rebar 12mm",
+    "group": "steel",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0034",
+    "name": "rebar 16mm",
+    "group": "steel",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0035",
+    "name": "rebar 20mm",
+    "group": "steel",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0036",
+    "name": "rebar 25mm",
+    "group": "steel",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0037",
+    "name": "structural steel section",
+    "group": "steel",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0038",
+    "name": "steel plate",
+    "group": "steel",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0039",
+    "name": "steel mesh",
+    "group": "steel",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0040",
+    "name": "stainless steel sheet",
+    "group": "steel",
+    "default_unit": "kg",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0041",
+    "name": "concrete block 100mm",
+    "group": "masonry",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0042",
+    "name": "concrete block 150mm",
+    "group": "masonry",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0043",
+    "name": "concrete block 200mm",
+    "group": "masonry",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0044",
+    "name": "fired clay brick",
+    "group": "masonry",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0045",
+    "name": "engineering brick",
+    "group": "masonry",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0046",
+    "name": "sand-lime brick",
+    "group": "masonry",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0047",
+    "name": "compressed earth block",
+    "group": "masonry",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0048",
+    "name": "adobe block",
+    "group": "masonry",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0049",
+    "name": "stone block",
+    "group": "masonry",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0050",
+    "name": "coral stone block",
+    "group": "masonry",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0051",
+    "name": "softwood framing",
+    "group": "timber",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0052",
+    "name": "hardwood joinery",
+    "group": "timber",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0053",
+    "name": "plywood",
+    "group": "timber",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0054",
+    "name": "marine plywood",
+    "group": "timber",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0055",
+    "name": "MDF",
+    "group": "timber",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0056",
+    "name": "OSB",
+    "group": "timber",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0057",
+    "name": "glulam beam",
+    "group": "timber",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0058",
+    "name": "CLT panel",
+    "group": "timber",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0059",
+    "name": "bamboo panel",
+    "group": "timber",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0060",
+    "name": "wood veneer",
+    "group": "timber",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0061",
+    "name": "galvanized steel roofing",
+    "group": "roofing",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0062",
+    "name": "aluminium roofing",
+    "group": "roofing",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0063",
+    "name": "standing seam roofing",
+    "group": "roofing",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0064",
+    "name": "clay roof tile",
+    "group": "roofing",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0065",
+    "name": "concrete roof tile",
+    "group": "roofing",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0066",
+    "name": "EPDM membrane",
+    "group": "roofing",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0067",
+    "name": "TPO membrane",
+    "group": "roofing",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0068",
+    "name": "bituminous membrane",
+    "group": "roofing",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0069",
+    "name": "roof insulation",
+    "group": "roofing",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0070",
+    "name": "roof flashing",
+    "group": "roofing",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0071",
+    "name": "mineral wool",
+    "group": "insulation",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0072",
+    "name": "glass wool",
+    "group": "insulation",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0073",
+    "name": "PIR board",
+    "group": "insulation",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0074",
+    "name": "EPS board",
+    "group": "insulation",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0075",
+    "name": "XPS board",
+    "group": "insulation",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0076",
+    "name": "cellulose",
+    "group": "insulation",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0077",
+    "name": "acoustic insulation",
+    "group": "insulation",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0078",
+    "name": "pipe insulation",
+    "group": "insulation",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0079",
+    "name": "duct insulation",
+    "group": "insulation",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0080",
+    "name": "reflective insulation",
+    "group": "insulation",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0081",
+    "name": "clear float glass",
+    "group": "glass_windows",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0082",
+    "name": "laminated glass",
+    "group": "glass_windows",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0083",
+    "name": "tempered glass",
+    "group": "glass_windows",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0084",
+    "name": "double glazing",
+    "group": "glass_windows",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0085",
+    "name": "low-e glazing",
+    "group": "glass_windows",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0086",
+    "name": "aluminium window",
+    "group": "glass_windows",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0087",
+    "name": "timber window",
+    "group": "glass_windows",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0088",
+    "name": "steel window",
+    "group": "glass_windows",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0089",
+    "name": "skylight",
+    "group": "glass_windows",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0090",
+    "name": "stained glass",
+    "group": "glass_windows",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0091",
+    "name": "solid timber door",
+    "group": "doors",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0092",
+    "name": "engineered timber door",
+    "group": "doors",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0093",
+    "name": "steel door",
+    "group": "doors",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0094",
+    "name": "fire-rated steel door",
+    "group": "doors",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0095",
+    "name": "aluminium glazed door",
+    "group": "doors",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0096",
+    "name": "automatic sliding door",
+    "group": "doors",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0097",
+    "name": "panic hardware set",
+    "group": "doors",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0098",
+    "name": "door closer",
+    "group": "doors",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0099",
+    "name": "access-control lock",
+    "group": "doors",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0100",
+    "name": "heavy-duty hinges",
+    "group": "doors",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0101",
+    "name": "marble slab",
+    "group": "stone_tile",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0102",
+    "name": "granite slab",
+    "group": "stone_tile",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0103",
+    "name": "limestone slab",
+    "group": "stone_tile",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0104",
+    "name": "sandstone slab",
+    "group": "stone_tile",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0105",
+    "name": "porcelain tile",
+    "group": "stone_tile",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0106",
+    "name": "ceramic tile",
+    "group": "stone_tile",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0107",
+    "name": "zellige tile",
+    "group": "stone_tile",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0108",
+    "name": "terracotta tile",
+    "group": "stone_tile",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0109",
+    "name": "mosaic tile",
+    "group": "stone_tile",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0110",
+    "name": "terrazzo",
+    "group": "stone_tile",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0111",
+    "name": "cement plaster",
+    "group": "plaster_paint",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0112",
+    "name": "lime plaster",
+    "group": "plaster_paint",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0113",
+    "name": "gypsum plaster",
+    "group": "plaster_paint",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0114",
+    "name": "acoustic plaster",
+    "group": "plaster_paint",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0115",
+    "name": "interior emulsion paint",
+    "group": "plaster_paint",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0116",
+    "name": "exterior acrylic paint",
+    "group": "plaster_paint",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0117",
+    "name": "epoxy floor coating",
+    "group": "plaster_paint",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0118",
+    "name": "limewash",
+    "group": "plaster_paint",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0119",
+    "name": "wood stain",
+    "group": "plaster_paint",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0120",
+    "name": "anti-corrosion coating",
+    "group": "plaster_paint",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0121",
+    "name": "wool mosque carpet",
+    "group": "prayer_carpet",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0122",
+    "name": "nylon mosque carpet",
+    "group": "prayer_carpet",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0123",
+    "name": "polypropylene mosque carpet",
+    "group": "prayer_carpet",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0124",
+    "name": "custom saff carpet",
+    "group": "prayer_carpet",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0125",
+    "name": "carpet tile",
+    "group": "prayer_carpet",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0126",
+    "name": "acoustic carpet underlay",
+    "group": "prayer_carpet",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0127",
+    "name": "felt underlay",
+    "group": "prayer_carpet",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0128",
+    "name": "carpet adhesive",
+    "group": "prayer_carpet",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0129",
+    "name": "carpet edge trim",
+    "group": "prayer_carpet",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0130",
+    "name": "portable prayer runner",
+    "group": "prayer_carpet",
+    "default_unit": "m2",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0131",
+    "name": "wudu tap",
+    "group": "wudu_plumbing",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0132",
+    "name": "wudu stool",
+    "group": "wudu_plumbing",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0133",
+    "name": "wudu bench",
+    "group": "wudu_plumbing",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0134",
+    "name": "stainless wudu trough",
+    "group": "wudu_plumbing",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0135",
+    "name": "stone wudu trough",
+    "group": "wudu_plumbing",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0136",
+    "name": "linear drain",
+    "group": "wudu_plumbing",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0137",
+    "name": "floor drain",
+    "group": "wudu_plumbing",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0138",
+    "name": "thermostatic mixing valve",
+    "group": "wudu_plumbing",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0139",
+    "name": "water heater",
+    "group": "wudu_plumbing",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0140",
+    "name": "water storage tank",
+    "group": "wudu_plumbing",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0141",
+    "name": "copper cable",
+    "group": "electrical",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0142",
+    "name": "distribution board",
+    "group": "electrical",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0143",
+    "name": "main switchboard",
+    "group": "electrical",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0144",
+    "name": "LED downlight",
+    "group": "electrical",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0145",
+    "name": "linear LED",
+    "group": "electrical",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0146",
+    "name": "chandelier fixture",
+    "group": "electrical",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0147",
+    "name": "emergency light",
+    "group": "electrical",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0148",
+    "name": "exit sign",
+    "group": "electrical",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0149",
+    "name": "solar PV module",
+    "group": "electrical",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0150",
+    "name": "battery storage module",
+    "group": "electrical",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0151",
+    "name": "ceiling fan",
+    "group": "hvac",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0152",
+    "name": "split AC unit",
+    "group": "hvac",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0153",
+    "name": "VRF indoor unit",
+    "group": "hvac",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0154",
+    "name": "VRF outdoor unit",
+    "group": "hvac",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0155",
+    "name": "air handling unit",
+    "group": "hvac",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0156",
+    "name": "ductwork",
+    "group": "hvac",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0157",
+    "name": "diffuser",
+    "group": "hvac",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0158",
+    "name": "heat pump",
+    "group": "hvac",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0159",
+    "name": "extract fan",
+    "group": "hvac",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0160",
+    "name": "air filter",
+    "group": "hvac",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0161",
+    "name": "gooseneck microphone",
+    "group": "audio_security",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0162",
+    "name": "wireless microphone",
+    "group": "audio_security",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0163",
+    "name": "column speaker",
+    "group": "audio_security",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0164",
+    "name": "DSP processor",
+    "group": "audio_security",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0165",
+    "name": "amplifier",
+    "group": "audio_security",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0166",
+    "name": "CCTV camera",
+    "group": "audio_security",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0167",
+    "name": "NVR",
+    "group": "audio_security",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0168",
+    "name": "access reader",
+    "group": "audio_security",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0169",
+    "name": "intercom",
+    "group": "audio_security",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  },
+  {
+    "id": "MAT-0170",
+    "name": "donation-box tamper sensor",
+    "group": "audio_security",
+    "default_unit": "each",
+    "cost_record": {
+      "local_quote": null,
+      "import_quote": null,
+      "currency": null,
+      "quote_date": null,
+      "geography": null,
+      "supplier": null,
+      "normalized_cost": null,
+      "confidence": "unpriced_until_source"
+    },
+    "cost_sources": [
+      "supplier_quote",
+      "market_price_snapshot",
+      "local_construction_index",
+      "commodity_index_if_applicable"
+    ],
+    "import_fields": [
+      "origin_country",
+      "HS_code_candidate",
+      "HS_status",
+      "freight",
+      "insurance",
+      "duty",
+      "VAT",
+      "fees",
+      "destination_transport"
+    ],
+    "lifecycle_fields": [
+      "service_life",
+      "cleaning",
+      "routine_maintenance",
+      "replacement_cost",
+      "salvage_value"
+    ],
+    "status": "taxonomy_complete_cost_requires_live_or_verified_quote"
+  }
+]

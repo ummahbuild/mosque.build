@@ -1,0 +1,1088 @@
+[
+  {
+    "id": "NEXT-0001",
+    "group": "geometry_editor",
+    "feature": "closed-room solver",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0002",
+    "group": "geometry_editor",
+    "feature": "room-from-wall loops",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0003",
+    "group": "geometry_editor",
+    "feature": "opening host validation",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0004",
+    "group": "geometry_editor",
+    "feature": "wall join cleanup",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0005",
+    "group": "geometry_editor",
+    "feature": "wall thickness offsets",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0006",
+    "group": "geometry_editor",
+    "feature": "multi-level coordinates",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0007",
+    "group": "geometry_editor",
+    "feature": "level copy/stack",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0008",
+    "group": "geometry_editor",
+    "feature": "roof footprint generation",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0009",
+    "group": "geometry_editor",
+    "feature": "section cut generation",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0010",
+    "group": "geometry_editor",
+    "feature": "elevation projection",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0011",
+    "group": "geometry_editor",
+    "feature": "stair run generator",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0012",
+    "group": "geometry_editor",
+    "feature": "landing generator",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0013",
+    "group": "geometry_editor",
+    "feature": "ramp generator",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0014",
+    "group": "geometry_editor",
+    "feature": "guard/handrail zones",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0015",
+    "group": "geometry_editor",
+    "feature": "vertical circulation connectivity graph",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0016",
+    "group": "geometry_editor",
+    "feature": "accessible route continuity",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0017",
+    "group": "geometry_editor",
+    "feature": "space boundary repair",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0018",
+    "group": "geometry_editor",
+    "feature": "room merge/split",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0019",
+    "group": "geometry_editor",
+    "feature": "area schedule",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0020",
+    "group": "geometry_editor",
+    "feature": "perimeter schedule",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0021",
+    "group": "geometry_editor",
+    "feature": "geometry validation dashboard",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0022",
+    "group": "geometry_editor",
+    "feature": "constraint conflict resolution",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0023",
+    "group": "geometry_editor",
+    "feature": "object transform history",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0024",
+    "group": "geometry_editor",
+    "feature": "geometry transaction rollback",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0025",
+    "group": "prayer_design",
+    "feature": "saff clipping to irregular rooms",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0026",
+    "group": "prayer_design",
+    "feature": "column exclusion zones",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0027",
+    "group": "prayer_design",
+    "feature": "door swing exclusion",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0028",
+    "group": "prayer_design",
+    "feature": "imam buffer zone",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0029",
+    "group": "prayer_design",
+    "feature": "accessible prayer bay",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0030",
+    "group": "prayer_design",
+    "feature": "women/family zone variants",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0031",
+    "group": "prayer_design",
+    "feature": "overflow room linking",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0032",
+    "group": "prayer_design",
+    "feature": "multi-room synchronized saff",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0033",
+    "group": "prayer_design",
+    "feature": "capacity by mode",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0034",
+    "group": "prayer_design",
+    "feature": "prayer circulation reset",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0035",
+    "group": "prayer_design",
+    "feature": "Jumuah entry simulation",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0036",
+    "group": "prayer_design",
+    "feature": "Ramadan/Taraweeh layout preset",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0037",
+    "group": "prayer_design",
+    "feature": "Eid overflow plan",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0038",
+    "group": "prayer_design",
+    "feature": "shoe-zone capacity",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0039",
+    "group": "prayer_design",
+    "feature": "qibla efficiency score",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0040",
+    "group": "prayer_design",
+    "feature": "front-row continuity score",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0041",
+    "group": "prayer_design",
+    "feature": "late-arrival circulation warning",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0042",
+    "group": "prayer_design",
+    "feature": "temporary divider planner",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0043",
+    "group": "prayer_design",
+    "feature": "carpet seam-to-saff alignment",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0044",
+    "group": "roof_facade_daylight",
+    "feature": "flat roof generator",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0045",
+    "group": "roof_facade_daylight",
+    "feature": "pitched roof generator",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0046",
+    "group": "roof_facade_daylight",
+    "feature": "multi-dome roof layout",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0047",
+    "group": "roof_facade_daylight",
+    "feature": "clerestory band generator",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0048",
+    "group": "roof_facade_daylight",
+    "feature": "roof drainage points",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0049",
+    "group": "roof_facade_daylight",
+    "feature": "gutter/downpipe concept",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0050",
+    "group": "roof_facade_daylight",
+    "feature": "roof maintenance path",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0051",
+    "group": "roof_facade_daylight",
+    "feature": "solar reserve zones",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0052",
+    "group": "roof_facade_daylight",
+    "feature": "skylight placement",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0053",
+    "group": "roof_facade_daylight",
+    "feature": "daylight aperture ratio",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0054",
+    "group": "roof_facade_daylight",
+    "feature": "solar/shading overlay",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0055",
+    "group": "roof_facade_daylight",
+    "feature": "facade bay generator",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0056",
+    "group": "roof_facade_daylight",
+    "feature": "arched opening array",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0057",
+    "group": "roof_facade_daylight",
+    "feature": "jali panel array",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0058",
+    "group": "roof_facade_daylight",
+    "feature": "screen open-ratio control",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0059",
+    "group": "roof_facade_daylight",
+    "feature": "facade material zones",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0060",
+    "group": "roof_facade_daylight",
+    "feature": "portal composition",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0061",
+    "group": "roof_facade_daylight",
+    "feature": "minaret placement zones",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0062",
+    "group": "roof_facade_daylight",
+    "feature": "courtyard shading devices",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0063",
+    "group": "roof_facade_daylight",
+    "feature": "rain-screen concept",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0064",
+    "group": "engineering",
+    "feature": "assumption register",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0065",
+    "group": "engineering",
+    "feature": "calculation reference register",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0066",
+    "group": "engineering",
+    "feature": "discipline signoff matrix",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0067",
+    "group": "engineering",
+    "feature": "design basis report",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0068",
+    "group": "engineering",
+    "feature": "structural concept compare",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0069",
+    "group": "engineering",
+    "feature": "MEP equipment schedule",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0070",
+    "group": "engineering",
+    "feature": "service route reservations",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0071",
+    "group": "engineering",
+    "feature": "vertical riser planner",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0072",
+    "group": "engineering",
+    "feature": "plant room space checker",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0073",
+    "group": "engineering",
+    "feature": "maintenance access solver",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0074",
+    "group": "engineering",
+    "feature": "replacement route solver",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0075",
+    "group": "engineering",
+    "feature": "electrical single-line metadata",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0076",
+    "group": "engineering",
+    "feature": "water schematic metadata",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0077",
+    "group": "engineering",
+    "feature": "drainage network metadata",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0078",
+    "group": "engineering",
+    "feature": "HVAC zone map",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0079",
+    "group": "engineering",
+    "feature": "fire strategy issue map",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0080",
+    "group": "engineering",
+    "feature": "accessibility issue map",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0081",
+    "group": "engineering",
+    "feature": "acoustic treatment zones",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0082",
+    "group": "engineering",
+    "feature": "daylight target inputs",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0083",
+    "group": "engineering",
+    "feature": "thermal-zone metadata",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0084",
+    "group": "engineering",
+    "feature": "commissioning requirement matrix",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0085",
+    "group": "engineering",
+    "feature": "engineering change impact",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0086",
+    "group": "takeoff_cost",
+    "feature": "wall finish takeoff",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0087",
+    "group": "takeoff_cost",
+    "feature": "floor finish takeoff",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0088",
+    "group": "takeoff_cost",
+    "feature": "ceiling takeoff",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0089",
+    "group": "takeoff_cost",
+    "feature": "door schedule quantities",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0090",
+    "group": "takeoff_cost",
+    "feature": "window schedule quantities",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0091",
+    "group": "takeoff_cost",
+    "feature": "wudu fixture quantity",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0092",
+    "group": "takeoff_cost",
+    "feature": "lighting quantity",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0093",
+    "group": "takeoff_cost",
+    "feature": "speaker quantity",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0094",
+    "group": "takeoff_cost",
+    "feature": "solar panel quantity",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0095",
+    "group": "takeoff_cost",
+    "feature": "roof membrane quantity",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0096",
+    "group": "takeoff_cost",
+    "feature": "demolition quantity",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0097",
+    "group": "takeoff_cost",
+    "feature": "salvage quantity",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0098",
+    "group": "takeoff_cost",
+    "feature": "reuse credit",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0099",
+    "group": "takeoff_cost",
+    "feature": "assembly explosion",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0100",
+    "group": "takeoff_cost",
+    "feature": "waste-factor library",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0101",
+    "group": "takeoff_cost",
+    "feature": "quantity override audit",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0102",
+    "group": "takeoff_cost",
+    "feature": "takeoff compare by version",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0103",
+    "group": "takeoff_cost",
+    "feature": "cost delta by object",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0104",
+    "group": "takeoff_cost",
+    "feature": "cost delta by room",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0105",
+    "group": "takeoff_cost",
+    "feature": "cost delta by system",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0106",
+    "group": "takeoff_cost",
+    "feature": "cost maturity scoring",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0107",
+    "group": "takeoff_cost",
+    "feature": "allowance-to-quote replacement",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0108",
+    "group": "takeoff_cost",
+    "feature": "committed-cost rollup",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0109",
+    "group": "takeoff_cost",
+    "feature": "forecast-at-completion",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0110",
+    "group": "local_sourcing",
+    "feature": "distance-to-site scoring",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0111",
+    "group": "local_sourcing",
+    "feature": "city/country/region filters",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0112",
+    "group": "local_sourcing",
+    "feature": "local manufacturer preference",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0113",
+    "group": "local_sourcing",
+    "feature": "local craft preference",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0114",
+    "group": "local_sourcing",
+    "feature": "reuse/refurbish option",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0115",
+    "group": "local_sourcing",
+    "feature": "technical equivalence matrix",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0116",
+    "group": "local_sourcing",
+    "feature": "substitution package",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0117",
+    "group": "local_sourcing",
+    "feature": "sample requirement rules",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0118",
+    "group": "local_sourcing",
+    "feature": "local installer availability",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0119",
+    "group": "local_sourcing",
+    "feature": "repairability score",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0120",
+    "group": "local_sourcing",
+    "feature": "spare-parts score",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0121",
+    "group": "local_sourcing",
+    "feature": "regional climate fit",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0122",
+    "group": "local_sourcing",
+    "feature": "material-origin disclosure",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0123",
+    "group": "local_sourcing",
+    "feature": "fabrication-origin disclosure",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0124",
+    "group": "local_sourcing",
+    "feature": "transport mode impact note",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0125",
+    "group": "local_sourcing",
+    "feature": "lead-time uncertainty",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0126",
+    "group": "local_sourcing",
+    "feature": "import dependency risk",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0127",
+    "group": "local_sourcing",
+    "feature": "local economic contribution note",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0128",
+    "group": "local_sourcing",
+    "feature": "local alternative alert",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0129",
+    "group": "local_sourcing",
+    "feature": "failed-local-search fallback",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0130",
+    "group": "construction_execution",
+    "feature": "construction package creation",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0131",
+    "group": "construction_execution",
+    "feature": "package scope matrix",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0132",
+    "group": "construction_execution",
+    "feature": "bid invitation",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0133",
+    "group": "construction_execution",
+    "feature": "bid clarification log",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0134",
+    "group": "construction_execution",
+    "feature": "technical bid analysis",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0135",
+    "group": "construction_execution",
+    "feature": "commercial bid analysis",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0136",
+    "group": "construction_execution",
+    "feature": "award recommendation",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0137",
+    "group": "construction_execution",
+    "feature": "submittal register",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0138",
+    "group": "construction_execution",
+    "feature": "shop drawing register",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0139",
+    "group": "construction_execution",
+    "feature": "sample register",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0140",
+    "group": "construction_execution",
+    "feature": "method statement register",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0141",
+    "group": "construction_execution",
+    "feature": "ITP register",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0142",
+    "group": "construction_execution",
+    "feature": "pre-install meeting",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0143",
+    "group": "construction_execution",
+    "feature": "site readiness checklist",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0144",
+    "group": "construction_execution",
+    "feature": "daily work plan",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0145",
+    "group": "construction_execution",
+    "feature": "crew allocation",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0146",
+    "group": "construction_execution",
+    "feature": "labor-hours tracking",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0147",
+    "group": "construction_execution",
+    "feature": "productivity observation",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0148",
+    "group": "construction_execution",
+    "feature": "equipment log",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0149",
+    "group": "construction_execution",
+    "feature": "delivery booking",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0150",
+    "group": "construction_execution",
+    "feature": "material storage locations",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0151",
+    "group": "construction_execution",
+    "feature": "temporary works register",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0152",
+    "group": "construction_execution",
+    "feature": "permit-to-work configurable record",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0153",
+    "group": "construction_execution",
+    "feature": "RFI register",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0154",
+    "group": "construction_execution",
+    "feature": "NCR register",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0155",
+    "group": "construction_execution",
+    "feature": "change event register",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0156",
+    "group": "construction_execution",
+    "feature": "change order register",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0157",
+    "group": "construction_execution",
+    "feature": "payment application",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0158",
+    "group": "construction_execution",
+    "feature": "retention/retainage tracking",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0159",
+    "group": "construction_execution",
+    "feature": "stored materials",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0160",
+    "group": "construction_execution",
+    "feature": "lookahead constraints",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0161",
+    "group": "construction_execution",
+    "feature": "weather delay",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0162",
+    "group": "construction_execution",
+    "feature": "neighbor/public disruption log",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0163",
+    "group": "construction_execution",
+    "feature": "construction readiness score",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0164",
+    "group": "commissioning_handover",
+    "feature": "system readiness matrix",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0165",
+    "group": "commissioning_handover",
+    "feature": "pre-functional checklist",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0166",
+    "group": "commissioning_handover",
+    "feature": "functional test script",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0167",
+    "group": "commissioning_handover",
+    "feature": "integrated scenario test",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0168",
+    "group": "commissioning_handover",
+    "feature": "deferred test",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0169",
+    "group": "commissioning_handover",
+    "feature": "training attendance",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0170",
+    "group": "commissioning_handover",
+    "feature": "O&M completeness",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0171",
+    "group": "commissioning_handover",
+    "feature": "asset data completeness",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0172",
+    "group": "commissioning_handover",
+    "feature": "warranty completeness",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0173",
+    "group": "commissioning_handover",
+    "feature": "spares completeness",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0174",
+    "group": "commissioning_handover",
+    "feature": "key/access handover",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0175",
+    "group": "commissioning_handover",
+    "feature": "open-punch classification",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0176",
+    "group": "commissioning_handover",
+    "feature": "opening readiness score",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0177",
+    "group": "commissioning_handover",
+    "feature": "seasonal commissioning",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0178",
+    "group": "commissioning_handover",
+    "feature": "post-occupancy review",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0179",
+    "group": "commissioning_handover",
+    "feature": "defects period tracker",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0180",
+    "group": "commissioning_handover",
+    "feature": "warranty claim",
+    "status": "specified"
+  },
+  {
+    "id": "NEXT-0181",
+    "group": "commissioning_handover",
+    "feature": "asset preventive-maintenance seed",
+    "status": "specified"
+  }
+]

@@ -1,0 +1,2522 @@
+[
+  {
+    "queue_id": "operations_001",
+    "theme": "annual_budget",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_002",
+    "theme": "staffing",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_003",
+    "theme": "cleaning",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_004",
+    "theme": "utilities",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_005",
+    "theme": "maintenance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_006",
+    "theme": "insurance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_007",
+    "theme": "programs",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_008",
+    "theme": "madrasa",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_009",
+    "theme": "security",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_010",
+    "theme": "capital_reserve",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_011",
+    "theme": "annual_report",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_012",
+    "theme": "annual_budget",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_013",
+    "theme": "staffing",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_014",
+    "theme": "cleaning",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_015",
+    "theme": "utilities",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_016",
+    "theme": "maintenance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_017",
+    "theme": "insurance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_018",
+    "theme": "programs",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_019",
+    "theme": "madrasa",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_020",
+    "theme": "security",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_021",
+    "theme": "capital_reserve",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_022",
+    "theme": "annual_report",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_023",
+    "theme": "annual_budget",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_024",
+    "theme": "staffing",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_025",
+    "theme": "cleaning",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_026",
+    "theme": "utilities",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_027",
+    "theme": "maintenance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_028",
+    "theme": "insurance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_029",
+    "theme": "programs",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_030",
+    "theme": "madrasa",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_031",
+    "theme": "security",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_032",
+    "theme": "capital_reserve",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_033",
+    "theme": "annual_report",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_034",
+    "theme": "annual_budget",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_035",
+    "theme": "staffing",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_036",
+    "theme": "cleaning",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_037",
+    "theme": "utilities",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_038",
+    "theme": "maintenance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_039",
+    "theme": "insurance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_040",
+    "theme": "programs",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_041",
+    "theme": "madrasa",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_042",
+    "theme": "security",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_043",
+    "theme": "capital_reserve",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_044",
+    "theme": "annual_report",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_045",
+    "theme": "annual_budget",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_046",
+    "theme": "staffing",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_047",
+    "theme": "cleaning",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_048",
+    "theme": "utilities",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_049",
+    "theme": "maintenance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_050",
+    "theme": "insurance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_051",
+    "theme": "programs",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_052",
+    "theme": "madrasa",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_053",
+    "theme": "security",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_054",
+    "theme": "capital_reserve",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_055",
+    "theme": "annual_report",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_056",
+    "theme": "annual_budget",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_057",
+    "theme": "staffing",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_058",
+    "theme": "cleaning",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_059",
+    "theme": "utilities",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_060",
+    "theme": "maintenance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_061",
+    "theme": "insurance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_062",
+    "theme": "programs",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_063",
+    "theme": "madrasa",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_064",
+    "theme": "security",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_065",
+    "theme": "capital_reserve",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_066",
+    "theme": "annual_report",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_067",
+    "theme": "annual_budget",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_068",
+    "theme": "staffing",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_069",
+    "theme": "cleaning",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_070",
+    "theme": "utilities",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_071",
+    "theme": "maintenance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_072",
+    "theme": "insurance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_073",
+    "theme": "programs",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_074",
+    "theme": "madrasa",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_075",
+    "theme": "security",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_076",
+    "theme": "capital_reserve",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_077",
+    "theme": "annual_report",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_078",
+    "theme": "annual_budget",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_079",
+    "theme": "staffing",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_080",
+    "theme": "cleaning",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_081",
+    "theme": "utilities",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_082",
+    "theme": "maintenance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_083",
+    "theme": "insurance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_084",
+    "theme": "programs",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_085",
+    "theme": "madrasa",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_086",
+    "theme": "security",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_087",
+    "theme": "capital_reserve",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_088",
+    "theme": "annual_report",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_089",
+    "theme": "annual_budget",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_090",
+    "theme": "staffing",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_091",
+    "theme": "cleaning",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_092",
+    "theme": "utilities",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_093",
+    "theme": "maintenance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_094",
+    "theme": "insurance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_095",
+    "theme": "programs",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_096",
+    "theme": "madrasa",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_097",
+    "theme": "security",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_098",
+    "theme": "capital_reserve",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_099",
+    "theme": "annual_report",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_100",
+    "theme": "annual_budget",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_101",
+    "theme": "staffing",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_102",
+    "theme": "cleaning",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_103",
+    "theme": "utilities",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_104",
+    "theme": "maintenance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_105",
+    "theme": "insurance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_106",
+    "theme": "programs",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_107",
+    "theme": "madrasa",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_108",
+    "theme": "security",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_109",
+    "theme": "capital_reserve",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_110",
+    "theme": "annual_report",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_111",
+    "theme": "annual_budget",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_112",
+    "theme": "staffing",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_113",
+    "theme": "cleaning",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_114",
+    "theme": "utilities",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_115",
+    "theme": "maintenance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_116",
+    "theme": "insurance",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_117",
+    "theme": "programs",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_118",
+    "theme": "madrasa",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_119",
+    "theme": "security",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "operations_120",
+    "theme": "capital_reserve",
+    "preferred_sources": [
+      "published annual report",
+      "audited financials",
+      "charity regulator",
+      "official mosque report"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "dimensions": [
+    {
+      "id": "legal_feasibility",
+      "weight": 15
+    },
+    {
+      "id": "life_safety_upgrade",
+      "weight": 12
+    },
+    {
+      "id": "qibla_prayer_efficiency",
+      "weight": 12
+    },
+    {
+      "id": "structural_condition",
+      "weight": 10
+    },
+    {
+      "id": "roof_envelope",
+      "weight": 8
+    },
+    {
+      "id": "wudu_sanitary_fit",
+      "weight": 8
+    },
+    {
+      "id": "accessibility",
+      "weight": 8
+    },
+    {
+      "id": "parking_transport",
+      "weight": 7
+    },
+    {
+      "id": "madrasa_community_fit",
+      "weight": 6
+    },
+    {
+      "id": "MEP_capacity",
+      "weight": 5
+    },
+    {
+      "id": "operating_cost",
+      "weight": 4
+    },
+    {
+      "id": "expansion",
+      "weight": 3
+    },
+    {
+      "id": "heritage_constraints",
+      "weight": 2
+    }
+  ],
+  "outputs": [
+    "0-100 conversion score",
+    "confidence",
+    "red flags",
+    "unknowns",
+    "estimated intervention tier",
+    "buy/lease/pass suggestion"
+  ],
+  "fatal_red_flags": [
+    "unresolved title",
+    "unsafe structure",
+    "prohibited use with no viable approval path",
+    "unfundable remediation",
+    "critical access/egress impossibility",
+    "severe contamination without viable remediation"
+  ]
+}

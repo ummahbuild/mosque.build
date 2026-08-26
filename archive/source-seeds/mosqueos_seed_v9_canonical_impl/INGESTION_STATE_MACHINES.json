@@ -1,0 +1,87 @@
+{
+  "states": [
+    "discovered",
+    "fetched",
+    "parsed",
+    "normalized",
+    "matched",
+    "needs_review",
+    "verified",
+    "rights_checked",
+    "publishable",
+    "published",
+    "stale",
+    "superseded",
+    "rejected"
+  ],
+  "pipelines": {
+    "mosque_directory": [
+      "OSM/Google/official source discovery",
+      "normalize name/address/coordinates",
+      "entity match",
+      "active-status review",
+      "provider-link attach",
+      "facilities/hours enrichment",
+      "claim/admin merge",
+      "publish"
+    ],
+    "architect_people": [
+      "authority discovery",
+      "identity match",
+      "project/source validation",
+      "life-status verification",
+      "rights/media review",
+      "publish"
+    ],
+    "drawings": [
+      "metadata discover",
+      "project match",
+      "creator/date/format",
+      "rights assessment",
+      "download permission",
+      "publish metadata",
+      "optional asset ingest"
+    ],
+    "supplier_products": [
+      "supplier identity",
+      "product taxonomy",
+      "technical docs",
+      "price snapshot",
+      "country/delivery",
+      "rights",
+      "freshness SLA",
+      "publish discovery record"
+    ],
+    "regulatory": [
+      "jurisdiction resolve",
+      "official authority identify",
+      "rule ingest",
+      "effective date",
+      "trigger summary",
+      "legal/professional review",
+      "publish",
+      "supersession watch"
+    ],
+    "costs": [
+      "quote/rate ingest",
+      "unit normalization",
+      "scope split",
+      "currency snapshot",
+      "index/location adjustment if allowed",
+      "confidence",
+      "outlier review",
+      "publish cost observation"
+    ]
+  },
+  "metrics": [
+    "discovered_count",
+    "matched_count",
+    "verified_count",
+    "publishable_count",
+    "stale_count",
+    "rejected_count",
+    "duplicate_rate",
+    "review_age",
+    "source_failure_rate"
+  ]
+}

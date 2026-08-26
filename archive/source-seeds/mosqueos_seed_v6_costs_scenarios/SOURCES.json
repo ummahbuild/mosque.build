@@ -1,0 +1,82 @@
+[
+  {
+    "id": "src_cbk_fx",
+    "name": "Central Bank of Kenya Daily Exchange Rates",
+    "url": "https://www.centralbank.go.ke/forex/",
+    "type": "fx",
+    "scope": "Kenya",
+    "refresh": "daily",
+    "production_use": "Primary KES reference-rate source; historical records retained by date.",
+    "status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_ecb_sdmx",
+    "name": "ECB Data Portal SDMX API",
+    "url": "https://data.ecb.europa.eu/help/api/overview",
+    "type": "fx_api",
+    "scope": "ECB-published currencies",
+    "refresh": "working days",
+    "production_use": "Open programmatic reference-rate source; cross-rate through EUR when supported.",
+    "status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_worldbank_pinksheet",
+    "name": "World Bank Commodity Markets Pink Sheet",
+    "url": "https://www.worldbank.org/en/research/commodity-markets",
+    "type": "commodity_prices",
+    "scope": "global",
+    "refresh": "monthly",
+    "production_use": "Commodity trend/index anchor; not a direct local installed-price source.",
+    "status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_worldbank_pinksheet_monthly",
+    "name": "World Bank Pink Sheet Monthly Historical Data",
+    "url": "https://thedocs.worldbank.org/en/doc/5d903e848db1d1b83e0ec8f744e55570-0350012021/related/CMO-Historical-Data-Monthly.xlsx",
+    "type": "commodity_history",
+    "scope": "global",
+    "refresh": "monthly",
+    "production_use": "Historical normalization and commodity sensitivity.",
+    "status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_un_comtrade",
+    "name": "UN Comtrade",
+    "url": "https://comtradeplus.un.org/TradeFlow",
+    "type": "trade_api",
+    "scope": "global",
+    "refresh": "dataset dependent",
+    "production_use": "Trade volumes/values and import-unit-value benchmarking by HS code; not a live quote.",
+    "status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_knbs_cipi",
+    "name": "Kenya Construction Input Price Index (CIPI)",
+    "url": "https://www.knbs.or.ke/reports_category/construction-input-price-index/",
+    "type": "construction_index",
+    "scope": "Kenya",
+    "refresh": "quarterly",
+    "production_use": "Escalate/de-escalate Kenya construction quotes and category baselines.",
+    "status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_kra_import",
+    "name": "Kenya Revenue Authority Importing & Exporting",
+    "url": "https://www.kra.go.ke/business/companies-partnerships/companies-partnerships-pin-taxes/company-partnership-imports-exemptions",
+    "type": "customs_tax",
+    "scope": "Kenya",
+    "refresh": "law-dependent",
+    "production_use": "Import tax components; exact duty must be resolved by HS classification and current law.",
+    "status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_kra_cet",
+    "name": "KRA / EAC Common External Tariff guidance",
+    "url": "https://www.kra.go.ke/helping-tax-payers/faqs/harmonised-system-hs-common-external-tariff-cet",
+    "type": "tariff_classification",
+    "scope": "EAC/Kenya",
+    "refresh": "tariff edition",
+    "production_use": "HS classification and tariff resolver source.",
+    "status": "verified_2026-08-16"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "modes": [
+    "real-time design",
+    "high-quality still",
+    "product isolation",
+    "material board",
+    "before/after",
+    "donor render",
+    "construction phase",
+    "AR preview"
+  ],
+  "product_render_rules": [
+    "use LOD appropriate for camera distance/device",
+    "retain real-world dimensions",
+    "separate vendor texture/material from project override where allowed",
+    "watermark/credit only when license requires it",
+    "public reusable design retains product attribution/source if named product is displayed"
+  ],
+  "render_metadata": [
+    "scenario/version",
+    "camera",
+    "time/light preset",
+    "product versions",
+    "material versions",
+    "quality",
+    "generated_at"
+  ],
+  "product_isolation": [
+    "white/background studio",
+    "transparent PNG/WebP if generated pipeline supports",
+    "dimension overlay",
+    "variant comparison"
+  ]
+}

@@ -1,0 +1,2 @@
+import {DesignQuickSelect} from "@/components/design-quick-select";import {MosqueDesignStudio} from "@/components/mosque-design-studio";import {ProductAreaPage} from "@/components/product-area-page";import areas from "@/data/product-areas.json";
+export default function Page(){const area=areas.find(item=>item.slug==="design")!;return <ProductAreaPage area={area} insert={<><MosqueDesignStudio/><DesignQuickSelect/></>}/>}

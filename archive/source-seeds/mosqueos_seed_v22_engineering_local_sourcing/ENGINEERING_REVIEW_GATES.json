@@ -1,0 +1,54 @@
+[
+  {
+    "gate": "concept",
+    "checks": [
+      "site/structure assumptions",
+      "MEP strategy",
+      "fire/accessibility risks",
+      "local sourcing feasibility",
+      "cost class"
+    ]
+  },
+  {
+    "gate": "schematic",
+    "checks": [
+      "grids/spans",
+      "plant/service spaces",
+      "routes",
+      "major penetrations",
+      "wudu/plumbing",
+      "audio/acoustics",
+      "product dimensions"
+    ]
+  },
+  {
+    "gate": "design_development",
+    "checks": [
+      "discipline coordination",
+      "equipment/access",
+      "spec attributes",
+      "quantities",
+      "construction packages"
+    ]
+  },
+  {
+    "gate": "construction_release",
+    "checks": [
+      "professional approvals",
+      "current drawings/specs",
+      "approved products/submittals required before work",
+      "ITPs",
+      "schedule interfaces"
+    ]
+  },
+  {
+    "gate": "handover",
+    "checks": [
+      "as-built",
+      "commissioning",
+      "training",
+      "asset data",
+      "warranty"
+    ]
+  }
+]

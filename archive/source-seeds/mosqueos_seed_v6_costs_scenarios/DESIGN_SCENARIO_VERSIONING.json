@@ -1,0 +1,38 @@
+{
+  "entities": [
+    "design_projects",
+    "design_scenarios",
+    "scenario_versions",
+    "scenario_branches",
+    "geometry_snapshots",
+    "cost_snapshots",
+    "program_snapshots",
+    "regulatory_snapshots",
+    "render_snapshots",
+    "comparison_sets"
+  ],
+  "capabilities": [
+    "Save unlimited named mosque concepts per project subject to plan limits",
+    "Duplicate a concept",
+    "Branch from any version",
+    "Lock milestone versions",
+    "Compare 2-6 concepts side by side",
+    "Compare floor area, capacity, cost, lifecycle cost, maintenance, energy, water, permit risks and timeline",
+    "Restore earlier versions",
+    "Add tags such as low-cost, Ramadan-first, madrasa-first, heritage, expansion-ready",
+    "Attach comments to specific model objects",
+    "Share read-only scenario link",
+    "Create donor/public visualization from approved scenario",
+    "Merge selected room/material choices manually from another branch",
+    "Rebase cost snapshot to latest FX/index without changing geometry",
+    "Freeze tender baseline to prevent silent estimate drift",
+    "Export scenario summary PDF/CSV/IFC/GLTF as supported"
+  ],
+  "example_names": [
+    "Option A — Minimum Conversion",
+    "Option B — Balanced Community Mosque",
+    "Option C — Full Transformation",
+    "Option D — Phase 1 Only",
+    "Option E — Waqf Retail + Mosque"
+  ]
+}

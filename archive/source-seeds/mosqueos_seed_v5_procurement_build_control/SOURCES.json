@@ -1,0 +1,86 @@
+[
+  {
+    "id": "src_csi_masterformat_2026",
+    "name": "CSI MasterFormat 2026",
+    "url": "https://www.csiresources.org/standards/masterformat2026",
+    "use": [
+      "cost_codes",
+      "specifications",
+      "procurement_taxonomy"
+    ],
+    "status": "verified_primary"
+  },
+  {
+    "id": "src_aia_g702_g703",
+    "name": "AIA G702/G703 Payment Application Forms",
+    "url": "https://designshop.aia.org/products/g703-1992-continuation-sheet-1",
+    "use": [
+      "progress_payment",
+      "schedule_of_values"
+    ],
+    "status": "verified_primary"
+  },
+  {
+    "id": "src_aia_g701",
+    "name": "AIA G701 Change Order",
+    "url": "https://designshop.aia.org/collections/g-series-aia-contract-documents",
+    "use": [
+      "change_orders"
+    ],
+    "status": "verified_primary"
+  },
+  {
+    "id": "src_buildingsmart_ifc",
+    "name": "buildingSMART IFC 4.3",
+    "url": "https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/",
+    "use": [
+      "BIM",
+      "asset_handover",
+      "model_exchange"
+    ],
+    "status": "verified_primary"
+  },
+  {
+    "id": "src_buildingsmart_standards",
+    "name": "buildingSMART Standards",
+    "url": "https://www.buildingsmart.org/standards/",
+    "use": [
+      "IFC",
+      "IDS",
+      "BCF",
+      "bSDD"
+    ],
+    "status": "verified_primary"
+  },
+  {
+    "id": "src_autodesk_rfi",
+    "name": "Autodesk Construction RFI workflow",
+    "url": "https://construction.autodesk.com/tools/construction-rfi-tracking/",
+    "use": [
+      "RFI_workflow"
+    ],
+    "status": "verified_vendor_reference"
+  },
+  {
+    "id": "src_autodesk_daily_reports",
+    "name": "Autodesk Construction Daily Reports",
+    "url": "https://construction.autodesk.com/tools/construction-daily-reports/",
+    "use": [
+      "daily_reports",
+      "field_tracking"
+    ],
+    "status": "verified_vendor_reference"
+  },
+  {
+    "id": "src_autodesk_project_workflow",
+    "name": "Autodesk Project Management Workflow",
+    "url": "https://construction.autodesk.com/resources/acc-videos/construction-workflow-project-management-demo/",
+    "use": [
+      "RFIs",
+      "submittals",
+      "meetings",
+      "daily_reports"
+    ],
+    "status": "verified_vendor_reference"
+  }
+]

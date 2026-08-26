@@ -1,0 +1,56 @@
+{
+  "assumption_states": [
+    "proposed",
+    "accepted_for_stage",
+    "verified",
+    "superseded",
+    "rejected"
+  ],
+  "fields": [
+    "id",
+    "project_id",
+    "discipline",
+    "title",
+    "value",
+    "unit",
+    "basis",
+    "source_ref",
+    "confidence",
+    "owner",
+    "stage",
+    "status",
+    "verified_by",
+    "verified_at"
+  ],
+  "examples": [
+    {
+      "discipline": "structural",
+      "title": "concept column grid",
+      "value": "6x6",
+      "unit": "m",
+      "basis": "schematic planning only"
+    },
+    {
+      "discipline": "HVAC",
+      "title": "Jumuah occupancy scenario",
+      "value": 450,
+      "unit": "people",
+      "basis": "project program"
+    },
+    {
+      "discipline": "water",
+      "title": "wudu simultaneous-use scenario",
+      "value": 18,
+      "unit": "positions",
+      "basis": "project peak scenario"
+    },
+    {
+      "discipline": "acoustics",
+      "title": "speech-first performance objective",
+      "value": "primary",
+      "unit": "categorical",
+      "basis": "mosque program"
+    }
+  ],
+  "rule": "Any calculation/output depending on an unverified assumption inherits an uncertainty flag."
+}

@@ -1,0 +1,233 @@
+[
+  {
+    "event": "project.created",
+    "domain": "project",
+    "required_payload": [
+      "project_id",
+      "org_id",
+      "actor_id"
+    ],
+    "version": 1
+  },
+  {
+    "event": "site.scan_completed",
+    "domain": "site",
+    "required_payload": [
+      "project_id",
+      "scan_id",
+      "version"
+    ],
+    "version": 1
+  },
+  {
+    "event": "room.converted",
+    "domain": "design",
+    "required_payload": [
+      "project_id",
+      "scenario_id",
+      "room_id",
+      "target_use"
+    ],
+    "version": 1
+  },
+  {
+    "event": "design.version_saved",
+    "domain": "design",
+    "required_payload": [
+      "scenario_id",
+      "design_version"
+    ],
+    "version": 1
+  },
+  {
+    "event": "design.baseline_approved",
+    "domain": "design",
+    "required_payload": [
+      "scenario_id",
+      "design_version",
+      "approver_id"
+    ],
+    "version": 1
+  },
+  {
+    "event": "takeoff.generated",
+    "domain": "cost",
+    "required_payload": [
+      "design_version",
+      "takeoff_version"
+    ],
+    "version": 1
+  },
+  {
+    "event": "cost.estimate_generated",
+    "domain": "cost",
+    "required_payload": [
+      "estimate_id",
+      "currency",
+      "maturity"
+    ],
+    "version": 1
+  },
+  {
+    "event": "product.placed",
+    "domain": "marketplace",
+    "required_payload": [
+      "product_id",
+      "object_id",
+      "scenario_id"
+    ],
+    "version": 1
+  },
+  {
+    "event": "cart.item_added",
+    "domain": "procurement",
+    "required_payload": [
+      "cart_item_id",
+      "project_id"
+    ],
+    "version": 1
+  },
+  {
+    "event": "rfq.issued",
+    "domain": "procurement",
+    "required_payload": [
+      "rfq_id",
+      "package_id"
+    ],
+    "version": 1
+  },
+  {
+    "event": "quote.received",
+    "domain": "procurement",
+    "required_payload": [
+      "quote_id",
+      "vendor_id"
+    ],
+    "version": 1
+  },
+  {
+    "event": "po.issued",
+    "domain": "procurement",
+    "required_payload": [
+      "po_id",
+      "vendor_id",
+      "committed_value"
+    ],
+    "version": 1
+  },
+  {
+    "event": "shipment.updated",
+    "domain": "procurement",
+    "required_payload": [
+      "shipment_id",
+      "status",
+      "eta"
+    ],
+    "version": 1
+  },
+  {
+    "event": "daily_report.submitted",
+    "domain": "construction",
+    "required_payload": [
+      "report_id",
+      "project_id"
+    ],
+    "version": 1
+  },
+  {
+    "event": "inspection.completed",
+    "domain": "construction",
+    "required_payload": [
+      "inspection_id",
+      "status"
+    ],
+    "version": 1
+  },
+  {
+    "event": "progress.updated",
+    "domain": "construction",
+    "required_payload": [
+      "project_id",
+      "activity_id",
+      "method",
+      "percent"
+    ],
+    "version": 1
+  },
+  {
+    "event": "change.approved",
+    "domain": "construction",
+    "required_payload": [
+      "change_id",
+      "cost_delta",
+      "time_delta"
+    ],
+    "version": 1
+  },
+  {
+    "event": "campaign.published",
+    "domain": "fundraising",
+    "required_payload": [
+      "campaign_id",
+      "budget_version"
+    ],
+    "version": 1
+  },
+  {
+    "event": "donation.settled",
+    "domain": "fundraising",
+    "required_payload": [
+      "transaction_id",
+      "campaign_id",
+      "net_amount"
+    ],
+    "version": 1
+  },
+  {
+    "event": "transparency.published",
+    "domain": "fundraising",
+    "required_payload": [
+      "snapshot_id",
+      "campaign_id"
+    ],
+    "version": 1
+  },
+  {
+    "event": "asset.handed_over",
+    "domain": "operations",
+    "required_payload": [
+      "asset_id",
+      "project_id"
+    ],
+    "version": 1
+  },
+  {
+    "event": "work_order.created",
+    "domain": "operations",
+    "required_payload": [
+      "work_order_id",
+      "asset_id"
+    ],
+    "version": 1
+  },
+  {
+    "event": "mosque.claim_approved",
+    "domain": "directory",
+    "required_payload": [
+      "mosque_id",
+      "claim_id",
+      "admin_user_id"
+    ],
+    "version": 1
+  },
+  {
+    "event": "vendor.reference_verified",
+    "domain": "marketplace",
+    "required_payload": [
+      "vendor_id",
+      "mosque_id",
+      "reference_id"
+    ],
+    "version": 1
+  }
+]

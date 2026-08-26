@@ -1,0 +1,31 @@
+{
+  "fields": [
+    "plant_id",
+    "botanical_name",
+    "common_names",
+    "region/native_status",
+    "climate_zones",
+    "water_class",
+    "sun_class",
+    "mature_height_m",
+    "mature_spread_m",
+    "root_behavior",
+    "evergreen",
+    "growth_rate",
+    "flowering",
+    "fruiting",
+    "edible",
+    "toxicity_caution",
+    "thorn_caution",
+    "allergen_note",
+    "invasive_status_by_jurisdiction",
+    "maintenance_class",
+    "irrigation_requirement",
+    "soil_preferences",
+    "pollinator_value",
+    "nursery_sources",
+    "source_refs",
+    "review_status"
+  ],
+  "rule": "Plant suitability is jurisdiction/climate/site specific. Species cannot be recommended solely by aesthetic style."
+}

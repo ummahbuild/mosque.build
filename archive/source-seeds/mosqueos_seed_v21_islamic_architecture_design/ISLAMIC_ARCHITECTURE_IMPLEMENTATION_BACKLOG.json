@@ -1,0 +1,6722 @@
+[
+  {
+    "id": "IABL-00001",
+    "feature_id": "IA-001",
+    "feature": "hypostyle plan generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00002",
+    "feature_id": "IA-001",
+    "feature": "hypostyle plan generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00003",
+    "feature_id": "IA-001",
+    "feature": "hypostyle plan generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00004",
+    "feature_id": "IA-001",
+    "feature": "hypostyle plan generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00005",
+    "feature_id": "IA-001",
+    "feature": "hypostyle plan generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00006",
+    "feature_id": "IA-002",
+    "feature": "four-iwan plan generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00007",
+    "feature_id": "IA-002",
+    "feature": "four-iwan plan generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00008",
+    "feature_id": "IA-002",
+    "feature": "four-iwan plan generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00009",
+    "feature_id": "IA-002",
+    "feature": "four-iwan plan generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00010",
+    "feature_id": "IA-002",
+    "feature": "four-iwan plan generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00011",
+    "feature_id": "IA-003",
+    "feature": "central-dome plan generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00012",
+    "feature_id": "IA-003",
+    "feature": "central-dome plan generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00013",
+    "feature_id": "IA-003",
+    "feature": "central-dome plan generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00014",
+    "feature_id": "IA-003",
+    "feature": "central-dome plan generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00015",
+    "feature_id": "IA-003",
+    "feature": "central-dome plan generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00016",
+    "feature_id": "IA-004",
+    "feature": "courtyard mosque generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00017",
+    "feature_id": "IA-004",
+    "feature": "courtyard mosque generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00018",
+    "feature_id": "IA-004",
+    "feature": "courtyard mosque generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00019",
+    "feature_id": "IA-004",
+    "feature": "courtyard mosque generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00020",
+    "feature_id": "IA-004",
+    "feature": "courtyard mosque generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00021",
+    "feature_id": "IA-005",
+    "feature": "multi-dome hall generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00022",
+    "feature_id": "IA-005",
+    "feature": "multi-dome hall generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00023",
+    "feature_id": "IA-005",
+    "feature": "multi-dome hall generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00024",
+    "feature_id": "IA-005",
+    "feature": "multi-dome hall generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00025",
+    "feature_id": "IA-005",
+    "feature": "multi-dome hall generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00026",
+    "feature_id": "IA-006",
+    "feature": "vernacular flat-roof mosque generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00027",
+    "feature_id": "IA-006",
+    "feature": "vernacular flat-roof mosque generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00028",
+    "feature_id": "IA-006",
+    "feature": "vernacular flat-roof mosque generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00029",
+    "feature_id": "IA-006",
+    "feature": "vernacular flat-roof mosque generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00030",
+    "feature_id": "IA-006",
+    "feature": "vernacular flat-roof mosque generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00031",
+    "feature_id": "IA-007",
+    "feature": "adaptive-reuse Islamic spatial layer",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00032",
+    "feature_id": "IA-007",
+    "feature": "adaptive-reuse Islamic spatial layer",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00033",
+    "feature_id": "IA-007",
+    "feature": "adaptive-reuse Islamic spatial layer",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00034",
+    "feature_id": "IA-007",
+    "feature": "adaptive-reuse Islamic spatial layer",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00035",
+    "feature_id": "IA-007",
+    "feature": "adaptive-reuse Islamic spatial layer",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00036",
+    "feature_id": "IA-008",
+    "feature": "regional typology compare",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00037",
+    "feature_id": "IA-008",
+    "feature": "regional typology compare",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00038",
+    "feature_id": "IA-008",
+    "feature": "regional typology compare",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00039",
+    "feature_id": "IA-008",
+    "feature": "regional typology compare",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00040",
+    "feature_id": "IA-008",
+    "feature": "regional typology compare",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00041",
+    "feature_id": "IA-009",
+    "feature": "typology lineage viewer",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00042",
+    "feature_id": "IA-009",
+    "feature": "typology lineage viewer",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00043",
+    "feature_id": "IA-009",
+    "feature": "typology lineage viewer",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00044",
+    "feature_id": "IA-009",
+    "feature": "typology lineage viewer",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00045",
+    "feature_id": "IA-009",
+    "feature": "typology lineage viewer",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00046",
+    "feature_id": "IA-010",
+    "feature": "typology suitability by climate/site/program",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00047",
+    "feature_id": "IA-010",
+    "feature": "typology suitability by climate/site/program",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00048",
+    "feature_id": "IA-010",
+    "feature": "typology suitability by climate/site/program",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00049",
+    "feature_id": "IA-010",
+    "feature": "typology suitability by climate/site/program",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00050",
+    "feature_id": "IA-010",
+    "feature": "typology suitability by climate/site/program",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00051",
+    "feature_id": "IA-011",
+    "feature": "8-point star grid",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00052",
+    "feature_id": "IA-011",
+    "feature": "8-point star grid",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00053",
+    "feature_id": "IA-011",
+    "feature": "8-point star grid",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00054",
+    "feature_id": "IA-011",
+    "feature": "8-point star grid",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00055",
+    "feature_id": "IA-011",
+    "feature": "8-point star grid",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00056",
+    "feature_id": "IA-012",
+    "feature": "10-point star grid",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00057",
+    "feature_id": "IA-012",
+    "feature": "10-point star grid",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00058",
+    "feature_id": "IA-012",
+    "feature": "10-point star grid",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00059",
+    "feature_id": "IA-012",
+    "feature": "10-point star grid",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00060",
+    "feature_id": "IA-012",
+    "feature": "10-point star grid",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00061",
+    "feature_id": "IA-013",
+    "feature": "12-point star grid",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00062",
+    "feature_id": "IA-013",
+    "feature": "12-point star grid",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00063",
+    "feature_id": "IA-013",
+    "feature": "12-point star grid",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00064",
+    "feature_id": "IA-013",
+    "feature": "12-point star grid",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00065",
+    "feature_id": "IA-013",
+    "feature": "12-point star grid",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00066",
+    "feature_id": "IA-014",
+    "feature": "6-fold rosette grid",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00067",
+    "feature_id": "IA-014",
+    "feature": "6-fold rosette grid",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00068",
+    "feature_id": "IA-014",
+    "feature": "6-fold rosette grid",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00069",
+    "feature_id": "IA-014",
+    "feature": "6-fold rosette grid",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00070",
+    "feature_id": "IA-014",
+    "feature": "6-fold rosette grid",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00071",
+    "feature_id": "IA-015",
+    "feature": "square-and-octagon grid",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00072",
+    "feature_id": "IA-015",
+    "feature": "square-and-octagon grid",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00073",
+    "feature_id": "IA-015",
+    "feature": "square-and-octagon grid",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00074",
+    "feature_id": "IA-015",
+    "feature": "square-and-octagon grid",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00075",
+    "feature_id": "IA-015",
+    "feature": "square-and-octagon grid",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00076",
+    "feature_id": "IA-016",
+    "feature": "girih-style strapwork generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00077",
+    "feature_id": "IA-016",
+    "feature": "girih-style strapwork generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00078",
+    "feature_id": "IA-016",
+    "feature": "girih-style strapwork generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00079",
+    "feature_id": "IA-016",
+    "feature": "girih-style strapwork generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00080",
+    "feature_id": "IA-016",
+    "feature": "girih-style strapwork generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00081",
+    "feature_id": "IA-017",
+    "feature": "interlace width control",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00082",
+    "feature_id": "IA-017",
+    "feature": "interlace width control",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00083",
+    "feature_id": "IA-017",
+    "feature": "interlace width control",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00084",
+    "feature_id": "IA-017",
+    "feature": "interlace width control",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00085",
+    "feature_id": "IA-017",
+    "feature": "interlace width control",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00086",
+    "feature_id": "IA-018",
+    "feature": "repeat-cell generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00087",
+    "feature_id": "IA-018",
+    "feature": "repeat-cell generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00088",
+    "feature_id": "IA-018",
+    "feature": "repeat-cell generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00089",
+    "feature_id": "IA-018",
+    "feature": "repeat-cell generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00090",
+    "feature_id": "IA-018",
+    "feature": "repeat-cell generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00091",
+    "feature_id": "IA-019",
+    "feature": "radial rosette generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00092",
+    "feature_id": "IA-019",
+    "feature": "radial rosette generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00093",
+    "feature_id": "IA-019",
+    "feature": "radial rosette generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00094",
+    "feature_id": "IA-019",
+    "feature": "radial rosette generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00095",
+    "feature_id": "IA-019",
+    "feature": "radial rosette generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00096",
+    "feature_id": "IA-020",
+    "feature": "border-band generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00097",
+    "feature_id": "IA-020",
+    "feature": "border-band generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00098",
+    "feature_id": "IA-020",
+    "feature": "border-band generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00099",
+    "feature_id": "IA-020",
+    "feature": "border-band generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00100",
+    "feature_id": "IA-020",
+    "feature": "border-band generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00101",
+    "feature_id": "IA-021",
+    "feature": "corner-resolution tool",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00102",
+    "feature_id": "IA-021",
+    "feature": "corner-resolution tool",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00103",
+    "feature_id": "IA-021",
+    "feature": "corner-resolution tool",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00104",
+    "feature_id": "IA-021",
+    "feature": "corner-resolution tool",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00105",
+    "feature_id": "IA-021",
+    "feature": "corner-resolution tool",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00106",
+    "feature_id": "IA-022",
+    "feature": "pattern crop/fit to panel",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00107",
+    "feature_id": "IA-022",
+    "feature": "pattern crop/fit to panel",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00108",
+    "feature_id": "IA-022",
+    "feature": "pattern crop/fit to panel",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00109",
+    "feature_id": "IA-022",
+    "feature": "pattern crop/fit to panel",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00110",
+    "feature_id": "IA-022",
+    "feature": "pattern crop/fit to panel",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00111",
+    "feature_id": "IA-023",
+    "feature": "pattern symmetry analyzer",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00112",
+    "feature_id": "IA-023",
+    "feature": "pattern symmetry analyzer",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00113",
+    "feature_id": "IA-023",
+    "feature": "pattern symmetry analyzer",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00114",
+    "feature_id": "IA-023",
+    "feature": "pattern symmetry analyzer",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00115",
+    "feature_id": "IA-023",
+    "feature": "pattern symmetry analyzer",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00116",
+    "feature_id": "IA-024",
+    "feature": "pattern density slider",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00117",
+    "feature_id": "IA-024",
+    "feature": "pattern density slider",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00118",
+    "feature_id": "IA-024",
+    "feature": "pattern density slider",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00119",
+    "feature_id": "IA-024",
+    "feature": "pattern density slider",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00120",
+    "feature_id": "IA-024",
+    "feature": "pattern density slider",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00121",
+    "feature_id": "IA-025",
+    "feature": "negative-space analyzer",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00122",
+    "feature_id": "IA-025",
+    "feature": "negative-space analyzer",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00123",
+    "feature_id": "IA-025",
+    "feature": "negative-space analyzer",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00124",
+    "feature_id": "IA-025",
+    "feature": "negative-space analyzer",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00125",
+    "feature_id": "IA-025",
+    "feature": "negative-space analyzer",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00126",
+    "feature_id": "IA-026",
+    "feature": "arabesque vine generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00127",
+    "feature_id": "IA-026",
+    "feature": "arabesque vine generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00128",
+    "feature_id": "IA-026",
+    "feature": "arabesque vine generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00129",
+    "feature_id": "IA-026",
+    "feature": "arabesque vine generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00130",
+    "feature_id": "IA-026",
+    "feature": "arabesque vine generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00131",
+    "feature_id": "IA-027",
+    "feature": "palmette motif library",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00132",
+    "feature_id": "IA-027",
+    "feature": "palmette motif library",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00133",
+    "feature_id": "IA-027",
+    "feature": "palmette motif library",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00134",
+    "feature_id": "IA-027",
+    "feature": "palmette motif library",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00135",
+    "feature_id": "IA-027",
+    "feature": "palmette motif library",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00136",
+    "feature_id": "IA-028",
+    "feature": "lotus/leaf motif library",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00137",
+    "feature_id": "IA-028",
+    "feature": "lotus/leaf motif library",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00138",
+    "feature_id": "IA-028",
+    "feature": "lotus/leaf motif library",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00139",
+    "feature_id": "IA-028",
+    "feature": "lotus/leaf motif library",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00140",
+    "feature_id": "IA-028",
+    "feature": "lotus/leaf motif library",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00141",
+    "feature_id": "IA-029",
+    "feature": "scroll density control",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00142",
+    "feature_id": "IA-029",
+    "feature": "scroll density control",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00143",
+    "feature_id": "IA-029",
+    "feature": "scroll density control",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00144",
+    "feature_id": "IA-029",
+    "feature": "scroll density control",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00145",
+    "feature_id": "IA-029",
+    "feature": "scroll density control",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00146",
+    "feature_id": "IA-030",
+    "feature": "mirror/rotate arabesque",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00147",
+    "feature_id": "IA-030",
+    "feature": "mirror/rotate arabesque",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00148",
+    "feature_id": "IA-030",
+    "feature": "mirror/rotate arabesque",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00149",
+    "feature_id": "IA-030",
+    "feature": "mirror/rotate arabesque",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00150",
+    "feature_id": "IA-030",
+    "feature": "mirror/rotate arabesque",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00151",
+    "feature_id": "IA-031",
+    "feature": "vegetal border generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00152",
+    "feature_id": "IA-031",
+    "feature": "vegetal border generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00153",
+    "feature_id": "IA-031",
+    "feature": "vegetal border generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00154",
+    "feature_id": "IA-031",
+    "feature": "vegetal border generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00155",
+    "feature_id": "IA-031",
+    "feature": "vegetal border generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00156",
+    "feature_id": "IA-032",
+    "feature": "panel fill grammar",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00157",
+    "feature_id": "IA-032",
+    "feature": "panel fill grammar",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00158",
+    "feature_id": "IA-032",
+    "feature": "panel fill grammar",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00159",
+    "feature_id": "IA-032",
+    "feature": "panel fill grammar",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00160",
+    "feature_id": "IA-032",
+    "feature": "panel fill grammar",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00161",
+    "feature_id": "IA-033",
+    "feature": "floral-geometric hybrid generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00162",
+    "feature_id": "IA-033",
+    "feature": "floral-geometric hybrid generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00163",
+    "feature_id": "IA-033",
+    "feature": "floral-geometric hybrid generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00164",
+    "feature_id": "IA-033",
+    "feature": "floral-geometric hybrid generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00165",
+    "feature_id": "IA-033",
+    "feature": "floral-geometric hybrid generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00166",
+    "feature_id": "IA-034",
+    "feature": "muqarnas cell library",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00167",
+    "feature_id": "IA-034",
+    "feature": "muqarnas cell library",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00168",
+    "feature_id": "IA-034",
+    "feature": "muqarnas cell library",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00169",
+    "feature_id": "IA-034",
+    "feature": "muqarnas cell library",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00170",
+    "feature_id": "IA-034",
+    "feature": "muqarnas cell library",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00171",
+    "feature_id": "IA-035",
+    "feature": "muqarnas tier generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00172",
+    "feature_id": "IA-035",
+    "feature": "muqarnas tier generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00173",
+    "feature_id": "IA-035",
+    "feature": "muqarnas tier generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00174",
+    "feature_id": "IA-035",
+    "feature": "muqarnas tier generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00175",
+    "feature_id": "IA-035",
+    "feature": "muqarnas tier generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00176",
+    "feature_id": "IA-036",
+    "feature": "squinch transition generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00177",
+    "feature_id": "IA-036",
+    "feature": "squinch transition generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00178",
+    "feature_id": "IA-036",
+    "feature": "squinch transition generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00179",
+    "feature_id": "IA-036",
+    "feature": "squinch transition generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00180",
+    "feature_id": "IA-036",
+    "feature": "squinch transition generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00181",
+    "feature_id": "IA-037",
+    "feature": "pendentive comparison",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00182",
+    "feature_id": "IA-037",
+    "feature": "pendentive comparison",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00183",
+    "feature_id": "IA-037",
+    "feature": "pendentive comparison",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00184",
+    "feature_id": "IA-037",
+    "feature": "pendentive comparison",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00185",
+    "feature_id": "IA-037",
+    "feature": "pendentive comparison",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00186",
+    "feature_id": "IA-038",
+    "feature": "karbandi/rib-vault pattern generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00187",
+    "feature_id": "IA-038",
+    "feature": "karbandi/rib-vault pattern generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00188",
+    "feature_id": "IA-038",
+    "feature": "karbandi/rib-vault pattern generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00189",
+    "feature_id": "IA-038",
+    "feature": "karbandi/rib-vault pattern generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00190",
+    "feature_id": "IA-038",
+    "feature": "karbandi/rib-vault pattern generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00191",
+    "feature_id": "IA-039",
+    "feature": "dome transition designer",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00192",
+    "feature_id": "IA-039",
+    "feature": "dome transition designer",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00193",
+    "feature_id": "IA-039",
+    "feature": "dome transition designer",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00194",
+    "feature_id": "IA-039",
+    "feature": "dome transition designer",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00195",
+    "feature_id": "IA-039",
+    "feature": "dome transition designer",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00196",
+    "feature_id": "IA-040",
+    "feature": "muqarnas depth control",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00197",
+    "feature_id": "IA-040",
+    "feature": "muqarnas depth control",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00198",
+    "feature_id": "IA-040",
+    "feature": "muqarnas depth control",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00199",
+    "feature_id": "IA-040",
+    "feature": "muqarnas depth control",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00200",
+    "feature_id": "IA-040",
+    "feature": "muqarnas depth control",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00201",
+    "feature_id": "IA-041",
+    "feature": "fabrication complexity estimate",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00202",
+    "feature_id": "IA-041",
+    "feature": "fabrication complexity estimate",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00203",
+    "feature_id": "IA-041",
+    "feature": "fabrication complexity estimate",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00204",
+    "feature_id": "IA-041",
+    "feature": "fabrication complexity estimate",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00205",
+    "feature_id": "IA-041",
+    "feature": "fabrication complexity estimate",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00206",
+    "feature_id": "IA-042",
+    "feature": "jali screen generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00207",
+    "feature_id": "IA-042",
+    "feature": "jali screen generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00208",
+    "feature_id": "IA-042",
+    "feature": "jali screen generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00209",
+    "feature_id": "IA-042",
+    "feature": "jali screen generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00210",
+    "feature_id": "IA-042",
+    "feature": "jali screen generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00211",
+    "feature_id": "IA-043",
+    "feature": "mashrabiya lattice generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00212",
+    "feature_id": "IA-043",
+    "feature": "mashrabiya lattice generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00213",
+    "feature_id": "IA-043",
+    "feature": "mashrabiya lattice generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00214",
+    "feature_id": "IA-043",
+    "feature": "mashrabiya lattice generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00215",
+    "feature_id": "IA-043",
+    "feature": "mashrabiya lattice generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00216",
+    "feature_id": "IA-044",
+    "feature": "geometric perforation generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00217",
+    "feature_id": "IA-044",
+    "feature": "geometric perforation generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00218",
+    "feature_id": "IA-044",
+    "feature": "geometric perforation generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00219",
+    "feature_id": "IA-044",
+    "feature": "geometric perforation generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00220",
+    "feature_id": "IA-044",
+    "feature": "geometric perforation generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00221",
+    "feature_id": "IA-045",
+    "feature": "privacy/daylight slider",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00222",
+    "feature_id": "IA-045",
+    "feature": "privacy/daylight slider",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00223",
+    "feature_id": "IA-045",
+    "feature": "privacy/daylight slider",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00224",
+    "feature_id": "IA-045",
+    "feature": "privacy/daylight slider",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00225",
+    "feature_id": "IA-045",
+    "feature": "privacy/daylight slider",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00226",
+    "feature_id": "IA-046",
+    "feature": "solar-shading analysis overlay",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00227",
+    "feature_id": "IA-046",
+    "feature": "solar-shading analysis overlay",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00228",
+    "feature_id": "IA-046",
+    "feature": "solar-shading analysis overlay",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00229",
+    "feature_id": "IA-046",
+    "feature": "solar-shading analysis overlay",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00230",
+    "feature_id": "IA-046",
+    "feature": "solar-shading analysis overlay",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00231",
+    "feature_id": "IA-047",
+    "feature": "screen panelization",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00232",
+    "feature_id": "IA-047",
+    "feature": "screen panelization",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00233",
+    "feature_id": "IA-047",
+    "feature": "screen panelization",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00234",
+    "feature_id": "IA-047",
+    "feature": "screen panelization",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00235",
+    "feature_id": "IA-047",
+    "feature": "screen panelization",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00236",
+    "feature_id": "IA-048",
+    "feature": "panel fabrication nesting",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00237",
+    "feature_id": "IA-048",
+    "feature": "panel fabrication nesting",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00238",
+    "feature_id": "IA-048",
+    "feature": "panel fabrication nesting",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00239",
+    "feature_id": "IA-048",
+    "feature": "panel fabrication nesting",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00240",
+    "feature_id": "IA-048",
+    "feature": "panel fabrication nesting",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00241",
+    "feature_id": "IA-049",
+    "feature": "facade motif mapping",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00242",
+    "feature_id": "IA-049",
+    "feature": "facade motif mapping",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00243",
+    "feature_id": "IA-049",
+    "feature": "facade motif mapping",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00244",
+    "feature_id": "IA-049",
+    "feature": "facade motif mapping",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00245",
+    "feature_id": "IA-049",
+    "feature": "facade motif mapping",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00246",
+    "feature_id": "IA-050",
+    "feature": "calligraphy placement zones",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00247",
+    "feature_id": "IA-050",
+    "feature": "calligraphy placement zones",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00248",
+    "feature_id": "IA-050",
+    "feature": "calligraphy placement zones",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00249",
+    "feature_id": "IA-050",
+    "feature": "calligraphy placement zones",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00250",
+    "feature_id": "IA-050",
+    "feature": "calligraphy placement zones",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00251",
+    "feature_id": "IA-051",
+    "feature": "frieze path generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00252",
+    "feature_id": "IA-051",
+    "feature": "frieze path generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00253",
+    "feature_id": "IA-051",
+    "feature": "frieze path generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00254",
+    "feature_id": "IA-051",
+    "feature": "frieze path generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00255",
+    "feature_id": "IA-051",
+    "feature": "frieze path generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00256",
+    "feature_id": "IA-052",
+    "feature": "mihrab inscription zone",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00257",
+    "feature_id": "IA-052",
+    "feature": "mihrab inscription zone",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00258",
+    "feature_id": "IA-052",
+    "feature": "mihrab inscription zone",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00259",
+    "feature_id": "IA-052",
+    "feature": "mihrab inscription zone",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00260",
+    "feature_id": "IA-052",
+    "feature": "mihrab inscription zone",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00261",
+    "feature_id": "IA-053",
+    "feature": "dome drum inscription zone",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00262",
+    "feature_id": "IA-053",
+    "feature": "dome drum inscription zone",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00263",
+    "feature_id": "IA-053",
+    "feature": "dome drum inscription zone",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00264",
+    "feature_id": "IA-053",
+    "feature": "dome drum inscription zone",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00265",
+    "feature_id": "IA-053",
+    "feature": "dome drum inscription zone",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00266",
+    "feature_id": "IA-054",
+    "feature": "entrance inscription zone",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00267",
+    "feature_id": "IA-054",
+    "feature": "entrance inscription zone",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00268",
+    "feature_id": "IA-054",
+    "feature": "entrance inscription zone",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00269",
+    "feature_id": "IA-054",
+    "feature": "entrance inscription zone",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00270",
+    "feature_id": "IA-054",
+    "feature": "entrance inscription zone",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00271",
+    "feature_id": "IA-055",
+    "feature": "placeholder-script mode",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00272",
+    "feature_id": "IA-055",
+    "feature": "placeholder-script mode",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00273",
+    "feature_id": "IA-055",
+    "feature": "placeholder-script mode",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00274",
+    "feature_id": "IA-055",
+    "feature": "placeholder-script mode",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00275",
+    "feature_id": "IA-055",
+    "feature": "placeholder-script mode",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00276",
+    "feature_id": "IA-056",
+    "feature": "text-fit without distorting calligraphy",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00277",
+    "feature_id": "IA-056",
+    "feature": "text-fit without distorting calligraphy",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00278",
+    "feature_id": "IA-056",
+    "feature": "text-fit without distorting calligraphy",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00279",
+    "feature_id": "IA-056",
+    "feature": "text-fit without distorting calligraphy",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00280",
+    "feature_id": "IA-056",
+    "feature": "text-fit without distorting calligraphy",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00281",
+    "feature_id": "IA-057",
+    "feature": "calligrapher review workflow",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00282",
+    "feature_id": "IA-057",
+    "feature": "calligrapher review workflow",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00283",
+    "feature_id": "IA-057",
+    "feature": "calligrapher review workflow",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00284",
+    "feature_id": "IA-057",
+    "feature": "calligrapher review workflow",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00285",
+    "feature_id": "IA-057",
+    "feature": "calligrapher review workflow",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00286",
+    "feature_id": "IA-058",
+    "feature": "mihrab proportion presets",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00287",
+    "feature_id": "IA-058",
+    "feature": "mihrab proportion presets",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00288",
+    "feature_id": "IA-058",
+    "feature": "mihrab proportion presets",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00289",
+    "feature_id": "IA-058",
+    "feature": "mihrab proportion presets",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00290",
+    "feature_id": "IA-058",
+    "feature": "mihrab proportion presets",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00291",
+    "feature_id": "IA-059",
+    "feature": "minbar style presets",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00292",
+    "feature_id": "IA-059",
+    "feature": "minbar style presets",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00293",
+    "feature_id": "IA-059",
+    "feature": "minbar style presets",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00294",
+    "feature_id": "IA-059",
+    "feature": "minbar style presets",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00295",
+    "feature_id": "IA-059",
+    "feature": "minbar style presets",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00296",
+    "feature_id": "IA-060",
+    "feature": "dome proportion presets",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00297",
+    "feature_id": "IA-060",
+    "feature": "dome proportion presets",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00298",
+    "feature_id": "IA-060",
+    "feature": "dome proportion presets",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00299",
+    "feature_id": "IA-060",
+    "feature": "dome proportion presets",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00300",
+    "feature_id": "IA-060",
+    "feature": "dome proportion presets",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00301",
+    "feature_id": "IA-061",
+    "feature": "minaret family presets",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00302",
+    "feature_id": "IA-061",
+    "feature": "minaret family presets",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00303",
+    "feature_id": "IA-061",
+    "feature": "minaret family presets",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00304",
+    "feature_id": "IA-061",
+    "feature": "minaret family presets",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00305",
+    "feature_id": "IA-061",
+    "feature": "minaret family presets",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00306",
+    "feature_id": "IA-062",
+    "feature": "courtyard/sahn proportion tool",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00307",
+    "feature_id": "IA-062",
+    "feature": "courtyard/sahn proportion tool",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00308",
+    "feature_id": "IA-062",
+    "feature": "courtyard/sahn proportion tool",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00309",
+    "feature_id": "IA-062",
+    "feature": "courtyard/sahn proportion tool",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00310",
+    "feature_id": "IA-062",
+    "feature": "courtyard/sahn proportion tool",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00311",
+    "feature_id": "IA-063",
+    "feature": "riwaq/arcade generator",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00312",
+    "feature_id": "IA-063",
+    "feature": "riwaq/arcade generator",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00313",
+    "feature_id": "IA-063",
+    "feature": "riwaq/arcade generator",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00314",
+    "feature_id": "IA-063",
+    "feature": "riwaq/arcade generator",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00315",
+    "feature_id": "IA-063",
+    "feature": "riwaq/arcade generator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00316",
+    "feature_id": "IA-064",
+    "feature": "iwan proportion tool",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00317",
+    "feature_id": "IA-064",
+    "feature": "iwan proportion tool",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00318",
+    "feature_id": "IA-064",
+    "feature": "iwan proportion tool",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00319",
+    "feature_id": "IA-064",
+    "feature": "iwan proportion tool",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00320",
+    "feature_id": "IA-064",
+    "feature": "iwan proportion tool",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00321",
+    "feature_id": "IA-065",
+    "feature": "ablution courtyard integration",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00322",
+    "feature_id": "IA-065",
+    "feature": "ablution courtyard integration",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00323",
+    "feature_id": "IA-065",
+    "feature": "ablution courtyard integration",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00324",
+    "feature_id": "IA-065",
+    "feature": "ablution courtyard integration",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00325",
+    "feature_id": "IA-065",
+    "feature": "ablution courtyard integration",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00326",
+    "feature_id": "IA-066",
+    "feature": "zellige palette",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00327",
+    "feature_id": "IA-066",
+    "feature": "zellige palette",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00328",
+    "feature_id": "IA-066",
+    "feature": "zellige palette",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00329",
+    "feature_id": "IA-066",
+    "feature": "zellige palette",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00330",
+    "feature_id": "IA-066",
+    "feature": "zellige palette",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00331",
+    "feature_id": "IA-067",
+    "feature": "Iznik-inspired tile palette",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00332",
+    "feature_id": "IA-067",
+    "feature": "Iznik-inspired tile palette",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00333",
+    "feature_id": "IA-067",
+    "feature": "Iznik-inspired tile palette",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00334",
+    "feature_id": "IA-067",
+    "feature": "Iznik-inspired tile palette",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00335",
+    "feature_id": "IA-067",
+    "feature": "Iznik-inspired tile palette",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00336",
+    "feature_id": "IA-068",
+    "feature": "Persian glazed-tile palette",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00337",
+    "feature_id": "IA-068",
+    "feature": "Persian glazed-tile palette",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00338",
+    "feature_id": "IA-068",
+    "feature": "Persian glazed-tile palette",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00339",
+    "feature_id": "IA-068",
+    "feature": "Persian glazed-tile palette",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00340",
+    "feature_id": "IA-068",
+    "feature": "Persian glazed-tile palette",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00341",
+    "feature_id": "IA-069",
+    "feature": "brick pattern library",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00342",
+    "feature_id": "IA-069",
+    "feature": "brick pattern library",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00343",
+    "feature_id": "IA-069",
+    "feature": "brick pattern library",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00344",
+    "feature_id": "IA-069",
+    "feature": "brick pattern library",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00345",
+    "feature_id": "IA-069",
+    "feature": "brick pattern library",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00346",
+    "feature_id": "IA-070",
+    "feature": "carved stucco pattern mapping",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00347",
+    "feature_id": "IA-070",
+    "feature": "carved stucco pattern mapping",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00348",
+    "feature_id": "IA-070",
+    "feature": "carved stucco pattern mapping",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00349",
+    "feature_id": "IA-070",
+    "feature": "carved stucco pattern mapping",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00350",
+    "feature_id": "IA-070",
+    "feature": "carved stucco pattern mapping",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00351",
+    "feature_id": "IA-071",
+    "feature": "stone carving pattern mapping",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00352",
+    "feature_id": "IA-071",
+    "feature": "stone carving pattern mapping",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00353",
+    "feature_id": "IA-071",
+    "feature": "stone carving pattern mapping",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00354",
+    "feature_id": "IA-071",
+    "feature": "stone carving pattern mapping",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00355",
+    "feature_id": "IA-071",
+    "feature": "stone carving pattern mapping",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00356",
+    "feature_id": "IA-072",
+    "feature": "wood marquetry lattice",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00357",
+    "feature_id": "IA-072",
+    "feature": "wood marquetry lattice",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00358",
+    "feature_id": "IA-072",
+    "feature": "wood marquetry lattice",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00359",
+    "feature_id": "IA-072",
+    "feature": "wood marquetry lattice",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00360",
+    "feature_id": "IA-072",
+    "feature": "wood marquetry lattice",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00361",
+    "feature_id": "IA-073",
+    "feature": "painted timber ceiling palette",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00362",
+    "feature_id": "IA-073",
+    "feature": "painted timber ceiling palette",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00363",
+    "feature_id": "IA-073",
+    "feature": "painted timber ceiling palette",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00364",
+    "feature_id": "IA-073",
+    "feature": "painted timber ceiling palette",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00365",
+    "feature_id": "IA-073",
+    "feature": "painted timber ceiling palette",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00366",
+    "feature_id": "IA-074",
+    "feature": "earthen plaster palette",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00367",
+    "feature_id": "IA-074",
+    "feature": "earthen plaster palette",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00368",
+    "feature_id": "IA-074",
+    "feature": "earthen plaster palette",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00369",
+    "feature_id": "IA-074",
+    "feature": "earthen plaster palette",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00370",
+    "feature_id": "IA-074",
+    "feature": "earthen plaster palette",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00371",
+    "feature_id": "IA-075",
+    "feature": "local craft substitution suggestions",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00372",
+    "feature_id": "IA-075",
+    "feature": "local craft substitution suggestions",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00373",
+    "feature_id": "IA-075",
+    "feature": "local craft substitution suggestions",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00374",
+    "feature_id": "IA-075",
+    "feature": "local craft substitution suggestions",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00375",
+    "feature_id": "IA-075",
+    "feature": "local craft substitution suggestions",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00376",
+    "feature_id": "IA-076",
+    "feature": "Maghrebi-Andalusi style pack",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00377",
+    "feature_id": "IA-076",
+    "feature": "Maghrebi-Andalusi style pack",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00378",
+    "feature_id": "IA-076",
+    "feature": "Maghrebi-Andalusi style pack",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00379",
+    "feature_id": "IA-076",
+    "feature": "Maghrebi-Andalusi style pack",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00380",
+    "feature_id": "IA-076",
+    "feature": "Maghrebi-Andalusi style pack",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00381",
+    "feature_id": "IA-077",
+    "feature": "Ottoman style pack",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00382",
+    "feature_id": "IA-077",
+    "feature": "Ottoman style pack",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00383",
+    "feature_id": "IA-077",
+    "feature": "Ottoman style pack",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00384",
+    "feature_id": "IA-077",
+    "feature": "Ottoman style pack",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00385",
+    "feature_id": "IA-077",
+    "feature": "Ottoman style pack",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00386",
+    "feature_id": "IA-078",
+    "feature": "Persian/Iranian style pack",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00387",
+    "feature_id": "IA-078",
+    "feature": "Persian/Iranian style pack",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00388",
+    "feature_id": "IA-078",
+    "feature": "Persian/Iranian style pack",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00389",
+    "feature_id": "IA-078",
+    "feature": "Persian/Iranian style pack",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00390",
+    "feature_id": "IA-078",
+    "feature": "Persian/Iranian style pack",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00391",
+    "feature_id": "IA-079",
+    "feature": "Mamluk Egyptian style pack",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00392",
+    "feature_id": "IA-079",
+    "feature": "Mamluk Egyptian style pack",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00393",
+    "feature_id": "IA-079",
+    "feature": "Mamluk Egyptian style pack",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00394",
+    "feature_id": "IA-079",
+    "feature": "Mamluk Egyptian style pack",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00395",
+    "feature_id": "IA-079",
+    "feature": "Mamluk Egyptian style pack",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00396",
+    "feature_id": "IA-080",
+    "feature": "Sudano-Sahelian style pack",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00397",
+    "feature_id": "IA-080",
+    "feature": "Sudano-Sahelian style pack",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00398",
+    "feature_id": "IA-080",
+    "feature": "Sudano-Sahelian style pack",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00399",
+    "feature_id": "IA-080",
+    "feature": "Sudano-Sahelian style pack",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00400",
+    "feature_id": "IA-080",
+    "feature": "Sudano-Sahelian style pack",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00401",
+    "feature_id": "IA-081",
+    "feature": "Swahili coastal style pack",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00402",
+    "feature_id": "IA-081",
+    "feature": "Swahili coastal style pack",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00403",
+    "feature_id": "IA-081",
+    "feature": "Swahili coastal style pack",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00404",
+    "feature_id": "IA-081",
+    "feature": "Swahili coastal style pack",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00405",
+    "feature_id": "IA-081",
+    "feature": "Swahili coastal style pack",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00406",
+    "feature_id": "IA-082",
+    "feature": "South Asian Sultanate/Mughal style pack",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00407",
+    "feature_id": "IA-082",
+    "feature": "South Asian Sultanate/Mughal style pack",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00408",
+    "feature_id": "IA-082",
+    "feature": "South Asian Sultanate/Mughal style pack",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00409",
+    "feature_id": "IA-082",
+    "feature": "South Asian Sultanate/Mughal style pack",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00410",
+    "feature_id": "IA-082",
+    "feature": "South Asian Sultanate/Mughal style pack",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00411",
+    "feature_id": "IA-083",
+    "feature": "Malay-Indonesian style pack",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00412",
+    "feature_id": "IA-083",
+    "feature": "Malay-Indonesian style pack",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00413",
+    "feature_id": "IA-083",
+    "feature": "Malay-Indonesian style pack",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00414",
+    "feature_id": "IA-083",
+    "feature": "Malay-Indonesian style pack",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00415",
+    "feature_id": "IA-083",
+    "feature": "Malay-Indonesian style pack",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00416",
+    "feature_id": "IA-084",
+    "feature": "Chinese mosque regional pack",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00417",
+    "feature_id": "IA-084",
+    "feature": "Chinese mosque regional pack",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00418",
+    "feature_id": "IA-084",
+    "feature": "Chinese mosque regional pack",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00419",
+    "feature_id": "IA-084",
+    "feature": "Chinese mosque regional pack",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00420",
+    "feature_id": "IA-084",
+    "feature": "Chinese mosque regional pack",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00421",
+    "feature_id": "IA-085",
+    "feature": "Balkan mosque style pack",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00422",
+    "feature_id": "IA-085",
+    "feature": "Balkan mosque style pack",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00423",
+    "feature_id": "IA-085",
+    "feature": "Balkan mosque style pack",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00424",
+    "feature_id": "IA-085",
+    "feature": "Balkan mosque style pack",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00425",
+    "feature_id": "IA-085",
+    "feature": "Balkan mosque style pack",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00426",
+    "feature_id": "IA-086",
+    "feature": "contemporary minimal mosque pack",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00427",
+    "feature_id": "IA-086",
+    "feature": "contemporary minimal mosque pack",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00428",
+    "feature_id": "IA-086",
+    "feature": "contemporary minimal mosque pack",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00429",
+    "feature_id": "IA-086",
+    "feature": "contemporary minimal mosque pack",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00430",
+    "feature_id": "IA-086",
+    "feature": "contemporary minimal mosque pack",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00431",
+    "feature_id": "IA-087",
+    "feature": "historic-source provenance badges",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00432",
+    "feature_id": "IA-087",
+    "feature": "historic-source provenance badges",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00433",
+    "feature_id": "IA-087",
+    "feature": "historic-source provenance badges",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00434",
+    "feature_id": "IA-087",
+    "feature": "historic-source provenance badges",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00435",
+    "feature_id": "IA-087",
+    "feature": "historic-source provenance badges",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00436",
+    "feature_id": "IA-088",
+    "feature": "regional authenticity confidence",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00437",
+    "feature_id": "IA-088",
+    "feature": "regional authenticity confidence",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00438",
+    "feature_id": "IA-088",
+    "feature": "regional authenticity confidence",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00439",
+    "feature_id": "IA-088",
+    "feature": "regional authenticity confidence",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00440",
+    "feature_id": "IA-088",
+    "feature": "regional authenticity confidence",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00441",
+    "feature_id": "IA-089",
+    "feature": "avoid-style-mixing warning",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00442",
+    "feature_id": "IA-089",
+    "feature": "avoid-style-mixing warning",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00443",
+    "feature_id": "IA-089",
+    "feature": "avoid-style-mixing warning",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00444",
+    "feature_id": "IA-089",
+    "feature": "avoid-style-mixing warning",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00445",
+    "feature_id": "IA-089",
+    "feature": "avoid-style-mixing warning",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00446",
+    "feature_id": "IA-090",
+    "feature": "anachronism warning",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00447",
+    "feature_id": "IA-090",
+    "feature": "anachronism warning",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00448",
+    "feature_id": "IA-090",
+    "feature": "anachronism warning",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00449",
+    "feature_id": "IA-090",
+    "feature": "anachronism warning",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00450",
+    "feature_id": "IA-090",
+    "feature": "anachronism warning",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00451",
+    "feature_id": "IA-091",
+    "feature": "craft feasibility warning",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00452",
+    "feature_id": "IA-091",
+    "feature": "craft feasibility warning",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00453",
+    "feature_id": "IA-091",
+    "feature": "craft feasibility warning",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00454",
+    "feature_id": "IA-091",
+    "feature": "craft feasibility warning",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00455",
+    "feature_id": "IA-091",
+    "feature": "craft feasibility warning",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00456",
+    "feature_id": "IA-092",
+    "feature": "maintenance complexity score",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00457",
+    "feature_id": "IA-092",
+    "feature": "maintenance complexity score",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00458",
+    "feature_id": "IA-092",
+    "feature": "maintenance complexity score",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00459",
+    "feature_id": "IA-092",
+    "feature": "maintenance complexity score",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00460",
+    "feature_id": "IA-092",
+    "feature": "maintenance complexity score",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00461",
+    "feature_id": "IA-093",
+    "feature": "local material substitution mode",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00462",
+    "feature_id": "IA-093",
+    "feature": "local material substitution mode",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00463",
+    "feature_id": "IA-093",
+    "feature": "local material substitution mode",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00464",
+    "feature_id": "IA-093",
+    "feature": "local material substitution mode",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00465",
+    "feature_id": "IA-093",
+    "feature": "local material substitution mode",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00466",
+    "feature_id": "IA-094",
+    "feature": "ornament budget cap",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00467",
+    "feature_id": "IA-094",
+    "feature": "ornament budget cap",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00468",
+    "feature_id": "IA-094",
+    "feature": "ornament budget cap",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00469",
+    "feature_id": "IA-094",
+    "feature": "ornament budget cap",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00470",
+    "feature_id": "IA-094",
+    "feature": "ornament budget cap",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00471",
+    "feature_id": "IA-095",
+    "feature": "ornament hierarchy by sacred/secondary spaces",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00472",
+    "feature_id": "IA-095",
+    "feature": "ornament hierarchy by sacred/secondary spaces",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00473",
+    "feature_id": "IA-095",
+    "feature": "ornament hierarchy by sacred/secondary spaces",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00474",
+    "feature_id": "IA-095",
+    "feature": "ornament hierarchy by sacred/secondary spaces",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00475",
+    "feature_id": "IA-095",
+    "feature": "ornament hierarchy by sacred/secondary spaces",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00476",
+    "feature_id": "IA-096",
+    "feature": "copy/reference licensing",
+    "slice": "design research",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00477",
+    "feature_id": "IA-096",
+    "feature": "copy/reference licensing",
+    "slice": "generator/schema",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00478",
+    "feature_id": "IA-096",
+    "feature": "copy/reference licensing",
+    "slice": "Three.js/editor",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00479",
+    "feature_id": "IA-096",
+    "feature": "copy/reference licensing",
+    "slice": "cost/fabrication",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  },
+  {
+    "id": "IABL-00480",
+    "feature_id": "IA-096",
+    "feature": "copy/reference licensing",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "provenance retained",
+      "generator output deterministic where parametric",
+      "design/historic claims separated",
+      "cost/fabrication hooks defined",
+      "review complete"
+    ]
+  }
+]

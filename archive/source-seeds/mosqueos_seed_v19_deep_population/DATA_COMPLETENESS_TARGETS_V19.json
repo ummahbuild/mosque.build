@@ -1,0 +1,55 @@
+{
+  "required_for_launch": [
+    {
+      "domain": "mosque directory",
+      "target": ">=200 deeply verified profiles in launch metro",
+      "current_seed_status": "small factual seed only"
+    },
+    {
+      "domain": "vendors",
+      "target": ">=250 verified regional/global vendor records across launch-relevant categories",
+      "current_seed_status": "45 real vendors + queues"
+    },
+    {
+      "domain": "products",
+      "target": ">=500 source-backed product/model records",
+      "current_seed_status": "5 detailed product seeds + category queues"
+    },
+    {
+      "domain": "assemblies",
+      "target": ">=100 parametric assemblies",
+      "current_seed_status": 40
+    },
+    {
+      "domain": "ITP templates",
+      "target": ">=50 adaptable templates",
+      "current_seed_status": 30
+    },
+    {
+      "domain": "conversion presets",
+      "target": ">=40",
+      "current_seed_status": 25
+    },
+    {
+      "domain": "cost observations",
+      "target": "launch-region price book with >250 current observations",
+      "current_seed_status": "critical gap"
+    },
+    {
+      "domain": "regulatory",
+      "target": "complete launch jurisdiction pack",
+      "current_seed_status": "critical gap"
+    },
+    {
+      "domain": "public reusable designs",
+      "target": "20+ reviewed example designs",
+      "current_seed_status": "model exists, data gap"
+    },
+    {
+      "domain": "real reuse cases",
+      "target": "25+ source-backed cases",
+      "current_seed_status": "major gap"
+    }
+  ],
+  "truth_rule": "Targets, queues, templates and verified factual records must always be counted separately."
+}

@@ -1,0 +1,51 @@
+{
+  "principle": "Requirements must be resolved from official jurisdiction sources. Never infer approval from this seed.",
+  "hierarchy": [
+    "country",
+    "state_or_province",
+    "county_or_region",
+    "municipality",
+    "parcel_or_zone"
+  ],
+  "domains": [
+    "land_use_zoning",
+    "change_of_use",
+    "religious_assembly_protection",
+    "building_code",
+    "occupancy_classification",
+    "fire_code",
+    "accessibility",
+    "parking",
+    "traffic",
+    "noise_adhan",
+    "signage",
+    "heritage",
+    "environmental",
+    "stormwater",
+    "energy_code",
+    "plumbing",
+    "sanitation",
+    "commercial_kitchen",
+    "school_madrasa",
+    "childcare",
+    "funeral_mortuary",
+    "charity_registration",
+    "fundraising",
+    "tax_exemption",
+    "waqf_trust_endowment",
+    "employment",
+    "insurance",
+    "data_privacy"
+  ],
+  "required_source_fields": [
+    "authority",
+    "official_url",
+    "rule_name",
+    "effective_date",
+    "last_verified",
+    "geographic_scope",
+    "trigger",
+    "professional_confirmation_required"
+  ],
+  "publication_guardrail": "UI must say 'likely applicable' until official approval/qualified professional confirmation is recorded."
+}

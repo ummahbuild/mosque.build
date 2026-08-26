@@ -1,0 +1,80 @@
+[
+  {
+    "event": "landscape.zone_created",
+    "effects": [
+      "site geometry",
+      "cost allowance",
+      "irrigation demand"
+    ]
+  },
+  {
+    "event": "plant.palette_selected",
+    "effects": [
+      "nursery sourcing",
+      "water demand",
+      "maintenance plan",
+      "render"
+    ]
+  },
+  {
+    "event": "tree.placed",
+    "effects": [
+      "shade model",
+      "root clearance",
+      "quantity",
+      "cost",
+      "maintenance asset"
+    ]
+  },
+  {
+    "event": "rain_garden.placed",
+    "effects": [
+      "stormwater routing",
+      "excavation/plant quantities",
+      "maintenance"
+    ]
+  },
+  {
+    "event": "green_facade.placed",
+    "effects": [
+      "structural review flag",
+      "irrigation",
+      "waterproofing coordination",
+      "maintenance"
+    ]
+  },
+  {
+    "event": "irrigation.source_changed",
+    "effects": [
+      "water balance",
+      "quality gates",
+      "plumbing scope",
+      "operating cost"
+    ]
+  },
+  {
+    "event": "landscape.product_selected",
+    "effects": [
+      "local sourcing",
+      "cart",
+      "lead time",
+      "schedule"
+    ]
+  },
+  {
+    "event": "landscape.installed",
+    "effects": [
+      "establishment period",
+      "plant inventory",
+      "warranty/maintenance"
+    ]
+  },
+  {
+    "event": "plant.replaced",
+    "effects": [
+      "asset history",
+      "maintenance cost",
+      "palette performance"
+    ]
+  }
+]

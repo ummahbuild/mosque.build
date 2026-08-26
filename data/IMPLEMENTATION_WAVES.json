@@ -1,0 +1,1670 @@
+[
+  {
+    "wave": 0,
+    "name": "Trust foundation",
+    "feature_count": 241,
+    "top_features": [
+      {
+        "id": "wudu__accessible_wudu_station__locally_sourced",
+        "title": "Accessible Wudu Station \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "prayer_flooring__acoustic_underlay__locally_sourced",
+        "title": "Acoustic Underlay \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "wudu__bench_wudu_station__locally_sourced",
+        "title": "Bench Wudu Station \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "prayer_flooring__carpet_edge_profile__locally_sourced",
+        "title": "Carpet Edge Profile \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "prayer_flooring__carpet_tile__locally_sourced",
+        "title": "Carpet Tile \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "prayer_flooring__custom_mosque_carpet__locally_sourced",
+        "title": "Custom Mosque Carpet \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "MX014",
+        "title": "Delegated Authority",
+        "priority_score": 47
+      },
+      {
+        "id": "wudu__floor_wudu_station__locally_sourced",
+        "title": "Floor Wudu Station \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "src_kra_import",
+        "title": "Kenya Revenue Authority Importing & Exporting",
+        "priority_score": 47
+      },
+      {
+        "id": "FIX-0001",
+        "title": "No single canonical authority layer across v0-v7",
+        "priority_score": 47
+      },
+      {
+        "id": "FIX-0002",
+        "title": "No single canonical authority layer across v0-v7",
+        "priority_score": 47
+      },
+      {
+        "id": "FIX-0003",
+        "title": "No single canonical authority layer across v0-v7",
+        "priority_score": 47
+      },
+      {
+        "id": "FIX-0004",
+        "title": "No single canonical authority layer across v0-v7",
+        "priority_score": 47
+      },
+      {
+        "id": "FIX-0005",
+        "title": "No single canonical authority layer across v0-v7",
+        "priority_score": 47
+      },
+      {
+        "id": "AUD-001",
+        "title": "No single canonical authority layer across v0-v7",
+        "priority_score": 47
+      },
+      {
+        "id": "prayer_flooring__nylon_prayer_carpet__locally_sourced",
+        "title": "Nylon Prayer Carpet \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "prayer_flooring__polypropylene_prayer_carpet__locally_sourced",
+        "title": "Polypropylene Prayer Carpet \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "prayer_flooring__portable_prayer_runner__locally_sourced",
+        "title": "Portable Prayer Runner \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "technology__prayer_time_display__locally_sourced",
+        "title": "Prayer Time Display \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "prayer_flooring__saff_carpet_roll__locally_sourced",
+        "title": "Saff Carpet Roll \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "wudu__splash_partition__locally_sourced",
+        "title": "Splash Partition \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "wudu__stone_trough__locally_sourced",
+        "title": "Stone Trough \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "wudu__wall_wudu_tap__locally_sourced",
+        "title": "Wall Wudu Tap \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "prayer_flooring__washable_prayer_mat__locally_sourced",
+        "title": "Washable Prayer Mat \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "prayer_flooring__wool_prayer_carpet__locally_sourced",
+        "title": "Wool Prayer Carpet \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "wudu__wudu_stool__locally_sourced",
+        "title": "Wudu Stool \u2014 Locally Sourced",
+        "priority_score": 47
+      },
+      {
+        "id": "F0371",
+        "title": "audit exports",
+        "priority_score": 47
+      },
+      {
+        "id": "FUND-0080",
+        "title": "authorized representative",
+        "priority_score": 47
+      },
+      {
+        "id": "MXF-0034",
+        "title": "delegated authority",
+        "priority_score": 47
+      },
+      {
+        "id": "FUND-0136",
+        "title": "funding sources",
+        "priority_score": 47
+      },
+      {
+        "id": "technology__donation_kiosk__locally_sourced",
+        "title": "Donation Kiosk \u2014 Locally Sourced",
+        "priority_score": 46
+      },
+      {
+        "id": "technology__encoder__locally_sourced",
+        "title": "Encoder \u2014 Locally Sourced",
+        "priority_score": 46
+      },
+      {
+        "id": "COSTF-0003",
+        "title": "central bank source priority",
+        "priority_score": 46
+      },
+      {
+        "id": "community__banquet_table__locally_sourced",
+        "title": "Banquet Table \u2014 Locally Sourced",
+        "priority_score": 45
+      },
+      {
+        "id": "feat_book_filters",
+        "title": "Book filters by school, source type, language, translation and transliteration",
+        "priority_score": 45
+      },
+      {
+        "id": "wudu__channel_drain__locally_sourced",
+        "title": "Channel Drain \u2014 Locally Sourced",
+        "priority_score": 45
+      },
+      {
+        "id": "community__commercial_range__locally_sourced",
+        "title": "Commercial Range \u2014 Locally Sourced",
+        "priority_score": 45
+      },
+      {
+        "id": "community__commercial_refrigerator__locally_sourced",
+        "title": "Commercial Refrigerator \u2014 Locally Sourced",
+        "priority_score": 45
+      },
+      {
+        "id": "community__coworking_desk__locally_sourced",
+        "title": "Coworking Desk \u2014 Locally Sourced",
+        "priority_score": 45
+      },
+      {
+        "id": "furniture__elderly_prayer_chair__locally_sourced",
+        "title": "Elderly Prayer Chair \u2014 Locally Sourced",
+        "priority_score": 45
+      },
+      {
+        "id": "community__food_pantry_shelving__locally_sourced",
+        "title": "Food Pantry Shelving \u2014 Locally Sourced",
+        "priority_score": 45
+      },
+      {
+        "id": "doors_windows__perforated_screen__locally_sourced",
+        "title": "Perforated Screen \u2014 Locally Sourced",
+        "priority_score": 45
+      },
+      {
+        "id": "community__serving_counter__locally_sourced",
+        "title": "Serving Counter \u2014 Locally Sourced",
+        "priority_score": 45
+      },
+      {
+        "id": "community__sports_floor__locally_sourced",
+        "title": "Sports Floor \u2014 Locally Sourced",
+        "priority_score": 45
+      },
+      {
+        "id": "community__stage_platform__locally_sourced",
+        "title": "Stage Platform \u2014 Locally Sourced",
+        "priority_score": 45
+      },
+      {
+        "id": "wudu__stainless_trough__locally_sourced",
+        "title": "Stainless Trough \u2014 Locally Sourced",
+        "priority_score": 45
+      },
+      {
+        "id": "FIX-0121",
+        "title": "Suggestion engine lacks explicit explainability and authority boundaries",
+        "priority_score": 45
+      },
+      {
+        "id": "FIX-0122",
+        "title": "Suggestion engine lacks explicit explainability and authority boundaries",
+        "priority_score": 45
+      },
+      {
+        "id": "FIX-0123",
+        "title": "Suggestion engine lacks explicit explainability and authority boundaries",
+        "priority_score": 45
+      },
+      {
+        "id": "FIX-0124",
+        "title": "Suggestion engine lacks explicit explainability and authority boundaries",
+        "priority_score": 45
+      }
+    ],
+    "definition_of_done": "All applicable release gates pass; external factual data is source-backed; regulated/safety outputs have professional/authority review paths."
+  },
+  {
+    "wave": 1,
+    "name": "Guided mosque project",
+    "feature_count": 22,
+    "top_features": [
+      {
+        "id": "jurisdiction_dashboard",
+        "title": "Jurisdiction Dashboard",
+        "priority_score": 32
+      },
+      {
+        "id": "MX004",
+        "title": "Accessibility Brief",
+        "priority_score": 27
+      },
+      {
+        "id": "mosque_dashboard",
+        "title": "Mosque Dashboard",
+        "priority_score": 27
+      },
+      {
+        "id": "FUNDUI-062",
+        "title": "Board Funding Dashboard",
+        "priority_score": 26
+      },
+      {
+        "id": "MXF-0036",
+        "title": "project sponsor dashboard",
+        "priority_score": 26
+      },
+      {
+        "id": "F0367",
+        "title": "waqf income dashboard",
+        "priority_score": 26
+      },
+      {
+        "id": "MX002",
+        "title": "Community Brief",
+        "priority_score": 25
+      },
+      {
+        "id": "MXF-0191",
+        "title": "community priorities dashboard",
+        "priority_score": 25
+      },
+      {
+        "id": "P3D-028",
+        "title": "Designer Onboarding",
+        "priority_score": 22
+      },
+      {
+        "id": "P3D-030",
+        "title": "Modeler Onboarding",
+        "priority_score": 22
+      },
+      {
+        "id": "MX005",
+        "title": "Operations Brief",
+        "priority_score": 22
+      },
+      {
+        "id": "MX079",
+        "title": "Performance Dashboard",
+        "priority_score": 22
+      },
+      {
+        "id": "P3D-031",
+        "title": "Project Team Onboarding",
+        "priority_score": 22
+      },
+      {
+        "id": "MX024",
+        "title": "Quality Dashboard",
+        "priority_score": 22
+      },
+      {
+        "id": "MX003",
+        "title": "Religious Function Brief",
+        "priority_score": 22
+      },
+      {
+        "id": "F0318",
+        "title": "board dashboard",
+        "priority_score": 22
+      },
+      {
+        "id": "MXF-0121",
+        "title": "energy dashboard",
+        "priority_score": 22
+      },
+      {
+        "id": "MKT-047",
+        "title": "long-lead dashboard",
+        "priority_score": 22
+      },
+      {
+        "id": "MXF-0084",
+        "title": "quality trend dashboard",
+        "priority_score": 22
+      },
+      {
+        "id": "MXF-0020",
+        "title": "requirement coverage dashboard",
+        "priority_score": 22
+      },
+      {
+        "id": "MXF-0122",
+        "title": "water dashboard",
+        "priority_score": 22
+      },
+      {
+        "id": "P3D-029",
+        "title": "Vendor Onboarding",
+        "priority_score": 21
+      }
+    ],
+    "definition_of_done": "All applicable release gates pass; external factual data is source-backed; regulated/safety outputs have professional/authority review paths."
+  },
+  {
+    "wave": 2,
+    "name": "Core mosque design",
+    "feature_count": 429,
+    "top_features": [
+      {
+        "id": "FUND-0008",
+        "title": "permit diff",
+        "priority_score": 32
+      },
+      {
+        "id": "F0158",
+        "title": "permit impact indicator",
+        "priority_score": 32
+      },
+      {
+        "id": "COSTF-0088",
+        "title": "permit-risk diff",
+        "priority_score": 32
+      },
+      {
+        "id": "6",
+        "title": "Code/Permit Impact Scan",
+        "priority_score": 30
+      },
+      {
+        "id": "prayer_flooring__saff_carpet_roll__low_maintenance",
+        "title": "Saff Carpet Roll \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "wudu__wall_wudu_tap__low_maintenance",
+        "title": "Wall Wudu Tap \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "CS021",
+        "title": "Room Estimate",
+        "priority_score": 29
+      },
+      {
+        "id": "FUND-0032",
+        "title": "calibrate plan",
+        "priority_score": 29
+      },
+      {
+        "id": "F0153",
+        "title": "cost delta live",
+        "priority_score": 29
+      },
+      {
+        "id": "FUND-0007",
+        "title": "cost diff",
+        "priority_score": 29
+      },
+      {
+        "id": "COSTF-0085",
+        "title": "cost diff",
+        "priority_score": 29
+      },
+      {
+        "id": "COSTF-0094",
+        "title": "rebase prices",
+        "priority_score": 29
+      },
+      {
+        "id": "COSTF-0102",
+        "title": "room-based estimate",
+        "priority_score": 29
+      },
+      {
+        "id": "src_wbdg_commissioning",
+        "title": "Whole Building Design Guide \u2014 Building Commissioning",
+        "priority_score": 28
+      },
+      {
+        "id": "FUND-0027",
+        "title": "cost export",
+        "priority_score": 28
+      },
+      {
+        "id": "basement_to_prayer_room",
+        "title": "Basement \u2192 prayer room",
+        "priority_score": 27
+      },
+      {
+        "id": "classroom_to_prayer_room",
+        "title": "Classroom \u2192 prayer room",
+        "priority_score": 27
+      },
+      {
+        "id": "vend_commercial_washrooms_tahara",
+        "title": "Commercial Washrooms \u2014 Tahara Wudu Station",
+        "priority_score": 27
+      },
+      {
+        "id": "DES-001",
+        "title": "Create/branch mosque design scenario",
+        "priority_score": 27
+      },
+      {
+        "id": "fired_brick_infill_wall",
+        "title": "Fired Brick \u2014 Infill Wall",
+        "priority_score": 27
+      },
+      {
+        "id": "fired_brick_load_bearing_wall",
+        "title": "Fired Brick \u2014 Load-Bearing Wall",
+        "priority_score": 27
+      },
+      {
+        "id": "fired_brick_screen_wall",
+        "title": "Fired Brick \u2014 Screen Wall",
+        "priority_score": 27
+      },
+      {
+        "id": "home_to_prayer_room",
+        "title": "Home To Prayer Room",
+        "priority_score": 27
+      },
+      {
+        "id": "4",
+        "title": "Orient to Qibla",
+        "priority_score": 27
+      },
+      {
+        "id": "SCR-009",
+        "title": "Prayer Room Planner",
+        "priority_score": 27
+      },
+      {
+        "id": "DES-002",
+        "title": "Publish reusable mosque design",
+        "priority_score": 27
+      },
+      {
+        "id": "qibla_designer",
+        "title": "Qibla Designer",
+        "priority_score": 27
+      },
+      {
+        "id": "SCR-010",
+        "title": "Qibla Fit",
+        "priority_score": 27
+      },
+      {
+        "id": "CV024",
+        "title": "Qibla Fit",
+        "priority_score": 27
+      },
+      {
+        "id": "component_ref__worship_core__qibla_orientation",
+        "title": "Qibla Orientation",
+        "priority_score": 27
+      },
+      {
+        "id": "qibla_site_overlay",
+        "title": "Qibla Site Overlay",
+        "priority_score": 27
+      },
+      {
+        "id": "component_ref__worship_core__qibla_wall",
+        "title": "Qibla Wall",
+        "priority_score": 27
+      },
+      {
+        "id": "FIX-0036",
+        "title": "Religious-review requirement exists but prayer/qibla methodology is incomplete",
+        "priority_score": 27
+      },
+      {
+        "id": "FIX-0037",
+        "title": "Religious-review requirement exists but prayer/qibla methodology is incomplete",
+        "priority_score": 27
+      },
+      {
+        "id": "FIX-0038",
+        "title": "Religious-review requirement exists but prayer/qibla methodology is incomplete",
+        "priority_score": 27
+      },
+      {
+        "id": "FIX-0039",
+        "title": "Religious-review requirement exists but prayer/qibla methodology is incomplete",
+        "priority_score": 27
+      },
+      {
+        "id": "FIX-0040",
+        "title": "Religious-review requirement exists but prayer/qibla methodology is incomplete",
+        "priority_score": 27
+      },
+      {
+        "id": "AUD-008",
+        "title": "Religious-review requirement exists but prayer/qibla methodology is incomplete",
+        "priority_score": 27
+      },
+      {
+        "id": "room_to_wudu",
+        "title": "Room \u2192 wudu",
+        "priority_score": 27
+      },
+      {
+        "id": "prayer__saff_carpet",
+        "title": "Saff Carpet",
+        "priority_score": 27
+      },
+      {
+        "id": "prayer_flooring__saff_carpet_roll__accessible",
+        "title": "Saff Carpet Roll \u2014 Accessible",
+        "priority_score": 27
+      },
+      {
+        "id": "prayer_flooring__saff_carpet_roll__custom",
+        "title": "Saff Carpet Roll \u2014 Custom",
+        "priority_score": 27
+      },
+      {
+        "id": "prayer_flooring__saff_carpet_roll__economy",
+        "title": "Saff Carpet Roll \u2014 Economy",
+        "priority_score": 27
+      },
+      {
+        "id": "prayer_flooring__saff_carpet_roll__heritage",
+        "title": "Saff Carpet Roll \u2014 Heritage",
+        "priority_score": 27
+      },
+      {
+        "id": "prayer_flooring__saff_carpet_roll__high_traffic",
+        "title": "Saff Carpet Roll \u2014 High Traffic",
+        "priority_score": 27
+      },
+      {
+        "id": "prayer_flooring__saff_carpet_roll__low_carbon",
+        "title": "Saff Carpet Roll \u2014 Low Carbon",
+        "priority_score": 27
+      },
+      {
+        "id": "prayer_flooring__saff_carpet_roll__outdoor",
+        "title": "Saff Carpet Roll \u2014 Outdoor",
+        "priority_score": 27
+      },
+      {
+        "id": "prayer_flooring__saff_carpet_roll__premium",
+        "title": "Saff Carpet Roll \u2014 Premium",
+        "priority_score": 27
+      },
+      {
+        "id": "prayer_flooring__saff_carpet_roll__standard",
+        "title": "Saff Carpet Roll \u2014 Standard",
+        "priority_score": 27
+      },
+      {
+        "id": "CV026",
+        "title": "Saff Efficiency",
+        "priority_score": 27
+      }
+    ],
+    "definition_of_done": "All applicable release gates pass; external factual data is source-backed; regulated/safety outputs have professional/authority review paths."
+  },
+  {
+    "wave": 3,
+    "name": "Cost, sourcing & permits",
+    "feature_count": 224,
+    "top_features": [
+      {
+        "id": "FIX-0011",
+        "title": "Material cost catalog is structurally rich but largely unpriced",
+        "priority_score": 34
+      },
+      {
+        "id": "FIX-0012",
+        "title": "Material cost catalog is structurally rich but largely unpriced",
+        "priority_score": 34
+      },
+      {
+        "id": "FIX-0013",
+        "title": "Material cost catalog is structurally rich but largely unpriced",
+        "priority_score": 34
+      },
+      {
+        "id": "FIX-0014",
+        "title": "Material cost catalog is structurally rich but largely unpriced",
+        "priority_score": 34
+      },
+      {
+        "id": "FIX-0015",
+        "title": "Material cost catalog is structurally rich but largely unpriced",
+        "priority_score": 34
+      },
+      {
+        "id": "AUD-003",
+        "title": "Material cost catalog is structurally rich but largely unpriced",
+        "priority_score": 34
+      },
+      {
+        "id": "F0354",
+        "title": "Gift Aid/charitable receipt by jurisdiction",
+        "priority_score": 33
+      },
+      {
+        "id": "FUND-0084",
+        "title": "jurisdiction fundraising registration",
+        "priority_score": 33
+      },
+      {
+        "id": "FUND-0128",
+        "title": "permit stage block",
+        "priority_score": 33
+      },
+      {
+        "id": "building_permit",
+        "title": "Building Permit",
+        "priority_score": 32
+      },
+      {
+        "id": "CV058",
+        "title": "Permit Checklist",
+        "priority_score": 32
+      },
+      {
+        "id": "CS024",
+        "title": "Permit Fees",
+        "priority_score": 32
+      },
+      {
+        "id": "APP-019",
+        "title": "Permits",
+        "priority_score": 32
+      },
+      {
+        "id": "FIX-0016",
+        "title": "Regulatory packs are global shells, not verified jurisdiction packs",
+        "priority_score": 32
+      },
+      {
+        "id": "FIX-0017",
+        "title": "Regulatory packs are global shells, not verified jurisdiction packs",
+        "priority_score": 32
+      },
+      {
+        "id": "FIX-0018",
+        "title": "Regulatory packs are global shells, not verified jurisdiction packs",
+        "priority_score": 32
+      },
+      {
+        "id": "FIX-0019",
+        "title": "Regulatory packs are global shells, not verified jurisdiction packs",
+        "priority_score": 32
+      },
+      {
+        "id": "FIX-0020",
+        "title": "Regulatory packs are global shells, not verified jurisdiction packs",
+        "priority_score": 32
+      },
+      {
+        "id": "AUD-004",
+        "title": "Regulatory packs are global shells, not verified jurisdiction packs",
+        "priority_score": 32
+      },
+      {
+        "id": "COSTF-0143",
+        "title": "commissioning included",
+        "priority_score": 32
+      },
+      {
+        "id": "COSTF-0113",
+        "title": "permit fees",
+        "priority_score": 32
+      },
+      {
+        "id": "F0487",
+        "title": "permit guide pages",
+        "priority_score": 32
+      },
+      {
+        "id": "F0521",
+        "title": "related permit links",
+        "priority_score": 32
+      },
+      {
+        "id": "COSTF-0013",
+        "title": "cost per prayer place",
+        "priority_score": 31
+      },
+      {
+        "id": "feat_waqf_library_inventory",
+        "title": "Waqf & library inventory management",
+        "priority_score": 30
+      },
+      {
+        "id": "COSTF-0157",
+        "title": "maintenance contracts",
+        "priority_score": 30
+      },
+      {
+        "id": "COSTF-0167",
+        "title": "waqf coverage",
+        "priority_score": 30
+      },
+      {
+        "id": "COSTF-0006",
+        "title": "CIPI escalation",
+        "priority_score": 29
+      },
+      {
+        "id": "APP-018",
+        "title": "Cost",
+        "priority_score": 29
+      },
+      {
+        "id": "9",
+        "title": "Cost + Lifecycle",
+        "priority_score": 29
+      },
+      {
+        "id": "CS046",
+        "title": "Cost Alerts",
+        "priority_score": 29
+      },
+      {
+        "id": "CV050",
+        "title": "Cost Estimate",
+        "priority_score": 29
+      },
+      {
+        "id": "CS001",
+        "title": "Cost Home",
+        "priority_score": 29
+      },
+      {
+        "id": "P3D-034",
+        "title": "Cost Impact Tutorial",
+        "priority_score": 29
+      },
+      {
+        "id": "COSTF-0165",
+        "title": "Eid uplift",
+        "priority_score": 29
+      },
+      {
+        "id": "COSTF-0005",
+        "title": "FX sensitivity",
+        "priority_score": 29
+      },
+      {
+        "id": "COST-001",
+        "title": "Generate versioned estimate",
+        "priority_score": 29
+      },
+      {
+        "id": "FUNDUI-025",
+        "title": "Landed Cost",
+        "priority_score": 29
+      },
+      {
+        "id": "CS014",
+        "title": "Landed Cost",
+        "priority_score": 29
+      },
+      {
+        "id": "life_cycle_cost",
+        "title": "Life Cycle Cost",
+        "priority_score": 29
+      },
+      {
+        "id": "CS029",
+        "title": "Lifecycle Cost",
+        "priority_score": 29
+      },
+      {
+        "id": "material_takeoff",
+        "title": "Material Takeoff",
+        "priority_score": 29
+      },
+      {
+        "id": "CV051",
+        "title": "Operating Cost",
+        "priority_score": 29
+      },
+      {
+        "id": "CS031",
+        "title": "Operating Cost",
+        "priority_score": 29
+      },
+      {
+        "id": "COSTF-0011",
+        "title": "P10/P50/P90 ranges",
+        "priority_score": 29
+      },
+      {
+        "id": "FIX-0046",
+        "title": "Progress monitoring lacks a canonical schedule/cost baseline relationship",
+        "priority_score": 29
+      },
+      {
+        "id": "FIX-0047",
+        "title": "Progress monitoring lacks a canonical schedule/cost baseline relationship",
+        "priority_score": 29
+      },
+      {
+        "id": "FIX-0048",
+        "title": "Progress monitoring lacks a canonical schedule/cost baseline relationship",
+        "priority_score": 29
+      },
+      {
+        "id": "FIX-0049",
+        "title": "Progress monitoring lacks a canonical schedule/cost baseline relationship",
+        "priority_score": 29
+      },
+      {
+        "id": "FIX-0050",
+        "title": "Progress monitoring lacks a canonical schedule/cost baseline relationship",
+        "priority_score": 29
+      }
+    ],
+    "definition_of_done": "All applicable release gates pass; external factual data is source-backed; regulated/safety outputs have professional/authority review paths."
+  },
+  {
+    "wave": 4,
+    "name": "Funding & construction execution",
+    "feature_count": 5048,
+    "top_features": [
+      {
+        "id": "component_ref__fire_life_safety__fire_rated_door",
+        "title": "Fire-Rated Door",
+        "priority_score": 34
+      },
+      {
+        "id": "fire_door_set",
+        "title": "Fire-rated door set",
+        "priority_score": 34
+      },
+      {
+        "id": "fire_life_safety__fire_rated_door",
+        "title": "fire-rated door",
+        "priority_score": 34
+      },
+      {
+        "id": "MAT-0094",
+        "title": "fire-rated steel door",
+        "priority_score": 34
+      },
+      {
+        "id": "component_ref__electrical_it_security__donation_kiosk",
+        "title": "Donation Kiosk",
+        "priority_score": 33
+      },
+      {
+        "id": "src_ibc_2024_occupancy",
+        "title": "2024 International Building Code \u2014 Occupancy Classification",
+        "priority_score": 32
+      },
+      {
+        "id": "src_iebc_2024",
+        "title": "2024 International Existing Building Code",
+        "priority_score": 32
+      },
+      {
+        "id": "component_ref__accessibility__accessible_prayer_space",
+        "title": "Accessible Prayer Space",
+        "priority_score": 32
+      },
+      {
+        "id": "wudu_plumbing__accessible_wc",
+        "title": "Accessible Wc",
+        "priority_score": 32
+      },
+      {
+        "id": "component_ref__accessibility__accessible_wudu",
+        "title": "Accessible Wudu",
+        "priority_score": 32
+      },
+      {
+        "id": "wudu_plumbing__accessible_wudu_station",
+        "title": "Accessible Wudu Station",
+        "priority_score": 32
+      },
+      {
+        "id": "wudu_plumbing__baby_changer",
+        "title": "Baby Changer",
+        "priority_score": 32
+      },
+      {
+        "id": "wudu_plumbing__basin",
+        "title": "Basin",
+        "priority_score": 32
+      },
+      {
+        "id": "CV011",
+        "title": "Building Code Path",
+        "priority_score": 32
+      },
+      {
+        "id": "audio_it__encoder",
+        "title": "Encoder",
+        "priority_score": 32
+      },
+      {
+        "id": "technology__encoder__accessible",
+        "title": "Encoder \u2014 Accessible",
+        "priority_score": 32
+      },
+      {
+        "id": "technology__encoder__custom",
+        "title": "Encoder \u2014 Custom",
+        "priority_score": 32
+      },
+      {
+        "id": "technology__encoder__economy",
+        "title": "Encoder \u2014 Economy",
+        "priority_score": 32
+      },
+      {
+        "id": "technology__encoder__heritage",
+        "title": "Encoder \u2014 Heritage",
+        "priority_score": 32
+      },
+      {
+        "id": "technology__encoder__high_traffic",
+        "title": "Encoder \u2014 High Traffic",
+        "priority_score": 32
+      },
+      {
+        "id": "technology__encoder__low_carbon",
+        "title": "Encoder \u2014 Low Carbon",
+        "priority_score": 32
+      },
+      {
+        "id": "technology__encoder__outdoor",
+        "title": "Encoder \u2014 Outdoor",
+        "priority_score": 32
+      },
+      {
+        "id": "technology__encoder__premium",
+        "title": "Encoder \u2014 Premium",
+        "priority_score": 32
+      },
+      {
+        "id": "technology__encoder__standard",
+        "title": "Encoder \u2014 Standard",
+        "priority_score": 32
+      },
+      {
+        "id": "COSTF-0026",
+        "title": "HS-code workflow",
+        "priority_score": 32
+      },
+      {
+        "id": "wudu_plumbing__janitor_sink",
+        "title": "Janitor Sink",
+        "priority_score": 32
+      },
+      {
+        "id": "src_kenya_nbc_2024",
+        "title": "Kenya National Building Code 2024",
+        "priority_score": 32
+      },
+      {
+        "id": "component_ref__acoustics_av__livestream_encoder",
+        "title": "Livestream Encoder",
+        "priority_score": 32
+      },
+      {
+        "id": "wudu_plumbing__mixer_valve",
+        "title": "Mixer Valve",
+        "priority_score": 32
+      },
+      {
+        "id": "wudu_plumbing__pump",
+        "title": "Pump",
+        "priority_score": 32
+      },
+      {
+        "id": "APP-065",
+        "title": "Regulatory",
+        "priority_score": 32
+      },
+      {
+        "id": "wudu_plumbing__storage_tank",
+        "title": "Storage Tank",
+        "priority_score": 32
+      },
+      {
+        "id": "wudu_plumbing__water_heater",
+        "title": "Water Heater",
+        "priority_score": 32
+      },
+      {
+        "id": "wudu_plumbing__wc",
+        "title": "Wc",
+        "priority_score": 32
+      },
+      {
+        "id": "wudu_plumbing__wudu_bench",
+        "title": "Wudu Bench",
+        "priority_score": 32
+      },
+      {
+        "id": "wudu_plumbing__wudu_stool",
+        "title": "Wudu Stool",
+        "priority_score": 32
+      },
+      {
+        "id": "wudu_plumbing__wudu_tap",
+        "title": "Wudu Tap",
+        "priority_score": 32
+      },
+      {
+        "id": "CV010",
+        "title": "Zoning & Change of Use",
+        "priority_score": 32
+      },
+      {
+        "id": "zoning_check",
+        "title": "Zoning Check",
+        "priority_score": 32
+      },
+      {
+        "id": "FUND-0168",
+        "title": "commissioned state",
+        "priority_score": 32
+      },
+      {
+        "id": "acoustics_av__livestream_encoder",
+        "title": "livestream encoder",
+        "priority_score": 32
+      },
+      {
+        "id": "MXF-0004",
+        "title": "regulatory requirements",
+        "priority_score": 32
+      },
+      {
+        "id": "FUND-0118",
+        "title": "accessibility campaign",
+        "priority_score": 31
+      },
+      {
+        "id": "MX067",
+        "title": "Accessibility Review",
+        "priority_score": 30
+      },
+      {
+        "id": "compliance_calendar",
+        "title": "Compliance Calendar",
+        "priority_score": 30
+      },
+      {
+        "id": "technology__donation_kiosk__low_maintenance",
+        "title": "Donation Kiosk \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "technology__encoder__modular",
+        "title": "Encoder \u2014 Modular",
+        "priority_score": 30
+      },
+      {
+        "id": "FUND-0190",
+        "title": "FX conversion",
+        "priority_score": 30
+      },
+      {
+        "id": "wudu_plumbing__floor_drain",
+        "title": "Floor Drain",
+        "priority_score": 30
+      },
+      {
+        "id": "MXF-0176",
+        "title": "accessibility review",
+        "priority_score": 30
+      }
+    ],
+    "definition_of_done": "All applicable release gates pass; external factual data is source-backed; regulated/safety outputs have professional/authority review paths."
+  },
+  {
+    "wave": 5,
+    "name": "Commissioning & operations",
+    "feature_count": 302,
+    "top_features": [
+      {
+        "id": "APP-045",
+        "title": "Assets",
+        "priority_score": 33
+      },
+      {
+        "id": "technology__encoder__low_maintenance",
+        "title": "Encoder \u2014 Low Maintenance",
+        "priority_score": 32
+      },
+      {
+        "id": "waqf_assets",
+        "title": "Waqf Assets",
+        "priority_score": 32
+      },
+      {
+        "id": "wudu__accessible_wudu_station__low_maintenance",
+        "title": "Accessible Wudu Station \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "prayer_flooring__acoustic_underlay__low_maintenance",
+        "title": "Acoustic Underlay \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "wudu__bench_wudu_station__low_maintenance",
+        "title": "Bench Wudu Station \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "prayer_flooring__carpet_edge_profile__low_maintenance",
+        "title": "Carpet Edge Profile \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "prayer_flooring__carpet_tile__low_maintenance",
+        "title": "Carpet Tile \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "wudu__channel_drain__low_maintenance",
+        "title": "Channel Drain \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "prayer_flooring__custom_mosque_carpet__low_maintenance",
+        "title": "Custom Mosque Carpet \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "furniture__elderly_prayer_chair__low_maintenance",
+        "title": "Elderly Prayer Chair \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "wudu__floor_wudu_station__low_maintenance",
+        "title": "Floor Wudu Station \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "APP-046",
+        "title": "Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "prayer_flooring__nylon_prayer_carpet__low_maintenance",
+        "title": "Nylon Prayer Carpet \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "doors_windows__perforated_screen__low_maintenance",
+        "title": "Perforated Screen \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "prayer_flooring__polypropylene_prayer_carpet__low_maintenance",
+        "title": "Polypropylene Prayer Carpet \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "prayer_flooring__portable_prayer_runner__low_maintenance",
+        "title": "Portable Prayer Runner \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "technology__prayer_time_display__low_maintenance",
+        "title": "Prayer Time Display \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "wudu__splash_partition__low_maintenance",
+        "title": "Splash Partition \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "wudu__stainless_trough__low_maintenance",
+        "title": "Stainless Trough \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "wudu__stone_trough__low_maintenance",
+        "title": "Stone Trough \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "landscape__tree_grate__low_maintenance",
+        "title": "Tree Grate \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "prayer_flooring__washable_prayer_mat__low_maintenance",
+        "title": "Washable Prayer Mat \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "prayer_flooring__wool_prayer_carpet__low_maintenance",
+        "title": "Wool Prayer Carpet \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "wudu__wudu_stool__low_maintenance",
+        "title": "Wudu Stool \u2014 Low Maintenance",
+        "priority_score": 30
+      },
+      {
+        "id": "F0321",
+        "title": "compliance calendar",
+        "priority_score": 30
+      },
+      {
+        "id": "MXF-0118",
+        "title": "maintenance budget",
+        "priority_score": 30
+      },
+      {
+        "id": "MX034",
+        "title": "Asset Hierarchy",
+        "priority_score": 28
+      },
+      {
+        "id": "component_ref__operations__asset_qr_tag",
+        "title": "Asset Qr Tag",
+        "priority_score": 28
+      },
+      {
+        "id": "asset_registry",
+        "title": "Asset Registry",
+        "priority_score": 28
+      },
+      {
+        "id": "community__banquet_table__low_maintenance",
+        "title": "Banquet Table \u2014 Low Maintenance",
+        "priority_score": 28
+      },
+      {
+        "id": "community__commercial_range__low_maintenance",
+        "title": "Commercial Range \u2014 Low Maintenance",
+        "priority_score": 28
+      },
+      {
+        "id": "community__commercial_refrigerator__low_maintenance",
+        "title": "Commercial Refrigerator \u2014 Low Maintenance",
+        "priority_score": 28
+      },
+      {
+        "id": "commissioning",
+        "title": "Commissioning",
+        "priority_score": 28
+      },
+      {
+        "id": "APP-026",
+        "title": "Commissioning",
+        "priority_score": 28
+      },
+      {
+        "id": "CP-12",
+        "title": "Commissioning",
+        "priority_score": 28
+      },
+      {
+        "id": "CV061",
+        "title": "Commissioning",
+        "priority_score": 28
+      },
+      {
+        "id": "M7",
+        "title": "Commissioning + Handover",
+        "priority_score": 28
+      },
+      {
+        "id": "MX025",
+        "title": "Commissioning Home",
+        "priority_score": 28
+      },
+      {
+        "id": "MX030",
+        "title": "Commissioning Issues",
+        "priority_score": 28
+      },
+      {
+        "id": "MX027",
+        "title": "Commissioning Plan",
+        "priority_score": 28
+      },
+      {
+        "id": "MX033",
+        "title": "Commissioning Report",
+        "priority_score": 28
+      },
+      {
+        "id": "community__counseling_chair__low_maintenance",
+        "title": "Counseling Chair \u2014 Low Maintenance",
+        "priority_score": 28
+      },
+      {
+        "id": "community__coworking_desk__low_maintenance",
+        "title": "Coworking Desk \u2014 Low Maintenance",
+        "priority_score": 28
+      },
+      {
+        "id": "community__food_pantry_shelving__low_maintenance",
+        "title": "Food Pantry Shelving \u2014 Low Maintenance",
+        "priority_score": 28
+      },
+      {
+        "id": "src_wbdg_gsa_cx",
+        "title": "GSA Commissioning Guide via WBDG",
+        "priority_score": 28
+      },
+      {
+        "id": "APP-030",
+        "title": "Handover",
+        "priority_score": 28
+      },
+      {
+        "id": "CP-13",
+        "title": "Handover",
+        "priority_score": 28
+      },
+      {
+        "id": "MX062",
+        "title": "Handover Data Completeness",
+        "priority_score": 28
+      },
+      {
+        "id": "ITP-030",
+        "title": "Handover asset data",
+        "priority_score": 28
+      }
+    ],
+    "definition_of_done": "All applicable release gates pass; external factual data is source-backed; regulated/safety outputs have professional/authority review paths."
+  },
+  {
+    "wave": 6,
+    "name": "Intelligence & network effects",
+    "feature_count": 49,
+    "top_features": [
+      {
+        "id": "CS016",
+        "title": "Labor Price Book",
+        "priority_score": 29
+      },
+      {
+        "id": "CS015",
+        "title": "Material Price Book",
+        "priority_score": 29
+      },
+      {
+        "id": "CS017",
+        "title": "Plant Price Book",
+        "priority_score": 29
+      },
+      {
+        "id": "library_fitout",
+        "title": "Mosque library fit-out",
+        "priority_score": 27
+      },
+      {
+        "id": "F0080",
+        "title": "library",
+        "priority_score": 27
+      },
+      {
+        "id": "style_chinese_mosque",
+        "title": "Chinese mosque regional traditions",
+        "priority_score": 26
+      },
+      {
+        "id": "preset_chinese_mosque",
+        "title": "Chinese mosque regional traditions concept preset",
+        "priority_score": 26
+      },
+      {
+        "id": "madrasa_community__bookshelf",
+        "title": "Bookshelf",
+        "priority_score": 25
+      },
+      {
+        "id": "component_ref__community_madrasa__library",
+        "title": "Library",
+        "priority_score": 25
+      },
+      {
+        "id": "madrasa__book_cabinet__accessible",
+        "title": "Book Cabinet \u2014 Accessible",
+        "priority_score": 22
+      },
+      {
+        "id": "madrasa__book_cabinet__custom",
+        "title": "Book Cabinet \u2014 Custom",
+        "priority_score": 22
+      },
+      {
+        "id": "madrasa__book_cabinet__economy",
+        "title": "Book Cabinet \u2014 Economy",
+        "priority_score": 22
+      },
+      {
+        "id": "madrasa__book_cabinet__heritage",
+        "title": "Book Cabinet \u2014 Heritage",
+        "priority_score": 22
+      },
+      {
+        "id": "madrasa__book_cabinet__high_traffic",
+        "title": "Book Cabinet \u2014 High Traffic",
+        "priority_score": 22
+      },
+      {
+        "id": "madrasa__book_cabinet__low_carbon",
+        "title": "Book Cabinet \u2014 Low Carbon",
+        "priority_score": 22
+      },
+      {
+        "id": "madrasa__book_cabinet__outdoor",
+        "title": "Book Cabinet \u2014 Outdoor",
+        "priority_score": 22
+      },
+      {
+        "id": "madrasa__book_cabinet__premium",
+        "title": "Book Cabinet \u2014 Premium",
+        "priority_score": 22
+      },
+      {
+        "id": "madrasa__book_cabinet__standard",
+        "title": "Book Cabinet \u2014 Standard",
+        "priority_score": 22
+      },
+      {
+        "id": "component_ref__furniture_storage__bookshelf",
+        "title": "Bookshelf",
+        "priority_score": 22
+      },
+      {
+        "id": "F0463",
+        "title": "CAD library",
+        "priority_score": 22
+      },
+      {
+        "id": "IAS-023",
+        "title": "Craft Library",
+        "priority_score": 22
+      },
+      {
+        "id": "P3D-013",
+        "title": "Generic Specification Library",
+        "priority_score": 22
+      },
+      {
+        "id": "furniture__library_shelf__accessible",
+        "title": "Library Shelf \u2014 Accessible",
+        "priority_score": 22
+      },
+      {
+        "id": "furniture__library_shelf__custom",
+        "title": "Library Shelf \u2014 Custom",
+        "priority_score": 22
+      },
+      {
+        "id": "furniture__library_shelf__economy",
+        "title": "Library Shelf \u2014 Economy",
+        "priority_score": 22
+      },
+      {
+        "id": "furniture__library_shelf__heritage",
+        "title": "Library Shelf \u2014 Heritage",
+        "priority_score": 22
+      },
+      {
+        "id": "furniture__library_shelf__high_traffic",
+        "title": "Library Shelf \u2014 High Traffic",
+        "priority_score": 22
+      },
+      {
+        "id": "furniture__library_shelf__low_carbon",
+        "title": "Library Shelf \u2014 Low Carbon",
+        "priority_score": 22
+      },
+      {
+        "id": "furniture__library_shelf__outdoor",
+        "title": "Library Shelf \u2014 Outdoor",
+        "priority_score": 22
+      },
+      {
+        "id": "furniture__library_shelf__premium",
+        "title": "Library Shelf \u2014 Premium",
+        "priority_score": 22
+      },
+      {
+        "id": "furniture__library_shelf__standard",
+        "title": "Library Shelf \u2014 Standard",
+        "priority_score": 22
+      },
+      {
+        "id": "furniture__library_shelves",
+        "title": "Library Shelves",
+        "priority_score": 22
+      },
+      {
+        "id": "component_ref__furniture_storage__library_shelving",
+        "title": "Library Shelving",
+        "priority_score": 22
+      },
+      {
+        "id": "IAS-006",
+        "title": "Pattern Library",
+        "priority_score": 22
+      },
+      {
+        "id": "F0462",
+        "title": "blueprint library",
+        "priority_score": 22
+      },
+      {
+        "id": "furniture_storage__bookshelf",
+        "title": "bookshelf",
+        "priority_score": 22
+      },
+      {
+        "id": "community_madrasa__library",
+        "title": "library",
+        "priority_score": 22
+      },
+      {
+        "id": "furniture_storage__library_shelving",
+        "title": "library shelving",
+        "priority_score": 22
+      },
+      {
+        "id": "P3D-012",
+        "title": "Approved Product Library",
+        "priority_score": 21
+      },
+      {
+        "id": "IAS-037",
+        "title": "Regional Alternatives",
+        "priority_score": 21
+      },
+      {
+        "id": "IAS-004",
+        "title": "Regional Style Browser",
+        "priority_score": 21
+      },
+      {
+        "id": "F0018",
+        "title": "library filter",
+        "priority_score": 21
+      },
+      {
+        "id": "F0472",
+        "title": "regional maps",
+        "priority_score": 21
+      },
+      {
+        "id": "F0464",
+        "title": "BIM library",
+        "priority_score": 19
+      },
+      {
+        "id": "madrasa__book_cabinet__modular",
+        "title": "Book Cabinet \u2014 Modular",
+        "priority_score": 19
+      },
+      {
+        "id": "furniture__library_shelf__modular",
+        "title": "Library Shelf \u2014 Modular",
+        "priority_score": 19
+      },
+      {
+        "id": "project_recommendation",
+        "title": "Project Recommendation",
+        "priority_score": 19
+      },
+      {
+        "id": "10",
+        "title": "Recommendation",
+        "priority_score": 19
+      },
+      {
+        "id": "F0248",
+        "title": "library shelves",
+        "priority_score": 19
+      }
+    ],
+    "definition_of_done": "All applicable release gates pass; external factual data is source-backed; regulated/safety outputs have professional/authority review paths."
+  },
+  {
+    "wave": 7,
+    "name": "Advanced simulation / optimization",
+    "feature_count": 0,
+    "top_features": [],
+    "definition_of_done": "All applicable release gates pass; external factual data is source-backed; regulated/safety outputs have professional/authority review paths."
+  }
+]

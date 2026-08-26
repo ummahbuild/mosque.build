@@ -1,0 +1,42 @@
+[
+  {
+    "id": "SAFE-US-001",
+    "topic": "excavation daily review",
+    "jurisdiction": "United States",
+    "source_id": "src_osha_excavation",
+    "template_items": [
+      "competent-person daily inspection",
+      "protect against loose/falling material",
+      "access/egress review",
+      "utilities/adjacent structures as applicable"
+    ],
+    "usage": "example checklist seed; validate against project and current law"
+  },
+  {
+    "id": "SAFE-US-002",
+    "topic": "temporary electrical",
+    "jurisdiction": "United States",
+    "source_id": "src_osha_temp_wiring",
+    "template_items": [
+      "temporary wiring purpose/duration",
+      "protect wiring/components",
+      "remove temporary wiring when construction purpose ends"
+    ],
+    "usage": "example compliance seed; full regulation controls"
+  },
+  {
+    "id": "SAFE-US-003",
+    "topic": "construction safety baseline",
+    "jurisdiction": "United States",
+    "source_id": "src_osha_1926",
+    "template_items": [
+      "fall hazards",
+      "electrical",
+      "excavation",
+      "PPE/hazards",
+      "equipment/vehicles",
+      "site access"
+    ],
+    "usage": "topic index only; not a substitute for OSHA standards"
+  }
+]

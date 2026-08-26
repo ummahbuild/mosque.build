@@ -1,0 +1,25 @@
+{
+  "google_places": {
+    "use": "live place discovery/details such as name, address, place status, nearby search, and available opening-hours fields",
+    "store": "provider place ID, fetched timestamp, permitted cached fields according to current terms",
+    "do_not": "scrape Google Maps HTML or treat Google data as permanently owned source data",
+    "docs": [
+      "https://developers.google.com/maps/documentation/places/web-service/overview",
+      "https://developers.google.com/maps/documentation/places/web-service/nearby-search",
+      "https://developers.google.com/maps/documentation/places/web-service/reference/rest/v1/places"
+    ]
+  },
+  "google_business_profile": {
+    "use": "claimed organizations may manage their own Business Profile information through authorized integrations where eligible",
+    "docs": [
+      "https://developers.google.com/my-business"
+    ]
+  },
+  "schema_org": {
+    "use": "public mosque entity structured data and opening-hours specification where known",
+    "docs": [
+      "https://schema.org/Mosque",
+      "https://schema.org/Place"
+    ]
+  }
+}

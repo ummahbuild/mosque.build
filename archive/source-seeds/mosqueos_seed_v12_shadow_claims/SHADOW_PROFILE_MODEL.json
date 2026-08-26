@@ -1,0 +1,62 @@
+{
+  "profile_states": [
+    "candidate",
+    "shadow_unclaimed",
+    "claim_pending",
+    "claimed",
+    "verified_claimed",
+    "disputed",
+    "temporarily_closed",
+    "permanently_closed",
+    "archived"
+  ],
+  "source_layers": [
+    {
+      "priority": 1,
+      "source": "verified mosque admin",
+      "scope": "operational/self-declared mosque facts",
+      "examples": [
+        "phone",
+        "website",
+        "hours",
+        "iqama",
+        "Jumuah",
+        "programs",
+        "facilities",
+        "donation link"
+      ]
+    },
+    {
+      "priority": 2,
+      "source": "official mosque website/social/domain",
+      "scope": "operational facts where current"
+    },
+    {
+      "priority": 3,
+      "source": "authoritative public/heritage/architecture source",
+      "scope": "history, architecture, heritage, architect attribution"
+    },
+    {
+      "priority": 4,
+      "source": "licensed provider APIs",
+      "scope": "address, place status, public hours, geospatial"
+    },
+    {
+      "priority": 5,
+      "source": "OpenStreetMap/Wikidata/open data",
+      "scope": "candidate discovery, identifiers, coordinates, aliases"
+    },
+    {
+      "priority": 6,
+      "source": "community suggestions",
+      "scope": "leads only until reviewed"
+    }
+  ],
+  "field_rules": [
+    "Operational fields can be overridden by verified mosque admins but retain prior provenance/history.",
+    "Architecture/history fields are not automatically overridden by a mosque admin; disputed claims enter editorial review.",
+    "Provider-derived hours retain provider timestamp and cannot be relabeled as mosque-confirmed.",
+    "Every public field records source type, source ID, observed/verified date, confidence and claim-authority scope.",
+    "Shadow profiles must visibly show 'Unclaimed profile' or equivalent until claim completes."
+  ]
+}

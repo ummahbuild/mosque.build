@@ -1,0 +1,21 @@
+{
+  "version": "1.0-scale-seed",
+  "generated": "2026-08-16",
+  "note": "Counts distinguish taxonomy/queue capacity from verified factual ingestion. Queued records are NOT publishable facts.",
+  "counts": {
+    "architecture_style_taxonomy": 170,
+    "component_product_classes": 2441,
+    "construction_material_techniques": 520,
+    "mosque_ingestion_slots": 5000,
+    "people_ingestion_slots": 550,
+    "drawing_ingestion_slots": 1600,
+    "real_video_ingestion_slots": 550,
+    "supplier_product_ingestion_slots": 10000,
+    "adaptive_reuse_case_slots": 120,
+    "funding_case_slots": 120,
+    "waqf_case_slots": 120,
+    "operations_case_slots": 120,
+    "country_regulatory_packs": 249,
+    "museum_component_example_slots": 5000
+  }
+}

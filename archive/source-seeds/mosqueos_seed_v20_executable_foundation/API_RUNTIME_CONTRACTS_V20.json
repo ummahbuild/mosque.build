@@ -1,0 +1,71 @@
+{
+  "project": {
+    "create": {
+      "method": "POST",
+      "path": "/api/projects",
+      "idempotent": true
+    },
+    "save_design_version": {
+      "method": "POST",
+      "path": "/api/projects/:id/scenarios/:scenarioId/versions",
+      "requires_version_precondition": true
+    },
+    "generate_takeoff": {
+      "method": "POST",
+      "path": "/api/projects/:id/takeoff",
+      "async_job": true
+    },
+    "generate_estimate": {
+      "method": "POST",
+      "path": "/api/projects/:id/estimates",
+      "async_job": true
+    }
+  },
+  "marketplace": {
+    "add_cart_item": {
+      "method": "POST",
+      "path": "/api/projects/:id/cart",
+      "idempotent": true
+    },
+    "issue_rfq": {
+      "method": "POST",
+      "path": "/api/projects/:id/rfqs",
+      "idempotent": true
+    },
+    "submit_quote": {
+      "method": "POST",
+      "path": "/api/vendor/rfqs/:id/quotes",
+      "idempotent": true
+    }
+  },
+  "construction": {
+    "daily_report": {
+      "method": "POST",
+      "path": "/api/projects/:id/daily-reports",
+      "offline_mutation": true
+    },
+    "inspection": {
+      "method": "POST",
+      "path": "/api/projects/:id/inspections",
+      "offline_mutation": true
+    },
+    "progress": {
+      "method": "POST",
+      "path": "/api/projects/:id/progress",
+      "requires_evidence_policy": true
+    }
+  },
+  "fundraising": {
+    "publish_campaign": {
+      "method": "POST",
+      "path": "/api/projects/:id/campaigns",
+      "requires_approved_budget": true
+    },
+    "payment_webhook": {
+      "method": "POST",
+      "path": "/api/webhooks/payments/:provider",
+      "server_only": true,
+      "idempotent": true
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "estimate_levels": [
+    {
+      "id": "L0_concept",
+      "maturity": "very early",
+      "default_uncertainty_pct": [
+        -35,
+        50
+      ]
+    },
+    {
+      "id": "L1_feasibility",
+      "maturity": "site/program known",
+      "default_uncertainty_pct": [
+        -25,
+        35
+      ]
+    },
+    {
+      "id": "L2_schematic",
+      "maturity": "area/system choices known",
+      "default_uncertainty_pct": [
+        -20,
+        25
+      ]
+    },
+    {
+      "id": "L3_design_development",
+      "maturity": "major quantities/specs known",
+      "default_uncertainty_pct": [
+        -12,
+        18
+      ]
+    },
+    {
+      "id": "L4_tender",
+      "maturity": "BOQ/RFQs available",
+      "default_uncertainty_pct": [
+        -7,
+        10
+      ]
+    },
+    {
+      "id": "L5_committed",
+      "maturity": "contracts/POs",
+      "default_uncertainty_pct": [
+        -3,
+        5
+      ]
+    }
+  ],
+  "local_item_formula": "base_quote * local_index_adjustment * location_factor * quantity + waste + install_labor + plant + subcontractor_OH&P",
+  "imported_item_formula": "supplier_price + origin_inland + export_handling + international_freight + insurance + customs_value_duties + import_fees + port_handling + destination_inland + installation + commissioning + FX_risk + contingency",
+  "project_formula": "land + soft_costs + direct_construction + external_works + FF&E + taxes_fees + owner_costs + escalation + contingency + opening_reserve",
+  "lifecycle_formula": "capex + discounted_or_nominal_maintenance + utilities + scheduled_replacements + inspections + cleaning + end_of_life",
+  "required_fields": [
+    "currency",
+    "price_date",
+    "geography",
+    "source",
+    "quantity",
+    "unit",
+    "estimate_level",
+    "confidence",
+    "exclusions",
+    "tax_treatment"
+  ]
+}

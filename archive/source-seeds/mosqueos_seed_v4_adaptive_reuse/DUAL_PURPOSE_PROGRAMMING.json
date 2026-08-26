@@ -1,0 +1,99 @@
+{
+  "space_patterns": [
+    {
+      "space": "prayer hall",
+      "secondary": [
+        "lecture",
+        "Quran class",
+        "community assembly"
+      ],
+      "constraints": [
+        "protect cleanliness",
+        "storage for movable furniture",
+        "acoustics",
+        "setup/reset time"
+      ]
+    },
+    {
+      "space": "classroom",
+      "secondary": [
+        "meeting",
+        "counseling",
+        "coworking",
+        "adult education"
+      ],
+      "constraints": [
+        "secure child records/materials",
+        "acoustic privacy",
+        "storage"
+      ]
+    },
+    {
+      "space": "multipurpose hall",
+      "secondary": [
+        "iftar",
+        "wedding",
+        "youth",
+        "sports/light recreation",
+        "food distribution"
+      ],
+      "constraints": [
+        "cleanable floor",
+        "kitchen adjacency",
+        "storage",
+        "acoustics"
+      ]
+    },
+    {
+      "space": "courtyard",
+      "secondary": [
+        "overflow prayer",
+        "iftar",
+        "children",
+        "community market"
+      ],
+      "constraints": [
+        "weather",
+        "drainage",
+        "shade",
+        "noise"
+      ]
+    },
+    {
+      "space": "library",
+      "secondary": [
+        "quiet study",
+        "new Muslim support",
+        "coworking"
+      ],
+      "constraints": [
+        "quiet zones",
+        "book security"
+      ]
+    },
+    {
+      "space": "retail/waqf unit",
+      "secondary": [
+        "rental income"
+      ],
+      "constraints": [
+        "legal separation",
+        "access",
+        "utilities",
+        "governance"
+      ]
+    }
+  ],
+  "program_optimizer_inputs": [
+    "hours/week",
+    "peak attendance",
+    "setup time",
+    "cleaning/reset",
+    "storage",
+    "noise",
+    "privacy",
+    "accessibility",
+    "revenue/mission value"
+  ],
+  "goal": "Reduce dedicated low-use rooms by combining compatible functions without degrading worship, safety, privacy, safeguarding or cleanliness."
+}

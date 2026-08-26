@@ -1,0 +1,118 @@
+{
+  "id": "demo_v25_warehouse_green_mosque",
+  "steps": [
+    {
+      "step": 1,
+      "action": "scan warehouse",
+      "outputs": [
+        "existing walls",
+        "rooms",
+        "services",
+        "uncertainty"
+      ]
+    },
+    {
+      "step": 2,
+      "action": "repair/confirm geometry",
+      "outputs": [
+        "verified room loops",
+        "existing condition baseline"
+      ]
+    },
+    {
+      "step": 3,
+      "action": "convert zones",
+      "outputs": [
+        "prayer hall",
+        "women/family",
+        "wudu",
+        "madrasa",
+        "community",
+        "courtyard"
+      ]
+    },
+    {
+      "step": 4,
+      "action": "generate qibla/saff",
+      "outputs": [
+        "rows",
+        "capacity",
+        "obstructions",
+        "accessible positions"
+      ]
+    },
+    {
+      "step": 5,
+      "action": "apply Islamic architecture concept",
+      "outputs": [
+        "style/pattern/material selections"
+      ]
+    },
+    {
+      "step": 6,
+      "action": "add gardens/natural facade",
+      "outputs": [
+        "tree canopy",
+        "rain garden",
+        "trellis facade",
+        "irrigation"
+      ]
+    },
+    {
+      "step": 7,
+      "action": "create engineering assumptions/issues",
+      "outputs": [
+        "review gates",
+        "discipline tasks"
+      ]
+    },
+    {
+      "step": 8,
+      "action": "generate takeoff",
+      "outputs": [
+        "assembly quantities",
+        "uncertainty"
+      ]
+    },
+    {
+      "step": 9,
+      "action": "price and source",
+      "outputs": [
+        "allowances",
+        "local alternatives",
+        "vendor shortlist"
+      ]
+    },
+    {
+      "step": 10,
+      "action": "create procurement/construction packages",
+      "outputs": [
+        "RFQs",
+        "submittals",
+        "ITPs",
+        "schedule activities"
+      ]
+    },
+    {
+      "step": 11,
+      "action": "field execution",
+      "outputs": [
+        "daily reports",
+        "deliveries",
+        "inspections",
+        "progress"
+      ]
+    },
+    {
+      "step": 12,
+      "action": "commission and handover",
+      "outputs": [
+        "tests",
+        "assets",
+        "warranties",
+        "maintenance plans"
+      ]
+    }
+  ],
+  "status": "synthetic_reference_workflow"
+}

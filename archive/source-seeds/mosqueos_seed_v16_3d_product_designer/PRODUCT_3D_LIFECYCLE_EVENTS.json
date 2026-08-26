@@ -1,0 +1,85 @@
+{
+  "events": [
+    {
+      "event": "product3d.published",
+      "downstream": [
+        "search index",
+        "designer library",
+        "vendor storefront"
+      ]
+    },
+    {
+      "event": "product.placed",
+      "downstream": [
+        "compatibility check",
+        "quantity",
+        "cost allowance",
+        "render"
+      ]
+    },
+    {
+      "event": "compatibility.failed",
+      "downstream": [
+        "issue/warning",
+        "alternate suggestions"
+      ]
+    },
+    {
+      "event": "product.variant_changed",
+      "downstream": [
+        "geometry update",
+        "cost/lead time recalc",
+        "submittal status review"
+      ]
+    },
+    {
+      "event": "product.technical_approved",
+      "downstream": [
+        "approved project library",
+        "RFQ/PO eligibility"
+      ]
+    },
+    {
+      "event": "product.ordered",
+      "downstream": [
+        "model badge",
+        "schedule manufacturing/shipping",
+        "cash flow"
+      ]
+    },
+    {
+      "event": "product.delivered",
+      "downstream": [
+        "receiving inspection",
+        "site inventory"
+      ]
+    },
+    {
+      "event": "product.installed",
+      "downstream": [
+        "as-built model status",
+        "progress",
+        "commissioning"
+      ]
+    },
+    {
+      "event": "product.commissioned",
+      "downstream": [
+        "asset register",
+        "maintenance plan",
+        "warranty"
+      ]
+    }
+  ],
+  "visual_status_badges": [
+    "generic",
+    "vendor candidate",
+    "technical review",
+    "approved",
+    "ordered",
+    "in transit",
+    "on site",
+    "installed",
+    "commissioned"
+  ]
+}

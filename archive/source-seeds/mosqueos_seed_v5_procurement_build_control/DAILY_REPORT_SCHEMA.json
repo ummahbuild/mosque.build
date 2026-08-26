@@ -1,0 +1,40 @@
+{
+  "fields": [
+    "project",
+    "date",
+    "weather",
+    "site_hours",
+    "reporter",
+    "contractors_on_site",
+    "labor_by_trade",
+    "equipment",
+    "activities_completed",
+    "activities_started",
+    "quantities_installed",
+    "deliveries",
+    "inspections",
+    "visitors",
+    "safety observations",
+    "quality observations",
+    "delays",
+    "RFIs affecting work",
+    "submittals affecting work",
+    "change events",
+    "photos",
+    "360 captures",
+    "issues",
+    "instructions_received",
+    "next_day_plan",
+    "signature"
+  ],
+  "mobile_features": [
+    "offline draft",
+    "camera timestamp",
+    "location optional",
+    "voice-to-note",
+    "trade tags",
+    "drawing pin location",
+    "QR asset scan",
+    "sync queue"
+  ]
+}

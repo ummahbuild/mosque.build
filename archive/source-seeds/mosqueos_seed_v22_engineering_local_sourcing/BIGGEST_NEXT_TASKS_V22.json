@@ -1,0 +1,42 @@
+[
+  {
+    "rank": 1,
+    "task": "move v20/v22 SQL drafts into ordered Supabase migrations + fixtures + RLS policies/tests"
+  },
+  {
+    "rank": 2,
+    "task": "expand geometry math into wall/room/opening/saff/product compatibility package"
+  },
+  {
+    "rank": 3,
+    "task": "wire project/scenario/design-version APIs to persistent objects and events"
+  },
+  {
+    "rank": 4,
+    "task": "implement takeoff rules for the 40 v19 assemblies"
+  },
+  {
+    "rank": 5,
+    "task": "implement local sourcing search + scoring over vendor/product records"
+  },
+  {
+    "rank": 6,
+    "task": "implement engineering issue/assumption register with object links"
+  },
+  {
+    "rank": 7,
+    "task": "implement WBS/method-statement/submittal/ITP workflow backend"
+  },
+  {
+    "rank": 8,
+    "task": "implement Expo outbox + attachment sync + conflict center"
+  },
+  {
+    "rank": 9,
+    "task": "populate Kenya/East Africa local material/vendors/rates/regulatory sources"
+  },
+  {
+    "rank": 10,
+    "task": "build end-to-end demo: scan warehouse → design → takeoff → local alternatives → RFQ → construction"
+  }
+]

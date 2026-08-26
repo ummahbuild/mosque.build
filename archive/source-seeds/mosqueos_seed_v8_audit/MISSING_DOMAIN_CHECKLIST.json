@@ -1,0 +1,146 @@
+[
+  {
+    "domain": "legal/entity formation",
+    "items": [
+      "charity/nonprofit entity setup by jurisdiction",
+      "land-owning entity",
+      "waqf trustee/entity relationship",
+      "beneficial ownership/KYC where required",
+      "board bylaws/policies",
+      "record retention"
+    ]
+  },
+  {
+    "domain": "accounting",
+    "items": [
+      "chart of accounts mapping",
+      "fund accounting",
+      "journal export",
+      "vendor bills",
+      "bank reconciliation",
+      "fiscal year",
+      "financial statements",
+      "audit trail"
+    ]
+  },
+  {
+    "domain": "HR/payroll",
+    "items": [
+      "staff contracts",
+      "payroll integration boundary",
+      "leave",
+      "timesheets",
+      "background/safeguarding checks where lawful",
+      "expense reimbursement"
+    ]
+  },
+  {
+    "domain": "pricing/subscriptions",
+    "items": [
+      "entitlements",
+      "trial",
+      "billing",
+      "tax on SaaS",
+      "invoice",
+      "cancel/downgrade",
+      "grace periods",
+      "enterprise contract"
+    ]
+  },
+  {
+    "domain": "i18n",
+    "items": [
+      "Arabic RTL",
+      "locale formatting",
+      "translation memory",
+      "transliteration policy",
+      "review workflow",
+      "fallback language",
+      "local units"
+    ]
+  },
+  {
+    "domain": "support/admin",
+    "items": [
+      "support tickets",
+      "impersonation with audit",
+      "account recovery",
+      "organization transfer",
+      "data correction disputes",
+      "abuse reports"
+    ]
+  },
+  {
+    "domain": "property acquisition",
+    "items": [
+      "listing provider rights",
+      "LOI/offer",
+      "appraisal",
+      "financing",
+      "inspection contingency",
+      "closing checklist",
+      "broker/legal contacts",
+      "seller document room"
+    ]
+  },
+  {
+    "domain": "digital accessibility",
+    "items": [
+      "WCAG target",
+      "keyboard",
+      "screen reader",
+      "reduced motion",
+      "3D nonvisual alternatives",
+      "high contrast",
+      "focus management",
+      "captions/transcripts"
+    ]
+  },
+  {
+    "domain": "performance/SRE",
+    "items": [
+      "SLOs",
+      "latency budgets",
+      "3D frame-rate budgets",
+      "map query budgets",
+      "queue lag",
+      "RPO/RTO",
+      "capacity/load test"
+    ]
+  },
+  {
+    "domain": "content operations",
+    "items": [
+      "exact copy registry",
+      "translation states",
+      "scholar review queue",
+      "architecture peer review",
+      "legal review",
+      "correction policy",
+      "editorial version history"
+    ]
+  },
+  {
+    "domain": "AI governance",
+    "items": [
+      "deterministic vs heuristic vs generative labeling",
+      "prompt/model version if used",
+      "source grounding",
+      "human review",
+      "no permit/structural final decisions",
+      "evaluation set"
+    ]
+  },
+  {
+    "domain": "data export/portability",
+    "items": [
+      "project export",
+      "mosque profile export",
+      "BIM/IFC",
+      "cost CSV",
+      "asset register",
+      "audit logs",
+      "deletion/closure bundle"
+    ]
+  }
+]

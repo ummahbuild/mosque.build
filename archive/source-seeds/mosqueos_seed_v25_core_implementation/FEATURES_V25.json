@@ -1,0 +1,177 @@
+[
+  {
+    "id": "V25-001",
+    "feature": "model health auto-repair suggestions",
+    "status": "specified"
+  },
+  {
+    "id": "V25-002",
+    "feature": "room loop confidence",
+    "status": "specified"
+  },
+  {
+    "id": "V25-003",
+    "feature": "scan-to-wall reconciliation",
+    "status": "specified"
+  },
+  {
+    "id": "V25-004",
+    "feature": "wall endpoint snap merge",
+    "status": "specified"
+  },
+  {
+    "id": "V25-005",
+    "feature": "opening orphan detector",
+    "status": "specified"
+  },
+  {
+    "id": "V25-006",
+    "feature": "room perimeter takeoff",
+    "status": "specified"
+  },
+  {
+    "id": "V25-007",
+    "feature": "room finish schedule",
+    "status": "specified"
+  },
+  {
+    "id": "V25-008",
+    "feature": "automatic room IDs",
+    "status": "specified"
+  },
+  {
+    "id": "V25-009",
+    "feature": "multi-floor adjacency",
+    "status": "specified"
+  },
+  {
+    "id": "V25-010",
+    "feature": "stair connectivity validator",
+    "status": "specified"
+  },
+  {
+    "id": "V25-011",
+    "feature": "accessible route graph validator",
+    "status": "specified"
+  },
+  {
+    "id": "V25-012",
+    "feature": "saff/door conflict heatmap",
+    "status": "specified"
+  },
+  {
+    "id": "V25-013",
+    "feature": "saff/column conflict heatmap",
+    "status": "specified"
+  },
+  {
+    "id": "V25-014",
+    "feature": "qibla efficiency compare",
+    "status": "specified"
+  },
+  {
+    "id": "V25-015",
+    "feature": "plant/root conflict with foundation zone",
+    "status": "specified"
+  },
+  {
+    "id": "V25-016",
+    "feature": "plant/root conflict with utilities",
+    "status": "specified"
+  },
+  {
+    "id": "V25-017",
+    "feature": "tree shade year slider",
+    "status": "specified"
+  },
+  {
+    "id": "V25-018",
+    "feature": "rain garden catchment assignment",
+    "status": "specified"
+  },
+  {
+    "id": "V25-019",
+    "feature": "green facade maintenance-route checker",
+    "status": "specified"
+  },
+  {
+    "id": "V25-020",
+    "feature": "irrigation zone cost rollup",
+    "status": "specified"
+  },
+  {
+    "id": "V25-021",
+    "feature": "assembly quantity explosion",
+    "status": "specified"
+  },
+  {
+    "id": "V25-022",
+    "feature": "assembly cost rollup",
+    "status": "specified"
+  },
+  {
+    "id": "V25-023",
+    "feature": "unknown-rate dashboard",
+    "status": "specified"
+  },
+  {
+    "id": "V25-024",
+    "feature": "regional rate book selector",
+    "status": "specified"
+  },
+  {
+    "id": "V25-025",
+    "feature": "local supplier radius search",
+    "status": "specified"
+  },
+  {
+    "id": "V25-026",
+    "feature": "local supplier fallback ladder",
+    "status": "specified"
+  },
+  {
+    "id": "V25-027",
+    "feature": "vendor data freshness score",
+    "status": "specified"
+  },
+  {
+    "id": "V25-028",
+    "feature": "product lead-time freshness",
+    "status": "specified"
+  },
+  {
+    "id": "V25-029",
+    "feature": "construction package readiness",
+    "status": "specified"
+  },
+  {
+    "id": "V25-030",
+    "feature": "submittal completeness score",
+    "status": "specified"
+  },
+  {
+    "id": "V25-031",
+    "feature": "ITP readiness score",
+    "status": "specified"
+  },
+  {
+    "id": "V25-032",
+    "feature": "commissioning readiness score",
+    "status": "specified"
+  },
+  {
+    "id": "V25-033",
+    "feature": "RLS policy coverage dashboard",
+    "status": "specified"
+  },
+  {
+    "id": "V25-034",
+    "feature": "seed-data provenance dashboard",
+    "status": "specified"
+  },
+  {
+    "id": "V25-035",
+    "feature": "launch-market completeness dashboard",
+    "status": "specified"
+  }
+]

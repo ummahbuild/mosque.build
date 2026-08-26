@@ -1,0 +1,104 @@
+{
+  "brand": "mosque.build",
+  "tagline": "Design, fund, build, operate, and preserve mosques that can serve generations.",
+  "hero": {
+    "eyebrow": "THE OPERATING SYSTEM FOR MOSQUES",
+    "headline": "From an empty plot to a living community institution.",
+    "subheadline": "mosque.build brings mosque discovery, architecture, budgeting, permitting, fundraising, 3D design, procurement, construction, operations, madrasa programming, Ramadan planning, waqf, maintenance, and preservation into one platform.",
+    "primary_cta": "Start a Mosque Project",
+    "secondary_cta": "Explore Mosques",
+    "tertiary_cta": "Partner With mosque.build"
+  },
+  "problem": {
+    "headline": "Mosque projects are still managed across spreadsheets, WhatsApp groups, PDFs, donor chats, architects, contractors, map listings, payment tools, and institutional memory.",
+    "points": [
+      "Communities often design before understanding need, operating cost, or zoning.",
+      "Architectural knowledge is fragmented across archives, suppliers, firms, books, and heritage records.",
+      "Capital campaigns frequently focus on construction while underfunding staffing, maintenance, utilities, and reserves.",
+      "Mosque managers use disconnected systems for donations, programs, cleaning, security, volunteers, Ramadan, and facilities.",
+      "Historic plans, crafts, lessons, and project knowledge disappear when committees change."
+    ]
+  },
+  "solution": {
+    "headline": "One connected lifecycle for the mosque.",
+    "stages": [
+      "Discover",
+      "Assess Need",
+      "Choose Site",
+      "Design",
+      "Budget",
+      "Permit",
+      "Fund",
+      "Source",
+      "Build",
+      "Open",
+      "Operate",
+      "Endow",
+      "Expand",
+      "Preserve"
+    ]
+  },
+  "product_sections": [
+    {
+      "title": "Find every mosque",
+      "copy": "A global mosque directory with maps, verified profiles, facilities, opening hours provenance, prayer and Jumuʿah information, accessibility, women’s spaces, madrasa, janazah, Ramadan programs and community services."
+    },
+    {
+      "title": "Design on the real plot",
+      "copy": "Place the mosque on the actual parcel, orient to qibla, test floors and capacity, optimize prayer rows, compare structures and materials, simulate circulation, and see live build and maintenance cost impacts."
+    },
+    {
+      "title": "Know what you can afford",
+      "copy": "Model land, design, permits, structure, finishes, equipment, staffing, cleaning, utilities, maintenance, reserves, and long-term replacement costs before approving a project."
+    },
+    {
+      "title": "Raise money transparently",
+      "copy": "Fund the whole project or individual doors, wudu stations, classrooms, carpet areas, trees, solar panels, professional services, operating reserves, and waqf assets."
+    },
+    {
+      "title": "Run the mosque after opening",
+      "copy": "Manage staff, volunteers, programs, madrasa, room bookings, cleaning, maintenance, inventory, security, compliance, Ramadan, iftar, janazah, annual reports and donor transparency."
+    },
+    {
+      "title": "Learn from 1,400 years of mosque building",
+      "copy": "Explore architects, craftspeople, styles, materials, drawings, restoration projects, construction techniques, case studies and museum-quality component collections."
+    }
+  ],
+  "audiences": [
+    "Mosque founders and committees",
+    "Imams and executive directors",
+    "Architects and engineers",
+    "Builders and contractors",
+    "Muslim philanthropists and waqf managers",
+    "Mosque software providers",
+    "Islamic schools and madrasas",
+    "Suppliers and craftspeople",
+    "Urban planners and permitting professionals",
+    "Heritage conservators",
+    "Architecture students and universities",
+    "Muslim community members"
+  ],
+  "proof_future": {
+    "headline": "What mosque.build is building toward",
+    "items": [
+      "5,000+ verified mosque records",
+      "500+ architects, master builders and craftspeople",
+      "1,500+ architectural drawings",
+      "500+ verified construction/restoration videos",
+      "10,000+ supplier and product records",
+      "Country-by-country mosque regulatory packs",
+      "Thousands of museum-quality mosque component examples",
+      "A mosque-specific 2D/3D design and cost engine"
+    ]
+  },
+  "partner_cta": {
+    "headline": "Help build the knowledge and infrastructure layer for the world’s mosques.",
+    "copy": "We are looking for mosque builders, architects, engineers, financiers, waqf experts, operators, scholars, data partners, software builders, suppliers, museums, universities and mosque communities to contribute expertise, data, case studies and integrations.",
+    "cta": "Become a Founding Partner"
+  },
+  "final_cta": {
+    "headline": "A mosque should be easier to build well — and easier to care for for the next hundred years.",
+    "primary": "Start Building",
+    "secondary": "Join the Network"
+  }
+}

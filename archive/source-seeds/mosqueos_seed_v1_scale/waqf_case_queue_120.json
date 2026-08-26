@@ -1,0 +1,2642 @@
+[
+  {
+    "queue_id": "waqf_001",
+    "theme": "cash_waqf",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_002",
+    "theme": "rental_property",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_003",
+    "theme": "shops",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_004",
+    "theme": "apartments",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_005",
+    "theme": "office",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_006",
+    "theme": "farmland",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_007",
+    "theme": "solar_asset",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_008",
+    "theme": "mixed_use",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_009",
+    "theme": "education_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_010",
+    "theme": "maintenance_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_011",
+    "theme": "cash_waqf",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_012",
+    "theme": "rental_property",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_013",
+    "theme": "shops",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_014",
+    "theme": "apartments",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_015",
+    "theme": "office",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_016",
+    "theme": "farmland",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_017",
+    "theme": "solar_asset",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_018",
+    "theme": "mixed_use",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_019",
+    "theme": "education_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_020",
+    "theme": "maintenance_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_021",
+    "theme": "cash_waqf",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_022",
+    "theme": "rental_property",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_023",
+    "theme": "shops",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_024",
+    "theme": "apartments",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_025",
+    "theme": "office",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_026",
+    "theme": "farmland",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_027",
+    "theme": "solar_asset",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_028",
+    "theme": "mixed_use",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_029",
+    "theme": "education_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_030",
+    "theme": "maintenance_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_031",
+    "theme": "cash_waqf",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_032",
+    "theme": "rental_property",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_033",
+    "theme": "shops",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_034",
+    "theme": "apartments",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_035",
+    "theme": "office",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_036",
+    "theme": "farmland",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_037",
+    "theme": "solar_asset",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_038",
+    "theme": "mixed_use",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_039",
+    "theme": "education_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_040",
+    "theme": "maintenance_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_041",
+    "theme": "cash_waqf",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_042",
+    "theme": "rental_property",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_043",
+    "theme": "shops",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_044",
+    "theme": "apartments",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_045",
+    "theme": "office",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_046",
+    "theme": "farmland",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_047",
+    "theme": "solar_asset",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_048",
+    "theme": "mixed_use",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_049",
+    "theme": "education_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_050",
+    "theme": "maintenance_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_051",
+    "theme": "cash_waqf",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_052",
+    "theme": "rental_property",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_053",
+    "theme": "shops",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_054",
+    "theme": "apartments",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_055",
+    "theme": "office",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_056",
+    "theme": "farmland",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_057",
+    "theme": "solar_asset",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_058",
+    "theme": "mixed_use",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_059",
+    "theme": "education_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_060",
+    "theme": "maintenance_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_061",
+    "theme": "cash_waqf",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_062",
+    "theme": "rental_property",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_063",
+    "theme": "shops",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_064",
+    "theme": "apartments",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_065",
+    "theme": "office",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_066",
+    "theme": "farmland",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_067",
+    "theme": "solar_asset",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_068",
+    "theme": "mixed_use",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_069",
+    "theme": "education_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_070",
+    "theme": "maintenance_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_071",
+    "theme": "cash_waqf",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_072",
+    "theme": "rental_property",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_073",
+    "theme": "shops",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_074",
+    "theme": "apartments",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_075",
+    "theme": "office",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_076",
+    "theme": "farmland",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_077",
+    "theme": "solar_asset",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_078",
+    "theme": "mixed_use",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_079",
+    "theme": "education_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_080",
+    "theme": "maintenance_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_081",
+    "theme": "cash_waqf",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_082",
+    "theme": "rental_property",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_083",
+    "theme": "shops",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_084",
+    "theme": "apartments",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_085",
+    "theme": "office",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_086",
+    "theme": "farmland",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_087",
+    "theme": "solar_asset",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_088",
+    "theme": "mixed_use",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_089",
+    "theme": "education_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_090",
+    "theme": "maintenance_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_091",
+    "theme": "cash_waqf",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_092",
+    "theme": "rental_property",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_093",
+    "theme": "shops",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_094",
+    "theme": "apartments",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_095",
+    "theme": "office",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_096",
+    "theme": "farmland",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_097",
+    "theme": "solar_asset",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_098",
+    "theme": "mixed_use",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_099",
+    "theme": "education_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_100",
+    "theme": "maintenance_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_101",
+    "theme": "cash_waqf",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_102",
+    "theme": "rental_property",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_103",
+    "theme": "shops",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_104",
+    "theme": "apartments",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_105",
+    "theme": "office",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_106",
+    "theme": "farmland",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_107",
+    "theme": "solar_asset",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_108",
+    "theme": "mixed_use",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_109",
+    "theme": "education_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_110",
+    "theme": "maintenance_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_111",
+    "theme": "cash_waqf",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_112",
+    "theme": "rental_property",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_113",
+    "theme": "shops",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_114",
+    "theme": "apartments",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_115",
+    "theme": "office",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_116",
+    "theme": "farmland",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_117",
+    "theme": "solar_asset",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_118",
+    "theme": "mixed_use",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_119",
+    "theme": "education_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "waqf_120",
+    "theme": "maintenance_endowment",
+    "preferred_sources": [
+      "waqf authority",
+      "charity filing",
+      "mosque annual report",
+      "audited accounts",
+      "academic case study"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  }
+]

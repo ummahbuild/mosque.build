@@ -1,0 +1,1476 @@
+[
+  {
+    "id": "FUNDUI-001",
+    "name": "Design Library",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-002",
+    "name": "Mockup Gallery",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-003",
+    "name": "Saved Scenarios",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-004",
+    "name": "Scenario Branches",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-005",
+    "name": "Render Studio",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-006",
+    "name": "Render Presets",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-007",
+    "name": "360 Export",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-008",
+    "name": "Walkthrough Export",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-009",
+    "name": "Board Presentation Builder",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-010",
+    "name": "Donor Presentation Builder",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-011",
+    "name": "Export Center",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-012",
+    "name": "Re-upload Plan",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-013",
+    "name": "Plan Diff",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-014",
+    "name": "Geometry Reconciliation",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-015",
+    "name": "Material Board",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-016",
+    "name": "Product Marketplace",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-017",
+    "name": "Product Detail",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-018",
+    "name": "Supplier Detail",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-019",
+    "name": "Supplier Claim",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-020",
+    "name": "Supplier Compare",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-021",
+    "name": "Product Compare",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-022",
+    "name": "Samples",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-023",
+    "name": "RFQs",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-024",
+    "name": "Quote Compare",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-025",
+    "name": "Landed Cost",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-026",
+    "name": "Approved Products",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-027",
+    "name": "Alternates",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-028",
+    "name": "Long Lead Watch",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-029",
+    "name": "Campaign Home",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-030",
+    "name": "Campaign Builder",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-031",
+    "name": "Recipient Entity Verification",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-032",
+    "name": "Tax/Receipt Status",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-033",
+    "name": "Fiscal Sponsor",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-034",
+    "name": "Fund Selection",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-035",
+    "name": "Restricted Fund Rules",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-036",
+    "name": "Campaign Story",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-037",
+    "name": "Campaign Media",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-038",
+    "name": "Campaign Budget Disclosure",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-039",
+    "name": "LaunchGood Channel",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-040",
+    "name": "Stripe Channel",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-041",
+    "name": "PayPal Channel",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-042",
+    "name": "Bank Transfer",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-043",
+    "name": "Cash Box",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-044",
+    "name": "Mobile Money",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-045",
+    "name": "Capital Stack",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-046",
+    "name": "Funding Gap",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-047",
+    "name": "Pledge Schedule",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-048",
+    "name": "Matching Campaign",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-049",
+    "name": "Major Gifts",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-050",
+    "name": "Grant Tracker",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-051",
+    "name": "In-Kind Gifts",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-052",
+    "name": "Component Sponsorship",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-053",
+    "name": "3D Funding View",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-054",
+    "name": "Public Campaign Page",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-055",
+    "name": "Campaign Updates",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-056",
+    "name": "Campaign Analytics",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-057",
+    "name": "Campaign Reconciliation",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-058",
+    "name": "Campaign Closeout",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-059",
+    "name": "Donor Receipts",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-060",
+    "name": "External Fund Sync",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-061",
+    "name": "Fund Accounting",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-062",
+    "name": "Board Funding Dashboard",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-063",
+    "name": "Waqf Funding",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-064",
+    "name": "Construction Start Threshold",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-065",
+    "name": "Phase Funding",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-066",
+    "name": "Operating Reserve",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  },
+  {
+    "id": "FUNDUI-067",
+    "name": "Public Transparency Report",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline_if_supported",
+      "verification_required",
+      "provider_unavailable",
+      "stale_external_data",
+      "permission_denied"
+    ],
+    "required": [
+      "role/capability",
+      "source/provider disclosure",
+      "version/history",
+      "audit",
+      "mobile/desktop behavior"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "yt_mosque_evolution_1400",
+    "title": "1400 Years of Faith | The Evolution of Mosques from Medina ...",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=VQgQzipb9VA",
+    "type": "documentary_history",
+    "verification": "discovered_not_editorially_reviewed",
+    "use": "reference_only"
+  },
+  {
+    "id": "yt_ai_timelapse_qU",
+    "title": "Beautiful Mosque Construction Timelapse | From Foundation ...",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/shorts/qU-_deuLhD8",
+    "type": "AI_timelapse",
+    "verification": "AI_generated_or_claimed",
+    "use": "visual_inspiration_only_not_construction_instruction"
+  },
+  {
+    "id": "yt_ai_timelapse_kKC",
+    "title": "Building a Beautiful Mosque Step by Step",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=kKC0LRxM0qU",
+    "type": "AI_timelapse",
+    "verification": "AI_generated_or_claimed",
+    "use": "visual_inspiration_only_not_construction_instruction"
+  },
+  {
+    "id": "yt_ai_mud_restoration",
+    "title": "Ancient Mud Mosque Restoration | Incredible AI Time-Lapse",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/shorts/0cdO8pn0C_c",
+    "type": "AI_timelapse",
+    "verification": "AI_generated_or_claimed",
+    "use": "visual_inspiration_only_not_restoration_instruction"
+  }
+]

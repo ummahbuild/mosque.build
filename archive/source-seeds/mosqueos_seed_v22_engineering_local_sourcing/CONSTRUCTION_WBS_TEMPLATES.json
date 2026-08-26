@@ -1,0 +1,50 @@
+{
+  "new_build": [
+    "01 Preconstruction",
+    "02 Site/enabling",
+    "03 Earthworks",
+    "04 Foundations",
+    "05 Structure",
+    "06 Roof/envelope",
+    "07 MEP first fix",
+    "08 Internal partitions",
+    "09 Wudu/WC",
+    "10 Finishes",
+    "11 Mosque specialist fitout",
+    "12 AV/security",
+    "13 Madrasa/community",
+    "14 External works",
+    "15 Testing/commissioning",
+    "16 Handover"
+  ],
+  "adaptive_reuse": [
+    "01 Surveys/due diligence",
+    "02 Protection/enabling",
+    "03 Selective demolition",
+    "04 Repair/weather-tightness",
+    "05 Structural modifications",
+    "06 Fire/accessibility",
+    "07 MEP upgrades",
+    "08 Mosque conversion",
+    "09 Wudu/WC",
+    "10 Finishes",
+    "11 Specialist fitout",
+    "12 Community/madrasa",
+    "13 Testing",
+    "14 Phased opening",
+    "15 Handover"
+  ],
+  "room_conversion": [
+    "01 Survey",
+    "02 Clear/protect",
+    "03 Repairs",
+    "04 Demolition",
+    "05 MEP changes",
+    "06 Walls/ceilings",
+    "07 Finishes",
+    "08 Carpet/equipment",
+    "09 Audio/lighting",
+    "10 Inspection/clean",
+    "11 Open"
+  ]
+}

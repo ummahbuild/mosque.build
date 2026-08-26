@@ -1,0 +1,111 @@
+{
+  "principle": "Domain geometry, mosque objects, costs, products, engineering, and provenance never depend on a rendering engine.",
+  "canonical_assets": {
+    "runtime_3d": "glTF 2.0/GLB baseline",
+    "future_candidate": "glTF 2.1 after ratification/toolchain support",
+    "bim_exchange": "IFC 4.3",
+    "bim_requirements": "IDS",
+    "maps": "GeoJSON/vector tiles/MapLibre Style",
+    "textures": "KTX2/BasisU where supported",
+    "domain_geometry": "mosque.build engine-neutral JSON + stable object IDs"
+  },
+  "adapters": [
+    {
+      "id": "renderer_three_r3f",
+      "platforms": [
+        "web",
+        "Expo via GL where supported"
+      ],
+      "role": "existing web editor/render adapter",
+      "priority": "supported_not_canonical"
+    },
+    {
+      "id": "renderer_babylon",
+      "platforms": [
+        "web",
+        "native host options"
+      ],
+      "role": "WebGL/WebGPU renderer/viewer alternative",
+      "priority": "P1"
+    },
+    {
+      "id": "renderer_filament_native",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "role": "high-performance native PBR renderer",
+      "priority": "P0_mobile"
+    },
+    {
+      "id": "renderer_react_native_filament",
+      "platforms": [
+        "React Native iOS",
+        "React Native Android"
+      ],
+      "role": "React Native binding to Filament",
+      "priority": "P0_mobile_candidate"
+    },
+    {
+      "id": "renderer_godot",
+      "platforms": [
+        "Android",
+        "iOS",
+        "web",
+        "desktop"
+      ],
+      "role": "optional standalone simulation/immersive viewer/export runtime",
+      "priority": "P2_optional"
+    },
+    {
+      "id": "bim_thatopen",
+      "platforms": [
+        "web"
+      ],
+      "role": "IFC/Fragments BIM viewing and querying",
+      "priority": "P0_web_bim"
+    },
+    {
+      "id": "ifc_webifc",
+      "platforms": [
+        "web",
+        "Node/WASM processing"
+      ],
+      "role": "IFC read/write pipeline",
+      "priority": "P0"
+    },
+    {
+      "id": "map_maplibre_gl",
+      "platforms": [
+        "web"
+      ],
+      "role": "site/directory/vector-tile maps",
+      "priority": "P0"
+    },
+    {
+      "id": "map_maplibre_native",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "role": "native site/directory maps",
+      "priority": "P0"
+    },
+    {
+      "id": "map_maplibre_rn",
+      "platforms": [
+        "React Native iOS",
+        "React Native Android"
+      ],
+      "role": "React Native MapLibre integration",
+      "priority": "P0"
+    }
+  ],
+  "rules": [
+    "Renderer adapters consume a normalized SceneGraph, never project database rows directly.",
+    "Renderer-specific materials/features must have graceful fallbacks.",
+    "Any render engine may be swapped without changing design object IDs or project history.",
+    "Web and mobile may use different rendering backends while presenting the same project/design version.",
+    "Authoritative geometry/calculations live in shared deterministic packages, not GPU scene graphs."
+  ]
+}

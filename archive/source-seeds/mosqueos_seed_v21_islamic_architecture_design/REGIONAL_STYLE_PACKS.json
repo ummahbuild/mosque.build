@@ -1,0 +1,281 @@
+[
+  {
+    "id": "style_maghrebi_andalusi",
+    "name": "Maghrebi–Andalusi",
+    "regions": [
+      "Morocco",
+      "Algeria",
+      "Tunisia",
+      "historic al-Andalus"
+    ],
+    "traits": [
+      "courtyards",
+      "horseshoe/polylobed arches",
+      "zellige/tile",
+      "carved stucco",
+      "wood ceilings/minarets vary"
+    ],
+    "materials": [
+      "tile",
+      "stucco",
+      "timber",
+      "stone"
+    ],
+    "pattern_ids": [
+      "pat_zellige_star_cross",
+      "pat_arabesque_vine",
+      "pat_palmette_band"
+    ],
+    "confidence": "broad_family_not_single_formula"
+  },
+  {
+    "id": "style_ottoman",
+    "name": "Ottoman",
+    "regions": [
+      "Türkiye",
+      "Balkans",
+      "former Ottoman lands"
+    ],
+    "traits": [
+      "centralized dome compositions",
+      "semi-domes",
+      "slender minarets",
+      "tile/calligraphy/stone"
+    ],
+    "materials": [
+      "stone",
+      "brick",
+      "tile",
+      "timber"
+    ],
+    "pattern_ids": [
+      "pat_iznik_floral_panel",
+      "pat_calligraphy_frieze"
+    ],
+    "confidence": "broad_family"
+  },
+  {
+    "id": "style_persian",
+    "name": "Persian / Iranian",
+    "regions": [
+      "Iran",
+      "Central Asian influence zones"
+    ],
+    "traits": [
+      "four-iwan courtyards",
+      "glazed tile",
+      "muqarnas",
+      "vault/dome geometries",
+      "brick"
+    ],
+    "materials": [
+      "brick",
+      "glazed tile",
+      "stucco"
+    ],
+    "pattern_ids": [
+      "pat_girih_basic",
+      "pat_muqarnas_nishapur_seed",
+      "pat_karbandi_star_vault"
+    ],
+    "source_refs": [
+      "src_smarthistory_isfahan"
+    ],
+    "confidence": "broad_family"
+  },
+  {
+    "id": "style_mamluk",
+    "name": "Mamluk Egyptian",
+    "regions": [
+      "Egypt",
+      "Levant"
+    ],
+    "traits": [
+      "stone monumentality",
+      "complex portals",
+      "muqarnas",
+      "geometric ornament",
+      "four-iwan madrasa/mosque complexes"
+    ],
+    "materials": [
+      "stone",
+      "marble",
+      "wood",
+      "metal",
+      "glass"
+    ],
+    "pattern_ids": [
+      "pat_mamluk_interlace",
+      "pat_muqarnas_nishapur_seed"
+    ],
+    "source_refs": [
+      "src_smarthistory_sultan_hasan"
+    ],
+    "confidence": "broad_family"
+  },
+  {
+    "id": "style_sudano_sahelian",
+    "name": "Sudano-Sahelian",
+    "regions": [
+      "Mali",
+      "Burkina Faso",
+      "Niger",
+      "Sahel"
+    ],
+    "traits": [
+      "earthen construction",
+      "buttressed massing",
+      "timber projections",
+      "climate-responsive forms"
+    ],
+    "materials": [
+      "earth",
+      "timber",
+      "plaster"
+    ],
+    "pattern_ids": [
+      "pat_sudano_buttress_rhythm"
+    ],
+    "confidence": "regional_family_requires_local_craft_review"
+  },
+  {
+    "id": "style_swahili_coastal",
+    "name": "Swahili Coastal",
+    "regions": [
+      "Kenya coast",
+      "Tanzania coast",
+      "Zanzibar",
+      "Indian Ocean coast"
+    ],
+    "traits": [
+      "coral/stone traditions",
+      "lime plaster",
+      "courtyard/compact urban forms",
+      "carved doors",
+      "Indian Ocean influences"
+    ],
+    "materials": [
+      "coral/stone",
+      "lime plaster",
+      "timber"
+    ],
+    "pattern_ids": [
+      "pat_swahili_carved_door"
+    ],
+    "confidence": "regional_family_requires_local_historic_review"
+  },
+  {
+    "id": "style_south_asian",
+    "name": "South Asian Sultanate / Mughal spectrum",
+    "regions": [
+      "India",
+      "Pakistan",
+      "Bangladesh"
+    ],
+    "traits": [
+      "courtyard/hypostyle variants",
+      "domes",
+      "monumental gateways",
+      "stone carving",
+      "jali"
+    ],
+    "materials": [
+      "stone",
+      "brick",
+      "plaster",
+      "marble"
+    ],
+    "pattern_ids": [
+      "pat_jali_hex",
+      "pat_jali_star8"
+    ],
+    "confidence": "multiple distinct traditions_not_one_style"
+  },
+  {
+    "id": "style_malay_indonesian",
+    "name": "Malay–Indonesian",
+    "regions": [
+      "Indonesia",
+      "Malaysia",
+      "Brunei"
+    ],
+    "traits": [
+      "tiered roofs in many historic examples",
+      "timber traditions",
+      "regional vernacular adaptation"
+    ],
+    "materials": [
+      "timber",
+      "tile",
+      "masonry"
+    ],
+    "pattern_ids": [],
+    "confidence": "regional_family"
+  },
+  {
+    "id": "style_chinese_mosque",
+    "name": "Chinese mosque regional traditions",
+    "regions": [
+      "China"
+    ],
+    "traits": [
+      "courtyard compounds",
+      "timber halls",
+      "Chinese roof forms in many historic regional examples"
+    ],
+    "materials": [
+      "timber",
+      "masonry",
+      "tile"
+    ],
+    "pattern_ids": [],
+    "confidence": "regionally diverse"
+  },
+  {
+    "id": "style_balkan",
+    "name": "Balkan mosque traditions",
+    "regions": [
+      "Bosnia",
+      "Albania",
+      "Kosovo",
+      "North Macedonia",
+      "Bulgaria"
+    ],
+    "traits": [
+      "Ottoman-derived forms",
+      "local timber/stone adaptation",
+      "single-dome or pitched-roof variants"
+    ],
+    "materials": [
+      "stone",
+      "brick",
+      "timber"
+    ],
+    "pattern_ids": [
+      "pat_calligraphy_frieze"
+    ],
+    "confidence": "regionally diverse"
+  },
+  {
+    "id": "style_contemporary_minimal",
+    "name": "Contemporary Minimal Mosque",
+    "regions": [
+      "global"
+    ],
+    "traits": [
+      "abstracted qibla wall",
+      "controlled daylight",
+      "simple material palettes",
+      "reduced ornament"
+    ],
+    "materials": [
+      "concrete",
+      "brick",
+      "timber",
+      "stone",
+      "glass"
+    ],
+    "pattern_ids": [],
+    "confidence": "contemporary_design_family_not_historic_style"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "risk_signals_positive": [
+    "domain already listed in trusted source for this mosque",
+    "email matches same domain",
+    "mosque's official website links same organization",
+    "existing claimed social/charity/registry identity aligns",
+    "manual document evidence aligns"
+  ],
+  "risk_signals_negative": [
+    "domain recently changed on shadow profile immediately before claim",
+    "domain is generic/free-hosted/unrelated",
+    "multiple competing claims",
+    "mosque has prior verified owner",
+    "claim requests transfer of existing admins",
+    "legal entity or geography mismatch",
+    "high-profile/historic mosque",
+    "provider/source conflicts",
+    "suspicious account/device velocity"
+  ],
+  "decisions": [
+    {
+      "range": "0-24",
+      "action": "auto_approve_if_strong_domain_verification_and_no_existing_owner"
+    },
+    {
+      "range": "25-59",
+      "action": "admin_review"
+    },
+    {
+      "range": "60-100",
+      "action": "enhanced_manual_review"
+    }
+  ],
+  "always_manual": [
+    "transfer existing verified ownership",
+    "disputed claim",
+    "major national/historic mosque",
+    "claim changes verified donation recipient",
+    "claim changes legal entity"
+  ],
+  "revocation": [
+    "admin can revoke compromised claim",
+    "verified mosque can dispute unauthorized claimant",
+    "all ownership changes remain audited"
+  ]
+}

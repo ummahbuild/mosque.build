@@ -1,0 +1,42 @@
+{
+  "universal_states": [
+    "loading",
+    "empty",
+    "error",
+    "offline",
+    "permission_denied",
+    "stale",
+    "syncing",
+    "conflict",
+    "archived"
+  ],
+  "money_states": [
+    "calculating",
+    "estimate_low_confidence",
+    "quote_pending",
+    "quote_expired",
+    "FX_stale",
+    "reconciliation_required"
+  ],
+  "design_states": [
+    "draft",
+    "autosaved",
+    "version_saved",
+    "review",
+    "approved",
+    "superseded"
+  ],
+  "provider_states": [
+    "connected",
+    "reauth_required",
+    "rate_limited",
+    "unavailable",
+    "disconnected"
+  ],
+  "rules": [
+    "No blank white states.",
+    "Every error has recovery action.",
+    "Offline-safe screens show last sync time.",
+    "Stale source/provider data is visibly labeled."
+  ]
+}

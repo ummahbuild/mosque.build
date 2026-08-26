@@ -1,0 +1,52 @@
+{
+  "event_examples": [
+    {
+      "event": "permit.deadline_approaching",
+      "default": "push+email",
+      "severity": "high",
+      "dedupe_window": "24h"
+    },
+    {
+      "event": "rfi.overdue",
+      "default": "in_app+email",
+      "severity": "medium",
+      "dedupe_window": "24h"
+    },
+    {
+      "event": "inspection.failed",
+      "default": "push+email",
+      "severity": "high",
+      "dedupe_window": "1h"
+    },
+    {
+      "event": "warranty.expiring",
+      "default": "digest/email",
+      "severity": "medium",
+      "dedupe_window": "7d"
+    },
+    {
+      "event": "iftar.volunteer_shift",
+      "default": "push",
+      "severity": "normal",
+      "dedupe_window": "4h"
+    },
+    {
+      "event": "source.regulatory_stale",
+      "default": "reviewer email",
+      "severity": "high",
+      "dedupe_window": "7d"
+    }
+  ],
+  "preferences": [
+    "topic",
+    "channel",
+    "quiet_hours",
+    "digest_frequency",
+    "emergency/admin override if policy allows"
+  ],
+  "rules": [
+    "No prayer notification inferred from Google opening hours",
+    "No donor-sensitive detail in lock-screen text by default",
+    "Admins can configure organization operational alerts separately from personal reminders"
+  ]
+}

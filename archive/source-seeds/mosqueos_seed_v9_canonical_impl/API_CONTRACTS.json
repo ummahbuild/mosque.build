@@ -1,0 +1,41 @@
+{
+  "public_read": [
+    "GET /api/mosques?lat=&lng=&radius=&filters=",
+    "GET /api/mosques/:id",
+    "GET /api/architecture/styles/:slug",
+    "GET /api/materials/:slug",
+    "GET /api/suppliers?country=&category="
+  ],
+  "authenticated": [
+    "POST /api/projects",
+    "POST /api/projects/:id/scenarios",
+    "POST /api/scenarios/:id/versions",
+    "POST /api/projects/:id/requirements",
+    "POST /api/projects/:id/cost-estimates",
+    "POST /api/mosques/:id/edit-suggestions",
+    "POST /api/mosques/:id/claims"
+  ],
+  "server_only": [
+    "POST /api/webhooks/payments/:provider",
+    "POST /api/ingestion/:pipeline/run",
+    "POST /api/admin/regulatory/publish",
+    "POST /api/admin/content/publish"
+  ],
+  "envelope": {
+    "success": {
+      "data": "payload",
+      "meta": "pagination/source/freshness where applicable"
+    },
+    "error": {
+      "code": "stable_machine_code",
+      "message": "safe user message",
+      "details": "non-sensitive structured details",
+      "request_id": "trace ID"
+    }
+  },
+  "rules": [
+    "Idempotency-Key required for money and high-value mutation endpoints",
+    "ETag/version precondition for concurrent editable entities",
+    "provider failures return source-specific stale/unavailable state"
+  ]
+}

@@ -1,0 +1,766 @@
+[
+  {
+    "id": "small_office_to_musalla",
+    "name": "Small office → temporary musalla",
+    "complexity": "low",
+    "typical_scope": [
+      "remove loose furniture",
+      "deep clean",
+      "qibla marking",
+      "portable carpet",
+      "shoe storage",
+      "basic audio"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "office_suite_to_neighborhood_masjid",
+    "name": "Office suite → neighborhood masjid",
+    "complexity": "medium",
+    "typical_scope": [
+      "partition changes",
+      "prayer carpet",
+      "shoe transition",
+      "audio",
+      "toilet review",
+      "wudu feasibility"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "retail_shop_to_masjid",
+    "name": "Retail unit → masjid",
+    "complexity": "medium",
+    "typical_scope": [
+      "change-of-use review",
+      "shopfront privacy",
+      "prayer hall",
+      "wudu/toilet",
+      "egress",
+      "HVAC"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "supermarket_to_mosque",
+    "name": "Former supermarket → large mosque",
+    "complexity": "high",
+    "typical_scope": [
+      "open hall",
+      "qibla replan",
+      "toilet/wudu expansion",
+      "fire/egress",
+      "HVAC",
+      "madrasa/community"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "warehouse_to_mosque",
+    "name": "Warehouse → mosque",
+    "complexity": "high",
+    "typical_scope": [
+      "thermal envelope",
+      "fire/life safety",
+      "toilets",
+      "wudu",
+      "daylight",
+      "acoustics",
+      "prayer hall"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "church_to_mosque",
+    "name": "Former church → mosque",
+    "complexity": "medium_high",
+    "typical_scope": [
+      "heritage review",
+      "fixed seating removal",
+      "qibla reorientation",
+      "stage/chancel adaptation",
+      "wudu",
+      "audio"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "community_center_to_mosque",
+    "name": "Community center → mosque",
+    "complexity": "medium",
+    "typical_scope": [
+      "hall conversion",
+      "classrooms retain",
+      "wudu additions",
+      "kitchen review",
+      "prayer storage"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "school_to_mosque",
+    "name": "Former school → mosque/community center",
+    "complexity": "high",
+    "typical_scope": [
+      "assembly hall",
+      "classrooms",
+      "wudu",
+      "circulation",
+      "pickup/parking",
+      "fire separation"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "house_to_musalla",
+    "name": "House/villa → small musalla",
+    "complexity": "medium",
+    "typical_scope": [
+      "occupancy/change-use review",
+      "prayer rooms",
+      "toilet/wudu review",
+      "neighbor/parking",
+      "accessibility"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "cinema_to_mosque",
+    "name": "Cinema → mosque",
+    "complexity": "high",
+    "typical_scope": [
+      "raked floor review",
+      "egress",
+      "acoustics",
+      "screen/stage removal",
+      "wudu",
+      "accessible route"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "hotel_to_mosque",
+    "name": "Hotel/hostel → mosque/community",
+    "complexity": "high",
+    "typical_scope": [
+      "room reuse",
+      "prayer hall creation",
+      "MEP",
+      "accessibility",
+      "kitchen",
+      "madrasa"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "factory_to_mosque",
+    "name": "Factory → mosque",
+    "complexity": "very_high",
+    "typical_scope": [
+      "contamination investigation",
+      "structure/envelope",
+      "fire",
+      "HVAC",
+      "toilets/wudu"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "single_room_prayer_conversion",
+    "name": "Single room → prayer room",
+    "complexity": "low",
+    "typical_scope": [
+      "qibla",
+      "saff",
+      "carpet",
+      "shoe storage",
+      "lighting",
+      "ventilation"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "classroom_to_prayer_room",
+    "name": "Classroom → prayer room",
+    "complexity": "low",
+    "typical_scope": [
+      "remove/reconfigure desks",
+      "qibla",
+      "carpet",
+      "storage",
+      "audio"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "garage_to_musalla",
+    "name": "Garage → musalla",
+    "complexity": "medium",
+    "typical_scope": [
+      "weatherproofing",
+      "floor finish",
+      "ventilation",
+      "egress",
+      "thermal comfort"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "basement_to_prayer_room",
+    "name": "Basement → prayer room",
+    "complexity": "medium_high",
+    "typical_scope": [
+      "damp/moisture",
+      "egress",
+      "ventilation",
+      "ceiling height",
+      "carpet"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "hall_to_ramadan_overflow",
+    "name": "Hall → Ramadan overflow",
+    "complexity": "low",
+    "typical_scope": [
+      "temporary carpet",
+      "qibla lines",
+      "audio link",
+      "shoe route",
+      "crowd/egress review"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "community_hall_dual_use",
+    "name": "Community hall ↔ prayer/event dual use",
+    "complexity": "medium",
+    "typical_scope": [
+      "movable storage",
+      "quick-reset furniture",
+      "carpet protection",
+      "audio scenes",
+      "cleaning/reset"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "room_to_wudu",
+    "name": "Room → wudu",
+    "complexity": "medium_high",
+    "typical_scope": [
+      "water",
+      "waste",
+      "floor drains",
+      "waterproofing",
+      "ventilation",
+      "accessible station"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "wc_to_wudu_upgrade",
+    "name": "Existing WC → wudu upgrade",
+    "complexity": "medium",
+    "typical_scope": [
+      "fixture reconfiguration",
+      "seats/taps",
+      "splash control",
+      "drainage",
+      "accessible option"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "classroom_to_madrasa",
+    "name": "Room → madrasa classroom",
+    "complexity": "low",
+    "typical_scope": [
+      "desks",
+      "whiteboard",
+      "Quran storage",
+      "AV",
+      "acoustics",
+      "child-safe storage"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "room_to_janazah",
+    "name": "Room → janazah preparation",
+    "complexity": "high",
+    "typical_scope": [
+      "privacy",
+      "water/drainage",
+      "wash table",
+      "cleanable finishes",
+      "family route"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "room_to_nursery",
+    "name": "Room → nursery/child space",
+    "complexity": "medium",
+    "typical_scope": [
+      "visibility",
+      "secure pickup",
+      "soft finishes",
+      "storage",
+      "toilet proximity"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "retail_to_waqf_shop",
+    "name": "Street frontage → waqf retail",
+    "complexity": "medium",
+    "typical_scope": [
+      "independent access",
+      "utilities",
+      "metering",
+      "lease separation",
+      "signage"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  },
+  {
+    "id": "courtyard_to_overflow",
+    "name": "Courtyard → seasonal prayer overflow",
+    "complexity": "medium",
+    "typical_scope": [
+      "surface",
+      "shade",
+      "drainage",
+      "audio",
+      "lighting",
+      "access routes"
+    ],
+    "must_review": [
+      "existing condition",
+      "jurisdiction/change of use",
+      "fire/egress",
+      "accessibility",
+      "MEP capacity"
+    ],
+    "budget_buckets": [
+      "repairs",
+      "demolition",
+      "new work",
+      "MEP",
+      "finishes",
+      "equipment",
+      "professional/permit",
+      "contingency"
+    ],
+    "status": "template_not_project_specific"
+  }
+]

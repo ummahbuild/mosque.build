@@ -1,0 +1,74 @@
+{
+  "events": [
+    {
+      "event": "scan.model_created",
+      "effects": [
+        "existing condition baseline",
+        "conversion scenarios enabled"
+      ]
+    },
+    {
+      "event": "room.use_changed",
+      "effects": [
+        "program update",
+        "capacity update",
+        "cost delta",
+        "permit checks",
+        "schedule activities"
+      ]
+    },
+    {
+      "event": "prayer.layout_changed",
+      "effects": [
+        "carpet quantity",
+        "capacity",
+        "door/circulation warnings",
+        "render update"
+      ]
+    },
+    {
+      "event": "wall.demolished_or_added",
+      "effects": [
+        "quantity takeoff",
+        "cost",
+        "schedule",
+        "MEP coordination",
+        "permit review"
+      ]
+    },
+    {
+      "event": "wudu.added",
+      "effects": [
+        "plumbing/drainage cost",
+        "water demand",
+        "wet-area finishes",
+        "schedule",
+        "product sourcing"
+      ]
+    },
+    {
+      "event": "existing_asset.reuse_selected",
+      "effects": [
+        "new purchase reduced",
+        "repair allowance added",
+        "maintenance asset retained"
+      ]
+    },
+    {
+      "event": "conversion.scenario_approved",
+      "effects": [
+        "budget baseline candidate",
+        "funding campaign candidate",
+        "procurement planning",
+        "construction WBS"
+      ]
+    }
+  ],
+  "timeline_templates": [
+    "same-day temporary musalla",
+    "1-2 week light conversion",
+    "4-8 week renovation",
+    "major change-of-use conversion"
+  ],
+  "rule": "timeline templates are planning placeholders; actual schedule depends on scope, permits, procurement and jurisdiction."
+}

@@ -1,0 +1,17 @@
+{
+  "source_classes": [
+    "manufacturer official",
+    "authorized distributor",
+    "supplier website",
+    "technical datasheet",
+    "BIM library",
+    "government certification database",
+    "project-approved submittal",
+    "marketplace discovery"
+  ],
+  "priority": "manufacturer/technical primary sources over reseller marketing claims",
+  "prices": "snapshot only with currency, geography, tax/shipping assumptions and observed date",
+  "certifications": "store certificate/document ID and issuer; do not infer certification from marketing text",
+  "media": "outbound link or rights-cleared copy only",
+  "technical_reviews": "product approval is project-specific; listing in gallery does not mean approved for a project or jurisdiction"
+}

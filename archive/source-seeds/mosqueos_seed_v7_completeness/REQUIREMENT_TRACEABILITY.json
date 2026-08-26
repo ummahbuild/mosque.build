@@ -1,0 +1,47 @@
+{
+  "principle": "Every important owner/community requirement should be traceable from brief to design, procurement, construction verification, commissioning, handover and operations.",
+  "entities": [
+    "owner_requirements",
+    "community_requirements",
+    "religious_function_requirements",
+    "regulatory_requirements",
+    "design_requirements",
+    "information_requirements",
+    "model_objects",
+    "specifications",
+    "submittals",
+    "RFIs",
+    "inspection_tests",
+    "commissioning_tests",
+    "training_requirements",
+    "handover_documents",
+    "assets",
+    "maintenance_tasks",
+    "post_occupancy_findings"
+  ],
+  "requirement_fields": [
+    "requirement_id",
+    "title",
+    "description",
+    "origin",
+    "owner",
+    "priority",
+    "acceptance_metric",
+    "jurisdiction_or_source",
+    "applies_to_objects",
+    "design_response",
+    "verification_method",
+    "required_stage",
+    "evidence",
+    "status",
+    "waiver_reason",
+    "change_history"
+  ],
+  "example": {
+    "requirement": "Accessible path from accessible parking to prayer space and accessible wudu/WC",
+    "design_response": "Continuous step-free route + compliant doors/ramps/lift as applicable",
+    "construction_verification": "site inspection and measurement",
+    "commissioning": "walkthrough by accessibility reviewer",
+    "operations": "route kept clear; lift preventive maintenance if used"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "new_project": [
+    "project type",
+    "new build/conversion",
+    "location/site",
+    "capacity",
+    "program",
+    "budget",
+    "funding",
+    "target opening",
+    "team",
+    "design mode",
+    "next steps"
+  ],
+  "mosque_claim": [
+    "find profile",
+    "relationship",
+    "verification method",
+    "DNS/domain verification",
+    "risk review",
+    "admin setup",
+    "profile completion"
+  ],
+  "vendor": [
+    "claim/create",
+    "verify",
+    "categories",
+    "delivery regions",
+    "products",
+    "3D/BIM",
+    "references",
+    "RFQ setup",
+    "publish"
+  ],
+  "designer": [
+    "role",
+    "software",
+    "units",
+    "regions",
+    "tutorial",
+    "first scenario",
+    "product placement",
+    "cost impact",
+    "export"
+  ],
+  "construction_team": [
+    "role",
+    "project access",
+    "drawing revision rules",
+    "daily reports",
+    "photos",
+    "inspections",
+    "offline sync",
+    "notifications"
+  ]
+}

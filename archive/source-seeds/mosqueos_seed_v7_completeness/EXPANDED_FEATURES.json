@@ -1,0 +1,2956 @@
+[
+  {
+    "id": "MXF-0001",
+    "group": "requirements_traceability",
+    "name": "owner requirements",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0002",
+    "group": "requirements_traceability",
+    "name": "community requirements",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0003",
+    "group": "requirements_traceability",
+    "name": "religious function requirements",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0004",
+    "group": "requirements_traceability",
+    "name": "regulatory requirements",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0005",
+    "group": "requirements_traceability",
+    "name": "operations requirements",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0006",
+    "group": "requirements_traceability",
+    "name": "acceptance metrics",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0007",
+    "group": "requirements_traceability",
+    "name": "requirement owners",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0008",
+    "group": "requirements_traceability",
+    "name": "requirement priority",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0009",
+    "group": "requirements_traceability",
+    "name": "requirement-to-room link",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0010",
+    "group": "requirements_traceability",
+    "name": "requirement-to-object link",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0011",
+    "group": "requirements_traceability",
+    "name": "requirement-to-spec link",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0012",
+    "group": "requirements_traceability",
+    "name": "requirement-to-submittal link",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0013",
+    "group": "requirements_traceability",
+    "name": "requirement-to-inspection link",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0014",
+    "group": "requirements_traceability",
+    "name": "requirement-to-commissioning link",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0015",
+    "group": "requirements_traceability",
+    "name": "requirement waiver",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0016",
+    "group": "requirements_traceability",
+    "name": "requirement change history",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0017",
+    "group": "requirements_traceability",
+    "name": "unverified requirement alert",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0018",
+    "group": "requirements_traceability",
+    "name": "handover requirement completeness",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0019",
+    "group": "requirements_traceability",
+    "name": "operations recurrence from requirement",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0020",
+    "group": "requirements_traceability",
+    "name": "requirement coverage dashboard",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0021",
+    "group": "governance_control",
+    "name": "decision rights matrix",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0022",
+    "group": "governance_control",
+    "name": "approval thresholds",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0023",
+    "group": "governance_control",
+    "name": "board resolutions",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0024",
+    "group": "governance_control",
+    "name": "design approvals",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0025",
+    "group": "governance_control",
+    "name": "budget approvals",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0026",
+    "group": "governance_control",
+    "name": "contingency approvals",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0027",
+    "group": "governance_control",
+    "name": "change approvals",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0028",
+    "group": "governance_control",
+    "name": "restricted-fund approvals",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0029",
+    "group": "governance_control",
+    "name": "procurement conflict disclosure",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0030",
+    "group": "governance_control",
+    "name": "related party register",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0031",
+    "group": "governance_control",
+    "name": "vendor conflict checks",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0032",
+    "group": "governance_control",
+    "name": "meeting quorum record",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0033",
+    "group": "governance_control",
+    "name": "vote record",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0034",
+    "group": "governance_control",
+    "name": "delegated authority",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0035",
+    "group": "governance_control",
+    "name": "decision audit trail",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0036",
+    "group": "governance_control",
+    "name": "project sponsor dashboard",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0037",
+    "group": "governance_control",
+    "name": "steering committee actions",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0038",
+    "group": "governance_control",
+    "name": "board packet generator",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0039",
+    "group": "governance_control",
+    "name": "governance calendar",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0040",
+    "group": "governance_control",
+    "name": "policy acknowledgements",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0041",
+    "group": "risk_insurance",
+    "name": "risk register",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0042",
+    "group": "risk_insurance",
+    "name": "risk scoring",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0043",
+    "group": "risk_insurance",
+    "name": "risk heatmap",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0044",
+    "group": "risk_insurance",
+    "name": "risk owner",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0045",
+    "group": "risk_insurance",
+    "name": "mitigation action",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0046",
+    "group": "risk_insurance",
+    "name": "trigger alert",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0047",
+    "group": "risk_insurance",
+    "name": "risk cost allowance",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0048",
+    "group": "risk_insurance",
+    "name": "risk contingency action",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0049",
+    "group": "risk_insurance",
+    "name": "currency risk",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0050",
+    "group": "risk_insurance",
+    "name": "inflation risk",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0051",
+    "group": "risk_insurance",
+    "name": "supplier risk",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0052",
+    "group": "risk_insurance",
+    "name": "planning risk",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0053",
+    "group": "risk_insurance",
+    "name": "funding risk",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0054",
+    "group": "risk_insurance",
+    "name": "weather risk",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0055",
+    "group": "risk_insurance",
+    "name": "quality risk",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0056",
+    "group": "risk_insurance",
+    "name": "operations risk",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0057",
+    "group": "risk_insurance",
+    "name": "insurance requirements",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0058",
+    "group": "risk_insurance",
+    "name": "insurance quote register",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0059",
+    "group": "risk_insurance",
+    "name": "certificate expiry",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0060",
+    "group": "risk_insurance",
+    "name": "contractor insurance validation record",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0061",
+    "group": "risk_insurance",
+    "name": "claims register",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0062",
+    "group": "qa_qc",
+    "name": "inspection test plan",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0063",
+    "group": "qa_qc",
+    "name": "hold point",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0064",
+    "group": "qa_qc",
+    "name": "witness point",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0065",
+    "group": "qa_qc",
+    "name": "mockup register",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0066",
+    "group": "qa_qc",
+    "name": "sample approval",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0067",
+    "group": "qa_qc",
+    "name": "material receiving inspection",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0068",
+    "group": "qa_qc",
+    "name": "nonconformance",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0069",
+    "group": "qa_qc",
+    "name": "corrective action",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0070",
+    "group": "qa_qc",
+    "name": "reinspection",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0071",
+    "group": "qa_qc",
+    "name": "test certificate",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0072",
+    "group": "qa_qc",
+    "name": "concrete test record",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0073",
+    "group": "qa_qc",
+    "name": "weld record",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0074",
+    "group": "qa_qc",
+    "name": "roof water test",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0075",
+    "group": "qa_qc",
+    "name": "plumbing pressure test",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0076",
+    "group": "qa_qc",
+    "name": "drainage test",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0077",
+    "group": "qa_qc",
+    "name": "wudu drainage test",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0078",
+    "group": "qa_qc",
+    "name": "electrical test",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0079",
+    "group": "qa_qc",
+    "name": "fire-system test",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0080",
+    "group": "qa_qc",
+    "name": "lighting verification",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0081",
+    "group": "qa_qc",
+    "name": "audio test",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0082",
+    "group": "qa_qc",
+    "name": "carpet alignment QA",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0083",
+    "group": "qa_qc",
+    "name": "accessible route QA",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0084",
+    "group": "qa_qc",
+    "name": "quality trend dashboard",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0085",
+    "group": "qa_qc",
+    "name": "repeat defect alert",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0086",
+    "group": "commissioning",
+    "name": "owner project requirements",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0087",
+    "group": "commissioning",
+    "name": "basis of design",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0088",
+    "group": "commissioning",
+    "name": "commissioning plan",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0089",
+    "group": "commissioning",
+    "name": "commissioning schedule",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0090",
+    "group": "commissioning",
+    "name": "prefunctional checklist",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0091",
+    "group": "commissioning",
+    "name": "functional test script",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0092",
+    "group": "commissioning",
+    "name": "functional test result",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0093",
+    "group": "commissioning",
+    "name": "commissioning issue",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0094",
+    "group": "commissioning",
+    "name": "deferred test",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0095",
+    "group": "commissioning",
+    "name": "seasonal test",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0096",
+    "group": "commissioning",
+    "name": "training plan",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0097",
+    "group": "commissioning",
+    "name": "training attendance",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0098",
+    "group": "commissioning",
+    "name": "O&M verification",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0099",
+    "group": "commissioning",
+    "name": "system readiness",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0100",
+    "group": "commissioning",
+    "name": "Jumuah mode test",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0101",
+    "group": "commissioning",
+    "name": "Ramadan mode test",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0102",
+    "group": "commissioning",
+    "name": "backup-power test",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0103",
+    "group": "commissioning",
+    "name": "wudu simultaneous-use test",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0104",
+    "group": "commissioning",
+    "name": "audio redundancy test",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0105",
+    "group": "commissioning",
+    "name": "final commissioning report",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0106",
+    "group": "asset_facilities",
+    "name": "asset hierarchy",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0107",
+    "group": "asset_facilities",
+    "name": "asset criticality",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0108",
+    "group": "asset_facilities",
+    "name": "asset QR",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0109",
+    "group": "asset_facilities",
+    "name": "asset condition",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0110",
+    "group": "asset_facilities",
+    "name": "preventive plan",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0111",
+    "group": "asset_facilities",
+    "name": "corrective work order",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0112",
+    "group": "asset_facilities",
+    "name": "emergency work order",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0113",
+    "group": "asset_facilities",
+    "name": "inspection task",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0114",
+    "group": "asset_facilities",
+    "name": "warranty claim",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0115",
+    "group": "asset_facilities",
+    "name": "spare parts",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0116",
+    "group": "asset_facilities",
+    "name": "vendor SLA",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0117",
+    "group": "asset_facilities",
+    "name": "maintenance contract",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0118",
+    "group": "asset_facilities",
+    "name": "maintenance budget",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0119",
+    "group": "asset_facilities",
+    "name": "meter reading",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0120",
+    "group": "asset_facilities",
+    "name": "utility invoice",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0121",
+    "group": "asset_facilities",
+    "name": "energy dashboard",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0122",
+    "group": "asset_facilities",
+    "name": "water dashboard",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0123",
+    "group": "asset_facilities",
+    "name": "repeat failure",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0124",
+    "group": "asset_facilities",
+    "name": "replacement forecast",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0125",
+    "group": "asset_facilities",
+    "name": "capital reserve",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0126",
+    "group": "asset_facilities",
+    "name": "asset disposal",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0127",
+    "group": "asset_facilities",
+    "name": "asset replacement",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0128",
+    "group": "asset_facilities",
+    "name": "roof lifecycle",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0129",
+    "group": "asset_facilities",
+    "name": "carpet lifecycle",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0130",
+    "group": "asset_facilities",
+    "name": "HVAC lifecycle",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0131",
+    "group": "bim_information",
+    "name": "CDE status",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0132",
+    "group": "bim_information",
+    "name": "document revision",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0133",
+    "group": "bim_information",
+    "name": "model revision",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0134",
+    "group": "bim_information",
+    "name": "IFC import",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0135",
+    "group": "bim_information",
+    "name": "IFC export",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0136",
+    "group": "bim_information",
+    "name": "BCF issue import",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0137",
+    "group": "bim_information",
+    "name": "BCF issue export",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0138",
+    "group": "bim_information",
+    "name": "IDS requirement set",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0139",
+    "group": "bim_information",
+    "name": "IDS validation result",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0140",
+    "group": "bim_information",
+    "name": "object stable ID",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0141",
+    "group": "bim_information",
+    "name": "model-to-asset mapping",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0142",
+    "group": "bim_information",
+    "name": "model-to-room mapping",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0143",
+    "group": "bim_information",
+    "name": "model issue viewpoint",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0144",
+    "group": "bim_information",
+    "name": "drawing-model relationship",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0145",
+    "group": "bim_information",
+    "name": "handover model completeness",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0146",
+    "group": "bim_information",
+    "name": "asset data completeness",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0147",
+    "group": "bim_information",
+    "name": "classification mapping",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0148",
+    "group": "bim_information",
+    "name": "model federation",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0149",
+    "group": "bim_information",
+    "name": "model publish approval",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0150",
+    "group": "bim_information",
+    "name": "archive model",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0151",
+    "group": "security_data",
+    "name": "data classification",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0152",
+    "group": "security_data",
+    "name": "RLS policy test",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0153",
+    "group": "security_data",
+    "name": "MFA enforcement",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0154",
+    "group": "security_data",
+    "name": "access review",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0155",
+    "group": "security_data",
+    "name": "session revoke",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0156",
+    "group": "security_data",
+    "name": "audit log viewer",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0157",
+    "group": "security_data",
+    "name": "signed file URLs",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0158",
+    "group": "security_data",
+    "name": "upload scanner adapter",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0159",
+    "group": "security_data",
+    "name": "retention policy",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0160",
+    "group": "security_data",
+    "name": "data export",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0161",
+    "group": "security_data",
+    "name": "account deletion",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0162",
+    "group": "security_data",
+    "name": "organization offboarding",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0163",
+    "group": "security_data",
+    "name": "provider disconnect",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0164",
+    "group": "security_data",
+    "name": "backup status",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0165",
+    "group": "security_data",
+    "name": "restore rehearsal",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0166",
+    "group": "security_data",
+    "name": "secret inventory",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0167",
+    "group": "security_data",
+    "name": "webhook signing",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0168",
+    "group": "security_data",
+    "name": "rate-limit monitoring",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0169",
+    "group": "security_data",
+    "name": "sensitive incident permissions",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0170",
+    "group": "security_data",
+    "name": "child-data permissions",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0171",
+    "group": "security_data",
+    "name": "security-layout permissions",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0172",
+    "group": "stakeholder_engagement",
+    "name": "community needs survey",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0173",
+    "group": "stakeholder_engagement",
+    "name": "women/family review",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0174",
+    "group": "stakeholder_engagement",
+    "name": "youth review",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0175",
+    "group": "stakeholder_engagement",
+    "name": "elder review",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0176",
+    "group": "stakeholder_engagement",
+    "name": "accessibility review",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0177",
+    "group": "stakeholder_engagement",
+    "name": "madrasa teacher review",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0178",
+    "group": "stakeholder_engagement",
+    "name": "imam review",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0179",
+    "group": "stakeholder_engagement",
+    "name": "neighbor feedback",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0180",
+    "group": "stakeholder_engagement",
+    "name": "3D comment pin",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0181",
+    "group": "stakeholder_engagement",
+    "name": "floor-plan comment",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0182",
+    "group": "stakeholder_engagement",
+    "name": "feedback voting",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0183",
+    "group": "stakeholder_engagement",
+    "name": "feedback response",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0184",
+    "group": "stakeholder_engagement",
+    "name": "design revision response",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0185",
+    "group": "stakeholder_engagement",
+    "name": "public update",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0186",
+    "group": "stakeholder_engagement",
+    "name": "construction newsletter",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0187",
+    "group": "stakeholder_engagement",
+    "name": "donor project update",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0188",
+    "group": "stakeholder_engagement",
+    "name": "post occupancy survey",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0189",
+    "group": "stakeholder_engagement",
+    "name": "room satisfaction",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0190",
+    "group": "stakeholder_engagement",
+    "name": "maintenance complaint",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0191",
+    "group": "stakeholder_engagement",
+    "name": "community priorities dashboard",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0192",
+    "group": "sustainability_resilience",
+    "name": "energy target",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0193",
+    "group": "sustainability_resilience",
+    "name": "water target",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0194",
+    "group": "sustainability_resilience",
+    "name": "solar target",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0195",
+    "group": "sustainability_resilience",
+    "name": "daylight goal",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0196",
+    "group": "sustainability_resilience",
+    "name": "natural ventilation goal",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0197",
+    "group": "sustainability_resilience",
+    "name": "local sourcing goal",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0198",
+    "group": "sustainability_resilience",
+    "name": "embodied carbon notes",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0199",
+    "group": "sustainability_resilience",
+    "name": "material reuse",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0200",
+    "group": "sustainability_resilience",
+    "name": "salvage tracking",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0201",
+    "group": "sustainability_resilience",
+    "name": "rainwater model",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0202",
+    "group": "sustainability_resilience",
+    "name": "greywater model",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0203",
+    "group": "sustainability_resilience",
+    "name": "leak detection",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0204",
+    "group": "sustainability_resilience",
+    "name": "heat resilience",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0205",
+    "group": "sustainability_resilience",
+    "name": "flood resilience",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0206",
+    "group": "sustainability_resilience",
+    "name": "power outage mode",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0207",
+    "group": "sustainability_resilience",
+    "name": "water outage plan",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0208",
+    "group": "sustainability_resilience",
+    "name": "air quality mode",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0209",
+    "group": "sustainability_resilience",
+    "name": "waste diversion",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0210",
+    "group": "sustainability_resilience",
+    "name": "performance verification",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  },
+  {
+    "id": "MXF-0211",
+    "group": "sustainability_resilience",
+    "name": "post occupancy energy compare",
+    "priority": "P1",
+    "status": "specified",
+    "acceptance": [
+      "Linked to canonical project/mosque entity",
+      "Permissions and audit trail defined where writes occur",
+      "Evidence/source attachment supported where verification is needed",
+      "Historical revisions preserved",
+      "Operational handoff behavior defined where relevant"
+    ]
+  }
+]

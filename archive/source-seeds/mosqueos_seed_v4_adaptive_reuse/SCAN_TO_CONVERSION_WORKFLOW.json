@@ -1,0 +1,143 @@
+{
+  "stages": [
+    {
+      "id": 1,
+      "name": "Capture Property",
+      "inputs": [
+        "address",
+        "parcel ID",
+        "listing URL",
+        "asking price/rent",
+        "photos",
+        "video walk-through",
+        "existing drawings",
+        "3D/LiDAR scan where supported"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Verify Legal Baseline",
+      "inputs": [
+        "title/lease",
+        "current lawful use",
+        "zoning",
+        "occupancy/use classification",
+        "heritage status",
+        "easements",
+        "covenants",
+        "landlord consent"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Existing Conditions Survey",
+      "inputs": [
+        "dimensions",
+        "structure",
+        "roof",
+        "envelope",
+        "MEP",
+        "fire systems",
+        "accessibility",
+        "toilets",
+        "drainage",
+        "parking",
+        "site access",
+        "hazard indicators"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Orient to Qibla",
+      "inputs": [
+        "geographic coordinates",
+        "qibla bearing",
+        "existing grid",
+        "candidate prayer halls"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Generate Conversion Options",
+      "outputs": [
+        "minimum intervention",
+        "balanced conversion",
+        "full transformation",
+        "phased conversion"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Code/Permit Impact Scan",
+      "outputs": [
+        "change-of-use triggers",
+        "occupancy implications",
+        "egress",
+        "fire protection",
+        "accessibility",
+        "parking",
+        "sanitary",
+        "kitchen/school/childcare triggers",
+        "heritage review"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Repair Before Conversion",
+      "outputs": [
+        "life-safety repairs",
+        "water ingress",
+        "structural",
+        "roof",
+        "MEP",
+        "sanitary",
+        "accessibility",
+        "cosmetic"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Mosque Program Fit",
+      "outputs": [
+        "prayer capacity",
+        "women/family",
+        "wudu",
+        "madrasa",
+        "community",
+        "imam/admin",
+        "storage",
+        "janazah if desired",
+        "kitchen",
+        "iftar"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Cost + Lifecycle",
+      "outputs": [
+        "purchase/lease",
+        "closing",
+        "repair",
+        "conversion",
+        "professional fees",
+        "permits",
+        "fit-out",
+        "equipment",
+        "contingency",
+        "annual operations",
+        "20-year capex reserve"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Recommendation",
+      "outputs": [
+        "buy/lease/pass",
+        "conversion score",
+        "risk score",
+        "estimated opening path",
+        "professional consultations required"
+      ]
+    }
+  ]
+}

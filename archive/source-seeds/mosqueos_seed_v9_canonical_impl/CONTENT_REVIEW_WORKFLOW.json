@@ -1,0 +1,63 @@
+{
+  "review_dimensions": [
+    "editorial",
+    "architecture",
+    "religious",
+    "legal/regulatory",
+    "rights/licensing",
+    "data freshness"
+  ],
+  "statuses": [
+    "draft",
+    "needs_sources",
+    "in_review",
+    "changes_requested",
+    "approved",
+    "published",
+    "stale",
+    "withdrawn"
+  ],
+  "publication_gates": {
+    "mosque_profile": [
+      "identity/source",
+      "location",
+      "active status confidence",
+      "rights on media"
+    ],
+    "architecture_profile": [
+      "source-backed architect/date/style/material claims",
+      "architecture review"
+    ],
+    "religious_guidance": [
+      "source citation",
+      "religious reviewer",
+      "no AI-only normative ruling"
+    ],
+    "regulatory_guide": [
+      "official source",
+      "jurisdiction scope",
+      "verified date",
+      "legal/professional disclaimer"
+    ],
+    "cost_guide": [
+      "geography",
+      "currency/date",
+      "source hierarchy",
+      "estimate confidence"
+    ],
+    "supplier_product": [
+      "supplier/source",
+      "observed date",
+      "rights",
+      "technical disclaimer"
+    ]
+  },
+  "corrections": [
+    "public correction date",
+    "reason",
+    "source",
+    "superseded content link",
+    "editor/reviewer audit"
+  ],
+  "exact_copy_registry": "Every route/state/action/error string gets a stable copy key, locale, review state and last-updated date."
+}

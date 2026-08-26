@@ -1,0 +1,54 @@
+{
+  "tabs": [
+    "All",
+    "Project-approved",
+    "Favorites",
+    "Local",
+    "Ships to site",
+    "Samples available",
+    "BIM/3D ready",
+    "Verified references",
+    "Generic specs"
+  ],
+  "card_fields": [
+    "image/3D preview",
+    "vendor",
+    "product",
+    "verification",
+    "from price if supported",
+    "lead time",
+    "ships to",
+    "3D ready",
+    "project reference count"
+  ],
+  "actions": [
+    "Preview 3D",
+    "Place in model",
+    "Add to palette",
+    "Compare",
+    "Request sample",
+    "Request quote",
+    "View references",
+    "Save"
+  ],
+  "placement_ui": [
+    "ghost preview",
+    "snap anchors",
+    "rotate",
+    "clearance visualization",
+    "services overlay",
+    "cost delta",
+    "schedule delta",
+    "compatibility badge"
+  ],
+  "after_placement": [
+    "quantity",
+    "variant",
+    "status",
+    "alternates",
+    "technical issues",
+    "procurement state",
+    "budget line",
+    "schedule need date"
+  ]
+}

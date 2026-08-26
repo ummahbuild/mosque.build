@@ -1,0 +1,15 @@
+{
+  "name": "mosque-build",
+  "private": true,
+  "packageManager": "pnpm@10",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "privacy:scan": "node scripts/privacy-scan.mjs",
+    "web:dev": "pnpm --dir apps/web dev",
+    "web:build": "pnpm --dir apps/web build"
+  }
+}

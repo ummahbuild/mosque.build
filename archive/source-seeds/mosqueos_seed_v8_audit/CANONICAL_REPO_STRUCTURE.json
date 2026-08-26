@@ -1,0 +1,61 @@
+{
+  "apps": [
+    "web",
+    "mobile",
+    "admin"
+  ],
+  "packages": [
+    "domain",
+    "db",
+    "auth",
+    "permissions",
+    "design-system",
+    "geometry-kernel",
+    "qibla-prayer",
+    "cost-engine",
+    "regulatory-engine",
+    "procurement",
+    "construction-controls",
+    "operations",
+    "fundraising",
+    "waqf",
+    "search",
+    "maps-providers",
+    "integrations",
+    "offline-sync",
+    "notifications",
+    "analytics",
+    "content",
+    "seo",
+    "i18n",
+    "security",
+    "testing"
+  ],
+  "supabase": [
+    "migrations",
+    "seed",
+    "functions",
+    "tests/rls",
+    "tests/sql",
+    "storage-policies"
+  ],
+  "data": [
+    "canonical",
+    "research-queues",
+    "sources",
+    "rights",
+    "imports",
+    "fixtures",
+    "review-ledgers"
+  ],
+  "docs": [
+    "product",
+    "architecture",
+    "security",
+    "data-governance",
+    "regulatory",
+    "religious-review",
+    "runbooks",
+    "release"
+  ]
+}

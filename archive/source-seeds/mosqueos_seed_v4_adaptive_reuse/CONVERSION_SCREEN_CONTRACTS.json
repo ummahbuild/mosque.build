@@ -1,0 +1,1325 @@
+[
+  {
+    "id": "CV001",
+    "name": "Conversion Home",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV002",
+    "name": "Find Buildings",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV003",
+    "name": "Map of Candidate Properties",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV004",
+    "name": "Paste Listing",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV005",
+    "name": "Scan Building",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV006",
+    "name": "Upload Existing Plans",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV007",
+    "name": "Property Summary",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV008",
+    "name": "Title & Lease Review",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV009",
+    "name": "Current Use",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV010",
+    "name": "Zoning & Change of Use",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV011",
+    "name": "Building Code Path",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV012",
+    "name": "Occupancy Change",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV013",
+    "name": "Heritage Check",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV014",
+    "name": "Environmental Risk",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV015",
+    "name": "Flood/Climate Risk",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV016",
+    "name": "Existing Condition",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV017",
+    "name": "Structure",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV018",
+    "name": "Roof",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV019",
+    "name": "Envelope",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV020",
+    "name": "MEP",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV021",
+    "name": "Fire & Egress",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV022",
+    "name": "Accessibility",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV023",
+    "name": "Parking & Transport",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV024",
+    "name": "Qibla Fit",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV025",
+    "name": "Prayer Hall Fit",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV026",
+    "name": "Saff Efficiency",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV027",
+    "name": "Women/Family Fit",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV028",
+    "name": "Wudu & Sanitary Fit",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV029",
+    "name": "Madrasa Fit",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV030",
+    "name": "Community Center Fit",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV031",
+    "name": "Kitchen/Iftar Fit",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV032",
+    "name": "Janazah Fit",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV033",
+    "name": "Storage Fit",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV034",
+    "name": "Security Fit",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV035",
+    "name": "Repair Backlog",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV036",
+    "name": "Repair Priority",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV037",
+    "name": "Conversion Options",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV038",
+    "name": "Minimum Intervention",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV039",
+    "name": "Balanced Conversion",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV040",
+    "name": "Full Conversion",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV041",
+    "name": "Phased Conversion",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV042",
+    "name": "3D Before/After",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV043",
+    "name": "2D Existing Plan",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV044",
+    "name": "2D Proposed Plan",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV045",
+    "name": "Demolition Plan",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV046",
+    "name": "New Work Plan",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV047",
+    "name": "Material Reuse",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV048",
+    "name": "Salvage Inventory",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV049",
+    "name": "Aesthetic Direction",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV050",
+    "name": "Cost Estimate",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV051",
+    "name": "Operating Cost",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV052",
+    "name": "Maintenance Reserve",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV053",
+    "name": "Purchase vs Lease",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV054",
+    "name": "Convert vs Rebuild",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV055",
+    "name": "Financing",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV056",
+    "name": "Offer Due Diligence",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV057",
+    "name": "Professional Team",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV058",
+    "name": "Permit Checklist",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV059",
+    "name": "Construction Phasing",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV060",
+    "name": "Inspection Readiness",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV061",
+    "name": "Commissioning",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV062",
+    "name": "Opening Readiness",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  },
+  {
+    "id": "CV063",
+    "name": "Post-Occupancy Review",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "unknown_data",
+      "professional_review_needed",
+      "stale_source"
+    ],
+    "required": [
+      "source/provenance disclosure",
+      "next action",
+      "risk level if applicable",
+      "cost impact if applicable"
+    ],
+    "mobile": true,
+    "web": true
+  }
+]

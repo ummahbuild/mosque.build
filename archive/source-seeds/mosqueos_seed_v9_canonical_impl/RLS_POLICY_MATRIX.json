@@ -1,0 +1,111 @@
+{
+  "tables": [
+    {
+      "table": "mosques",
+      "select": "public if publish_status=published; assigned admins/editors can see drafts",
+      "insert": "platform editors/import pipeline",
+      "update": "claimed mosque admins/editors within assignment or platform editor",
+      "delete": "soft-delete only by platform admin"
+    },
+    {
+      "table": "mosque_provider_links",
+      "select": "public subset; full metadata internal",
+      "insert": "ingestion/platform editor",
+      "update": "ingestion/platform editor",
+      "delete": "platform editor"
+    },
+    {
+      "table": "mosque_claims",
+      "select": "claimant + platform reviewers",
+      "insert": "authenticated",
+      "update": "claimant limited while pending; reviewer decides",
+      "delete": "soft cancel by claimant"
+    },
+    {
+      "table": "projects",
+      "select": "organization/project members",
+      "insert": "authorized org member",
+      "update": "project managers/authorized editors",
+      "delete": "archive only by project manager/org admin"
+    },
+    {
+      "table": "project_members",
+      "select": "project members",
+      "insert/update/delete": "project manager/org admin"
+    },
+    {
+      "table": "design_scenarios",
+      "select": "project members or share-token read view",
+      "insert/update": "project members with edit capability",
+      "delete": "archive by project manager"
+    },
+    {
+      "table": "cost_estimates",
+      "select": "project members",
+      "insert": "cost-capable project members/system",
+      "update": "immutable after baseline; create new version",
+      "delete": "archive only"
+    },
+    {
+      "table": "donations",
+      "select": "finance-capable org members; donor self-view if supported",
+      "insert": "server/payment webhook only",
+      "update": "server/reconciliation workflow only",
+      "delete": "never hard delete"
+    },
+    {
+      "table": "restricted_funds",
+      "select": "finance/authorized governance",
+      "insert/update": "finance + approval capability",
+      "delete": "archive only if zero obligations"
+    },
+    {
+      "table": "incidents",
+      "select": "explicit incident capability only",
+      "insert": "authorized staff",
+      "update": "authorized staff/reviewer",
+      "delete": "retention policy controlled"
+    },
+    {
+      "table": "assets",
+      "select": "mosque operations/project handover members",
+      "insert/update": "facilities/project handover",
+      "delete": "retire, never destructive delete after handover"
+    },
+    {
+      "table": "sources",
+      "select": "public metadata where safe",
+      "insert/update": "reviewer/platform editor",
+      "delete": "supersede instead of delete"
+    },
+    {
+      "table": "regulatory_rules",
+      "select": "public if reviewed/published",
+      "insert/update": "regulatory reviewer/platform editor",
+      "delete": "supersede"
+    },
+    {
+      "table": "supplier_quotes",
+      "select": "project procurement/finance roles",
+      "insert/update": "procurement roles",
+      "delete": "archive"
+    },
+    {
+      "table": "audit_logs",
+      "select": "org admin/project governance scoped; platform admin broader",
+      "insert": "server only",
+      "update": "never",
+      "delete": "retention policy only"
+    }
+  ],
+  "test_requirements": [
+    "anonymous user cannot read private project rows",
+    "member of org A cannot read org B project rows",
+    "ordinary project member cannot read restricted finance unless capability granted",
+    "mosque editor cannot edit unrelated mosque",
+    "client cannot directly insert confirmed donation/payment rows",
+    "baseline estimate cannot be mutated in place",
+    "audit log cannot be edited from client",
+    "soft-deleted/archived rows respect visibility rules"
+  ]
+}

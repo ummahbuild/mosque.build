@@ -1,0 +1,5150 @@
+[
+  {
+    "id": "P3DB-00001",
+    "feature": "GLB ingestion",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00002",
+    "feature": "GLB ingestion",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00003",
+    "feature": "GLB ingestion",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00004",
+    "feature": "GLB ingestion",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00005",
+    "feature": "GLB ingestion",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00006",
+    "feature": "GLB ingestion",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00007",
+    "feature": "IFC product ingestion",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00008",
+    "feature": "IFC product ingestion",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00009",
+    "feature": "IFC product ingestion",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00010",
+    "feature": "IFC product ingestion",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00011",
+    "feature": "IFC product ingestion",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00012",
+    "feature": "IFC product ingestion",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00013",
+    "feature": "OBJ/FBX import adapter",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00014",
+    "feature": "OBJ/FBX import adapter",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00015",
+    "feature": "OBJ/FBX import adapter",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00016",
+    "feature": "OBJ/FBX import adapter",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00017",
+    "feature": "OBJ/FBX import adapter",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00018",
+    "feature": "OBJ/FBX import adapter",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00019",
+    "feature": "parametric placeholder generation",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00020",
+    "feature": "parametric placeholder generation",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00021",
+    "feature": "parametric placeholder generation",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00022",
+    "feature": "parametric placeholder generation",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00023",
+    "feature": "parametric placeholder generation",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00024",
+    "feature": "parametric placeholder generation",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00025",
+    "feature": "unit normalization",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00026",
+    "feature": "unit normalization",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00027",
+    "feature": "unit normalization",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00028",
+    "feature": "unit normalization",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00029",
+    "feature": "unit normalization",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00030",
+    "feature": "unit normalization",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00031",
+    "feature": "dimension verification",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00032",
+    "feature": "dimension verification",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00033",
+    "feature": "dimension verification",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00034",
+    "feature": "dimension verification",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00035",
+    "feature": "dimension verification",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00036",
+    "feature": "dimension verification",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00037",
+    "feature": "bounding box check",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00038",
+    "feature": "bounding box check",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00039",
+    "feature": "bounding box check",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00040",
+    "feature": "bounding box check",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00041",
+    "feature": "bounding box check",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00042",
+    "feature": "bounding box check",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00043",
+    "feature": "origin editor",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00044",
+    "feature": "origin editor",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00045",
+    "feature": "origin editor",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00046",
+    "feature": "origin editor",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00047",
+    "feature": "origin editor",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00048",
+    "feature": "origin editor",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00049",
+    "feature": "anchor editor",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00050",
+    "feature": "anchor editor",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00051",
+    "feature": "anchor editor",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00052",
+    "feature": "anchor editor",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00053",
+    "feature": "anchor editor",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00054",
+    "feature": "anchor editor",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00055",
+    "feature": "service port editor",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00056",
+    "feature": "service port editor",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00057",
+    "feature": "service port editor",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00058",
+    "feature": "service port editor",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00059",
+    "feature": "service port editor",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00060",
+    "feature": "service port editor",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00061",
+    "feature": "clearance volume editor",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00062",
+    "feature": "clearance volume editor",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00063",
+    "feature": "clearance volume editor",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00064",
+    "feature": "clearance volume editor",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00065",
+    "feature": "clearance volume editor",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00066",
+    "feature": "clearance volume editor",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00067",
+    "feature": "maintenance zone editor",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00068",
+    "feature": "maintenance zone editor",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00069",
+    "feature": "maintenance zone editor",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00070",
+    "feature": "maintenance zone editor",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00071",
+    "feature": "maintenance zone editor",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00072",
+    "feature": "maintenance zone editor",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00073",
+    "feature": "host requirement editor",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00074",
+    "feature": "host requirement editor",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00075",
+    "feature": "host requirement editor",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00076",
+    "feature": "host requirement editor",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00077",
+    "feature": "host requirement editor",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00078",
+    "feature": "host requirement editor",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00079",
+    "feature": "orientation rules",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00080",
+    "feature": "orientation rules",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00081",
+    "feature": "orientation rules",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00082",
+    "feature": "orientation rules",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00083",
+    "feature": "orientation rules",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00084",
+    "feature": "orientation rules",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00085",
+    "feature": "LOD generation",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00086",
+    "feature": "LOD generation",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00087",
+    "feature": "LOD generation",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00088",
+    "feature": "LOD generation",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00089",
+    "feature": "LOD generation",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00090",
+    "feature": "LOD generation",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00091",
+    "feature": "texture compression",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00092",
+    "feature": "texture compression",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00093",
+    "feature": "texture compression",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00094",
+    "feature": "texture compression",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00095",
+    "feature": "texture compression",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00096",
+    "feature": "texture compression",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00097",
+    "feature": "mobile preview",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00098",
+    "feature": "mobile preview",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00099",
+    "feature": "mobile preview",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00100",
+    "feature": "mobile preview",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00101",
+    "feature": "mobile preview",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00102",
+    "feature": "mobile preview",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00103",
+    "feature": "polygon optimization",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00104",
+    "feature": "polygon optimization",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00105",
+    "feature": "polygon optimization",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00106",
+    "feature": "polygon optimization",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00107",
+    "feature": "polygon optimization",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00108",
+    "feature": "polygon optimization",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00109",
+    "feature": "product variants",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00110",
+    "feature": "product variants",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00111",
+    "feature": "product variants",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00112",
+    "feature": "product variants",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00113",
+    "feature": "product variants",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00114",
+    "feature": "product variants",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00115",
+    "feature": "configurator",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00116",
+    "feature": "configurator",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00117",
+    "feature": "configurator",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00118",
+    "feature": "configurator",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00119",
+    "feature": "configurator",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00120",
+    "feature": "configurator",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00121",
+    "feature": "SKU mapping",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00122",
+    "feature": "SKU mapping",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00123",
+    "feature": "SKU mapping",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00124",
+    "feature": "SKU mapping",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00125",
+    "feature": "SKU mapping",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00126",
+    "feature": "SKU mapping",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00127",
+    "feature": "custom quote configuration",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00128",
+    "feature": "custom quote configuration",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00129",
+    "feature": "custom quote configuration",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00130",
+    "feature": "custom quote configuration",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00131",
+    "feature": "custom quote configuration",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00132",
+    "feature": "custom quote configuration",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00133",
+    "feature": "3D publish review",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00134",
+    "feature": "3D publish review",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00135",
+    "feature": "3D publish review",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00136",
+    "feature": "3D publish review",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00137",
+    "feature": "3D publish review",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00138",
+    "feature": "3D publish review",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00139",
+    "feature": "vendor preview",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00140",
+    "feature": "vendor preview",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00141",
+    "feature": "vendor preview",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00142",
+    "feature": "vendor preview",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00143",
+    "feature": "vendor preview",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00144",
+    "feature": "vendor preview",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00145",
+    "feature": "designer product search",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00146",
+    "feature": "designer product search",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00147",
+    "feature": "designer product search",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00148",
+    "feature": "designer product search",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00149",
+    "feature": "designer product search",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00150",
+    "feature": "designer product search",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00151",
+    "feature": "3D thumbnail",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00152",
+    "feature": "3D thumbnail",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00153",
+    "feature": "3D thumbnail",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00154",
+    "feature": "3D thumbnail",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00155",
+    "feature": "3D thumbnail",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00156",
+    "feature": "3D thumbnail",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00157",
+    "feature": "place product",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00158",
+    "feature": "place product",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00159",
+    "feature": "place product",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00160",
+    "feature": "place product",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00161",
+    "feature": "place product",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00162",
+    "feature": "place product",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00163",
+    "feature": "snap placement",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00164",
+    "feature": "snap placement",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00165",
+    "feature": "snap placement",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00166",
+    "feature": "snap placement",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00167",
+    "feature": "snap placement",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00168",
+    "feature": "snap placement",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00169",
+    "feature": "compatibility check",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00170",
+    "feature": "compatibility check",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00171",
+    "feature": "compatibility check",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00172",
+    "feature": "compatibility check",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00173",
+    "feature": "compatibility check",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00174",
+    "feature": "compatibility check",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00175",
+    "feature": "service mismatch warning",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00176",
+    "feature": "service mismatch warning",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00177",
+    "feature": "service mismatch warning",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00178",
+    "feature": "service mismatch warning",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00179",
+    "feature": "service mismatch warning",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00180",
+    "feature": "service mismatch warning",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00181",
+    "feature": "clearance conflict",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00182",
+    "feature": "clearance conflict",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00183",
+    "feature": "clearance conflict",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00184",
+    "feature": "clearance conflict",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00185",
+    "feature": "clearance conflict",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00186",
+    "feature": "clearance conflict",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00187",
+    "feature": "maintenance access warning",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00188",
+    "feature": "maintenance access warning",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00189",
+    "feature": "maintenance access warning",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00190",
+    "feature": "maintenance access warning",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00191",
+    "feature": "maintenance access warning",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00192",
+    "feature": "maintenance access warning",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00193",
+    "feature": "structural review flag",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00194",
+    "feature": "structural review flag",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00195",
+    "feature": "structural review flag",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00196",
+    "feature": "structural review flag",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00197",
+    "feature": "structural review flag",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00198",
+    "feature": "structural review flag",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00199",
+    "feature": "electrical compatibility",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00200",
+    "feature": "electrical compatibility",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00201",
+    "feature": "electrical compatibility",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00202",
+    "feature": "electrical compatibility",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00203",
+    "feature": "electrical compatibility",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00204",
+    "feature": "electrical compatibility",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00205",
+    "feature": "plumbing compatibility",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00206",
+    "feature": "plumbing compatibility",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00207",
+    "feature": "plumbing compatibility",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00208",
+    "feature": "plumbing compatibility",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00209",
+    "feature": "plumbing compatibility",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00210",
+    "feature": "plumbing compatibility",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00211",
+    "feature": "network compatibility",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00212",
+    "feature": "network compatibility",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00213",
+    "feature": "network compatibility",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00214",
+    "feature": "network compatibility",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00215",
+    "feature": "network compatibility",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00216",
+    "feature": "network compatibility",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00217",
+    "feature": "fire attribute check",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00218",
+    "feature": "fire attribute check",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00219",
+    "feature": "fire attribute check",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00220",
+    "feature": "fire attribute check",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00221",
+    "feature": "fire attribute check",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00222",
+    "feature": "fire attribute check",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00223",
+    "feature": "accessibility compatibility",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00224",
+    "feature": "accessibility compatibility",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00225",
+    "feature": "accessibility compatibility",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00226",
+    "feature": "accessibility compatibility",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00227",
+    "feature": "accessibility compatibility",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00228",
+    "feature": "accessibility compatibility",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00229",
+    "feature": "environment suitability",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00230",
+    "feature": "environment suitability",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00231",
+    "feature": "environment suitability",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00232",
+    "feature": "environment suitability",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00233",
+    "feature": "environment suitability",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00234",
+    "feature": "environment suitability",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00235",
+    "feature": "design style preference",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00236",
+    "feature": "design style preference",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00237",
+    "feature": "design style preference",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00238",
+    "feature": "design style preference",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00239",
+    "feature": "design style preference",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00240",
+    "feature": "design style preference",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00241",
+    "feature": "budget fit",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00242",
+    "feature": "budget fit",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00243",
+    "feature": "budget fit",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00244",
+    "feature": "budget fit",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00245",
+    "feature": "budget fit",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00246",
+    "feature": "budget fit",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00247",
+    "feature": "lead-time fit",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00248",
+    "feature": "lead-time fit",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00249",
+    "feature": "lead-time fit",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00250",
+    "feature": "lead-time fit",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00251",
+    "feature": "lead-time fit",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00252",
+    "feature": "lead-time fit",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00253",
+    "feature": "ships-to-site",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00254",
+    "feature": "ships-to-site",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00255",
+    "feature": "ships-to-site",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00256",
+    "feature": "ships-to-site",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00257",
+    "feature": "ships-to-site",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00258",
+    "feature": "ships-to-site",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00259",
+    "feature": "local installer",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00260",
+    "feature": "local installer",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00261",
+    "feature": "local installer",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00262",
+    "feature": "local installer",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00263",
+    "feature": "local installer",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00264",
+    "feature": "local installer",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00265",
+    "feature": "alternate suggestions",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00266",
+    "feature": "alternate suggestions",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00267",
+    "feature": "alternate suggestions",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00268",
+    "feature": "alternate suggestions",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00269",
+    "feature": "alternate suggestions",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00270",
+    "feature": "alternate suggestions",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00271",
+    "feature": "generic fallback",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00272",
+    "feature": "generic fallback",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00273",
+    "feature": "generic fallback",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00274",
+    "feature": "generic fallback",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00275",
+    "feature": "generic fallback",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00276",
+    "feature": "generic fallback",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00277",
+    "feature": "approved product library",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00278",
+    "feature": "approved product library",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00279",
+    "feature": "approved product library",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00280",
+    "feature": "approved product library",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00281",
+    "feature": "approved product library",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00282",
+    "feature": "approved product library",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00283",
+    "feature": "project palette",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00284",
+    "feature": "project palette",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00285",
+    "feature": "project palette",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00286",
+    "feature": "project palette",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00287",
+    "feature": "project palette",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00288",
+    "feature": "project palette",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00289",
+    "feature": "favorites",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00290",
+    "feature": "favorites",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00291",
+    "feature": "favorites",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00292",
+    "feature": "favorites",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00293",
+    "feature": "favorites",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00294",
+    "feature": "favorites",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00295",
+    "feature": "compare variants",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00296",
+    "feature": "compare variants",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00297",
+    "feature": "compare variants",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00298",
+    "feature": "compare variants",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00299",
+    "feature": "compare variants",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00300",
+    "feature": "compare variants",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00301",
+    "feature": "compare products",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00302",
+    "feature": "compare products",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00303",
+    "feature": "compare products",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00304",
+    "feature": "compare products",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00305",
+    "feature": "compare products",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00306",
+    "feature": "compare products",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00307",
+    "feature": "product attribution",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00308",
+    "feature": "product attribution",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00309",
+    "feature": "product attribution",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00310",
+    "feature": "product attribution",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00311",
+    "feature": "product attribution",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00312",
+    "feature": "product attribution",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00313",
+    "feature": "render integration",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00314",
+    "feature": "render integration",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00315",
+    "feature": "render integration",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00316",
+    "feature": "render integration",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00317",
+    "feature": "render integration",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00318",
+    "feature": "render integration",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00319",
+    "feature": "donor render integration",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00320",
+    "feature": "donor render integration",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00321",
+    "feature": "donor render integration",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00322",
+    "feature": "donor render integration",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00323",
+    "feature": "donor render integration",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00324",
+    "feature": "donor render integration",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00325",
+    "feature": "AR placement preview",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00326",
+    "feature": "AR placement preview",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00327",
+    "feature": "AR placement preview",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00328",
+    "feature": "AR placement preview",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00329",
+    "feature": "AR placement preview",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00330",
+    "feature": "AR placement preview",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00331",
+    "feature": "quantity from placed instances",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00332",
+    "feature": "quantity from placed instances",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00333",
+    "feature": "quantity from placed instances",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00334",
+    "feature": "quantity from placed instances",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00335",
+    "feature": "quantity from placed instances",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00336",
+    "feature": "quantity from placed instances",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00337",
+    "feature": "quantity from surfaces",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00338",
+    "feature": "quantity from surfaces",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00339",
+    "feature": "quantity from surfaces",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00340",
+    "feature": "quantity from surfaces",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00341",
+    "feature": "quantity from surfaces",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00342",
+    "feature": "quantity from surfaces",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00343",
+    "feature": "cost delta",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00344",
+    "feature": "cost delta",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00345",
+    "feature": "cost delta",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00346",
+    "feature": "cost delta",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00347",
+    "feature": "cost delta",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00348",
+    "feature": "cost delta",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00349",
+    "feature": "lead time delta",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00350",
+    "feature": "lead time delta",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00351",
+    "feature": "lead time delta",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00352",
+    "feature": "lead time delta",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00353",
+    "feature": "lead time delta",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00354",
+    "feature": "lead time delta",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00355",
+    "feature": "procurement status badge",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00356",
+    "feature": "procurement status badge",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00357",
+    "feature": "procurement status badge",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00358",
+    "feature": "procurement status badge",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00359",
+    "feature": "procurement status badge",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00360",
+    "feature": "procurement status badge",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00361",
+    "feature": "ordered badge",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00362",
+    "feature": "ordered badge",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00363",
+    "feature": "ordered badge",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00364",
+    "feature": "ordered badge",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00365",
+    "feature": "ordered badge",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00366",
+    "feature": "ordered badge",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00367",
+    "feature": "shipping badge",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00368",
+    "feature": "shipping badge",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00369",
+    "feature": "shipping badge",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00370",
+    "feature": "shipping badge",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00371",
+    "feature": "shipping badge",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00372",
+    "feature": "shipping badge",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00373",
+    "feature": "installed badge",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00374",
+    "feature": "installed badge",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00375",
+    "feature": "installed badge",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00376",
+    "feature": "installed badge",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00377",
+    "feature": "installed badge",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00378",
+    "feature": "installed badge",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00379",
+    "feature": "commissioned badge",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00380",
+    "feature": "commissioned badge",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00381",
+    "feature": "commissioned badge",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00382",
+    "feature": "commissioned badge",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00383",
+    "feature": "commissioned badge",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00384",
+    "feature": "commissioned badge",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00385",
+    "feature": "as-built object mapping",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00386",
+    "feature": "as-built object mapping",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00387",
+    "feature": "as-built object mapping",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00388",
+    "feature": "as-built object mapping",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00389",
+    "feature": "as-built object mapping",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00390",
+    "feature": "as-built object mapping",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00391",
+    "feature": "asset mapping",
+    "slice": "spec/UX",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00392",
+    "feature": "asset mapping",
+    "slice": "schema",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00393",
+    "feature": "asset mapping",
+    "slice": "processing/backend",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00394",
+    "feature": "asset mapping",
+    "slice": "web/ThreeJS",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00395",
+    "feature": "asset mapping",
+    "slice": "Expo",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  },
+  {
+    "id": "P3DB-00396",
+    "feature": "asset mapping",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "stable product/object IDs",
+      "source/license preserved",
+      "compatibility rules tested",
+      "performance budget checked",
+      "project lifecycle integration tested"
+    ]
+  }
+]

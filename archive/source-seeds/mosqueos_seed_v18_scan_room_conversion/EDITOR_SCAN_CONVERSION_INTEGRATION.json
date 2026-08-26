@@ -1,0 +1,56 @@
+{
+  "new_editor_modes": [
+    "Scan",
+    "Existing Building",
+    "Convert Room",
+    "Prayer Layout",
+    "Demolition",
+    "New Work",
+    "Reuse/Salvage"
+  ],
+  "room_actions": [
+    "Convert to Prayer Room",
+    "Convert to Women's/Family Prayer",
+    "Convert to Wudu",
+    "Convert to Madrasa",
+    "Convert to Community Room",
+    "Share Dual Use",
+    "Return to Existing Use"
+  ],
+  "visual_layers": [
+    "existing walls",
+    "to demolish",
+    "new walls",
+    "existing services",
+    "new services",
+    "qibla",
+    "saff rows",
+    "wet zones",
+    "accessible routes",
+    "egress candidates",
+    "cost heatmap",
+    "construction phase",
+    "reuse/salvage"
+  ],
+  "inspector_fields": [
+    "existing condition",
+    "target use",
+    "capacity",
+    "qibla efficiency",
+    "conversion score",
+    "repair needs",
+    "MEP changes",
+    "permit flags",
+    "cost",
+    "duration",
+    "funding status"
+  ],
+  "drag_drop": [
+    "drag room-type preset onto room",
+    "drag vendor product into converted room",
+    "drag generic wudu fixture",
+    "drag carpet material",
+    "drag partition",
+    "drag storage/shoe rack"
+  ]
+}

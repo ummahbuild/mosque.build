@@ -1,0 +1,74 @@
+[
+  {
+    "id": "stoneplus_mosquebuild",
+    "name": "Stoneplus / MosqueBuild",
+    "country": "Türkiye",
+    "url": "https://www.mosquebuild.com/shop/",
+    "catalog_observed_date": "2026-08-16",
+    "catalog_total_results_observed": 687,
+    "categories": [
+      {
+        "name": "Dais",
+        "observed_count": 58
+      },
+      {
+        "name": "Mihrab",
+        "observed_count": 89
+      },
+      {
+        "name": "Minbar",
+        "observed_count": 81
+      },
+      {
+        "name": "Mosque Minaret | Finial | Fountain",
+        "observed_count": 25
+      },
+      {
+        "name": "Mosque Shoe Rack",
+        "observed_count": 6
+      },
+      {
+        "name": "Mosque Wall Cladding",
+        "observed_count": 5
+      },
+      {
+        "name": "Muazzin Place",
+        "observed_count": 29
+      },
+      {
+        "name": "Project",
+        "observed_count": 74
+      },
+      {
+        "name": "Mosque Calligraphy",
+        "observed_count": 39
+      },
+      {
+        "name": "Mosque Carpet",
+        "observed_count": 81
+      },
+      {
+        "name": "Mosque Chandelier",
+        "observed_count": 35
+      },
+      {
+        "name": "Mosque Tile",
+        "observed_count": 34
+      },
+      {
+        "name": "Metal Mosque & Masjid Door",
+        "observed_count": 19
+      },
+      {
+        "name": "Mosque & Masjid Wooden Door",
+        "observed_count": 113
+      },
+      {
+        "name": "Mosque & Masjid Window",
+        "observed_count": 23
+      }
+    ],
+    "ingestion_policy": "Store supplier/product metadata and outbound links; no copying of proprietary photos or long descriptions without permission.",
+    "source": "src_mosquebuild_shop"
+  }
+]

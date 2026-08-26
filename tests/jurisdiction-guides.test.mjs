@@ -1,0 +1,4 @@
+import assert from "node:assert/strict";import {readFile} from "node:fs/promises";import test from "node:test";
+const data=JSON.parse(await readFile(new URL("../apps/web/data/jurisdiction-guides.json",import.meta.url),"utf8"));
+test("jurisdiction guides preserve source and verification boundaries",()=>{for(const mode of ["permits","funding"]){assert.ok(data[mode].length>=4);for(const record of data[mode]){assert.match(record.observedAt,/^\d{4}-\d{2}-\d{2}$/);assert.ok(record.confidence&&record.flag&&record.items.length>=2);for(const item of record.items){assert.ok(item.title&&item.when&&item.authority&&item.source&&item.url)}}}});
+test("permit copy does not claim approval",()=>{const text=JSON.stringify(data.permits).toLowerCase();assert.doesNotMatch(text,/permit approved|guaranteed approval|all permits/);assert.match(text,/likely applicable/)});

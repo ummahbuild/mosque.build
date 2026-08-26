@@ -1,0 +1,49 @@
+{
+  "energy": [
+    "passive solar/shading",
+    "daylight",
+    "natural ventilation",
+    "efficient HVAC",
+    "fans",
+    "controls",
+    "solar PV",
+    "battery",
+    "metering"
+  ],
+  "water": [
+    "low-flow fixtures",
+    "wudu water efficiency",
+    "leak detection",
+    "rainwater",
+    "greywater where lawful",
+    "landscape efficiency"
+  ],
+  "materials": [
+    "local sourcing",
+    "durability",
+    "repairability",
+    "low-carbon alternatives",
+    "reuse/salvage",
+    "responsible timber",
+    "low-VOC finishes"
+  ],
+  "resilience": [
+    "heat",
+    "flood",
+    "storm",
+    "seismic",
+    "power outage",
+    "water outage",
+    "smoke/air quality",
+    "supply-chain disruption"
+  ],
+  "operational_metrics": [
+    "energy per m2",
+    "energy per attendee",
+    "water per attendee",
+    "solar fraction",
+    "waste diversion",
+    "local material spend share"
+  ],
+  "rule": "No sustainability score may imply formal green certification unless the project actually follows and achieves the relevant certification."
+}

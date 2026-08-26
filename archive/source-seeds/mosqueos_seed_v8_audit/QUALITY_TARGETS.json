@@ -1,0 +1,32 @@
+{
+  "availability": {
+    "public_directory": "99.9% target after production stabilization",
+    "private_workspace": "99.9% target",
+    "note": "targets subject to hosting/provider architecture"
+  },
+  "recovery": {
+    "core_db_RPO": "<=24h initial, improve toward <=1h with production backup strategy",
+    "core_db_RTO": "<=8h initial production target",
+    "critical_payment_webhook": "replayable/idempotent"
+  },
+  "performance": {
+    "public_LCP": "target <=2.5s p75 on representative mobile connections",
+    "API_common_reads": "target <=500ms p95 excluding provider calls",
+    "3D_editor": "target >=30fps on supported baseline device for normal model complexity",
+    "offline_field_save": "local acknowledgement <200ms target"
+  },
+  "data_quality": {
+    "published_external_fact": "100% source/provenance",
+    "regulatory_rule": "100% official source + verified date",
+    "cost_observation": "100% geography+currency+date+source",
+    "downloadable_media": "100% rights state"
+  },
+  "testing": {
+    "RLS": "all protected tables",
+    "payments": "all webhook/reconciliation critical paths",
+    "geometry": "deterministic unit/property tests",
+    "cost": "golden calculations",
+    "offline": "conflict and retry cases",
+    "accessibility": "automated + manual critical flows"
+  }
+}

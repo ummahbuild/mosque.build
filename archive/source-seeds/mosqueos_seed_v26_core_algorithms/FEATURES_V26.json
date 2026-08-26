@@ -1,0 +1,242 @@
+[
+  {
+    "id": "V26-001",
+    "feature": "closed-cycle face extraction",
+    "status": "specified"
+  },
+  {
+    "id": "V26-002",
+    "feature": "exterior-face rejection",
+    "status": "specified"
+  },
+  {
+    "id": "V26-003",
+    "feature": "room polygon orientation normalization",
+    "status": "specified"
+  },
+  {
+    "id": "V26-004",
+    "feature": "duplicate-cycle dedupe",
+    "status": "specified"
+  },
+  {
+    "id": "V26-005",
+    "feature": "small-gap graph repair",
+    "status": "specified"
+  },
+  {
+    "id": "V26-006",
+    "feature": "wall-intersection issue detection",
+    "status": "specified"
+  },
+  {
+    "id": "V26-007",
+    "feature": "opening-to-host projection",
+    "status": "specified"
+  },
+  {
+    "id": "V26-008",
+    "feature": "opening interval overlap detection",
+    "status": "specified"
+  },
+  {
+    "id": "V26-009",
+    "feature": "polygon point inclusion",
+    "status": "specified"
+  },
+  {
+    "id": "V26-010",
+    "feature": "polygon segment intersection",
+    "status": "specified"
+  },
+  {
+    "id": "V26-011",
+    "feature": "polygon obstacle exclusion",
+    "status": "specified"
+  },
+  {
+    "id": "V26-012",
+    "feature": "door-swing exclusion zones",
+    "status": "specified"
+  },
+  {
+    "id": "V26-013",
+    "feature": "column polygon exclusion",
+    "status": "specified"
+  },
+  {
+    "id": "V26-014",
+    "feature": "imam zone exclusion",
+    "status": "specified"
+  },
+  {
+    "id": "V26-015",
+    "feature": "accessible aisle reservation",
+    "status": "specified"
+  },
+  {
+    "id": "V26-016",
+    "feature": "multi-room prayer aggregation",
+    "status": "specified"
+  },
+  {
+    "id": "V26-017",
+    "feature": "irregular-room saff row sampling",
+    "status": "specified"
+  },
+  {
+    "id": "V26-018",
+    "feature": "usable-vs-theoretical prayer capacity",
+    "status": "specified"
+  },
+  {
+    "id": "V26-019",
+    "feature": "row continuity metric",
+    "status": "specified"
+  },
+  {
+    "id": "V26-020",
+    "feature": "obstruction penalty metric",
+    "status": "specified"
+  },
+  {
+    "id": "V26-021",
+    "feature": "assembly runner by object kind",
+    "status": "specified"
+  },
+  {
+    "id": "V26-022",
+    "feature": "assembly runner by room finish",
+    "status": "specified"
+  },
+  {
+    "id": "V26-023",
+    "feature": "assembly component explosion",
+    "status": "specified"
+  },
+  {
+    "id": "V26-024",
+    "feature": "rate-book lookup",
+    "status": "specified"
+  },
+  {
+    "id": "V26-025",
+    "feature": "regional rate-book fallback",
+    "status": "specified"
+  },
+  {
+    "id": "V26-026",
+    "feature": "unknown-rate preservation",
+    "status": "specified"
+  },
+  {
+    "id": "V26-027",
+    "feature": "estimate maturity score",
+    "status": "specified"
+  },
+  {
+    "id": "V26-028",
+    "feature": "object-level cost delta",
+    "status": "specified"
+  },
+  {
+    "id": "V26-029",
+    "feature": "scenario-level cost delta",
+    "status": "specified"
+  },
+  {
+    "id": "V26-030",
+    "feature": "landed-cost placeholder integration",
+    "status": "specified"
+  },
+  {
+    "id": "V26-031",
+    "feature": "procurement need-by derivation",
+    "status": "specified"
+  },
+  {
+    "id": "V26-032",
+    "feature": "locality tier scoring",
+    "status": "specified"
+  },
+  {
+    "id": "V26-033",
+    "feature": "RLS helper policy coverage",
+    "status": "specified"
+  },
+  {
+    "id": "V26-034",
+    "feature": "RLS negative-path fixtures",
+    "status": "specified"
+  },
+  {
+    "id": "V26-035",
+    "feature": "RLS cross-project isolation fixtures",
+    "status": "specified"
+  },
+  {
+    "id": "V26-036",
+    "feature": "role capability fixtures",
+    "status": "specified"
+  },
+  {
+    "id": "V26-037",
+    "feature": "event emission from takeoff",
+    "status": "specified"
+  },
+  {
+    "id": "V26-038",
+    "feature": "event emission from room conversion",
+    "status": "specified"
+  },
+  {
+    "id": "V26-039",
+    "feature": "event emission from estimate",
+    "status": "specified"
+  },
+  {
+    "id": "V26-040",
+    "feature": "demo orchestration runner",
+    "status": "specified"
+  },
+  {
+    "id": "V26-041",
+    "feature": "demo assertion gates",
+    "status": "specified"
+  },
+  {
+    "id": "V26-042",
+    "feature": "demo trace log",
+    "status": "specified"
+  },
+  {
+    "id": "V26-043",
+    "feature": "demo failure summary",
+    "status": "specified"
+  },
+  {
+    "id": "V26-044",
+    "feature": "launch-data readiness checks",
+    "status": "specified"
+  },
+  {
+    "id": "V26-045",
+    "feature": "regulatory-pack readiness checks",
+    "status": "specified"
+  },
+  {
+    "id": "V26-046",
+    "feature": "vendor/product freshness checks",
+    "status": "specified"
+  },
+  {
+    "id": "V26-047",
+    "feature": "cost-data freshness checks",
+    "status": "specified"
+  },
+  {
+    "id": "V26-048",
+    "feature": "project data-health dashboard",
+    "status": "specified"
+  }
+]

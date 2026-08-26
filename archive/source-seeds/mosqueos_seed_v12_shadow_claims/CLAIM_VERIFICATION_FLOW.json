@@ -1,0 +1,117 @@
+{
+  "claim_steps": [
+    "user finds shadow mosque profile",
+    "click Claim this mosque",
+    "authenticate",
+    "provide legal/operational relationship and requested role",
+    "select verification method",
+    "generate verification challenge",
+    "automated verification attempt",
+    "risk checks",
+    "auto-approve low-risk successful claims or send to admin review",
+    "grant scoped mosque_admin capability",
+    "invite additional admins",
+    "begin official-field takeover with provenance preserved"
+  ],
+  "verification_methods": [
+    {
+      "id": "dns_txt",
+      "strength": "strong",
+      "flow": [
+        "claimant enters official mosque domain",
+        "system canonicalizes registrable domain",
+        "system creates random one-time token",
+        "display TXT host/name and value",
+        "claimant adds TXT record in DNS",
+        "system resolves authoritative/public DNS repeatedly within allowed polling limits",
+        "token exact-match verifies domain control",
+        "store evidence, resolver response, TTL, verified_at",
+        "challenge expires and token is never reused"
+      ],
+      "record_example": {
+        "host": "_mosquebuild-verify.example.org",
+        "type": "TXT",
+        "value": "mosque-build-verification=<random-token>"
+      },
+      "guardrails": [
+        "domain must be linked to mosque by existing public evidence or manual review",
+        "do not accept arbitrary unrelated domain merely because claimant controls it",
+        "verification proves domain control, not automatically authority over the physical mosque"
+      ]
+    },
+    {
+      "id": "dns_cname",
+      "strength": "strong",
+      "flow": [
+        "issue unique hostname/value",
+        "claimant creates CNAME",
+        "resolve and verify",
+        "store evidence"
+      ],
+      "use": "fallback where TXT administration is difficult"
+    },
+    {
+      "id": "html_meta",
+      "strength": "medium",
+      "flow": [
+        "issue token",
+        "claimant adds meta tag to official site homepage or defined URL",
+        "fetch over HTTPS",
+        "verify exact token"
+      ],
+      "guardrails": [
+        "follow redirects conservatively",
+        "block private/internal IP fetches",
+        "size/time limits",
+        "HTTPS preferred"
+      ]
+    },
+    {
+      "id": "verification_file",
+      "strength": "medium",
+      "flow": [
+        "issue unique file/token",
+        "claimant places file at defined HTTPS path",
+        "system fetches and validates"
+      ]
+    },
+    {
+      "id": "domain_email",
+      "strength": "medium_low",
+      "flow": [
+        "send one-time link/code to approved address on official domain",
+        "claimant verifies"
+      ],
+      "guardrails": [
+        "avoid generic role account alone for high-risk transfer without corroboration"
+      ]
+    },
+    {
+      "id": "manual_documents",
+      "strength": "manual",
+      "flow": [
+        "upload governance/registration/utility/lease or other evidence",
+        "admin review",
+        "approve/reject"
+      ],
+      "use": "fallback for mosques without domains or where online verification is insufficient"
+    }
+  ],
+  "challenge_fields": [
+    "claim_id",
+    "mosque_id",
+    "claimant_id",
+    "method",
+    "domain",
+    "token_hash",
+    "created_at",
+    "expires_at",
+    "attempt_count",
+    "verified_at",
+    "evidence_json",
+    "risk_score"
+  ],
+  "default_token_expiry_hours": 72,
+  "polling_backoff": "30s -> 2m -> 10m -> manual Retry button; no aggressive DNS polling",
+  "post_verification": "successful domain proof enters risk engine; low-risk may auto-approve, otherwise admin review"
+}

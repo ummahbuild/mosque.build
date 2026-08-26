@@ -1,0 +1,51 @@
+{
+  "product": "mosque.build",
+  "release_levels": [
+    "prototype",
+    "alpha",
+    "beta",
+    "production",
+    "country-pack-production"
+  ],
+  "global_dod": [
+    "No screen relies on placeholder factual data presented as real",
+    "Every external fact has source_id, fetched_at/verified_at, rights status, and confidence",
+    "Every route has loading, empty, error, unauthorized, stale-data and mobile states where relevant",
+    "Every user write has authentication/authorization and audit logging where risk warrants it",
+    "Every money flow has idempotency, reconciliation path, receipt behavior, failure recovery, and restricted-fund handling",
+    "Every map/location record preserves provider IDs and provenance",
+    "Google-derived content follows Google Maps Platform terms and storage/display restrictions",
+    "Permit/legal outputs identify jurisdiction, official source, effective/verified date, and professional-confirmation status",
+    "Religious normative claims are separated from architectural/historic facts and require appropriate review",
+    "Accessibility tested keyboard/screen reader/contrast/touch target/responsive",
+    "Security review covers auth, RBAC, secrets, uploads, payment webhooks, PII, audit logs, backups, rate limiting",
+    "SEO routes have canonical URL, metadata, structured data where valid, sitemap inclusion, noindex logic for thin/private pages",
+    "Analytics events contain no unnecessary sensitive personal data",
+    "Automated tests cover critical calculators, money, permissions, data freshness and dedupe",
+    "Database migrations are reversible or documented with rollback/forward-fix strategy",
+    "Observability includes error tracking, logs, uptime, job failures, webhook failures, ingestion failures",
+    "Backup/restore tested",
+    "Production environment has separate secrets/keys and least privilege",
+    "User-generated mosque edits have moderation/dispute/claim process",
+    "Content copyright/license state prevents unauthorized media redistribution"
+  ],
+  "feature_dod_template": {
+    "spec": "purpose, user story, inputs, outputs, states, permissions, data dependencies",
+    "design": "mobile+desktop, empty/error/loading, accessibility annotations",
+    "backend": "schema, validation, auth, audit, rate limits",
+    "data": "sources, freshness, dedupe, rights",
+    "tests": "unit, integration, e2e critical path",
+    "ops": "logging, metrics, runbook",
+    "seo": "indexing decision, metadata, schema, internal links",
+    "docs": "developer notes and admin/operator instructions"
+  },
+  "hard_release_gates": [
+    "Payments reconciled in sandbox and production smoke test",
+    "Claim-a-mosque ownership verification abuse tested",
+    "Google/OSM attribution and licensing review complete",
+    "At least one launch jurisdiction regulatory pack reviewed by qualified local professional",
+    "Backup restore rehearsal complete",
+    "Emergency/security features clearly distinguish planning tools from emergency-service guarantees",
+    "No AI-generated construction media labeled as real construction evidence"
+  ]
+}

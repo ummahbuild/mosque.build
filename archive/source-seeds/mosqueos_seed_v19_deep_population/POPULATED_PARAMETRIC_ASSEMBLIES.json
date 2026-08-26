@@ -1,0 +1,550 @@
+[
+  {
+    "id": "partition_block_plaster",
+    "name": "Internal block partition + plaster",
+    "unit": "m2",
+    "components": [
+      "block",
+      "mortar",
+      "plaster",
+      "paint",
+      "labor"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "partition_metal_stud",
+    "name": "Metal stud acoustic partition",
+    "unit": "m2",
+    "components": [
+      "stud",
+      "track",
+      "board",
+      "insulation",
+      "jointing",
+      "paint",
+      "labor"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "prayer_carpet_system",
+    "name": "Prayer carpet system",
+    "unit": "m2",
+    "components": [
+      "subfloor prep",
+      "underlay",
+      "carpet",
+      "adhesive/installation",
+      "waste"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "wudu_station_basic",
+    "name": "Basic wudu position",
+    "unit": "each",
+    "components": [
+      "fixture",
+      "tap",
+      "seat/stool",
+      "water",
+      "waste",
+      "drainage",
+      "finish"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "wudu_station_accessible",
+    "name": "Accessible wudu position",
+    "unit": "each",
+    "components": [
+      "fixture",
+      "support",
+      "tap",
+      "clearance",
+      "water",
+      "waste",
+      "finish"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "wetroom_waterproofing",
+    "name": "Wet-room waterproofing",
+    "unit": "m2",
+    "components": [
+      "substrate prep",
+      "membrane",
+      "corners",
+      "penetrations",
+      "test"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "tile_floor_system",
+    "name": "Commercial wet-area tile floor",
+    "unit": "m2",
+    "components": [
+      "screed",
+      "waterproofing if required",
+      "tile",
+      "adhesive",
+      "grout",
+      "trim"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "suspended_ceiling",
+    "name": "Suspended ceiling",
+    "unit": "m2",
+    "components": [
+      "grid",
+      "tiles/board",
+      "hangers",
+      "access panels"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "acoustic_ceiling",
+    "name": "Acoustic ceiling system",
+    "unit": "m2",
+    "components": [
+      "acoustic panels",
+      "suspension",
+      "edge trim"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "painted_wall_finish",
+    "name": "Painted wall finish",
+    "unit": "m2",
+    "components": [
+      "prep",
+      "primer",
+      "paint"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "stone_wall_cladding",
+    "name": "Stone wall cladding",
+    "unit": "m2",
+    "components": [
+      "stone",
+      "anchors/adhesive",
+      "substrate",
+      "jointing",
+      "access"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "zellige_feature",
+    "name": "Zellige decorative wall",
+    "unit": "m2",
+    "components": [
+      "tile",
+      "setting bed",
+      "grout",
+      "craft labor",
+      "waste"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "standard_door_set",
+    "name": "Standard internal door set",
+    "unit": "each",
+    "components": [
+      "leaf",
+      "frame",
+      "ironmongery",
+      "finish",
+      "installation"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "fire_door_set",
+    "name": "Fire-rated door set",
+    "unit": "each",
+    "components": [
+      "certified leaf/frame set",
+      "closer/hardware",
+      "seals",
+      "installation"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "aluminium_window",
+    "name": "Aluminium window assembly",
+    "unit": "m2",
+    "components": [
+      "frame",
+      "glass",
+      "hardware",
+      "sealant",
+      "installation"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "led_lighting_zone",
+    "name": "Prayer hall LED lighting zone",
+    "unit": "zone",
+    "components": [
+      "fixtures",
+      "drivers",
+      "controls",
+      "wiring",
+      "installation"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "emergency_lighting",
+    "name": "Emergency lighting point",
+    "unit": "each",
+    "components": [
+      "fixture",
+      "battery/control",
+      "wiring",
+      "testing"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "audio_zone",
+    "name": "Prayer hall audio zone",
+    "unit": "zone",
+    "components": [
+      "speaker(s)",
+      "cabling",
+      "mounting",
+      "DSP/amplifier allowance"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "imam_microphone_system",
+    "name": "Imam microphone package",
+    "unit": "set",
+    "components": [
+      "microphones",
+      "receiver/wireless if selected",
+      "mixer input",
+      "stands/accessories"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "cctv_camera_point",
+    "name": "CCTV camera point",
+    "unit": "each",
+    "components": [
+      "camera",
+      "mount",
+      "cabling/network",
+      "recording allocation",
+      "commissioning"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "access_control_door",
+    "name": "Access control door point",
+    "unit": "each",
+    "components": [
+      "reader",
+      "lock/interface",
+      "power",
+      "cabling",
+      "door interface"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "solar_kwp",
+    "name": "Solar PV array",
+    "unit": "kWp",
+    "components": [
+      "modules",
+      "mounting",
+      "inverter allocation",
+      "DC/AC protection",
+      "cabling",
+      "labor"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "battery_storage_kwh",
+    "name": "Battery storage",
+    "unit": "kWh",
+    "components": [
+      "battery",
+      "inverter/interface",
+      "protection",
+      "controls",
+      "installation"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "water_tank_system",
+    "name": "Water storage tank system",
+    "unit": "set",
+    "components": [
+      "tank",
+      "base",
+      "valves",
+      "pipework",
+      "level control"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "pump_set",
+    "name": "Water pump set",
+    "unit": "set",
+    "components": [
+      "pump",
+      "base",
+      "valves",
+      "controls",
+      "power",
+      "commissioning"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "shoe_rack_bay",
+    "name": "Shoe rack bay",
+    "unit": "each",
+    "components": [
+      "shelf/rack",
+      "finish",
+      "anchoring"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "quran_shelving",
+    "name": "Qur'an shelving",
+    "unit": "linear_m",
+    "components": [
+      "shelving",
+      "finish",
+      "anchoring"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "mihrab_finish_package",
+    "name": "Mihrab finish package",
+    "unit": "set",
+    "components": [
+      "substrate",
+      "finish material",
+      "craft labor",
+      "lighting allowance"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "minbar_joinery",
+    "name": "Minbar joinery package",
+    "unit": "set",
+    "components": [
+      "timber/material",
+      "joinery",
+      "finish",
+      "installation"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "commercial_kitchen_basic",
+    "name": "Community kitchen basic fit-out",
+    "unit": "set",
+    "components": [
+      "counters",
+      "sink",
+      "storage",
+      "cooking allowance",
+      "extract allowance"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "classroom_fitout",
+    "name": "Madrasa classroom fit-out",
+    "unit": "room",
+    "components": [
+      "desks/chairs",
+      "teacher station",
+      "board",
+      "storage",
+      "AV allowance"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "library_fitout",
+    "name": "Mosque library fit-out",
+    "unit": "room",
+    "components": [
+      "shelving",
+      "tables",
+      "chairs",
+      "lighting allowance"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "janazah_room_fitout",
+    "name": "Janazah room fit-out",
+    "unit": "room",
+    "components": [
+      "wash table",
+      "water",
+      "waste",
+      "cleanable finish",
+      "privacy"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "roof_membrane",
+    "name": "Roof waterproof membrane",
+    "unit": "m2",
+    "components": [
+      "substrate",
+      "membrane",
+      "upstands",
+      "penetrations",
+      "testing"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "insulated_metal_roof",
+    "name": "Insulated metal roof",
+    "unit": "m2",
+    "components": [
+      "deck/panel",
+      "insulation",
+      "fixings",
+      "flashing",
+      "gutters allowance"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "external_paving",
+    "name": "External paving",
+    "unit": "m2",
+    "components": [
+      "subbase",
+      "bedding",
+      "paver",
+      "edges"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "accessible_ramp",
+    "name": "Accessible ramp assembly",
+    "unit": "m2",
+    "components": [
+      "structure/base",
+      "finish",
+      "handrails",
+      "edge protection"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "handrail",
+    "name": "Handrail/balustrade",
+    "unit": "linear_m",
+    "components": [
+      "rail",
+      "posts",
+      "fixings",
+      "finish"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "toilet_cubicle",
+    "name": "Toilet cubicle",
+    "unit": "each",
+    "components": [
+      "partition",
+      "door/hardware",
+      "sanitary fixture allocation"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  },
+  {
+    "id": "accessible_wc",
+    "name": "Accessible WC fit-out",
+    "unit": "room",
+    "components": [
+      "WC",
+      "basin",
+      "grab rails",
+      "accessories",
+      "clearance"
+    ],
+    "price_status": "unpriced_until_regional_source",
+    "takeoff_ready": true
+  }
+]

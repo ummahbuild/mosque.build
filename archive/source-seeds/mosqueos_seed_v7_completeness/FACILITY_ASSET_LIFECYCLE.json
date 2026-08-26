@@ -1,0 +1,79 @@
+{
+  "asset_hierarchy": [
+    "site",
+    "building",
+    "floor",
+    "space",
+    "system",
+    "asset",
+    "component"
+  ],
+  "work_order_types": [
+    "preventive",
+    "corrective",
+    "inspection",
+    "cleaning",
+    "statutory/compliance",
+    "warranty",
+    "emergency",
+    "improvement"
+  ],
+  "service_request_channels": [
+    "admin app",
+    "QR tag",
+    "public issue report",
+    "staff inspection",
+    "sensor alert",
+    "scheduled task"
+  ],
+  "asset_criticality": [
+    "life_safety",
+    "worship_critical",
+    "high",
+    "medium",
+    "low"
+  ],
+  "preventive_plans": [
+    "roof inspection",
+    "gutters/drains",
+    "HVAC filters",
+    "HVAC service",
+    "fire alarm test",
+    "extinguishers",
+    "generator exercise",
+    "solar inspection",
+    "battery health",
+    "lift service",
+    "water tank clean",
+    "wudu drains",
+    "backflow devices",
+    "carpet deep clean",
+    "audio test",
+    "CCTV health",
+    "access control",
+    "emergency lighting",
+    "kitchen hood",
+    "pest control",
+    "tree/site inspection"
+  ],
+  "meters": [
+    "electricity main",
+    "solar generation",
+    "battery",
+    "water main",
+    "wudu submeter optional",
+    "gas/fuel",
+    "generator run-hours"
+  ],
+  "KPIs": [
+    "maintenance backlog",
+    "preventive completion",
+    "mean time to repair",
+    "repeat faults",
+    "energy/m2",
+    "water/attendee",
+    "cleaning hours",
+    "asset condition",
+    "reserve coverage"
+  ]
+}

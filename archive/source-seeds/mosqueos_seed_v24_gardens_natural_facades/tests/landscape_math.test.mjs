@@ -1,0 +1,10 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import {canopyArea,irrigationDemand,storageAutonomyDays,rainCaptureLiters,shadeCoverage,greenFacadeWater,landscapeOrderByDate} from "../src/landscape_math.mjs";
+test("canopy area",()=>assert.ok(Math.abs(canopyArea(10)-78.5398)<0.001));
+test("irrigation efficiency",()=>assert.equal(irrigationDemand(100,2,0.8),250));
+test("storage autonomy",()=>assert.equal(storageAutonomyDays(5000,500),10));
+test("rain capture",()=>assert.equal(rainCaptureLiters(100,10,0.8),800));
+test("shade coverage capped",()=>assert.equal(shadeCoverage(100,[80,50]),100));
+test("green facade demand",()=>assert.equal(greenFacadeWater(7,20,1.5),210));
+test("landscape order date",()=>assert.equal(landscapeOrderByDate("2026-11-01",30,7),"2026-09-25"));

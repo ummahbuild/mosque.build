@@ -1,0 +1,29 @@
+{
+  "osm": {
+    "purpose": "geospatial candidate discovery",
+    "query_logic": "amenity=place_of_worship + religion=muslim; building=mosque as supplementary signal, not sole proof of active worship",
+    "license": "ODbL",
+    "attribution": "© OpenStreetMap contributors",
+    "production_note": "Maintain ODbL compliance and provenance at database/export level."
+  },
+  "wikidata": {
+    "purpose": "authority resolution, aliases, identifiers, dates, architects where sourced",
+    "license": "CC0 structured data",
+    "production_note": "Retain statement references; independently verify high-impact claims."
+  },
+  "archnet": {
+    "purpose": "architecture projects, authorities, drawings/CAD, publications",
+    "rights": "item-level",
+    "production_note": "Index metadata and links; mirror files only where item terms allow."
+  },
+  "akdn_akaa": {
+    "purpose": "award project records, architects, project narratives, drawings/photos where exposed",
+    "rights": "content/media rights not presumed reusable",
+    "production_note": "Use as authoritative reference; store attribution and links."
+  },
+  "unesco": {
+    "purpose": "heritage mosque/site records and conservation context",
+    "rights": "site/content-specific",
+    "production_note": "Use official heritage descriptions as source; media rights separately assessed."
+  }
+}

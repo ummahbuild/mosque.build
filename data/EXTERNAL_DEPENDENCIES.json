@@ -1,0 +1,103 @@
+[
+  {
+    "id": "supabase",
+    "category": "backend",
+    "billing": "usage-tier",
+    "required_for": [
+      "auth",
+      "postgres",
+      "storage",
+      "realtime",
+      "edge-functions"
+    ],
+    "risk": "vendor/service dependency",
+    "strategy": "RLS, exportable Postgres schema, least privilege"
+  },
+  {
+    "id": "map-provider",
+    "category": "maps/geocoding",
+    "billing": "usage-based depending provider",
+    "required_for": [
+      "parcel/site map",
+      "vendor proximity",
+      "demographics"
+    ],
+    "risk": "terms/geocoding cost",
+    "strategy": "MapLibre renderer; pluggable tile/geocoder providers"
+  },
+  {
+    "id": "ai-provider",
+    "category": "AI",
+    "billing": "usage-based",
+    "required_for": [
+      "document extraction",
+      "quote compare assist",
+      "permit-comment explanation",
+      "recommendation explanations"
+    ],
+    "risk": "hallucination/privacy/cost",
+    "strategy": "optional adapters, structured validation, human review, source citation"
+  },
+  {
+    "id": "payments",
+    "category": "payments",
+    "billing": "transaction fees",
+    "required_for": [
+      "donation checkout if enabled",
+      "marketplace transaction if enabled"
+    ],
+    "risk": "financial/tax/chargebacks",
+    "strategy": "separate processor adapter; project can operate in outbound-link/RFQ mode without in-platform commerce"
+  },
+  {
+    "id": "booksellers",
+    "category": "commerce links",
+    "billing": "affiliate/none/partner dependent",
+    "required_for": [
+      "book gifting marketplace"
+    ],
+    "risk": "price/inventory staleness and affiliate disclosures",
+    "strategy": "outbound canonical links + observed-at snapshots; do not mirror unauthorized catalog content"
+  },
+  {
+    "id": "demographic-data",
+    "category": "data",
+    "billing": "free/paid depending country/provider",
+    "required_for": [
+      "community intelligence"
+    ],
+    "risk": "methodology/privacy/coverage",
+    "strategy": "aggregate public/community-provided data with confidence intervals; do not infer madhhab from ethnicity"
+  },
+  {
+    "id": "renderer-web",
+    "category": "3D",
+    "billing": "open-source",
+    "required_for": [
+      "3D design"
+    ],
+    "risk": "large scenes/performance",
+    "strategy": "renderer adapter; Babylon/Three-compatible normalized SceneGraph"
+  },
+  {
+    "id": "renderer-native",
+    "category": "3D",
+    "billing": "open-source",
+    "required_for": [
+      "native 3D"
+    ],
+    "risk": "native build/performance",
+    "strategy": "Filament adapter; capability fallbacks"
+  },
+  {
+    "id": "ifc-tooling",
+    "category": "BIM",
+    "billing": "open-source/optional commercial",
+    "required_for": [
+      "IFC import/export",
+      "BIM coordination"
+    ],
+    "risk": "large models/schema variance",
+    "strategy": "server/worker preprocessing + lightweight mobile derivatives"
+  }
+]

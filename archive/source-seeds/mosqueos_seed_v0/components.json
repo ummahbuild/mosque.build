@@ -1,0 +1,4779 @@
+[
+  {
+    "id": "worship_core__qibla_orientation",
+    "name": "qibla orientation",
+    "group": "worship_core",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "worship_core__qibla_wall",
+    "name": "qibla wall",
+    "group": "worship_core",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "worship_core__mihrab",
+    "name": "mihrab",
+    "group": "worship_core",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "worship_core__minbar",
+    "name": "minbar",
+    "group": "worship_core",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "worship_core__dais_kursi",
+    "name": "dais/kursi",
+    "group": "worship_core",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "worship_core__imam_position",
+    "name": "imam position",
+    "group": "worship_core",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "worship_core__muazzin_platform",
+    "name": "muazzin platform",
+    "group": "worship_core",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "worship_core__prayer_row_saff_layout",
+    "name": "prayer row / saff layout",
+    "group": "worship_core",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "worship_core__sutrah_provision",
+    "name": "sutrah provision",
+    "group": "worship_core",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "worship_core__qur_an_shelves",
+    "name": "Qur'an shelves",
+    "group": "worship_core",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "worship_core__rehal_qur_an_stands",
+    "name": "rehal / Qur'an stands",
+    "group": "worship_core",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "worship_core__prayer_clocks",
+    "name": "prayer clocks",
+    "group": "worship_core",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "worship_core__iqama_display",
+    "name": "iqama display",
+    "group": "worship_core",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "prayer_floor__mosque_carpet",
+    "name": "mosque carpet",
+    "group": "prayer_floor",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "prayer_floor__saff_line_carpet",
+    "name": "saff-line carpet",
+    "group": "prayer_floor",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "prayer_floor__carpet_tiles",
+    "name": "carpet tiles",
+    "group": "prayer_floor",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "prayer_floor__carpet_underlay",
+    "name": "carpet underlay",
+    "group": "prayer_floor",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "prayer_floor__carpet_adhesive_fixation",
+    "name": "carpet adhesive/fixation",
+    "group": "prayer_floor",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "prayer_floor__raised_access_floor",
+    "name": "raised access floor",
+    "group": "prayer_floor",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "prayer_floor__hard_floor_prayer_zone",
+    "name": "hard-floor prayer zone",
+    "group": "prayer_floor",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "prayer_floor__portable_prayer_mats",
+    "name": "portable prayer mats",
+    "group": "prayer_floor",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "prayer_floor__threshold_transition",
+    "name": "threshold transition",
+    "group": "prayer_floor",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "prayer_floor__wheelchair_prayer_bay",
+    "name": "wheelchair prayer bay",
+    "group": "prayer_floor",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__wudu_tap",
+    "name": "wudu tap",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__wudu_bench",
+    "name": "wudu bench",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__wudu_stool",
+    "name": "wudu stool",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__wudu_trough",
+    "name": "wudu trough",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__individual_wudu_station",
+    "name": "individual wudu station",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__accessible_wudu_station",
+    "name": "accessible wudu station",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__handrail",
+    "name": "handrail",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__non_slip_floor",
+    "name": "non-slip floor",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__linear_drain",
+    "name": "linear drain",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__floor_drain",
+    "name": "floor drain",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__splash_guard",
+    "name": "splash guard",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__privacy_partition",
+    "name": "privacy partition",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__water_heater",
+    "name": "water heater",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__tempering_valve",
+    "name": "tempering valve",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__foot_wash_provision",
+    "name": "foot wash provision",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__ablution_fountain_shadirvan",
+    "name": "ablution fountain/shadirvan",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__greywater_collection",
+    "name": "greywater collection",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "ablution__rainwater_supply_interface",
+    "name": "rainwater supply interface",
+    "group": "ablution",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "sanitary__toilet_cubicle",
+    "name": "toilet cubicle",
+    "group": "sanitary",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "sanitary__accessible_toilet",
+    "name": "accessible toilet",
+    "group": "sanitary",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "sanitary__urinal_where_provided",
+    "name": "urinal where provided",
+    "group": "sanitary",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "sanitary__wash_basin",
+    "name": "wash basin",
+    "group": "sanitary",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "sanitary__hand_dryer",
+    "name": "hand dryer",
+    "group": "sanitary",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "sanitary__paper_dispenser",
+    "name": "paper dispenser",
+    "group": "sanitary",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "sanitary__baby_change_station",
+    "name": "baby-change station",
+    "group": "sanitary",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "sanitary__janitor_sink",
+    "name": "janitor sink",
+    "group": "sanitary",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "sanitary__floor_drain",
+    "name": "floor drain",
+    "group": "sanitary",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "sanitary__odor_extraction",
+    "name": "odor extraction",
+    "group": "sanitary",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "sanitary__sanitary_waste_provision",
+    "name": "sanitary waste provision",
+    "group": "sanitary",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__foundation",
+    "name": "foundation",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__strip_footing",
+    "name": "strip footing",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__raft_foundation",
+    "name": "raft foundation",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__pile_foundation",
+    "name": "pile foundation",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__load_bearing_masonry",
+    "name": "load-bearing masonry",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__reinforced_concrete_frame",
+    "name": "reinforced concrete frame",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__steel_frame",
+    "name": "steel frame",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__timber_frame",
+    "name": "timber frame",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__earthen_load_bearing_wall",
+    "name": "earthen load-bearing wall",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__column",
+    "name": "column",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__beam",
+    "name": "beam",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__arch",
+    "name": "arch",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__vault",
+    "name": "vault",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__dome",
+    "name": "dome",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__drum",
+    "name": "drum",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__pendentive",
+    "name": "pendentive",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__squinch",
+    "name": "squinch",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__roof_truss",
+    "name": "roof truss",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__space_frame",
+    "name": "space frame",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__lintel",
+    "name": "lintel",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "structure__seismic_bracing",
+    "name": "seismic bracing",
+    "group": "structure",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__external_wall",
+    "name": "external wall",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__brick_screen_jali",
+    "name": "brick screen/jali",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__stone_cladding",
+    "name": "stone cladding",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__render_plaster",
+    "name": "render/plaster",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__rainscreen",
+    "name": "rainscreen",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__insulation",
+    "name": "insulation",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__air_barrier",
+    "name": "air barrier",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__waterproofing",
+    "name": "waterproofing",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__roof_membrane",
+    "name": "roof membrane",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__parapet",
+    "name": "parapet",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__gutter",
+    "name": "gutter",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__downpipe",
+    "name": "downpipe",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__flashing",
+    "name": "flashing",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__door",
+    "name": "door",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__wooden_mosque_door",
+    "name": "wooden mosque door",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__metal_mosque_door",
+    "name": "metal mosque door",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__window",
+    "name": "window",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__clerestory",
+    "name": "clerestory",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__skylight",
+    "name": "skylight",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__stained_glass",
+    "name": "stained glass",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__mashrabiya",
+    "name": "mashrabiya",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "envelope__jali_screen",
+    "name": "jali screen",
+    "group": "envelope",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "vertical_landmarks__minaret",
+    "name": "minaret",
+    "group": "vertical_landmarks",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "vertical_landmarks__minaret_balcony_sherefe",
+    "name": "minaret balcony/sherefe",
+    "group": "vertical_landmarks",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "vertical_landmarks__minaret_stair",
+    "name": "minaret stair",
+    "group": "vertical_landmarks",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "vertical_landmarks__minaret_finial",
+    "name": "minaret finial",
+    "group": "vertical_landmarks",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "vertical_landmarks__crescent_finial",
+    "name": "crescent finial",
+    "group": "vertical_landmarks",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "vertical_landmarks__dome_finial",
+    "name": "dome finial",
+    "group": "vertical_landmarks",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "vertical_landmarks__external_speaker_mount",
+    "name": "external speaker mount",
+    "group": "vertical_landmarks",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__wall_cladding",
+    "name": "wall cladding",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__wood_paneling",
+    "name": "wood paneling",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__stone_panel",
+    "name": "stone panel",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__marble",
+    "name": "marble",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__ceramic_tile",
+    "name": "ceramic tile",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__zellige",
+    "name": "zellige",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__mosaic",
+    "name": "mosaic",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__stucco",
+    "name": "stucco",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__carved_plaster",
+    "name": "carved plaster",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__muqarnas",
+    "name": "muqarnas",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__calligraphy_panel",
+    "name": "calligraphy panel",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__paint",
+    "name": "paint",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__ceiling_finish",
+    "name": "ceiling finish",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__decorative_screen",
+    "name": "decorative screen",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__column_capital",
+    "name": "column capital",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "interior_finish__baseboard",
+    "name": "baseboard",
+    "group": "interior_finish",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "lighting__central_chandelier",
+    "name": "central chandelier",
+    "group": "lighting",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "lighting__ring_chandelier",
+    "name": "ring chandelier",
+    "group": "lighting",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "lighting__pendant",
+    "name": "pendant",
+    "group": "lighting",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "lighting__wall_sconce",
+    "name": "wall sconce",
+    "group": "lighting",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "lighting__recessed_light",
+    "name": "recessed light",
+    "group": "lighting",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "lighting__linear_light",
+    "name": "linear light",
+    "group": "lighting",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "lighting__cove_light",
+    "name": "cove light",
+    "group": "lighting",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "lighting__emergency_light",
+    "name": "emergency light",
+    "group": "lighting",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "lighting__exit_sign",
+    "name": "exit sign",
+    "group": "lighting",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "lighting__daylight_aperture",
+    "name": "daylight aperture",
+    "group": "lighting",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "lighting__lighting_controls",
+    "name": "lighting controls",
+    "group": "lighting",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "lighting__dimming",
+    "name": "dimming",
+    "group": "lighting",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "lighting__occupancy_sensor",
+    "name": "occupancy sensor",
+    "group": "lighting",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "lighting__exterior_lighting",
+    "name": "exterior lighting",
+    "group": "lighting",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__imam_microphone",
+    "name": "imam microphone",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__lectern_microphone",
+    "name": "lectern microphone",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__wireless_microphone",
+    "name": "wireless microphone",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__column_speaker",
+    "name": "column speaker",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__line_array",
+    "name": "line array",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__ceiling_speaker",
+    "name": "ceiling speaker",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__subwoofer_where_appropriate",
+    "name": "subwoofer where appropriate",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__amplifier",
+    "name": "amplifier",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__mixer",
+    "name": "mixer",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__dsp",
+    "name": "DSP",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__audio_interface",
+    "name": "audio interface",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__hearing_loop_assistive_listening",
+    "name": "hearing loop/assistive listening",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__acoustic_panel",
+    "name": "acoustic panel",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__acoustic_plaster",
+    "name": "acoustic plaster",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__absorptive_ceiling",
+    "name": "absorptive ceiling",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__broadcast_camera",
+    "name": "broadcast camera",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__livestream_encoder",
+    "name": "livestream encoder",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "acoustics_av__recording_system",
+    "name": "recording system",
+    "group": "acoustics_av",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__main_switchboard",
+    "name": "main switchboard",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__distribution_board",
+    "name": "distribution board",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__ups",
+    "name": "UPS",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__generator",
+    "name": "generator",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__solar_pv",
+    "name": "solar PV",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__battery_storage",
+    "name": "battery storage",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__inverter",
+    "name": "inverter",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__wi_fi",
+    "name": "Wi-Fi",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__network_rack",
+    "name": "network rack",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__structured_cabling",
+    "name": "structured cabling",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__cctv",
+    "name": "CCTV",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__access_control",
+    "name": "access control",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__intrusion_alarm",
+    "name": "intrusion alarm",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__intercom",
+    "name": "intercom",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__digital_signage",
+    "name": "digital signage",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "electrical_it_security__donation_kiosk",
+    "name": "donation kiosk",
+    "group": "electrical_it_security",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "mechanical__hvac_unit",
+    "name": "HVAC unit",
+    "group": "mechanical",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "mechanical__split_ac",
+    "name": "split AC",
+    "group": "mechanical",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "mechanical__vrf_vrv",
+    "name": "VRF/VRV",
+    "group": "mechanical",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "mechanical__heat_pump",
+    "name": "heat pump",
+    "group": "mechanical",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "mechanical__boiler",
+    "name": "boiler",
+    "group": "mechanical",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "mechanical__radiant_heating",
+    "name": "radiant heating",
+    "group": "mechanical",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "mechanical__underfloor_heating",
+    "name": "underfloor heating",
+    "group": "mechanical",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "mechanical__ceiling_fan",
+    "name": "ceiling fan",
+    "group": "mechanical",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "mechanical__destratification_fan",
+    "name": "destratification fan",
+    "group": "mechanical",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "mechanical__mechanical_ventilation",
+    "name": "mechanical ventilation",
+    "group": "mechanical",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "mechanical__natural_ventilation_opening",
+    "name": "natural ventilation opening",
+    "group": "mechanical",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "mechanical__air_filter",
+    "name": "air filter",
+    "group": "mechanical",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "mechanical__thermostat",
+    "name": "thermostat",
+    "group": "mechanical",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "mechanical__bms_sensor",
+    "name": "BMS sensor",
+    "group": "mechanical",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "fire_life_safety__fire_alarm_panel",
+    "name": "fire alarm panel",
+    "group": "fire_life_safety",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "fire_life_safety__smoke_detector",
+    "name": "smoke detector",
+    "group": "fire_life_safety",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "fire_life_safety__heat_detector",
+    "name": "heat detector",
+    "group": "fire_life_safety",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "fire_life_safety__manual_call_point",
+    "name": "manual call point",
+    "group": "fire_life_safety",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "fire_life_safety__sprinkler",
+    "name": "sprinkler",
+    "group": "fire_life_safety",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "fire_life_safety__fire_extinguisher",
+    "name": "fire extinguisher",
+    "group": "fire_life_safety",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "fire_life_safety__fire_rated_door",
+    "name": "fire-rated door",
+    "group": "fire_life_safety",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "fire_life_safety__panic_hardware",
+    "name": "panic hardware",
+    "group": "fire_life_safety",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "fire_life_safety__emergency_exit",
+    "name": "emergency exit",
+    "group": "fire_life_safety",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "fire_life_safety__emergency_lighting",
+    "name": "emergency lighting",
+    "group": "fire_life_safety",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "fire_life_safety__evacuation_signage",
+    "name": "evacuation signage",
+    "group": "fire_life_safety",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "fire_life_safety__fire_hose_reel_where_applicable",
+    "name": "fire hose reel where applicable",
+    "group": "fire_life_safety",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "accessibility__accessible_parking",
+    "name": "accessible parking",
+    "group": "accessibility",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "accessibility__drop_off",
+    "name": "drop-off",
+    "group": "accessibility",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "accessibility__ramp",
+    "name": "ramp",
+    "group": "accessibility",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "accessibility__lift_elevator",
+    "name": "lift/elevator",
+    "group": "accessibility",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "accessibility__platform_lift",
+    "name": "platform lift",
+    "group": "accessibility",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "accessibility__tactile_paving",
+    "name": "tactile paving",
+    "group": "accessibility",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "accessibility__handrail",
+    "name": "handrail",
+    "group": "accessibility",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "accessibility__automatic_door",
+    "name": "automatic door",
+    "group": "accessibility",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "accessibility__accessible_shoe_storage",
+    "name": "accessible shoe storage",
+    "group": "accessibility",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "accessibility__accessible_prayer_space",
+    "name": "accessible prayer space",
+    "group": "accessibility",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "accessibility__accessible_wudu",
+    "name": "accessible wudu",
+    "group": "accessibility",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "accessibility__accessible_wc",
+    "name": "accessible WC",
+    "group": "accessibility",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "accessibility__hearing_assistance",
+    "name": "hearing assistance",
+    "group": "accessibility",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "accessibility__high_contrast_signage",
+    "name": "high-contrast signage",
+    "group": "accessibility",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "furniture_storage__shoe_rack",
+    "name": "shoe rack",
+    "group": "furniture_storage",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "furniture_storage__lockers",
+    "name": "lockers",
+    "group": "furniture_storage",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "furniture_storage__coat_hooks",
+    "name": "coat hooks",
+    "group": "furniture_storage",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "furniture_storage__folding_chair",
+    "name": "folding chair",
+    "group": "furniture_storage",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "furniture_storage__elderly_prayer_chair",
+    "name": "elderly prayer chair",
+    "group": "furniture_storage",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "furniture_storage__table",
+    "name": "table",
+    "group": "furniture_storage",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "furniture_storage__stacking_chair",
+    "name": "stacking chair",
+    "group": "furniture_storage",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "furniture_storage__classroom_desk",
+    "name": "classroom desk",
+    "group": "furniture_storage",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "furniture_storage__bookshelf",
+    "name": "bookshelf",
+    "group": "furniture_storage",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "furniture_storage__library_shelving",
+    "name": "library shelving",
+    "group": "furniture_storage",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "furniture_storage__imam_desk",
+    "name": "imam desk",
+    "group": "furniture_storage",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "furniture_storage__office_storage",
+    "name": "office storage",
+    "group": "furniture_storage",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "furniture_storage__mobile_partition",
+    "name": "mobile partition",
+    "group": "furniture_storage",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "furniture_storage__stroller_parking",
+    "name": "stroller parking",
+    "group": "furniture_storage",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "furniture_storage__janitor_closet",
+    "name": "janitor closet",
+    "group": "furniture_storage",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__classroom",
+    "name": "classroom",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__madrasa_room",
+    "name": "madrasa room",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__multipurpose_hall",
+    "name": "multipurpose hall",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__library",
+    "name": "library",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__youth_room",
+    "name": "youth room",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__women_s_program_room",
+    "name": "women's program room",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__new_muslim_room",
+    "name": "new Muslim room",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__counseling_room",
+    "name": "counseling room",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__imam_office",
+    "name": "imam office",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__administration_office",
+    "name": "administration office",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__meeting_room",
+    "name": "meeting room",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__coworking_room",
+    "name": "coworking room",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__food_pantry",
+    "name": "food pantry",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__community_kitchen",
+    "name": "community kitchen",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__commercial_kitchen",
+    "name": "commercial kitchen",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__serving_counter",
+    "name": "serving counter",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__nursery",
+    "name": "nursery",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__mothers_children_room",
+    "name": "mothers/children room",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "community_madrasa__sports_space",
+    "name": "sports space",
+    "group": "community_madrasa",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "janazah__janazah_prayer_area",
+    "name": "janazah prayer area",
+    "group": "janazah",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "janazah__ghusl_body_washing_room",
+    "name": "ghusl/body-washing room",
+    "group": "janazah",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "janazah__washing_table",
+    "name": "washing table",
+    "group": "janazah",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "janazah__privacy_screen",
+    "name": "privacy screen",
+    "group": "janazah",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "janazah__cold_storage_where_lawful_needed",
+    "name": "cold storage where lawful/needed",
+    "group": "janazah",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "janazah__family_waiting_room",
+    "name": "family waiting room",
+    "group": "janazah",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "janazah__hearse_access",
+    "name": "hearse access",
+    "group": "janazah",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "janazah__mortuary_drainage",
+    "name": "mortuary drainage",
+    "group": "janazah",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "janazah__ppe_storage",
+    "name": "PPE storage",
+    "group": "janazah",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__pedestrian_entrance",
+    "name": "pedestrian entrance",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__vehicle_entrance",
+    "name": "vehicle entrance",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__parking",
+    "name": "parking",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__bicycle_parking",
+    "name": "bicycle parking",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__bus_drop_off",
+    "name": "bus drop-off",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__courtyard_sahn",
+    "name": "courtyard/sahn",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__riwaq",
+    "name": "riwaq",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__shade_canopy",
+    "name": "shade canopy",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__tree",
+    "name": "tree",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__garden",
+    "name": "garden",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__fountain",
+    "name": "fountain",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__stormwater_swale",
+    "name": "stormwater swale",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__rain_garden",
+    "name": "rain garden",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__permeable_paving",
+    "name": "permeable paving",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__boundary_wall",
+    "name": "boundary wall",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__gate",
+    "name": "gate",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__site_lighting",
+    "name": "site lighting",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__wayfinding",
+    "name": "wayfinding",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "site_landscape__waste_recycling_enclosure",
+    "name": "waste/recycling enclosure",
+    "group": "site_landscape",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "operations__industrial_vacuum",
+    "name": "industrial vacuum",
+    "group": "operations",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "operations__carpet_extractor",
+    "name": "carpet extractor",
+    "group": "operations",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "operations__cleaning_cart",
+    "name": "cleaning cart",
+    "group": "operations",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "operations__mop_sink",
+    "name": "mop sink",
+    "group": "operations",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "operations__consumables_storage",
+    "name": "consumables storage",
+    "group": "operations",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "operations__first_aid_kit",
+    "name": "first-aid kit",
+    "group": "operations",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "operations__aed",
+    "name": "AED",
+    "group": "operations",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "operations__tool_kit",
+    "name": "tool kit",
+    "group": "operations",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "operations__ladder",
+    "name": "ladder",
+    "group": "operations",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "operations__spare_lamps",
+    "name": "spare lamps",
+    "group": "operations",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "operations__filter_inventory",
+    "name": "filter inventory",
+    "group": "operations",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "operations__water_leak_sensor",
+    "name": "water-leak sensor",
+    "group": "operations",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  },
+  {
+    "id": "operations__asset_qr_tag",
+    "name": "asset QR tag",
+    "group": "operations",
+    "fields": {
+      "religious_function": null,
+      "required_by_religion": null,
+      "building_code_role": null,
+      "materials": [],
+      "styles": [],
+      "specification_fields": [],
+      "maintenance_fields": [],
+      "supplier_records": [],
+      "examples": []
+    },
+    "review_status": "needs_domain_review"
+  }
+]

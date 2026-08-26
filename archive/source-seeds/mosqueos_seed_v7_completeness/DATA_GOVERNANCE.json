@@ -1,0 +1,64 @@
+{
+  "data_classes": [
+    "public",
+    "internal",
+    "confidential",
+    "restricted",
+    "highly_restricted"
+  ],
+  "examples": {
+    "public": [
+      "mosque address",
+      "public facilities",
+      "published prayer times",
+      "public architecture data"
+    ],
+    "internal": [
+      "project tasks",
+      "ordinary meeting notes"
+    ],
+    "confidential": [
+      "quotes",
+      "contracts",
+      "donor contact details",
+      "staff records"
+    ],
+    "restricted": [
+      "bank/payment data",
+      "incident reports",
+      "security layouts",
+      "child safeguarding records"
+    ],
+    "highly_restricted": [
+      "secrets/API keys",
+      "access credentials",
+      "certain legal/identity documents"
+    ]
+  },
+  "retention_domains": [
+    "public directory",
+    "project documents",
+    "financial records",
+    "donor records",
+    "staff",
+    "child/madrasa",
+    "security video metadata",
+    "incidents",
+    "construction records",
+    "asset history"
+  ],
+  "controls": [
+    "RLS",
+    "least privilege",
+    "MFA for privileged roles",
+    "audit log",
+    "signed URLs",
+    "upload malware scanning adapter",
+    "PII minimization",
+    "export/delete workflows",
+    "backup",
+    "restore testing",
+    "environment separation"
+  ],
+  "provider_provenance": "External provider data retains field-level provider/source identifiers and fetch timestamps."
+}

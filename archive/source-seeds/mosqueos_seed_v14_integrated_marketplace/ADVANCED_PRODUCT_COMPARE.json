@@ -1,0 +1,60 @@
+{
+  "comparison_modes": [
+    "product vs product",
+    "vendor vs vendor",
+    "local vs imported",
+    "generic spec vs named product",
+    "buy now vs defer",
+    "base design vs alternate"
+  ],
+  "dimensions": [
+    "technical compliance",
+    "dimensions/fit",
+    "material",
+    "finish",
+    "certifications",
+    "warranty",
+    "sample status",
+    "reference projects",
+    "base price",
+    "currency",
+    "FX date",
+    "shipping",
+    "insurance",
+    "duty/tax",
+    "port/customs",
+    "inland freight",
+    "installation",
+    "commissioning",
+    "total landed cost",
+    "20-year maintenance",
+    "replacement interval",
+    "lead time",
+    "manufacturing time",
+    "shipping time",
+    "customs allowance",
+    "schedule float consumed",
+    "opening-date risk",
+    "supplier verification",
+    "reference verification",
+    "local repairability",
+    "spare parts",
+    "BIM/CAD",
+    "environmental/local sourcing notes"
+  ],
+  "outputs": [
+    "weighted score",
+    "must-pass failures",
+    "commercial delta",
+    "schedule delta",
+    "lifecycle delta",
+    "confidence",
+    "unknowns"
+  ],
+  "rules": [
+    "User-defined weights permitted, but hard technical/code requirements cannot be outweighed by price.",
+    "Unknown duty/installation cost remains unknown and reduces confidence.",
+    "Paid/sponsored vendor status never modifies technical score.",
+    "Compare snapshots are saved to the project decision record."
+  ]
+}

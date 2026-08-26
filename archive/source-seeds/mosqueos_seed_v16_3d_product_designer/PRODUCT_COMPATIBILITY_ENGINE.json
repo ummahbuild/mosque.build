@@ -1,0 +1,103 @@
+{
+  "compatibility_dimensions": [
+    "geometric fit",
+    "host fit",
+    "connection fit",
+    "clearance",
+    "maintenance access",
+    "service availability",
+    "electrical compatibility",
+    "plumbing compatibility",
+    "network compatibility",
+    "structural mounting review",
+    "fire/life-safety attributes",
+    "accessibility",
+    "environmental suitability",
+    "finish/material compatibility",
+    "design-style preference",
+    "budget",
+    "lead time",
+    "procurement region",
+    "installation capability"
+  ],
+  "compatibility_result": [
+    "compatible",
+    "compatible_with_conditions",
+    "unknown_missing_data",
+    "incompatible",
+    "professional_review_required"
+  ],
+  "examples": [
+    {
+      "product": "wudu station",
+      "checks": [
+        "wall/floor host",
+        "water inlet",
+        "waste connection",
+        "floor drain",
+        "splash zone",
+        "clear width",
+        "accessible route",
+        "waterproofed zone"
+      ]
+    },
+    {
+      "product": "chandelier",
+      "checks": [
+        "ceiling height",
+        "fixture diameter",
+        "drop",
+        "maintenance access",
+        "electrical point",
+        "weight/support review",
+        "prayer sightlines"
+      ]
+    },
+    {
+      "product": "speaker",
+      "checks": [
+        "mount host",
+        "coverage zone",
+        "cable path",
+        "amplifier compatibility",
+        "impedance/power",
+        "maintenance access"
+      ]
+    },
+    {
+      "product": "door",
+      "checks": [
+        "rough opening",
+        "wall type",
+        "swing clearance",
+        "hardware",
+        "fire rating",
+        "accessible clear width",
+        "egress role"
+      ]
+    },
+    {
+      "product": "solar panel",
+      "checks": [
+        "roof area",
+        "orientation",
+        "shading",
+        "mounting",
+        "structural review",
+        "electrical system compatibility"
+      ]
+    },
+    {
+      "product": "carpet",
+      "checks": [
+        "floor area",
+        "roll width",
+        "pattern/saff orientation",
+        "adhesive/subfloor",
+        "waste",
+        "transition height"
+      ]
+    }
+  ],
+  "score": "compatibility is constraint-based; hard requirement failures cannot be hidden by aesthetic preference or low cost"
+}

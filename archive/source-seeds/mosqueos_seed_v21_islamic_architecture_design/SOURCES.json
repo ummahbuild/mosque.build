@@ -1,0 +1,91 @@
+[
+  {
+    "id": "src_smarthistory_mosque_intro",
+    "name": "Smarthistory — Mosque architecture, an introduction",
+    "url": "https://smarthistory.org/introduction-to-mosque-architecture/",
+    "use": [
+      "hypostyle mosque",
+      "courtyard mosque history"
+    ],
+    "status": "verified_secondary_educational"
+  },
+  {
+    "id": "src_smarthistory_types",
+    "name": "Smarthistory — Common types of mosque architecture",
+    "url": "https://smarthistory.org/common-types-of-mosque-architecture/",
+    "use": [
+      "hypostyle",
+      "four-iwan",
+      "central-dome typologies"
+    ],
+    "status": "verified_secondary_educational"
+  },
+  {
+    "id": "src_archnet_religious_arch",
+    "name": "Archnet — Religious Architecture in Islamic Cultures",
+    "url": "https://www.archnet.org/publications/10619",
+    "use": [
+      "mosque typology survey",
+      "hypostyle/four-iwan/Ottoman language"
+    ],
+    "status": "verified_architecture_reference"
+  },
+  {
+    "id": "src_met_muqarnas",
+    "name": "Met Museum — Element from a Stalactite Squinch (Muqarnas)",
+    "url": "https://www.metmuseum.org/art/collection/search/449462",
+    "use": [
+      "muqarnas historic example",
+      "Nishapur/Iran stucco"
+    ],
+    "status": "verified_museum_source"
+  },
+  {
+    "id": "src_met_plate",
+    "name": "Met Museum — Mamluk Plate",
+    "url": "https://www.metmuseum.org/art/collection/search/444712",
+    "use": [
+      "geometric grid",
+      "interlacing star patterns",
+      "vegetal arabesque"
+    ],
+    "status": "verified_museum_source"
+  },
+  {
+    "id": "src_vam_islamic_middle_east",
+    "name": "V&A — Islamic Middle East Collection",
+    "url": "https://www.vam.ac.uk/collections/islamic-middle-east",
+    "use": [
+      "regional decorative arts references",
+      "materials/craft"
+    ],
+    "status": "verified_museum_source"
+  },
+  {
+    "id": "src_vam_karbandi",
+    "name": "V&A — Sarikhani Fellowship / karbandi vault drawings",
+    "url": "https://www.vam.ac.uk/blog/museum-life/from-tehran-to-south-kensington-a-sarikhani-fellowship-journey",
+    "use": [
+      "karbandi/ribbed vault traditions"
+    ],
+    "status": "verified_museum_source"
+  },
+  {
+    "id": "src_smarthistory_isfahan",
+    "name": "Smarthistory — Great Mosque of Isfahan",
+    "url": "https://smarthistory.org/the-great-mosque-or-masjid-e-jameh-of-isfahan/",
+    "use": [
+      "four-iwan prototype reference"
+    ],
+    "status": "verified_secondary_educational"
+  },
+  {
+    "id": "src_smarthistory_sultan_hasan",
+    "name": "Smarthistory — Sultan Hasan Mosque/Madrasa",
+    "url": "https://smarthistory.org/madrasa-and-friday-mosque-of-sultan-hasan-cairo/",
+    "use": [
+      "four-iwan madrasa/mosque complex"
+    ],
+    "status": "verified_secondary_educational"
+  }
+]

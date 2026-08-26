@@ -1,0 +1,182 @@
+{
+  "offline_sync": {
+    "mutation_envelope": [
+      "mutation_id UUID",
+      "device_id",
+      "actor_id",
+      "org_id",
+      "entity_type",
+      "entity_id",
+      "base_version",
+      "operation",
+      "payload",
+      "created_at_client",
+      "schema_version"
+    ],
+    "states": [
+      "queued",
+      "uploading",
+      "accepted",
+      "conflict",
+      "rejected",
+      "retry_wait",
+      "dead_letter"
+    ],
+    "rules": [
+      "Server deduplicates mutation_id.",
+      "Append-only/high-value financial, inspection, decision and incident records never use blind last-write-wins.",
+      "Simple preference/draft fields may use versioned last-write-wins.",
+      "Attachments upload separately with stable attachment IDs and retry state.",
+      "Conflicts remain visible and resolvable; never silently discard field work."
+    ]
+  },
+  "geometry_kernel": {
+    "units": "SI internally; locale display conversion only",
+    "coordinates": [
+      "world/site local coordinate system",
+      "geographic WGS84 reference for site",
+      "building local origin",
+      "floor elevation"
+    ],
+    "primitives": [
+      "site polygon",
+      "wall",
+      "opening",
+      "column",
+      "beam",
+      "slab",
+      "roof",
+      "room/space",
+      "fixture",
+      "furniture",
+      "annotation"
+    ],
+    "editing": [
+      "snap",
+      "grid",
+      "orthogonal constraint",
+      "angle constraint",
+      "dimension constraint",
+      "undo/redo command log",
+      "copy",
+      "mirror",
+      "array",
+      "lock"
+    ],
+    "validation": [
+      "self-intersection",
+      "negative/zero area",
+      "orphan opening",
+      "overlapping rooms",
+      "invalid stair connection",
+      "qibla/saff geometry warnings"
+    ],
+    "versioning": "geometry snapshots are immutable; edits are commands/events leading to new version",
+    "rendering_rule": "Three.js/React Three Fiber consumes kernel output; rendering code cannot be source of geometry truth."
+  },
+  "religious_calculations": {
+    "qibla": {
+      "method": "great-circle initial bearing to Kaaba reference coordinate",
+      "display": "bearing + uncertainty/source; magnetic compass is separate device-layer concern",
+      "rule": "Allow manual mosque-scholar/architect verified override with audit trail."
+    },
+    "prayer_times": {
+      "separate_entities": [
+        "astronomically calculated time",
+        "adhan time",
+        "iqama time",
+        "Jumuah session",
+        "Eid session"
+      ],
+      "config": [
+        "calculation convention",
+        "Fajr angle",
+        "Isha angle/interval",
+        "Asr juristic method",
+        "high-latitude rule",
+        "timezone",
+        "manual offsets"
+      ],
+      "rule": "Mosque-published congregation times override only congregation display, not astronomical calculation history."
+    }
+  },
+  "search": {
+    "index_fields": [
+      "canonical name",
+      "aliases",
+      "local-script names",
+      "city",
+      "country",
+      "facility/service tags",
+      "architect/style terms"
+    ],
+    "ranking": [
+      "exact name",
+      "distance",
+      "open/active status",
+      "claimed/verified quality",
+      "query relevance",
+      "facility match",
+      "freshness"
+    ],
+    "rules": [
+      "closed/permanently closed demoted/hidden by default",
+      "aliases canonicalize",
+      "multilingual normalization",
+      "typo tolerance",
+      "source confidence not popularity alone"
+    ]
+  },
+  "notifications": {
+    "channels": [
+      "in_app",
+      "push",
+      "email",
+      "SMS adapter"
+    ],
+    "preferences": [
+      "severity",
+      "topic",
+      "channel",
+      "quiet hours",
+      "digest vs immediate"
+    ],
+    "dedupe": "event_key + recipient + window",
+    "topics": [
+      "construction",
+      "permits",
+      "payments",
+      "maintenance",
+      "programs",
+      "Ramadan",
+      "security/admin",
+      "donations",
+      "source/data review"
+    ]
+  },
+  "entitlements": {
+    "plans": [
+      "public_free",
+      "mosque_admin_free_or_basic",
+      "project_workspace",
+      "professional",
+      "operations_pro",
+      "portfolio_enterprise"
+    ],
+    "rule": "Capabilities are checked through entitlements, not hardcoded UI plan names. Billing provider is separate."
+  },
+  "analytics": {
+    "envelope": [
+      "event_name",
+      "event_version",
+      "occurred_at",
+      "anonymous_or_user_id",
+      "org_id_optional",
+      "project_id_optional",
+      "platform",
+      "properties"
+    ],
+    "privacy": "No donor amounts tied to identity, child data, incident text, exact security layouts, or sensitive documents in product analytics.",
+    "versioning": "event schemas versioned and validated."
+  }
+}

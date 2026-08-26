@@ -1,0 +1,107 @@
+[
+  {
+    "id": "prod_wudumate_compact_home",
+    "vendor": "WuduMate",
+    "category": "wudu station",
+    "name": "WuduMate Compact HOME",
+    "source_url": "https://wudumate.com/product/wudumate-compact-home/",
+    "observed": "2026-08-16",
+    "price": {
+      "amount": 595.0,
+      "currency": "GBP",
+      "tax_scope": "incl VAT as displayed",
+      "source_type": "official_product_page"
+    },
+    "project_use": [
+      "small mosque",
+      "home musalla",
+      "accessible/low-space wudu retrofit subject to project review"
+    ],
+    "design_object_type": "wudu_station",
+    "verification": "official_product_page",
+    "notes": [
+      "Product page exposes add-to-basket behavior; mosque.build still treats selection as project cart/allowance until technical approval."
+    ]
+  },
+  {
+    "id": "prod_toa_mx6224d",
+    "vendor": "TOA",
+    "category": "mosque audio",
+    "name": "MX-6224D Digital Mixer Amplifier",
+    "source_url": "https://www.toa.eu/mx-6224d/",
+    "observed": "2026-08-16",
+    "price": null,
+    "technical_seed": {
+      "amplifier_channels": 2,
+      "power_description": "two 240W amplifiers per official page",
+      "DSP": true
+    },
+    "project_use": [
+      "small/medium mosque sound system"
+    ],
+    "design_object_type": "audio_rack_component",
+    "verification": "official_product_page"
+  },
+  {
+    "id": "prod_mosquebuild_cpr09",
+    "vendor": "MosqueBuild / Stoneplus",
+    "category": "mosque carpet",
+    "name": "Prayer-Rug Patterned Mosque Carpet – CPR-09",
+    "source_url": "https://www.mosquebuild.com/urun/konya-sultan-selim-mosque-carpets-cpr-09/",
+    "observed": "2026-08-16",
+    "price": null,
+    "technical_seed": {
+      "made_to_order": true,
+      "custom_color": true,
+      "project_specific": true,
+      "international_delivery_support": true
+    },
+    "project_use": [
+      "prayer hall carpet"
+    ],
+    "design_object_type": "floor_finish",
+    "verification": "official_product_page"
+  },
+  {
+    "id": "prod_mosquebuild_tile_set",
+    "vendor": "MosqueBuild / Stoneplus",
+    "category": "mihrab/minbar",
+    "name": "Mosque Tile Mihrab and Kursi and Minbar",
+    "source_url": "https://www.mosquebuild.com/product/mosque-tile-mehrab-and-kursi-and-minbar/",
+    "observed": "2026-08-16",
+    "price": null,
+    "technical_seed": {
+      "custom_dimensions": true,
+      "custom_finishes": true
+    },
+    "project_use": [
+      "qibla wall",
+      "mihrab",
+      "minbar"
+    ],
+    "design_object_type": "qibla_feature_set",
+    "verification": "official_product_page"
+  },
+  {
+    "id": "prod_masjidbox_terminal",
+    "vendor": "Masjidbox",
+    "category": "donation terminal",
+    "name": "Masjidbox Donation Terminal",
+    "source_url": "https://masjidbox.com/terminal",
+    "observed": "2026-08-16",
+    "price": null,
+    "technical_seed": {
+      "offline_support": true,
+      "recurring_donations": true,
+      "gift_aid_support": true,
+      "tax_receipts_france": true
+    },
+    "project_use": [
+      "lobby",
+      "donation area",
+      "Ramadan giving station"
+    ],
+    "design_object_type": "donation_kiosk",
+    "verification": "official_product_page"
+  }
+]

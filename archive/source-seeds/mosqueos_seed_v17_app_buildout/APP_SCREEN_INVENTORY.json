@@ -1,0 +1,1451 @@
+[
+  {
+    "id": "APP-001",
+    "domain": "public",
+    "name": "Landing",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-002",
+    "domain": "public",
+    "name": "Mosque Search",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-003",
+    "domain": "public",
+    "name": "Mosque Profile",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-004",
+    "domain": "public",
+    "name": "Design Gallery",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-005",
+    "domain": "public",
+    "name": "Design Detail",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-006",
+    "domain": "public",
+    "name": "Vendor Search",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-007",
+    "domain": "public",
+    "name": "Vendor Profile",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-008",
+    "domain": "public",
+    "name": "Product Detail",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-009",
+    "domain": "public",
+    "name": "Campaign Detail",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-010",
+    "domain": "project",
+    "name": "Project Home",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-011",
+    "domain": "project",
+    "name": "Site",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-012",
+    "domain": "project",
+    "name": "Requirements",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-013",
+    "domain": "project",
+    "name": "Program",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-014",
+    "domain": "project",
+    "name": "Design",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-015",
+    "domain": "project",
+    "name": "2D Plan",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-016",
+    "domain": "project",
+    "name": "3D Editor",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-017",
+    "domain": "project",
+    "name": "Scenario Compare",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-018",
+    "domain": "project",
+    "name": "Cost",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-019",
+    "domain": "project",
+    "name": "Permits",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-020",
+    "domain": "project",
+    "name": "Marketplace",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-021",
+    "domain": "project",
+    "name": "Cart",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-022",
+    "domain": "project",
+    "name": "Procurement",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-023",
+    "domain": "project",
+    "name": "Schedule",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-024",
+    "domain": "project",
+    "name": "Construction",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-025",
+    "domain": "project",
+    "name": "Quality",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-026",
+    "domain": "project",
+    "name": "Commissioning",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-027",
+    "domain": "project",
+    "name": "Fundraising",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-028",
+    "domain": "project",
+    "name": "Documents",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-029",
+    "domain": "project",
+    "name": "Team",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-030",
+    "domain": "project",
+    "name": "Handover",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-031",
+    "domain": "field",
+    "name": "Field Home",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-032",
+    "domain": "field",
+    "name": "Daily Report",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-033",
+    "domain": "field",
+    "name": "Camera",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-034",
+    "domain": "field",
+    "name": "Delivery",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-035",
+    "domain": "field",
+    "name": "Inspection",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-036",
+    "domain": "field",
+    "name": "RFI",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-037",
+    "domain": "field",
+    "name": "Punch",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-038",
+    "domain": "field",
+    "name": "QR Scan",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-039",
+    "domain": "field",
+    "name": "Offline Queue",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-040",
+    "domain": "mosque_admin",
+    "name": "Admin Home",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-041",
+    "domain": "mosque_admin",
+    "name": "Profile",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-042",
+    "domain": "mosque_admin",
+    "name": "Prayer Times",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-043",
+    "domain": "mosque_admin",
+    "name": "Programs",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-044",
+    "domain": "mosque_admin",
+    "name": "Donations",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-045",
+    "domain": "mosque_admin",
+    "name": "Assets",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-046",
+    "domain": "mosque_admin",
+    "name": "Maintenance",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-047",
+    "domain": "mosque_admin",
+    "name": "Ramadan",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-048",
+    "domain": "mosque_admin",
+    "name": "Team",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-049",
+    "domain": "mosque_admin",
+    "name": "Settings",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-050",
+    "domain": "vendor",
+    "name": "Vendor Home",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-051",
+    "domain": "vendor",
+    "name": "Vendor Profile",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-052",
+    "domain": "vendor",
+    "name": "Products",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-053",
+    "domain": "vendor",
+    "name": "Product Editor",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-054",
+    "domain": "vendor",
+    "name": "3D Product",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-055",
+    "domain": "vendor",
+    "name": "References",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-056",
+    "domain": "vendor",
+    "name": "RFQs",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-057",
+    "domain": "vendor",
+    "name": "Quotes",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-058",
+    "domain": "vendor",
+    "name": "Orders",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-059",
+    "domain": "vendor",
+    "name": "Shipments",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-060",
+    "domain": "platform",
+    "name": "Platform Home",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-061",
+    "domain": "platform",
+    "name": "Claims",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-062",
+    "domain": "platform",
+    "name": "Mosque Review",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-063",
+    "domain": "platform",
+    "name": "Vendor Review",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-064",
+    "domain": "platform",
+    "name": "Content",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-065",
+    "domain": "platform",
+    "name": "Regulatory",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-066",
+    "domain": "platform",
+    "name": "Sources",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-067",
+    "domain": "platform",
+    "name": "Rights",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-068",
+    "domain": "platform",
+    "name": "Ingestion",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  },
+  {
+    "id": "APP-069",
+    "domain": "platform",
+    "name": "Audit",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "permission_denied"
+    ],
+    "must_define": [
+      "route",
+      "data dependencies",
+      "permissions",
+      "primary actions",
+      "analytics",
+      "responsive behavior"
+    ]
+  }
+]

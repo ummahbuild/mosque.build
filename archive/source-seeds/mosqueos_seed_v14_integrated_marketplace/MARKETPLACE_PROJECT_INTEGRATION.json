@@ -1,0 +1,96 @@
+{
+  "events": [
+    {
+      "event": "cart.item_added",
+      "effects": [
+        "design selection created",
+        "cost allowance",
+        "lead-time lookup"
+      ]
+    },
+    {
+      "event": "product.placed_in_design",
+      "effects": [
+        "quantity recalculation",
+        "geometry constraint check",
+        "cost update"
+      ]
+    },
+    {
+      "event": "product.changed",
+      "effects": [
+        "delta cost",
+        "submittal invalidation",
+        "RFQ refresh",
+        "schedule refresh",
+        "render refresh"
+      ]
+    },
+    {
+      "event": "quote.received",
+      "effects": [
+        "replace allowance with quote snapshot",
+        "landed cost recalc",
+        "cash-flow update"
+      ]
+    },
+    {
+      "event": "product.approved",
+      "effects": [
+        "eligible for procurement baseline",
+        "public design specification can reference named product if rights allow"
+      ]
+    },
+    {
+      "event": "po.issued",
+      "effects": [
+        "committed cost",
+        "deposit cash outflow",
+        "manufacturing timeline",
+        "delivery activity"
+      ]
+    },
+    {
+      "event": "shipment.dispatched",
+      "effects": [
+        "ETA update",
+        "customs task creation",
+        "construction schedule refresh"
+      ]
+    },
+    {
+      "event": "delivery.received",
+      "effects": [
+        "inventory/site storage",
+        "inspection",
+        "payment milestone"
+      ]
+    },
+    {
+      "event": "product.installed",
+      "effects": [
+        "progress",
+        "snag/commissioning",
+        "asset pre-handover"
+      ]
+    },
+    {
+      "event": "product.cost_changed_public_campaign",
+      "effects": [
+        "campaign budget drift warning",
+        "do not silently rewrite donor-facing amount"
+      ]
+    }
+  ],
+  "project_views": [
+    "Design Materials",
+    "Project Cart",
+    "Procurement Board",
+    "Budget",
+    "Cash Flow",
+    "Timeline",
+    "Funding",
+    "Construction",
+    "Asset Register"
+  ]
+}

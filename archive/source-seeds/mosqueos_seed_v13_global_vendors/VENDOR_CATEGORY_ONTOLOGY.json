@@ -1,0 +1,149 @@
+{
+  "prayer_flooring": [
+    "mosque carpet",
+    "custom saff carpet",
+    "carpet underlay",
+    "prayer runners",
+    "portable prayer mats",
+    "carpet installation",
+    "carpet cleaning"
+  ],
+  "wudu_sanitary": [
+    "wudu station",
+    "wudu tap",
+    "wudu bench/stool",
+    "accessible wudu",
+    "linear drain",
+    "toilets",
+    "washroom fittings",
+    "water heating"
+  ],
+  "mihrab_minbar_craft": [
+    "wood mihrab",
+    "wood minbar",
+    "marble mihrab",
+    "marble minbar",
+    "stone carving",
+    "joinery",
+    "calligraphy"
+  ],
+  "lighting": [
+    "mosque chandelier",
+    "architectural lighting",
+    "pendants",
+    "wall lights",
+    "emergency lighting",
+    "lighting controls"
+  ],
+  "audio_av": [
+    "PA",
+    "PAVA",
+    "microphones",
+    "DSP",
+    "speakers",
+    "acoustic simulation",
+    "livestream",
+    "digital signage"
+  ],
+  "dome_minaret": [
+    "steel minaret",
+    "GRP minaret",
+    "steel dome",
+    "GRP dome",
+    "finials",
+    "crescent ornaments"
+  ],
+  "tile_stone_finish": [
+    "zellige",
+    "Iznik-style tile",
+    "Persian tile",
+    "marble",
+    "limestone",
+    "granite",
+    "mosaic",
+    "plaster/stucco craft"
+  ],
+  "doors_windows_screens": [
+    "wood doors",
+    "metal doors",
+    "fire doors",
+    "windows",
+    "jali/screens",
+    "stained glass"
+  ],
+  "furniture_storage": [
+    "Quran shelving",
+    "shoe racks",
+    "lockers",
+    "rehal",
+    "chairs",
+    "classroom furniture",
+    "library shelving"
+  ],
+  "donation_technology": [
+    "cash donation boxes",
+    "contactless terminals",
+    "donation kiosks",
+    "QR/NFC stands",
+    "fundraising software"
+  ],
+  "prayer_technology": [
+    "prayer clocks",
+    "iqama displays",
+    "digital bulletin boards",
+    "adhan systems",
+    "room displays"
+  ],
+  "cleaning_maintenance": [
+    "carpet sweepers",
+    "extractors",
+    "scrubbers",
+    "vacuums",
+    "cleaning carts",
+    "filters",
+    "maintenance supplies"
+  ],
+  "security_fire": [
+    "CCTV",
+    "access control",
+    "intercom",
+    "panic button",
+    "fire alarm",
+    "sprinklers",
+    "extinguishers"
+  ],
+  "energy_hvac": [
+    "fans",
+    "HVAC",
+    "solar PV",
+    "battery",
+    "generator",
+    "BMS",
+    "meters"
+  ],
+  "community_madrasa": [
+    "whiteboards",
+    "projectors",
+    "classroom displays",
+    "commercial kitchen",
+    "pantry equipment",
+    "nursery furniture"
+  ],
+  "janazah": [
+    "washing tables",
+    "wash systems",
+    "privacy screens",
+    "trolleys",
+    "cold storage where lawful"
+  ],
+  "landscape_site": [
+    "fountains",
+    "paving",
+    "shade",
+    "gates",
+    "fencing",
+    "signage",
+    "bike racks",
+    "parking barriers"
+  ]
+}

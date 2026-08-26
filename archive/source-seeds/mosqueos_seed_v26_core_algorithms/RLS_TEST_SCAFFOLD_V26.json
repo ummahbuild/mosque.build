@@ -1,0 +1,34 @@
+{
+  "fixtures": [
+    {
+      "name": "user_a_project_a_editor",
+      "role": "project_editor",
+      "project": "A"
+    },
+    {
+      "name": "user_b_project_b_viewer",
+      "role": "viewer",
+      "project": "B"
+    },
+    {
+      "name": "vendor_x",
+      "role": "vendor",
+      "project": "A"
+    },
+    {
+      "name": "finance_a",
+      "role": "finance",
+      "project": "A"
+    }
+  ],
+  "tests": [
+    "project A editor can select/insert/update engineering assumptions for A",
+    "project A editor cannot read project B engineering assumptions",
+    "project B viewer can select but not update B project data",
+    "vendor X cannot read competing quote rows",
+    "finance role can read financial rollups but not mutate design objects without edit capability",
+    "landscape zones inherit project membership isolation",
+    "submittals inherit project/package permissions",
+    "domain event insertion is server/RPC-only"
+  ]
+}

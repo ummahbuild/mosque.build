@@ -1,0 +1,10 @@
+import Link from "next/link";
+import {PriorityFeatureExplorerLoader} from "@/components/priority-feature-explorer-loader";
+import {SiteFooter} from "@/components/site-footer";
+import {SiteHeader} from "@/components/site-header";
+import {getPriorityFeatureBatch,priorityCandidateCount,pwaLandingCandidateCount} from "@/lib/priority-features";
+
+export const metadata={title:"Priority Feature Batch 701–800",description:"One hundred additional mosque.build planning and delivery capabilities with explicit availability and review boundaries."};
+const batch=getPriorityFeatureBatch(8);
+
+export default function Page(){return <><SiteHeader/><main><section className="areaHero priorityHero"><div><div className="eyebrow gold">DELIVERY BATCH · RECORDS 701–800</div><h1>Connect the next hundred roadmap capabilities.</h1><p className="heroLead">This eighth batch completes the focused website and installation candidates, then continues into the wider roadmap without presenting unfinished work as available.</p><div className="heroActions"><Link className="button" href="/features/priority-700">Review records 601–700</Link><Link className="secondaryButton lightButton" href="/my-project">Continue my local project</Link></div></div></section><section className="section"><div className="batchPrinciples"><article><b>701–800</b><span>distinct roadmap records</span></article><article><b>{pwaLandingCandidateCount}</b><span>website + installation candidates</span></article><article><b>{priorityCandidateCount}</b><span>total roadmap candidates</span></article><article><b>2 formats</b><span>JSON + CSV shortlist export</span></article></div><div className="methodBox batchNotice"><b>Selection and delivery boundary</b><p>Records 701–{pwaLandingCandidateCount} finish the focused website and installation selection. The remainder are the next highest-priority roadmap records. Every card keeps its real availability, evidence needs, dependencies and review gates visible; inclusion does not mean it is ready for project use.</p></div><PriorityFeatureExplorerLoader features={batch} startIndex={701}/></section></main><SiteFooter/></>}

@@ -1,0 +1,24 @@
+{
+  "version": "2.0-product-context",
+  "generated": "2026-08-16",
+  "canonical_domain": "mosque.build",
+  "counts": {
+    "granular_features": 528,
+    "route_contracts": 25,
+    "seo_blog_seed_titles": 22,
+    "feature_domains": 11
+  },
+  "files": [
+    "CONTENT_MARKETING_PLAN.json",
+    "DATA_COMPLETION.json",
+    "DEFINITION_OF_DONE.json",
+    "DEFINITION_OF_DONE.md",
+    "DEV_PLAN.json",
+    "FEATURE_REGISTRY.json",
+    "LOCAL_DIRECTORY_DATA_MODEL.json",
+    "PRODUCT_CONTEXT.md",
+    "ROUTE_STATE_CONTRACTS.json",
+    "SEO_AEO_PLAN.json",
+    "SOURCE_INTEGRATION_POLICY.json"
+  ]
+}

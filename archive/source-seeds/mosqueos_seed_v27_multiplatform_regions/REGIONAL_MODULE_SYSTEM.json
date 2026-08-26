@@ -1,0 +1,39 @@
+{
+  "rules": [
+    "Every country maps to at least one regional pack and may map to multiple overlapping cultural/climate packs.",
+    "Regional pack is not a style stereotype.",
+    "Historic traditions, contemporary mosque architecture, immigrant/diaspora mosque forms, climate adaptation and local construction markets are separate datasets.",
+    "Regions with limited historic monumental mosque traditions still receive contemporary/community/adaptive-reuse modules.",
+    "Country-level data overrides regional assumptions when available."
+  ],
+  "per_region_fields": [
+    "languages",
+    "climates",
+    "urban/rural contexts",
+    "historic typologies",
+    "contemporary typologies",
+    "common structural systems",
+    "materials",
+    "craft traditions",
+    "roof forms",
+    "minaret/tower forms",
+    "courtyard traditions",
+    "pattern/calligraphy traditions",
+    "landscape traditions",
+    "local suppliers",
+    "professional networks",
+    "construction methods",
+    "cost observations",
+    "regulatory sources"
+  ],
+  "diaspora_layer": [
+    "church conversion",
+    "warehouse conversion",
+    "shopfront mosque",
+    "community-center mosque",
+    "purpose-built suburban mosque",
+    "dense urban infill",
+    "industrial estate mosque",
+    "university/workplace prayer space"
+  ]
+}

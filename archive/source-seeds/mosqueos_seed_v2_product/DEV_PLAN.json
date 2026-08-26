@@ -1,0 +1,152 @@
+{
+  "architecture_recommendation": {
+    "web": "Next.js App Router + TypeScript",
+    "3d": "Three.js through React Three Fiber + drei; geometry logic isolated from rendering",
+    "maps": "provider abstraction: Google Maps/Places for live commercial place data where licensed; OSM-derived canonical geospatial base where appropriate",
+    "database": "PostgreSQL + PostGIS",
+    "search": "Postgres FTS initially; OpenSearch/Typesense adapter if scale requires",
+    "storage": "object storage with rights metadata on every asset",
+    "jobs": "queue for ingestion, refresh, image processing, geocoding, dedupe, structured-data generation",
+    "auth": "role-based mosque admin / contributor / reviewer / supplier / architect / public user",
+    "payments": "provider abstraction; Stripe-first plus region-specific adapters such as mobile money",
+    "analytics": "privacy-minimized product analytics + server-side conversion events",
+    "cms": "structured content tables + review workflows rather than freeform-only CMS"
+  },
+  "phases": [
+    {
+      "phase": 0,
+      "name": "Foundation",
+      "deliverables": [
+        "monorepo",
+        "CI",
+        "environments",
+        "schema",
+        "auth",
+        "RBAC",
+        "source registry",
+        "rights registry",
+        "design tokens",
+        "route registry",
+        "feature flags"
+      ]
+    },
+    {
+      "phase": 1,
+      "name": "Directory",
+      "deliverables": [
+        "mosque profiles",
+        "map",
+        "nearby search",
+        "provider IDs",
+        "hours/prayer-time model",
+        "claim flow",
+        "edit suggestion",
+        "SEO city/country pages"
+      ]
+    },
+    {
+      "phase": 2,
+      "name": "Museum & Knowledge Graph",
+      "deliverables": [
+        "styles",
+        "components",
+        "materials",
+        "techniques",
+        "architects",
+        "drawings",
+        "video index",
+        "cross-link graph"
+      ]
+    },
+    {
+      "phase": 3,
+      "name": "Project Workspace",
+      "deliverables": [
+        "project onboarding",
+        "site",
+        "budget",
+        "funding",
+        "documents",
+        "team",
+        "jurisdiction checklist"
+      ]
+    },
+    {
+      "phase": 4,
+      "name": "Three.js Design Studio",
+      "deliverables": [
+        "site overlay",
+        "qibla",
+        "massing",
+        "floors",
+        "rooms",
+        "2D/3D sync",
+        "cost engine",
+        "material switcher",
+        "suggestions"
+      ]
+    },
+    {
+      "phase": 5,
+      "name": "Operations OS",
+      "deliverables": [
+        "staff",
+        "volunteers",
+        "maintenance",
+        "cleaning",
+        "inventory",
+        "events",
+        "Ramadan/iftar",
+        "security",
+        "annual report"
+      ]
+    },
+    {
+      "phase": 6,
+      "name": "Donations & Waqf",
+      "deliverables": [
+        "campaigns",
+        "item donations",
+        "kiosks/QR",
+        "restricted funds",
+        "pledges",
+        "waqf assets",
+        "rent roll"
+      ]
+    },
+    {
+      "phase": 7,
+      "name": "Regulatory Packs",
+      "deliverables": [
+        "official-source country packs",
+        "subnational resolver",
+        "permit tasks",
+        "staleness monitoring"
+      ]
+    },
+    {
+      "phase": 8,
+      "name": "Scale & APIs",
+      "deliverables": [
+        "public API",
+        "embeds",
+        "supplier feeds",
+        "architect portfolios",
+        "bulk mosque admin tools",
+        "data export",
+        "partner ingestion"
+      ]
+    }
+  ],
+  "code_harness_context": [
+    "Read PRODUCT_CONTEXT.md first",
+    "Treat all *queue* files as research targets, not factual entities",
+    "Never generate or infer permit approval",
+    "Never persist Google content beyond allowed terms; store canonical internal record + provider reference/provenance",
+    "Keep source_id/rights_status/verified_at in every imported entity",
+    "Every new feature must add route/state/analytics/test entries",
+    "Three.js geometry rules live in pure deterministic modules testable without WebGL",
+    "Cost engine stores assumption source, geography, currency, date and confidence range",
+    "Religious-content claims need review status separate from general editorial review"
+  ]
+}

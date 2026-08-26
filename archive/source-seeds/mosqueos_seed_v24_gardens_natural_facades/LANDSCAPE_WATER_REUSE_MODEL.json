@@ -1,0 +1,37 @@
+{
+  "sources": [
+    "potable",
+    "rainwater",
+    "treated greywater where lawful/suitable",
+    "treated ablution-water candidate where lawful/suitable"
+  ],
+  "uses": [
+    "irrigation",
+    "toilet flushing candidate",
+    "cleaning candidate",
+    "ornamental water feature"
+  ],
+  "quality_gates": [
+    "nonpotable source must remain physically/visually identified and protected from cross-connection",
+    "edible crop irrigation requires appropriate water-quality assessment",
+    "reuse is jurisdiction-specific and requires verified health/plumbing/environment rules",
+    "untreated wastewater is never assumed suitable for landscape reuse"
+  ],
+  "mass_balance": [
+    "capture_volume",
+    "storage_volume",
+    "daily_irrigation_demand",
+    "seasonal_demand",
+    "overflow",
+    "backup_potable_requirement"
+  ],
+  "wudu_reuse_flow": [
+    "identify collection opportunity",
+    "exclude inappropriate streams",
+    "treatment/quality requirement",
+    "storage",
+    "distribution",
+    "monitoring",
+    "maintenance"
+  ]
+}

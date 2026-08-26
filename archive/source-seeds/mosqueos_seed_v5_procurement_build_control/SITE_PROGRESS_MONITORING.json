@@ -1,0 +1,61 @@
+{
+  "capture_modes": [
+    "standard photo",
+    "fixed viewpoint photo",
+    "360 photo",
+    "drone photo where lawful",
+    "video walkthrough",
+    "LiDAR/point cloud where supported",
+    "manual checklist"
+  ],
+  "comparison": [
+    "baseline vs current",
+    "week-over-week",
+    "planned BIM vs current",
+    "room-by-room",
+    "trade-by-trade"
+  ],
+  "photo_metadata": [
+    "timestamp",
+    "user",
+    "project",
+    "floor",
+    "room/zone",
+    "drawing pin",
+    "trade",
+    "activity",
+    "orientation",
+    "GPS optional",
+    "rights/privacy"
+  ],
+  "alerts": [
+    "schedule activity overdue",
+    "no progress update in configured period",
+    "budget threshold exceeded",
+    "contingency below threshold",
+    "RFI overdue",
+    "submittal overdue",
+    "inspection failed",
+    "delivery late",
+    "change event unpriced",
+    "critical material not ordered",
+    "payment claim exceeds verified progress tolerance",
+    "permit/inspection prerequisite missing",
+    "opening-critical item delayed"
+  ],
+  "opening_critical_chain": [
+    "occupancy approval",
+    "fire/life safety signoff",
+    "accessible route",
+    "water and sanitary",
+    "wudu functional",
+    "electrical",
+    "emergency lighting",
+    "HVAC/ventilation",
+    "prayer hall safe/clean",
+    "audio basic functionality",
+    "security/access",
+    "cleaning",
+    "staff training"
+  ]
+}

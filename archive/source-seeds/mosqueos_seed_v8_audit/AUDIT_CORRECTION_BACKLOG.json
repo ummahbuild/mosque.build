@@ -1,0 +1,1752 @@
+[
+  {
+    "id": "FIX-0001",
+    "finding_id": "AUD-001",
+    "severity": "critical",
+    "title": "No single canonical authority layer across v0-v7",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0002",
+    "finding_id": "AUD-001",
+    "severity": "critical",
+    "title": "No single canonical authority layer across v0-v7",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0003",
+    "finding_id": "AUD-001",
+    "severity": "critical",
+    "title": "No single canonical authority layer across v0-v7",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0004",
+    "finding_id": "AUD-001",
+    "severity": "critical",
+    "title": "No single canonical authority layer across v0-v7",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0005",
+    "finding_id": "AUD-001",
+    "severity": "critical",
+    "title": "No single canonical authority layer across v0-v7",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0006",
+    "finding_id": "AUD-002",
+    "severity": "critical",
+    "title": "Scale targets are mostly ingestion capacity, not completed factual datasets",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0007",
+    "finding_id": "AUD-002",
+    "severity": "critical",
+    "title": "Scale targets are mostly ingestion capacity, not completed factual datasets",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0008",
+    "finding_id": "AUD-002",
+    "severity": "critical",
+    "title": "Scale targets are mostly ingestion capacity, not completed factual datasets",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0009",
+    "finding_id": "AUD-002",
+    "severity": "critical",
+    "title": "Scale targets are mostly ingestion capacity, not completed factual datasets",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0010",
+    "finding_id": "AUD-002",
+    "severity": "critical",
+    "title": "Scale targets are mostly ingestion capacity, not completed factual datasets",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0011",
+    "finding_id": "AUD-003",
+    "severity": "critical",
+    "title": "Material cost catalog is structurally rich but largely unpriced",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0012",
+    "finding_id": "AUD-003",
+    "severity": "critical",
+    "title": "Material cost catalog is structurally rich but largely unpriced",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0013",
+    "finding_id": "AUD-003",
+    "severity": "critical",
+    "title": "Material cost catalog is structurally rich but largely unpriced",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0014",
+    "finding_id": "AUD-003",
+    "severity": "critical",
+    "title": "Material cost catalog is structurally rich but largely unpriced",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0015",
+    "finding_id": "AUD-003",
+    "severity": "critical",
+    "title": "Material cost catalog is structurally rich but largely unpriced",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0016",
+    "finding_id": "AUD-004",
+    "severity": "critical",
+    "title": "Regulatory packs are global shells, not verified jurisdiction packs",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0017",
+    "finding_id": "AUD-004",
+    "severity": "critical",
+    "title": "Regulatory packs are global shells, not verified jurisdiction packs",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0018",
+    "finding_id": "AUD-004",
+    "severity": "critical",
+    "title": "Regulatory packs are global shells, not verified jurisdiction packs",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0019",
+    "finding_id": "AUD-004",
+    "severity": "critical",
+    "title": "Regulatory packs are global shells, not verified jurisdiction packs",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0020",
+    "finding_id": "AUD-004",
+    "severity": "critical",
+    "title": "Regulatory packs are global shells, not verified jurisdiction packs",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0021",
+    "finding_id": "AUD-005",
+    "severity": "high",
+    "title": "No executable Supabase schema/migrations or RLS policies",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0022",
+    "finding_id": "AUD-005",
+    "severity": "high",
+    "title": "No executable Supabase schema/migrations or RLS policies",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0023",
+    "finding_id": "AUD-005",
+    "severity": "high",
+    "title": "No executable Supabase schema/migrations or RLS policies",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0024",
+    "finding_id": "AUD-005",
+    "severity": "high",
+    "title": "No executable Supabase schema/migrations or RLS policies",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0025",
+    "finding_id": "AUD-005",
+    "severity": "high",
+    "title": "No executable Supabase schema/migrations or RLS policies",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0026",
+    "finding_id": "AUD-006",
+    "severity": "high",
+    "title": "Offline behavior is mentioned but conflict resolution is underspecified",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0027",
+    "finding_id": "AUD-006",
+    "severity": "high",
+    "title": "Offline behavior is mentioned but conflict resolution is underspecified",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0028",
+    "finding_id": "AUD-006",
+    "severity": "high",
+    "title": "Offline behavior is mentioned but conflict resolution is underspecified",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0029",
+    "finding_id": "AUD-006",
+    "severity": "high",
+    "title": "Offline behavior is mentioned but conflict resolution is underspecified",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0030",
+    "finding_id": "AUD-006",
+    "severity": "high",
+    "title": "Offline behavior is mentioned but conflict resolution is underspecified",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0031",
+    "finding_id": "AUD-007",
+    "severity": "high",
+    "title": "Three.js vision lacks a canonical geometric kernel contract",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0032",
+    "finding_id": "AUD-007",
+    "severity": "high",
+    "title": "Three.js vision lacks a canonical geometric kernel contract",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0033",
+    "finding_id": "AUD-007",
+    "severity": "high",
+    "title": "Three.js vision lacks a canonical geometric kernel contract",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0034",
+    "finding_id": "AUD-007",
+    "severity": "high",
+    "title": "Three.js vision lacks a canonical geometric kernel contract",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0035",
+    "finding_id": "AUD-007",
+    "severity": "high",
+    "title": "Three.js vision lacks a canonical geometric kernel contract",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0036",
+    "finding_id": "AUD-008",
+    "severity": "high",
+    "title": "Religious-review requirement exists but prayer/qibla methodology is incomplete",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0037",
+    "finding_id": "AUD-008",
+    "severity": "high",
+    "title": "Religious-review requirement exists but prayer/qibla methodology is incomplete",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0038",
+    "finding_id": "AUD-008",
+    "severity": "high",
+    "title": "Religious-review requirement exists but prayer/qibla methodology is incomplete",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0039",
+    "finding_id": "AUD-008",
+    "severity": "high",
+    "title": "Religious-review requirement exists but prayer/qibla methodology is incomplete",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0040",
+    "finding_id": "AUD-008",
+    "severity": "high",
+    "title": "Religious-review requirement exists but prayer/qibla methodology is incomplete",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0041",
+    "finding_id": "AUD-009",
+    "severity": "high",
+    "title": "Property discovery/listing ingestion lacks licensing and transaction workflow depth",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0042",
+    "finding_id": "AUD-009",
+    "severity": "high",
+    "title": "Property discovery/listing ingestion lacks licensing and transaction workflow depth",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0043",
+    "finding_id": "AUD-009",
+    "severity": "high",
+    "title": "Property discovery/listing ingestion lacks licensing and transaction workflow depth",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0044",
+    "finding_id": "AUD-009",
+    "severity": "high",
+    "title": "Property discovery/listing ingestion lacks licensing and transaction workflow depth",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0045",
+    "finding_id": "AUD-009",
+    "severity": "high",
+    "title": "Property discovery/listing ingestion lacks licensing and transaction workflow depth",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0046",
+    "finding_id": "AUD-010",
+    "severity": "high",
+    "title": "Progress monitoring lacks a canonical schedule/cost baseline relationship",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0047",
+    "finding_id": "AUD-010",
+    "severity": "high",
+    "title": "Progress monitoring lacks a canonical schedule/cost baseline relationship",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0048",
+    "finding_id": "AUD-010",
+    "severity": "high",
+    "title": "Progress monitoring lacks a canonical schedule/cost baseline relationship",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0049",
+    "finding_id": "AUD-010",
+    "severity": "high",
+    "title": "Progress monitoring lacks a canonical schedule/cost baseline relationship",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0050",
+    "finding_id": "AUD-010",
+    "severity": "high",
+    "title": "Progress monitoring lacks a canonical schedule/cost baseline relationship",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0051",
+    "finding_id": "AUD-011",
+    "severity": "high",
+    "title": "No full operating calendar / recurring workload engine",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0052",
+    "finding_id": "AUD-011",
+    "severity": "high",
+    "title": "No full operating calendar / recurring workload engine",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0053",
+    "finding_id": "AUD-011",
+    "severity": "high",
+    "title": "No full operating calendar / recurring workload engine",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0054",
+    "finding_id": "AUD-011",
+    "severity": "high",
+    "title": "No full operating calendar / recurring workload engine",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0055",
+    "finding_id": "AUD-011",
+    "severity": "high",
+    "title": "No full operating calendar / recurring workload engine",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0056",
+    "finding_id": "AUD-012",
+    "severity": "high",
+    "title": "Accounting integration and fund accounting are not yet complete",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0057",
+    "finding_id": "AUD-012",
+    "severity": "high",
+    "title": "Accounting integration and fund accounting are not yet complete",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0058",
+    "finding_id": "AUD-012",
+    "severity": "high",
+    "title": "Accounting integration and fund accounting are not yet complete",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0059",
+    "finding_id": "AUD-012",
+    "severity": "high",
+    "title": "Accounting integration and fund accounting are not yet complete",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0060",
+    "finding_id": "AUD-012",
+    "severity": "high",
+    "title": "Accounting integration and fund accounting are not yet complete",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0061",
+    "finding_id": "AUD-013",
+    "severity": "high",
+    "title": "Security controls exist but no formal threat model, incident response or RPO/RTO",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0062",
+    "finding_id": "AUD-013",
+    "severity": "high",
+    "title": "Security controls exist but no formal threat model, incident response or RPO/RTO",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0063",
+    "finding_id": "AUD-013",
+    "severity": "high",
+    "title": "Security controls exist but no formal threat model, incident response or RPO/RTO",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0064",
+    "finding_id": "AUD-013",
+    "severity": "high",
+    "title": "Security controls exist but no formal threat model, incident response or RPO/RTO",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0065",
+    "finding_id": "AUD-013",
+    "severity": "high",
+    "title": "Security controls exist but no formal threat model, incident response or RPO/RTO",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0066",
+    "finding_id": "AUD-014",
+    "severity": "high",
+    "title": "Exact UI copy is incomplete across the full route/state inventory",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0067",
+    "finding_id": "AUD-014",
+    "severity": "high",
+    "title": "Exact UI copy is incomplete across the full route/state inventory",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0068",
+    "finding_id": "AUD-014",
+    "severity": "high",
+    "title": "Exact UI copy is incomplete across the full route/state inventory",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0069",
+    "finding_id": "AUD-014",
+    "severity": "high",
+    "title": "Exact UI copy is incomplete across the full route/state inventory",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0070",
+    "finding_id": "AUD-014",
+    "severity": "high",
+    "title": "Exact UI copy is incomplete across the full route/state inventory",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0071",
+    "finding_id": "AUD-015",
+    "severity": "medium",
+    "title": "Localization and RTL are largely absent",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0072",
+    "finding_id": "AUD-015",
+    "severity": "medium",
+    "title": "Localization and RTL are largely absent",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0073",
+    "finding_id": "AUD-015",
+    "severity": "medium",
+    "title": "Localization and RTL are largely absent",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0074",
+    "finding_id": "AUD-015",
+    "severity": "medium",
+    "title": "Localization and RTL are largely absent",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0075",
+    "finding_id": "AUD-015",
+    "severity": "medium",
+    "title": "Localization and RTL are largely absent",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0076",
+    "finding_id": "AUD-016",
+    "severity": "medium",
+    "title": "Search and ranking are not fully specified",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0077",
+    "finding_id": "AUD-016",
+    "severity": "medium",
+    "title": "Search and ranking are not fully specified",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0078",
+    "finding_id": "AUD-016",
+    "severity": "medium",
+    "title": "Search and ranking are not fully specified",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0079",
+    "finding_id": "AUD-016",
+    "severity": "medium",
+    "title": "Search and ranking are not fully specified",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0080",
+    "finding_id": "AUD-016",
+    "severity": "medium",
+    "title": "Search and ranking are not fully specified",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0081",
+    "finding_id": "AUD-017",
+    "severity": "medium",
+    "title": "No canonical notification preference and escalation system",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0082",
+    "finding_id": "AUD-017",
+    "severity": "medium",
+    "title": "No canonical notification preference and escalation system",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0083",
+    "finding_id": "AUD-017",
+    "severity": "medium",
+    "title": "No canonical notification preference and escalation system",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0084",
+    "finding_id": "AUD-017",
+    "severity": "medium",
+    "title": "No canonical notification preference and escalation system",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0085",
+    "finding_id": "AUD-017",
+    "severity": "medium",
+    "title": "No canonical notification preference and escalation system",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0086",
+    "finding_id": "AUD-018",
+    "severity": "medium",
+    "title": "Commercial entitlement model is missing",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0087",
+    "finding_id": "AUD-018",
+    "severity": "medium",
+    "title": "Commercial entitlement model is missing",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0088",
+    "finding_id": "AUD-018",
+    "severity": "medium",
+    "title": "Commercial entitlement model is missing",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0089",
+    "finding_id": "AUD-018",
+    "severity": "medium",
+    "title": "Commercial entitlement model is missing",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0090",
+    "finding_id": "AUD-018",
+    "severity": "medium",
+    "title": "Commercial entitlement model is missing",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0091",
+    "finding_id": "AUD-019",
+    "severity": "medium",
+    "title": "SEO route design is strong but content-quality gates need stronger canonicalization",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0092",
+    "finding_id": "AUD-019",
+    "severity": "medium",
+    "title": "SEO route design is strong but content-quality gates need stronger canonicalization",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0093",
+    "finding_id": "AUD-019",
+    "severity": "medium",
+    "title": "SEO route design is strong but content-quality gates need stronger canonicalization",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0094",
+    "finding_id": "AUD-019",
+    "severity": "medium",
+    "title": "SEO route design is strong but content-quality gates need stronger canonicalization",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0095",
+    "finding_id": "AUD-019",
+    "severity": "medium",
+    "title": "SEO route design is strong but content-quality gates need stronger canonicalization",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0096",
+    "finding_id": "AUD-020",
+    "severity": "medium",
+    "title": "Accessibility is a major product domain but app accessibility targets are generic",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0097",
+    "finding_id": "AUD-020",
+    "severity": "medium",
+    "title": "Accessibility is a major product domain but app accessibility targets are generic",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0098",
+    "finding_id": "AUD-020",
+    "severity": "medium",
+    "title": "Accessibility is a major product domain but app accessibility targets are generic",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0099",
+    "finding_id": "AUD-020",
+    "severity": "medium",
+    "title": "Accessibility is a major product domain but app accessibility targets are generic",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0100",
+    "finding_id": "AUD-020",
+    "severity": "medium",
+    "title": "Accessibility is a major product domain but app accessibility targets are generic",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0101",
+    "finding_id": "AUD-021",
+    "severity": "medium",
+    "title": "Canonical domain formatting is inconsistent",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0102",
+    "finding_id": "AUD-021",
+    "severity": "medium",
+    "title": "Canonical domain formatting is inconsistent",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0103",
+    "finding_id": "AUD-021",
+    "severity": "medium",
+    "title": "Canonical domain formatting is inconsistent",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0104",
+    "finding_id": "AUD-021",
+    "severity": "medium",
+    "title": "Canonical domain formatting is inconsistent",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0105",
+    "finding_id": "AUD-021",
+    "severity": "medium",
+    "title": "Canonical domain formatting is inconsistent",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0106",
+    "finding_id": "AUD-022",
+    "severity": "medium",
+    "title": "Life status and biographical seeds contain explicit 'verify' placeholders",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0107",
+    "finding_id": "AUD-022",
+    "severity": "medium",
+    "title": "Life status and biographical seeds contain explicit 'verify' placeholders",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0108",
+    "finding_id": "AUD-022",
+    "severity": "medium",
+    "title": "Life status and biographical seeds contain explicit 'verify' placeholders",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0109",
+    "finding_id": "AUD-022",
+    "severity": "medium",
+    "title": "Life status and biographical seeds contain explicit 'verify' placeholders",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0110",
+    "finding_id": "AUD-022",
+    "severity": "medium",
+    "title": "Life status and biographical seeds contain explicit 'verify' placeholders",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0111",
+    "finding_id": "AUD-023",
+    "severity": "medium",
+    "title": "Source freshness and availability are not continuously monitored",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0112",
+    "finding_id": "AUD-023",
+    "severity": "medium",
+    "title": "Source freshness and availability are not continuously monitored",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0113",
+    "finding_id": "AUD-023",
+    "severity": "medium",
+    "title": "Source freshness and availability are not continuously monitored",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0114",
+    "finding_id": "AUD-023",
+    "severity": "medium",
+    "title": "Source freshness and availability are not continuously monitored",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0115",
+    "finding_id": "AUD-023",
+    "severity": "medium",
+    "title": "Source freshness and availability are not continuously monitored",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0116",
+    "finding_id": "AUD-024",
+    "severity": "medium",
+    "title": "Analytics events exist only at a coarse level",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0117",
+    "finding_id": "AUD-024",
+    "severity": "medium",
+    "title": "Analytics events exist only at a coarse level",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0118",
+    "finding_id": "AUD-024",
+    "severity": "medium",
+    "title": "Analytics events exist only at a coarse level",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0119",
+    "finding_id": "AUD-024",
+    "severity": "medium",
+    "title": "Analytics events exist only at a coarse level",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0120",
+    "finding_id": "AUD-024",
+    "severity": "medium",
+    "title": "Analytics events exist only at a coarse level",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0121",
+    "finding_id": "AUD-025",
+    "severity": "medium",
+    "title": "Suggestion engine lacks explicit explainability and authority boundaries",
+    "slice": "spec",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0122",
+    "finding_id": "AUD-025",
+    "severity": "medium",
+    "title": "Suggestion engine lacks explicit explainability and authority boundaries",
+    "slice": "data/schema",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0123",
+    "finding_id": "AUD-025",
+    "severity": "medium",
+    "title": "Suggestion engine lacks explicit explainability and authority boundaries",
+    "slice": "backend",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0124",
+    "finding_id": "AUD-025",
+    "severity": "medium",
+    "title": "Suggestion engine lacks explicit explainability and authority boundaries",
+    "slice": "web/mobile",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  },
+  {
+    "id": "FIX-0125",
+    "finding_id": "AUD-025",
+    "severity": "medium",
+    "title": "Suggestion engine lacks explicit explainability and authority boundaries",
+    "slice": "tests/review",
+    "status": "backlog",
+    "done_when": [
+      "Canonical source of truth identified",
+      "Implementation/documentation updated",
+      "Conflicting older definitions marked superseded",
+      "Tests/review added where applicable"
+    ]
+  }
+]

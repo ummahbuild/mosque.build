@@ -1,0 +1,128 @@
+[
+  {
+    "id": "pal_earth_sahel",
+    "name": "Sahel earth",
+    "materials": [
+      "earth plaster",
+      "timber",
+      "dark wood",
+      "natural fiber"
+    ],
+    "colors": [
+      "warm earth",
+      "sand",
+      "deep brown"
+    ],
+    "style_refs": [
+      "style_sudano_sahelian"
+    ]
+  },
+  {
+    "id": "pal_fez_zellige",
+    "name": "Fez zellige-inspired",
+    "materials": [
+      "zellige/tile",
+      "lime plaster",
+      "cedar/timber"
+    ],
+    "colors": [
+      "white",
+      "green",
+      "blue",
+      "ochre",
+      "black accents"
+    ],
+    "style_refs": [
+      "style_maghrebi_andalusi"
+    ]
+  },
+  {
+    "id": "pal_ottoman_tile",
+    "name": "Ottoman tile + stone",
+    "materials": [
+      "light stone",
+      "ceramic tile",
+      "painted plaster",
+      "timber"
+    ],
+    "colors": [
+      "white",
+      "cobalt/blue",
+      "turquoise",
+      "red accents"
+    ],
+    "style_refs": [
+      "style_ottoman"
+    ]
+  },
+  {
+    "id": "pal_persian_brick_tile",
+    "name": "Persian brick + glazed tile",
+    "materials": [
+      "brick",
+      "glazed ceramic",
+      "stucco"
+    ],
+    "colors": [
+      "brick earth",
+      "turquoise",
+      "blue",
+      "white"
+    ],
+    "style_refs": [
+      "style_persian"
+    ]
+  },
+  {
+    "id": "pal_mamluk_stone",
+    "name": "Mamluk stone + wood",
+    "materials": [
+      "stone",
+      "marble",
+      "dark timber",
+      "metal"
+    ],
+    "colors": [
+      "sandstone",
+      "cream",
+      "dark brown",
+      "brass accents"
+    ],
+    "style_refs": [
+      "style_mamluk"
+    ]
+  },
+  {
+    "id": "pal_swahili_lime",
+    "name": "Swahili coast lime + timber",
+    "materials": [
+      "lime plaster",
+      "coral/stone substitute",
+      "timber"
+    ],
+    "colors": [
+      "chalk white",
+      "sand",
+      "dark timber"
+    ],
+    "style_refs": [
+      "style_swahili_coastal"
+    ]
+  },
+  {
+    "id": "pal_contemporary_local",
+    "name": "Contemporary local-material",
+    "materials": [
+      "local stone/brick",
+      "timber",
+      "plaster",
+      "glass"
+    ],
+    "colors": [
+      "natural material colors"
+    ],
+    "style_refs": [
+      "style_contemporary_minimal"
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "groups": [
+    "board",
+    "imam",
+    "women",
+    "families",
+    "youth",
+    "elderly",
+    "disabled worshippers",
+    "madrasa teachers",
+    "neighbors",
+    "local businesses",
+    "donors",
+    "volunteers",
+    "staff",
+    "emergency services",
+    "local authority"
+  ],
+  "engagement_tools": [
+    "survey",
+    "design preference poll",
+    "needs prioritization",
+    "town hall",
+    "comment period",
+    "design walkthrough",
+    "3D review",
+    "accessibility review",
+    "neighbor FAQ",
+    "construction update",
+    "opening feedback"
+  ],
+  "feedback_fields": [
+    "topic",
+    "location/model object",
+    "submitter role optional",
+    "comment",
+    "priority",
+    "response",
+    "decision",
+    "status"
+  ],
+  "principle": "Engagement informs design without replacing professional, legal, safety or governance decisions."
+}

@@ -1,0 +1,47 @@
+{
+  "as_of": "2026-08-16",
+  "display_currency": "KES",
+  "rates": [
+    {
+      "base": "USD",
+      "quote": "KES",
+      "rate": 129.23,
+      "rate_date": "2026-08-14",
+      "source_id": "src_cbk_fx",
+      "type": "official_indicative",
+      "note": "Latest CBK rate surfaced as of seed date."
+    },
+    {
+      "base": "GBP",
+      "quote": "KES",
+      "rate": 174.45,
+      "rate_date": "2026-08-14",
+      "source_id": "src_cbk_fx",
+      "type": "official_indicative"
+    },
+    {
+      "base": "EUR",
+      "quote": "KES",
+      "rate": 149.15,
+      "rate_date": "2026-08-14",
+      "source_id": "src_cbk_fx",
+      "type": "official_indicative"
+    },
+    {
+      "base": "USD",
+      "quote": "KES",
+      "rate": 128.977,
+      "rate_date": "2026-08-16",
+      "source_id": "runtime_currency_source",
+      "type": "live_runtime_reference",
+      "note": "Runtime currency source snapshot; retain separately from CBK official reference."
+    }
+  ],
+  "rules": [
+    "Use source priority configured per project/jurisdiction.",
+    "Store the exact rate and date used in every estimate version.",
+    "Never silently reprice a historical estimate when FX updates.",
+    "Allow users to rebase a copied scenario to current FX.",
+    "For currencies unsupported by official local central-bank feeds, fall back to approved FX provider and disclose source."
+  ]
+}

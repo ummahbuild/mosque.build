@@ -1,0 +1,122 @@
+{
+  "status_definitions": {
+    "target": "desired scale",
+    "candidate": "discovered but not verified",
+    "verified": "facts checked against source",
+    "reviewed": "domain/editorial review complete",
+    "publishable": "rights + source + review gates complete",
+    "production": "feature/data passes release gates"
+  },
+  "datasets": [
+    {
+      "dataset": "mosques",
+      "target": 5000,
+      "known_verified_seed": 10,
+      "candidate_capacity": 5000,
+      "publishable_estimate": "< target; requires ingestion",
+      "status": "major_data_gap"
+    },
+    {
+      "dataset": "people",
+      "target": 500,
+      "known_seed": 63,
+      "candidate_capacity": 550,
+      "publishable_estimate": "subset only",
+      "status": "major_data_gap"
+    },
+    {
+      "dataset": "styles",
+      "target": 150,
+      "taxonomy_count": 170,
+      "publishable_estimate": "needs expert review",
+      "status": "taxonomy_met_review_pending"
+    },
+    {
+      "dataset": "drawings",
+      "target": 1500,
+      "known_seed": 8,
+      "candidate_capacity": 1600,
+      "publishable_estimate": "rights/source review required",
+      "status": "major_data_gap"
+    },
+    {
+      "dataset": "real_videos",
+      "target": 500,
+      "known_seed": 4,
+      "candidate_capacity": 550,
+      "publishable_estimate": "near-zero verified real construction set",
+      "status": "major_data_gap"
+    },
+    {
+      "dataset": "component_product_classes",
+      "target": 2000,
+      "taxonomy_count": 2441,
+      "publishable_estimate": "taxonomy met; supplier facts incomplete",
+      "status": "taxonomy_met"
+    },
+    {
+      "dataset": "suppliers_products",
+      "target": 10000,
+      "known_supplier_seed": 1,
+      "candidate_capacity": 10000,
+      "publishable_estimate": "major ingestion required",
+      "status": "major_data_gap"
+    },
+    {
+      "dataset": "techniques",
+      "target": 500,
+      "taxonomy_count": 520,
+      "publishable_estimate": "expert review/enrichment required",
+      "status": "taxonomy_met_review_pending"
+    },
+    {
+      "dataset": "adaptive_reuse_cases",
+      "target": 100,
+      "candidate_capacity": 120,
+      "publishable_estimate": "not yet factual cases",
+      "status": "major_data_gap"
+    },
+    {
+      "dataset": "funding_cases",
+      "target": 100,
+      "candidate_capacity": 120,
+      "publishable_estimate": "not yet factual cases",
+      "status": "major_data_gap"
+    },
+    {
+      "dataset": "waqf_cases",
+      "target": 100,
+      "candidate_capacity": 120,
+      "publishable_estimate": "not yet factual cases",
+      "status": "major_data_gap"
+    },
+    {
+      "dataset": "operations_cases",
+      "target": 100,
+      "candidate_capacity": 120,
+      "publishable_estimate": "not yet factual cases",
+      "status": "major_data_gap"
+    },
+    {
+      "dataset": "regulatory_packs",
+      "target": "launch countries first",
+      "shell_count": 249,
+      "publishable_estimate": "shells only except individual sources",
+      "status": "critical_research_gap"
+    },
+    {
+      "dataset": "museum_examples",
+      "target": 5000,
+      "candidate_capacity": 5000,
+      "publishable_estimate": "not yet factual examples",
+      "status": "major_data_gap"
+    },
+    {
+      "dataset": "material_costs",
+      "target": "regional/live",
+      "taxonomy_count": 170,
+      "priced_verified_count": 0,
+      "status": "critical_cost_data_gap"
+    }
+  ]
+}

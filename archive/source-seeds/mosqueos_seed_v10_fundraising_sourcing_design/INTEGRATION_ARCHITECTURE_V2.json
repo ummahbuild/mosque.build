@@ -1,0 +1,60 @@
+{
+  "provider_adapter_contract": [
+    "provider",
+    "account/org connection",
+    "capabilities",
+    "auth method",
+    "webhook secret",
+    "sync cursor",
+    "last sync",
+    "rate limit",
+    "retry",
+    "idempotency",
+    "disconnect behavior",
+    "data retention",
+    "terms notes"
+  ],
+  "categories": {
+    "fundraising": [
+      "LaunchGood external link/sync",
+      "Stripe",
+      "PayPal",
+      "bank/ACH",
+      "M-Pesa/regional"
+    ],
+    "accounting": [
+      "QuickBooks",
+      "Xero",
+      "CSV journal/export",
+      "future fund-accounting systems"
+    ],
+    "CRM": [
+      "Mailchimp/Brevo candidate",
+      "Salesforce Nonprofit candidate",
+      "HubSpot candidate"
+    ],
+    "communications": [
+      "email",
+      "SMS",
+      "WhatsApp Business candidate",
+      "push"
+    ],
+    "design": [
+      "IFC",
+      "BCF",
+      "IDS",
+      "DWG/DXF via conversion/import pipeline",
+      "PDF",
+      "GLTF"
+    ],
+    "storage": [
+      "Supabase Storage",
+      "external document links"
+    ],
+    "analytics": [
+      "privacy-safe product analytics",
+      "campaign attribution"
+    ]
+  },
+  "rule": "External platforms remain systems of record for data they own unless an explicit synchronization contract says otherwise."
+}

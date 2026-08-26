@@ -1,0 +1,119 @@
+[
+  {
+    "id": "fw_gltf",
+    "name": "Khronos glTF",
+    "license": "open standard",
+    "role": "canonical runtime 3D asset interchange",
+    "platforms": [
+      "web",
+      "mobile",
+      "desktop"
+    ],
+    "status": "P0",
+    "note": "glTF 2.0 baseline; 2.1 future after finalization/toolchain support"
+  },
+  {
+    "id": "fw_babylon",
+    "name": "Babylon.js",
+    "license": "Apache-2.0",
+    "role": "web 3D/WebGPU/WebGL renderer + viewer",
+    "platforms": [
+      "web",
+      "native host"
+    ],
+    "status": "P1 renderer"
+  },
+  {
+    "id": "fw_filament",
+    "name": "Google Filament",
+    "license": "Apache-2.0",
+    "role": "native/mobile high-performance PBR renderer",
+    "platforms": [
+      "Android",
+      "iOS",
+      "Linux",
+      "macOS",
+      "Windows",
+      "WASM"
+    ],
+    "status": "P0 mobile render core"
+  },
+  {
+    "id": "fw_rn_filament",
+    "name": "React Native Filament",
+    "license": "open source",
+    "role": "React Native Filament binding",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "status": "P0 candidate"
+  },
+  {
+    "id": "fw_thatopen",
+    "name": "That Open Components/Fragments",
+    "license": "open source",
+    "role": "web BIM tooling/large model fragments",
+    "platforms": [
+      "web"
+    ],
+    "status": "P0 BIM"
+  },
+  {
+    "id": "fw_webifc",
+    "name": "web-ifc",
+    "license": "open source",
+    "role": "IFC reader/writer in JS/WASM",
+    "platforms": [
+      "web",
+      "Node"
+    ],
+    "status": "P0 IFC"
+  },
+  {
+    "id": "fw_maplibre_gl",
+    "name": "MapLibre GL JS",
+    "license": "BSD-style open source",
+    "role": "web maps/vector tiles",
+    "platforms": [
+      "web"
+    ],
+    "status": "P0 maps"
+  },
+  {
+    "id": "fw_maplibre_native",
+    "name": "MapLibre Native / React Native",
+    "license": "open source",
+    "role": "native maps",
+    "platforms": [
+      "iOS",
+      "Android",
+      "React Native"
+    ],
+    "status": "P0 maps"
+  },
+  {
+    "id": "fw_godot",
+    "name": "Godot",
+    "license": "MIT",
+    "role": "optional cross-platform immersive/simulation runtime",
+    "platforms": [
+      "web",
+      "iOS",
+      "Android",
+      "desktop"
+    ],
+    "status": "P2 optional"
+  },
+  {
+    "id": "fw_ktx2",
+    "name": "KTX2/Basis Universal ecosystem",
+    "license": "open standard/tooling",
+    "role": "GPU texture delivery/compression",
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "status": "P1 assets"
+  }
+]

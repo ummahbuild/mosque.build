@@ -1,0 +1,55 @@
+{
+  "maps_location": [
+    "Google Places/Maps adapter",
+    "OpenStreetMap ingestion",
+    "Wikidata authority merge",
+    "geocoding provider abstraction"
+  ],
+  "payments": [
+    "Stripe",
+    "M-Pesa/provider adapter",
+    "bank transfer reconciliation",
+    "cash-box reconciliation",
+    "future regional payment adapters"
+  ],
+  "accounting": [
+    "QuickBooks adapter candidate",
+    "Xero adapter candidate",
+    "CSV/standard export",
+    "fund-accounting mapping"
+  ],
+  "communications": [
+    "email provider adapter",
+    "SMS adapter",
+    "push notifications",
+    "WhatsApp Business integration candidate subject to API terms"
+  ],
+  "calendar": [
+    "ICS export",
+    "Google Calendar optional connector",
+    "Apple/system calendar handoff"
+  ],
+  "construction": [
+    "IFC import/export",
+    "BCF issue exchange",
+    "IDS requirements/validation",
+    "CSV BOQ",
+    "PDF drawing register"
+  ],
+  "documents": [
+    "object storage",
+    "e-sign provider adapter candidate",
+    "document OCR only as assisted extraction with review"
+  ],
+  "identity": [
+    "Supabase Auth",
+    "SSO/SAML for enterprise future"
+  ],
+  "sensors": [
+    "BMS adapter",
+    "smart meter adapter",
+    "leak sensor webhook",
+    "generator/solar telemetry adapter"
+  ],
+  "rules": "All integrations have capability flags, auth state, sync cursor, rate-limit handling, retry/backoff, idempotency and provider-specific deletion/disconnect behavior."
+}

@@ -1,0 +1,3102 @@
+[
+  {
+    "id": "home",
+    "group": "public_discovery",
+    "route": "/home",
+    "title": "Home",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "explore_mosques",
+    "group": "public_discovery",
+    "route": "/explore-mosques",
+    "title": "Explore Mosques",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "mosque_map",
+    "group": "public_discovery",
+    "route": "/mosque-map",
+    "title": "Mosque Map",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "styles",
+    "group": "public_discovery",
+    "route": "/styles",
+    "title": "Styles",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "components",
+    "group": "public_discovery",
+    "route": "/components",
+    "title": "Components",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "materials",
+    "group": "public_discovery",
+    "route": "/materials",
+    "title": "Materials",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "techniques",
+    "group": "public_discovery",
+    "route": "/techniques",
+    "title": "Techniques",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "architects",
+    "group": "public_discovery",
+    "route": "/architects",
+    "title": "Architects",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "craftspeople",
+    "group": "public_discovery",
+    "route": "/craftspeople",
+    "title": "Craftspeople",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "blueprints",
+    "group": "public_discovery",
+    "route": "/blueprints",
+    "title": "Blueprints",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "videos",
+    "group": "public_discovery",
+    "route": "/videos",
+    "title": "Videos",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "museum_exhibitions",
+    "group": "public_discovery",
+    "route": "/museum-exhibitions",
+    "title": "Museum Exhibitions",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "preservation",
+    "group": "public_discovery",
+    "route": "/preservation",
+    "title": "Preservation",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "start_project",
+    "group": "project_onboarding",
+    "route": "/start-project",
+    "title": "Start Project",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "project_type",
+    "group": "project_onboarding",
+    "route": "/project-type",
+    "title": "Project Type",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "location",
+    "group": "project_onboarding",
+    "route": "/location",
+    "title": "Location",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "community_need",
+    "group": "project_onboarding",
+    "route": "/community-need",
+    "title": "Community Need",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "existing_mosques",
+    "group": "project_onboarding",
+    "route": "/existing-mosques",
+    "title": "Existing Mosques",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "community_survey",
+    "group": "project_onboarding",
+    "route": "/community-survey",
+    "title": "Community Survey",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "budget",
+    "group": "project_onboarding",
+    "route": "/budget",
+    "title": "Budget",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "funding_capacity",
+    "group": "project_onboarding",
+    "route": "/funding-capacity",
+    "title": "Funding Capacity",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "property_status",
+    "group": "project_onboarding",
+    "route": "/property-status",
+    "title": "Property Status",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "project_recommendation",
+    "group": "project_onboarding",
+    "route": "/project-recommendation",
+    "title": "Project Recommendation",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "site_search",
+    "group": "site_due_diligence",
+    "route": "/site-search",
+    "title": "Site Search",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "property_compare",
+    "group": "site_due_diligence",
+    "route": "/property-compare",
+    "title": "Property Compare",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "zoning_check",
+    "group": "site_due_diligence",
+    "route": "/zoning-check",
+    "title": "Zoning Check",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "qibla_site_overlay",
+    "group": "site_due_diligence",
+    "route": "/qibla-site-overlay",
+    "title": "Qibla Site Overlay",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "utilities",
+    "group": "site_due_diligence",
+    "route": "/utilities",
+    "title": "Utilities",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "transport_parking",
+    "group": "site_due_diligence",
+    "route": "/transport-parking",
+    "title": "Transport Parking",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "flood_climate",
+    "group": "site_due_diligence",
+    "route": "/flood-climate",
+    "title": "Flood Climate",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "soil",
+    "group": "site_due_diligence",
+    "route": "/soil",
+    "title": "Soil",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "heritage",
+    "group": "site_due_diligence",
+    "route": "/heritage",
+    "title": "Heritage",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "conversion_scanner",
+    "group": "site_due_diligence",
+    "route": "/conversion-scanner",
+    "title": "Conversion Scanner",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "program_builder",
+    "group": "design",
+    "route": "/program-builder",
+    "title": "Program Builder",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "capacity_calculator",
+    "group": "design",
+    "route": "/capacity-calculator",
+    "title": "Capacity Calculator",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "qibla_designer",
+    "group": "design",
+    "route": "/qibla-designer",
+    "title": "Qibla Designer",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "saff_optimizer",
+    "group": "design",
+    "route": "/saff-optimizer",
+    "title": "Saff Optimizer",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "womens_space",
+    "group": "design",
+    "route": "/womens-space",
+    "title": "Womens Space",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "wudu_designer",
+    "group": "design",
+    "route": "/wudu-designer",
+    "title": "Wudu Designer",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "madrasa_builder",
+    "group": "design",
+    "route": "/madrasa-builder",
+    "title": "Madrasa Builder",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "community_center_builder",
+    "group": "design",
+    "route": "/community-center-builder",
+    "title": "Community Center Builder",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "flex_space",
+    "group": "design",
+    "route": "/flex-space",
+    "title": "Flex Space",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "style_selector",
+    "group": "design",
+    "route": "/style-selector",
+    "title": "Style Selector",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "material_selector",
+    "group": "design",
+    "route": "/material-selector",
+    "title": "Material Selector",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "dome_lab",
+    "group": "design",
+    "route": "/dome-lab",
+    "title": "Dome Lab",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "minaret_lab",
+    "group": "design",
+    "route": "/minaret-lab",
+    "title": "Minaret Lab",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "light_lab",
+    "group": "design",
+    "route": "/light-lab",
+    "title": "Light Lab",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "acoustics_lab",
+    "group": "design",
+    "route": "/acoustics-lab",
+    "title": "Acoustics Lab",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "climate_lab",
+    "group": "design",
+    "route": "/climate-lab",
+    "title": "Climate Lab",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "accessibility_audit",
+    "group": "design",
+    "route": "/accessibility-audit",
+    "title": "Accessibility Audit",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "capital_budget",
+    "group": "cost_funding",
+    "route": "/capital-budget",
+    "title": "Capital Budget",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "life_cycle_cost",
+    "group": "cost_funding",
+    "route": "/life-cycle-cost",
+    "title": "Life Cycle Cost",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "operating_budget",
+    "group": "cost_funding",
+    "route": "/operating-budget",
+    "title": "Operating Budget",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "staffing_calculator",
+    "group": "cost_funding",
+    "route": "/staffing-calculator",
+    "title": "Staffing Calculator",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "cleaning_calculator",
+    "group": "cost_funding",
+    "route": "/cleaning-calculator",
+    "title": "Cleaning Calculator",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "maintenance_reserve",
+    "group": "cost_funding",
+    "route": "/maintenance-reserve",
+    "title": "Maintenance Reserve",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "funding_plan",
+    "group": "cost_funding",
+    "route": "/funding-plan",
+    "title": "Funding Plan",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "campaign_builder",
+    "group": "cost_funding",
+    "route": "/campaign-builder",
+    "title": "Campaign Builder",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "pledges",
+    "group": "cost_funding",
+    "route": "/pledges",
+    "title": "Pledges",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "donor_restrictions",
+    "group": "cost_funding",
+    "route": "/donor-restrictions",
+    "title": "Donor Restrictions",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "donatable_items",
+    "group": "cost_funding",
+    "route": "/donatable-items",
+    "title": "Donatable Items",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "in_kind_donations",
+    "group": "cost_funding",
+    "route": "/in-kind-donations",
+    "title": "In Kind Donations",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "waqf_builder",
+    "group": "cost_funding",
+    "route": "/waqf-builder",
+    "title": "Waqf Builder",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "endowment_calculator",
+    "group": "cost_funding",
+    "route": "/endowment-calculator",
+    "title": "Endowment Calculator",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "jurisdiction_dashboard",
+    "group": "approvals",
+    "route": "/jurisdiction-dashboard",
+    "title": "Jurisdiction Dashboard",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "planning",
+    "group": "approvals",
+    "route": "/planning",
+    "title": "Planning",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "change_of_use",
+    "group": "approvals",
+    "route": "/change-of-use",
+    "title": "Change Of Use",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "building_permit",
+    "group": "approvals",
+    "route": "/building-permit",
+    "title": "Building Permit",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "fire",
+    "group": "approvals",
+    "route": "/fire",
+    "title": "Fire",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "accessibility",
+    "group": "approvals",
+    "route": "/accessibility",
+    "title": "Accessibility",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "noise",
+    "group": "approvals",
+    "route": "/noise",
+    "title": "Noise",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "signage",
+    "group": "approvals",
+    "route": "/signage",
+    "title": "Signage",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "school_childcare",
+    "group": "approvals",
+    "route": "/school-childcare",
+    "title": "School Childcare",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "kitchen",
+    "group": "approvals",
+    "route": "/kitchen",
+    "title": "Kitchen",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "occupancy_certificate",
+    "group": "approvals",
+    "route": "/occupancy-certificate",
+    "title": "Occupancy Certificate",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "document_vault",
+    "group": "approvals",
+    "route": "/document-vault",
+    "title": "Document Vault",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "design_team",
+    "group": "build",
+    "route": "/design-team",
+    "title": "Design Team",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "contractor_directory",
+    "group": "build",
+    "route": "/contractor-directory",
+    "title": "Contractor Directory",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "procurement",
+    "group": "build",
+    "route": "/procurement",
+    "title": "Procurement",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "material_takeoff",
+    "group": "build",
+    "route": "/material-takeoff",
+    "title": "Material Takeoff",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "supplier_compare",
+    "group": "build",
+    "route": "/supplier-compare",
+    "title": "Supplier Compare",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "construction_schedule",
+    "group": "build",
+    "route": "/construction-schedule",
+    "title": "Construction Schedule",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "site_updates",
+    "group": "build",
+    "route": "/site-updates",
+    "title": "Site Updates",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "budget_variance",
+    "group": "build",
+    "route": "/budget-variance",
+    "title": "Budget Variance",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "change_orders",
+    "group": "build",
+    "route": "/change-orders",
+    "title": "Change Orders",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "inspection_tracker",
+    "group": "build",
+    "route": "/inspection-tracker",
+    "title": "Inspection Tracker",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "commissioning",
+    "group": "build",
+    "route": "/commissioning",
+    "title": "Commissioning",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "opening_readiness",
+    "group": "build",
+    "route": "/opening-readiness",
+    "title": "Opening Readiness",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "mosque_dashboard",
+    "group": "operations",
+    "route": "/mosque-dashboard",
+    "title": "Mosque Dashboard",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "attendance",
+    "group": "operations",
+    "route": "/attendance",
+    "title": "Attendance",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "donations",
+    "group": "operations",
+    "route": "/donations",
+    "title": "Donations",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "membership",
+    "group": "operations",
+    "route": "/membership",
+    "title": "Membership",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "programs",
+    "group": "operations",
+    "route": "/programs",
+    "title": "Programs",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "madrasa",
+    "group": "operations",
+    "route": "/madrasa",
+    "title": "Madrasa",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "staff",
+    "group": "operations",
+    "route": "/staff",
+    "title": "Staff",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "volunteers",
+    "group": "operations",
+    "route": "/volunteers",
+    "title": "Volunteers",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "cleaning",
+    "group": "operations",
+    "route": "/cleaning",
+    "title": "Cleaning",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "maintenance",
+    "group": "operations",
+    "route": "/maintenance",
+    "title": "Maintenance",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "asset_registry",
+    "group": "operations",
+    "route": "/asset-registry",
+    "title": "Asset Registry",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "inventory",
+    "group": "operations",
+    "route": "/inventory",
+    "title": "Inventory",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "facility_issues",
+    "group": "operations",
+    "route": "/facility-issues",
+    "title": "Facility Issues",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "compliance_calendar",
+    "group": "operations",
+    "route": "/compliance-calendar",
+    "title": "Compliance Calendar",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "annual_report",
+    "group": "operations",
+    "route": "/annual-report",
+    "title": "Annual Report",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "waqf_assets",
+    "group": "operations",
+    "route": "/waqf-assets",
+    "title": "Waqf Assets",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "expansion_trigger",
+    "group": "operations",
+    "route": "/expansion-trigger",
+    "title": "Expansion Trigger",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "home_to_prayer_room",
+    "group": "conversion",
+    "route": "/home-to-prayer-room",
+    "title": "Home To Prayer Room",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "home_to_public_mosque",
+    "group": "conversion",
+    "route": "/home-to-public-mosque",
+    "title": "Home To Public Mosque",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "storefront_conversion",
+    "group": "conversion",
+    "route": "/storefront-conversion",
+    "title": "Storefront Conversion",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "warehouse_conversion",
+    "group": "conversion",
+    "route": "/warehouse-conversion",
+    "title": "Warehouse Conversion",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "church_conversion",
+    "group": "conversion",
+    "route": "/church-conversion",
+    "title": "Church Conversion",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "school_conversion",
+    "group": "conversion",
+    "route": "/school-conversion",
+    "title": "School Conversion",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "office_conversion",
+    "group": "conversion",
+    "route": "/office-conversion",
+    "title": "Office Conversion",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "industrial_conversion",
+    "group": "conversion",
+    "route": "/industrial-conversion",
+    "title": "Industrial Conversion",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "source_registry",
+    "group": "research_admin",
+    "route": "/source-registry",
+    "title": "Source Registry",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "rights_permissions",
+    "group": "research_admin",
+    "route": "/rights-permissions",
+    "title": "Rights Permissions",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "content_review",
+    "group": "research_admin",
+    "route": "/content-review",
+    "title": "Content Review",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "religious_review",
+    "group": "research_admin",
+    "route": "/religious-review",
+    "title": "Religious Review",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "architecture_review",
+    "group": "research_admin",
+    "route": "/architecture-review",
+    "title": "Architecture Review",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "legal_review",
+    "group": "research_admin",
+    "route": "/legal-review",
+    "title": "Legal Review",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "supplier_review",
+    "group": "research_admin",
+    "route": "/supplier-review",
+    "title": "Supplier Review",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "data_import",
+    "group": "research_admin",
+    "route": "/data-import",
+    "title": "Data Import",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "deduplication",
+    "group": "research_admin",
+    "route": "/deduplication",
+    "title": "Deduplication",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "provenance",
+    "group": "research_admin",
+    "route": "/provenance",
+    "title": "Provenance",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  },
+  {
+    "id": "change_log",
+    "group": "research_admin",
+    "route": "/change-log",
+    "title": "Change Log",
+    "content_slots": [
+      "hero",
+      "explanation",
+      "inputs_or_filters",
+      "results_or_content",
+      "source_disclosure",
+      "cta"
+    ],
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "offline",
+      "needs_review",
+      "source_stale"
+    ],
+    "production_copy_status": "outline_seed",
+    "data_dependencies": []
+  }
+]

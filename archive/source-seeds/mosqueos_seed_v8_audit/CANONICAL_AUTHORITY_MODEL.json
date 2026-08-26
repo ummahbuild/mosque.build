@@ -1,0 +1,47 @@
+{
+  "brand": {
+    "name": "mosque.build",
+    "origin": "https://mosque.build"
+  },
+  "entity_namespaces": {
+    "mosque": "mosq_",
+    "person": "pers_",
+    "organization": "org_",
+    "project": "proj_",
+    "site": "site_",
+    "building": "bldg_",
+    "space": "space_",
+    "component_class": "comp_",
+    "material": "mat_",
+    "product": "prod_",
+    "supplier": "supp_",
+    "style": "style_",
+    "technique": "tech_",
+    "source": "src_",
+    "drawing": "draw_",
+    "video": "vid_",
+    "regulatory_rule": "rule_",
+    "cost_observation": "costobs_",
+    "estimate": "est_",
+    "scenario": "scen_",
+    "asset": "asset_",
+    "requirement": "req_",
+    "decision": "dec_",
+    "risk": "risk_",
+    "work_order": "wo_"
+  },
+  "authority_precedence": [
+    "v8 canonical registry",
+    "reviewed factual record",
+    "latest versioned module definition",
+    "older seed definition",
+    "research queue placeholder"
+  ],
+  "rules": [
+    "Never merge records solely by display name.",
+    "Keep source-native identifiers in provider_links.",
+    "Use redirects/aliases after dedupe rather than deleting historical IDs.",
+    "A taxonomy record and a factual instance are different entity types.",
+    "Backlog IDs are not domain entity IDs."
+  ]
+}

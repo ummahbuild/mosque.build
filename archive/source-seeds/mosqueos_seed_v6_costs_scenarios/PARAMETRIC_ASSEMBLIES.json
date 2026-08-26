@@ -1,0 +1,176 @@
+[
+  {
+    "id": "ASM-FOUND-STRIP",
+    "name": "Reinforced concrete strip foundation",
+    "unit": "m",
+    "inputs": [
+      "excavation",
+      "blinding",
+      "rebar",
+      "concrete",
+      "formwork",
+      "backfill"
+    ]
+  },
+  {
+    "id": "ASM-RC-SLAB",
+    "name": "Reinforced concrete ground slab",
+    "unit": "m2",
+    "inputs": [
+      "hardcore",
+      "sand",
+      "DPM",
+      "rebar/mesh",
+      "concrete",
+      "finish"
+    ]
+  },
+  {
+    "id": "ASM-BLOCK-WALL",
+    "name": "Plastered block wall",
+    "unit": "m2",
+    "inputs": [
+      "block",
+      "mortar",
+      "plaster both sides",
+      "paint",
+      "labor"
+    ]
+  },
+  {
+    "id": "ASM-BRICK-SCREEN",
+    "name": "Ventilated brick/jali screen wall",
+    "unit": "m2",
+    "inputs": [
+      "brick",
+      "mortar",
+      "reinforcement/anchors",
+      "labor",
+      "finish"
+    ]
+  },
+  {
+    "id": "ASM-ROOF-METAL",
+    "name": "Insulated metal roof",
+    "unit": "m2",
+    "inputs": [
+      "roof sheet",
+      "insulation",
+      "purlins",
+      "fasteners",
+      "flashing",
+      "gutters",
+      "labor"
+    ]
+  },
+  {
+    "id": "ASM-CARPET",
+    "name": "Mosque carpet system",
+    "unit": "m2",
+    "inputs": [
+      "carpet",
+      "underlay",
+      "adhesive/fixation",
+      "edge trims",
+      "installation",
+      "waste"
+    ]
+  },
+  {
+    "id": "ASM-WUDU",
+    "name": "Wudu position",
+    "unit": "station",
+    "inputs": [
+      "tap/mixer",
+      "seat",
+      "drainage",
+      "waterproofing",
+      "tile/finish",
+      "plumbing",
+      "labor"
+    ]
+  },
+  {
+    "id": "ASM-TOILET",
+    "name": "Standard toilet cubicle",
+    "unit": "cubicle",
+    "inputs": [
+      "WC",
+      "partition",
+      "plumbing",
+      "tile",
+      "accessories",
+      "labor"
+    ]
+  },
+  {
+    "id": "ASM-ACCESS-WC",
+    "name": "Accessible WC room",
+    "unit": "room",
+    "inputs": [
+      "WC",
+      "basin",
+      "grab rails",
+      "alarm where required",
+      "door",
+      "finishes",
+      "plumbing"
+    ]
+  },
+  {
+    "id": "ASM-SOLAR",
+    "name": "Solar PV system",
+    "unit": "kWp",
+    "inputs": [
+      "modules",
+      "inverter",
+      "mounting",
+      "cable",
+      "protection",
+      "installation",
+      "commissioning"
+    ]
+  },
+  {
+    "id": "ASM-AUDIO",
+    "name": "Prayer hall audio package",
+    "unit": "hall",
+    "inputs": [
+      "microphones",
+      "DSP",
+      "mixer",
+      "amplifiers",
+      "speakers",
+      "cabling",
+      "tuning"
+    ]
+  },
+  {
+    "id": "ASM-CLASSROOM",
+    "name": "Madrasa classroom fit-out",
+    "unit": "room",
+    "inputs": [
+      "floor",
+      "paint",
+      "lighting",
+      "power/data",
+      "whiteboard/display",
+      "furniture",
+      "storage"
+    ]
+  },
+  {
+    "id": "ASM-KITCHEN",
+    "name": "Community kitchen fit-out",
+    "unit": "m2",
+    "inputs": [
+      "finishes",
+      "plumbing",
+      "power/gas",
+      "extract",
+      "equipment",
+      "fire provisions",
+      "storage"
+    ]
+  }
+]

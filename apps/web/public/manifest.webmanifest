@@ -1,0 +1,68 @@
+{
+  "name": "mosque.build",
+  "short_name": "mosque.build",
+  "id": "/",
+  "description": "Plan, design, permit, fund, source, build and operate mosques.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F7F3EA",
+  "theme_color": "#063C33",
+  "orientation": "any",
+  "categories": [
+    "productivity",
+    "business",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start a Project",
+      "short_name": "Start",
+      "url": "/start"
+    },
+    {
+      "name": "Design Studio",
+      "short_name": "Design",
+      "url": "/design"
+    },
+    {
+      "name": "Pattern Studies",
+      "short_name": "Patterns",
+      "url": "/patterns"
+    },
+    {
+      "name": "Permits",
+      "short_name": "Permits",
+      "url": "/permits"
+    },
+    {
+      "name": "Construction",
+      "short_name": "Build",
+      "url": "/construction"
+    },
+    {
+      "name": "PWA Guide",
+      "short_name": "PWA Guide",
+      "url": "/pwa-guide"
+    },
+    {
+      "name": "My Local Project",
+      "short_name": "My Project",
+      "url": "/my-project"
+    }
+  ]
+}

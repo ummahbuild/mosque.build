@@ -1,0 +1,66 @@
+[
+  {
+    "name": "saveAssumption",
+    "method": "POST",
+    "path": "/api/projects/:id/engineering/assumptions",
+    "event": "engineering.assumption_saved"
+  },
+  {
+    "name": "resolveAssumption",
+    "method": "POST",
+    "path": "/api/projects/:id/engineering/assumptions/:aid/verify",
+    "event": "engineering.assumption_verified"
+  },
+  {
+    "name": "generateTakeoff",
+    "method": "POST",
+    "path": "/api/projects/:id/takeoffs",
+    "event": "takeoff.generated"
+  },
+  {
+    "name": "compareTakeoffs",
+    "method": "GET",
+    "path": "/api/projects/:id/takeoffs/compare?a=:a&b=:b"
+  },
+  {
+    "name": "scoreLocalAlternatives",
+    "method": "POST",
+    "path": "/api/projects/:id/sourcing/alternatives",
+    "event": "sourcing.alternatives_scored"
+  },
+  {
+    "name": "createConstructionPackage",
+    "method": "POST",
+    "path": "/api/projects/:id/packages",
+    "event": "construction.package_created"
+  },
+  {
+    "name": "createSubmittal",
+    "method": "POST",
+    "path": "/api/projects/:id/submittals",
+    "event": "submittal.created"
+  },
+  {
+    "name": "createITPInstance",
+    "method": "POST",
+    "path": "/api/projects/:id/inspections/plans",
+    "event": "itp.instantiated"
+  },
+  {
+    "name": "recordDailyPlan",
+    "method": "POST",
+    "path": "/api/projects/:id/daily-plans",
+    "offline_mutation": true
+  },
+  {
+    "name": "recordCrewHours",
+    "method": "POST",
+    "path": "/api/projects/:id/labor",
+    "offline_mutation": true
+  },
+  {
+    "name": "commissioningReadiness",
+    "method": "GET",
+    "path": "/api/projects/:id/commissioning/readiness"
+  }
+]

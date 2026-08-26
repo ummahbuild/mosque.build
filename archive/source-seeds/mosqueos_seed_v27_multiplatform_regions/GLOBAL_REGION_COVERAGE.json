@@ -1,0 +1,895 @@
+[
+  {
+    "id": "REG-001",
+    "name": "Arabian Peninsula / Gulf",
+    "macroregion": "Middle East",
+    "countries": [
+      "Saudi Arabia",
+      "UAE",
+      "Qatar",
+      "Kuwait",
+      "Bahrain",
+      "Oman",
+      "Yemen"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-002",
+    "name": "Levant",
+    "macroregion": "Middle East",
+    "countries": [
+      "Jordan",
+      "Palestine",
+      "Lebanon",
+      "Syria"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-003",
+    "name": "Iraq / Mesopotamia",
+    "macroregion": "Middle East",
+    "countries": [
+      "Iraq"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-004",
+    "name": "Iran / Persian",
+    "macroregion": "West & Central Asia",
+    "countries": [
+      "Iran"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-005",
+    "name": "Anatolia / Türkiye",
+    "macroregion": "West Asia",
+    "countries": [
+      "Türkiye"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-006",
+    "name": "Caucasus",
+    "macroregion": "West Asia",
+    "countries": [
+      "Azerbaijan",
+      "Georgia",
+      "Armenia"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-007",
+    "name": "Central Asia",
+    "macroregion": "Central Asia",
+    "countries": [
+      "Kazakhstan",
+      "Uzbekistan",
+      "Kyrgyzstan",
+      "Tajikistan",
+      "Turkmenistan"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-008",
+    "name": "Afghanistan",
+    "macroregion": "South/Central Asia",
+    "countries": [
+      "Afghanistan"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-009",
+    "name": "Pakistan",
+    "macroregion": "South Asia",
+    "countries": [
+      "Pakistan"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-010",
+    "name": "India",
+    "macroregion": "South Asia",
+    "countries": [
+      "India"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-011",
+    "name": "Bangladesh",
+    "macroregion": "South Asia",
+    "countries": [
+      "Bangladesh"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-012",
+    "name": "Sri Lanka / Maldives",
+    "macroregion": "South Asia",
+    "countries": [
+      "Sri Lanka",
+      "Maldives"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-013",
+    "name": "Malay Peninsula",
+    "macroregion": "Southeast Asia",
+    "countries": [
+      "Malaysia",
+      "Singapore",
+      "Brunei"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-014",
+    "name": "Indonesia",
+    "macroregion": "Southeast Asia",
+    "countries": [
+      "Indonesia"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-015",
+    "name": "Mainland Southeast Asia",
+    "macroregion": "Southeast Asia",
+    "countries": [
+      "Thailand",
+      "Cambodia",
+      "Vietnam",
+      "Laos",
+      "Myanmar"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-016",
+    "name": "Philippines / Maritime minorities",
+    "macroregion": "Southeast Asia",
+    "countries": [
+      "Philippines",
+      "Timor-Leste"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-017",
+    "name": "China",
+    "macroregion": "East Asia",
+    "countries": [
+      "China"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-018",
+    "name": "Japan / Korea",
+    "macroregion": "East Asia",
+    "countries": [
+      "Japan",
+      "South Korea"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-019",
+    "name": "Horn of Africa",
+    "macroregion": "Africa",
+    "countries": [
+      "Somalia",
+      "Djibouti",
+      "Ethiopia",
+      "Eritrea"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-020",
+    "name": "Swahili Coast / East Africa",
+    "macroregion": "Africa",
+    "countries": [
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "Comoros"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-021",
+    "name": "Great Lakes / Inland East Africa",
+    "macroregion": "Africa",
+    "countries": [
+      "Uganda",
+      "Rwanda",
+      "Burundi",
+      "DR Congo"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-022",
+    "name": "Sudan / Nile corridor",
+    "macroregion": "Africa",
+    "countries": [
+      "Sudan",
+      "South Sudan"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-023",
+    "name": "Egypt",
+    "macroregion": "North Africa",
+    "countries": [
+      "Egypt"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-024",
+    "name": "Maghreb",
+    "macroregion": "North Africa",
+    "countries": [
+      "Morocco",
+      "Algeria",
+      "Tunisia",
+      "Libya",
+      "Mauritania"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-025",
+    "name": "Sahel West",
+    "macroregion": "Africa",
+    "countries": [
+      "Mali",
+      "Niger",
+      "Burkina Faso",
+      "Chad"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-026",
+    "name": "West African Atlantic",
+    "macroregion": "Africa",
+    "countries": [
+      "Senegal",
+      "Gambia",
+      "Guinea",
+      "Sierra Leone",
+      "Liberia",
+      "Ghana",
+      "Côte d’Ivoire"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-027",
+    "name": "Nigeria / Lake Chad south",
+    "macroregion": "Africa",
+    "countries": [
+      "Nigeria",
+      "Cameroon",
+      "Benin",
+      "Togo"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-028",
+    "name": "Southern Africa",
+    "macroregion": "Africa",
+    "countries": [
+      "South Africa",
+      "Zimbabwe",
+      "Zambia",
+      "Malawi",
+      "Botswana",
+      "Namibia"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-029",
+    "name": "Madagascar / Western Indian Ocean",
+    "macroregion": "Africa",
+    "countries": [
+      "Madagascar",
+      "Mauritius",
+      "Seychelles"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-030",
+    "name": "Balkans",
+    "macroregion": "Europe",
+    "countries": [
+      "Bosnia and Herzegovina",
+      "Albania",
+      "Kosovo",
+      "North Macedonia",
+      "Bulgaria",
+      "Greece",
+      "Montenegro",
+      "Serbia"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-031",
+    "name": "Eastern Europe / Russia / Volga",
+    "macroregion": "Europe/Eurasia",
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "Belarus",
+      "Moldova"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-032",
+    "name": "Western Europe",
+    "macroregion": "Europe",
+    "countries": [
+      "UK",
+      "Ireland",
+      "France",
+      "Germany",
+      "Belgium",
+      "Netherlands",
+      "Spain",
+      "Portugal",
+      "Italy",
+      "Switzerland",
+      "Austria"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-033",
+    "name": "Northern Europe",
+    "macroregion": "Europe",
+    "countries": [
+      "Sweden",
+      "Norway",
+      "Denmark",
+      "Finland",
+      "Iceland"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-034",
+    "name": "North America",
+    "macroregion": "Americas",
+    "countries": [
+      "United States",
+      "Canada"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-035",
+    "name": "Mexico / Central America / Caribbean",
+    "macroregion": "Americas",
+    "countries": [
+      "Mexico",
+      "Central America",
+      "Caribbean"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-036",
+    "name": "South America",
+    "macroregion": "Americas",
+    "countries": [
+      "Brazil",
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "Venezuela",
+      "Peru",
+      "Guyana",
+      "Suriname",
+      "other South America"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-037",
+    "name": "Australia / New Zealand",
+    "macroregion": "Oceania",
+    "countries": [
+      "Australia",
+      "New Zealand"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  },
+  {
+    "id": "REG-038",
+    "name": "Pacific Islands",
+    "macroregion": "Oceania",
+    "countries": [
+      "Fiji",
+      "Papua New Guinea",
+      "other Pacific islands"
+    ],
+    "required_modules": [
+      "mosque typologies",
+      "historic references",
+      "contemporary examples",
+      "materials/crafts",
+      "climate/site",
+      "vendors/products",
+      "cost data",
+      "regulations",
+      "landscape/plants",
+      "professionals"
+    ],
+    "coverage_state": "taxonomy_created_data_population_required"
+  }
+]

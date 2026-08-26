@@ -1,0 +1,35 @@
+{
+  "required_packages": [
+    "as-built drawings",
+    "IFC/BIM model if contracted",
+    "equipment schedules",
+    "O&M manuals",
+    "warranties",
+    "test certificates",
+    "commissioning reports",
+    "inspection approvals",
+    "training records",
+    "spare parts",
+    "keys/access credentials inventory",
+    "supplier contacts"
+  ],
+  "asset_fields": [
+    "asset_id",
+    "system",
+    "location",
+    "manufacturer",
+    "model",
+    "serial",
+    "install_date",
+    "warranty_start",
+    "warranty_end",
+    "supplier",
+    "installer",
+    "maintenance_frequency",
+    "replacement_year",
+    "replacement_cost_estimate",
+    "manual_url",
+    "QR_code"
+  ],
+  "rule": "Every maintainable installed asset should transition from procurement/construction record to operations asset without re-keying."
+}

@@ -1,0 +1,40 @@
+{
+  "reference_statuses": [
+    "self_reported",
+    "evidence_submitted",
+    "mosque_confirmed",
+    "reviewer_verified",
+    "disputed",
+    "withdrawn"
+  ],
+  "evidence_types": [
+    "invoice/PO excerpt",
+    "contract excerpt",
+    "submittal approval",
+    "delivery record",
+    "installation photo",
+    "architect/owner confirmation",
+    "public project source"
+  ],
+  "fields": [
+    "vendor",
+    "mosque/project",
+    "scope",
+    "products/services",
+    "location",
+    "date range",
+    "value optional/private",
+    "evidence",
+    "media rights",
+    "client confirmation",
+    "reviewer",
+    "status",
+    "dispute history"
+  ],
+  "public_display": [
+    "show verification level",
+    "show exact scope such as carpet/stone/doors/calligraphy/AV rather than generic 'built mosque'",
+    "never imply mosque endorsement unless confirmed",
+    "link to mosque project/profile where allowed"
+  ]
+}

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "IAS-001",
+    "name": "Islamic Design Home",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-002",
+    "name": "Typology Browser",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-003",
+    "name": "Typology Compare",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-004",
+    "name": "Regional Style Browser",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-005",
+    "name": "Style Detail",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-006",
+    "name": "Pattern Library",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-007",
+    "name": "Pattern Generator",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-008",
+    "name": "Pattern Panel Editor",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-009",
+    "name": "Girih/Interlace Editor",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-010",
+    "name": "Arabesque Editor",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-011",
+    "name": "Muqarnas Studio",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-012",
+    "name": "Karbandi Vault Studio",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-013",
+    "name": "Jali/Mashrabiya Studio",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-014",
+    "name": "Calligraphy Placement",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-015",
+    "name": "Mihrab Studio",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-016",
+    "name": "Minbar Studio",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-017",
+    "name": "Dome Studio",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-018",
+    "name": "Minaret Studio",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-019",
+    "name": "Courtyard/Sahn Studio",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-020",
+    "name": "Arcade/Riwaq Studio",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-021",
+    "name": "Iwan Studio",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-022",
+    "name": "Material Palette",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-023",
+    "name": "Craft Library",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-024",
+    "name": "Historic Reference Viewer",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-025",
+    "name": "Style Mix Inspector",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-026",
+    "name": "Authenticity/Provenance Inspector",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-027",
+    "name": "Ornament Budget",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-028",
+    "name": "Maintenance Complexity",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-029",
+    "name": "Pattern-to-Product Sourcing",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-030",
+    "name": "Pattern Fabrication Export",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-031",
+    "name": "2D Vector Export",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-032",
+    "name": "CNC/Laser Export Prep",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-033",
+    "name": "Tile Module Schedule",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-034",
+    "name": "Stone Carving Schedule",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-035",
+    "name": "Wood Screen Schedule",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-036",
+    "name": "Design Inspiration Board",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-037",
+    "name": "Regional Alternatives",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-038",
+    "name": "Local Craft Substitution",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-039",
+    "name": "Contemporary Abstraction Mode",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  },
+  {
+    "id": "IAS-040",
+    "name": "Historic Reconstruction Mode",
+    "states": [
+      "default",
+      "loading",
+      "empty",
+      "error",
+      "source_warning",
+      "review_required"
+    ],
+    "must_show": [
+      "source/provenance where applicable",
+      "design vs historic-fact distinction",
+      "material/fabrication impact",
+      "cost/maintenance impact"
+    ]
+  }
+]

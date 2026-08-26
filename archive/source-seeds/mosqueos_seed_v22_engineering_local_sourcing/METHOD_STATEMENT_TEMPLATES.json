@@ -1,0 +1,382 @@
+[
+  {
+    "id": "MS-001",
+    "key": "earthworks",
+    "name": "Earthworks/excavation",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-002",
+    "key": "concrete",
+    "name": "Concrete works",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-003",
+    "key": "masonry",
+    "name": "Masonry",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-004",
+    "key": "structural_steel",
+    "name": "Structural steel",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-005",
+    "key": "roofing",
+    "name": "Roofing/waterproofing",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-006",
+    "key": "windows_doors",
+    "name": "Windows and doors",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-007",
+    "key": "drywall_partition",
+    "name": "Partitions/ceilings",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-008",
+    "key": "wudu_waterproofing",
+    "name": "Wudu waterproofing",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-009",
+    "key": "plumbing",
+    "name": "Plumbing/drainage",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-010",
+    "key": "electrical",
+    "name": "Electrical",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-011",
+    "key": "hvac",
+    "name": "HVAC",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-012",
+    "key": "fire_alarm",
+    "name": "Fire/life-safety systems",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-013",
+    "key": "carpet",
+    "name": "Prayer carpet",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-014",
+    "key": "tile_zellige",
+    "name": "Tile/zellige",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-015",
+    "key": "stone_cladding",
+    "name": "Stone/mihrab",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-016",
+    "key": "minbar_joinery",
+    "name": "Minbar/joinery",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-017",
+    "key": "audio",
+    "name": "Mosque audio",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-018",
+    "key": "solar",
+    "name": "Solar/battery",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-019",
+    "key": "external_works",
+    "name": "Paving/landscape",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  },
+  {
+    "id": "MS-020",
+    "key": "adaptive_reuse_demo",
+    "name": "Adaptive reuse demolition",
+    "sections": [
+      "scope",
+      "references/current drawings",
+      "materials",
+      "labor/equipment",
+      "site readiness",
+      "sequence",
+      "temporary works",
+      "quality/ITP",
+      "safety",
+      "environment/public protection",
+      "records"
+    ],
+    "status": "generic_template_requires_contractor_project_review"
+  }
+]

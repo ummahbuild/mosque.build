@@ -1,0 +1,64 @@
+{
+  "money_states": [
+    "pledged",
+    "pending",
+    "authorized",
+    "captured",
+    "settled",
+    "failed",
+    "refunded",
+    "partially_refunded",
+    "chargeback",
+    "reversed",
+    "offline_received",
+    "deposited"
+  ],
+  "amounts": [
+    "gross",
+    "processor fee",
+    "platform fee if any",
+    "tax if applicable",
+    "net settlement",
+    "FX conversion",
+    "restricted allocation"
+  ],
+  "fund_accounting": [
+    "general/unrestricted",
+    "construction",
+    "land",
+    "wudu",
+    "madrasa",
+    "operations",
+    "maintenance reserve",
+    "waqf",
+    "zakat only if independently designated/managed appropriately",
+    "Ramadan/iftar",
+    "other board-approved restricted funds"
+  ],
+  "reconciliation": [
+    "processor payout match",
+    "bank deposit match",
+    "cash deposit match",
+    "external crowdfunding transfer",
+    "unmatched transaction queue",
+    "fee reconciliation",
+    "refund/chargeback",
+    "FX difference",
+    "manual adjustment with approval/audit"
+  ],
+  "receipts": [
+    "receipt number",
+    "recipient legal entity",
+    "EIN/registration where appropriate",
+    "donor",
+    "date",
+    "amount",
+    "currency",
+    "goods/services statement if applicable",
+    "tax disclosure",
+    "campaign/fund",
+    "payment channel",
+    "corrected/void receipt relationship"
+  ],
+  "guardrail": "mosque.build records and issues receipts only according to the verified recipient entity configuration; it does not manufacture tax-exempt status."
+}

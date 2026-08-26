@@ -1,0 +1,136 @@
+{
+  "pure_functions": [
+    {
+      "name": "polygonArea",
+      "inputs": [
+        "points"
+      ],
+      "outputs": [
+        "m2"
+      ]
+    },
+    {
+      "name": "polygonCentroid",
+      "inputs": [
+        "points"
+      ],
+      "outputs": [
+        "point"
+      ]
+    },
+    {
+      "name": "wallFromSegment",
+      "inputs": [
+        "p1",
+        "p2",
+        "thickness",
+        "height"
+      ],
+      "outputs": [
+        "wall geometry"
+      ]
+    },
+    {
+      "name": "splitWall",
+      "inputs": [
+        "wall",
+        "distance"
+      ],
+      "outputs": [
+        "wallA",
+        "wallB"
+      ]
+    },
+    {
+      "name": "insertOpening",
+      "inputs": [
+        "wall",
+        "offset",
+        "width",
+        "height",
+        "sill"
+      ],
+      "outputs": [
+        "wall/opening relation"
+      ]
+    },
+    {
+      "name": "offsetPolygon",
+      "inputs": [
+        "polygon",
+        "distance"
+      ],
+      "outputs": [
+        "polygon"
+      ]
+    },
+    {
+      "name": "intersects",
+      "inputs": [
+        "geometryA",
+        "geometryB"
+      ],
+      "outputs": [
+        "boolean/details"
+      ]
+    },
+    {
+      "name": "roomBoundaryFromWalls",
+      "inputs": [
+        "walls"
+      ],
+      "outputs": [
+        "room polygons"
+      ]
+    },
+    {
+      "name": "transformGeometry",
+      "inputs": [
+        "geometry",
+        "matrix"
+      ],
+      "outputs": [
+        "geometry"
+      ]
+    },
+    {
+      "name": "diffObjects",
+      "inputs": [
+        "versionA",
+        "versionB"
+      ],
+      "outputs": [
+        "created",
+        "deleted",
+        "changed"
+      ]
+    },
+    {
+      "name": "saffLayout",
+      "inputs": [
+        "room polygon",
+        "qibla angle",
+        "obstacles",
+        "spacing"
+      ],
+      "outputs": [
+        "rows",
+        "positions",
+        "capacity"
+      ]
+    },
+    {
+      "name": "fitProduct",
+      "inputs": [
+        "product box",
+        "host",
+        "clearances"
+      ],
+      "outputs": [
+        "compatibility"
+      ]
+    }
+  ],
+  "determinism": "same inputs + ruleset produce same outputs",
+  "test_vectors_required": true
+}

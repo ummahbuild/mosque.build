@@ -1,0 +1,452 @@
+[
+  {
+    "id": "pat_star8_square",
+    "name": "Eight-point star from square/45° grid",
+    "family": "geometric",
+    "symmetry": "4/8-fold",
+    "seed_geometry": [
+      "square grid",
+      "rotated square",
+      "octagram"
+    ],
+    "uses": [
+      "tile",
+      "jali",
+      "ceiling",
+      "screen",
+      "floor border"
+    ],
+    "source_refs": [
+      "src_met_plate"
+    ],
+    "generator_params": [
+      "cell_size",
+      "strap_width",
+      "rotation",
+      "border"
+    ]
+  },
+  {
+    "id": "pat_star10_rosette",
+    "name": "Ten-point star / decagonal rosette",
+    "family": "geometric",
+    "symmetry": "5/10-fold",
+    "seed_geometry": [
+      "decagon",
+      "radial star"
+    ],
+    "uses": [
+      "tile",
+      "screen",
+      "panel"
+    ],
+    "source_refs": [],
+    "generator_params": [
+      "radius",
+      "star_depth",
+      "strap_width"
+    ]
+  },
+  {
+    "id": "pat_star12",
+    "name": "Twelve-point star grid",
+    "family": "geometric",
+    "symmetry": "6/12-fold",
+    "seed_geometry": [
+      "hexagonal/radial construction"
+    ],
+    "uses": [
+      "tile",
+      "stone",
+      "ceiling"
+    ],
+    "source_refs": [],
+    "generator_params": [
+      "radius",
+      "repeat_spacing",
+      "strap_width"
+    ]
+  },
+  {
+    "id": "pat_square_octagon",
+    "name": "Square-and-octagon tessellation",
+    "family": "geometric",
+    "symmetry": "4/8-fold",
+    "seed_geometry": [
+      "regular octagon",
+      "square connector"
+    ],
+    "uses": [
+      "floor",
+      "tile",
+      "screen"
+    ],
+    "source_refs": [
+      "src_met_plate"
+    ],
+    "generator_params": [
+      "octagon_size",
+      "joint_width"
+    ]
+  },
+  {
+    "id": "pat_girih_basic",
+    "name": "Girih-style strapwork seed",
+    "family": "geometric_interlace",
+    "symmetry": "variable",
+    "seed_geometry": [
+      "decagon",
+      "pentagon",
+      "rhombus",
+      "bow-tie",
+      "hexagon"
+    ],
+    "uses": [
+      "tile",
+      "wood",
+      "stone",
+      "screen"
+    ],
+    "source_refs": [],
+    "generator_params": [
+      "tile_scale",
+      "strap_width",
+      "intersection_style"
+    ]
+  },
+  {
+    "id": "pat_mamluk_interlace",
+    "name": "Mamluk-style dense interlace seed",
+    "family": "geometric_interlace",
+    "symmetry": "variable",
+    "seed_geometry": [
+      "tangential circles",
+      "star interlace"
+    ],
+    "uses": [
+      "metal",
+      "glass",
+      "wood",
+      "stone"
+    ],
+    "source_refs": [
+      "src_met_plate"
+    ],
+    "generator_params": [
+      "circle_count",
+      "interlace_depth",
+      "line_width"
+    ]
+  },
+  {
+    "id": "pat_arabesque_vine",
+    "name": "Continuous arabesque vine",
+    "family": "vegetal",
+    "symmetry": "bilateral/repeating",
+    "seed_geometry": [
+      "S-curve vines",
+      "split leaves",
+      "palmettes"
+    ],
+    "uses": [
+      "stucco",
+      "tile",
+      "wood",
+      "paint"
+    ],
+    "source_refs": [
+      "src_vam_islamic_middle_east"
+    ],
+    "generator_params": [
+      "vine_density",
+      "leaf_scale",
+      "mirror",
+      "repeat_length"
+    ]
+  },
+  {
+    "id": "pat_palmette_band",
+    "name": "Palmette frieze band",
+    "family": "vegetal_border",
+    "symmetry": "translation",
+    "seed_geometry": [
+      "palmette",
+      "split leaf"
+    ],
+    "uses": [
+      "frieze",
+      "cornice",
+      "door surround"
+    ],
+    "source_refs": [
+      "src_vam_islamic_middle_east"
+    ],
+    "generator_params": [
+      "band_height",
+      "repeat",
+      "leaf_density"
+    ]
+  },
+  {
+    "id": "pat_muqarnas_nishapur_seed",
+    "name": "Nishapur-inspired muqarnas cell seed",
+    "family": "muqarnas",
+    "symmetry": "modular",
+    "seed_geometry": [
+      "niche cell",
+      "squinch transition"
+    ],
+    "uses": [
+      "squinch",
+      "cornice",
+      "portal"
+    ],
+    "source_refs": [
+      "src_met_muqarnas"
+    ],
+    "generator_params": [
+      "cell_width",
+      "depth",
+      "tier_count"
+    ]
+  },
+  {
+    "id": "pat_karbandi_star_vault",
+    "name": "Karbandi star-vault rib seed",
+    "family": "vaulting",
+    "symmetry": "radial",
+    "seed_geometry": [
+      "ribs",
+      "star polygon",
+      "vault cells"
+    ],
+    "uses": [
+      "dome interior",
+      "vault",
+      "ceiling"
+    ],
+    "source_refs": [
+      "src_vam_karbandi"
+    ],
+    "generator_params": [
+      "rib_count",
+      "star_points",
+      "rise",
+      "bay_shape"
+    ]
+  },
+  {
+    "id": "pat_jali_hex",
+    "name": "Hexagonal jali lattice",
+    "family": "screen",
+    "symmetry": "6-fold",
+    "seed_geometry": [
+      "hexagon",
+      "triangular connectors"
+    ],
+    "uses": [
+      "jali",
+      "privacy screen",
+      "ventilation screen"
+    ],
+    "source_refs": [],
+    "generator_params": [
+      "cell_size",
+      "bar_width",
+      "open_ratio"
+    ]
+  },
+  {
+    "id": "pat_jali_star8",
+    "name": "Eight-point star jali",
+    "family": "screen",
+    "symmetry": "8-fold",
+    "seed_geometry": [
+      "octagram",
+      "square connectors"
+    ],
+    "uses": [
+      "jali",
+      "clerestory",
+      "partition"
+    ],
+    "source_refs": [],
+    "generator_params": [
+      "cell_size",
+      "bar_width",
+      "panel_margin"
+    ]
+  },
+  {
+    "id": "pat_brick_herringbone",
+    "name": "Decorative brick herringbone field",
+    "family": "masonry_pattern",
+    "symmetry": "translation",
+    "seed_geometry": [
+      "brick module",
+      "45° rotations"
+    ],
+    "uses": [
+      "facade",
+      "spandrel",
+      "courtyard wall"
+    ],
+    "source_refs": [],
+    "generator_params": [
+      "brick_size",
+      "joint",
+      "field_rotation"
+    ]
+  },
+  {
+    "id": "pat_brick_basket",
+    "name": "Brick basket-weave field",
+    "family": "masonry_pattern",
+    "symmetry": "translation",
+    "seed_geometry": [
+      "paired brick modules"
+    ],
+    "uses": [
+      "facade",
+      "paving"
+    ],
+    "source_refs": [],
+    "generator_params": [
+      "brick_size",
+      "joint"
+    ]
+  },
+  {
+    "id": "pat_zellige_star_cross",
+    "name": "Star-and-cross zellige seed",
+    "family": "tile",
+    "symmetry": "4/8-fold",
+    "seed_geometry": [
+      "star",
+      "cross connector"
+    ],
+    "uses": [
+      "dado",
+      "fountain",
+      "courtyard",
+      "mihrab surround"
+    ],
+    "source_refs": [
+      "src_vam_islamic_middle_east"
+    ],
+    "generator_params": [
+      "tile_size",
+      "palette",
+      "joint_width"
+    ]
+  },
+  {
+    "id": "pat_iznik_floral_panel",
+    "name": "Floral ceramic panel seed",
+    "family": "tile_vegetal",
+    "symmetry": "panel",
+    "seed_geometry": [
+      "tulip/leaf-inspired vegetal abstraction",
+      "scroll"
+    ],
+    "uses": [
+      "wall panel",
+      "mihrab flank",
+      "portal"
+    ],
+    "source_refs": [
+      "src_vam_islamic_middle_east"
+    ],
+    "generator_params": [
+      "panel_ratio",
+      "motif_density",
+      "palette"
+    ]
+  },
+  {
+    "id": "pat_calligraphy_frieze",
+    "name": "Calligraphy frieze path",
+    "family": "calligraphy_layout",
+    "symmetry": "path-based",
+    "seed_geometry": [
+      "horizontal band",
+      "arched band",
+      "circular drum"
+    ],
+    "uses": [
+      "prayer hall",
+      "courtyard",
+      "dome drum"
+    ],
+    "source_refs": [],
+    "generator_params": [
+      "path_length",
+      "band_height",
+      "script_placeholder",
+      "spacing"
+    ]
+  },
+  {
+    "id": "pat_mashrabiya_square",
+    "name": "Square-grid mashrabiya seed",
+    "family": "wood_screen",
+    "symmetry": "4-fold",
+    "seed_geometry": [
+      "turned-wood lattice abstraction"
+    ],
+    "uses": [
+      "screen",
+      "window",
+      "partition"
+    ],
+    "source_refs": [],
+    "generator_params": [
+      "cell_size",
+      "member_width",
+      "depth",
+      "open_ratio"
+    ]
+  },
+  {
+    "id": "pat_sudano_buttress_rhythm",
+    "name": "Sudano-Sahelian buttress/façade rhythm seed",
+    "family": "facade_rhythm",
+    "symmetry": "linear",
+    "seed_geometry": [
+      "buttress spacing",
+      "toron-like projection placeholder"
+    ],
+    "uses": [
+      "earthen facade"
+    ],
+    "source_refs": [],
+    "generator_params": [
+      "bay_width",
+      "buttress_depth",
+      "projection_spacing"
+    ],
+    "guardrail": "regional construction expertise required"
+  },
+  {
+    "id": "pat_swahili_carved_door",
+    "name": "Swahili carved-door panel grammar seed",
+    "family": "wood_carving",
+    "symmetry": "bilateral/panel",
+    "seed_geometry": [
+      "frame bands",
+      "center panel",
+      "floral/geometric carving zones"
+    ],
+    "uses": [
+      "entry door",
+      "interior feature"
+    ],
+    "source_refs": [],
+    "generator_params": [
+      "door_ratio",
+      "band_count",
+      "panel_depth"
+    ],
+    "guardrail": "craft motif provenance must be reviewed"
+  }
+]

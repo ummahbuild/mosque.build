@@ -1,0 +1,81 @@
+{
+  "steps": [
+    "select verified recipient entity",
+    "select project/design scenario",
+    "select fundraising goal",
+    "select restricted fund",
+    "choose campaign type",
+    "build story",
+    "select approved renders/photos",
+    "select budget disclosure level",
+    "milestones",
+    "select giving channels",
+    "tax/receipt disclosure",
+    "religious designation review if used",
+    "launch review",
+    "publish",
+    "updates",
+    "closeout/report"
+  ],
+  "campaign_types": [
+    "whole mosque",
+    "land acquisition",
+    "conversion/renovation",
+    "roof repair",
+    "wudu",
+    "women/family facilities",
+    "madrasa",
+    "solar",
+    "carpet",
+    "audio",
+    "accessibility",
+    "community kitchen",
+    "janazah",
+    "maintenance reserve",
+    "waqf asset",
+    "Ramadan/iftar"
+  ],
+  "story_blocks": [
+    "community need",
+    "existing conditions",
+    "proposed solution",
+    "3D render",
+    "floor plan",
+    "capacity impact",
+    "budget",
+    "what is already funded",
+    "timeline",
+    "project team",
+    "permits/status",
+    "risks/contingency",
+    "ongoing operating plan",
+    "updates"
+  ],
+  "trust_signals": [
+    "verified entity",
+    "verified bank/payment recipient",
+    "board/project team",
+    "approved design version",
+    "budget version",
+    "permit stage",
+    "contractor/architect when appointed",
+    "source-backed progress",
+    "public expenditure updates",
+    "annual report link"
+  ],
+  "public_budget_options": [
+    "summary only",
+    "trade/category breakdown",
+    "full donor-facing line-item transparency"
+  ],
+  "closeout": [
+    "campaign ended",
+    "goal outcome",
+    "net collected",
+    "fund allocation",
+    "photos/progress",
+    "remaining balance",
+    "reallocation approval if needed",
+    "donor report"
+  ]
+}

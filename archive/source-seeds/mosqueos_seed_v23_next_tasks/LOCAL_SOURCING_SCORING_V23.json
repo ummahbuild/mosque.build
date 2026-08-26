@@ -1,0 +1,30 @@
+{
+  "weights": {
+    "technical_fit": 35,
+    "landed_cost": 15,
+    "lead_time": 12,
+    "verification": 8,
+    "repairability": 8,
+    "spares": 5,
+    "installer_availability": 5,
+    "local_value": 5,
+    "climate_fit": 5,
+    "reference_evidence": 2
+  },
+  "hard_gates": [
+    "technical incompatibility",
+    "required certification missing",
+    "cannot ship/deliver to site",
+    "professional rejection"
+  ],
+  "normalization": "scores 0-100 per dimension; unknown values reduce confidence but are not treated as zero performance",
+  "outputs": [
+    "weighted_score",
+    "confidence",
+    "failed_gates",
+    "unknowns",
+    "landed_cost",
+    "lead_time",
+    "distance/locality"
+  ]
+}

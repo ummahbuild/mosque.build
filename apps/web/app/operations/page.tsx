@@ -1,0 +1,1 @@
+import areas from "@/data/product-areas.json";import {ProductAreaPage} from "@/components/product-area-page";export default function Page(){const area=areas.find(a=>a.slug==="operations")!;return <ProductAreaPage area={area}/>}

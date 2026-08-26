@@ -1,0 +1,3383 @@
+{
+  "generated": "2026-08-16",
+  "product": "mosque.build",
+  "release": "production-base-v3",
+  "file_count": 676,
+  "files": [
+    {
+      "path": "package.json",
+      "bytes": 313,
+      "sha256": "dd227305d16f3295fc59fd1975abf1522fb3591548e8ed31747a8de6162842df"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1772,
+      "sha256": "49ac6582649bb4b245b852f2c74a3be312a558ccb1000d9396db1ba688812d56"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2616,
+      "sha256": "be978da0c64120eba70833c03f1cd5d8ba60f402d66bc6d7351b653ef5ba37f1"
+    },
+    {
+      "path": "tests/registry.test.mjs",
+      "bytes": 797,
+      "sha256": "ffe3f92f4c3c33a85b87cf3643d571a8f02028ea22ba0713887d25735c0a4ce3"
+    },
+    {
+      "path": "supabase/README.md",
+      "bytes": 666,
+      "sha256": "369e3271dac246301e651bc81a349ea9c9b3642d01b33d7df8bf307a569f3290"
+    },
+    {
+      "path": "supabase/migration-manifest.json",
+      "bytes": 1753,
+      "sha256": "92b63aa10a44c1f8119937e5d5e9192af97595046f44b068eb74b547e062e64d"
+    },
+    {
+      "path": "docs/07_CURRENT_TECH_BASELINE.md",
+      "bytes": 807,
+      "sha256": "2536db32b23f05eaa481a9b90276f098522fa8e4b79c8be4ff7f01a425094854"
+    },
+    {
+      "path": "docs/08_LANDING_PAGE_PWA.md",
+      "bytes": 3027,
+      "sha256": "0affc8b2772e8a086d5aa1b6bc0b253312e2006ccea5635e80a679d7dd607174"
+    },
+    {
+      "path": "docs/00_PRODUCT_CONTEXT.md",
+      "bytes": 1870,
+      "sha256": "3d16890875fbcb02ace82e7627a982ae8bbb10167aa0ab9c8a68f14e18a88b02"
+    },
+    {
+      "path": "docs/05_EXTERNAL_DEPENDENCIES.md",
+      "bytes": 720,
+      "sha256": "28442603a74515f4f453eed129b09ab2dfc1a53a87f05966a7c281fb841c34a8"
+    },
+    {
+      "path": "docs/04_RELEASE_GATES.md",
+      "bytes": 1380,
+      "sha256": "b7f1d3fb89559e10274a101e4aeea79ac79cb749e3045153dc6f42b9911c2cbd"
+    },
+    {
+      "path": "docs/06_WAQF_BOOKS_LIBRARY_MARKETPLACE.md",
+      "bytes": 2202,
+      "sha256": "a3b9c4377525256c10aa9364069e219927e7a3f4a8b765a6dfd4a67347d5f2ea"
+    },
+    {
+      "path": "docs/FEATURE_REGISTRY_SUMMARY.md",
+      "bytes": 8155,
+      "sha256": "3cd218c0a3bd12b8bbc4efb31ad098975147c75dd2a92fd264afd8236aa70ea4"
+    },
+    {
+      "path": "docs/VALIDATION_REPORT_V3.md",
+      "bytes": 1447,
+      "sha256": "2b66c4de0436a30ab140527b1963b9560ae848c5e6ae262e5b73935461c53575"
+    },
+    {
+      "path": "docs/01_REPOSITORY_MAP.md",
+      "bytes": 1222,
+      "sha256": "d41736a569ea3a67df9846b16e3b8dea9d5fe15353effb34f0ab01c685522296"
+    },
+    {
+      "path": "docs/02_FEATURE_PRIORITIZATION.md",
+      "bytes": 3022,
+      "sha256": "acad8e54bb32fa4075b377fa876a46430ced77cf14eb7a738f541cc35bbb87b0"
+    },
+    {
+      "path": "docs/09_LANDING_PWA_V3_UPGRADE.md",
+      "bytes": 1968,
+      "sha256": "8b40e3e8ef945491e17e9a00c8dba40962893f45565ea2bccf88442484df3a38"
+    },
+    {
+      "path": "docs/03_TEST_STRATEGY.md",
+      "bytes": 1596,
+      "sha256": "593c7f9575756ef7256d0d092b8603e69af4eb3febb1436fe09580a9b102c959"
+    },
+    {
+      "path": "scripts/validate.mjs",
+      "bytes": 2194,
+      "sha256": "a180cfbb7cb5cb8f1c678ab1df15e97d8eb0a4dd824fb65cb7cf1f80644bf869"
+    },
+    {
+      "path": "data/IMPLEMENTATION_WAVES.json",
+      "bytes": 45746,
+      "sha256": "b06d8a84ce427b44904ddc9650f36a7cbed9fda8a1cc4608a9b1e72daa72b4cd"
+    },
+    {
+      "path": "data/FRAME_REGISTRY.json",
+      "bytes": 64924,
+      "sha256": "81e37640a9a7e58880da982fe38c94e36efa8018f5d135f225825b09e90b78dc"
+    },
+    {
+      "path": "data/FEATURE_REGISTRY.json",
+      "bytes": 7783211,
+      "sha256": "54d4b4259e8cffde51f082c80fcac7ab8704f4dad05c69fee1fc4e0796a692b5"
+    },
+    {
+      "path": "data/SOURCE_SEED_MANIFEST.json",
+      "bytes": 6577,
+      "sha256": "ed8c38896ba31f78698fa692add102cc85764b5dca53ec80df7a32cff748b7cd"
+    },
+    {
+      "path": "data/EXTERNAL_DEPENDENCIES.json",
+      "bytes": 2891,
+      "sha256": "27630b9b211e178292f8666d9b80280f89b8e9303bc0605d8b383e6418c273b1"
+    },
+    {
+      "path": "packages/ui/tokens.json",
+      "bytes": 374,
+      "sha256": "8fb0388aea65c4752bc80c349f01ecd47296e5a10f0bd4d6d1274315b26e386a"
+    },
+    {
+      "path": "packages/algorithms/v22-engineering_math.mjs",
+      "bytes": 968,
+      "sha256": "effe9bf3d1538b8e48bc2191c67268135bf327dc88c5bd1c526a303a1862797f"
+    },
+    {
+      "path": "packages/algorithms/v26-core_algorithms_v26.mjs",
+      "bytes": 7186,
+      "sha256": "ccb34bfe23a7df0b32955c444e60ff3cd7466f8715c748f44a40155121c5e0bf"
+    },
+    {
+      "path": "packages/algorithms/v27-renderer_registry.mjs",
+      "bytes": 1368,
+      "sha256": "5d0b2e7f13d46705d0c430192eea6c85c96da0fd18c2f256a1c17089bfaef236"
+    },
+    {
+      "path": "packages/algorithms/v24-landscape_math.mjs",
+      "bytes": 1023,
+      "sha256": "50a6067e063a4673c4065eb5d687af61d31d95021d42e654eb7dcd5ce713b3b1"
+    },
+    {
+      "path": "packages/algorithms/README.md",
+      "bytes": 398,
+      "sha256": "5a3c2a276c84faa673a6b3d9be864f5de041e435b0c8f533b265eb11ee01992f"
+    },
+    {
+      "path": "packages/algorithms/v25-core_impl_v25.mjs",
+      "bytes": 2430,
+      "sha256": "1e1cd75ac696358dc30ec0d91a7180a8f1efa78588eefde09330fbccbad51537"
+    },
+    {
+      "path": "packages/algorithms/v23-core_next_tasks.mjs",
+      "bytes": 2783,
+      "sha256": "f11db40b1c165bf9124a5c08fe971a0d448e80b68e63ea4b3b25f1102cd23e23"
+    },
+    {
+      "path": "packages/algorithms/v22-offline_outbox.mjs",
+      "bytes": 589,
+      "sha256": "11dfed0be9d1ff95289e7e4a60659f344caee2c8e6252bea66e14153e0ce0164"
+    },
+    {
+      "path": "packages/domain/src/index.ts",
+      "bytes": 1093,
+      "sha256": "52586b488a80cb26b2220ab1fe398db0e6f0e2f43a47677842adf5c6c85907f2"
+    },
+    {
+      "path": "assets/mockups/mosque_marketplace_comparison_dashboard.png",
+      "bytes": 1673986,
+      "sha256": "a9d3b52777ad4d2ebb906282bb3755f015042038bc80eec9f1273c987a3f060d"
+    },
+    {
+      "path": "assets/mockups/mosque.build_funding_dashboard_mockup.png",
+      "bytes": 1835007,
+      "sha256": "1ed3dac92902fc638e14025d1b0e63fc932719213c109a012a50dc19b83fa270"
+    },
+    {
+      "path": "assets/mockups/mosque.build_community_intelligence_dashboard.png",
+      "bytes": 1611375,
+      "sha256": "aefd283730a93b37c28e59a06ab332ba531c631da22c92b5e90803234bfc5f70"
+    },
+    {
+      "path": "assets/mockups/mosque_materials_design_dashboard.png",
+      "bytes": 1842357,
+      "sha256": "61053f4cb6815a144919f1f63ba589ac9f800af9776266ed8bbdbd595bbfd19d"
+    },
+    {
+      "path": "assets/mockups/qibla_wall_design_studio_dashboard.png",
+      "bytes": 1981992,
+      "sha256": "43b66ee80f5eb471f8e256e8fd29accf6efac39984c6d2ee6aa0d3a1ac1ba2ca"
+    },
+    {
+      "path": "assets/mockups/accessible_mosque_wayfinding_dashboard.png",
+      "bytes": 1991963,
+      "sha256": "4ed97bfddbd69f7ac677e22f44d46d40607ecf3d333d33635291498ccd0be023"
+    },
+    {
+      "path": "assets/mockups/mosque.build_procurement_dashboard_mockup.png",
+      "bytes": 1625224,
+      "sha256": "61d7ac7fd675437e61fcdd34ce6b3e88a556947a40c7c027445ffa2243930a0f"
+    },
+    {
+      "path": "assets/mockups/mosque_interior_design_dashboard.png",
+      "bytes": 1823795,
+      "sha256": "36145c7b9906170677e9939092009ecbb991a0f1f93c9de393b7dac9fd3d2f11"
+    },
+    {
+      "path": "assets/mockups/a_high_resolution_marketing_asset_collage_brand_ki.png",
+      "bytes": 2267992,
+      "sha256": "dc1276e74711e82ff63283822a4ac0a51c3062858662e86361d37656bb8eeb7a"
+    },
+    {
+      "path": "assets/mockups/mosque_planning_dashboard_mockup.png",
+      "bytes": 1699236,
+      "sha256": "f3ced32e78be18287ae52613934c135fdd828ffbf98b5ef537b9d0d5b30e06a8"
+    },
+    {
+      "path": "assets/mockups/mosque_event_design_studio_dashboard.png",
+      "bytes": 1639920,
+      "sha256": "e77fef2a57dcd53c2ae7bdd547eb2e26fb06809c78a438a6429ab1ef67156283"
+    },
+    {
+      "path": "assets/mockups/mosque_interior_design_studio_dashboard.png",
+      "bytes": 2185318,
+      "sha256": "6efcfa6c5f40e3b334340fcc186a0d681d62af25af4a57ae9c562a72c8de7115"
+    },
+    {
+      "path": "assets/mockups/mosque_interior_planning_dashboard.png",
+      "bytes": 1773825,
+      "sha256": "f6217de4908550ddafc5b26aad14d2becd0a5a53db82423aed5e22c4d94e85a1"
+    },
+    {
+      "path": "assets/mockups/mosque.build_funding_transparency_dashboard.png",
+      "bytes": 1685223,
+      "sha256": "8274a2726f9e8dbb789507ee20ee37222123fded8f620ed973d5cf7ada5609e8"
+    },
+    {
+      "path": "assets/mockups/mosque_sustainability_dashboard_showcase.png",
+      "bytes": 2081824,
+      "sha256": "aa74271166e048f62b8858674f7e4b9f3c7a851a9735ad9e006ded84157ffe0c"
+    },
+    {
+      "path": "assets/mockups/mosque_build_construction_dashboard.png",
+      "bytes": 1710907,
+      "sha256": "1112b2440d81cc9005340e02bdfc81abdeb16f64e3abfde12b466e5fb8eeca79"
+    },
+    {
+      "path": "assets/mockups/mosque.build_engineering_coordination_dashboard.png",
+      "bytes": 1658076,
+      "sha256": "e778927548332a6dd634346b3cf0c717a95b8b9ffd6a1664551adaa2c912eadd"
+    },
+    {
+      "path": "assets/mockups/a_wide_high_resolution_infographic_style_collage_s.png",
+      "bytes": 1905100,
+      "sha256": "52eb52283f07687ee95d5ae0b9156a9b8e3912dfd59070aabd47752c73d37628"
+    },
+    {
+      "path": "assets/mockups/mosque_courtyard_design_dashboard.png",
+      "bytes": 2040919,
+      "sha256": "f3a10036d95871cbc21a6a86fcba36dc8c730f88a5cad91016691fc43dd7091e"
+    },
+    {
+      "path": "assets/mockups/mosque_facilities_design_dashboard.png",
+      "bytes": 1737627,
+      "sha256": "36ffd097af2401d0354fea206ed153b1ad9257260a2871e1dccc1700dd0a5ee4"
+    },
+    {
+      "path": "assets/mockups/mosque_design_studio_dashboard_mockup.png",
+      "bytes": 1807261,
+      "sha256": "4e59d3a15f675042802abc93c2b7131a3a2c39273c99de7093bc68efb06591e8"
+    },
+    {
+      "path": "assets/mockups/mosque_library_design_dashboard.png",
+      "bytes": 1729655,
+      "sha256": "c3a5f9e0d4cdb410fb6186757c87431d542f33937425c2d4023401cb4cc9bbc0"
+    },
+    {
+      "path": "assets/mockups/mosque_build_cost_scenarios_dashboard.png",
+      "bytes": 1551098,
+      "sha256": "c08e9ab5933434bbbed27f8abbd12cf2f0c8cfa0c861eab4738190722612a3ff"
+    },
+    {
+      "path": "assets/mockups/mosque_masterplan_design_studio_dashboard.png",
+      "bytes": 2134144,
+      "sha256": "99e7107dc8389b82b116e2cb6cafb98c576fea24adcb1c3ff943adff1e60b8bd"
+    },
+    {
+      "path": "assets/mockups/a_detailed_flat_graphic_design_marketing_mockup.png",
+      "bytes": 2110498,
+      "sha256": "69f7d7a1586dc810b0f8a811c227a93c543612fe332de63c4a400848340eb1fd"
+    },
+    {
+      "path": "assets/mockups/mosquebuild_musalla_conversion_dashboard.png",
+      "bytes": 1691067,
+      "sha256": "ec3a0603e9f05e85d9de6f1a514e24d1057edcf3841529ef0e79e599ae82df82"
+    },
+    {
+      "path": "assets/mockups/mosque.build_design_studio_moodboard_dashboard.png",
+      "bytes": 1727131,
+      "sha256": "1683848fdb6b05597edf28ace02e9ad3bc65367509dc92d27ab9a48d42702ef4"
+    },
+    {
+      "path": "assets/mockups/a_detailed_mockup_dashboard_ui_screenshot_produc.png",
+      "bytes": 1883318,
+      "sha256": "d52aab75f133e5f838b44c0d2f547c4497c7ad0cae9233e5410cbba82981289f"
+    },
+    {
+      "path": "assets/mockups/mosque_community_events_dashboard.png",
+      "bytes": 1485436,
+      "sha256": "e5724ffb9c67b9e4a1a4c9cc3ac0dfa9b0cd63d92b01b308ceec2846e497da61"
+    },
+    {
+      "path": "assets/mockups/a_high_detail_marketing_brand_asset_board_dashbo.png",
+      "bytes": 2057826,
+      "sha256": "216bcdb90eaba4283bb56831b1b76f6815943a6515d6174cac8dc1fcaa976820"
+    },
+    {
+      "path": "assets/mockups/mosque.build_jurisdiction_selector_dashboard.png",
+      "bytes": 1616981,
+      "sha256": "eb0e8fbdd1e774317fe78865e8b667532755300ee64a71a1017a97bd17769efb"
+    },
+    {
+      "path": "assets/mockups/mosque.build_waqf_library_dashboard_mockup.png",
+      "bytes": 1614151,
+      "sha256": "30c6d5d2a8a1a95b6e605df0f26fb5a40dd158335d90ba94bdfc0a4615911ab9"
+    },
+    {
+      "path": "assets/mockups/mosque.build_courtyard_design_dashboard.png",
+      "bytes": 1876013,
+      "sha256": "2f034bb0db28e2ee70072d9e32217f2d054206836522f081238f54506d77d7a2"
+    },
+    {
+      "path": "assets/mockups/mosque_parking_compliance_dashboard.png",
+      "bytes": 1824526,
+      "sha256": "34fe566a1f899bc3635d041102e5645ab34e818755ecbf506e4eb2f1cb286f8c"
+    },
+    {
+      "path": "assets/mockups/mosque_design_studio_dashboard.png",
+      "bytes": 2127521,
+      "sha256": "1946fee00d540cf88489cec55adb31fbce540926bac14ed5bea7fe10110d0a79"
+    },
+    {
+      "path": "assets/mockups/mosque_safety_and_lighting_dashboard.png",
+      "bytes": 1822371,
+      "sha256": "47d4cdc321c02ca9649e01056e1d560f0dedef7339bf8cb97dbcbd425de76cb0"
+    },
+    {
+      "path": "assets/mockups/a_large_clean_marketing_app_showcase_poster_mock.png",
+      "bytes": 2116133,
+      "sha256": "2f333ef9627425cfbcc17fd90f9700a150ee60fc8a194b0fb9e780ff8273aeee"
+    },
+    {
+      "path": "assets/mockups/a_high_resolution_marketing_style_brand_marketing.png",
+      "bytes": 2217494,
+      "sha256": "3e57a51c5dc4e69f00258d8de4de6d2a094a6a6d7893e603cf11f89853461094"
+    },
+    {
+      "path": "assets/mockups/wudu_and_washroom_planning_dashboard.png",
+      "bytes": 1805225,
+      "sha256": "78faddbe2ee38f2686607c0ce22a5b1d4068eb1b39d18aa6bf37a87412156d01"
+    },
+    {
+      "path": "assets/mockups/mosque_facade_design_studio_dashboard.png",
+      "bytes": 1776360,
+      "sha256": "d1d1be3915a8417c5cbc07c3b8a72f41f4bb03114db67dd91791f3143aa65560"
+    },
+    {
+      "path": "assets/mockups/construction_phasing_dashboard_for_masjid_al_noor.png",
+      "bytes": 1990116,
+      "sha256": "479e33fa4d59e7d607bfc125b1cbbbac02f85ee9a089802ac91e946aad6c2d3d"
+    },
+    {
+      "path": "assets/mockups/mosque_kitchen_operations_dashboard.png",
+      "bytes": 1669329,
+      "sha256": "bcb83a96b11e9c788d6a54db1bd3b1e39d3820fccea7db28891a55a5b884f63d"
+    },
+    {
+      "path": "assets/mockups/mosque_permit_submission_dashboard_mockup.png",
+      "bytes": 1502925,
+      "sha256": "110119aa9ceb7ffc3c843553b54609a0b8333cdcf1a17ed40a39bdb1fdb188cc"
+    },
+    {
+      "path": "assets/mockups/mosque.build_empowering_communities_together.png",
+      "bytes": 1869912,
+      "sha256": "a2c886ae7bfe8da581f76e55beffe516340e4377693eca036b2312b1f914c093"
+    },
+    {
+      "path": "assets/mockups/mosque_construction_progress_dashboard.png",
+      "bytes": 1685229,
+      "sha256": "e6f95a45c51cb55e21fc7f9f129c64899a6c7ff642ad9aa6969f739a66f0bc0c"
+    },
+    {
+      "path": "assets/mockups/a_large_high_resolution_ui_ux_design_system_and_a.png",
+      "bytes": 1934531,
+      "sha256": "e606e2a33832b2748871cb75f18ba545fbe1ac106abcfef80cc032471384df49"
+    },
+    {
+      "path": "assets/mockups/mosque.build_community_review_dashboard.png",
+      "bytes": 1745516,
+      "sha256": "4b3569e921baa93323cd259d2b55d817f91c235d20fe123ee2d058705785ee7e"
+    },
+    {
+      "path": "assets/mockups/a_wide_flat_ui_design_mockup_dashboard_screensh.png",
+      "bytes": 2020832,
+      "sha256": "d281f33b777b0b04bd6569507142ad997d486dab16345313ce8873f4e2cef254"
+    },
+    {
+      "path": "assets/mockups/mosque_permit_checklist_dashboard_mockup.png",
+      "bytes": 1565739,
+      "sha256": "c62ff00daa1f0e8592281c091147f3039db2cea4fc7da009ac96874ee1d8c45c"
+    },
+    {
+      "path": "assets/mockups/madrasa_classroom_design_dashboard.png",
+      "bytes": 1613164,
+      "sha256": "3e1b3f4362667f153e3254952921f6ad32a77777e3d41b0ef698e9002d23a68b"
+    },
+    {
+      "path": "assets/mockups/a_high_detail_marketing_moodboard_brand_asset_co.png",
+      "bytes": 2187102,
+      "sha256": "b4fa9100ac628d517c08c4bcd40fa8860815a733557054392d348cd82d63cab3"
+    },
+    {
+      "path": "assets/mockups/construction_vendor_sourcing_dashboard.png",
+      "bytes": 1761201,
+      "sha256": "2337b05e4b48b9658986409a1135b08ac8e7a83759ac8af700e7fc5ae1b0e021"
+    },
+    {
+      "path": "assets/mockups/mosque.build_community_participation_dashboard.png",
+      "bytes": 1576929,
+      "sha256": "2a817b4d09a99ce0a8c53a80e63ae3d034c799d3cbb31551e02180c2bc8d530a"
+    },
+    {
+      "path": "assets/mockups/parking_garage_design_studio_dashboard.png",
+      "bytes": 1729803,
+      "sha256": "a056303d7af892fde0a86facc93c5a1d38aa8bcf46f70458267fd4a43c2ac516"
+    },
+    {
+      "path": "assets/mockups/mosque_design_optimization_dashboard.png",
+      "bytes": 2007020,
+      "sha256": "9321d0d1e77e7849868c2d4266c0b14916005eb5e18e502b992f8626b42964f9"
+    },
+    {
+      "path": "assets/mockups/wide_ui_brand_presentation_board_dashboard_mocku.png",
+      "bytes": 2252240,
+      "sha256": "4bb458e29243dc2ddf3baad9b306f6fcf8ad9647f6f0f10dd3d304794edeaa10"
+    },
+    {
+      "path": "assets/mockups/imagegen.png",
+      "bytes": 1455399,
+      "sha256": "e1fa785b475aff3cae5075f46370614eb56dcf5633c7ceb8f8081b730cace86d"
+    },
+    {
+      "path": "assets/mockups/prayer_hall_interior_design_dashboard.png",
+      "bytes": 2084295,
+      "sha256": "61fc9a01f15584dcf6e9a303bbaacbb033e465e9a157f53063c8d50688d88913"
+    },
+    {
+      "path": "assets/mockups/mosque_compliance_dashboard_mockup.png",
+      "bytes": 1751978,
+      "sha256": "797f94a747acd01386a87e65f70c36ebff49783bf496620f7950f2591425a0fa"
+    },
+    {
+      "path": "assets/mockups/parking_compliance_dashboard_mockup.png",
+      "bytes": 1818415,
+      "sha256": "60d0bd6911ca4c8115326e6ff3e0ea1fa01d426b9fe5339133cf034ded22fa40"
+    },
+    {
+      "path": "assets/mockups/mosque.build_brand_style_guide_board.png",
+      "bytes": 1572645,
+      "sha256": "22164c008c502c91b6ed81e2e08e1bd861bc507fd047d06f3b12b9f50b19ee1f"
+    },
+    {
+      "path": "assets/mockups/mosque_interior_design_studio_mockup.png",
+      "bytes": 1907416,
+      "sha256": "70caa39dceab9f86235faf858a4053c2b092ad7d26dc17302a9456f44e376168"
+    },
+    {
+      "path": "assets/mockups/transparent_mosque_fundraising_dashboard.png",
+      "bytes": 1805213,
+      "sha256": "3c3a0805f7adbdc985ecdd2a5f1a2993106064140f3f92319a9b305fbe34df51"
+    },
+    {
+      "path": "docs/source-context/original-longform-article.md",
+      "bytes": 167525,
+      "sha256": "d1cb9e2f7007d27e686fec4b1cf8199297d9db036a6d442c952580e43d050ec9"
+    },
+    {
+      "path": "docs/frames/mosquebuild-waqf-library-dashboard-mockup.md",
+      "bytes": 2405,
+      "sha256": "e2ea2bc8695da287ec7bab8ca499a62489c48f6562dcb5450844b9167f192639"
+    },
+    {
+      "path": "docs/frames/parking-compliance-dashboard-mockup.md",
+      "bytes": 2421,
+      "sha256": "09b264177c734017eb293b415f774b7409a858541963499880a9391f278c3812"
+    },
+    {
+      "path": "docs/frames/mosque-interior-design-dashboard.md",
+      "bytes": 2442,
+      "sha256": "f49e7a46db1d75dd66f08384cfae573a46b680e9cd72dc45adbba78621587b25"
+    },
+    {
+      "path": "docs/frames/mosquebuild-courtyard-design-dashboard.md",
+      "bytes": 2407,
+      "sha256": "c7c6b713754c045b2163d57a7a7c36cdb135df22bf5d9e656147deb60d78f9b5"
+    },
+    {
+      "path": "docs/frames/mosque-marketplace-comparison-dashboard.md",
+      "bytes": 2434,
+      "sha256": "061d2d1d54dcc388d0c2eae74ea07e189825b4dfc1e43486def18d9e6e50b458"
+    },
+    {
+      "path": "docs/frames/mosquebuild-engineering-coordination-dashboard.md",
+      "bytes": 2335,
+      "sha256": "340a4c6a42053857733986e9ce0742c0493a7acb78882b0381321aba93d3669f"
+    },
+    {
+      "path": "docs/frames/mosque-library-design-dashboard.md",
+      "bytes": 2349,
+      "sha256": "2022019291bb2657061f791bca7d7e41eee4d5a4b374600e4b02aa79874caa01"
+    },
+    {
+      "path": "docs/frames/madrasa-classroom-design-dashboard.md",
+      "bytes": 2364,
+      "sha256": "cc262638dbe53a8a7f24353615a5fb575172b74024e8a017f109d324bf7d991f"
+    },
+    {
+      "path": "docs/frames/a-large-clean-marketing-app-showcase-poster-mock.md",
+      "bytes": 2409,
+      "sha256": "6dae25b611935d032b64f46e3be90f62cbb83589a4d7dc5597794e498259905f"
+    },
+    {
+      "path": "docs/frames/FRAME_INDEX.md",
+      "bytes": 15906,
+      "sha256": "a1fc6fe10efbc5437b178fbe2eac3a9c6570cdc1b2fc06083a0633e3ae989eaa"
+    },
+    {
+      "path": "docs/frames/mosque-courtyard-design-dashboard.md",
+      "bytes": 2384,
+      "sha256": "dbe00ee8dd23ae458f3447ea48291050f74e1c16fc16b38947c01dd3738b8c32"
+    },
+    {
+      "path": "docs/frames/a-high-detail-marketing-moodboard-brand-asset-co.md",
+      "bytes": 2409,
+      "sha256": "a2b91310ed7fe74441bcbdac304f01e09caa52cb32efac94e6319b258187d51f"
+    },
+    {
+      "path": "docs/frames/imagegen.md",
+      "bytes": 2143,
+      "sha256": "b520fb6d1b54b412cb783094a55c2dc8221acd50cde6bc522c7617fb5c4a1194"
+    },
+    {
+      "path": "docs/frames/mosquebuild-brand-style-guide-board.md",
+      "bytes": 2349,
+      "sha256": "892bbbb17eb72f71da4634de3ab95ecdae99d86e39e4ce99c115986be5f1a80c"
+    },
+    {
+      "path": "docs/frames/mosquebuild-design-studio-moodboard-dashboard.md",
+      "bytes": 2422,
+      "sha256": "e1ea7dc42a8cb2bb0c3c3d153ddd8d391b5ae37a9e3e166d2c4bcee95c6998ff"
+    },
+    {
+      "path": "docs/frames/qibla-wall-design-studio-dashboard.md",
+      "bytes": 2385,
+      "sha256": "a917f8b76e20888dda2af298fa2f7158b1be4c35633e1f068bfe600fdae3f38e"
+    },
+    {
+      "path": "docs/frames/prayer-hall-interior-design-dashboard.md",
+      "bytes": 2400,
+      "sha256": "12f09e4d97a27b7c8b3057b595ed5ef92f1117f76adbc71cd9a5f016584967d7"
+    },
+    {
+      "path": "docs/frames/mosque-design-studio-dashboard-mockup.md",
+      "bytes": 2390,
+      "sha256": "2de1b37ce82afbc2f36c561ac1f3722c924ea0833cba7a68f569155c1cd55faa"
+    },
+    {
+      "path": "docs/frames/a-wide-high-resolution-infographic-style-collage-s.md",
+      "bytes": 2351,
+      "sha256": "f1f49a209fcad10ef68e06d98716bb500f7c6191251718a8911d3e39d509d9de"
+    },
+    {
+      "path": "docs/frames/construction-phasing-dashboard-for-masjid-al-noor.md",
+      "bytes": 2459,
+      "sha256": "ba1a9fc31eb232c605243f03cdf3598e25542f075dd612e84336ce2936f7a048"
+    },
+    {
+      "path": "docs/frames/mosque-parking-compliance-dashboard.md",
+      "bytes": 2421,
+      "sha256": "83061be728bc748eec0244b3e968a256992ded4c4657ee82b0d0bccdec81c7c9"
+    },
+    {
+      "path": "docs/frames/mosque-materials-design-dashboard.md",
+      "bytes": 2359,
+      "sha256": "49f7de3a533b447c30c33ae9f2d7749734bbbc89304f7d72774532257b36b825"
+    },
+    {
+      "path": "docs/frames/mosquebuild-community-participation-dashboard.md",
+      "bytes": 2431,
+      "sha256": "ce26462ef08309406e0ac0fecbae9ee35ea57231eeb8b6d4ae776ed3c12c0ec0"
+    },
+    {
+      "path": "docs/frames/a-large-high-resolution-ui-ux-design-system-and-a.md",
+      "bytes": 2438,
+      "sha256": "b4c2778e0c4b94f79021568d1e18293f38507eb6e102943fa69576996156b406"
+    },
+    {
+      "path": "docs/frames/mosque-compliance-dashboard-mockup.md",
+      "bytes": 2400,
+      "sha256": "d87373e9b0700dc09177cec7955601b248f5d57a615a6f62f09e9170407a0daf"
+    },
+    {
+      "path": "docs/frames/mosque-sustainability-dashboard-showcase.md",
+      "bytes": 2400,
+      "sha256": "378b4a76654d68fa554fba46816f171c2c59560f13340a73cab9573c8926b3f8"
+    },
+    {
+      "path": "docs/frames/a-wide-flat-ui-design-mockup-dashboard-screensh.md",
+      "bytes": 2428,
+      "sha256": "b97e7698ccd54cb320d159fe05d92bf9cd16976d099081e3ef5d4660bbbe2c76"
+    },
+    {
+      "path": "docs/frames/construction-vendor-sourcing-dashboard.md",
+      "bytes": 2404,
+      "sha256": "4ca840a775974d49bda3cafa4acf7647e400186d678d4111f937be2b90eaf60c"
+    },
+    {
+      "path": "docs/frames/mosque-construction-progress-dashboard.md",
+      "bytes": 2405,
+      "sha256": "e69263eeb683ce64b2f26ad2d140cba9d212587f0477c505fc2043d7454e4bb3"
+    },
+    {
+      "path": "docs/frames/mosque-interior-design-studio-mockup.md",
+      "bytes": 2459,
+      "sha256": "aa5130fe6f5c99761fdb4a19aec9b475d14b4b2f4d433ba46928314957d84b2c"
+    },
+    {
+      "path": "docs/frames/mosquebuild-funding-transparency-dashboard.md",
+      "bytes": 2409,
+      "sha256": "2ddfe61d32aa973bc837184d9381d3820ec0aa24dc95a64721c4da1d97ad7cd7"
+    },
+    {
+      "path": "docs/frames/mosque-facade-design-studio-dashboard.md",
+      "bytes": 2379,
+      "sha256": "6d21e147b88727bd8253a80238f3882ceec0ec2a85ee8dc75a74852f528bb2b3"
+    },
+    {
+      "path": "docs/frames/mosque-kitchen-operations-dashboard.md",
+      "bytes": 2369,
+      "sha256": "73d7233834f46178bc9476c3484754a5db652ea76a9d598aff2673e08bc41696"
+    },
+    {
+      "path": "docs/frames/a-detailed-mockup-dashboard-ui-screenshot-produc.md",
+      "bytes": 2341,
+      "sha256": "a1a55f6f6f3084b0ee9eb1f2c263c9bbcd4d618be59846357cff3a5d3f391906"
+    },
+    {
+      "path": "docs/frames/mosque-interior-planning-dashboard.md",
+      "bytes": 2385,
+      "sha256": "5442814ca421d017c9085dd04a9d4eee6cd117d3f649cd91cf2bbfbc8fdbfdbc"
+    },
+    {
+      "path": "docs/frames/transparent-mosque-fundraising-dashboard.md",
+      "bytes": 2385,
+      "sha256": "01ffe14302f5fbb7a85e9ddd5464a4177146b98344a40177a774dbe985433ed5"
+    },
+    {
+      "path": "docs/frames/mosque-planning-dashboard-mockup.md",
+      "bytes": 2355,
+      "sha256": "a928c5c71d3b01c09d671419e75c0a67fd7d43c5ce10e5cc626dab62cab58f0f"
+    },
+    {
+      "path": "docs/frames/accessible-mosque-wayfinding-dashboard.md",
+      "bytes": 2292,
+      "sha256": "cb536d151055776c28a91e74efc34d66d6b29e90a4a90500e30404979d7168e6"
+    },
+    {
+      "path": "docs/frames/mosque-safety-and-lighting-dashboard.md",
+      "bytes": 2380,
+      "sha256": "82360d4b1e4f47c90b1f5d61ae273f92ec0b11c00017d4afec762f0825a3eaa8"
+    },
+    {
+      "path": "docs/frames/mosquebuild-funding-dashboard-mockup.md",
+      "bytes": 2379,
+      "sha256": "44f87b29e3aff93443081eb27d7897b02f64915e419b8c81936a55f2e71c952f"
+    },
+    {
+      "path": "docs/frames/a-high-resolution-marketing-style-brand-marketing.md",
+      "bytes": 2414,
+      "sha256": "0bcc6842a2167a10eebed1e767678ad41789c47e1587dff79123cd7b77b42be2"
+    },
+    {
+      "path": "docs/frames/a-high-detail-marketing-brand-asset-board-dashbo.md",
+      "bytes": 2409,
+      "sha256": "9c2698ba84ea4f89a0e4cfaf6483225ff233b55ac20be3fcc959465bb4a50b3b"
+    },
+    {
+      "path": "docs/frames/mosquebuild-empowering-communities-together.md",
+      "bytes": 2388,
+      "sha256": "15a72d555e9ed038e7f299f46ad04e937f79308d2b1d0e1046722f1580b30fca"
+    },
+    {
+      "path": "docs/frames/mosque-masterplan-design-studio-dashboard.md",
+      "bytes": 2399,
+      "sha256": "f44476bc0de25f30ab8f7b2c0708e94aba32887daf4d6ad84aee645b2f910759"
+    },
+    {
+      "path": "docs/frames/mosque-community-events-dashboard.md",
+      "bytes": 2368,
+      "sha256": "d9b014383c1662392db5b5bf7525c7aacd873674f4d883591211fb3a7eb5f882"
+    },
+    {
+      "path": "docs/frames/mosquebuild-procurement-dashboard-mockup.md",
+      "bytes": 2441,
+      "sha256": "8fa2710dd73f6542c11d2c7c3e85756e6fdc3bbbda6dfb4d840d15ec472f0894"
+    },
+    {
+      "path": "docs/frames/mosquebuild-cost-scenarios-dashboard.md",
+      "bytes": 2285,
+      "sha256": "197869b2a2d1d455be034fb603991ab26adc3a86d5bbc7db0c7a83913b6613fa"
+    },
+    {
+      "path": "docs/frames/parking-garage-design-studio-dashboard.md",
+      "bytes": 2413,
+      "sha256": "50b47dcc193f5d61455d1f7eb749d7b6dab162237feece1a9e1db69ddb3181ec"
+    },
+    {
+      "path": "docs/frames/mosque-design-studio-dashboard.md",
+      "bytes": 2362,
+      "sha256": "c1da83b12ad69d3062bbc5d9f143b61bb58ba55ef5cf426a6e1fa24eb618ceff"
+    },
+    {
+      "path": "docs/frames/wudu-and-washroom-planning-dashboard.md",
+      "bytes": 2361,
+      "sha256": "38a0786df1b909e0e5e5479a76069ce0df2d670e6ce161fd3b02b7177c83906c"
+    },
+    {
+      "path": "docs/frames/mosque-permit-submission-dashboard-mockup.md",
+      "bytes": 2435,
+      "sha256": "7d8e5b508a4dc991f046cbbdebe2fc4d6479684d7d64d22034ce9b24927621c7"
+    },
+    {
+      "path": "docs/frames/mosque-design-optimization-dashboard.md",
+      "bytes": 2374,
+      "sha256": "829389ff6ec0a639d7a5c3b17aca602464d82c30b5355abd58d5a307f91a8147"
+    },
+    {
+      "path": "docs/frames/a-high-resolution-marketing-asset-collage-brand-ki.md",
+      "bytes": 2419,
+      "sha256": "aac93502cf5c5a3efba5ac46a38c441cf8270871f12f7e6b27166b39a9ebe685"
+    },
+    {
+      "path": "docs/frames/mosquebuild-community-review-dashboard.md",
+      "bytes": 2396,
+      "sha256": "3db433d5d4510aac037083219628ad80f1d0c78e93f9aee0036393db193e32ef"
+    },
+    {
+      "path": "docs/frames/mosquebuild-musalla-conversion-dashboard.md",
+      "bytes": 2303,
+      "sha256": "1658083b122415f86efd14fd039ab918e653f6490af6b5c0bbd381347873476f"
+    },
+    {
+      "path": "docs/frames/a-detailed-flat-graphic-design-marketing-mockup.md",
+      "bytes": 2404,
+      "sha256": "c354e7e361d2219c42c19a1fcc9875b8bf1824e1c875c338dc4680ba3ba91fc2"
+    },
+    {
+      "path": "docs/frames/mosque-permit-checklist-dashboard-mockup.md",
+      "bytes": 2430,
+      "sha256": "806e61daf509ac047fe0d5bf83c15c5c6f6893c0f644eb26e0c22baccb18e88f"
+    },
+    {
+      "path": "docs/frames/wide-ui-brand-presentation-board-dashboard-mocku.md",
+      "bytes": 2406,
+      "sha256": "b301b0521f99839da75940d513ab7ea52c477421e7bcfc7c3a83a1e83a738cb8"
+    },
+    {
+      "path": "docs/frames/mosquebuild-construction-dashboard.md",
+      "bytes": 2387,
+      "sha256": "208ef79edc988f0c1afac79c436b7ab171b9d96647669251499b6558b1d32ba2"
+    },
+    {
+      "path": "docs/frames/mosque-interior-design-studio-dashboard.md",
+      "bytes": 2470,
+      "sha256": "320937df8bc58c25cb86c7c6e64a60ad389a7944576ed3edae5a37edf2126b9d"
+    },
+    {
+      "path": "docs/frames/mosquebuild-community-intelligence-dashboard.md",
+      "bytes": 2427,
+      "sha256": "e523ec1370cb7f70590e052402d49a6354e7602f61f30f745e871d9e486c34eb"
+    },
+    {
+      "path": "docs/frames/mosque-facilities-design-dashboard.md",
+      "bytes": 2364,
+      "sha256": "59ef35a2a9be369c3a797132099881b36d87668d21fa5153d5bef9a68e0c786a"
+    },
+    {
+      "path": "docs/frames/mosquebuild-jurisdiction-selector-dashboard.md",
+      "bytes": 2448,
+      "sha256": "3c3722a38d3f6698c129649f6d673aada5c1bbd750b43970522a67ec5b520311"
+    },
+    {
+      "path": "docs/frames/mosque-event-design-studio-dashboard.md",
+      "bytes": 2374,
+      "sha256": "0a224af1a847adee0656adfaff375181e56c9b59e0f101773a40b2d155b49e9a"
+    },
+    {
+      "path": "docs/source-context/editorial/mosque-build-article-v2.md",
+      "bytes": 40102,
+      "sha256": "0819f2927440cb8f9691e862ddb89eff918b72b215d93755f82e11f98434c85f"
+    },
+    {
+      "path": "docs/source-context/editorial/mosque-build-social-launch-kit.md",
+      "bytes": 21411,
+      "sha256": "a0c93dafb1ecd6bf320fae82a659cdb7bc8e740e8006fb2c7f7d35e0fadfce57"
+    },
+    {
+      "path": "docs/source-context/editorial/mosque-build-video-scripts.md",
+      "bytes": 3684,
+      "sha256": "64ab81602953bb4c3f608ce67d6d2378a24d3d48965e18beff6863a721aebc45"
+    },
+    {
+      "path": "apps/admin/README.md",
+      "bytes": 419,
+      "sha256": "43e9e28d25b326e07426b81d150d21fa54a5bbf8c8cd9cd419ddabb7d8a42a26"
+    },
+    {
+      "path": "apps/mobile/package.json",
+      "bytes": 379,
+      "sha256": "1aa230edc7e22ef4a266dd05b96a7e86df9c11c72aaee19ca3758c72a0bfef82"
+    },
+    {
+      "path": "apps/mobile/app.json",
+      "bytes": 201,
+      "sha256": "1c7f109d90d48e6537c4e4568f6803a37f00ee4bc9280397a0036a632b910ec9"
+    },
+    {
+      "path": "apps/web/package.json",
+      "bytes": 386,
+      "sha256": "3c7ba2f46f8de4cab5f5d9e3bf94773e0a939d1a3a322a516d7f3cc2b28b18fd"
+    },
+    {
+      "path": "apps/web/next-env.d.ts",
+      "bytes": 81,
+      "sha256": "879741880b6ab48da99dcc06dcc674d381c9826137b0496bf7bb368f302de9fc"
+    },
+    {
+      "path": "apps/web/tsconfig.json",
+      "bytes": 637,
+      "sha256": "c881ae46d662e4df5c75e8df9692f2cd07213f91021abfa6c83b050e17b5486d"
+    },
+    {
+      "path": "apps/web/app/globals.css",
+      "bytes": 28389,
+      "sha256": "27e8c96d7fd3abba48efaccb9ecb12eba7df6b187a5f61eb8cd856b1ffffe003"
+    },
+    {
+      "path": "apps/web/app/page.tsx",
+      "bytes": 11823,
+      "sha256": "6a50d752166ea440525918344018e6f1bba9bfd8d70ade8d6880046f779c5582"
+    },
+    {
+      "path": "apps/web/app/layout.tsx",
+      "bytes": 1511,
+      "sha256": "ed6e5c5823209c3c0f1fc502450486fbbae75b2c7350400f07fd8ac6a69d9b47"
+    },
+    {
+      "path": "apps/web/app/robots.ts",
+      "bytes": 243,
+      "sha256": "3b23f3446ab51e02bed368057c6ab52f50bd40ec5a4330fcb1826658fb422ac1"
+    },
+    {
+      "path": "apps/web/app/sitemap.ts",
+      "bytes": 466,
+      "sha256": "19db51fa6944db296497ae72d1d80c62cbf95c6f4abf8aac5a99a268e0527b53"
+    },
+    {
+      "path": "apps/web/app/not-found.tsx",
+      "bytes": 435,
+      "sha256": "50d7153efea26bbf56c82f123e0b800d606d6fb9fd483d14e47c88594c504ceb"
+    },
+    {
+      "path": "apps/web/components/pwa-register.tsx",
+      "bytes": 996,
+      "sha256": "fb1d388944d065985970ccaffafd5d1cb238746186ef40104bf6263402219125"
+    },
+    {
+      "path": "apps/web/components/site-header.tsx",
+      "bytes": 792,
+      "sha256": "52ece7d12298fdc9c6fa301ad4e1a3bcb18211be3b95f215b9f412c0c98be26e"
+    },
+    {
+      "path": "apps/web/components/product-area-page.tsx",
+      "bytes": 2197,
+      "sha256": "c4160f223bed5fe61df8a909a632804be611a07e38b531f234d9874d1db239c0"
+    },
+    {
+      "path": "apps/web/components/site-footer.tsx",
+      "bytes": 1369,
+      "sha256": "0b3ca70d803d7252ce6abaec09e536f6e8ad0b38304967a1a5e2f402b3301e5f"
+    },
+    {
+      "path": "apps/web/components/prototype-frame.tsx",
+      "bytes": 1077,
+      "sha256": "e51c2a679b73114e1eda33609011737b5a06e8b6598e12432433b575f2ea085c"
+    },
+    {
+      "path": "apps/web/components/start-project-wizard.tsx",
+      "bytes": 6408,
+      "sha256": "c3ea57201beb55b60bba274803a4accddfa38efff2be57d6e71350eceb9ad2bd"
+    },
+    {
+      "path": "apps/web/data/frame-registry.json",
+      "bytes": 64924,
+      "sha256": "81e37640a9a7e58880da982fe38c94e36efa8018f5d135f225825b09e90b78dc"
+    },
+    {
+      "path": "apps/web/data/product-areas.json",
+      "bytes": 3857,
+      "sha256": "364981306005a5b8407894f87d4a6a2f173bf1c3bdcd6f2b784bf74bd261849d"
+    },
+    {
+      "path": "apps/web/public/manifest.webmanifest",
+      "bytes": 1027,
+      "sha256": "835024d20522e038dcc743688f58ec8d78361425f95dd49a724cb396fb4e6b96"
+    },
+    {
+      "path": "apps/web/public/offline.html",
+      "bytes": 735,
+      "sha256": "bf1359c5d2e9583003f7dbbd83998a948171627ccefb236888c211582861b42c"
+    },
+    {
+      "path": "apps/web/public/sw.js",
+      "bytes": 1074,
+      "sha256": "01ff5e000377b3e1b786ec5541b949af419b69e39a62e3cbc03080d603c3429f"
+    },
+    {
+      "path": "apps/web/public/icons/apple-touch-icon.png",
+      "bytes": 1105,
+      "sha256": "df097d51c586495510384ca00b92fe3d585b5e6b092d61affc84422786897c97"
+    },
+    {
+      "path": "apps/web/public/icons/icon.svg",
+      "bytes": 490,
+      "sha256": "aee10c21eebc7b8b32a357e09c1261bfbb39106e059ed899b514d7d267138514"
+    },
+    {
+      "path": "apps/web/public/icons/icon-192.png",
+      "bytes": 1177,
+      "sha256": "9dc7845e17d8740fc047af3ee45fa74778686d1da09cf7852a5959338eb9636a"
+    },
+    {
+      "path": "apps/web/public/icons/icon-512.png",
+      "bytes": 3497,
+      "sha256": "79c85db9ee1d867860af4860aab5063ed0bdc37d45b5223f772540fa1879db81"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_marketplace_comparison_dashboard.png",
+      "bytes": 1673986,
+      "sha256": "a9d3b52777ad4d2ebb906282bb3755f015042038bc80eec9f1273c987a3f060d"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque.build_funding_dashboard_mockup.png",
+      "bytes": 1835007,
+      "sha256": "1ed3dac92902fc638e14025d1b0e63fc932719213c109a012a50dc19b83fa270"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque.build_community_intelligence_dashboard.png",
+      "bytes": 1611375,
+      "sha256": "aefd283730a93b37c28e59a06ab332ba531c631da22c92b5e90803234bfc5f70"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_materials_design_dashboard.png",
+      "bytes": 1842357,
+      "sha256": "61053f4cb6815a144919f1f63ba589ac9f800af9776266ed8bbdbd595bbfd19d"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/qibla_wall_design_studio_dashboard.png",
+      "bytes": 1981992,
+      "sha256": "43b66ee80f5eb471f8e256e8fd29accf6efac39984c6d2ee6aa0d3a1ac1ba2ca"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/accessible_mosque_wayfinding_dashboard.png",
+      "bytes": 1991963,
+      "sha256": "4ed97bfddbd69f7ac677e22f44d46d40607ecf3d333d33635291498ccd0be023"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque.build_procurement_dashboard_mockup.png",
+      "bytes": 1625224,
+      "sha256": "61d7ac7fd675437e61fcdd34ce6b3e88a556947a40c7c027445ffa2243930a0f"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_interior_design_dashboard.png",
+      "bytes": 1823795,
+      "sha256": "36145c7b9906170677e9939092009ecbb991a0f1f93c9de393b7dac9fd3d2f11"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/a_high_resolution_marketing_asset_collage_brand_ki.png",
+      "bytes": 2267992,
+      "sha256": "dc1276e74711e82ff63283822a4ac0a51c3062858662e86361d37656bb8eeb7a"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_planning_dashboard_mockup.png",
+      "bytes": 1699236,
+      "sha256": "f3ced32e78be18287ae52613934c135fdd828ffbf98b5ef537b9d0d5b30e06a8"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_event_design_studio_dashboard.png",
+      "bytes": 1639920,
+      "sha256": "e77fef2a57dcd53c2ae7bdd547eb2e26fb06809c78a438a6429ab1ef67156283"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_interior_design_studio_dashboard.png",
+      "bytes": 2185318,
+      "sha256": "6efcfa6c5f40e3b334340fcc186a0d681d62af25af4a57ae9c562a72c8de7115"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_interior_planning_dashboard.png",
+      "bytes": 1773825,
+      "sha256": "f6217de4908550ddafc5b26aad14d2becd0a5a53db82423aed5e22c4d94e85a1"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque.build_funding_transparency_dashboard.png",
+      "bytes": 1685223,
+      "sha256": "8274a2726f9e8dbb789507ee20ee37222123fded8f620ed973d5cf7ada5609e8"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_sustainability_dashboard_showcase.png",
+      "bytes": 2081824,
+      "sha256": "aa74271166e048f62b8858674f7e4b9f3c7a851a9735ad9e006ded84157ffe0c"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_build_construction_dashboard.png",
+      "bytes": 1710907,
+      "sha256": "1112b2440d81cc9005340e02bdfc81abdeb16f64e3abfde12b466e5fb8eeca79"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque.build_engineering_coordination_dashboard.png",
+      "bytes": 1658076,
+      "sha256": "e778927548332a6dd634346b3cf0c717a95b8b9ffd6a1664551adaa2c912eadd"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/a_wide_high_resolution_infographic_style_collage_s.png",
+      "bytes": 1905100,
+      "sha256": "52eb52283f07687ee95d5ae0b9156a9b8e3912dfd59070aabd47752c73d37628"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_courtyard_design_dashboard.png",
+      "bytes": 2040919,
+      "sha256": "f3a10036d95871cbc21a6a86fcba36dc8c730f88a5cad91016691fc43dd7091e"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_facilities_design_dashboard.png",
+      "bytes": 1737627,
+      "sha256": "36ffd097af2401d0354fea206ed153b1ad9257260a2871e1dccc1700dd0a5ee4"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_design_studio_dashboard_mockup.png",
+      "bytes": 1807261,
+      "sha256": "4e59d3a15f675042802abc93c2b7131a3a2c39273c99de7093bc68efb06591e8"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_library_design_dashboard.png",
+      "bytes": 1729655,
+      "sha256": "c3a5f9e0d4cdb410fb6186757c87431d542f33937425c2d4023401cb4cc9bbc0"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_build_cost_scenarios_dashboard.png",
+      "bytes": 1551098,
+      "sha256": "c08e9ab5933434bbbed27f8abbd12cf2f0c8cfa0c861eab4738190722612a3ff"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_masterplan_design_studio_dashboard.png",
+      "bytes": 2134144,
+      "sha256": "99e7107dc8389b82b116e2cb6cafb98c576fea24adcb1c3ff943adff1e60b8bd"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/a_detailed_flat_graphic_design_marketing_mockup.png",
+      "bytes": 2110498,
+      "sha256": "69f7d7a1586dc810b0f8a811c227a93c543612fe332de63c4a400848340eb1fd"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosquebuild_musalla_conversion_dashboard.png",
+      "bytes": 1691067,
+      "sha256": "ec3a0603e9f05e85d9de6f1a514e24d1057edcf3841529ef0e79e599ae82df82"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque.build_design_studio_moodboard_dashboard.png",
+      "bytes": 1727131,
+      "sha256": "1683848fdb6b05597edf28ace02e9ad3bc65367509dc92d27ab9a48d42702ef4"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/a_detailed_mockup_dashboard_ui_screenshot_produc.png",
+      "bytes": 1883318,
+      "sha256": "d52aab75f133e5f838b44c0d2f547c4497c7ad0cae9233e5410cbba82981289f"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_community_events_dashboard.png",
+      "bytes": 1485436,
+      "sha256": "e5724ffb9c67b9e4a1a4c9cc3ac0dfa9b0cd63d92b01b308ceec2846e497da61"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/a_high_detail_marketing_brand_asset_board_dashbo.png",
+      "bytes": 2057826,
+      "sha256": "216bcdb90eaba4283bb56831b1b76f6815943a6515d6174cac8dc1fcaa976820"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque.build_jurisdiction_selector_dashboard.png",
+      "bytes": 1616981,
+      "sha256": "eb0e8fbdd1e774317fe78865e8b667532755300ee64a71a1017a97bd17769efb"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque.build_waqf_library_dashboard_mockup.png",
+      "bytes": 1614151,
+      "sha256": "30c6d5d2a8a1a95b6e605df0f26fb5a40dd158335d90ba94bdfc0a4615911ab9"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque.build_courtyard_design_dashboard.png",
+      "bytes": 1876013,
+      "sha256": "2f034bb0db28e2ee70072d9e32217f2d054206836522f081238f54506d77d7a2"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_parking_compliance_dashboard.png",
+      "bytes": 1824526,
+      "sha256": "34fe566a1f899bc3635d041102e5645ab34e818755ecbf506e4eb2f1cb286f8c"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_design_studio_dashboard.png",
+      "bytes": 2127521,
+      "sha256": "1946fee00d540cf88489cec55adb31fbce540926bac14ed5bea7fe10110d0a79"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_safety_and_lighting_dashboard.png",
+      "bytes": 1822371,
+      "sha256": "47d4cdc321c02ca9649e01056e1d560f0dedef7339bf8cb97dbcbd425de76cb0"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/a_large_clean_marketing_app_showcase_poster_mock.png",
+      "bytes": 2116133,
+      "sha256": "2f333ef9627425cfbcc17fd90f9700a150ee60fc8a194b0fb9e780ff8273aeee"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/a_high_resolution_marketing_style_brand_marketing.png",
+      "bytes": 2217494,
+      "sha256": "3e57a51c5dc4e69f00258d8de4de6d2a094a6a6d7893e603cf11f89853461094"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/wudu_and_washroom_planning_dashboard.png",
+      "bytes": 1805225,
+      "sha256": "78faddbe2ee38f2686607c0ce22a5b1d4068eb1b39d18aa6bf37a87412156d01"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_facade_design_studio_dashboard.png",
+      "bytes": 1776360,
+      "sha256": "d1d1be3915a8417c5cbc07c3b8a72f41f4bb03114db67dd91791f3143aa65560"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/construction_phasing_dashboard_for_masjid_al_noor.png",
+      "bytes": 1990116,
+      "sha256": "479e33fa4d59e7d607bfc125b1cbbbac02f85ee9a089802ac91e946aad6c2d3d"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_kitchen_operations_dashboard.png",
+      "bytes": 1669329,
+      "sha256": "bcb83a96b11e9c788d6a54db1bd3b1e39d3820fccea7db28891a55a5b884f63d"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_permit_submission_dashboard_mockup.png",
+      "bytes": 1502925,
+      "sha256": "110119aa9ceb7ffc3c843553b54609a0b8333cdcf1a17ed40a39bdb1fdb188cc"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque.build_empowering_communities_together.png",
+      "bytes": 1869912,
+      "sha256": "a2c886ae7bfe8da581f76e55beffe516340e4377693eca036b2312b1f914c093"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_construction_progress_dashboard.png",
+      "bytes": 1685229,
+      "sha256": "e6f95a45c51cb55e21fc7f9f129c64899a6c7ff642ad9aa6969f739a66f0bc0c"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/a_large_high_resolution_ui_ux_design_system_and_a.png",
+      "bytes": 1934531,
+      "sha256": "e606e2a33832b2748871cb75f18ba545fbe1ac106abcfef80cc032471384df49"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque.build_community_review_dashboard.png",
+      "bytes": 1745516,
+      "sha256": "4b3569e921baa93323cd259d2b55d817f91c235d20fe123ee2d058705785ee7e"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/a_wide_flat_ui_design_mockup_dashboard_screensh.png",
+      "bytes": 2020832,
+      "sha256": "d281f33b777b0b04bd6569507142ad997d486dab16345313ce8873f4e2cef254"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_permit_checklist_dashboard_mockup.png",
+      "bytes": 1565739,
+      "sha256": "c62ff00daa1f0e8592281c091147f3039db2cea4fc7da009ac96874ee1d8c45c"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/madrasa_classroom_design_dashboard.png",
+      "bytes": 1613164,
+      "sha256": "3e1b3f4362667f153e3254952921f6ad32a77777e3d41b0ef698e9002d23a68b"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/a_high_detail_marketing_moodboard_brand_asset_co.png",
+      "bytes": 2187102,
+      "sha256": "b4fa9100ac628d517c08c4bcd40fa8860815a733557054392d348cd82d63cab3"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/construction_vendor_sourcing_dashboard.png",
+      "bytes": 1761201,
+      "sha256": "2337b05e4b48b9658986409a1135b08ac8e7a83759ac8af700e7fc5ae1b0e021"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque.build_community_participation_dashboard.png",
+      "bytes": 1576929,
+      "sha256": "2a817b4d09a99ce0a8c53a80e63ae3d034c799d3cbb31551e02180c2bc8d530a"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/parking_garage_design_studio_dashboard.png",
+      "bytes": 1729803,
+      "sha256": "a056303d7af892fde0a86facc93c5a1d38aa8bcf46f70458267fd4a43c2ac516"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_design_optimization_dashboard.png",
+      "bytes": 2007020,
+      "sha256": "9321d0d1e77e7849868c2d4266c0b14916005eb5e18e502b992f8626b42964f9"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/wide_ui_brand_presentation_board_dashboard_mocku.png",
+      "bytes": 2252240,
+      "sha256": "4bb458e29243dc2ddf3baad9b306f6fcf8ad9647f6f0f10dd3d304794edeaa10"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/imagegen.png",
+      "bytes": 1455399,
+      "sha256": "e1fa785b475aff3cae5075f46370614eb56dcf5633c7ceb8f8081b730cace86d"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/prayer_hall_interior_design_dashboard.png",
+      "bytes": 2084295,
+      "sha256": "61fc9a01f15584dcf6e9a303bbaacbb033e465e9a157f53063c8d50688d88913"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_compliance_dashboard_mockup.png",
+      "bytes": 1751978,
+      "sha256": "797f94a747acd01386a87e65f70c36ebff49783bf496620f7950f2591425a0fa"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/parking_compliance_dashboard_mockup.png",
+      "bytes": 1818415,
+      "sha256": "60d0bd6911ca4c8115326e6ff3e0ea1fa01d426b9fe5339133cf034ded22fa40"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque.build_brand_style_guide_board.png",
+      "bytes": 1572645,
+      "sha256": "22164c008c502c91b6ed81e2e08e1bd861bc507fd047d06f3b12b9f50b19ee1f"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/mosque_interior_design_studio_mockup.png",
+      "bytes": 1907416,
+      "sha256": "70caa39dceab9f86235faf858a4053c2b092ad7d26dc17302a9456f44e376168"
+    },
+    {
+      "path": "apps/web/public/assets/mockups/transparent_mosque_fundraising_dashboard.png",
+      "bytes": 1805213,
+      "sha256": "3c3a0805f7adbdc985ecdd2a5f1a2993106064140f3f92319a9b305fbe34df51"
+    },
+    {
+      "path": "apps/web/app/design/page.tsx",
+      "bytes": 223,
+      "sha256": "17e9ebfd91a0fb29b98eb482b1c88197488669535965816044a939ee0b9595e7"
+    },
+    {
+      "path": "apps/web/app/terms/page.tsx",
+      "bytes": 1382,
+      "sha256": "aa836675925d2598843895bd819d33af609871b8d9c43262923119b66d49bf04"
+    },
+    {
+      "path": "apps/web/app/trust/page.tsx",
+      "bytes": 1275,
+      "sha256": "90f8c31bceca46e2127f2fa4da96a82f1c82a3617db04d6eece1a7e369e63de0"
+    },
+    {
+      "path": "apps/web/app/operations/page.tsx",
+      "bytes": 227,
+      "sha256": "450a37da140bbfb202c2321df20bde24fd501c12f16b14c453dcbac7c728a11c"
+    },
+    {
+      "path": "apps/web/app/features/page.tsx",
+      "bytes": 1625,
+      "sha256": "c7cd233191a24e5f9b87f9d46bb954234fb06b499614d026a81fe6e89623595b"
+    },
+    {
+      "path": "apps/web/app/permits/page.tsx",
+      "bytes": 224,
+      "sha256": "687cd45547e3fa99cf8bfc5cb8607f924a563fbf52fcbb1b039d536c1be9eed4"
+    },
+    {
+      "path": "apps/web/app/funding/page.tsx",
+      "bytes": 224,
+      "sha256": "d0af29f12d3536d2ad649f34d462fcd694409e017d472194c88ee96415ee1f1d"
+    },
+    {
+      "path": "apps/web/app/marketplace/page.tsx",
+      "bytes": 228,
+      "sha256": "dbb5f46c8a13647d481accaec60fe3c24e6f03f52d8eb4be9a01a71860e9fd10"
+    },
+    {
+      "path": "apps/web/app/waqf-library/page.tsx",
+      "bytes": 1512,
+      "sha256": "496ccc4e0e13f230db117a0da11df33621cb1b957871f4a8464b0ec028bc756d"
+    },
+    {
+      "path": "apps/web/app/methodology/page.tsx",
+      "bytes": 1300,
+      "sha256": "fdf4ffe508427a2d8b026fa683fda039e7a4a2534f173b19d251d52492f2bf0d"
+    },
+    {
+      "path": "apps/web/app/start/page.tsx",
+      "bytes": 666,
+      "sha256": "001f6910342de50d8231248569c843256c5d0d281427564b3571b3d831f97691"
+    },
+    {
+      "path": "apps/web/app/resources/page.tsx",
+      "bytes": 1571,
+      "sha256": "6e64375633eb3c8c38fd62cbebbd58569229c4279c187a48f49d864d8ca68b8a"
+    },
+    {
+      "path": "apps/web/app/accessibility/page.tsx",
+      "bytes": 1340,
+      "sha256": "5112069d429cd5cc0d8cacb5e668085a95960e253498359b5a38ac1a00a9ce4b"
+    },
+    {
+      "path": "apps/web/app/privacy/page.tsx",
+      "bytes": 1431,
+      "sha256": "490ac9607885ecb9e6b42f32719e4079c0f068f3ef9006a84432865c265b122d"
+    },
+    {
+      "path": "apps/web/app/construction/page.tsx",
+      "bytes": 229,
+      "sha256": "aa62e1db7845a63362b2b45fcd0d4aa353350a4502e2c742c734c7f4389bd8ab"
+    },
+    {
+      "path": "apps/web/app/prototypes/page.tsx",
+      "bytes": 1281,
+      "sha256": "c33e505167ce49a20af3d079e00e78262973d1f41faa65c3fc027e9898c12170"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-brand-style-guide-board/page.tsx",
+      "bytes": 428,
+      "sha256": "a235cca416b40533427ca1dc47480ff195bc0eb0f4f40cba59c3f2db6a8e1969"
+    },
+    {
+      "path": "apps/web/app/prototypes/transparent-mosque-fundraising-dashboard/page.tsx",
+      "bytes": 425,
+      "sha256": "cb1d0e4b31e30f376b0b3fd166a2cde174ec2a87e8ea743cfd21760f257cc27e"
+    },
+    {
+      "path": "apps/web/app/prototypes/a-high-resolution-marketing-asset-collage-brand-ki/page.tsx",
+      "bytes": 455,
+      "sha256": "46bb979be42e8e7d5bbdbece73e8f760c8ee2078556d2bbf46f4915553ccd391"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-construction-dashboard/page.tsx",
+      "bytes": 426,
+      "sha256": "4a3363c32809be9510346a10fb31e6bfc77ff78585a5f8c55fe829481f7abaa6"
+    },
+    {
+      "path": "apps/web/app/prototypes/parking-compliance-dashboard-mockup/page.tsx",
+      "bytes": 427,
+      "sha256": "d83279b58d337d8f8f89c6fb3948545fed3ac2df6c8ccfb0f507e2b1958953ef"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-parking-compliance-dashboard/page.tsx",
+      "bytes": 427,
+      "sha256": "221b1672b9cb69ef4443b5c4c9ea2bb1e15ffa6faa5868247eb93aeed76921db"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-community-intelligence-dashboard/page.tsx",
+      "bytes": 446,
+      "sha256": "dff8b6c14734d7c43869d9a3db2eb19460f1f571b10b4c67082eaa28e85fb8c0"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-compliance-dashboard-mockup/page.tsx",
+      "bytes": 425,
+      "sha256": "6cc2bf82334f4c7dfc286388ec2e16b4105a32f67727296a8b2c495a95e7015a"
+    },
+    {
+      "path": "apps/web/app/prototypes/wide-ui-brand-presentation-board-dashboard-mocku/page.tsx",
+      "bytes": 448,
+      "sha256": "c2b61178f86aa86922a1a11bd8f0159b0c6a6167261b8e3d67fb7a0c3cad283a"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-musalla-conversion-dashboard/page.tsx",
+      "bytes": 438,
+      "sha256": "3c98299ef2134506c59b867074abf47ba298f9413e50d81be240a84e4cfd66b3"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-interior-design-studio-mockup/page.tsx",
+      "bytes": 429,
+      "sha256": "e9ff37396ded623c1b30cc1ec068397d17d02425989253a5b5e021ac53b8394a"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-interior-design-studio-dashboard/page.tsx",
+      "bytes": 435,
+      "sha256": "8c4d6442b489b3ebda704d3fdee65d245005038b727a4cdaa61258c6fde28d9d"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-facade-design-studio-dashboard/page.tsx",
+      "bytes": 431,
+      "sha256": "b84bc2ee8bb65ba5f61de88d65c8fbf74921b2fad8eaa32f112d7bfa7dfcaf00"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-construction-progress-dashboard/page.tsx",
+      "bytes": 433,
+      "sha256": "33793379d87c42ca7c13318b029173b26b29a8279c18dd7e0695bcefdb654cc6"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-planning-dashboard-mockup/page.tsx",
+      "bytes": 421,
+      "sha256": "602507f77d9679399bbdb92a1d114119238ac38aab99109c3d89438bcd25f938"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-permit-checklist-dashboard-mockup/page.tsx",
+      "bytes": 437,
+      "sha256": "b0135d9c6997de15cf6f80a6682fd3960e29be618a63f81a655e4f3f42f1aae3"
+    },
+    {
+      "path": "apps/web/app/prototypes/qibla-wall-design-studio-dashboard/page.tsx",
+      "bytes": 425,
+      "sha256": "6878629ff326b3c9ce7297bfb9e4cdd30cd3f904078ea97fe8e256441b8514a9"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-procurement-dashboard-mockup/page.tsx",
+      "bytes": 438,
+      "sha256": "8b9ee6a851b45de4df3e4479c8eb6b3024573299c8bd509eea7c644695656847"
+    },
+    {
+      "path": "apps/web/app/prototypes/a-large-clean-marketing-app-showcase-poster-mock/page.tsx",
+      "bytes": 451,
+      "sha256": "1c2fb8a5e0a673e6f8d23a6acf6c2f0eb25a389c55971727939c5a5a5a98e0ed"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-materials-design-dashboard/page.tsx",
+      "bytes": 423,
+      "sha256": "ed00d30a1e9fab6e5d4844f955308756c892e06c2a0981cf9ecc57dba6f7b23c"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-waqf-library-dashboard-mockup/page.tsx",
+      "bytes": 440,
+      "sha256": "c921fe69f83a1db5855d16c5438da4b497a704a67745275693771ed1bad54b37"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-library-design-dashboard/page.tsx",
+      "bytes": 419,
+      "sha256": "d3e6ba0c67a922a19385ff29eb78d5a678a88835cf34bf40ac51fe037e8acba7"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-design-studio-moodboard-dashboard/page.tsx",
+      "bytes": 448,
+      "sha256": "c8139931e958f1f393a8262e7d29b2b9951a6a18bc6cef1247a28cab21962d2a"
+    },
+    {
+      "path": "apps/web/app/prototypes/prayer-hall-interior-design-dashboard/page.tsx",
+      "bytes": 431,
+      "sha256": "3959ff1a18bdffe7d82e463e7680b14c6941402c7b2cf3081b345741fd701e55"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-funding-dashboard-mockup/page.tsx",
+      "bytes": 430,
+      "sha256": "13c7c3a61408a97ddd19d4502d0977365dbb2485efa5e042e74ccf7e49c36343"
+    },
+    {
+      "path": "apps/web/app/prototypes/a-high-detail-marketing-moodboard-brand-asset-co/page.tsx",
+      "bytes": 451,
+      "sha256": "edad3c269cb0627ac4a761184a86b92851f46d75f8ebf1f7381e1858b87fc4f3"
+    },
+    {
+      "path": "apps/web/app/prototypes/imagegen/page.tsx",
+      "bytes": 373,
+      "sha256": "daffe128821df4c2933f4e8cf851c7feb48527646d697ee654adef4ac94ccb66"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-community-events-dashboard/page.tsx",
+      "bytes": 423,
+      "sha256": "3ba06ec4bf12b6bcaba2c52524f3d2baf9920d1c2d9b0fd56dec62cc415fdd5a"
+    },
+    {
+      "path": "apps/web/app/prototypes/a-large-high-resolution-ui-ux-design-system-and-a/page.tsx",
+      "bytes": 453,
+      "sha256": "5099d723a5d7c63a0bce6aab570818d362adb53a572f0fcdc82a037fa1ad54d2"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-community-review-dashboard/page.tsx",
+      "bytes": 434,
+      "sha256": "3a7510ce23df3dcbb7f01287f489e3f4bab232e0be5fec76e4aa8a72d7491848"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-marketplace-comparison-dashboard/page.tsx",
+      "bytes": 435,
+      "sha256": "89c4698ef29ab0cc757ce9ef6d9bfc5602ba27171adc6061d8381b76f461c829"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-courtyard-design-dashboard/page.tsx",
+      "bytes": 423,
+      "sha256": "175e10cac0820888b8f7ae478300ebe5394da186a65f81f9629aafc9d6acad7a"
+    },
+    {
+      "path": "apps/web/app/prototypes/a-high-resolution-marketing-style-brand-marketing/page.tsx",
+      "bytes": 453,
+      "sha256": "09002e6afbeac2bc4b821a76d3ee5f7f5d838db3e9045788694daf7cb5c0b8ec"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-community-participation-dashboard/page.tsx",
+      "bytes": 448,
+      "sha256": "ba51687dfadf6fc172b0f376e3f2cb010cbc889962319c81ce46aadcf77b2650"
+    },
+    {
+      "path": "apps/web/app/prototypes/a-detailed-flat-graphic-design-marketing-mockup/page.tsx",
+      "bytes": 449,
+      "sha256": "a08d9667161d63c577e3a0b0dd362b5d0dd44e4604efb7e9cd7782a4dad16fba"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-masterplan-design-studio-dashboard/page.tsx",
+      "bytes": 439,
+      "sha256": "df177f5db803eaf1c7aae320cfaadb1b19cb07a17e9f021f93e9aef92dd025ab"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-engineering-coordination-dashboard/page.tsx",
+      "bytes": 450,
+      "sha256": "70f8d070a1ac9b66c658de0dd238f9da4e1e37ac88db25d68274e8b4deec965c"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-permit-submission-dashboard-mockup/page.tsx",
+      "bytes": 439,
+      "sha256": "be320630f50ff664610ebbc42a62a4b2529beb9ef91ba9828afc14e1579fc341"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-design-optimization-dashboard/page.tsx",
+      "bytes": 429,
+      "sha256": "21a7b22a425e32f494d4e823a29f8f41a92f1c117d9a6a09a90aae35d6523f93"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-interior-planning-dashboard/page.tsx",
+      "bytes": 425,
+      "sha256": "d9657b3b70d60aeba4cac2cfb6dce41aefe67b7a10e196b680107d93e6f07817"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-cost-scenarios-dashboard/page.tsx",
+      "bytes": 430,
+      "sha256": "a85df311d58576e99ec327e8459c081a09ca6a114f9df5fc97129ae206c78bd4"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-courtyard-design-dashboard/page.tsx",
+      "bytes": 434,
+      "sha256": "186f04b7db1aae5b2ff5a580e60b0f84dc3cede5151c0e8ab12936cc0a3c4167"
+    },
+    {
+      "path": "apps/web/app/prototypes/a-high-detail-marketing-brand-asset-board-dashbo/page.tsx",
+      "bytes": 451,
+      "sha256": "6fb46787b368d15b0ced1da83c4f0f74889a9ba715b1fee2e5d288aad21ecf20"
+    },
+    {
+      "path": "apps/web/app/prototypes/construction-vendor-sourcing-dashboard/page.tsx",
+      "bytes": 433,
+      "sha256": "461a5d5c89413277616293eb4491585cfdb5cfc107d1b7cd1242fd6602ca0d59"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-design-studio-dashboard/page.tsx",
+      "bytes": 417,
+      "sha256": "aff72becd7897cd8fc1c9e66b2fa47bf5b8b65be94096a07a0a9e0167beb6b42"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-funding-transparency-dashboard/page.tsx",
+      "bytes": 442,
+      "sha256": "4a10bc8082afa2dbded70a034dabc521d2b7fe65a8be8925275be9320d7c3092"
+    },
+    {
+      "path": "apps/web/app/prototypes/wudu-and-washroom-planning-dashboard/page.tsx",
+      "bytes": 429,
+      "sha256": "8c6a340479b30b44e6b88eb23c8e12beb91591ac1383588b2dd784cef3fae919"
+    },
+    {
+      "path": "apps/web/app/prototypes/construction-phasing-dashboard-for-masjid-al-noor/page.tsx",
+      "bytes": 455,
+      "sha256": "a6e31020b2cb46999f7fec9a7e55f98905e2b9f0f76eda785bb74e83e1a59ac4"
+    },
+    {
+      "path": "apps/web/app/prototypes/madrasa-classroom-design-dashboard/page.tsx",
+      "bytes": 425,
+      "sha256": "509a8b8b7e24eebb18bc5355d069bd38f61f2e8044e2a3c518b921cbad081a17"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-interior-design-dashboard/page.tsx",
+      "bytes": 421,
+      "sha256": "15192743779fee67e8a0bc6ceb3477ce15b0fe2f4c5ec76205722de00eba64b9"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-kitchen-operations-dashboard/page.tsx",
+      "bytes": 427,
+      "sha256": "a995d4491496b140b2d612932c1569f0b3e7402b0501cfdff3012bb35f19a51d"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-design-studio-dashboard-mockup/page.tsx",
+      "bytes": 431,
+      "sha256": "5d8b910fbbf02569952d85670e300010060172e1ce7b6422ead425c45635e85a"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-event-design-studio-dashboard/page.tsx",
+      "bytes": 429,
+      "sha256": "2621618b4c55b4a56c9c5d60a88dd5fe859e249e549cf63a16314716b421a295"
+    },
+    {
+      "path": "apps/web/app/prototypes/a-wide-flat-ui-design-mockup-dashboard-screensh/page.tsx",
+      "bytes": 449,
+      "sha256": "75c410edef1c60163b835e951f699ea3baaba935d5651c6cafbe37d00ca11e74"
+    },
+    {
+      "path": "apps/web/app/prototypes/accessible-mosque-wayfinding-dashboard/page.tsx",
+      "bytes": 433,
+      "sha256": "326d05beef29d9144777b956fa23e6406ec74db5601e924ecf81b2da19ff0de2"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-facilities-design-dashboard/page.tsx",
+      "bytes": 425,
+      "sha256": "aedad5798925450962b73ee82cad74bd1018a19bae477649e70b539bbc2cb5f6"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-empowering-communities-together/page.tsx",
+      "bytes": 444,
+      "sha256": "e5ed695771e3508a172ba015f0c803812ea5db0bf223ee1e233ea276905359ad"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-safety-and-lighting-dashboard/page.tsx",
+      "bytes": 429,
+      "sha256": "06f17c500b96f31e89efb79b2bd85100caef42c7966686174584824e02375d2b"
+    },
+    {
+      "path": "apps/web/app/prototypes/parking-garage-design-studio-dashboard/page.tsx",
+      "bytes": 433,
+      "sha256": "bb087c06138d7cdbeb95fcf7a5ff942ca3f0b31b2292179eb68a211ada11c45f"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosquebuild-jurisdiction-selector-dashboard/page.tsx",
+      "bytes": 444,
+      "sha256": "91dbdb4b5bb196a67fbec92891b1b649c38ee6fde7921910b1afb07130e17cb7"
+    },
+    {
+      "path": "apps/web/app/prototypes/mosque-sustainability-dashboard-showcase/page.tsx",
+      "bytes": 437,
+      "sha256": "662dbc8c206f6e63a98302bd56bc87948c34b7bf469511c855c8b9734d49be6b"
+    },
+    {
+      "path": "apps/web/app/prototypes/a-wide-high-resolution-infographic-style-collage-s/page.tsx",
+      "bytes": 455,
+      "sha256": "baa6a10384c506e51134a9f74a858e255fe62c0c796045c4db7a2857f903bf0f"
+    },
+    {
+      "path": "apps/web/app/prototypes/a-detailed-mockup-dashboard-ui-screenshot-produc/page.tsx",
+      "bytes": 451,
+      "sha256": "805cf289fab91f7b246fb3c2f7cfc7c4bfa5fa844bff6280a57435e264ea5577"
+    },
+    {
+      "path": "apps/mobile/app/_layout.tsx",
+      "bytes": 85,
+      "sha256": "fc14b5946817d923e2dc9ead7708498d6a1a5da2fe11a77883d9e34b0d78b8dc"
+    },
+    {
+      "path": "apps/mobile/app/index.tsx",
+      "bytes": 808,
+      "sha256": "aaf2a2524bf0678da759ba3b4d17aa0a875df5000df58376736597bf25bac54d"
+    },
+    {
+      "path": "apps/mobile/app/project.tsx",
+      "bytes": 691,
+      "sha256": "6c9172836712ada9e67a9c693c8b2f615a87aa2018fbb17732c01f97a0c049b6"
+    },
+    {
+      "path": "supabase/migrations/0003_mosqueos-seed-v20-executable-foundation_0003-executable-foundation.sql",
+      "bytes": 4965,
+      "sha256": "407159a681ae53074cf0edd4f4f1e2ba206ff7e50a0f55a083d93c8ca3bcd72c"
+    },
+    {
+      "path": "supabase/migrations/0004_mosqueos-seed-v22-engineering-local-sourcing_0004-engineering-local-sourcing.sql",
+      "bytes": 1832,
+      "sha256": "9dca84b0b5b2150145753da6632c852a4d3ff840877b1df2059eb5b0b79c5123"
+    },
+    {
+      "path": "supabase/migrations/0006_mosqueos-seed-v24-gardens-natural-facades_0006-landscape-biophilic.sql",
+      "bytes": 2260,
+      "sha256": "7ee694612c08a8b8f0aeef323449af09e437b86746661e2011baedcdf4ca91ea"
+    },
+    {
+      "path": "supabase/migrations/0001_mosqueos-seed-v9-canonical-impl_0001-canonical-schema-draft.sql",
+      "bytes": 8138,
+      "sha256": "10db5afa1e0f67c3e6916f9c80ca7bcc864cf6206738b83837764fd4a8dd0941"
+    },
+    {
+      "path": "supabase/migrations/0007_mosqueos-seed-v25-core-implementation_0007-rls-policy-draft.sql",
+      "bytes": 2204,
+      "sha256": "9399e1f3d1686d4072840e0c4771432e90567ffc2806d04d7cd4a675d8f258ba"
+    },
+    {
+      "path": "supabase/migrations/0002_mosqueos-seed-v12-shadow-claims_0002-shadow-profile-claims.sql",
+      "bytes": 2103,
+      "sha256": "1371f16a08111bb9eb010b828930ab9fcce2e9cb06b5a68f0ddbe4a64ce46cdc"
+    },
+    {
+      "path": "supabase/migrations/0008_mosqueos-seed-v26-core-algorithms_0008-rls-expansion.sql",
+      "bytes": 1201,
+      "sha256": "78440bc4c724d362b50b9cdde5b44388c5b34ea538091cc2e95b02375a2c7607"
+    },
+    {
+      "path": "supabase/migrations/0005_mosqueos-seed-v23-next-tasks_0005-next-tasks.sql",
+      "bytes": 3313,
+      "sha256": "f0654633cd9b5d47de13964c1391709c76c2b310c0d32f4162f189ef0802d695"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v8_audit/DATA_COMPLETION_SCORECARD.json",
+      "bytes": 3432,
+      "sha256": "39f6637e2e8d9346d7f047bd22e2c966b2b06cbb0b1b15e5b3026d7bb263a786"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v8_audit/MISSING_CORE_CONTRACTS.json",
+      "bytes": 4752,
+      "sha256": "5c1c73267de7cb83c1f6529116727ba946380d5a00f47ca23489afbeb69a60a7"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v8_audit/FULL_AUDIT_REPORT.md",
+      "bytes": 8636,
+      "sha256": "ae204478bedc422735d5f24b74aadaa98a412b2bc5804b2c57b3f6c10c4b9abf"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v8_audit/QUALITY_TARGETS.json",
+      "bytes": 1306,
+      "sha256": "b7515d9d5a75b3c1ad4267466ce7b51a27f1e3cf7d961c1e44178beefd50f517"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v8_audit/AUDIT_SUMMARY.json",
+      "bytes": 1211,
+      "sha256": "736aa643c146f2560c7e07e5e4afa463d42d8cd2789d59d0dc4e18cc13e13d37"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v8_audit/MISSING_DOMAIN_CHECKLIST.json",
+      "bytes": 3058,
+      "sha256": "fa77db833782e33518c58e28bf22066e05178564b526f05f18ccd7cc244ff909"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v8_audit/CANONICAL_AUTHORITY_MODEL.json",
+      "bytes": 1262,
+      "sha256": "d2f555706dfc072722028fe9c56877d28b07f291dfb0253ae7e2d742089e31b0"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v8_audit/CANONICAL_REPO_STRUCTURE.json",
+      "bytes": 945,
+      "sha256": "3bbb5bffcb176938e90a2ff9c7adc9354c5ba0cc89cc0863f57b1b74b2593f9b"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v8_audit/AUDIT_CORRECTION_BACKLOG.json",
+      "bytes": 54287,
+      "sha256": "54115b1fe59bf9a5335c5a6b8bbaa161e83840cf111f13a0637b2ea3d1e86a9c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v8_audit/AUDIT_FINDINGS.json",
+      "bytes": 12261,
+      "sha256": "f924be33faba75a0079178bdfccdeb330d6a826f139888fc466750078b0fc90c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v5_procurement_build_control/DAILY_REPORT_SCHEMA.json",
+      "bytes": 765,
+      "sha256": "0bee1f36d68a92986629c99d29594f9427f4eb67dfdefdccbc6057baed566f43"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v5_procurement_build_control/BUILD_DASHBOARD.json",
+      "bytes": 1159,
+      "sha256": "c412a9cecb964e608c17a764fb72a6e3da018cdbdb879cc48b6091a101c48d40"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v5_procurement_build_control/BUILD_CONTROL_BACKLOG.json",
+      "bytes": 207140,
+      "sha256": "aaa505c9c3ef1a9c2e0be9b6568a7b15a31b1b4671517bed5dc392cfa69effb0"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v5_procurement_build_control/PROCUREMENT_WORKFLOW.json",
+      "bytes": 1639,
+      "sha256": "724437724f7dd0e04b9d4da560e60220817d648c3e0cced24c6235c370752dc1"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v5_procurement_build_control/PRODUCT_GALLERY_SOURCE_POLICY.json",
+      "bytes": 750,
+      "sha256": "2ff40272d9205a8ab1f4f1035b1309ac4190b872c4935c8dde93a782a9a2684c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v5_procurement_build_control/MATERIAL_LIBRARY.json",
+      "bytes": 33608,
+      "sha256": "ccf077543fab7d1f7106f3ab3414795465494060bd1a120427dffb363fdbc43e"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v5_procurement_build_control/SITE_PROGRESS_MONITORING.json",
+      "bytes": 1388,
+      "sha256": "5e4fd550e7041700bc26f227df02d37f126e5af06642363b80369cac13f3929f"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v5_procurement_build_control/CONSTRUCTION_WORKFLOWS.json",
+      "bytes": 2567,
+      "sha256": "2b5731cd8ee4619255662ba1bbc0ac8c7c5151fe0f7879c428d2c074d622eafa"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v5_procurement_build_control/PRODUCT_GALLERY_TAXONOMY.json",
+      "bytes": 185284,
+      "sha256": "93cce94d49dd71259feb1e1fccfe27cdfbd5ac964d72affd5c3103979ca3fc64"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v5_procurement_build_control/HANDOVER_ASSET_TRANSITION.json",
+      "bytes": 819,
+      "sha256": "ba9168902463bc2698444625a8dc6f18e93c444c9413283d5abfe975de8d459e"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v5_procurement_build_control/CONSTRUCTION_PROGRESS_MODEL.json",
+      "bytes": 3515,
+      "sha256": "8c7f55858abbca677620cd2c525a7bd4b303b5bbc42ad16ea02d1fe6f3143bcd"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v5_procurement_build_control/BUILD_CONTROL_CONTEXT.md",
+      "bytes": 1777,
+      "sha256": "53cfc68f0848088aa8bd145ec7c5d367cf4cb6089dae5bf863d336e56e64d47f"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v5_procurement_build_control/SOURCES.json",
+      "bytes": 2236,
+      "sha256": "ca143beddae6ee355dc6c8075300d6e15e4f110c5c23905ecd2cffb4e63af4e7"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v17_app_buildout/INBOX_NOTIFICATION_APP.json",
+      "bytes": 626,
+      "sha256": "72d2af7fafe54d1447fc5cd6a2b61d982bbc8f5ff549c45504868bfbd74d1be5"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v17_app_buildout/FUNDRAISING_APP_CONTRACT.json",
+      "bytes": 942,
+      "sha256": "d2531f75f714245be49aa4c407333054c222ee06c966704bb5b2b86f23032761"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v17_app_buildout/APP_ONBOARDING_V2.json",
+      "bytes": 945,
+      "sha256": "c5023ef05a715b1c0526fa0766137b39c819efce314a808726250069c46c1400"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v17_app_buildout/APP_IMPLEMENTATION_BACKLOG.json",
+      "bytes": 114134,
+      "sha256": "50bc7c4fc198e8b8b415c231edb844973404ccdb31b4c1f642d313ba9b14fe2c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v17_app_buildout/APP_SCREEN_INVENTORY.json",
+      "bytes": 25708,
+      "sha256": "1c0115d2e58453927a3086d462955e228329bf64823edac2c6163f65fa6d1f15"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v17_app_buildout/MARKETPLACE_CART_APP.json",
+      "bytes": 973,
+      "sha256": "3e11069369ed3f3c4979bc2bcf576746a0975bcfbed141596754acd9e7033812"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v17_app_buildout/APP_STATE_STANDARD.json",
+      "bytes": 774,
+      "sha256": "726cf676cd6073e9f72dab417de786593f6d153d0257d4bf275a46c09280158e"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v17_app_buildout/THREEJS_EDITOR_APP_CONTRACT.json",
+      "bytes": 1173,
+      "sha256": "258d9c90fd38ac003d8dc7bc6b70032f8d3cabd8b19a9ef1e9f19ebc0ecc4599"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v17_app_buildout/APP_BUILD_MILESTONES.json",
+      "bytes": 2108,
+      "sha256": "03dd347db00347655ab4e7c628e43dbdec42bca0c533fd0de880039e02589b03"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v17_app_buildout/APP_ROUTE_MAP.json",
+      "bytes": 2579,
+      "sha256": "077071d9b10b3a9448390d470cd8f602f2ef99b4dabbfc1045bda6e0caf0e5a5"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v17_app_buildout/PROJECT_WORKSPACE_SHELL.json",
+      "bytes": 1184,
+      "sha256": "cfd63feabc2c9972d993e0b83f23fa549d649571df3d6428f26905bac2498054"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v17_app_buildout/SHARED_COMPONENT_LIBRARY.json",
+      "bytes": 1139,
+      "sha256": "7fd7cc6388a000aae287935445a190ae10a4bd1af60fafbfd89b4e44819dcac8"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v17_app_buildout/EXPO_FIELD_APP_CONTRACT.json",
+      "bytes": 1283,
+      "sha256": "b4da4c39e30810ced308367d327b64874a6c1db4c33ba199bad0bcb3325ab6a7"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v17_app_buildout/APP_BUILDOUT_CONTEXT.md",
+      "bytes": 1335,
+      "sha256": "f143ec9ea1ee763fcb4b7e2fe912533faad537730d422882ae5742b5a5785347"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v16_3d_product_designer/PRODUCT_3D_LIFECYCLE_EVENTS.json",
+      "bytes": 1628,
+      "sha256": "690ea0fa2e21e411651e80d207aca9cf8839c210f729f44640162d9dfe050f45"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v16_3d_product_designer/PRODUCT_3D_SCREEN_CONTRACTS.json",
+      "bytes": 12836,
+      "sha256": "8f4a5590520a00b5f5cc4859b02f1ec601627ebc2925511184d92b53ab120f3d"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v16_3d_product_designer/PRODUCT_3D_INGESTION_PIPELINE.json",
+      "bytes": 1280,
+      "sha256": "40a5ff89c5e30b1961ac8e3749227224f7eeff7cf359da20c04f77bfc4f677c2"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v16_3d_product_designer/ONBOARDING_FLOWS.json",
+      "bytes": 1836,
+      "sha256": "6ee7f55ceef16cbac031fa620b9b47c1920b5b39fca51151f33b55ff7e00697c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v16_3d_product_designer/PRODUCT_COMPATIBILITY_ENGINE.json",
+      "bytes": 2296,
+      "sha256": "4d487c3063f94c2a92d5f665cb75009e8ec5d0fce1b4c524825001241f398fb5"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v16_3d_product_designer/PRODUCT_3D_DESIGNER_CONTEXT.md",
+      "bytes": 1244,
+      "sha256": "0d90fd252f9db7acf0e0673ae2c16991493c712e0fa7fc1e26bc624c53280795"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v16_3d_product_designer/PRODUCT_3D_IMPLEMENTATION_BACKLOG.json",
+      "bytes": 131918,
+      "sha256": "07aacfe398e9dabfa62ee6a5b3888ca5e71cc3c77a42f6a93ad8582de8400095"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v16_3d_product_designer/PRODUCT_3D_SCHEMA.json",
+      "bytes": 2095,
+      "sha256": "d922d1043d2a335972d76d366b55bd7a018378dc9586ca0ac56d867602279d5d"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v16_3d_product_designer/PRODUCT_CONFIGURATOR.json",
+      "bytes": 1699,
+      "sha256": "d0671d709af8c6a70979155ceb286425a580456960b0ec9cd26cccc16b4b0524"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v16_3d_product_designer/DESIGNER_PRODUCT_LIBRARY_UX.json",
+      "bytes": 963,
+      "sha256": "0ce7fa677b069ff10eba234cd10dac8870f8abba7f2f776f5666d232b28010b4"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v16_3d_product_designer/ANCHORS_CONNECTIONS_CLEARANCES.json",
+      "bytes": 1109,
+      "sha256": "1813093f42892257d67abf50392288143cd4d3a45484da6a88490765a4e5e8b7"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v16_3d_product_designer/RENDER_PRODUCT_INTEGRATION.json",
+      "bytes": 891,
+      "sha256": "a0bfca5d3088a6f9d3833688fda8831c8d7c89f66fd53748d0a245984013c3ba"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v13_global_vendors/GLOBAL_VENDOR_SEED.json",
+      "bytes": 26113,
+      "sha256": "8fb1a8211dd4f2e11f20c5b7b72755cb363411e494e8b88d1d976a9329bcca3d"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v13_global_vendors/GLOBAL_VENDOR_CONTEXT.md",
+      "bytes": 1011,
+      "sha256": "b93e76febd6a3243f6a02398f1f218e9343fd9a796c8e9cbfde4cf601aecdd31"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v13_global_vendors/VENDOR_CATEGORY_ONTOLOGY.json",
+      "bytes": 2693,
+      "sha256": "8e92c5ad7bc94289722b9b361be635e8a8275ad0e2dff9b012744c94b45562a9"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v13_global_vendors/VENDOR_SEED_COVERAGE.json",
+      "bytes": 2818,
+      "sha256": "fb8212bf0f5d0aa5579c644668c1658e690c1e5f9c978a6d16a1c364f6029d62"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v13_global_vendors/GLOBAL_VENDOR_INGESTION_BACKLOG.json",
+      "bytes": 54981,
+      "sha256": "4f5581616eb0869d229feabe0656c3f818f13f5d5454be1da30727b9fc8a805c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v13_global_vendors/VENDOR_MARKETPLACE_WORKFLOW.json",
+      "bytes": 1294,
+      "sha256": "c005ff2e171748cfea29453f5ef83d632b93190bfb47321ef851dba6eabe0939"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v12_shadow_claims/PUBLIC_SOURCE_INGESTION_POLICY.json",
+      "bytes": 1214,
+      "sha256": "07c831ada0c007c6e73eaf6a34ed85601c564b3e8e35a18bd9eb9585ef5094ee"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v12_shadow_claims/CLAIM_VERIFICATION_FLOW.json",
+      "bytes": 3663,
+      "sha256": "ee8bbec1cefeeb045c77f85037044f3ab01934352fc2cdf3cc587b2315070bcc"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v12_shadow_claims/0002_SHADOW_PROFILE_CLAIMS.sql",
+      "bytes": 2103,
+      "sha256": "1371f16a08111bb9eb010b828930ab9fcce2e9cb06b5a68f0ddbe4a64ce46cdc"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v12_shadow_claims/SHADOW_PROFILE_MODEL.json",
+      "bytes": 1860,
+      "sha256": "03f1a4541f0eb63c00ac166d3cd1235536ea8144e6dfaf1bef759f2ffe6b8bf2"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v12_shadow_claims/DNS_TXT_VERIFIER_PSEUDOCODE.ts",
+      "bytes": 1157,
+      "sha256": "8ae96297ce439aa28bed2b50233f5038d0f818a963b306ec3257dffbdd4145d2"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v12_shadow_claims/MOSQUE_ADMIN_CLAIM_MODEL.json",
+      "bytes": 772,
+      "sha256": "d50e9505108d6066afac4f61e4eded663de8350de83e75bc98c2f6ee98028dbc"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v12_shadow_claims/CLAIM_RISK_ENGINE.json",
+      "bytes": 1384,
+      "sha256": "8b80f65c94a7026c68c9200fb51769da3b88413f4155731b09207e09f53979c4"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v12_shadow_claims/FIELD_AUTHORITY_MERGE_POLICY.json",
+      "bytes": 1753,
+      "sha256": "cef42cb5e64c664a05bf53dab9626e047d1f96b265f3046ecf3fabb6969d510a"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v12_shadow_claims/REAL_SHADOW_PROFILE_EXAMPLES.json",
+      "bytes": 4168,
+      "sha256": "25ffa1d5623b3b30303309dba82c96927046342fec7d439c51d24bde190b248f"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v12_shadow_claims/maintain-shadow-claims.SKILL.md",
+      "bytes": 813,
+      "sha256": "3b3a2b6de4880564a141d2679e4f2ee849d654fd4e792c0be55f390615400c32"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v14_integrated_marketplace/ADVANCED_PRODUCT_COMPARE.json",
+      "bytes": 1460,
+      "sha256": "14067927c5aa72aa5540fe2edf85532a2b9f419f32e254d84b29f6aa71e2c1bf"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v14_integrated_marketplace/MARKETPLACE_FEATURE_EXPANSION.json",
+      "bytes": 5855,
+      "sha256": "dded58032fd8cb7e916c8dac2548ae2dc73b4014d348313b16ce704c46731bdc"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v14_integrated_marketplace/MARKETPLACE_INGESTION_QUEUE.json",
+      "bytes": 357842,
+      "sha256": "2f3ae83e016685c927a79eac9f734bab731ce4a749af6b2e85d718f2898640b1"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v14_integrated_marketplace/INTEGRATED_MARKETPLACE_CONTEXT.md",
+      "bytes": 1280,
+      "sha256": "855759619cb78596c641719a7aa4e5666f1468bc4a63eabedd6db626d45b53b4"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v14_integrated_marketplace/PROJECT_CART_MODEL.json",
+      "bytes": 1455,
+      "sha256": "92214fdfb3c60502ca3dfae1f6d96c469fd4a9eec586618847304da1fc7e8c5c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v14_integrated_marketplace/SHIPPING_SCHEDULE_ENGINE.json",
+      "bytes": 1216,
+      "sha256": "0fe40742a252da454d77f2889b2a56e4e27584cccd4ce852ad53307a20070c11"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v14_integrated_marketplace/VENDOR_PRODUCT_DIRECTORY_V2.json",
+      "bytes": 1325,
+      "sha256": "209b1544c558213777fca28bcda0679b3c4bdfb77eddb1bab4de2d094a0dd789"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v14_integrated_marketplace/MARKETPLACE_PROJECT_INTEGRATION.json",
+      "bytes": 2010,
+      "sha256": "03217d6e9db974cd43de05e92b7a384cd21469b07a65f68d9fbf2937b178c9b0"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v14_integrated_marketplace/REAL_PRODUCT_SEEDS.json",
+      "bytes": 3169,
+      "sha256": "d1cfa20bf865fc5569fc1f79f4a82f663f9a2cdcb497c88513ea9169fd249bec"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v14_integrated_marketplace/DESIGN_PRODUCT_BINDING.json",
+      "bytes": 2109,
+      "sha256": "18154670c88f99ae5e9dd3f9467cd9542a8b02780a6ddbf1bb98be34f385dd52"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v26_core_algorithms/TAKEOFF_RULES_EXECUTABLE_V26.json",
+      "bytes": 1794,
+      "sha256": "967f2b9d4c3b368ad94e3fc0946ce018604b93d77e29fb468a15fbe85ca0aabf"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v26_core_algorithms/CORE_ALGORITHMS_CONTEXT_V26.md",
+      "bytes": 918,
+      "sha256": "2d9185bc10b2479164565774df4720622687342f949079304b95e28b0504a266"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v26_core_algorithms/NEXT_BIG_TASKS_V26.json",
+      "bytes": 1531,
+      "sha256": "ea0d1e97467404f99942c5cef587a2ce802674cf9181a185990a9f6bde034434"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v26_core_algorithms/RLS_TEST_SCAFFOLD_V26.json",
+      "bytes": 942,
+      "sha256": "0e954517405b9789a685676b27a8d34be1c0ad2e77f503f22e838b8bbcbda36c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v26_core_algorithms/FEATURES_V26.json",
+      "bytes": 4887,
+      "sha256": "8350ee37d7c7a74c3d3d71cab05cf67502daf6add55bb09170629869b17442c4"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v25_core_implementation/ASSEMBLY_EXECUTION_MAP_V25.json",
+      "bytes": 3804,
+      "sha256": "d44d5f42d477a0ec730a5787edce0159daab2284122c7c501b9a10df8d0cc464"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v25_core_implementation/LANDSCAPE_EDITOR_V2.json",
+      "bytes": 1027,
+      "sha256": "32dcb628c83687609627ea752554e0d3e96fa1570bc81d6a85def8806109607b"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v25_core_implementation/ROOM_WALL_OPENING_SOLVER_CONTRACT.json",
+      "bytes": 963,
+      "sha256": "3e0d57e07578471f1e283c7c86d39b38044f1ad0fad59f88f6c17f75b07c3a12"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v25_core_implementation/FEATURES_V25.json",
+      "bytes": 3578,
+      "sha256": "bb8bcbef2761c4fa7ddca35700c39bd3f10e9da64dc1f324518db79d0156962d"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v25_core_implementation/CORE_IMPLEMENTATION_CONTEXT_V25.md",
+      "bytes": 771,
+      "sha256": "50220761cadb0cead30ceeb95612baf8ccd9c91518c3d8d8f3b53620f8f532c2"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v25_core_implementation/KENYA_EAST_AFRICA_DATA_PLAN_V25.json",
+      "bytes": 1816,
+      "sha256": "cdd4223737a4852213c263d375f13b40a30223bc85105bd6828530c036a51a22"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v25_core_implementation/LOCAL_SOURCING_SEARCH_INDEX.json",
+      "bytes": 971,
+      "sha256": "891645e08e6ea23e355bb6da14d6b75e21028cd42ee32ebc63047e8e707e5ef7"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v25_core_implementation/PRAYER_LAYOUT_V2_CONTRACT.json",
+      "bytes": 763,
+      "sha256": "af09ffd6d8883863b129f8429dda8ec0858184e1dcad1f44cd31ebdaba930852"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/COMPLETENESS_BACKLOG.json",
+      "bytes": 521200,
+      "sha256": "7415bd8a18fed03df1543cca0cd76363763344546676d1d9929a2b18ea5e686b"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/CROSS_MODULE_EVENTS.json",
+      "bytes": 12243,
+      "sha256": "e4a9e5fd265e19345c77ce00201fc45f63b22a304e9ee0ccd5f145358205a658"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/SUSTAINABILITY_RESILIENCE.json",
+      "bytes": 1047,
+      "sha256": "4dae5811ae87b4a9414fff932a6d5dbe39d45eee38992e048697c0aba8c941c7"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/SAFETY_INCIDENT_MODEL.json",
+      "bytes": 820,
+      "sha256": "49089cc118f4ebb5998cfdedac3360cd648a63bd2a812fba1a15a61b3daab988"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/INTEGRATION_CATALOG.json",
+      "bytes": 1454,
+      "sha256": "a89cd0bffe507839eb63febb5664b3a6c7ee3ea03e63baa7470c5a7ffa0f9e5a"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/EXPANDED_FEATURES.json",
+      "bytes": 97841,
+      "sha256": "cacc10de72ea4835763936cf586ded4b6bf5807b0ee85d6890e7dd6af8ff9451"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/RISK_INSURANCE_MODEL.json",
+      "bytes": 1526,
+      "sha256": "2f7055adaae24c33351f7bdd2619a073dd0e18fea40055200b5e917acb4b7c62"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/QA_QC_SYSTEM.json",
+      "bytes": 1495,
+      "sha256": "0fa5abd575c858e2f48c4ac5b04cfa7eca4c2ef2e0a4d3577307daa79772b9af"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/REQUIREMENT_TRACEABILITY.json",
+      "bytes": 1414,
+      "sha256": "f7467bcdf78ed36d6c8e9fef71e28da9ddb0e26d4576412b7c529c5be552099e"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/COMMISSIONING_SYSTEM.json",
+      "bytes": 1945,
+      "sha256": "219d51401d19e35e9c058bb167e378842309776f777f0c672e64b4d72c56475e"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/COMPLETENESS_CONTEXT.md",
+      "bytes": 1511,
+      "sha256": "999c4086650af257931c07fe13c9e21e3902a1a5900ef4b94c3532a69db56ece"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/BIM_INFORMATION_REQUIREMENTS.json",
+      "bytes": 1187,
+      "sha256": "3dcb35096e4a232aa875cd00a9f05e0038aeba7f4ab9fe78e742690b16ca2e82"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/STAKEHOLDER_ENGAGEMENT.json",
+      "bytes": 862,
+      "sha256": "7e0b53e87756fa69587133b0704e0c2f74a0e140ade0c4670d2f7a0776c11b72"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/REPORTING_CATALOG.json",
+      "bytes": 1185,
+      "sha256": "bc6b584fbd5d3cb2de60176e94b5a7286687a59c8f95b3ee416ba78849feaf98"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/DATA_GOVERNANCE.json",
+      "bytes": 1403,
+      "sha256": "cc7667f7cf772fbfa41b55b258056fccb86bb5879c4acff737d9e3f420a68070"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/RELEASE_GATES.json",
+      "bytes": 1399,
+      "sha256": "0322dd2956996e3f7dafdb6bd3e08976b5c2de2fbe7c91552c36ac98d5fe14a5"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/FACILITY_ASSET_LIFECYCLE.json",
+      "bytes": 1468,
+      "sha256": "2c6a0bf707166c5fecd2453d76d02ecc2227205d8eb431beb2e0e7eca0897010"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/SOURCES.json",
+      "bytes": 2589,
+      "sha256": "462fe93a3d798bc6240dfa8f4dd098adf2e6c14e6ffe6e793df8392959ddb3ca"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/GOVERNANCE_DECISION_CONTROL.json",
+      "bytes": 1633,
+      "sha256": "108ecb51d457ef6692211ebe297fd19d1d6a5af905784fd6e1a81a2106765e7a"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v7_completeness/MISSING_SCREEN_CONTRACTS.json",
+      "bytes": 35623,
+      "sha256": "725ac0163bea224de17672786393faae1529f82bf9a6c0d4eddd5c4e1d94ecd1"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v11_living_backend_flow/README.md",
+      "bytes": 1008,
+      "sha256": "862cb793c7b2de6927b061a3ad20ca52d2f875ebce87234552aae77621d2ec52"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v22_engineering_local_sourcing/LOCAL_SOURCING_ENGINE.json",
+      "bytes": 3182,
+      "sha256": "89cc7f103c70d8465640c3b56ee7904f9496b4dfdc3cd3397227fc7a4c83dcc7"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v22_engineering_local_sourcing/ENGINEERING_LOCAL_SOURCING_CONTEXT.md",
+      "bytes": 1276,
+      "sha256": "50470c3f59ef529f6f158e96051524a8767b11356a8fbecb36ffe855a87d5966"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v22_engineering_local_sourcing/CONSTRUCTION_WBS_TEMPLATES.json",
+      "bytes": 1103,
+      "sha256": "7dd8dbdd23c15a05f702f25e95d95481c1a9f15771a617a609bd42db2179abd0"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v22_engineering_local_sourcing/ENGINEERING_CONSTRUCTION_FEATURES.json",
+      "bytes": 12741,
+      "sha256": "3ffe5291bdbbf53a9b74f3f229b5ff0ed0bb8a81744c3028c75ee5e713a69dbf"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v22_engineering_local_sourcing/METHOD_STATEMENT_TEMPLATES.json",
+      "bytes": 8684,
+      "sha256": "c4fa6df81d34b329e94ea8cf7679e120a3b7b39b2881b6a2d4cb35a20aee26cd"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v22_engineering_local_sourcing/ENGINEERING_REVIEW_GATES.json",
+      "bytes": 1011,
+      "sha256": "32f8e4ce2bc04deb912834524eb224e006a5e521915fda61109dfa2d83423d86"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v22_engineering_local_sourcing/BIGGEST_NEXT_TASKS_V22.json",
+      "bytes": 1116,
+      "sha256": "e1c084661a7ea2ddf0d69f7c88203dec5b2f82664e5a4ce416e2c317d122ca89"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v22_engineering_local_sourcing/CONSTRUCTION_PROCESS_LIBRARY.json",
+      "bytes": 5058,
+      "sha256": "b16c698b8a4aa0558744df22acd37677097c34cba13998fc623bf49102091504"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v22_engineering_local_sourcing/ENGINEERING_DISCIPLINE_MODULES.json",
+      "bytes": 4755,
+      "sha256": "f221385dd15e3871deacb1f54f94aa2c002f179439e34c9976822e346f8b017f"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v3_pitch_team_pwa/PRODUCT_BACKLOG.json",
+      "bytes": 465413,
+      "sha256": "6c10851f64cffb527e7fb09fa7dde578874d94b3908dc82389e1e4f090ae7f53"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v3_pitch_team_pwa/PITCH_TEAM_PRODUCT_CONTEXT.md",
+      "bytes": 1439,
+      "sha256": "97d222ff8939b8275019dc3907f002107e6487e288a9bdc2d1514e41cc5776e4"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v3_pitch_team_pwa/SUPABASE_SCHEMA_INVENTORY.json",
+      "bytes": 2845,
+      "sha256": "15831610b1c46e54dba388d5253f5436d5886936c9c295f2ad0d23dec9c143bc"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v3_pitch_team_pwa/DREAM_TEAM.json",
+      "bytes": 4015,
+      "sha256": "4348806fdfa52b5d995337b22f7ffbd37cd6afd055d2232f195030bf0e6d4cc8"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v3_pitch_team_pwa/PLATFORM_PARITY.json",
+      "bytes": 1283,
+      "sha256": "9df693c03f4919f57079deadc15cd5b6fc897172324b6125eaf2ad501130b451"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v3_pitch_team_pwa/TECH_ARCHITECTURE_PWA_EXPO_SUPABASE.json",
+      "bytes": 3769,
+      "sha256": "9bcbb66f490c91d8bfd8feed77b3a28dfa5b6323eecced07977018f9f9249214"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v3_pitch_team_pwa/HIRING_PLAN.json",
+      "bytes": 1260,
+      "sha256": "e91e9a6b0171bc000dfeec9c85ccb37fc150b598aa2ab761c05393f3ef5a2b91"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v3_pitch_team_pwa/LANDING_PAGE_COPY.json",
+      "bytes": 4978,
+      "sha256": "77dd4570e3f1ab31bfa03fc9b488c3b56d80048d18e10592bd07c6bba6916cff"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v3_pitch_team_pwa/PITCH_DECK_CONTENT.json",
+      "bytes": 1954,
+      "sha256": "f26c23576560508eb300df36ec3d5e51dd1197bbadf1fbb0730a76cf62407bcf"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v19_deep_population/POPULATED_PARAMETRIC_ASSEMBLIES.json",
+      "bytes": 11667,
+      "sha256": "83c9f8a0c700a6d926e14502a7913b819270770a4664a50890495ea4dce439c6"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v19_deep_population/POPULATED_CONVERSION_PRESETS.json",
+      "bytes": 16324,
+      "sha256": "2254d705806ef1a8a8d819bcae48cdeee3d99cdd31665429b9983e7b9ac41e20"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v19_deep_population/POPULATED_COMMISSIONING_SCENARIOS.json",
+      "bytes": 5439,
+      "sha256": "a01ba44724f2a595e819a76840d3766a24a8e56b89b24ac0ef24c8c51bd7d6ab"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v19_deep_population/REAL_SOURCE_SAFETY_TEMPLATE_SEEDS.json",
+      "bytes": 1204,
+      "sha256": "6e273f91abf3536e8409442185eb85c6835b62ad9616ce2bbb80832013305bb3"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v19_deep_population/V19_IMPLEMENTATION_BACKLOG.json",
+      "bytes": 74580,
+      "sha256": "73663798fb36871fe56a640115d0a88a556b22c59b8e8ad0f916ab3d803b3957"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v19_deep_population/POPULATED_ITP_TEMPLATES.json",
+      "bytes": 13283,
+      "sha256": "75bc9c5a309c2093c3eafed77cf3cee81f7dbd45ed533af8e42488dc0ef6846b"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v19_deep_population/DATA_COMPLETENESS_TARGETS_V19.json",
+      "bytes": 1635,
+      "sha256": "9a70dc4f3667ac53857ad2aa99d04ccdcc201cf51300787173f45e333c02a6c8"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v19_deep_population/MISSING_TASKS_V19.json",
+      "bytes": 15017,
+      "sha256": "9393d36c3f5ce9a4a07dcf26495e0eb720d03f93da941da713519abedb27915f"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v19_deep_population/DEEP_POPULATION_CONTEXT.md",
+      "bytes": 930,
+      "sha256": "e6a8c6d76272e0d6bf8c0bea927f19a33caef508c1e81001e1f2b75f661075da"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v9_canonical_impl/RLS_POLICY_MATRIX.json",
+      "bytes": 3804,
+      "sha256": "8769743e062194ee1c003bb594043fd2c638d0f369e2468f03e937eae6f7b200"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v9_canonical_impl/API_CONTRACTS.json",
+      "bytes": 1256,
+      "sha256": "1df211acf71ef9ca9131af642f9ef331b6cb6bef04e786e789a0e1bb76ce6154"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v9_canonical_impl/KENYA_NAIROBI_LAUNCH_COMPLETION_PLAN.json",
+      "bytes": 1755,
+      "sha256": "5500a69c9b37ff665390515fc99a1411d094fa8053fdadd04e747acba2beecd0"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v9_canonical_impl/ROLE_CAPABILITY_MODEL.json",
+      "bytes": 2802,
+      "sha256": "e2be0e8b4ff1deda42fd5cf46cf40751735890518e0ec50c8403aeaf1eed74af"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v9_canonical_impl/CONTENT_REVIEW_WORKFLOW.json",
+      "bytes": 1395,
+      "sha256": "7aca7039d128895596860848ebdaa2b7adef1c6a851666e5b832f38687f66bdb"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v9_canonical_impl/INGESTION_STATE_MACHINES.json",
+      "bytes": 1906,
+      "sha256": "816532cb7b141932614ade2712adc81f3a62fe6e5577a9431da671b304998f17"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v9_canonical_impl/ANALYTICS_DICTIONARY.json",
+      "bytes": 979,
+      "sha256": "4377299e8e688a276f777d07dd5217e5eb046fc82ed495e936229b21c36d9bee"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v9_canonical_impl/SEARCH_INDEX_CONTRACT.json",
+      "bytes": 1515,
+      "sha256": "4fa6e7beb3a0b12401d546af4bc5540cebafc1fdadec3675ca3105c8af08b3e4"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v9_canonical_impl/V9_IMPLEMENTATION_BACKLOG.json",
+      "bytes": 78678,
+      "sha256": "67e66c89d3fe3c0e6a181e7ed593c133b9bf79e3c1df49e6450266da2f282a6b"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v9_canonical_impl/CANONICAL_IMPLEMENTATION_CONTEXT.md",
+      "bytes": 1147,
+      "sha256": "104ec1764d1ce8a09c20e3f586eba912b20026476314ba801cd56af14b74a3cd"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v9_canonical_impl/0001_CANONICAL_SCHEMA_DRAFT.sql",
+      "bytes": 8138,
+      "sha256": "10db5afa1e0f67c3e6916f9c80ca7bcc864cf6206738b83837764fd4a8dd0941"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v9_canonical_impl/NOTIFICATION_POLICY.json",
+      "bytes": 1240,
+      "sha256": "1aed59a46acbd382a80dee053e0d073ddf7dca2d6c830cf348589ba36c1832bd"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v20_executable_foundation/API_RUNTIME_CONTRACTS_V20.json",
+      "bytes": 1665,
+      "sha256": "06b2b4c6a3fe6831df43f56d16b71437d75bbf318d54f0ac1892f667603ecca7"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v20_executable_foundation/NEXT_IMPLEMENTATION_PRIORITIES.json",
+      "bytes": 1369,
+      "sha256": "30a0b6a8089a2718528fe397a9d54dfa87758bddc668db75894c21de7d414d9b"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v20_executable_foundation/MONOREPO_PACKAGE_CONTRACTS.json",
+      "bytes": 1830,
+      "sha256": "12363fca3ba36a68fd85e512c548375594caa56baf5f7f8292835f02f340219c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v20_executable_foundation/GEOMETRY_ALGORITHM_CONTRACTS.json",
+      "bytes": 2176,
+      "sha256": "913cbb87a536ccae29e0bb24f3577f7aee5416bc6003ae8a05b13c9edf733465"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v20_executable_foundation/DEMO_END_TO_END_PROJECT.json",
+      "bytes": 1337,
+      "sha256": "be9b46e4670d7eb68fba38dc2df5e8d8532ebc7625858d8f16204a771b596d11"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v20_executable_foundation/SEED_RUNNER_CONTRACT.json",
+      "bytes": 483,
+      "sha256": "95c5eb496a63426a5f0e457e1de222311a982bc0db53a33f4e0f8f7061ed9c56"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v20_executable_foundation/EXECUTABLE_FOUNDATION_CONTEXT.md",
+      "bytes": 615,
+      "sha256": "a41cedd9997adf53a52f9b9112cd2d356bcc12ba66f9751ed92f931cfe4ab9c0"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v20_executable_foundation/0003_EXECUTABLE_FOUNDATION.sql",
+      "bytes": 4965,
+      "sha256": "407159a681ae53074cf0edd4f4f1e2ba206ff7e50a0f55a083d93c8ca3bcd72c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v20_executable_foundation/RLS_TEST_MATRIX_V20.json",
+      "bytes": 1027,
+      "sha256": "d06e970f687ce9c7632b38aab31c189df111efa1747f4a97db3c695240807060"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v20_executable_foundation/EVENT_CATALOG_V20.json",
+      "bytes": 4127,
+      "sha256": "5a77e3471529be19284a5f8ec7f345954a066a0505ff5246b95f5bfd6fa029cc"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v20_executable_foundation/STABLE_ID_POLICY.json",
+      "bytes": 547,
+      "sha256": "294591584c506ac0b11e0573300d6696e9b2a8026cdac91ede8debb9a0a2e50d"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v20_executable_foundation/EXECUTABLE_STATUS_MODEL.json",
+      "bytes": 775,
+      "sha256": "8ffdb184b268d3714b5ad7af43193836b82eff208c2fc34f00b83082b10d8fab"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v21_islamic_architecture_design/ISLAMIC_DESIGN_GRAMMAR.json",
+      "bytes": 1853,
+      "sha256": "ae4737462c7aa30a7969fca2278117e57735e5261d4529ed035624c376634aac"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v21_islamic_architecture_design/PATTERN_SEEDS.json",
+      "bytes": 8801,
+      "sha256": "c807b016521934c7bb999f99ea6bc58f79e07950013ef599a89682f59bfea6e6"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v21_islamic_architecture_design/MATERIAL_COLOR_PALETTES.json",
+      "bytes": 2196,
+      "sha256": "4b3103045d561b1aa8812ceacbed68cd0f84173abe05164aa673a49122a14da8"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v21_islamic_architecture_design/REGIONAL_STYLE_PACKS.json",
+      "bytes": 5644,
+      "sha256": "c2e10ffd88b70a54411a2b1504b43bc85e81fd6a2d29b1b4953b89c9af41ad9b"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v21_islamic_architecture_design/ISLAMIC_ARCHITECTURE_FEATURES.json",
+      "bytes": 12892,
+      "sha256": "cd03979b129d1ffc6e89a79b97b2f23f0a22674fd317d07c6f8d53c60e441f69"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v21_islamic_architecture_design/ISLAMIC_DESIGN_PRESETS.json",
+      "bytes": 9084,
+      "sha256": "b96f684e87f9ff408740e8353427fc22093c6bc9cb5ece83bbd55a12f276fcae"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v21_islamic_architecture_design/ISLAMIC_ARCHITECTURE_DESIGN_CONTEXT.md",
+      "bytes": 1285,
+      "sha256": "712438c5eab5b5bf911e16134a5da32c0ad353d78dcf7d8ea5adc323cc64f4a2"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v21_islamic_architecture_design/MOSQUE_TYPOLOGY_SEEDS.json",
+      "bytes": 2776,
+      "sha256": "d581aa23832521f43e4530c4268dbe3c5d92b0c5788842d7dd4f025609200547"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v21_islamic_architecture_design/GENERATOR_API_CONTRACTS.json",
+      "bytes": 2462,
+      "sha256": "940adf61371586d0ae0618dff309cb96a03aced6701eb0c60922df87c3cc8aba"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v21_islamic_architecture_design/ISLAMIC_ARCHITECTURE_IMPLEMENTATION_BACKLOG.json",
+      "bytes": 182136,
+      "sha256": "ce37f5d4dbb4b2ebf321a94c238880dbc8b3b8be238c29b9aa83f1dae90534b6"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v21_islamic_architecture_design/ISLAMIC_DESIGN_SCREEN_CONTRACTS.json",
+      "bytes": 15339,
+      "sha256": "f9d91508310ae3e421f3f13e6ddc9ca64bcbdf2af0a3953dff7f57e22ffe08fd"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v21_islamic_architecture_design/SOURCES.json",
+      "bytes": 2797,
+      "sha256": "bfde479e761072de8a0d591d178d9de1e5f613124f7ddf7accc0c2c56414086c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v15_design_construction_impl/DESIGN_CONSTRUCTION_IMPLEMENTATION_CONTEXT.md",
+      "bytes": 1599,
+      "sha256": "ad057d5c4f152077b788a649881a52eddb173898ad399f37b7c3753c44bd558e"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v2_product/PRODUCT_CONTEXT.md",
+      "bytes": 2519,
+      "sha256": "d6447a5b4999f75da283f152fa6fc7e306f0267a436ca7be34fb912e735f0786"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v2_product/FEATURE_REGISTRY.json",
+      "bytes": 272659,
+      "sha256": "6133e6e453ead6ce7054158f50cea129799fe47a812d5824ae77edf4681d80e4"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v2_product/LOCAL_DIRECTORY_DATA_MODEL.json",
+      "bytes": 1602,
+      "sha256": "51dcee22ee8dc0bca7aaa87e360b212e9e4dc3f669f3b2efcef2d071ab5eccfd"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v2_product/ROUTE_STATE_CONTRACTS.json",
+      "bytes": 13670,
+      "sha256": "e81b4d0536cf431a15fcf4154b48bd54c420f0bcfae08ec5b430c6b610c8badb"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v2_product/SOURCE_INTEGRATION_POLICY.json",
+      "bytes": 1101,
+      "sha256": "92ad3992897a91f65586d6f7c62af9e175903ffbf54679ddc58b0f15467398cb"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v2_product/SEO_AEO_PLAN.json",
+      "bytes": 3305,
+      "sha256": "b77bdecf4a44fdd7491bbdc1731b595eba5aacf89a70dae51d820383ca9302cc"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v2_product/DATA_COMPLETION.json",
+      "bytes": 1504,
+      "sha256": "7a534fe6618bf57db90130e3eb118123d75fffdf3683455fd3ff9bdbc86afa0d"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v2_product/DEFINITION_OF_DONE.md",
+      "bytes": 947,
+      "sha256": "7b33b7fadcb0b1d1d1daf103651e461f629a3a3b84b63023a1c71567d1e14972"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v2_product/CONTENT_MARKETING_PLAN.json",
+      "bytes": 2395,
+      "sha256": "c7baf6b648b923445ea11240c897892829ecc0f7b34073c49f273782e22ed9bf"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v2_product/DEV_PLAN.json",
+      "bytes": 4264,
+      "sha256": "f29fefec5792e409ea63c0288f2ec6607b0c14dbc14a377bcd6178de1f9f81a2"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v2_product/DEFINITION_OF_DONE.json",
+      "bytes": 3115,
+      "sha256": "29bec6b4035b9f9f0bc2d7a9480ce1d6a001cba6f5dc87900f62b286903cab8e"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v18_scan_room_conversion/EDITOR_SCAN_CONVERSION_INTEGRATION.json",
+      "bytes": 1148,
+      "sha256": "a06665bd3994985fd49ff515a3f6025d258b28368cd2632995c084a8e410eafd"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v18_scan_room_conversion/ROOM_CONVERSION_BUDGET_ENGINE.json",
+      "bytes": 1333,
+      "sha256": "e74a5d943d844c9b20c9e196ad9d005d24d7290fbbb9925f3fb9b41097a255a8"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v18_scan_room_conversion/SCAN_ROOM_CONVERSION_CONTEXT.md",
+      "bytes": 955,
+      "sha256": "fc674bcac16489e15e55f457d4ebb714bece47a3c34098ba2638a674212a6671"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v18_scan_room_conversion/ROOM_CONVERSION_ENGINE.json",
+      "bytes": 1375,
+      "sha256": "18bfb276aad9d20db6b87e03507056e4ae2323d2b35efe197c79d5d3b38cabfa"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v18_scan_room_conversion/PRAYER_ROOM_CONVERSION_ENGINE.json",
+      "bytes": 1163,
+      "sha256": "7e0139b6a14a8fb42ad0b8a650ecb5b07096960ad01ca2844f9898ea9f3158ed"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v18_scan_room_conversion/SCAN_CONVERSION_IMPLEMENTATION_BACKLOG.json",
+      "bytes": 139796,
+      "sha256": "8cb681693ebd80da6894dc7dd340fc5f48c441c52ecae2448ef6c56af238971a"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v18_scan_room_conversion/SCAN_CONVERSION_BUDGET_SCHEDULE_SYNC.json",
+      "bytes": 1676,
+      "sha256": "5e2cfd493a8c0086ef2834ed8fab711dcc594d491f5c35f89009d0b054e2ca72"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v18_scan_room_conversion/AREA_SCAN_ENGINE.json",
+      "bytes": 1477,
+      "sha256": "903620db7dc7f6a6ee8fadd87e9f6c82c38651d6c200a7286586e197f3b6cee7"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v18_scan_room_conversion/SCAN_CONVERSION_SCREEN_CONTRACTS.json",
+      "bytes": 11035,
+      "sha256": "1e56359c0be885fad0c085ae1bd579f8597a7e7273a8ac8adabd1f5d1c15983a"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v24_gardens_natural_facades/BIOPHILIC_LANDSCAPE_FEATURES.json",
+      "bytes": 25424,
+      "sha256": "a0c2b38bc89adc7273aa6060fdb40340a901c963881bb39ab8d1daca7de459ba"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v24_gardens_natural_facades/MOSQUE_GARDEN_PRESETS.json",
+      "bytes": 3157,
+      "sha256": "c570b586b253f234113cf5afadadad6c8e1b4cfb3220b953576e3185ac52a3f3"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v24_gardens_natural_facades/LANDSCAPE_LIFECYCLE_EVENTS.json",
+      "bytes": 1405,
+      "sha256": "da668a9168055b462ebaccfe1f728d74c78dbfe638d9d26054e283e540c17c39"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v24_gardens_natural_facades/PLANT_ARCHETYPE_SEEDS.json",
+      "bytes": 2094,
+      "sha256": "d214bac2fba0fb1d46996516a778554ef72505b0aff3009a87af1e49adec96b0"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v24_gardens_natural_facades/NATURAL_FACADE_SYSTEMS.json",
+      "bytes": 1892,
+      "sha256": "76e53c1f826852b56bd35461f5bee142cdbe2c1b4f0b5a7768ba6d6834aa0fbc"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v24_gardens_natural_facades/LANDSCAPE_LOCAL_SOURCING.json",
+      "bytes": 722,
+      "sha256": "0c60bac6cab07b3b07fe987bc3d25739825ff51c1b5c3d9dc9dde11e8dcd0ec7"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v24_gardens_natural_facades/LANDSCAPE_PARAMETRIC_ASSEMBLIES.json",
+      "bytes": 2237,
+      "sha256": "35e72d8ec6fd9275fc4ea268ef80a286c56b55a62ab5faed81401f251bf497a3"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v24_gardens_natural_facades/PLANT_DATA_MODEL.json",
+      "bytes": 711,
+      "sha256": "fa25e6021c3d5cffc1a8bace9ca56e904685715d67535a533b80e425e9984f48"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v24_gardens_natural_facades/LANDSCAPE_WATER_REUSE_MODEL.json",
+      "bytes": 1044,
+      "sha256": "4584175dff457e14edeeb0466763b25a3881320cec0cc869fe15f51eeb24944b"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v24_gardens_natural_facades/NEXT_BIG_TASKS_V24.json",
+      "bytes": 1588,
+      "sha256": "58cea4a37a110ce082ac07c8464995b22fdbbc07cd0bc7aa6bb11fa8c29612c6"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v24_gardens_natural_facades/GARDENS_NATURAL_FACADES_CONTEXT.md",
+      "bytes": 1534,
+      "sha256": "3772a66769195f62ac8bfe9e66305afa758b5d53efbc0ec9d5302f437bc48962"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v6_costs_scenarios/REGIONAL_COST_ENGINE.json",
+      "bytes": 1540,
+      "sha256": "f503a295e28207ce0ad07af0c93ba9cdd7629246903a98b7af1a4ad3aa47f59d"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v6_costs_scenarios/COST_ENGINE_BACKLOG.json",
+      "bytes": 421356,
+      "sha256": "080e9c187bad3c7fada92d3bb5799c9739b63518b2503312c7cf403fca4f1be0"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v6_costs_scenarios/NEW_FEATURES.json",
+      "bytes": 79033,
+      "sha256": "fbb4f2110847e033f8c8fc88935381c35cd0aec8f21645726a11291efe6bb81e"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v6_costs_scenarios/KENYA_IMPORT_COST_MODEL.json",
+      "bytes": 1438,
+      "sha256": "7606eedec8b74c018b4b51672b190ad96ff1ad762994b93fb77838067bd3b1f6"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v6_costs_scenarios/OPEN_DATA_API_REGISTRY.json",
+      "bytes": 2839,
+      "sha256": "858a06e3d791f88912d0effcf5f5973c1d761eb4144e28345fe7e0754168165a"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v6_costs_scenarios/MATERIAL_COST_CATALOG.json",
+      "bytes": 162381,
+      "sha256": "1931fa1b3c35306c4650ad3f98402201a0855e259c04b84bca5606c90fb66234"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v6_costs_scenarios/COST_SCREEN_CONTRACTS.json",
+      "bytes": 19176,
+      "sha256": "aaf474975ab57fa219adc554a95116b5ceeb63f48aeeafe33d011beea23dfc9b"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v6_costs_scenarios/COST_DATA_MODEL.json",
+      "bytes": 1283,
+      "sha256": "6caa25d0007ef3efeecc9692fa4d8934beb128e1aa6fad80a59954262e7c7eff"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v6_costs_scenarios/COST_ENGINE.json",
+      "bytes": 1816,
+      "sha256": "300dc26cb1d60187bdc0c96cba25e655bf24ba595bece306c92c203ed7cf9c30"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v6_costs_scenarios/FX_SNAPSHOT.json",
+      "bytes": 1375,
+      "sha256": "900761efc580c2aa1717a7b2c435cc00cfb497ec900eb0008df2b30e7ca564d3"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v6_costs_scenarios/DESIGN_SCENARIO_VERSIONING.json",
+      "bytes": 1379,
+      "sha256": "66305f068e10a6370c4321d933874ed0ec3e7f9bd858b7448a528769b8bae813"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v6_costs_scenarios/PARAMETRIC_ASSEMBLIES.json",
+      "bytes": 2993,
+      "sha256": "623d23af545ee55b68a5b1c63b35f2fd69d94697c59bf201e340565600fbb94d"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v6_costs_scenarios/COST_SCENARIO_CONTEXT.md",
+      "bytes": 1556,
+      "sha256": "c049b25d20603e6c27829bbb54c01e91bbfa32d624808831d3ccc3c65d5a8234"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v6_costs_scenarios/SOURCES.json",
+      "bytes": 3158,
+      "sha256": "9f865762a84e345656d73b916001b3adcd08d392dee4a832b04d1981d22152a2"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v6_costs_scenarios/MOSQUE_TYPOLOGY_ESTIMATE_PRESETS.json",
+      "bytes": 1746,
+      "sha256": "490812f019c166d4a8ee4e20dc1c0bf40c78b8d33ec17254445c7e92a5b64996"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v4_adaptive_reuse/SCAN_TO_CONVERSION_WORKFLOW.json",
+      "bytes": 2901,
+      "sha256": "ac4b31e844b492d44d61f2324ad4617c3077267df4681f97dcd3034310beb8d5"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v4_adaptive_reuse/DUAL_PURPOSE_PROGRAMMING.json",
+      "bytes": 1989,
+      "sha256": "93b2fd08ff9f02a9fe603611cae55f60966ffa316385a1d45e520db8e41b97b1"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v4_adaptive_reuse/ADAPTIVE_REUSE_AESTHETICS.json",
+      "bytes": 1609,
+      "sha256": "b06943d26f66737c5b0a78cf52b4f8ed77a19af3882743e19e542362e63779fe"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v4_adaptive_reuse/CODE_HARNESS_CONTEXT.json",
+      "bytes": 1938,
+      "sha256": "9eaa517ffaa050068eed237a655a68d1e2acc570316bc82bf93f0a9e16a54537"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v4_adaptive_reuse/ADAPTIVE_REUSE_CONTEXT.md",
+      "bytes": 1584,
+      "sha256": "df8ce36005844dbaf530ee7b43e96d1167453b1b0754bbafdc05e43ea0c53da1"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v4_adaptive_reuse/ADAPTIVE_REUSE_BACKLOG.json",
+      "bytes": 268090,
+      "sha256": "1ba0441adad1e5fbe8440f91ae1095a1bacf4b905184bb90d3feb2cfc5850bbc"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v4_adaptive_reuse/BUILDING_TYPES.json",
+      "bytes": 6462,
+      "sha256": "1d35a2450f18b349783eb01849861fcc12605ee60fda78ff909e492f6d002740"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v4_adaptive_reuse/CONVERSION_SCORING_MODEL.json",
+      "bytes": 1277,
+      "sha256": "df7731ff7366b331042652c102c1d90720c3c103bcf328cb75ddc2d4fb2f10ce"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v4_adaptive_reuse/BUILDING_POLICY_CODE_ENGINE.json",
+      "bytes": 1840,
+      "sha256": "eb9551b98560b4defbeb4a31a93628eb44cfbc37abec6d3a4ca1b4fdb686731e"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v4_adaptive_reuse/CONVERSION_SCREEN_CONTRACTS.json",
+      "bytes": 26051,
+      "sha256": "85d6729d21b99f18c6fe558a2b97d43384004360af9b21811bf4550c63a7132f"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v4_adaptive_reuse/SOURCES.json",
+      "bytes": 2329,
+      "sha256": "71f0c0eb1b0c3222928744291a0e4955b8b893cb26e49de37b7a278aa6cb8661"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v4_adaptive_reuse/REPAIR_PRIORITY_SYSTEM.json",
+      "bytes": 2146,
+      "sha256": "d79e0110857c3f6da5566cc0391bf5c7fbbd8cbcbcfbcc838d9c18af0e5252e9"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v4_adaptive_reuse/PROPERTY_DUE_DILIGENCE.json",
+      "bytes": 2824,
+      "sha256": "bed57647a6b4e951c4809beccfe9d87b65fa07fcaefcdc955e75879615e2484e"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/construction_material_techniques_520.json",
+      "bytes": 298976,
+      "sha256": "73740d7ed54219b01dcec01924770c7b39f928c75494f545abf2fbe9ce0dcaed"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/mosque_ingestion_queue_5000.json",
+      "bytes": 4936191,
+      "sha256": "af98e4068797d4078147773f60919a15993f0f1597b6604614dabb6c5254288e"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/people_ingestion_queue_550.json",
+      "bytes": 294808,
+      "sha256": "d30f50c3de3fb8dac32bdd017feb613d2154706d9206edaebdf52ed9dabb60b7"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/architecture_styles_170.json",
+      "bytes": 83539,
+      "sha256": "1b89fe3cdd2943db0b0c421027f81f448bf5d3b247773943afd8edbf7af4133f"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/open_data_ingestion_plan.json",
+      "bytes": 1349,
+      "sha256": "ed5335fab0c9ba20c22917d0ae0cfb7978a8e3c619eeb4a7bb58b8ce0fa1c1b6"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/component_product_classes_2000plus.json",
+      "bytes": 1373915,
+      "sha256": "0912252e93804b4c62d7068ef2917951fb65560aaf96d688c16c8241f83405bd"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/drawing_ingestion_queue_1600.json",
+      "bytes": 722295,
+      "sha256": "af75afbcf6f5cddf96611fc8f36d4caf5d001aa00cf25e63fdff83ca2558fae6"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/regulatory_country_packs.json",
+      "bytes": 1549091,
+      "sha256": "cb95eea96a51eb77218fd281fb50817fd5b0fa42c8adf5a4736266b074069563"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/SCALE_MANIFEST.json",
+      "bytes": 741,
+      "sha256": "cb29920f404f391077643b75ca80bfe5be20c5b8b9cdaf99067a0111950aec38"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/waqf_case_queue_120.json",
+      "bytes": 55118,
+      "sha256": "c069e843b504bf7dd49ff74094d5504cd24f99fced4b7f8bab13b2120ec1c39c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/museum_component_example_queue_5000.json",
+      "bytes": 2787691,
+      "sha256": "1581c943434639866c1c7bf55ea720961f7034960691cfa5ba586e73150c859f"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/funding_case_queue_120.json",
+      "bytes": 56342,
+      "sha256": "265f72b6fab5bf844bd3d2ef2dd219578a5862cb7fe7bf71268813dfb8cbaa3f"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/README.md",
+      "bytes": 2445,
+      "sha256": "b0c0f60a3602a5deb1b768f69fb967057df72c11e84bdee2ddfed913cd0e6997"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/operations_case_queue_120.json",
+      "bytes": 54108,
+      "sha256": "0126b8fff40e1d9d4af30567a599b23137aef5f5e3e2febc601f7167929d2586"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/supplier_product_ingestion_queue_10000.json",
+      "bytes": 5651088,
+      "sha256": "99a5830ff2f672c8445f378ffc4fe4a501642cc41c66262f9a78a77ac4342097"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/adaptive_reuse_case_queue_120.json",
+      "bytes": 56372,
+      "sha256": "fc34e05e0dee9908721433ef311f067a2bcb1e94f3ac9167881e8f0f232bba49"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v1_scale/video_ingestion_queue_550.json",
+      "bytes": 286662,
+      "sha256": "369d906e8bcb8142bf27f3b69af86b848e7d3a484e2e4d0adf5d57ec47a33a74"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v10_fundraising_sourcing_design/CAMPAIGN_BUILDER.json",
+      "bytes": 1813,
+      "sha256": "8ccffa85f6784349802f6d6c7d87aafb5a9f4e5b146b750311c789784446c2aa"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v10_fundraising_sourcing_design/FUNDRAISING_SOURCING_CONTEXT.md",
+      "bytes": 1556,
+      "sha256": "ddcfa71e8314f0cd83444cf454f13c064c756058816c361ca09d1307e824082c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v10_fundraising_sourcing_design/FUNDRAISING_SOURCING_SCREEN_CONTRACTS.json",
+      "bytes": 30472,
+      "sha256": "c0f5b1ad2c6dad7e18fe6237bd77cdfa036eb722753aa22cc816a2ee8c09a4cb"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v10_fundraising_sourcing_design/DONATION_ACCOUNTING_RECONCILIATION.json",
+      "bytes": 1505,
+      "sha256": "8d5923ccfcbcc7fd27964f9ba7fa10d260909141fd5784c67a972f980cba6eb1"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v10_fundraising_sourcing_design/CAPITAL_STACK_CAMPAIGN_PLANNER.json",
+      "bytes": 1469,
+      "sha256": "d9070e65286562bd7174357354e690df40bd132ef6329494d8398982e018fc07"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v10_fundraising_sourcing_design/FUNDRAISING_SOURCING_BACKLOG.json",
+      "bytes": 535256,
+      "sha256": "9080169fd1a012d620e15c643275cae4fd7a0f468e67fa5d27802abb9b2f4b7c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v10_fundraising_sourcing_design/DESIGN_EXPORT_REUPLOAD_SYSTEM.json",
+      "bytes": 1990,
+      "sha256": "cf0222c64a758958a148ed46fd70a4539fbbe00f4af8b798cce69eb7f54bcee2"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v10_fundraising_sourcing_design/PRODUCT_SOURCING_MARKETPLACE.json",
+      "bytes": 1998,
+      "sha256": "59e640562ae2778837cbf8dcd13d475035097fbbf5095f1f5fc51db9ce3f230c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v10_fundraising_sourcing_design/EXPANDED_FUNDRAISING_SOURCING_FEATURES.json",
+      "bytes": 82268,
+      "sha256": "b1ffed83e7eb6ad7a65ea120ad60f998aac03c94dc1fcc9e352597469314c72d"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v10_fundraising_sourcing_design/FUNDRAISING_LEGAL_ENTITY_MODEL.json",
+      "bytes": 2207,
+      "sha256": "741d5c3d5178e681644c7eb081967ec6450fc1998684dec2bb99be547e835006"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v10_fundraising_sourcing_design/COMPONENT_CROWDFUNDING.json",
+      "bytes": 1148,
+      "sha256": "110e4e15fd1dd37cc4eb57ee22069381e1c9bd7be652fcae31abaf8c3ca57713"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v10_fundraising_sourcing_design/DESIGN_BUDGET_FUNDRAISING_SYNC.json",
+      "bytes": 1648,
+      "sha256": "20bd639630ffc1fc0223a7c7f8335282792a1b44430f243db7f8abc7972edac7"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v10_fundraising_sourcing_design/CROWDFUNDING_INTEGRATIONS.json",
+      "bytes": 2630,
+      "sha256": "772175560bf690dda6b36024531aaa3e579dbcaba3b859cbf7b37d9b64d29589"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v10_fundraising_sourcing_design/INTEGRATION_ARCHITECTURE_V2.json",
+      "bytes": 1269,
+      "sha256": "6fe996d79f1450a68617b26f17f8922a2416f3e67be5243c5985b383834f91da"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v23_next_tasks/ENGINEERING_ASSUMPTION_REGISTER.json",
+      "bytes": 1167,
+      "sha256": "d161e4d8d64f970dbec7d5ca5c5909bb7dbb161911cdab205920fa37ff117dcf"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v23_next_tasks/LOCAL_SOURCING_SCORING_V23.json",
+      "bytes": 697,
+      "sha256": "6b97131be1b8590642b2274ed6302d1ab4e18e499766e483b268cf7407396ab7"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v23_next_tasks/FEATURE_EXPANSION_V23.json",
+      "bytes": 23939,
+      "sha256": "9615cbf054435088c622dccee679a34197eada8300f29bdc59a4e2d0506e268d"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v23_next_tasks/API_CONTRACTS_V23.json",
+      "bytes": 1603,
+      "sha256": "49ec66f10678fffb326c21b29e8b9088505f5d4ff3623a0fec0cdff3755ca8b9"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v23_next_tasks/NEXT_TASKS_CONTEXT.md",
+      "bytes": 1044,
+      "sha256": "9aca3a75411a9489e7b03080a6da85d2e26054c158a18104b0c7a594de1eac72"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v23_next_tasks/TAKEOFF_RULE_LIBRARY_V23.json",
+      "bytes": 2480,
+      "sha256": "9df003bbc5632429086cccab9adca05ddddbafc6414536200ecba90ba31c25f0"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v23_next_tasks/DETAILED_WBS_V23.json",
+      "bytes": 2442,
+      "sha256": "4c877e123326b9eced63b637440591094905887db2894a231e2c82ec6cece3d9"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v23_next_tasks/NEXT_TASKS_V23.json",
+      "bytes": 1348,
+      "sha256": "b6dfc12983671ab97fa48afbd00b0cd56ed95063f109257edd5cc76874472319"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v23_next_tasks/WORKFLOW_STATE_MACHINES_V23.json",
+      "bytes": 683,
+      "sha256": "632ceb5132b938f362becef5cfdd90cdc2da93cf8841b2dc4559a52ab107742a"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v27_multiplatform_regions/CROSS_PLATFORM_PERFORMANCE_BUDGETS.json",
+      "bytes": 1137,
+      "sha256": "bffcc094d658edfc55338bf01f3a41fd1244f2456fc30b4fd2eb1f0236a9141f"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v27_multiplatform_regions/REGIONAL_MODULE_SYSTEM.json",
+      "bytes": 1313,
+      "sha256": "a5b17cd37dafc02b60b6d385ac40b2832b979fb0bf52c7a916693ea7d7862121"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v27_multiplatform_regions/SCENEGRAPH_RENDERER_INTERFACE.json",
+      "bytes": 860,
+      "sha256": "4d4baffdad3042be0c19e8ac9458436630e7380ce28a7189899e0470b2ac2606"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v27_multiplatform_regions/OPEN_FRAMEWORK_CATALOG.json",
+      "bytes": 2464,
+      "sha256": "57c81bd1e681ac927f4a8c9d6e64009641e708690bfc1152abc1f998a7d5640f"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v27_multiplatform_regions/MULTIPLATFORM_GLOBAL_CONTEXT_V27.md",
+      "bytes": 1241,
+      "sha256": "740a0f9afbeeb623e7cc6d88b415eb99264d1576839be764a1ffaf29c94dd0db"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v27_multiplatform_regions/GLOBAL_REGION_COVERAGE.json",
+      "bytes": 20169,
+      "sha256": "bb9bfdd3b2f618c2f91bea7b973e980c22a73fe8c8731767d3fa1efdc9bc9255"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v27_multiplatform_regions/NEXT_BIG_TASKS_V27.json",
+      "bytes": 1590,
+      "sha256": "0d8473f249e65699195360229fb3175ff5519346be6f2b76e6e8e47084a51985"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v27_multiplatform_regions/WEB_MOBILE_3D_CAPABILITY_MATRIX.json",
+      "bytes": 1050,
+      "sha256": "b1259319127d84cc08359d80e010935d9385ab7a9938d9dd5fd95474a3122c39"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v27_multiplatform_regions/GLOBAL_REGIONAL_POPULATION_QUEUE.json",
+      "bytes": 57724,
+      "sha256": "5e6cd468d8dd9b71a767f87322d6480c360bbc88a6882df1b6480761ffae8736"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v27_multiplatform_regions/MULTI_RENDERER_ARCHITECTURE.json",
+      "bytes": 3045,
+      "sha256": "02f0a53589855a29c86acbe692c6f7847dd1c241797cea7043926aaf3dfd2ff0"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v0/components.json",
+      "bytes": 123532,
+      "sha256": "2680e23d72a93ba37e58b7f3b60bf09a54805e262e57cce7a29abd59a8e72f6a"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v0/blueprint_sources.json",
+      "bytes": 2308,
+      "sha256": "21dfa7366de7f4cef078ba69be274569780dd887d91c08adb37f06b7e4b01c3a"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v0/architecture_styles.json",
+      "bytes": 40174,
+      "sha256": "7fcb8f85b57b1104eed749de8ca26cdd48a7ed666faec90d03b76e94d4f5fed7"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v0/operations_finance.json",
+      "bytes": 3974,
+      "sha256": "ce918b6f5319a4efaa7339b4b3d68f7006cfd81ccdb5db67ceb614a13034a08f"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v0/research_ingestion_backlog.json",
+      "bytes": 429729,
+      "sha256": "11ff29ecef32a079a0d9d34461ee2cdaff74200f3a93183b9bb10372c37da49c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v0/sources.json",
+      "bytes": 7836,
+      "sha256": "0340058d0f7bf21b26bbadecf4c42ceb1ecb26f9fa5c6fde9121d4967a601fe9"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v0/README.md",
+      "bytes": 3089,
+      "sha256": "3f3aeaac64e6a45ddb0a66ffa97540df7fa676f3e64e8685c086964e4e1e16ab"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v0/media_video_sources.json",
+      "bytes": 1346,
+      "sha256": "82607b99acc699167fd050287223297d4b74fec943efcfa301994a4950a79476"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v0/jurisdiction_schema.json",
+      "bytes": 1200,
+      "sha256": "20b284832aea6c00c783b0244f013c1da6311f36a0e5e8f6481a6395558fdfd9"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v0/pages.json",
+      "bytes": 62869,
+      "sha256": "ce65e7bf008b4a1cb42d26765c38b3669a989626e6f0f2fb755b0f69cd5f1d83"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v0/architects.json",
+      "bytes": 16052,
+      "sha256": "5d2b7a388fa3594c69d64ea7a8360432d2aa675bea14e9b746408997677e7e92"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v0/suppliers.json",
+      "bytes": 1691,
+      "sha256": "e5c3efde8f7e131574a329d55f8773b7464be2d0dfc4495172605c8794d12150"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v0/MASTER_SEED.json",
+      "bytes": 290419,
+      "sha256": "b5dbec900bc282fc6a3178b39c0af205603e6ac37a03fb1d29d7542dbbf2d0a9"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v27_multiplatform_regions/tests/renderer_registry.test.mjs",
+      "bytes": 928,
+      "sha256": "3198925fd94567acea752ba37d713d7ed3c3065266ab85c8ec2880fd572b9b63"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v27_multiplatform_regions/src/renderer_registry.mjs",
+      "bytes": 1368,
+      "sha256": "5d0b2e7f13d46705d0c430192eea6c85c96da0fd18c2f256a1c17089bfaef236"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v23_next_tasks/tests/core_next_tasks.test.mjs",
+      "bytes": 1130,
+      "sha256": "e3e0808088a7e958345cd28f075c38f4d87155e7c6bb4835f74d74ef4d2ff1f4"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v23_next_tasks/src/core_next_tasks.mjs",
+      "bytes": 2783,
+      "sha256": "f11db40b1c165bf9124a5c08fe971a0d448e80b68e63ea4b3b25f1102cd23e23"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v23_next_tasks/migrations/0005_next_tasks.sql",
+      "bytes": 3313,
+      "sha256": "f0654633cd9b5d47de13964c1391709c76c2b310c0d32f4162f189ef0802d695"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v24_gardens_natural_facades/tests/landscape_math.test.mjs",
+      "bytes": 798,
+      "sha256": "4998cdfb2903a4d2e4f0b75a5edce4e75cf5c5dee386a425080c370a784e1fc6"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v24_gardens_natural_facades/src/landscape_math.mjs",
+      "bytes": 1023,
+      "sha256": "50a6067e063a4673c4065eb5d687af61d31d95021d42e654eb7dcd5ce713b3b1"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v24_gardens_natural_facades/migrations/0006_landscape_biophilic.sql",
+      "bytes": 2260,
+      "sha256": "7ee694612c08a8b8f0aeef323449af09e437b86746661e2011baedcdf4ca91ea"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v22_engineering_local_sourcing/tests/foundation.test.mjs",
+      "bytes": 906,
+      "sha256": "638bac3e468594a42c89083a294c5821c380fc4080edaa109fd72d1edae58d08"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v22_engineering_local_sourcing/src/offline_outbox.mjs",
+      "bytes": 589,
+      "sha256": "11dfed0be9d1ff95289e7e4a60659f344caee2c8e6252bea66e14153e0ce0164"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v22_engineering_local_sourcing/src/engineering_math.mjs",
+      "bytes": 968,
+      "sha256": "effe9bf3d1538b8e48bc2191c67268135bf327dc88c5bd1c526a303a1862797f"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v22_engineering_local_sourcing/migrations/0004_engineering_local_sourcing.sql",
+      "bytes": 1832,
+      "sha256": "9dca84b0b5b2150145753da6632c852a4d3ff840877b1df2059eb5b0b79c5123"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v11_living_backend_flow/flows/EXECUTIVE_BACKEND_FLOW.mmd",
+      "bytes": 1737,
+      "sha256": "27a48e9e43246dd78fdcecf077d2a5cbb292f2ade38db0a5eeae8f9271258650"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v11_living_backend_flow/flows/TECHNICAL_BACKEND_PROCESS_FLOW.mmd",
+      "bytes": 14525,
+      "sha256": "7f0105563377b2df124db192bc3aece90e9b09e0b2c04cb96a57b041e7298fc6"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v11_living_backend_flow/docs/BACKEND_PROCESS_CATALOG.md",
+      "bytes": 11818,
+      "sha256": "4aa8d4aeaa174e78c1730b504d51e17f6bb5b55facbf68be6bcd9338a890dcdb"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v11_living_backend_flow/docs/GITHUB_ACTION_BACKEND_FLOW.yml",
+      "bytes": 492,
+      "sha256": "14c0cd707d2ddc99d67c92dc6a2ffb1d7389117bf8e6ac05f205f57cecad7174"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v11_living_backend_flow/schemas/FUNDRAISING_AGGREGATION_MODEL.json",
+      "bytes": 1034,
+      "sha256": "f48d346fc9315da09b2a2aabeece087cbaf776789c620b2434cecf76cad7ea3c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v11_living_backend_flow/schemas/BACKEND_FLOW_EDGES.json",
+      "bytes": 871,
+      "sha256": "0373121588aa929a704adb3d9545995d995c2bb0a3bd1f066d1a85cf2f0c4a88"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v11_living_backend_flow/schemas/PUBLIC_DESIGN_LIBRARY_MODEL.json",
+      "bytes": 975,
+      "sha256": "0e94e46da2b053b2e34dee3ab74f39a541ee57fff796c231d40bbe0d91383dd6"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v11_living_backend_flow/schemas/VENDOR_REFERENCE_PROJECT_MODEL.json",
+      "bytes": 914,
+      "sha256": "1e1d3059414e0e235a12c49a9b5755a319ef203968f1324b8c62e51d65344819"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v11_living_backend_flow/schemas/BACKEND_PROCESS_REGISTRY.json",
+      "bytes": 16007,
+      "sha256": "f9bd1336b20d62baca05b6b75092c54a6f59c748894d54dc57829c5f48e1d169"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v11_living_backend_flow/scripts/generate_backend_flow.py",
+      "bytes": 2686,
+      "sha256": "7f2239e3685b862d60fae44dd0b09e496bb3673acde85557dea42a3c34a4fa92"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v11_living_backend_flow/scripts/validate_backend_flow.py",
+      "bytes": 940,
+      "sha256": "8c42eeb34c3db551c55c7ee4649c8f5f7a42660e3659e15554c41b4c9003ff69"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v11_living_backend_flow/skills/register-backend-change.SKILL.md",
+      "bytes": 916,
+      "sha256": "316013a6abd15a23b6d49876ba46f4e501265c7bb928bb24fc31b080947055c3"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v11_living_backend_flow/skills/maintain-backend-flow.SKILL.md",
+      "bytes": 2036,
+      "sha256": "1cbd63cc18f879398e814e3a0eddb2d80a994fc8a4fcb7c2a03b7801e2730f8d"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v25_core_implementation/tests/core_impl_v25.test.mjs",
+      "bytes": 1478,
+      "sha256": "089e4601d230f705224071101ad833e15a8543b5576bd8cb647ca40f397eabd5"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v25_core_implementation/src/core_impl_v25.mjs",
+      "bytes": 2430,
+      "sha256": "1e1cd75ac696358dc30ec0d91a7180a8f1efa78588eefde09330fbccbad51537"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v25_core_implementation/demo/END_TO_END_ORCHESTRATION_V25.json",
+      "bytes": 2255,
+      "sha256": "c96731f5b5785e725f9044b5412e660d77643d7590bed1cfbf1de223091252a1"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v25_core_implementation/migrations/0007_rls_policy_draft.sql",
+      "bytes": 2204,
+      "sha256": "9399e1f3d1686d4072840e0c4771432e90567ffc2806d04d7cd4a675d8f258ba"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v26_core_algorithms/tests/core_algorithms_v26.test.mjs",
+      "bytes": 2315,
+      "sha256": "1d112fe79cb073b5261648e0183404bc93bf74f3265e84ddf6f4d482becf6c1c"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v26_core_algorithms/src/core_algorithms_v26.mjs",
+      "bytes": 7186,
+      "sha256": "ccb34bfe23a7df0b32955c444e60ff3cd7466f8715c748f44a40155121c5e0bf"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v26_core_algorithms/demo/DEMO_V26.json",
+      "bytes": 651,
+      "sha256": "f9740a15d0de00f3f4e58b9a839203375b97f8b9b84abb53e9bda83cb1ba290f"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v26_core_algorithms/demo/run_demo_v26.mjs",
+      "bytes": 864,
+      "sha256": "80ec6d1e1477ca27b8fd32e624d6b922f18eef413927dc5f8cd1011293201650"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v26_core_algorithms/demo/DEMO_V26_TRACE.json",
+      "bytes": 471,
+      "sha256": "3f4ebcc819d6aadfb9ee57bba1f8b458bc1ff7fb8a671c1c25fee3b2bfa524ab"
+    },
+    {
+      "path": "archive/source-seeds/mosqueos_seed_v26_core_algorithms/migrations/0008_rls_expansion.sql",
+      "bytes": 1201,
+      "sha256": "78440bc4c724d362b50b9cdde5b44388c5b34ea538091cc2e95b02375a2c7607"
+    }
+  ]
+}

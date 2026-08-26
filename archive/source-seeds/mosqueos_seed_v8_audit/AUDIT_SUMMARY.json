@@ -1,0 +1,35 @@
+{
+  "audited_modules": [
+    "mosqueos_seed_v0",
+    "mosqueos_seed_v1_scale",
+    "mosqueos_seed_v2_product",
+    "mosqueos_seed_v3_pitch_team_pwa",
+    "mosqueos_seed_v4_adaptive_reuse",
+    "mosqueos_seed_v5_procurement_build_control",
+    "mosqueos_seed_v6_costs_scenarios",
+    "mosqueos_seed_v7_completeness"
+  ],
+  "json_files_parsed": 110,
+  "parse_errors": [],
+  "finding_counts": {
+    "critical": 4,
+    "high": 10,
+    "medium": 11
+  },
+  "critical_findings": [
+    "AUD-001",
+    "AUD-002",
+    "AUD-003",
+    "AUD-004"
+  ],
+  "overall_assessment": {
+    "product_vision": "very comprehensive",
+    "schema_specification": "broad but fragmented",
+    "verified_content_data": "far below stated scale targets",
+    "production_code": "not yet generated/validated in these seed packs",
+    "regulatory_readiness": "framework strong; jurisdiction data mostly incomplete",
+    "cost_readiness": "engine architecture strong; verified regional rates largely incomplete",
+    "release_readiness": "not production-ready yet",
+    "recommended_next_gate": "canonical monorepo + executable Supabase schema/RLS + consolidated registries + first launch-jurisdiction and first 500 verified mosque records"
+  }
+}

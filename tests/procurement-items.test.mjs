@@ -1,0 +1,4 @@
+import assert from "node:assert/strict";import {readFile} from "node:fs/promises";import test from "node:test";
+const items=JSON.parse(await readFile(new URL("../apps/web/data/procurement-items.json",import.meta.url),"utf8"));
+test("procurement records retain source and observation metadata",()=>{assert.ok(items.length>=5);assert.equal(new Set(items.map(item=>item.id)).size,items.length);for(const item of items){assert.ok(item.name&&item.vendor&&item.category&&item.use&&item.sourceUrl&&item.verification);assert.match(item.observedAt,/^\d{4}-\d{2}-\d{2}$/);assert.ok(item.technical.length>=3);if(item.price){assert.ok(item.price.amount>0&&item.price.currency&&item.price.scope)}}});
+test("procurement data avoids approval and availability claims",()=>{const text=JSON.stringify(items).toLowerCase();assert.doesNotMatch(text,/approved product|in stock|guaranteed delivery|best vendor/)});

@@ -1,0 +1,198 @@
+{
+  "budget_cost_codes": [
+    "land_acquisition",
+    "closing_legal",
+    "survey",
+    "geotechnical",
+    "architect",
+    "structural_engineer",
+    "civil_engineer",
+    "mep_engineer",
+    "quantity_surveyor",
+    "acoustic_consultant",
+    "lighting_consultant",
+    "accessibility_consultant",
+    "planning_fees",
+    "building_permit",
+    "utility_connection",
+    "demolition",
+    "earthworks",
+    "drainage",
+    "roads",
+    "parking",
+    "landscape",
+    "foundations",
+    "structure",
+    "envelope",
+    "roof",
+    "dome",
+    "minaret",
+    "doors_windows",
+    "interior_finishes",
+    "prayer_carpet",
+    "mihrab",
+    "minbar",
+    "calligraphy",
+    "wudu",
+    "toilets",
+    "plumbing",
+    "electrical",
+    "hvac",
+    "fire_life_safety",
+    "av_acoustics",
+    "security_it",
+    "furniture",
+    "madrasa",
+    "library",
+    "kitchen",
+    "janazah",
+    "professional_legal",
+    "fundraising",
+    "financing",
+    "contingency",
+    "commissioning",
+    "opening",
+    "operating_reserve"
+  ],
+  "funding_mechanisms": [
+    {
+      "id": "one_time_donation",
+      "legal_sharia_review": "low_but_local_tax_rules_apply"
+    },
+    {
+      "id": "recurring_pledge",
+      "legal_sharia_review": "low_but_payment_and_charity_rules_apply"
+    },
+    {
+      "id": "major_gift",
+      "legal_sharia_review": "donor_restriction_and_tax_rules"
+    },
+    {
+      "id": "crowdfunding",
+      "legal_sharia_review": "platform_and_charity_rules"
+    },
+    {
+      "id": "matching_campaign",
+      "legal_sharia_review": "campaign_terms"
+    },
+    {
+      "id": "land_gift",
+      "legal_sharia_review": "title_tax_valuation"
+    },
+    {
+      "id": "in_kind_material",
+      "legal_sharia_review": "specification_acceptance_and_receipting"
+    },
+    {
+      "id": "pro_bono_service",
+      "legal_sharia_review": "professional_licensing_and_liability"
+    },
+    {
+      "id": "qard_hasan",
+      "legal_sharia_review": "contract_and_local_finance_law"
+    },
+    {
+      "id": "waqf_cash",
+      "legal_sharia_review": "mandatory"
+    },
+    {
+      "id": "waqf_property",
+      "legal_sharia_review": "mandatory"
+    },
+    {
+      "id": "rental_income",
+      "legal_sharia_review": "lease_tax_governance"
+    },
+    {
+      "id": "grant",
+      "legal_sharia_review": "eligibility_restrictions"
+    },
+    {
+      "id": "construction_finance",
+      "legal_sharia_review": "mandatory_finance_and_sharia_review"
+    }
+  ],
+  "staff_functions": [
+    "religious_leadership",
+    "khutbah",
+    "pastoral_care",
+    "education",
+    "madrasa_teaching",
+    "youth",
+    "women_programming",
+    "new_muslim_support",
+    "administration",
+    "executive_management",
+    "finance_bookkeeping",
+    "fundraising",
+    "communications",
+    "facilities",
+    "cleaning",
+    "security",
+    "it_av",
+    "volunteer_coordination",
+    "janazah_support",
+    "food_programs",
+    "safeguarding"
+  ],
+  "maintenance_assets": [
+    "roof",
+    "waterproofing",
+    "dome",
+    "minaret",
+    "carpet",
+    "HVAC",
+    "fans",
+    "boiler",
+    "heat_pump",
+    "solar_PV",
+    "battery",
+    "generator",
+    "fire_alarm",
+    "sprinkler",
+    "CCTV",
+    "access_control",
+    "sound_system",
+    "microphones",
+    "lighting",
+    "wudu_fixtures",
+    "drains",
+    "water_heater",
+    "toilets",
+    "kitchen_equipment",
+    "doors",
+    "windows",
+    "lifts",
+    "parking_surface",
+    "landscape_irrigation"
+  ],
+  "donatable_item_states": [
+    "needed",
+    "sponsor_available",
+    "partially_funded",
+    "funded",
+    "ordered",
+    "received",
+    "installed",
+    "maintained",
+    "retired"
+  ],
+  "project_phases": [
+    "idea",
+    "community_need",
+    "feasibility",
+    "site_search",
+    "site_due_diligence",
+    "concept_design",
+    "fundraising",
+    "planning",
+    "detailed_design",
+    "procurement",
+    "construction",
+    "commissioning",
+    "opening",
+    "operations",
+    "expansion",
+    "restoration"
+  ]
+}

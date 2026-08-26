@@ -1,0 +1,142 @@
+{
+  "RFI": {
+    "states": [
+      "draft",
+      "open",
+      "assigned",
+      "answered",
+      "closed",
+      "void"
+    ],
+    "fields": [
+      "subject",
+      "question",
+      "drawing/spec reference",
+      "location",
+      "cost impact potential",
+      "schedule impact potential",
+      "assignee",
+      "due date",
+      "response",
+      "attachments"
+    ]
+  },
+  "submittal": {
+    "states": [
+      "required",
+      "draft",
+      "submitted",
+      "under review",
+      "approved",
+      "approved as noted",
+      "revise and resubmit",
+      "rejected",
+      "closed"
+    ],
+    "types": [
+      "product data",
+      "shop drawing",
+      "sample",
+      "mockup",
+      "certificate",
+      "test report",
+      "BIM object",
+      "warranty",
+      "O&M manual"
+    ],
+    "fields": [
+      "spec section",
+      "supplier",
+      "contractor",
+      "item",
+      "required date",
+      "submitted date",
+      "reviewer",
+      "response",
+      "revision",
+      "attachments"
+    ]
+  },
+  "change_event": {
+    "states": [
+      "identified",
+      "pricing",
+      "review",
+      "approved",
+      "rejected",
+      "implemented"
+    ],
+    "fields": [
+      "cause",
+      "description",
+      "originator",
+      "related RFI",
+      "related instruction",
+      "cost change",
+      "time change",
+      "funding source",
+      "approved by"
+    ]
+  },
+  "payment_application": {
+    "fields": [
+      "period",
+      "schedule_of_values",
+      "previous_completed",
+      "current_work",
+      "stored_materials",
+      "retainage",
+      "change_orders",
+      "amount_due",
+      "certified_amount",
+      "supporting evidence"
+    ],
+    "note": "Support project-specific/local contract practice; do not reproduce proprietary AIA forms."
+  },
+  "inspection": {
+    "states": [
+      "planned",
+      "ready",
+      "requested",
+      "in progress",
+      "passed",
+      "passed with comments",
+      "failed",
+      "reinspection required",
+      "closed"
+    ],
+    "fields": [
+      "type",
+      "authority_or_inspector",
+      "location",
+      "work_item",
+      "date",
+      "checklist",
+      "photos",
+      "result",
+      "defects",
+      "reinspection"
+    ]
+  },
+  "snag_punch": {
+    "states": [
+      "open",
+      "assigned",
+      "ready for review",
+      "accepted",
+      "reopened",
+      "closed"
+    ],
+    "fields": [
+      "location",
+      "trade",
+      "description",
+      "priority",
+      "photo_before",
+      "assignee",
+      "due_date",
+      "photo_after",
+      "reviewer"
+    ]
+  }
+}

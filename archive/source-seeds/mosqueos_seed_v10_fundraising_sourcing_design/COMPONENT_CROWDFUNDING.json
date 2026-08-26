@@ -1,0 +1,37 @@
+{
+  "fundable_objects": [
+    "square meter of prayer carpet",
+    "wudu station",
+    "accessible wudu station",
+    "door",
+    "window",
+    "classroom",
+    "Quran shelf",
+    "solar panel",
+    "tree",
+    "water fountain",
+    "chandelier contribution",
+    "speaker zone",
+    "wheelchair",
+    "kitchen equipment",
+    "roof square meter",
+    "brick/block bundle",
+    "land square meter symbolic sponsorship",
+    "professional service package"
+  ],
+  "rules": [
+    "Object sponsorship can be symbolic allocation rather than legal ownership.",
+    "Do not promise donor title/ownership unless project legal structure explicitly supports it.",
+    "If component actual cost changes, campaign terms define whether overage goes to same restricted fund/general project or requires donor action.",
+    "Religious merit claims require review and should not be auto-generated."
+  ],
+  "3d_behavior": [
+    "unfunded grey",
+    "partially funded progress fill",
+    "funded color",
+    "ordered badge",
+    "installed badge",
+    "commissioned badge",
+    "click object -> cost, funded, remaining, donors if public-consent, install status"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "classes": [
+    "specification",
+    "template",
+    "factual_seed",
+    "executable_draft",
+    "production_ready"
+  ],
+  "rules": [
+    "A JSON schema is not executable behavior.",
+    "A queue record is not factual ingestion.",
+    "A SQL draft without tested migrations/RLS is not production-ready.",
+    "A process is executable only when implementation + tests + runtime integration exist.",
+    "Production-ready additionally requires security, observability, backups, accessibility and release verification."
+  ],
+  "current_state": {
+    "product_specification": "very broad",
+    "templates": "substantial",
+    "factual_data": "still sparse relative to targets",
+    "executable_code": "early foundation only",
+    "production_readiness": "not achieved"
+  }
+}

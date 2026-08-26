@@ -1,0 +1,19 @@
+{
+  "name": "@mosque-build/mobile",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "expo": "^57.0.0",
+    "expo-router": "^7.0.0",
+    "react": "^19.2.0",
+    "react-native": "0.84.x"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,981 @@
+[
+  {
+    "id": "vend_ustun_avize",
+    "name": "Üstün Avize",
+    "country": "Türkiye",
+    "city": "Samsun",
+    "categories": [
+      "mosque chandeliers",
+      "custom lighting"
+    ],
+    "regions": [
+      "Türkiye",
+      "international inquiry"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://en.ustunavize.com/",
+    "claims_supported": [
+      "mosque chandelier manufacturer",
+      "mosque project portfolio",
+      "factory/contact details"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_kylighting",
+    "name": "K&Y Lighting",
+    "country": "China",
+    "categories": [
+      "mosque chandeliers",
+      "custom lighting design"
+    ],
+    "regions": [
+      "international"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.kylighting.com/mosque-lighting-supplier/",
+    "claims_supported": [
+      "custom mosque chandelier",
+      "3D drawing/design support",
+      "completed mosque lighting projects"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_showsun",
+    "name": "Showsun Lighting",
+    "country": "China",
+    "city": "Zhongshan, Guangdong",
+    "categories": [
+      "mosque chandeliers",
+      "custom lighting"
+    ],
+    "regions": [
+      "international"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.showsunlighting.com/mosque-chandeliers/",
+    "claims_supported": [
+      "mosque chandelier manufacturer",
+      "factory/contact location"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_winlory",
+    "name": "Winlory Lighting",
+    "country": "China",
+    "categories": [
+      "mosque chandeliers",
+      "lanterns",
+      "pendant lighting"
+    ],
+    "regions": [
+      "international"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.winlorylighting.com/mosque-chandelier-manufacturer",
+    "claims_supported": [
+      "custom Islamic/mosque chandelier manufacturing"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_precciosa",
+    "name": "Preciosa Lighting",
+    "country": "Czechia",
+    "categories": [
+      "architectural lighting",
+      "custom chandeliers"
+    ],
+    "regions": [
+      "international"
+    ],
+    "evidence": "official_project_reference",
+    "source_url": "https://www.preciosalighting.com/sheikha-moza-mosque",
+    "claims_supported": [
+      "supplier of lighting fixtures to Sheikha Moza Mosque project"
+    ],
+    "reference_examples": [
+      {
+        "mosque": "Sheikha Moza Mosque",
+        "location": "Bahrain",
+        "scope": "lighting fixtures",
+        "status": "vendor_official_reference"
+      }
+    ],
+    "verification_status": "reference_verified"
+  },
+  {
+    "id": "vend_creart",
+    "name": "CreArt",
+    "country": "Türkiye",
+    "categories": [
+      "architectural lighting",
+      "large chandeliers"
+    ],
+    "regions": [
+      "Türkiye",
+      "international"
+    ],
+    "evidence": "official_project_reference",
+    "source_url": "https://www.creart.com.tr/en/projects/the-grand-camlica-mosque/",
+    "claims_supported": [
+      "lighting application at Grand Çamlıca Mosque"
+    ],
+    "reference_examples": [
+      {
+        "mosque": "Grand Çamlıca Mosque",
+        "location": "Istanbul, Türkiye",
+        "scope": "lighting/main chandelier",
+        "status": "vendor_official_reference"
+      }
+    ],
+    "verification_status": "reference_verified"
+  },
+  {
+    "id": "vend_wudumate",
+    "name": "WuduMate",
+    "country": "United Kingdom",
+    "categories": [
+      "wudu stations",
+      "ablution products"
+    ],
+    "regions": [
+      "international"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://wudumate.com/",
+    "claims_supported": [
+      "designer/supplier of ablution products for mosques and prayer spaces"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_wuduease",
+    "name": "WuduEase",
+    "country": "United Kingdom",
+    "categories": [
+      "wudu basins",
+      "ablution fixtures",
+      "toilets",
+      "bidets"
+    ],
+    "regions": [
+      "United Kingdom"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://wuduease.co.uk/ultimate-wudu-basin-setup-guide-for-uk-mosques/",
+    "claims_supported": [
+      "mosque ablution fixtures"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_commercial_washrooms_tahara",
+    "name": "Commercial Washrooms — Tahara Wudu Station",
+    "country": "United Kingdom",
+    "categories": [
+      "stainless steel wudu stations"
+    ],
+    "regions": [
+      "United Kingdom"
+    ],
+    "evidence": "official_product_page",
+    "source_url": "https://www.commercialwashroomsltd.co.uk/tahara-stainless-steel-wudu-washing-and-ablution-station.html",
+    "claims_supported": [
+      "modular stainless-steel wudu station",
+      "single/multi-station options"
+    ],
+    "reference_examples": [],
+    "verification_status": "product_page_verified"
+  },
+  {
+    "id": "vend_kingkonree",
+    "name": "KingKonree / KKR",
+    "country": "China",
+    "categories": [
+      "solid-surface wudu sinks",
+      "custom ablution stations"
+    ],
+    "regions": [
+      "international"
+    ],
+    "evidence": "official_or_vendor_content",
+    "source_url": "https://kkrbath.com/what-is-a-wudu-sink/",
+    "claims_supported": [
+      "customizable wudu sink solutions",
+      "OEM/ODM",
+      "mosque/public project support"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_reference_verified"
+  },
+  {
+    "id": "vend_zzexporter",
+    "name": "ZZ Exporter Mosque Carpets",
+    "country": "Türkiye",
+    "categories": [
+      "mosque carpet",
+      "wool carpet",
+      "acrylic carpet",
+      "polypropylene carpet"
+    ],
+    "regions": [
+      "international"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://zzexporter.com/mosque-carpets-manufacturer/",
+    "claims_supported": [
+      "Turkish mosque carpet manufacturer",
+      "international project claims"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_claims_need_reference_validation"
+  },
+  {
+    "id": "vend_meta_carpet",
+    "name": "Meta Mosque Carpet",
+    "country": "Türkiye",
+    "categories": [
+      "mosque carpet",
+      "carpet installation"
+    ],
+    "regions": [
+      "international"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.metacamihalisi.com/en/aboutus/",
+    "claims_supported": [
+      "mosque carpets",
+      "production through installation/support"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_melikhan",
+    "name": "Melikhan Carpets",
+    "country": "Türkiye",
+    "categories": [
+      "mosque carpet",
+      "rugs"
+    ],
+    "regions": [
+      "international"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.melikhancarpets.com/",
+    "claims_supported": [
+      "manufacturer/exporter",
+      "mosque carpet category"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_elifnur",
+    "name": "Elifnur Cami Halıları",
+    "country": "Türkiye",
+    "categories": [
+      "wool mosque carpet",
+      "acrylic mosque carpet"
+    ],
+    "regions": [
+      "Türkiye",
+      "international inquiry"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://elifnurcamihalilari.com/en/default/",
+    "claims_supported": [
+      "wool mosque carpet",
+      "domestic Turkish production"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_asil_hali",
+    "name": "Asil Halı",
+    "country": "Türkiye",
+    "categories": [
+      "acrylic mosque carpet"
+    ],
+    "regions": [
+      "Türkiye",
+      "international inquiry"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.asilhali.com.tr/",
+    "claims_supported": [
+      "acrylic mosque carpets"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_mosque_carpet_usa",
+    "name": "Mosque Carpet USA",
+    "country": "United States",
+    "categories": [
+      "mosque carpet",
+      "prayer runners",
+      "area rugs"
+    ],
+    "regions": [
+      "United States"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://mosquecarpetusa.com/",
+    "claims_supported": [
+      "USA mosque carpet supplier",
+      "custom sizing/shipping"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_al_aqsa_carpets",
+    "name": "Al Aqsa Carpets",
+    "country": "Malaysia",
+    "city": "Shah Alam",
+    "categories": [
+      "mosque carpet",
+      "installation"
+    ],
+    "regions": [
+      "Malaysia"
+    ],
+    "evidence": "official_vendor_site_with_references",
+    "source_url": "https://alaqsacarpets.com/mosque-carpet/",
+    "claims_supported": [
+      "supplier and installer",
+      "named Klang Valley mosque installations"
+    ],
+    "reference_examples": [
+      {
+        "mosque": "Masjid Ara Damansara",
+        "location": "Malaysia",
+        "scope": "carpet installation",
+        "status": "vendor_official_reference"
+      },
+      {
+        "mosque": "Masjid Jamek Kampung Baru",
+        "location": "Malaysia",
+        "scope": "carpet installation",
+        "status": "vendor_official_reference"
+      },
+      {
+        "mosque": "Sultan Salahuddin Abdul Aziz Shah Mosque",
+        "location": "Shah Alam, Malaysia",
+        "scope": "carpet installation",
+        "status": "vendor_official_reference"
+      }
+    ],
+    "verification_status": "reference_claims_vendor_sourced"
+  },
+  {
+    "id": "vend_crown_my",
+    "name": "Crown Furniture & Carpets",
+    "country": "Malaysia",
+    "categories": [
+      "masjid carpet",
+      "furniture"
+    ],
+    "regions": [
+      "Malaysia",
+      "Singapore",
+      "Brunei",
+      "other export"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://crownhandicrafts.com.my/collections/masjid-carpets",
+    "claims_supported": [
+      "masjid carpets",
+      "regional delivery"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_primelay",
+    "name": "Primelay",
+    "country": "Malaysia",
+    "categories": [
+      "masjid carpet"
+    ],
+    "regions": [
+      "Malaysia"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://primelay.com.my/product/al-zuhur-masjid-carpet/",
+    "claims_supported": [
+      "customizable masjid carpets"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_gizem",
+    "name": "Gizem Carpet",
+    "country": "Indonesia",
+    "categories": [
+      "carpet",
+      "mosque carpet"
+    ],
+    "regions": [
+      "Indonesia"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.gizemcarpet.com/en/about-us/",
+    "claims_supported": [
+      "Indonesia carpet distributor/factory"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_general_vendor"
+  },
+  {
+    "id": "vend_occ_doha",
+    "name": "Oriental Carpet Company W.L.L.",
+    "country": "Qatar",
+    "city": "Doha",
+    "categories": [
+      "mosque carpet",
+      "acrylic prayer carpet"
+    ],
+    "regions": [
+      "Qatar"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.occdoha.com/prayercarpet",
+    "claims_supported": [
+      "mosque prayer carpet",
+      "Awqaf-specified product line described"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_floorland_ae",
+    "name": "Floor Land LLC",
+    "country": "United Arab Emirates",
+    "city": "Dubai",
+    "categories": [
+      "mosque carpet",
+      "installation"
+    ],
+    "regions": [
+      "Dubai",
+      "UAE"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://floorland.ae/carpet/mosque/",
+    "claims_supported": [
+      "mosque carpet supply and installation"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_mostafawi",
+    "name": "Mostafawi Enterprises",
+    "country": "United Arab Emirates",
+    "city": "Dubai",
+    "categories": [
+      "mosque carpet",
+      "flooring installation"
+    ],
+    "regions": [
+      "UAE"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.mostafawient.ae/mosque-carpets-dubai/",
+    "claims_supported": [
+      "mosque carpet supply",
+      "site visit/fitting"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_iran_carpet_company",
+    "name": "Iran Carpet Company",
+    "country": "Iran",
+    "categories": [
+      "large custom handwoven mosque carpets"
+    ],
+    "regions": [
+      "international landmark projects"
+    ],
+    "evidence": "secondary_project_reference",
+    "source_url": "https://en.wikipedia.org/wiki/Sheikh_Zayed_Grand_Mosque",
+    "claims_supported": [
+      "carpet attributed to Iran Carpet Company for Sheikh Zayed Grand Mosque"
+    ],
+    "reference_examples": [
+      {
+        "mosque": "Sheikh Zayed Grand Mosque",
+        "location": "Abu Dhabi, UAE",
+        "scope": "main prayer hall hand-knotted carpet",
+        "status": "secondary_reference_needs_primary_vendor_source"
+      }
+    ],
+    "verification_status": "reference_secondary"
+  },
+  {
+    "id": "vend_girja",
+    "name": "Girja Carpets",
+    "country": "India",
+    "city": "Panipat",
+    "categories": [
+      "masjid tufted carpet",
+      "custom carpet"
+    ],
+    "regions": [
+      "India",
+      "export including Indonesia"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.girjacarpets.com/indonesia/masjid-tufted-carpets.htm",
+    "claims_supported": [
+      "masjid tufted carpet manufacturer/exporter"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_sipahi_marble",
+    "name": "Sipahi Marble & Granite",
+    "country": "Türkiye",
+    "city": "Sakarya",
+    "categories": [
+      "marble mihrab",
+      "marble minbar",
+      "mosque flooring",
+      "facade stone"
+    ],
+    "regions": [
+      "Türkiye",
+      "international inquiry"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://sipahimermer.com/en/sektor/cami-mermer-projeleri/",
+    "claims_supported": [
+      "mosque marble projects",
+      "mihrab/minbar/flooring/facade"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_kabakci_marble",
+    "name": "Kabakci Marble",
+    "country": "Türkiye",
+    "categories": [
+      "marble mihrab",
+      "marble minbar",
+      "stone craft"
+    ],
+    "regions": [
+      "Türkiye",
+      "international inquiry"
+    ],
+    "evidence": "marketplace_product_with_vendor_identity",
+    "source_url": "https://www.stonecontact.com/products-127584/the-mosque-products-mihrab-with-white-marble",
+    "claims_supported": [
+      "stone mosque products including mihrab/minbar"
+    ],
+    "reference_examples": [],
+    "verification_status": "secondary_marketplace_source"
+  },
+  {
+    "id": "vend_mosquebuild_stoneplus",
+    "name": "MosqueBuild / Stoneplus",
+    "country": "Türkiye",
+    "categories": [
+      "mihrab",
+      "minbar",
+      "doors",
+      "carpet",
+      "chandelier",
+      "tile",
+      "stone",
+      "fountain",
+      "mosque components"
+    ],
+    "regions": [
+      "international"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.mosquebuild.com/",
+    "claims_supported": [
+      "multi-category mosque product marketplace/project supplier"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_masjid_direct",
+    "name": "Masjid Direct",
+    "country": "United Kingdom",
+    "categories": [
+      "mihrab",
+      "mosque sound systems",
+      "mosque carpets",
+      "mosque interiors"
+    ],
+    "regions": [
+      "United Kingdom",
+      "Europe"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.masjiddirect.com/masjid-mihrab-design-installation/",
+    "claims_supported": [
+      "mihrab design/installation",
+      "Turkish-sourced mosque components"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_firoz_marble",
+    "name": "Firoz Marble Suppliers",
+    "country": "India",
+    "categories": [
+      "marble mihrab",
+      "mosque marble work"
+    ],
+    "regions": [
+      "India"
+    ],
+    "evidence": "vendor_social_or_marketplace",
+    "source_url": "https://www.stonecontact.com/products-990366/mosque-mihrab-designs-in-marble",
+    "claims_supported": [
+      "marble mosque mihrab supply"
+    ],
+    "reference_examples": [],
+    "verification_status": "secondary_source_needs_direct_vendor_verification"
+  },
+  {
+    "id": "vend_eitile",
+    "name": "Erfan International Tile Company (EITile)",
+    "country": "Iran",
+    "categories": [
+      "mihrab tilework",
+      "handmade ceramic tile",
+      "Islamic tile decoration"
+    ],
+    "regions": [
+      "international"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.eitile.com/page.aspx?page=mosques_mihrab",
+    "claims_supported": [
+      "mihrab tile design/manufacture"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_omari_zellige",
+    "name": "Omari Zellige",
+    "country": "Morocco",
+    "city": "Fez",
+    "categories": [
+      "zellige",
+      "bejmat tile",
+      "custom Moroccan tile"
+    ],
+    "regions": [
+      "international wholesale"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.omarizellige.com/wholesale-moroccan-tiles-zellige-supplier",
+    "claims_supported": [
+      "Fez factory",
+      "wholesale/custom zellige"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_general_craft_vendor"
+  },
+  {
+    "id": "vend_toa",
+    "name": "TOA",
+    "country": "Japan",
+    "categories": [
+      "mosque PA",
+      "PAVA",
+      "multi-zone audio"
+    ],
+    "regions": [
+      "Europe",
+      "Africa",
+      "international distributors"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.toa.eu/audio-solutions-for-mosques",
+    "claims_supported": [
+      "audio solutions tailored for mosques",
+      "acoustic simulation/design support"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_dsppa",
+    "name": "DSPPA",
+    "country": "China",
+    "city": "Guangzhou",
+    "categories": [
+      "mosque PA",
+      "voice alarm",
+      "intercom"
+    ],
+    "regions": [
+      "international"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.dsppatech.com/solution/venue-pa-solution/",
+    "claims_supported": [
+      "mosque PA solution"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_celikerler",
+    "name": "Çelikerler Steel Construction",
+    "country": "Türkiye",
+    "categories": [
+      "steel mosque dome",
+      "steel minaret",
+      "fiberglass-clad dome"
+    ],
+    "regions": [
+      "international"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.celikminare.net/en/products/steel-dome",
+    "claims_supported": [
+      "steel dome manufacture",
+      "mosque steel construction",
+      "international installations claimed"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_claims_need_reference_validation"
+  },
+  {
+    "id": "vend_fibercelik",
+    "name": "Fiber Çelik Minare",
+    "country": "Türkiye",
+    "categories": [
+      "steel minaret",
+      "fiberglass minaret"
+    ],
+    "regions": [
+      "Türkiye",
+      "international"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.fibercelikminare.com/en/home",
+    "claims_supported": [
+      "steel/fiberglass minarets"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_twngrp",
+    "name": "TWN GRP Architectural Solutions",
+    "country": "United Kingdom",
+    "categories": [
+      "GRP mosque domes",
+      "GRP minarets",
+      "finials"
+    ],
+    "regions": [
+      "United Kingdom"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.twngrp.co.uk/grp-mosques-domes-minarets",
+    "claims_supported": [
+      "GRP domes/minarets supply/install"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_masjidbox",
+    "name": "Masjidbox",
+    "country": "France/Europe",
+    "categories": [
+      "donation terminals",
+      "mosque software",
+      "Gift Aid/tax receipt tooling"
+    ],
+    "regions": [
+      "Europe",
+      "international depending service"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://masjidbox.com/terminal",
+    "claims_supported": [
+      "mosque payment terminal",
+      "offline support",
+      "recurring donations",
+      "Gift Aid",
+      "French tax receipts"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_software_vendor"
+  },
+  {
+    "id": "vend_hibabox",
+    "name": "Hibabox",
+    "country": "United Kingdom",
+    "categories": [
+      "contactless donation terminals",
+      "mosque administration software",
+      "Gift Aid"
+    ],
+    "regions": [
+      "United Kingdom"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://hibabox.com/",
+    "claims_supported": [
+      "mosque donation management",
+      "terminals",
+      "UK mosque customer claims"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_claims_need_customer_validation"
+  },
+  {
+    "id": "vend_masjidal",
+    "name": "Masjidal",
+    "country": "United States",
+    "categories": [
+      "donation kiosk",
+      "prayer time displays",
+      "digital bulletin board",
+      "Athan clock"
+    ],
+    "regions": [
+      "United States",
+      "international inquiry"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://mymasjidal.com/",
+    "claims_supported": [
+      "masjid prayer displays",
+      "digital bulletin board",
+      "donation kiosk product"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_software_hardware_vendor"
+  },
+  {
+    "id": "vend_masjid_solutions",
+    "name": "Masjid Solutions",
+    "country": "United States",
+    "categories": [
+      "donation kiosks",
+      "payment hardware"
+    ],
+    "regions": [
+      "United States"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://masjidsolutions.net/donation-kiosk/",
+    "claims_supported": [
+      "mosque donation kiosk"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_not_platform_claimed"
+  },
+  {
+    "id": "vend_masajid",
+    "name": "MASAJID",
+    "country": "Global/software",
+    "categories": [
+      "prayer time display",
+      "digital signage"
+    ],
+    "regions": [
+      "international"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://masaj.id/",
+    "claims_supported": [
+      "masjid prayer-time digital signage"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_software_vendor"
+  },
+  {
+    "id": "vend_safran_makina",
+    "name": "Safran Makina",
+    "country": "Türkiye",
+    "categories": [
+      "mosque carpet sweeper",
+      "commercial cleaning equipment"
+    ],
+    "regions": [
+      "Türkiye",
+      "international inquiry"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://www.safranmakina.com/en/p/mr-400-wide-area-and-mosque-sweeping-and-vacuuming-machine/",
+    "claims_supported": [
+      "dedicated mosque/carpet sweeping machine"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_product"
+  },
+  {
+    "id": "vend_ets_makine",
+    "name": "ETS Makine",
+    "country": "Türkiye",
+    "categories": [
+      "mosque carpet vacuum",
+      "industrial cleaning equipment"
+    ],
+    "regions": [
+      "Türkiye",
+      "international inquiry"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://eng.etsmakine.com/industrial-vacuum-cleaners/mosque-sweepers-2/",
+    "claims_supported": [
+      "mosque carpet vacuum/sweeper"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_product"
+  },
+  {
+    "id": "vend_tahara_cleaning",
+    "name": "Tahara Mosque Carpet Cleaning",
+    "country": "United Kingdom",
+    "categories": [
+      "mosque carpet cleaning service",
+      "specialist cleaning equipment use"
+    ],
+    "regions": [
+      "United Kingdom"
+    ],
+    "evidence": "official_vendor_site",
+    "source_url": "https://tahara.co.uk/",
+    "claims_supported": [
+      "specialist masjid carpet cleaning service"
+    ],
+    "reference_examples": [],
+    "verification_status": "source_verified_service_vendor"
+  }
+]

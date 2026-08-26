@@ -1,0 +1,627 @@
+[
+  {
+    "name": "directory",
+    "path": "/mosques",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "directory_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "map",
+    "path": "/map",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "map_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "mosque_profile",
+    "path": "/mosques/[country]/[city]/[slug]",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "mosque_profile_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "project_home",
+    "path": "/projects/[id]",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "project_home_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "site_studio",
+    "path": "/projects/[id]/site",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "site_studio_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "design_studio",
+    "path": "/projects/[id]/design",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "design_studio_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "budget",
+    "path": "/projects/[id]/budget",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "budget_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "permits",
+    "path": "/projects/[id]/permits",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "permits_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "funding",
+    "path": "/projects/[id]/funding",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "funding_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "operations",
+    "path": "/mosques/[id]/manage",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "operations_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "ramadan",
+    "path": "/mosques/[id]/ramadan",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "ramadan_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "iftar",
+    "path": "/mosques/[id]/ramadan/iftar",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "iftar_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "security",
+    "path": "/mosques/[id]/security",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "security_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "maintenance",
+    "path": "/mosques/[id]/maintenance",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "maintenance_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "donations",
+    "path": "/mosques/[id]/donations",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "donations_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "waqf",
+    "path": "/mosques/[id]/waqf",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "waqf_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "programs",
+    "path": "/mosques/[id]/programs",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "programs_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "madrasa",
+    "path": "/mosques/[id]/madrasa",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "madrasa_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "museum",
+    "path": "/museum",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "museum_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "styles",
+    "path": "/architecture/[style]",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "styles_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "component",
+    "path": "/components/[component]",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "component_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "architect",
+    "path": "/architects/[slug]",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "architect_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "supplier",
+    "path": "/suppliers/[country]/[category]",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "supplier_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "blog",
+    "path": "/blog/[slug]",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "blog_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  },
+  {
+    "name": "permit_guide",
+    "path": "/permits/[country]/[region]/[city]",
+    "states": [
+      "loading",
+      "ready",
+      "empty",
+      "error",
+      "offline_or_provider_unavailable",
+      "unauthorized_if_private",
+      "stale_external_data"
+    ],
+    "seo_index": "public_only",
+    "analytics": [
+      "page_view",
+      "permit_guide_primary_action"
+    ],
+    "test_requirements": [
+      "mobile render",
+      "desktop render",
+      "state coverage",
+      "auth coverage if private",
+      "source disclosure if external data"
+    ]
+  }
+]

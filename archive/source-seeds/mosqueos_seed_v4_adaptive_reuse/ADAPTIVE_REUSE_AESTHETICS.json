@@ -1,0 +1,33 @@
+{
+  "principles": [
+    "Start with site, climate, materials, proportion, daylight and craft before decorative symbolism.",
+    "Dome/minaret are optional design languages, not automatic requirements.",
+    "Existing-building character may be preserved rather than erased.",
+    "Adaptive reuse should reveal honest layers where appropriate: old structure + new qibla intervention.",
+    "Prioritize durable, repairable materials over difficult-to-maintain spectacle.",
+    "Use local craft and regional architectural language where meaningful, not superficial pastiche."
+  ],
+  "conversion_modes": [
+    {
+      "id": "minimal_intervention",
+      "description": "Keep most existing architecture; mosque identity emerges through orientation, light, prayer floor, signage and selective craft."
+    },
+    {
+      "id": "layered_reuse",
+      "description": "Preserve old fabric while adding clearly contemporary mosque elements."
+    },
+    {
+      "id": "regional_reinterpretation",
+      "description": "Introduce local Islamic architectural language using regionally appropriate materials/craft."
+    },
+    {
+      "id": "full_transformation",
+      "description": "Major architectural reconstruction where justified by program, condition and approvals."
+    }
+  ],
+  "repair_vs_replace_logic": [
+    "repair if safe, serviceable, compatible, and lifecycle cost is favorable",
+    "replace if safety/compliance, repeated failure, energy/water waste, unavailable parts, or severe deterioration justify it",
+    "preserve significant heritage fabric unless conservation strategy supports intervention"
+  ]
+}

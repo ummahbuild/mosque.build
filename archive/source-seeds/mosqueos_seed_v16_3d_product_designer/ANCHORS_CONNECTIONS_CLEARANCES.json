@@ -1,0 +1,50 @@
+{
+  "anchor_types": [
+    "floor_center",
+    "floor_edge",
+    "wall_face",
+    "wall_centerline",
+    "ceiling_point",
+    "ceiling_grid",
+    "roof_plane",
+    "opening",
+    "countertop",
+    "service_wall",
+    "equipment_pad",
+    "free_standing",
+    "site_surface"
+  ],
+  "service_ports": [
+    "cold_water",
+    "hot_water",
+    "waste",
+    "floor_drain",
+    "power_120v",
+    "power_230v",
+    "three_phase_power",
+    "low_voltage",
+    "ethernet",
+    "audio_signal",
+    "speaker_circuit",
+    "gas",
+    "vent",
+    "duct",
+    "control_bus"
+  ],
+  "zone_types": [
+    "physical_body",
+    "installation_clearance",
+    "operational_clearance",
+    "accessible_clearance",
+    "maintenance_clearance",
+    "service_zone",
+    "no_go_zone"
+  ],
+  "placement_rules": [
+    "snap product anchor to compatible host anchor",
+    "rotate only within allowed orientation rules",
+    "prevent placement when required clearance intersects blocked geometry",
+    "warn rather than auto-fail when professional review is the correct next step",
+    "show missing service connections before approval"
+  ]
+}

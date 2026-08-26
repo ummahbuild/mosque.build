@@ -1,0 +1,42 @@
+{
+  "events": [
+    "mosque_search",
+    "mosque_profile_view",
+    "mosque_directions_opened",
+    "mosque_edit_suggested",
+    "project_created",
+    "scenario_created",
+    "scenario_compared",
+    "design_object_changed",
+    "qibla_overlay_viewed",
+    "cost_estimate_generated",
+    "material_compared",
+    "local_vs_import_compared",
+    "permit_check_viewed",
+    "supplier_shortlisted",
+    "rfi_created",
+    "daily_report_submitted",
+    "inspection_recorded",
+    "asset_qr_scanned",
+    "maintenance_work_order_created",
+    "iftar_plan_created",
+    "campaign_viewed",
+    "donation_started",
+    "donation_completed"
+  ],
+  "forbidden_properties": [
+    "donor full name",
+    "child name",
+    "incident narrative",
+    "bank details",
+    "exact security camera coordinates",
+    "private document content"
+  ],
+  "required": [
+    "event_version",
+    "platform",
+    "timestamp",
+    "anonymous_or_user_id",
+    "org/project references only when needed"
+  ]
+}

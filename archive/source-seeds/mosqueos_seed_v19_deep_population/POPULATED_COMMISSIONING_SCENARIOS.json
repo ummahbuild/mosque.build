@@ -1,0 +1,222 @@
+[
+  {
+    "id": "CX-001",
+    "name": "Fajr low occupancy",
+    "system": "HVAC/lighting",
+    "objective": "verify low-load comfort/lighting mode",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-002",
+    "name": "Jumuah peak",
+    "system": "HVAC",
+    "objective": "verify peak ventilation/temperature response",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-003",
+    "name": "Jumuah peak",
+    "system": "audio",
+    "objective": "verify imam speech/recitation coverage",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-004",
+    "name": "Women/family coverage",
+    "system": "audio",
+    "objective": "verify intelligibility and independent/linked zones",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-005",
+    "name": "Overflow prayer",
+    "system": "audio",
+    "objective": "verify overflow feed and delay/level",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-006",
+    "name": "Taraweeh evening",
+    "system": "lighting",
+    "objective": "verify evening scenes and circulation lighting",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-007",
+    "name": "Emergency mode",
+    "system": "emergency lighting",
+    "objective": "verify emergency illumination operation",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-008",
+    "name": "Power outage",
+    "system": "generator/battery",
+    "objective": "verify defined critical loads",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-009",
+    "name": "Wudu peak",
+    "system": "water",
+    "objective": "verify pressure/flow under simultaneous use",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-010",
+    "name": "Wudu peak",
+    "system": "drainage",
+    "objective": "verify simultaneous discharge/drain performance",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-011",
+    "name": "Hot water recovery",
+    "system": "water heating",
+    "objective": "verify recovery for defined usage",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-012",
+    "name": "Accessible route",
+    "system": "accessibility",
+    "objective": "walk route end-to-end",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-013",
+    "name": "Accessible wudu",
+    "system": "accessibility/wudu",
+    "objective": "verify practical use/clearances",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-014",
+    "name": "Fire alarm",
+    "system": "life safety",
+    "objective": "functional system test per project/authority requirements",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-015",
+    "name": "Network outage",
+    "system": "digital systems",
+    "objective": "verify graceful failure for displays/admin systems",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-016",
+    "name": "Prayer display sync",
+    "system": "IT/display",
+    "objective": "verify clock/time synchronization and manual override",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-017",
+    "name": "Donation kiosk",
+    "system": "payment equipment",
+    "objective": "verify power/network/offline behavior without exposing donor data",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-018",
+    "name": "Kitchen iftar peak",
+    "system": "kitchen/HVAC",
+    "objective": "verify equipment and ventilation under defined peak",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-019",
+    "name": "Rain event",
+    "system": "roof/drainage",
+    "objective": "verify observed roof/site drainage after suitable event or test",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  },
+  {
+    "id": "CX-020",
+    "name": "Post-occupancy seasonal",
+    "system": "whole building",
+    "objective": "deferred/seasonal verification after occupancy",
+    "source_context": [
+      "src_wbdg_cx",
+      "src_wbdg_ufgs_cx"
+    ],
+    "status": "generic_project_template"
+  }
+]

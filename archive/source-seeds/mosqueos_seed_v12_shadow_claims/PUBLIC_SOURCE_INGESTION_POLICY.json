@@ -1,0 +1,36 @@
+{
+  "allowed_source_modes": [
+    "open licensed structured data",
+    "official public pages where collection is permitted and technically/legal appropriate",
+    "provider APIs under provider terms",
+    "user-submitted/claimed information",
+    "public government/charity/heritage registries"
+  ],
+  "robots_terms": "Respect source terms, robots/access controls and provider-specific storage/display restrictions; do not bypass authentication, CAPTCHAs, paywalls or technical blocks.",
+  "crawl_controls": [
+    "per-domain rate limits",
+    "User-Agent identification",
+    "retry/backoff",
+    "ETag/Last-Modified when available",
+    "source health",
+    "content hash",
+    "fetch timestamp"
+  ],
+  "extraction": [
+    "name",
+    "address",
+    "phone",
+    "domain",
+    "public schedule",
+    "facilities",
+    "services",
+    "public organization metadata"
+  ],
+  "never_assume": [
+    "hours are current without date/source",
+    "phone/email proves ownership",
+    "a social post is permanent operating policy",
+    "architecture facts are official simply because mosque admin says so"
+  ],
+  "pii": "Do not scrape private personal contact details for public display; prefer institutional contacts."
+}

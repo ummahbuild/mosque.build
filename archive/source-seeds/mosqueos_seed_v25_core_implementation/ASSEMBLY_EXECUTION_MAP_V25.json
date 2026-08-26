@@ -1,0 +1,214 @@
+[
+  {
+    "key": "partition_block_plaster",
+    "takeoff_rule": "wall_finish",
+    "driver": "net_wall_area",
+    "cost_inputs": [
+      "block",
+      "mortar",
+      "plaster",
+      "paint",
+      "labor"
+    ]
+  },
+  {
+    "key": "partition_metal_stud",
+    "takeoff_rule": "wall_finish",
+    "driver": "net_wall_area",
+    "cost_inputs": [
+      "stud",
+      "track",
+      "board",
+      "insulation",
+      "paint",
+      "labor"
+    ]
+  },
+  {
+    "key": "prayer_carpet_system",
+    "takeoff_rule": "carpet",
+    "driver": "prayer_floor_area",
+    "cost_inputs": [
+      "subfloor",
+      "underlay",
+      "carpet",
+      "install"
+    ]
+  },
+  {
+    "key": "wudu_station_basic",
+    "takeoff_rule": "wudu_positions",
+    "driver": "count",
+    "cost_inputs": [
+      "fixture",
+      "tap",
+      "seat",
+      "water",
+      "waste",
+      "drainage",
+      "finish"
+    ]
+  },
+  {
+    "key": "wudu_station_accessible",
+    "takeoff_rule": "wudu_positions",
+    "driver": "count",
+    "cost_inputs": [
+      "fixture",
+      "support",
+      "tap",
+      "clearance",
+      "water",
+      "waste",
+      "finish"
+    ]
+  },
+  {
+    "key": "wetroom_waterproofing",
+    "takeoff_rule": "floor_finish",
+    "driver": "wet_surface_area",
+    "cost_inputs": [
+      "substrate",
+      "membrane",
+      "corners",
+      "penetrations",
+      "test"
+    ]
+  },
+  {
+    "key": "tile_floor_system",
+    "takeoff_rule": "floor_finish",
+    "driver": "floor_area",
+    "cost_inputs": [
+      "screed",
+      "waterproofing",
+      "tile",
+      "adhesive",
+      "grout"
+    ]
+  },
+  {
+    "key": "suspended_ceiling",
+    "takeoff_rule": "ceiling_finish",
+    "driver": "ceiling_area",
+    "cost_inputs": [
+      "grid",
+      "tiles/board",
+      "hangers",
+      "access panels"
+    ]
+  },
+  {
+    "key": "acoustic_ceiling",
+    "takeoff_rule": "ceiling_finish",
+    "driver": "ceiling_area",
+    "cost_inputs": [
+      "panels",
+      "suspension",
+      "trim"
+    ]
+  },
+  {
+    "key": "painted_wall_finish",
+    "takeoff_rule": "paint_wall",
+    "driver": "net_wall_area",
+    "cost_inputs": [
+      "prep",
+      "primer",
+      "paint"
+    ]
+  },
+  {
+    "key": "standard_door_set",
+    "takeoff_rule": "doors",
+    "driver": "count",
+    "cost_inputs": [
+      "leaf",
+      "frame",
+      "ironmongery",
+      "finish",
+      "install"
+    ]
+  },
+  {
+    "key": "fire_door_set",
+    "takeoff_rule": "doors",
+    "driver": "count",
+    "cost_inputs": [
+      "certified set",
+      "closer/hardware",
+      "seals",
+      "install"
+    ]
+  },
+  {
+    "key": "aluminium_window",
+    "takeoff_rule": "windows",
+    "driver": "count",
+    "cost_inputs": [
+      "frame",
+      "glass",
+      "hardware",
+      "sealant",
+      "install"
+    ]
+  },
+  {
+    "key": "led_lighting_zone",
+    "takeoff_rule": "lights",
+    "driver": "count",
+    "cost_inputs": [
+      "fixture",
+      "driver",
+      "controls",
+      "wiring",
+      "install"
+    ]
+  },
+  {
+    "key": "audio_zone",
+    "takeoff_rule": "speakers",
+    "driver": "count",
+    "cost_inputs": [
+      "speaker",
+      "cabling",
+      "mounting",
+      "DSP/amp allocation"
+    ]
+  },
+  {
+    "key": "solar_kwp",
+    "takeoff_rule": "solar_panels",
+    "driver": "count",
+    "cost_inputs": [
+      "modules",
+      "mounting",
+      "inverter allocation",
+      "protection",
+      "cabling",
+      "labor"
+    ]
+  },
+  {
+    "key": "quran_shelving",
+    "takeoff_rule": "quran_shelving",
+    "driver": "linear_length",
+    "cost_inputs": [
+      "shelving",
+      "finish",
+      "anchoring"
+    ]
+  },
+  {
+    "key": "roof_membrane",
+    "takeoff_rule": "roof_membrane",
+    "driver": "roof_surface_area",
+    "cost_inputs": [
+      "substrate",
+      "membrane",
+      "upstands",
+      "penetrations",
+      "testing"
+    ]
+  }
+]

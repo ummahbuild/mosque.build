@@ -1,0 +1,66 @@
+{
+  "persistent_header": [
+    "project name",
+    "stage",
+    "scenario/version",
+    "budget status",
+    "schedule status",
+    "funding status",
+    "sync status"
+  ],
+  "left_navigation": [
+    "Overview",
+    "Site",
+    "Design",
+    "Program",
+    "Budget",
+    "Permits",
+    "Marketplace",
+    "Procurement",
+    "Schedule",
+    "Construction",
+    "Quality",
+    "Commissioning",
+    "Fundraising",
+    "Documents",
+    "Team",
+    "Handover"
+  ],
+  "design_workspace": {
+    "center": "Three.js/R3F canvas",
+    "left_panel": [
+      "object tree",
+      "floors",
+      "layers",
+      "product library",
+      "generic components"
+    ],
+    "right_panel": [
+      "properties",
+      "compatibility",
+      "cost delta",
+      "schedule delta",
+      "issues",
+      "product/procurement status"
+    ],
+    "bottom_panel": [
+      "timeline",
+      "versions",
+      "2D/3D split",
+      "selected-object history"
+    ]
+  },
+  "mobile_field_workspace": {
+    "primary_actions": [
+      "Take photo",
+      "Daily report",
+      "Inspect",
+      "Scan QR",
+      "Delivery",
+      "Issue",
+      "Punch item",
+      "View drawing"
+    ],
+    "offline_first": true
+  }
+}

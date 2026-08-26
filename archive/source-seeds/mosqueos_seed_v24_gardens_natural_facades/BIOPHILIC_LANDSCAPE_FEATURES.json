@@ -1,0 +1,1136 @@
+[
+  {
+    "id": "BIO-0001",
+    "group": "garden_site_design",
+    "feature": "courtyard garden generator",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0002",
+    "group": "garden_site_design",
+    "feature": "sahn planting zones",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0003",
+    "group": "garden_site_design",
+    "feature": "tree canopy planner",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0004",
+    "group": "garden_site_design",
+    "feature": "shade target map",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0005",
+    "group": "garden_site_design",
+    "feature": "seating-under-shade planner",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0006",
+    "group": "garden_site_design",
+    "feature": "quiet reflection garden",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0007",
+    "group": "garden_site_design",
+    "feature": "family garden",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0008",
+    "group": "garden_site_design",
+    "feature": "children nature area",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0009",
+    "group": "garden_site_design",
+    "feature": "madrasa teaching garden",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0010",
+    "group": "garden_site_design",
+    "feature": "community edible garden",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0011",
+    "group": "garden_site_design",
+    "feature": "herb garden",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0012",
+    "group": "garden_site_design",
+    "feature": "orchard/palm grove option",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0013",
+    "group": "garden_site_design",
+    "feature": "pollinator garden",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0014",
+    "group": "garden_site_design",
+    "feature": "native habitat strip",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0015",
+    "group": "garden_site_design",
+    "feature": "memorial garden zone",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0016",
+    "group": "garden_site_design",
+    "feature": "entry garden sequence",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0017",
+    "group": "garden_site_design",
+    "feature": "women/family garden access",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0018",
+    "group": "garden_site_design",
+    "feature": "imam/private garden option",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0019",
+    "group": "garden_site_design",
+    "feature": "Ramadan iftar garden layout",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0020",
+    "group": "garden_site_design",
+    "feature": "Eid overflow landscape conversion",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0021",
+    "group": "garden_site_design",
+    "feature": "janazah family waiting garden",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0022",
+    "group": "garden_site_design",
+    "feature": "accessible garden route",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0023",
+    "group": "garden_site_design",
+    "feature": "sensory garden",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0024",
+    "group": "green_infrastructure",
+    "feature": "rain garden/bioretention placement",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0025",
+    "group": "green_infrastructure",
+    "feature": "bioswale generator",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0026",
+    "group": "green_infrastructure",
+    "feature": "permeable paving zones",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0027",
+    "group": "green_infrastructure",
+    "feature": "tree pit stormwater capture",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0028",
+    "group": "green_infrastructure",
+    "feature": "rainwater tank/cistern planner",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0029",
+    "group": "green_infrastructure",
+    "feature": "roof runoff routing",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0030",
+    "group": "green_infrastructure",
+    "feature": "downspout disconnection option",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0031",
+    "group": "green_infrastructure",
+    "feature": "infiltration candidate map",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0032",
+    "group": "green_infrastructure",
+    "feature": "overflow route mapping",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0033",
+    "group": "green_infrastructure",
+    "feature": "detention/retention candidate zones",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0034",
+    "group": "green_infrastructure",
+    "feature": "green roof candidate",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0035",
+    "group": "green_infrastructure",
+    "feature": "blue-green roof candidate",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0036",
+    "group": "green_infrastructure",
+    "feature": "soil infiltration test record",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0037",
+    "group": "green_infrastructure",
+    "feature": "stormwater treatment train",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0038",
+    "group": "green_infrastructure",
+    "feature": "first-flush/quality note",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0039",
+    "group": "green_infrastructure",
+    "feature": "maintenance access for GI",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0040",
+    "group": "natural_facades",
+    "feature": "climbing vine facade",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0041",
+    "group": "natural_facades",
+    "feature": "green wall system",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0042",
+    "group": "natural_facades",
+    "feature": "trellis facade",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0043",
+    "group": "natural_facades",
+    "feature": "pergola vine system",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0044",
+    "group": "natural_facades",
+    "feature": "planted screen/jali hybrid",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0045",
+    "group": "natural_facades",
+    "feature": "planter-integrated facade",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0046",
+    "group": "natural_facades",
+    "feature": "balcony planter bands",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0047",
+    "group": "natural_facades",
+    "feature": "courtyard arcade planting",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0048",
+    "group": "natural_facades",
+    "feature": "green roof edge planting",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0049",
+    "group": "natural_facades",
+    "feature": "living shading screen",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0050",
+    "group": "natural_facades",
+    "feature": "facade irrigation zones",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0051",
+    "group": "natural_facades",
+    "feature": "root-zone containment",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0052",
+    "group": "natural_facades",
+    "feature": "waterproofing separation",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0053",
+    "group": "natural_facades",
+    "feature": "maintenance access",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0054",
+    "group": "natural_facades",
+    "feature": "plant replacement access",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0055",
+    "group": "natural_facades",
+    "feature": "falling-debris/fruit risk review",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0056",
+    "group": "natural_facades",
+    "feature": "pest nesting review",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0057",
+    "group": "natural_facades",
+    "feature": "facade moisture risk",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0058",
+    "group": "natural_facades",
+    "feature": "structural load professional-review flag",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0059",
+    "group": "natural_facades",
+    "feature": "fire/life-safety vegetation clearance flag",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0060",
+    "group": "plant_intelligence",
+    "feature": "plant palette by climate",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0061",
+    "group": "plant_intelligence",
+    "feature": "native/local species preference",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0062",
+    "group": "plant_intelligence",
+    "feature": "water-demand class",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0063",
+    "group": "plant_intelligence",
+    "feature": "sun/shade class",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0064",
+    "group": "plant_intelligence",
+    "feature": "root behavior",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0065",
+    "group": "plant_intelligence",
+    "feature": "mature height/spread",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0066",
+    "group": "plant_intelligence",
+    "feature": "growth rate",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0067",
+    "group": "plant_intelligence",
+    "feature": "seasonal shade",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0068",
+    "group": "plant_intelligence",
+    "feature": "evergreen/deciduous",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0069",
+    "group": "plant_intelligence",
+    "feature": "flowering/fruiting",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0070",
+    "group": "plant_intelligence",
+    "feature": "allergen note",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0071",
+    "group": "plant_intelligence",
+    "feature": "toxicity/child/pet caution",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0072",
+    "group": "plant_intelligence",
+    "feature": "thorn/spine caution",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0073",
+    "group": "plant_intelligence",
+    "feature": "invasive-species flag",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0074",
+    "group": "plant_intelligence",
+    "feature": "maintenance intensity",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0075",
+    "group": "plant_intelligence",
+    "feature": "leaf litter",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0076",
+    "group": "plant_intelligence",
+    "feature": "irrigation need",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0077",
+    "group": "plant_intelligence",
+    "feature": "soil preference",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0078",
+    "group": "plant_intelligence",
+    "feature": "pollinator value",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0079",
+    "group": "plant_intelligence",
+    "feature": "edible/medicinal use note",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0080",
+    "group": "plant_intelligence",
+    "feature": "nursery availability",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0081",
+    "group": "plant_intelligence",
+    "feature": "local-language/common names",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0082",
+    "group": "plant_intelligence",
+    "feature": "source/provenance",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0083",
+    "group": "plant_intelligence",
+    "feature": "replacement availability",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0084",
+    "group": "water_irrigation",
+    "feature": "irrigation zone planner",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0085",
+    "group": "water_irrigation",
+    "feature": "drip irrigation option",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0086",
+    "group": "water_irrigation",
+    "feature": "soil moisture sensor option",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0087",
+    "group": "water_irrigation",
+    "feature": "weather-based controller option",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0088",
+    "group": "water_irrigation",
+    "feature": "rainwater irrigation source",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0089",
+    "group": "water_irrigation",
+    "feature": "treated greywater candidate source",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0090",
+    "group": "water_irrigation",
+    "feature": "ablution-water reuse candidate flow",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0091",
+    "group": "water_irrigation",
+    "feature": "potable/nonpotable separation",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0092",
+    "group": "water_irrigation",
+    "feature": "irrigation demand estimate",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0093",
+    "group": "water_irrigation",
+    "feature": "water budget",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0094",
+    "group": "water_irrigation",
+    "feature": "storage autonomy days",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0095",
+    "group": "water_irrigation",
+    "feature": "pump/pressure requirement",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0096",
+    "group": "water_irrigation",
+    "feature": "filter requirement",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0097",
+    "group": "water_irrigation",
+    "feature": "backflow/protection review",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0098",
+    "group": "water_irrigation",
+    "feature": "seasonal irrigation schedule",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0099",
+    "group": "water_irrigation",
+    "feature": "leak detection",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0100",
+    "group": "water_irrigation",
+    "feature": "manual override",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0101",
+    "group": "water_irrigation",
+    "feature": "water-quality suitability gate",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0102",
+    "group": "water_irrigation",
+    "feature": "edible-garden water-quality gate",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0103",
+    "group": "climate_comfort",
+    "feature": "tree shade simulation",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0104",
+    "group": "climate_comfort",
+    "feature": "courtyard shade hours",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0105",
+    "group": "climate_comfort",
+    "feature": "solar exposure map",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0106",
+    "group": "climate_comfort",
+    "feature": "hot-wind buffering",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0107",
+    "group": "climate_comfort",
+    "feature": "cool-breeze preservation",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0108",
+    "group": "climate_comfort",
+    "feature": "evapotranspiration cooling note",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0109",
+    "group": "climate_comfort",
+    "feature": "surface heat map",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0110",
+    "group": "climate_comfort",
+    "feature": "shaded queue areas",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0111",
+    "group": "climate_comfort",
+    "feature": "shaded outdoor prayer",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0112",
+    "group": "climate_comfort",
+    "feature": "shaded parking/walkway",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0113",
+    "group": "climate_comfort",
+    "feature": "heat refuge zone",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0114",
+    "group": "climate_comfort",
+    "feature": "rain shelter integration",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0115",
+    "group": "climate_comfort",
+    "feature": "dust/windbreak planting",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0116",
+    "group": "climate_comfort",
+    "feature": "nighttime garden lighting coordination",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0117",
+    "group": "climate_comfort",
+    "feature": "mosquito/stagnant-water risk review",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0118",
+    "group": "local_sourcing_landscape",
+    "feature": "local nursery finder",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0119",
+    "group": "local_sourcing_landscape",
+    "feature": "native plant supplier",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0120",
+    "group": "local_sourcing_landscape",
+    "feature": "local arborist",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0121",
+    "group": "local_sourcing_landscape",
+    "feature": "landscape contractor",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0122",
+    "group": "local_sourcing_landscape",
+    "feature": "irrigation installer",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0123",
+    "group": "local_sourcing_landscape",
+    "feature": "stone/paver supplier",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0124",
+    "group": "local_sourcing_landscape",
+    "feature": "compost/soil supplier",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0125",
+    "group": "local_sourcing_landscape",
+    "feature": "local timber/pergola craft",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0126",
+    "group": "local_sourcing_landscape",
+    "feature": "garden furniture craft",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0127",
+    "group": "local_sourcing_landscape",
+    "feature": "community-donated plants",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0128",
+    "group": "local_sourcing_landscape",
+    "feature": "waqf garden sponsorship",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0129",
+    "group": "local_sourcing_landscape",
+    "feature": "plant availability substitutions",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0130",
+    "group": "local_sourcing_landscape",
+    "feature": "seasonal procurement timing",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0131",
+    "group": "local_sourcing_landscape",
+    "feature": "local plant propagation",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0132",
+    "group": "local_sourcing_landscape",
+    "feature": "maintenance labor availability",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0133",
+    "group": "local_sourcing_landscape",
+    "feature": "replacement-stock confidence",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0134",
+    "group": "construction_landscape",
+    "feature": "landscape work package",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0135",
+    "group": "construction_landscape",
+    "feature": "soil testing",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0136",
+    "group": "construction_landscape",
+    "feature": "subgrade preparation",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0137",
+    "group": "construction_landscape",
+    "feature": "tree protection during construction",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0138",
+    "group": "construction_landscape",
+    "feature": "planting pit inspection",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0139",
+    "group": "construction_landscape",
+    "feature": "root barrier installation",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0140",
+    "group": "construction_landscape",
+    "feature": "irrigation pressure test",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0141",
+    "group": "construction_landscape",
+    "feature": "drip line inspection",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0142",
+    "group": "construction_landscape",
+    "feature": "waterproofing-before-green-wall hold point",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0143",
+    "group": "construction_landscape",
+    "feature": "drainage-before-planter closeout",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0144",
+    "group": "construction_landscape",
+    "feature": "plant delivery inspection",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0145",
+    "group": "construction_landscape",
+    "feature": "plant health acceptance",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0146",
+    "group": "construction_landscape",
+    "feature": "establishment period",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0147",
+    "group": "construction_landscape",
+    "feature": "watering establishment log",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0148",
+    "group": "construction_landscape",
+    "feature": "tree staking inspection",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0149",
+    "group": "construction_landscape",
+    "feature": "mulch depth check",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0150",
+    "group": "construction_landscape",
+    "feature": "permeable paving infiltration check",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0151",
+    "group": "construction_landscape",
+    "feature": "rain garden levels/inlets/outlets inspection",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0152",
+    "group": "construction_landscape",
+    "feature": "as-built irrigation plan",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0153",
+    "group": "construction_landscape",
+    "feature": "plant inventory handover",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0154",
+    "group": "operations_landscape",
+    "feature": "garden asset register",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0155",
+    "group": "operations_landscape",
+    "feature": "plant inventory",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0156",
+    "group": "operations_landscape",
+    "feature": "tree inventory",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0157",
+    "group": "operations_landscape",
+    "feature": "watering schedule",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0158",
+    "group": "operations_landscape",
+    "feature": "pruning schedule",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0159",
+    "group": "operations_landscape",
+    "feature": "fertilizer/soil amendment",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0160",
+    "group": "operations_landscape",
+    "feature": "pest/disease log",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0161",
+    "group": "operations_landscape",
+    "feature": "plant replacement",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0162",
+    "group": "operations_landscape",
+    "feature": "irrigation work orders",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0163",
+    "group": "operations_landscape",
+    "feature": "leak alerts",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0164",
+    "group": "operations_landscape",
+    "feature": "rain garden maintenance",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0165",
+    "group": "operations_landscape",
+    "feature": "green wall maintenance",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0166",
+    "group": "operations_landscape",
+    "feature": "roof garden maintenance",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0167",
+    "group": "operations_landscape",
+    "feature": "shade performance review",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0168",
+    "group": "operations_landscape",
+    "feature": "community gardening roster",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0169",
+    "group": "operations_landscape",
+    "feature": "harvest log",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0170",
+    "group": "operations_landscape",
+    "feature": "Ramadan garden reset",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0171",
+    "group": "operations_landscape",
+    "feature": "seasonal planting plan",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0172",
+    "group": "operations_landscape",
+    "feature": "landscape reserve budget",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0173",
+    "group": "operations_landscape",
+    "feature": "water-use dashboard",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0174",
+    "group": "design_integration",
+    "feature": "landscape in 3D editor",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0175",
+    "group": "design_integration",
+    "feature": "plant growth preview",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0176",
+    "group": "design_integration",
+    "feature": "year-1/year-5/year-15 views",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0177",
+    "group": "design_integration",
+    "feature": "seasonal render modes",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0178",
+    "group": "design_integration",
+    "feature": "plant shadows in render",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0179",
+    "group": "design_integration",
+    "feature": "garden-to-budget sync",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0180",
+    "group": "design_integration",
+    "feature": "garden-to-schedule sync",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0181",
+    "group": "design_integration",
+    "feature": "garden-to-procurement sync",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0182",
+    "group": "design_integration",
+    "feature": "garden-to-maintenance sync",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0183",
+    "group": "design_integration",
+    "feature": "natural-facade compatibility",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0184",
+    "group": "design_integration",
+    "feature": "product-plus-plant assemblies",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0185",
+    "group": "design_integration",
+    "feature": "landscape version compare",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0186",
+    "group": "design_integration",
+    "feature": "garden design presets",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0187",
+    "group": "design_integration",
+    "feature": "local style landscape palettes",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0188",
+    "group": "design_integration",
+    "feature": "public reusable garden design",
+    "status": "specified"
+  },
+  {
+    "id": "BIO-0189",
+    "group": "design_integration",
+    "feature": "before/after landscape renders",
+    "status": "specified"
+  }
+]

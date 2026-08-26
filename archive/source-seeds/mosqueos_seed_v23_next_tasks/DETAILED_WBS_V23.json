@@ -1,0 +1,125 @@
+[
+  {
+    "code": "01",
+    "name": "Preconstruction",
+    "children": [
+      "01.01 Surveys",
+      "01.02 Design coordination",
+      "01.03 Permits",
+      "01.04 Procurement planning",
+      "01.05 Site logistics"
+    ]
+  },
+  {
+    "code": "02",
+    "name": "Enabling",
+    "children": [
+      "02.01 Hoarding/security",
+      "02.02 Temporary power/water",
+      "02.03 Welfare/site office",
+      "02.04 Protection",
+      "02.05 Temporary worship"
+    ]
+  },
+  {
+    "code": "03",
+    "name": "Existing/Demolition",
+    "children": [
+      "03.01 Strip-out",
+      "03.02 Selective demolition",
+      "03.03 Salvage",
+      "03.04 Hazard investigation/actions"
+    ]
+  },
+  {
+    "code": "04",
+    "name": "Structure",
+    "children": [
+      "04.01 Foundations",
+      "04.02 Columns",
+      "04.03 Beams",
+      "04.04 Slabs",
+      "04.05 Structural modifications"
+    ]
+  },
+  {
+    "code": "05",
+    "name": "Envelope",
+    "children": [
+      "05.01 Roof",
+      "05.02 Waterproofing",
+      "05.03 Facade",
+      "05.04 Windows",
+      "05.05 External doors"
+    ]
+  },
+  {
+    "code": "06",
+    "name": "MEP",
+    "children": [
+      "06.01 Plumbing/drainage",
+      "06.02 Wudu systems",
+      "06.03 HVAC",
+      "06.04 Electrical",
+      "06.05 Fire/life safety",
+      "06.06 IT/security"
+    ]
+  },
+  {
+    "code": "07",
+    "name": "Interiors",
+    "children": [
+      "07.01 Partitions",
+      "07.02 Ceilings",
+      "07.03 Floor finishes",
+      "07.04 Wall finishes",
+      "07.05 Joinery"
+    ]
+  },
+  {
+    "code": "08",
+    "name": "Mosque Specialist",
+    "children": [
+      "08.01 Prayer carpet",
+      "08.02 Mihrab",
+      "08.03 Minbar",
+      "08.04 Quran/shoe storage",
+      "08.05 Calligraphy/pattern craft",
+      "08.06 Mosque audio"
+    ]
+  },
+  {
+    "code": "09",
+    "name": "Community/Madrasa",
+    "children": [
+      "09.01 Classrooms",
+      "09.02 Library",
+      "09.03 Kitchen",
+      "09.04 Nursery",
+      "09.05 Offices"
+    ]
+  },
+  {
+    "code": "10",
+    "name": "External",
+    "children": [
+      "10.01 Paving",
+      "10.02 Parking",
+      "10.03 Landscape",
+      "10.04 Gates/fences",
+      "10.05 Site lighting"
+    ]
+  },
+  {
+    "code": "11",
+    "name": "Testing/Handover",
+    "children": [
+      "11.01 Pre-functional",
+      "11.02 Functional",
+      "11.03 Integrated tests",
+      "11.04 Training",
+      "11.05 As-builts/O&M",
+      "11.06 Punch closeout"
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "index_fields": [
+    "vendor_id",
+    "product_id",
+    "category",
+    "country",
+    "city",
+    "lat",
+    "lng",
+    "ships_to",
+    "manufacturer_country",
+    "fabrication_country",
+    "verification",
+    "lead_time_days",
+    "price_snapshot",
+    "reference_mosques",
+    "installer_regions",
+    "sample_available",
+    "bim_3d_ready",
+    "last_verified"
+  ],
+  "filters": [
+    "radius",
+    "city",
+    "country",
+    "regional bloc",
+    "ships to site",
+    "technical fit",
+    "price observed",
+    "lead time",
+    "verified reference",
+    "installer",
+    "sample"
+  ],
+  "ranking": [
+    "technical fit",
+    "delivery feasibility",
+    "verification",
+    "lead time",
+    "landed cost",
+    "repairability",
+    "reference evidence",
+    "locality bonus"
+  ],
+  "fallback": [
+    "local",
+    "national",
+    "regional",
+    "international"
+  ],
+  "staleness": "price/lead-time/vendor availability retain observed dates and freshness badges"
+}

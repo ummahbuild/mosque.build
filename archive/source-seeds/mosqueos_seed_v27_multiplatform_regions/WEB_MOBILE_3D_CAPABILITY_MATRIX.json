@@ -1,0 +1,38 @@
+[
+  {
+    "capability": "professional mosque editor",
+    "web": "Babylon or Three/R3F adapter",
+    "mobile": "Filament viewer/light editing",
+    "shared": "domain geometry + commands"
+  },
+  {
+    "capability": "BIM/IFC",
+    "web": "That Open Fragments/web-ifc",
+    "mobile": "preprocessed GLB/Fragments-derived lightweight representations",
+    "shared": "IFC GUID/object mappings"
+  },
+  {
+    "capability": "maps/site",
+    "web": "MapLibre GL JS",
+    "mobile": "MapLibre Native/RN",
+    "shared": "GeoJSON/vector-tile styles"
+  },
+  {
+    "capability": "product 3D",
+    "web": "GLB via Babylon/Three",
+    "mobile": "GLB via Filament",
+    "shared": "glTF asset + product metadata"
+  },
+  {
+    "capability": "AR/site review",
+    "web": "optional WebXR adapter",
+    "mobile": "native AR adapter future",
+    "shared": "georeferenced/stable model coordinates"
+  },
+  {
+    "capability": "immersive simulation",
+    "web": "Babylon/Godot web optional",
+    "mobile": "Godot/native optional",
+    "shared": "exported scenario package"
+  }
+]

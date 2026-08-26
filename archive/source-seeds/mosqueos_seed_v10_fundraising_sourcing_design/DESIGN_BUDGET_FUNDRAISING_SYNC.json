@@ -1,0 +1,67 @@
+{
+  "events": [
+    {
+      "event": "design.baseline_changed",
+      "effects": [
+        "re-run quantity takeoff",
+        "create cost delta",
+        "flag campaign budget drift",
+        "flag permit-impact review",
+        "do not mutate published campaign silently"
+      ]
+    },
+    {
+      "event": "material.changed",
+      "effects": [
+        "cost delta",
+        "supplier/RFQ invalidation if applicable",
+        "lead-time update",
+        "maintenance delta",
+        "campaign component price review"
+      ]
+    },
+    {
+      "event": "cost.baseline.changed",
+      "effects": [
+        "funding gap recalculation",
+        "campaign disclosure review",
+        "board approval if threshold",
+        "cash-flow update"
+      ]
+    },
+    {
+      "event": "campaign.goal.changed",
+      "effects": [
+        "public campaign version",
+        "approval record",
+        "external channel sync where possible"
+      ]
+    },
+    {
+      "event": "donation.settled",
+      "effects": [
+        "fund balance",
+        "campaign progress",
+        "3D funded-object progress",
+        "receipt"
+      ]
+    },
+    {
+      "event": "component.ordered",
+      "effects": [
+        "3D procurement badge",
+        "cash commitment",
+        "supplier delivery monitor"
+      ]
+    },
+    {
+      "event": "component.installed",
+      "effects": [
+        "donor update candidate",
+        "construction progress",
+        "asset handover pre-record"
+      ]
+    }
+  ],
+  "public_change_policy": "Published donor pages show version history or 'budget updated' notice for material changes; no silent rewriting of historical claims."
+}

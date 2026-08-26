@@ -1,0 +1,94 @@
+{
+  "priority_levels": [
+    {
+      "level": "P0",
+      "name": "Immediate life safety",
+      "examples": [
+        "unstable structure",
+        "blocked/insufficient egress",
+        "active electrical hazard",
+        "gas hazard",
+        "critical fire system failure",
+        "severe unsafe occupancy condition"
+      ],
+      "rule": "Do not recommend occupancy until qualified professional/authority clearance."
+    },
+    {
+      "level": "P1",
+      "name": "Stop further building damage",
+      "examples": [
+        "active roof leak",
+        "failed flashing",
+        "major drainage failure",
+        "water ingress",
+        "sewer failure",
+        "dangerous facade element"
+      ]
+    },
+    {
+      "level": "P2",
+      "name": "Code/accessibility conversion",
+      "examples": [
+        "accessible route",
+        "fire doors",
+        "alarms",
+        "sprinklers where required",
+        "guardrails",
+        "stairs",
+        "toilet adaptation",
+        "occupancy upgrades"
+      ]
+    },
+    {
+      "level": "P3",
+      "name": "Core building services",
+      "examples": [
+        "HVAC",
+        "electrical distribution",
+        "plumbing",
+        "hot water",
+        "ventilation",
+        "lighting",
+        "network"
+      ]
+    },
+    {
+      "level": "P4",
+      "name": "Mosque functional fit-out",
+      "examples": [
+        "qibla wall",
+        "prayer floor",
+        "wudu",
+        "shoe storage",
+        "women/family spaces",
+        "audio",
+        "Quran storage"
+      ]
+    },
+    {
+      "level": "P5",
+      "name": "Program fit-out",
+      "examples": [
+        "madrasa",
+        "kitchen",
+        "library",
+        "youth",
+        "community rooms",
+        "offices"
+      ]
+    },
+    {
+      "level": "P6",
+      "name": "Aesthetic/craft enhancement",
+      "examples": [
+        "calligraphy",
+        "decorative tile",
+        "custom mihrab",
+        "chandelier",
+        "facade ornament",
+        "dome/minaret additions"
+      ]
+    }
+  ],
+  "principle": "Safety, weather-tightness, code compliance, and essential mosque function outrank decorative upgrades."
+}

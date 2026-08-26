@@ -1,0 +1,90 @@
+{
+  "supported_product_bindings": [
+    {
+      "category": "mosque carpet",
+      "binding": "surface/floor finish",
+      "quantity_driver": "net prayer floor area + waste",
+      "design_feedback": [
+        "pattern scale",
+        "saff alignment",
+        "material appearance"
+      ]
+    },
+    {
+      "category": "wudu station",
+      "binding": "fixture/object",
+      "quantity_driver": "explicit count",
+      "design_feedback": [
+        "spacing",
+        "queue capacity",
+        "plumbing point",
+        "drainage"
+      ]
+    },
+    {
+      "category": "chandelier",
+      "binding": "ceiling object",
+      "quantity_driver": "count",
+      "design_feedback": [
+        "diameter",
+        "drop",
+        "ceiling height",
+        "maintenance access",
+        "structural review"
+      ]
+    },
+    {
+      "category": "speaker",
+      "binding": "wall/ceiling/object",
+      "quantity_driver": "audio design",
+      "design_feedback": [
+        "coverage zones",
+        "mounting",
+        "cabling",
+        "acoustic review"
+      ]
+    },
+    {
+      "category": "mihrab/minbar",
+      "binding": "qibla wall object",
+      "quantity_driver": "count/size",
+      "design_feedback": [
+        "dimensions",
+        "clearances",
+        "style/material"
+      ]
+    },
+    {
+      "category": "door",
+      "binding": "opening",
+      "quantity_driver": "opening schedule",
+      "design_feedback": [
+        "width",
+        "rating",
+        "hardware",
+        "swing"
+      ]
+    },
+    {
+      "category": "donation kiosk",
+      "binding": "equipment object",
+      "quantity_driver": "count",
+      "design_feedback": [
+        "power/network",
+        "circulation",
+        "security"
+      ]
+    },
+    {
+      "category": "solar panel",
+      "binding": "roof/site array",
+      "quantity_driver": "kWp/roof area",
+      "design_feedback": [
+        "orientation",
+        "shading",
+        "electrical"
+      ]
+    }
+  ],
+  "design_to_procurement": "Every placed vendor product can be swapped back to a generic specification object so projects are not vendor-locked."
+}

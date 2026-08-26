@@ -1,0 +1,105 @@
+[
+  {
+    "id": "plant_arch_shade_tree",
+    "name": "Large shade tree archetype",
+    "use": [
+      "courtyard edge",
+      "parking",
+      "walkways"
+    ],
+    "requirements": [
+      "root room",
+      "mature-canopy clearance",
+      "structural/paving separation",
+      "local climate fit"
+    ]
+  },
+  {
+    "id": "plant_arch_small_tree",
+    "name": "Small ornamental/shade tree archetype",
+    "use": [
+      "courtyard",
+      "entry",
+      "small sites"
+    ],
+    "requirements": [
+      "root zone",
+      "visibility/security review"
+    ]
+  },
+  {
+    "id": "plant_arch_climber",
+    "name": "Trellis climber archetype",
+    "use": [
+      "pergola",
+      "facade screen"
+    ],
+    "requirements": [
+      "support",
+      "maintenance access",
+      "water",
+      "facade separation"
+    ]
+  },
+  {
+    "id": "plant_arch_groundcover",
+    "name": "Low groundcover archetype",
+    "use": [
+      "rain garden edge",
+      "courtyard beds"
+    ],
+    "requirements": [
+      "foot-traffic protection",
+      "irrigation/climate fit"
+    ]
+  },
+  {
+    "id": "plant_arch_rain_garden",
+    "name": "Bioretention plant archetype",
+    "use": [
+      "rain garden/bioswale"
+    ],
+    "requirements": [
+      "wet/dry tolerance",
+      "local native suitability",
+      "soil/hydrology design"
+    ]
+  },
+  {
+    "id": "plant_arch_edible",
+    "name": "Edible garden crop archetype",
+    "use": [
+      "community garden",
+      "madrasa garden"
+    ],
+    "requirements": [
+      "food-safe water source",
+      "maintenance/harvest plan"
+    ]
+  },
+  {
+    "id": "plant_arch_arid",
+    "name": "Low-water/arid planting archetype",
+    "use": [
+      "dry climate courtyard",
+      "edges"
+    ],
+    "requirements": [
+      "local/non-invasive suitability",
+      "thorn/toxicity review near children"
+    ]
+  },
+  {
+    "id": "plant_arch_screen",
+    "name": "Vegetated privacy screen archetype",
+    "use": [
+      "boundary",
+      "family garden",
+      "service screening"
+    ],
+    "requirements": [
+      "height/spread",
+      "security sightline review"
+    ]
+  }
+]

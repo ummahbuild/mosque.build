@@ -1,0 +1,584 @@
+[
+  {
+    "id": "ENG-001",
+    "group": "engineering_coordination",
+    "feature": "structural review issue map",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-002",
+    "group": "engineering_coordination",
+    "feature": "service penetration register",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-003",
+    "group": "engineering_coordination",
+    "feature": "equipment load/weight register",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-004",
+    "group": "engineering_coordination",
+    "feature": "maintenance access checker",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-005",
+    "group": "engineering_coordination",
+    "feature": "plant replacement-route checker",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-006",
+    "group": "engineering_coordination",
+    "feature": "MEP riser/shaft reservation",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-007",
+    "group": "engineering_coordination",
+    "feature": "ceiling coordination mode",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-008",
+    "group": "engineering_coordination",
+    "feature": "discipline visibility matrix",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-009",
+    "group": "engineering_coordination",
+    "feature": "design-assumption register",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-010",
+    "group": "engineering_coordination",
+    "feature": "engineering decision log",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-011",
+    "group": "engineering_coordination",
+    "feature": "professional approval registry",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-012",
+    "group": "engineering_coordination",
+    "feature": "calculation/document links",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-013",
+    "group": "structural_concept",
+    "feature": "structural system comparison",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-014",
+    "group": "structural_concept",
+    "feature": "concept grid generator",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-015",
+    "group": "structural_concept",
+    "feature": "span-risk flag",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-016",
+    "group": "structural_concept",
+    "feature": "column impact on saff",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-017",
+    "group": "structural_concept",
+    "feature": "dome support concept",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-018",
+    "group": "structural_concept",
+    "feature": "minaret foundation review task",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-019",
+    "group": "structural_concept",
+    "feature": "chandelier support point",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-020",
+    "group": "structural_concept",
+    "feature": "roof plant support zone",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-021",
+    "group": "structural_concept",
+    "feature": "existing structure investigation plan",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-022",
+    "group": "structural_concept",
+    "feature": "wall removal structural gate",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-023",
+    "group": "structural_concept",
+    "feature": "opening/penetration structural gate",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-024",
+    "group": "structural_concept",
+    "feature": "movement joint planner",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-025",
+    "group": "mep",
+    "feature": "wudu peak water scenario",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-026",
+    "group": "mep",
+    "feature": "water storage scenario",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-027",
+    "group": "mep",
+    "feature": "pump duty inputs",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-028",
+    "group": "mep",
+    "feature": "hot-water recovery scenario",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-029",
+    "group": "mep",
+    "feature": "drainage slope/access planner",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-030",
+    "group": "mep",
+    "feature": "HVAC occupancy scenes",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-031",
+    "group": "mep",
+    "feature": "fresh-air input register",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-032",
+    "group": "mep",
+    "feature": "HVAC zone editor",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-033",
+    "group": "mep",
+    "feature": "filter replacement access",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-034",
+    "group": "mep",
+    "feature": "electrical load schedule",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-035",
+    "group": "mep",
+    "feature": "critical power list",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-036",
+    "group": "mep",
+    "feature": "solar+battery scenario",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-037",
+    "group": "mep",
+    "feature": "lighting control scenes",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-038",
+    "group": "mep",
+    "feature": "panel/circuit object mapping",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-039",
+    "group": "mep",
+    "feature": "metering/submeter plan",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-040",
+    "group": "acoustics_av",
+    "feature": "speech intelligibility map",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-041",
+    "group": "acoustics_av",
+    "feature": "reverberation input model",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-042",
+    "group": "acoustics_av",
+    "feature": "speaker coverage zones",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-043",
+    "group": "acoustics_av",
+    "feature": "imam microphone redundancy",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-044",
+    "group": "acoustics_av",
+    "feature": "women/family audio zones",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-045",
+    "group": "acoustics_av",
+    "feature": "overflow audio timing",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-046",
+    "group": "acoustics_av",
+    "feature": "hearing assistance flag",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-047",
+    "group": "acoustics_av",
+    "feature": "external noise spill flag",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-048",
+    "group": "acoustics_av",
+    "feature": "AV rack heat/power",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-049",
+    "group": "acoustics_av",
+    "feature": "audio commissioning script",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-050",
+    "group": "local_sourcing",
+    "feature": "locality radius filter",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-051",
+    "group": "local_sourcing",
+    "feature": "country/regional sourcing ladder",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-052",
+    "group": "local_sourcing",
+    "feature": "reuse-first suggestion",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-053",
+    "group": "local_sourcing",
+    "feature": "repair-before-replace",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-054",
+    "group": "local_sourcing",
+    "feature": "local manufacturer finder",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-055",
+    "group": "local_sourcing",
+    "feature": "local craft finder",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-056",
+    "group": "local_sourcing",
+    "feature": "material-origin fields",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-057",
+    "group": "local_sourcing",
+    "feature": "fabrication-origin fields",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-058",
+    "group": "local_sourcing",
+    "feature": "local installer finder",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-059",
+    "group": "local_sourcing",
+    "feature": "local skill-risk score",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-060",
+    "group": "local_sourcing",
+    "feature": "import-vs-local landed compare",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-061",
+    "group": "local_sourcing",
+    "feature": "local-vs-import lead compare",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-062",
+    "group": "local_sourcing",
+    "feature": "repairability compare",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-063",
+    "group": "local_sourcing",
+    "feature": "sample/mockup workflow",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-064",
+    "group": "local_sourcing",
+    "feature": "local style/craft suggestions",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-065",
+    "group": "local_sourcing",
+    "feature": "regional material palette",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-066",
+    "group": "local_sourcing",
+    "feature": "craft-to-pattern fabrication mapping",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-067",
+    "group": "local_sourcing",
+    "feature": "local substitution request",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-068",
+    "group": "local_sourcing",
+    "feature": "local content dashboard",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-069",
+    "group": "local_sourcing",
+    "feature": "local economic value note",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-070",
+    "group": "construction_control",
+    "feature": "vendor prequalification",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-071",
+    "group": "construction_control",
+    "feature": "bid leveling",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-072",
+    "group": "construction_control",
+    "feature": "tender addenda",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-073",
+    "group": "construction_control",
+    "feature": "method statement workflow",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-074",
+    "group": "construction_control",
+    "feature": "pre-installation meeting",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-075",
+    "group": "construction_control",
+    "feature": "material receiving inspection",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-076",
+    "group": "construction_control",
+    "feature": "quarantine stock",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-077",
+    "group": "construction_control",
+    "feature": "site storage plan",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-078",
+    "group": "construction_control",
+    "feature": "construction package dashboard",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-079",
+    "group": "construction_control",
+    "feature": "lookahead constraints",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-080",
+    "group": "construction_control",
+    "feature": "daily plan/actual",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-081",
+    "group": "construction_control",
+    "feature": "crew/resource allocation",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-082",
+    "group": "construction_control",
+    "feature": "productivity observation",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-083",
+    "group": "construction_control",
+    "feature": "weather delay record",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-084",
+    "group": "construction_control",
+    "feature": "temporary works register",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-085",
+    "group": "construction_control",
+    "feature": "permit-to-work configurable workflow",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-086",
+    "group": "construction_control",
+    "feature": "construction issue register",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-087",
+    "group": "construction_control",
+    "feature": "RFI aging",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-088",
+    "group": "construction_control",
+    "feature": "submittal aging",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-089",
+    "group": "construction_control",
+    "feature": "NCR aging",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-090",
+    "group": "construction_control",
+    "feature": "change event register",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-091",
+    "group": "construction_control",
+    "feature": "earned progress snapshot",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-092",
+    "group": "construction_control",
+    "feature": "payment application",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-093",
+    "group": "construction_control",
+    "feature": "stored-material tracking",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-094",
+    "group": "construction_control",
+    "feature": "retainage tracking",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-095",
+    "group": "construction_control",
+    "feature": "commissioning readiness",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-096",
+    "group": "construction_control",
+    "feature": "handover completeness",
+    "status": "specified"
+  },
+  {
+    "id": "ENG-097",
+    "group": "construction_control",
+    "feature": "defects liability/warranty tracker",
+    "status": "specified"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "prefixes": {
+    "org": "org_",
+    "mosque": "mosq_",
+    "project": "proj_",
+    "scenario": "scen_",
+    "design_version": "dver_",
+    "object": "obj_",
+    "product": "prod_",
+    "vendor": "vend_",
+    "cart_item": "cart_",
+    "rfq": "rfq_",
+    "quote": "quote_",
+    "po": "po_",
+    "shipment": "ship_",
+    "inspection": "insp_",
+    "asset": "asset_"
+  },
+  "rules": [
+    "IDs immutable",
+    "display slugs mutable",
+    "provider IDs stored separately",
+    "never reuse IDs",
+    "forked designs preserve source lineage"
+  ]
+}

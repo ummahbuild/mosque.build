@@ -1,0 +1,114 @@
+{
+  "founding_core": [
+    {
+      "role": "CEO / Product Founder",
+      "mission": "Own product vision, mosque lifecycle model, partnerships, fundraising and product integration."
+    },
+    {
+      "role": "CTO / Principal Engineer",
+      "mission": "Own architecture, security, Supabase/Postgres, universal app strategy, APIs, ingestion and technical quality."
+    },
+    {
+      "role": "Head of Mosque Architecture",
+      "mission": "Licensed/experienced mosque architect who owns spatial standards, design review, typologies, drawing library and professional network."
+    },
+    {
+      "role": "Head of Mosque Operations",
+      "mission": "Experienced mosque executive director/facilities leader who owns staffing, cleaning, maintenance, Ramadan, programs and operational realism."
+    },
+    {
+      "role": "Head of Data & Knowledge Graph",
+      "mission": "Own mosque entity resolution, provenance, architecture taxonomy, sources, ingestion and editorial data quality."
+    },
+    {
+      "role": "Head of Growth / Partnerships",
+      "mission": "Own mosque admin, architect, supplier, university, heritage, foundation and software partnerships."
+    }
+  ],
+  "architecture_engineering": [
+    "Mosque architect / Islamic architecture specialist",
+    "Urban planner / land-use specialist",
+    "Structural engineer",
+    "MEP engineer",
+    "Fire/life-safety specialist",
+    "Accessibility / inclusive design consultant",
+    "Acoustics engineer",
+    "Lighting designer",
+    "Landscape architect",
+    "Quantity surveyor / construction cost estimator",
+    "Sustainability / building-performance engineer",
+    "Historic preservation architect",
+    "BIM/Revit specialist",
+    "Traditional-materials / earthen-building specialist",
+    "Mosque craft curator / calligraphy & decorative arts specialist"
+  ],
+  "finance_waqf": [
+    "Mosque capital-campaign strategist",
+    "Islamic finance / Sharia finance advisor",
+    "Waqf/endowment specialist",
+    "Nonprofit CFO/controller",
+    "Fund accounting specialist",
+    "Real-estate development finance specialist",
+    "Grant/foundation partnerships lead",
+    "Payment operations/reconciliation specialist",
+    "Insurance/risk advisor"
+  ],
+  "product_engineering": [
+    "Staff full-stack TypeScript engineer",
+    "Expo / React Native engineer",
+    "Web / SEO platform engineer",
+    "Three.js / React Three Fiber engineer",
+    "Computational geometry engineer",
+    "Postgres/PostGIS engineer",
+    "Supabase/RLS specialist",
+    "Data ingestion / ETL engineer",
+    "Search/relevance engineer",
+    "Payments engineer",
+    "DevOps/SRE engineer",
+    "Application security engineer",
+    "QA automation engineer",
+    "Accessibility engineer",
+    "Product designer",
+    "Design-system engineer"
+  ],
+  "mosque_operations_content": [
+    "Imam / religious content reviewer",
+    "Madrasa operator",
+    "Women’s-program lead",
+    "Youth-program specialist",
+    "Facilities manager",
+    "Cleaning operations specialist",
+    "Security/safeguarding advisor",
+    "Ramadan/iftar operations lead",
+    "Janazah operations advisor",
+    "Volunteer-management specialist",
+    "Mosque communications/admin specialist"
+  ],
+  "data_editorial": [
+    "Islamic architecture historian",
+    "Architect authority editor",
+    "Museum/collections editor",
+    "Rights & licensing researcher",
+    "Regional architecture researchers",
+    "Regulatory researchers",
+    "Supplier data researchers",
+    "Fact-checkers",
+    "Arabic/local-language editors",
+    "SEO/AEO content editor",
+    "Technical writer"
+  ],
+  "advisory_board": [
+    "Active mosque founder who completed a build",
+    "Experienced imam",
+    "Mosque executive director",
+    "Architect with multiple mosque projects",
+    "Construction executive",
+    "Waqf/endowment leader",
+    "Muslim philanthropist",
+    "Land-use attorney",
+    "Islamic finance scholar",
+    "Accessibility advocate",
+    "Heritage-conservation expert",
+    "Security/safeguarding expert"
+  ]
+}

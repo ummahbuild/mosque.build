@@ -1,0 +1,98 @@
+{
+  "launch_geography": [
+    "Nairobi",
+    "Kiambu",
+    "Mombasa",
+    "Machakos",
+    "Kajiado"
+  ],
+  "data_tracks": [
+    {
+      "track": "mosques",
+      "targets": [
+        "public mosque profiles",
+        "hours",
+        "Jumuah",
+        "facilities",
+        "claimable domains",
+        "photos/rights"
+      ]
+    },
+    {
+      "track": "vendors",
+      "targets": [
+        "carpet",
+        "wudu",
+        "audio",
+        "lighting",
+        "stone/tile",
+        "doors/windows",
+        "solar",
+        "security",
+        "landscape"
+      ]
+    },
+    {
+      "track": "construction",
+      "targets": [
+        "general contractors",
+        "MEP",
+        "joinery",
+        "steel",
+        "roofing",
+        "tile",
+        "landscape",
+        "irrigation"
+      ]
+    },
+    {
+      "track": "materials",
+      "targets": [
+        "cement",
+        "block",
+        "steel",
+        "timber",
+        "stone",
+        "tile",
+        "paint",
+        "roofing",
+        "glass",
+        "pavers"
+      ]
+    },
+    {
+      "track": "landscape",
+      "targets": [
+        "nurseries",
+        "native/local plant palettes",
+        "arborists",
+        "irrigation suppliers",
+        "soil/compost",
+        "pavers/stone"
+      ]
+    },
+    {
+      "track": "costs",
+      "targets": [
+        "unit rates",
+        "supplier quotes",
+        "public tender data where lawful",
+        "labor observations",
+        "delivery rates"
+      ]
+    },
+    {
+      "track": "regulatory",
+      "targets": [
+        "planning",
+        "change of use",
+        "fire",
+        "accessibility",
+        "environment/water",
+        "construction safety",
+        "business/nonprofit requirements"
+      ]
+    }
+  ],
+  "truth_rule": "targets and queues never count as verified records"
+}

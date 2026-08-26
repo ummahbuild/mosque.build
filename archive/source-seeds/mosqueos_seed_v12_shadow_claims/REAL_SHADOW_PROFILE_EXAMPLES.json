@@ -1,0 +1,149 @@
+[
+  {
+    "id": "shadow_wd_q85744953",
+    "name": "Baitur Rauf",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "claim_status": "shadow_unclaimed",
+    "verification_status": "source_backed_seed",
+    "sources": [
+      {
+        "type": "Wikidata",
+        "id": "Q85744953",
+        "url": "https://www.wikidata.org/wiki/Q85744953"
+      }
+    ],
+    "public_notice": "Unclaimed profile. Information is sourced from public records and may not reflect current mosque operations.",
+    "claim_methods": [
+      "dns_txt",
+      "dns_cname",
+      "html_meta",
+      "manual_documents"
+    ]
+  },
+  {
+    "id": "shadow_wd_q3115100",
+    "name": "Great Mosque of Niono",
+    "city": "Niono",
+    "country": "Mali",
+    "claim_status": "shadow_unclaimed",
+    "verification_status": "source_backed_seed",
+    "sources": [
+      {
+        "type": "Wikidata",
+        "id": "Q3115100",
+        "url": "https://www.wikidata.org/wiki/Q3115100"
+      }
+    ],
+    "seed_facts": {
+      "style": "Sudano-Sahelian architecture",
+      "coordinate_source": "Wikidata"
+    },
+    "public_notice": "Unclaimed profile. Historical/architectural facts remain independently sourced even after a claim."
+  },
+  {
+    "id": "shadow_wd_q3352688",
+    "name": "East London Mosque",
+    "city": "London",
+    "country": "United Kingdom",
+    "claim_status": "shadow_unclaimed",
+    "verification_status": "source_backed_seed",
+    "sources": [
+      {
+        "type": "Wikidata",
+        "id": "Q3352688",
+        "url": "https://www.wikidata.org/wiki/Q3352688"
+      }
+    ],
+    "public_notice": "Unclaimed example shadow profile for directory-system testing."
+  },
+  {
+    "id": "shadow_wd_q583299",
+    "name": "Islamic Center of Washington",
+    "city": "Washington, D.C.",
+    "country": "United States",
+    "claim_status": "shadow_unclaimed",
+    "verification_status": "source_backed_seed",
+    "sources": [
+      {
+        "type": "Wikidata",
+        "id": "Q583299",
+        "url": "https://www.wikidata.org/wiki/Q583299"
+      }
+    ],
+    "seed_facts": {
+      "architect": "Mario Rossi",
+      "style": "Mameluke Revival",
+      "archnet_site_id": "358"
+    },
+    "public_notice": "Unclaimed example shadow profile; architecture facts sourced independently."
+  },
+  {
+    "id": "shadow_wd_q136943228",
+    "name": "Baitur Raheem Mosque",
+    "city": "Cardiff",
+    "country": "Wales, United Kingdom",
+    "claim_status": "shadow_unclaimed",
+    "verification_status": "source_backed_seed",
+    "sources": [
+      {
+        "type": "Wikidata",
+        "id": "Q136943228",
+        "url": "https://www.wikidata.org/wiki/Q136943228"
+      }
+    ],
+    "provider_ids": {
+      "osm_relation": "19869353"
+    },
+    "public_notice": "Unclaimed example shadow profile."
+  },
+  {
+    "id": "shadow_wd_q4318635",
+    "name": "Great Mosque (Nizhny Novgorod)",
+    "city": "Nizhny Novgorod",
+    "country": "Russia",
+    "claim_status": "shadow_unclaimed",
+    "verification_status": "source_backed_seed",
+    "sources": [
+      {
+        "type": "Wikidata",
+        "id": "Q4318635",
+        "url": "https://www.wikidata.org/wiki/Q4318635"
+      }
+    ],
+    "public_notice": "Unclaimed example shadow profile."
+  },
+  {
+    "id": "shadow_wd_q56634367",
+    "name": "Baitur Rahman Mosque",
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "claim_status": "shadow_unclaimed",
+    "verification_status": "source_backed_seed",
+    "sources": [
+      {
+        "type": "Wikidata",
+        "id": "Q56634367",
+        "url": "https://www.wikidata.org/wiki/Q56634367"
+      }
+    ],
+    "public_notice": "Unclaimed example shadow profile."
+  },
+  {
+    "id": "shadow_wd_q486080",
+    "name": "Prophet's Mosque",
+    "city": "Medina",
+    "country": "Saudi Arabia",
+    "claim_status": "shadow_unclaimed",
+    "verification_status": "source_backed_seed_high_profile",
+    "sources": [
+      {
+        "type": "Wikidata",
+        "id": "Q486080",
+        "url": "https://www.wikidata.org/wiki/Q486080"
+      }
+    ],
+    "claim_policy": "always_manual_enhanced_review",
+    "public_notice": "High-profile/historic mosque example; automated ownership approval disabled."
+  }
+]

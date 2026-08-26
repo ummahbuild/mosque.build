@@ -1,0 +1,162 @@
+{
+  "disciplines": {
+    "structural": {
+      "features": [
+        "structural system selector",
+        "grid/bay planner",
+        "span feasibility ranges",
+        "concept load-path map",
+        "heavy equipment/chandelier support flags",
+        "roof/dome support zones",
+        "movement/expansion joint register",
+        "existing-structure investigation tasks",
+        "penetration/opening coordination",
+        "structural review gates"
+      ],
+      "outputs": [
+        "concept assumptions",
+        "review issues",
+        "engineer-required flags"
+      ]
+    },
+    "civil_site": {
+      "features": [
+        "site grading concept",
+        "stormwater routing",
+        "accessible external route",
+        "parking/arrival",
+        "fire/emergency access",
+        "delivery/service route",
+        "waste area",
+        "utility connection map",
+        "landscape drainage",
+        "future expansion reserve"
+      ]
+    },
+    "plumbing_water": {
+      "features": [
+        "fixture schedule",
+        "wudu simultaneous demand scenario",
+        "water storage sizing inputs",
+        "pump system requirements",
+        "hot-water demand",
+        "drainage fixture-unit abstraction",
+        "floor-drain map",
+        "cleanout/access map",
+        "water-reuse candidate flow",
+        "leak isolation zones"
+      ]
+    },
+    "hvac": {
+      "features": [
+        "occupancy/load scenarios",
+        "Jumuah peak mode",
+        "Fajr low-load mode",
+        "Ramadan evening mode",
+        "zoning",
+        "fresh-air requirement input",
+        "equipment room/access",
+        "filter/service clearance",
+        "thermal comfort scenario",
+        "natural ventilation candidate",
+        "humidity/condensation risk",
+        "controls scenes"
+      ]
+    },
+    "electrical": {
+      "features": [
+        "load schedule",
+        "panel hierarchy",
+        "critical load list",
+        "generator/battery scope",
+        "solar integration",
+        "lighting circuits",
+        "emergency lighting",
+        "donation/payment equipment circuits",
+        "AV dedicated power",
+        "surge/earthing requirements inputs",
+        "metering zones",
+        "future capacity reserve"
+      ]
+    },
+    "acoustics_av": {
+      "features": [
+        "speech intelligibility targets",
+        "reverberation target inputs",
+        "speaker zoning",
+        "imam microphone redundancy",
+        "women/family zone",
+        "overflow feed",
+        "hearing-assistance requirement flag",
+        "livestream routing",
+        "acoustic treatment map",
+        "noise spill review",
+        "commissioning test scenarios"
+      ]
+    },
+    "fire_life_safety": {
+      "features": [
+        "occupancy/use input",
+        "egress route candidates",
+        "exit width data model",
+        "travel-distance review input",
+        "fire compartment zones",
+        "alarm/detection zones",
+        "emergency lighting links",
+        "fire-door register",
+        "extinguisher/sprinkler asset planning",
+        "authority-review gate"
+      ],
+      "guardrail": "jurisdiction rules must come from verified local regulatory packs"
+    },
+    "accessibility": {
+      "features": [
+        "step-free route graph",
+        "door clearance data",
+        "ramp/lift links",
+        "accessible WC",
+        "accessible wudu",
+        "accessible prayer positions",
+        "hearing/visual communication",
+        "parking/dropoff",
+        "service counter/kiosk reach",
+        "maintenance of accessible routes"
+      ]
+    },
+    "envelope": {
+      "features": [
+        "roof/wall assembly selector",
+        "waterproofing continuity",
+        "thermal layer mapping",
+        "air leakage risk register",
+        "solar-shading devices",
+        "rainwater goods",
+        "maintenance access",
+        "replacement zones",
+        "local climate material filter"
+      ]
+    },
+    "sustainability_resilience": {
+      "features": [
+        "passive shading",
+        "natural ventilation potential",
+        "solar",
+        "battery",
+        "water storage",
+        "rainwater candidate",
+        "water-efficient wudu",
+        "local materials",
+        "repairability",
+        "heat resilience",
+        "flood resilience",
+        "utility outage scenarios"
+      ]
+    }
+  },
+  "coordination_rules": [
+    "Each discipline stores assumptions separately from verified project values.",
+    "Automated checks create issues/review flags, not professional approvals.",
+    "Named technical requirements can be checked through IDS/IFC workflows where the project uses openBIM.",
+    "Every engineering issue can link to objects, drawings, RFI, cost, schedule and responsible professional."
+  ]
+}

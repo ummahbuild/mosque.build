@@ -1,0 +1,3447 @@
+[
+  {
+    "id": "early_hypostyle",
+    "name": "Early Islamic Hypostyle",
+    "family": "historical_typology",
+    "regions": [
+      "Arabia",
+      "Levant",
+      "Iraq",
+      "North Africa"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "umayyad",
+    "name": "Umayyad",
+    "family": "dynastic",
+    "regions": [
+      "Levant",
+      "Arabia"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "abbasid",
+    "name": "Abbasid",
+    "family": "dynastic",
+    "regions": [
+      "Iraq",
+      "Iran",
+      "wider_caliphate"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "fatimid",
+    "name": "Fatimid",
+    "family": "dynastic",
+    "regions": [
+      "Egypt",
+      "North Africa"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "ayyubid",
+    "name": "Ayyubid",
+    "family": "dynastic",
+    "regions": [
+      "Egypt",
+      "Levant"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "mamluk_cairene",
+    "name": "Mamluk Cairene",
+    "family": "dynastic_regional",
+    "regions": [
+      "Egypt"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "seljuk_anatolian",
+    "name": "Anatolian Seljuk",
+    "family": "dynastic_regional",
+    "regions": [
+      "Türkiye"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "great_seljuk",
+    "name": "Great Seljuk / Iranian",
+    "family": "dynastic_regional",
+    "regions": [
+      "Iran",
+      "Central Asia"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "ilkhanid",
+    "name": "Ilkhanid",
+    "family": "dynastic",
+    "regions": [
+      "Iran"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "timurid",
+    "name": "Timurid",
+    "family": "dynastic",
+    "regions": [
+      "Central Asia",
+      "Iran"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "safavid",
+    "name": "Safavid",
+    "family": "dynastic",
+    "regions": [
+      "Iran"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "qajar",
+    "name": "Qajar",
+    "family": "dynastic",
+    "regions": [
+      "Iran"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "ottoman_classical",
+    "name": "Ottoman Classical",
+    "family": "dynastic",
+    "regions": [
+      "Türkiye",
+      "Balkans"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "ottoman_provincial",
+    "name": "Ottoman Provincial",
+    "family": "regional",
+    "regions": [
+      "Balkans",
+      "Levant",
+      "North Africa"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "balkan_vernacular",
+    "name": "Balkan Vernacular Mosque",
+    "family": "regional",
+    "regions": [
+      "Bosnia",
+      "Albania",
+      "Kosovo",
+      "North Macedonia"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "maghrebi",
+    "name": "Maghrebi",
+    "family": "regional",
+    "regions": [
+      "Morocco",
+      "Algeria",
+      "Tunisia"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "almoravid",
+    "name": "Almoravid",
+    "family": "dynastic",
+    "regions": [
+      "Morocco",
+      "Algeria",
+      "Iberia"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "almohad",
+    "name": "Almohad",
+    "family": "dynastic",
+    "regions": [
+      "Morocco",
+      "Iberia"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "andalusi",
+    "name": "Andalusi",
+    "family": "regional_historical",
+    "regions": [
+      "Spain",
+      "Portugal"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "nasrid",
+    "name": "Nasrid",
+    "family": "dynastic",
+    "regions": [
+      "Granada"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "sahelian",
+    "name": "Sudano-Sahelian",
+    "family": "regional",
+    "regions": [
+      "Mali",
+      "Niger",
+      "Burkina Faso"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "niger_valley",
+    "name": "Niger Valley Earthen Mosque",
+    "family": "regional",
+    "regions": [
+      "Mali",
+      "Niger"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "hausa",
+    "name": "Hausa Mosque",
+    "family": "regional",
+    "regions": [
+      "Nigeria",
+      "Niger"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "yoruba_muslim",
+    "name": "Yoruba Muslim Architecture",
+    "family": "regional",
+    "regions": [
+      "Nigeria",
+      "Benin"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "swahili_coral",
+    "name": "Swahili Coral-Stone Mosque",
+    "family": "regional",
+    "regions": [
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "Comoros"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "horn_islamic",
+    "name": "Horn of Africa Islamic",
+    "family": "regional",
+    "regions": [
+      "Somalia",
+      "Ethiopia",
+      "Djibouti",
+      "Eritrea"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "sudanese_nile",
+    "name": "Sudanese / Nile Valley Mosque",
+    "family": "regional",
+    "regions": [
+      "Sudan"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "cape_muslim",
+    "name": "Cape Muslim Mosque",
+    "family": "regional",
+    "regions": [
+      "South Africa"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "mughal",
+    "name": "Mughal",
+    "family": "dynastic",
+    "regions": [
+      "India",
+      "Pakistan",
+      "Bangladesh"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "sultanate_bengal",
+    "name": "Bengal Sultanate",
+    "family": "regional_historical",
+    "regions": [
+      "Bangladesh",
+      "India"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "bengali_vernacular",
+    "name": "Bengali Vernacular Mosque",
+    "family": "regional",
+    "regions": [
+      "Bangladesh",
+      "India"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "deccani",
+    "name": "Deccani Sultanate",
+    "family": "regional_historical",
+    "regions": [
+      "India"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "kashmiri_timber",
+    "name": "Kashmiri Timber Mosque",
+    "family": "regional",
+    "regions": [
+      "Kashmir"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "sindhi",
+    "name": "Sindhi Mosque",
+    "family": "regional",
+    "regions": [
+      "Pakistan",
+      "India"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "gujarati",
+    "name": "Gujarati Mosque",
+    "family": "regional",
+    "regions": [
+      "India"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "malabar",
+    "name": "Malabar / Kerala Mosque",
+    "family": "regional",
+    "regions": [
+      "India"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "central_asian",
+    "name": "Central Asian",
+    "family": "regional",
+    "regions": [
+      "Uzbekistan",
+      "Kazakhstan",
+      "Kyrgyzstan",
+      "Tajikistan",
+      "Turkmenistan"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "tatar",
+    "name": "Tatar Mosque",
+    "family": "regional",
+    "regions": [
+      "Russia",
+      "Tatarstan"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "crimean_tatar",
+    "name": "Crimean Tatar Mosque",
+    "family": "regional",
+    "regions": [
+      "Crimea"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "uyghur",
+    "name": "Uyghur Mosque",
+    "family": "regional",
+    "regions": [
+      "Xinjiang"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "chinese_hui",
+    "name": "Chinese Hui Mosque",
+    "family": "regional",
+    "regions": [
+      "China"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "chinese_sinitic",
+    "name": "Sinitic Mosque",
+    "family": "regional",
+    "regions": [
+      "China"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "javanese",
+    "name": "Javanese Tiered-Roof Mosque",
+    "family": "regional",
+    "regions": [
+      "Indonesia"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "minangkabau",
+    "name": "Minangkabau Mosque",
+    "family": "regional",
+    "regions": [
+      "Indonesia"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "sundanese",
+    "name": "Sundanese Mosque",
+    "family": "regional",
+    "regions": [
+      "Indonesia"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "malay",
+    "name": "Malay Mosque",
+    "family": "regional",
+    "regions": [
+      "Malaysia",
+      "Singapore",
+      "Brunei"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "acehnese",
+    "name": "Acehnese Mosque",
+    "family": "regional",
+    "regions": [
+      "Indonesia"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "thai_muslim",
+    "name": "Thai Muslim Mosque",
+    "family": "regional",
+    "regions": [
+      "Thailand"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "filipino_moro",
+    "name": "Moro Mosque",
+    "family": "regional",
+    "regions": [
+      "Philippines"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "cham",
+    "name": "Cham Mosque",
+    "family": "regional",
+    "regions": [
+      "Vietnam",
+      "Cambodia"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "central_asian_soviet_modern",
+    "name": "Central Asian Modern / Post-Soviet",
+    "family": "modern_regional",
+    "regions": [
+      "Central Asia"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "gulf_contemporary",
+    "name": "Gulf Contemporary",
+    "family": "contemporary",
+    "regions": [
+      "Gulf"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "najdi",
+    "name": "Najdi Mosque",
+    "family": "regional",
+    "regions": [
+      "Saudi Arabia"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "hejazi",
+    "name": "Hejazi Mosque",
+    "family": "regional",
+    "regions": [
+      "Saudi Arabia"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "hadhrami",
+    "name": "Hadhrami Mosque",
+    "family": "regional",
+    "regions": [
+      "Yemen",
+      "Indian Ocean diaspora"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "yemeni_mud_brick",
+    "name": "Yemeni Mud-Brick Mosque",
+    "family": "regional",
+    "regions": [
+      "Yemen"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "oman_coastal",
+    "name": "Omani Mosque",
+    "family": "regional",
+    "regions": [
+      "Oman",
+      "East Africa"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "levantine_urban",
+    "name": "Levantine Urban Mosque",
+    "family": "regional",
+    "regions": [
+      "Syria",
+      "Lebanon",
+      "Palestine",
+      "Jordan"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "north_american_contemporary",
+    "name": "North American Contemporary Mosque",
+    "family": "contemporary",
+    "regions": [
+      "United States",
+      "Canada"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "european_contemporary",
+    "name": "European Contemporary Mosque",
+    "family": "contemporary",
+    "regions": [
+      "Europe"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "australasian_contemporary",
+    "name": "Australasian Contemporary Mosque",
+    "family": "contemporary",
+    "regions": [
+      "Australia",
+      "New Zealand"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "latin_american_contemporary",
+    "name": "Latin American Contemporary Mosque",
+    "family": "contemporary",
+    "regions": [
+      "Latin America"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "adaptive_reuse",
+    "name": "Adaptive Reuse Mosque",
+    "family": "building_strategy",
+    "regions": [
+      "global"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "storefront_musalla",
+    "name": "Storefront Musalla",
+    "family": "building_strategy",
+    "regions": [
+      "global"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "warehouse_conversion",
+    "name": "Warehouse Conversion Mosque",
+    "family": "building_strategy",
+    "regions": [
+      "global"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "house_conversion",
+    "name": "House Conversion Mosque",
+    "family": "building_strategy",
+    "regions": [
+      "global"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "church_conversion",
+    "name": "Former Church Conversion Mosque",
+    "family": "building_strategy",
+    "regions": [
+      "global"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "school_conversion",
+    "name": "School Conversion Islamic Center",
+    "family": "building_strategy",
+    "regions": [
+      "global"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "industrial_conversion",
+    "name": "Industrial Building Conversion Mosque",
+    "family": "building_strategy",
+    "regions": [
+      "global"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "minimal_contemporary",
+    "name": "Minimal Contemporary Mosque",
+    "family": "contemporary",
+    "regions": [
+      "global"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "brick_contemporary",
+    "name": "Contemporary Brick Mosque",
+    "family": "contemporary",
+    "regions": [
+      "global"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "earthen_contemporary",
+    "name": "Contemporary Earthen Mosque",
+    "family": "contemporary",
+    "regions": [
+      "global"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "timber_contemporary",
+    "name": "Contemporary Timber Mosque",
+    "family": "contemporary",
+    "regions": [
+      "global"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "passive_tropical",
+    "name": "Passive Tropical Mosque",
+    "family": "climate_typology",
+    "regions": [
+      "tropical"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "desert_passive",
+    "name": "Passive Desert Mosque",
+    "family": "climate_typology",
+    "regions": [
+      "hot_arid"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "cold_climate",
+    "name": "Cold-Climate Mosque",
+    "family": "climate_typology",
+    "regions": [
+      "cold"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "flood_resilient",
+    "name": "Flood-Resilient Mosque",
+    "family": "resilience_typology",
+    "regions": [
+      "flood_prone"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "urban_infill",
+    "name": "Urban Infill Mosque",
+    "family": "site_typology",
+    "regions": [
+      "dense_city"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "campus_mosque",
+    "name": "Campus / University Mosque",
+    "family": "program_typology",
+    "regions": [
+      "global"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "airport_musalla",
+    "name": "Airport / Transit Musalla",
+    "family": "program_typology",
+    "regions": [
+      "global"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "workplace_musalla",
+    "name": "Workplace Musalla",
+    "family": "program_typology",
+    "regions": [
+      "global"
+    ],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "early_arabian_courtyard_mosque",
+    "name": "Early Arabian Courtyard Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "medinan_courtyard_typology",
+    "name": "Medinan Courtyard Typology",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "kufa_hypostyle_typology",
+    "name": "Kufa Hypostyle Typology",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "samarra_monumental_mosque",
+    "name": "Samarra Monumental Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "mesopotamian_brick_mosque",
+    "name": "Mesopotamian Brick Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "cairene_fatimid_mosque",
+    "name": "Cairene Fatimid Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "cairene_mamluk_madrasa_mosque",
+    "name": "Cairene Mamluk Madrasa-Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "syrian_mamluk_mosque",
+    "name": "Syrian Mamluk Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "damascene_courtyard_mosque",
+    "name": "Damascene Courtyard Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "aleppine_mosque",
+    "name": "Aleppine Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "jerusalem_mamluk_religious_architecture",
+    "name": "Jerusalem Mamluk Religious Architecture",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "hijazi_coastal_mosque",
+    "name": "Hijazi Coastal Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "red_sea_coral_stone_mosque",
+    "name": "Red Sea Coral-Stone Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "najdi_mud_brick_mosque",
+    "name": "Najdi Mud-Brick Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "asir_vernacular_mosque",
+    "name": "Asir Vernacular Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "hadhrami_valley_mosque",
+    "name": "Hadhrami Valley Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "yemeni_highlands_mosque",
+    "name": "Yemeni Highlands Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "zabid_mosque_tradition",
+    "name": "Zabid Mosque Tradition",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "omani_ibadi_mosque",
+    "name": "Omani Ibadi Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "omani_coastal_mosque",
+    "name": "Omani Coastal Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "swahili_lamu_mosque",
+    "name": "Swahili Lamu Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "swahili_zanzibar_mosque",
+    "name": "Swahili Zanzibar Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "swahili_kilwa_mosque",
+    "name": "Swahili Kilwa Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "comorian_mosque",
+    "name": "Comorian Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "somali_coastal_mosque",
+    "name": "Somali Coastal Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "harari_mosque",
+    "name": "Harari Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "ethiopian_muslim_vernacular",
+    "name": "Ethiopian Muslim Vernacular",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "eritrean_red_sea_mosque",
+    "name": "Eritrean Red Sea Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "sudanese_mahdist_mosque",
+    "name": "Sudanese Mahdist Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "nubian_mosque",
+    "name": "Nubian Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "sahel_adobe_mosque",
+    "name": "Sahel Adobe Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "malian_monumental_earthen_mosque",
+    "name": "Malian Monumental Earthen Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "niger_earthen_mosque",
+    "name": "Niger Earthen Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "northern_ghana_mosque",
+    "name": "Northern Ghana Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "northern_c_te_d_ivoire_sudanese_style_mosque",
+    "name": "Northern Côte d'Ivoire Sudanese-Style Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "burkina_faso_earthen_mosque",
+    "name": "Burkina Faso Earthen Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "senegalese_sufi_mosque",
+    "name": "Senegalese Sufi Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "gambian_mosque",
+    "name": "Gambian Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "futa_jallon_mosque",
+    "name": "Futa Jallon Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "hausa_palace_mosque",
+    "name": "Hausa Palace-Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "yoruba_afro_brazilian_mosque",
+    "name": "Yoruba Afro-Brazilian Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "coastal_west_african_mosque",
+    "name": "Coastal West African Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "maghrebi_almoravid_mosque",
+    "name": "Maghrebi Almoravid Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "maghrebi_almohad_mosque",
+    "name": "Maghrebi Almohad Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "marinid_mosque",
+    "name": "Marinid Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "saadian_mosque",
+    "name": "Saadian Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "alaouite_moroccan_mosque",
+    "name": "Alaouite Moroccan Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "algerian_ottoman_maghrebi_mosque",
+    "name": "Algerian Ottoman-Maghrebi Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "tunisian_hafsid_mosque",
+    "name": "Tunisian Hafsid Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "tunisian_ottoman_mosque",
+    "name": "Tunisian Ottoman Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "libyan_coastal_mosque",
+    "name": "Libyan Coastal Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "andalusi_cordoban_hypostyle",
+    "name": "Andalusi Cordoban Hypostyle",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "andalusi_almohad",
+    "name": "Andalusi Almohad",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "mud_jar_mosque_legacy",
+    "name": "Mudéjar Mosque Legacy",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "ottoman_sinan_central_dome_mosque",
+    "name": "Ottoman Sinan Central-Dome Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "early_ottoman_bursa_type_mosque",
+    "name": "Early Ottoman Bursa-Type Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "ottoman_multi_dome_mosque",
+    "name": "Ottoman Multi-Dome Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "ottoman_wooden_mosque",
+    "name": "Ottoman Wooden Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "bosnian_timber_minaret_mosque",
+    "name": "Bosnian Timber-Minaret Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "albanian_ottoman_mosque",
+    "name": "Albanian Ottoman Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "kosovar_ottoman_mosque",
+    "name": "Kosovar Ottoman Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "macedonian_ottoman_mosque",
+    "name": "Macedonian Ottoman Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "greek_ottoman_mosque",
+    "name": "Greek Ottoman Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "crimean_tatar_timber_mosque",
+    "name": "Crimean Tatar Timber Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "volga_tatar_mosque",
+    "name": "Volga Tatar Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "caucasian_mosque",
+    "name": "Caucasian Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "azerbaijani_mosque",
+    "name": "Azerbaijani Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "georgian_muslim_mosque",
+    "name": "Georgian Muslim Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "persian_four_iwan_mosque",
+    "name": "Persian Four-Iwan Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "persian_two_iwan_mosque",
+    "name": "Persian Two-Iwan Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "khorasani_mosque",
+    "name": "Khorasani Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "isfahani_safavid_mosque",
+    "name": "Isfahani Safavid Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "qajar_tilework_mosque",
+    "name": "Qajar Tilework Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "ilkhanid_brick_mosque",
+    "name": "Ilkhanid Brick Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "timurid_monumental_mosque",
+    "name": "Timurid Monumental Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "bukharan_mosque",
+    "name": "Bukharan Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "khivan_mosque",
+    "name": "Khivan Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "samarkand_mosque",
+    "name": "Samarkand Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "ferghana_valley_mosque",
+    "name": "Ferghana Valley Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "kazakh_steppe_mosque",
+    "name": "Kazakh Steppe Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "kyrgyz_mosque",
+    "name": "Kyrgyz Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "tajik_mosque",
+    "name": "Tajik Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "turkmen_mosque",
+    "name": "Turkmen Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "afghan_timurid_mosque",
+    "name": "Afghan Timurid Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "afghan_vernacular_mosque",
+    "name": "Afghan Vernacular Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "herat_mosque_tradition",
+    "name": "Herat Mosque Tradition",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "mughal_imperial_mosque",
+    "name": "Mughal Imperial Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "mughal_provincial_mosque",
+    "name": "Mughal Provincial Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  },
+  {
+    "id": "delhi_sultanate_mosque",
+    "name": "Delhi Sultanate Mosque",
+    "family": "expanded_taxonomy_seed",
+    "regions": [],
+    "canonical_fields": {
+      "plan_types": [],
+      "structural_systems": [],
+      "materials": [],
+      "roof_forms": [],
+      "minaret_forms": [],
+      "ornament": [],
+      "climate_responses": [],
+      "canonical_examples": [],
+      "techniques": []
+    },
+    "content_status": "taxonomy_seed",
+    "requires_expert_review": true
+  }
+]

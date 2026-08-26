@@ -1,0 +1,44 @@
+{
+  "submittal_statuses": [
+    "draft",
+    "submitted",
+    "under_review",
+    "revise_resubmit",
+    "approved",
+    "approved_with_comments",
+    "rejected",
+    "superseded"
+  ],
+  "RFI_statuses": [
+    "draft",
+    "open",
+    "answered",
+    "closed",
+    "void"
+  ],
+  "NCR_statuses": [
+    "open",
+    "contained",
+    "corrective_action",
+    "reinspection",
+    "closed"
+  ],
+  "package_statuses": [
+    "draft",
+    "tender",
+    "awarded",
+    "mobilizing",
+    "active",
+    "substantial_complete",
+    "closed"
+  ],
+  "commissioning_statuses": [
+    "planned",
+    "ready",
+    "blocked",
+    "testing",
+    "failed",
+    "passed",
+    "accepted_with_exception"
+  ]
+}

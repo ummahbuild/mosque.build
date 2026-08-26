@@ -1,0 +1,55 @@
+{
+  "project": [
+    "executive project report",
+    "monthly cost report",
+    "cash flow",
+    "schedule report",
+    "risk report",
+    "procurement report",
+    "quality report",
+    "permit report",
+    "fundraising vs build progress"
+  ],
+  "construction": [
+    "daily report summary",
+    "weekly site report",
+    "monthly progress certificate support",
+    "RFI aging",
+    "submittal aging",
+    "inspection report",
+    "change log",
+    "photo progress"
+  ],
+  "handover": [
+    "handover completeness",
+    "asset register",
+    "warranty schedule",
+    "training completion",
+    "commissioning report",
+    "open defects"
+  ],
+  "operations": [
+    "monthly facilities report",
+    "annual maintenance report",
+    "utility report",
+    "Ramadan report",
+    "program utilization",
+    "staff/volunteer hours",
+    "annual mosque report"
+  ],
+  "public_transparency": [
+    "capital raised/spent summary",
+    "project milestones",
+    "approved public photos",
+    "funded components",
+    "opening readiness summary"
+  ],
+  "export_formats": [
+    "PDF",
+    "CSV",
+    "JSON",
+    "XLSX future",
+    "ICS for calendar items",
+    "IFC/BCF/IDS where applicable"
+  ]
+}

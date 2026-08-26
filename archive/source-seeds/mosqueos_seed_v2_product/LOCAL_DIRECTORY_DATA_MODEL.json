@@ -1,0 +1,64 @@
+{
+  "provider_strategy": {
+    "canonical_record": "internal mosque.build mosque entity",
+    "providers": [
+      "Google Places",
+      "OpenStreetMap",
+      "Wikidata",
+      "mosque-claimed profile",
+      "official website/social"
+    ],
+    "merge_rule": "Never overwrite a claimed/official fact silently; preserve field-level provenance and conflict state."
+  },
+  "hours_model": {
+    "fields": [
+      "regular_hours",
+      "current_opening_hours",
+      "special_hours",
+      "ramadan_hours",
+      "office_hours",
+      "prayer_access_hours",
+      "fetched_at",
+      "provider",
+      "provider_place_id",
+      "confidence"
+    ],
+    "warning": "A mosque can be physically accessible around prayer times while office hours differ. Do not equate business opening hours with guaranteed prayer-hall access."
+  },
+  "prayer_time_model": {
+    "calculated": [
+      "fajr",
+      "sunrise",
+      "dhuhr",
+      "asr",
+      "maghrib",
+      "isha"
+    ],
+    "published_by_mosque": [
+      "adhan",
+      "iqama",
+      "jumuah_1",
+      "jumuah_2",
+      "taraweeh",
+      "eid"
+    ],
+    "rule": "Calculated astronomical times and mosque-published congregation times are separate entities."
+  },
+  "claim_flow": [
+    "search mosque",
+    "select profile",
+    "request claim",
+    "verify domain/email/phone/document/manual evidence",
+    "admin review if needed",
+    "grant scoped role",
+    "audit changes"
+  ],
+  "edit_flow": [
+    "suggest edit",
+    "source/evidence optional",
+    "moderation",
+    "field-level approval",
+    "change history",
+    "notify claimed admin"
+  ]
+}

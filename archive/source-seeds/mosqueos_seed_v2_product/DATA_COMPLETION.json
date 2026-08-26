@@ -1,0 +1,36 @@
+{
+  "targets": {
+    "mosques_verified": 5000,
+    "people_verified": 500,
+    "styles_reviewed": 150,
+    "drawings_indexed": 1500,
+    "real_videos_verified": 500,
+    "component_classes_reviewed": 2000,
+    "suppliers_products_verified": 10000,
+    "techniques_reviewed": 500,
+    "adaptive_reuse_cases": 100,
+    "funding_cases": 100,
+    "waqf_cases": 100,
+    "operations_cases": 100,
+    "regulatory_country_packs": "all launch countries; then global shells with explicit incomplete state",
+    "museum_examples": 5000
+  },
+  "record_completeness_levels": {
+    "L0_candidate": "identifier/source URL only",
+    "L1_directory": "name/location/source/status",
+    "L2_enriched": "core profile + facilities + hours/prayer-time provenance",
+    "L3_architecture": "architect/style/material/date/component links",
+    "L4_documented": "drawings/video/primary sources",
+    "L5_reviewed": "editorial+rights+expert review complete"
+  },
+  "publish_rules": [
+    "L0 never public except internal research UI",
+    "L1 may appear in directory with 'limited information' label",
+    "Hours must show source and freshness if displayed",
+    "Prayer/iqama times must distinguish calculated prayer times from mosque-published congregation times",
+    "Architecture facts require L3 provenance",
+    "Downloadable drawings require explicit rights status",
+    "Legal/regulatory rules require official source and review date",
+    "Financial case studies must distinguish public filed data from estimates"
+  ]
+}

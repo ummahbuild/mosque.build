@@ -1,0 +1,47 @@
+{
+  "stage_0_0_to_6_people": [
+    "CEO/Product Founder",
+    "CTO/Principal Engineer",
+    "Head of Mosque Architecture",
+    "Senior Full-Stack/Expo Engineer",
+    "Product Designer",
+    "Data/Content Lead"
+  ],
+  "stage_1_7_to_15": [
+    "Three.js/Geometry Engineer",
+    "Postgres/Supabase Engineer",
+    "Mosque Operations Lead",
+    "Quantity Surveyor/Cost Data Lead",
+    "Growth/Partnerships Lead",
+    "Data Ingestion Engineer",
+    "SEO/AEO Engineer",
+    "QA Automation",
+    "Islamic Architecture Editor"
+  ],
+  "stage_2_16_to_30": [
+    "Mobile Engineer",
+    "Payments Engineer",
+    "Regulatory Data Lead",
+    "Waqf/Finance Product Lead",
+    "Facilities/Maintenance Product Lead",
+    "Security Engineer",
+    "Accessibility Specialist",
+    "Supplier Marketplace Lead",
+    "Rights/Licensing Editor",
+    "Regional Researchers",
+    "Customer Success for Mosque Admins",
+    "Developer Relations/API Partnerships"
+  ],
+  "fractional_advisors_initially": [
+    "Land-use attorney",
+    "Islamic finance scholar",
+    "Structural engineer",
+    "MEP/fire engineer",
+    "Acoustics consultant",
+    "Accessibility consultant",
+    "Waqf expert",
+    "Mosque executive director",
+    "Ramadan operations expert",
+    "Heritage conservator"
+  ]
+}

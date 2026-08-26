@@ -1,0 +1,78 @@
+[
+  {
+    "id": "src_iebc_2024",
+    "name": "2024 International Existing Building Code",
+    "url": "https://codes.iccsafe.org/content/IEBC2024V1.0/preface",
+    "jurisdiction": "model_code_not_automatically_adopted",
+    "topics": [
+      "repair",
+      "alteration",
+      "addition",
+      "change_of_occupancy",
+      "historic_buildings"
+    ],
+    "status": "verified_reference",
+    "note": "Use only where adopted/referenced by the applicable jurisdiction; local amendments control."
+  },
+  {
+    "id": "src_ibc_2024_occupancy",
+    "name": "2024 International Building Code — Occupancy Classification",
+    "url": "https://codes.iccsafe.org/content/IBC2024P1/chapter-3-occupancy-classification-and-use",
+    "jurisdiction": "model_code_not_automatically_adopted",
+    "topics": [
+      "occupancy_classification",
+      "use",
+      "risk"
+    ],
+    "status": "verified_reference"
+  },
+  {
+    "id": "src_ada_2010",
+    "name": "2010 ADA Standards for Accessible Design",
+    "url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+    "jurisdiction": "United States",
+    "topics": [
+      "accessibility",
+      "alterations",
+      "public_accommodations"
+    ],
+    "status": "verified_reference"
+  },
+  {
+    "id": "src_england_change_use",
+    "name": "Planning Portal — Change of Use",
+    "url": "https://www.planningportal.co.uk/permission/common-projects/change-of-use/planning-permission",
+    "jurisdiction": "England",
+    "topics": [
+      "planning_permission",
+      "change_of_use"
+    ],
+    "status": "verified_reference"
+  },
+  {
+    "id": "src_kenya_nbc_2024",
+    "name": "Kenya National Building Code 2024",
+    "url": "https://www.nca.go.ke/building-code",
+    "jurisdiction": "Kenya",
+    "topics": [
+      "building_code",
+      "construction",
+      "existing_buildings",
+      "materials",
+      "layouts"
+    ],
+    "status": "verified_reference"
+  },
+  {
+    "id": "src_kenya_planning_regs",
+    "name": "Kenya Physical and Land Use Planning (General Development Permission and Control) Regulations 2021",
+    "url": "https://new.kenyalaw.org/akn/ke/act/ln/2021/253/eng%402021-12-10",
+    "jurisdiction": "Kenya",
+    "topics": [
+      "building_plan_approval",
+      "planning_authority",
+      "development_permission"
+    ],
+    "status": "verified_reference"
+  }
+]

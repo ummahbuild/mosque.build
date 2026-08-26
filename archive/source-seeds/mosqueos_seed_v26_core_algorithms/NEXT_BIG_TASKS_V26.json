@@ -1,0 +1,62 @@
+[
+  {
+    "rank": 1,
+    "task": "Replace DFS cycle extraction with robust planar half-edge face traversal",
+    "status": "next"
+  },
+  {
+    "rank": 2,
+    "task": "Add polygon clipping/boolean library or robust implementation for non-convex room/saff operations",
+    "status": "next"
+  },
+  {
+    "rank": 3,
+    "task": "Model door swings and columns as explicit exclusion polygons in editor state",
+    "status": "next"
+  },
+  {
+    "rank": 4,
+    "task": "Wire executable takeoff rules to all v19/v24 assemblies",
+    "status": "next"
+  },
+  {
+    "rank": 5,
+    "task": "Create real rate-book schema with dated regional observations",
+    "status": "next"
+  },
+  {
+    "rank": 6,
+    "task": "Implement project estimate versions and scenario deltas",
+    "status": "next"
+  },
+  {
+    "rank": 7,
+    "task": "Run RLS policies against a disposable Supabase/Postgres test database",
+    "status": "next"
+  },
+  {
+    "rank": 8,
+    "task": "Implement locality-aware vendor search over factual vendor/product seeds",
+    "status": "next"
+  },
+  {
+    "rank": 9,
+    "task": "Seed Nairobi/Kenya material/labor/vendor/plant data with current primary sources",
+    "status": "next"
+  },
+  {
+    "rank": 10,
+    "task": "Implement construction package/submittal/ITP CRUD in real app",
+    "status": "next"
+  },
+  {
+    "rank": 11,
+    "task": "Implement landscape editor objects in Three.js",
+    "status": "next"
+  },
+  {
+    "rank": 12,
+    "task": "Implement end-to-end demo in actual monorepo shell",
+    "status": "next"
+  }
+]

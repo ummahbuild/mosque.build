@@ -1,0 +1,573 @@
+[
+  {
+    "id": "ITP-001",
+    "template_key": "survey_setout",
+    "name": "Survey / setting out",
+    "stage": "before work",
+    "checks": [
+      "benchmarks/datum",
+      "grid/setout",
+      "qibla reference if used"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-002",
+    "template_key": "excavation",
+    "name": "Excavation",
+    "stage": "during work",
+    "checks": [
+      "location/depth",
+      "services",
+      "ground condition",
+      "safe access/protection"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-003",
+    "template_key": "reinforcement",
+    "name": "Reinforcement before concrete",
+    "stage": "hold",
+    "checks": [
+      "bar size/spacing",
+      "cover",
+      "laps",
+      "cleanliness",
+      "embedded items"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-004",
+    "template_key": "concrete",
+    "name": "Concrete placement",
+    "stage": "during",
+    "checks": [
+      "mix/delivery evidence",
+      "formwork",
+      "reinforcement release",
+      "placement/curing"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-005",
+    "template_key": "masonry",
+    "name": "Masonry",
+    "stage": "during",
+    "checks": [
+      "material",
+      "bond",
+      "line/level",
+      "openings",
+      "ties/reinforcement"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-006",
+    "template_key": "structural_steel",
+    "name": "Structural steel",
+    "stage": "during",
+    "checks": [
+      "members",
+      "connections",
+      "bolts/welds",
+      "alignment",
+      "coating"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-007",
+    "template_key": "roof_membrane",
+    "name": "Roof waterproofing",
+    "stage": "hold",
+    "checks": [
+      "substrate",
+      "laps",
+      "upstands",
+      "penetrations",
+      "drain outlets",
+      "test"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-008",
+    "template_key": "window_install",
+    "name": "Windows",
+    "stage": "during",
+    "checks": [
+      "opening",
+      "fixings",
+      "level",
+      "sealant",
+      "waterproofing interfaces"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-009",
+    "template_key": "fire_door",
+    "name": "Fire door installation",
+    "stage": "final",
+    "checks": [
+      "approved set",
+      "frame",
+      "gaps",
+      "seals",
+      "closer",
+      "hardware"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-010",
+    "template_key": "wetroom_waterproof",
+    "name": "Wudu/WC waterproofing",
+    "stage": "hold",
+    "checks": [
+      "substrate",
+      "membrane",
+      "corners",
+      "penetrations",
+      "flood/test if specified"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-011",
+    "template_key": "drainage",
+    "name": "Drainage",
+    "stage": "hold",
+    "checks": [
+      "route/slope",
+      "supports",
+      "cleanouts",
+      "test",
+      "before concealment/backfill"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-012",
+    "template_key": "water_pipe",
+    "name": "Water pipework",
+    "stage": "test",
+    "checks": [
+      "materials",
+      "joints",
+      "supports",
+      "pressure test",
+      "insulation if required"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-013",
+    "template_key": "electrical_first_fix",
+    "name": "Electrical first fix",
+    "stage": "hold",
+    "checks": [
+      "containment",
+      "cables",
+      "segregation",
+      "earthing/bonding",
+      "before concealment"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-014",
+    "template_key": "lighting",
+    "name": "Lighting",
+    "stage": "final",
+    "checks": [
+      "fixture type/location",
+      "controls",
+      "emergency lighting",
+      "functional test"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-015",
+    "template_key": "fire_alarm",
+    "name": "Fire alarm",
+    "stage": "test",
+    "checks": [
+      "device locations",
+      "circuit",
+      "labels",
+      "cause/effect as applicable",
+      "test"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-016",
+    "template_key": "HVAC",
+    "name": "HVAC installation",
+    "stage": "during",
+    "checks": [
+      "equipment",
+      "supports",
+      "duct/pipe",
+      "access",
+      "controls",
+      "commissioning readiness"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-017",
+    "template_key": "wudu_station",
+    "name": "Wudu station",
+    "stage": "final",
+    "checks": [
+      "fixture spacing",
+      "tap",
+      "drainage",
+      "splash",
+      "seat/support",
+      "finish"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-018",
+    "template_key": "accessible_wudu",
+    "name": "Accessible wudu",
+    "stage": "final",
+    "checks": [
+      "route",
+      "clearance",
+      "reach/use",
+      "support",
+      "drainage"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-019",
+    "template_key": "prayer_carpet",
+    "name": "Prayer carpet",
+    "stage": "final",
+    "checks": [
+      "subfloor",
+      "qibla/saff alignment",
+      "seams",
+      "pattern",
+      "edges",
+      "cleanliness"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-020",
+    "template_key": "mihrab",
+    "name": "Mihrab",
+    "stage": "final",
+    "checks": [
+      "location/qibla",
+      "dimensions",
+      "finish",
+      "edges",
+      "lighting if any"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-021",
+    "template_key": "minbar",
+    "name": "Minbar",
+    "stage": "final",
+    "checks": [
+      "stability",
+      "steps",
+      "handhold/edge conditions",
+      "finish",
+      "position"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-022",
+    "template_key": "audio",
+    "name": "Prayer hall audio",
+    "stage": "commissioning",
+    "checks": [
+      "speaker locations",
+      "cabling",
+      "DSP/amp",
+      "imam mic",
+      "coverage/intelligibility"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-023",
+    "template_key": "accessibility_route",
+    "name": "Accessible route",
+    "stage": "final",
+    "checks": [
+      "continuous route",
+      "doors",
+      "ramps/lifts",
+      "obstructions",
+      "destination access"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-024",
+    "template_key": "external_paving",
+    "name": "External paving",
+    "stage": "during",
+    "checks": [
+      "subgrade/subbase",
+      "falls",
+      "edges",
+      "accessibility",
+      "drainage"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-025",
+    "template_key": "solar",
+    "name": "Solar PV",
+    "stage": "test",
+    "checks": [
+      "modules",
+      "mounting",
+      "cabling",
+      "protection",
+      "labels",
+      "commissioning"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-026",
+    "template_key": "generator",
+    "name": "Generator",
+    "stage": "commissioning",
+    "checks": [
+      "base",
+      "fuel/exhaust where applicable",
+      "power",
+      "controls",
+      "test"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-027",
+    "template_key": "security",
+    "name": "CCTV/access control",
+    "stage": "commissioning",
+    "checks": [
+      "device locations",
+      "network/power",
+      "privacy zones",
+      "functional test"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-028",
+    "template_key": "kitchen",
+    "name": "Community kitchen",
+    "stage": "final",
+    "checks": [
+      "equipment",
+      "services",
+      "cleanable finishes",
+      "ventilation",
+      "functional tests"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-029",
+    "template_key": "janazah",
+    "name": "Janazah room",
+    "stage": "final",
+    "checks": [
+      "privacy",
+      "water",
+      "waste",
+      "wash surface",
+      "cleanability"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  },
+  {
+    "id": "ITP-030",
+    "template_key": "handover_asset_data",
+    "name": "Handover asset data",
+    "stage": "hold",
+    "checks": [
+      "manufacturer/model",
+      "serial",
+      "location",
+      "warranty",
+      "manual",
+      "maintenance plan"
+    ],
+    "evidence": [
+      "photo",
+      "measurement/checklist",
+      "document/test result as applicable"
+    ],
+    "jurisdiction_status": "generic_template_requires_project_spec_and_local_rules"
+  }
+]

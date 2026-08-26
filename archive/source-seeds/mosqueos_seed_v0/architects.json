@@ -1,0 +1,630 @@
+[
+  {
+    "id": "marina_tabassum",
+    "name": "Marina Tabassum",
+    "life_status": "living",
+    "regions": [
+      "Bangladesh"
+    ],
+    "mosque_ids": [
+      "bait_ur_rouf_dhaka"
+    ],
+    "sources": [
+      "src_akdn_bait_ur_rouf"
+    ],
+    "verification": "seed_verified_project_link"
+  },
+  {
+    "id": "lassina_minta",
+    "name": "Lassina Minta",
+    "life_status": "unknown",
+    "regions": [
+      "Mali"
+    ],
+    "mosque_ids": [
+      "great_mosque_niono"
+    ],
+    "sources": [
+      "src_akdn_niono"
+    ],
+    "verification": "seed_verified_project_link"
+  },
+  {
+    "id": "el_hadji_falke_barmou",
+    "name": "El Hadji Falké Barmou",
+    "life_status": "unknown",
+    "regions": [
+      "Niger"
+    ],
+    "mosque_ids": [
+      "yaama_mosque"
+    ],
+    "sources": [
+      "src_akdn_yaama"
+    ],
+    "verification": "seed_verified_project_link"
+  },
+  {
+    "id": "adhi_moersid",
+    "name": "Adhi Moersid",
+    "life_status": "unknown",
+    "regions": [
+      "Indonesia"
+    ],
+    "mosque_ids": [
+      "said_naum"
+    ],
+    "sources": [
+      "src_akdn_said_naum"
+    ],
+    "verification": "seed_verified_project_link"
+  },
+  {
+    "id": "behruz_cinici",
+    "name": "Behruz Çinici",
+    "life_status": "deceased",
+    "regions": [
+      "Türkiye"
+    ],
+    "mosque_ids": [
+      "tbmm_mosque"
+    ],
+    "sources": [
+      "src_akdn_grand_national_assembly"
+    ],
+    "verification": "seed_verified_project_link"
+  },
+  {
+    "id": "can_cinici",
+    "name": "Can Çinici",
+    "life_status": "living_or_verify",
+    "regions": [
+      "Türkiye"
+    ],
+    "mosque_ids": [
+      "tbmm_mosque"
+    ],
+    "sources": [
+      "src_akdn_grand_national_assembly"
+    ],
+    "verification": "seed_verified_project_link"
+  },
+  {
+    "id": "kashef_chowdhury",
+    "name": "Kashef Mahboob Chowdhury",
+    "life_status": "living",
+    "regions": [
+      "Bangladesh"
+    ],
+    "mosque_ids": [
+      "chandgaon"
+    ],
+    "sources": [
+      "src_akdn_chandgaon"
+    ],
+    "verification": "seed_verified_project_link"
+  },
+  {
+    "id": "abdel_wahed_el_wakil",
+    "name": "Abdel-Wahed El-Wakil",
+    "life_status": "living_or_verify",
+    "regions": [
+      "Egypt",
+      "Saudi Arabia"
+    ],
+    "mosque_ids": [
+      "corniche_jeddah"
+    ],
+    "sources": [
+      "src_akdn_corniche"
+    ],
+    "verification": "seed_verified_project_link"
+  },
+  {
+    "id": "zlatko_ugljen",
+    "name": "Zlatko Ugljen",
+    "life_status": "living_or_verify",
+    "regions": [
+      "Bosnia and Herzegovina"
+    ],
+    "mosque_ids": [
+      "sherefudin_white"
+    ],
+    "sources": [
+      "src_akdn_white_mosque"
+    ],
+    "verification": "seed_verified_project_link"
+  },
+  {
+    "id": "mohammed_fikri_benabdallah",
+    "name": "Mohammed Fikri Benabdallah",
+    "life_status": "living_or_verify",
+    "regions": [
+      "Morocco"
+    ],
+    "mosque_ids": [
+      "al_qaraouiyine_rehab"
+    ],
+    "sources": [
+      "src_akdn_qaraouiyine"
+    ],
+    "verification": "seed_verified_project_link"
+  },
+  {
+    "id": "mimar_sinan",
+    "name": "Mimar Sinan",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "sedefk_r_mehmed_agha",
+    "name": "Sedefkâr Mehmed Agha",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "mimar_hayruddin",
+    "name": "Mimar Hayruddin",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "davud_agha",
+    "name": "Davud Agha",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "vedat_dalokay",
+    "name": "Vedat Dalokay",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "rasem_badran",
+    "name": "Rasem Badran",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "turgut_cansever",
+    "name": "Turgut Cansever",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "hassan_fathy",
+    "name": "Hassan Fathy",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "rifat_chadirji",
+    "name": "Rifat Chadirji",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "mohamed_makiya",
+    "name": "Mohamed Makiya",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "nader_khalili",
+    "name": "Nader Khalili",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "fazlur_rahman_khan",
+    "name": "Fazlur Rahman Khan",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "i_m_pei",
+    "name": "I. M. Pei",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "zaha_hadid",
+    "name": "Zaha Hadid",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "abdelhalim_ibrahim_abdelhalim",
+    "name": "Abdelhalim Ibrahim Abdelhalim",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "fariborz_sahba",
+    "name": "Fariborz Sahba",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "moshe_safdie",
+    "name": "Moshe Safdie",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "mangera_yvars_architects",
+    "name": "Mangera Yvars Architects",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "david_adjaye",
+    "name": "David Adjaye",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "marks_barfield_architects",
+    "name": "Marks Barfield Architects",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "henning_larsen",
+    "name": "Henning Larsen",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "emre_arolat",
+    "name": "Emre Arolat",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "tabanl_o_lu_architects",
+    "name": "Tabanlıoğlu Architects",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "aziz_bekkaoui",
+    "name": "Aziz Bekkaoui",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "sumaya_dabbagh",
+    "name": "Sumaya Dabbagh",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "nabil_gholam",
+    "name": "Nabil Gholam",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "atelier_mas_m",
+    "name": "Atelier Masōmī",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "mohamed_saleh_makiya",
+    "name": "Mohamed Saleh Makiya",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "youssef_abdelki",
+    "name": "Youssef Abdelki",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "abdelbaki_ibrahim",
+    "name": "Abdelbaki Ibrahim",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "hisham_n_ashkouri",
+    "name": "Hisham N. Ashkouri",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "habib_fida_ali",
+    "name": "Habib Fida Ali",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "nayyar_ali_dada",
+    "name": "Nayyar Ali Dada",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "kamil_khan_mumtaz",
+    "name": "Kamil Khan Mumtaz",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "habib_rahman",
+    "name": "Habib Rahman",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "muzharul_islam",
+    "name": "Muzharul Islam",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "vastu_shilpa_consultants",
+    "name": "Vastu Shilpa Consultants",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "ridwan_kamil",
+    "name": "Ridwan Kamil",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "andra_matin",
+    "name": "Andra Matin",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "yori_antar",
+    "name": "Yori Antar",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "joko_avianto",
+    "name": "Joko Avianto",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "ahmad_noe_man",
+    "name": "Ahmad Noe'man",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "frederich_silaban",
+    "name": "Frederich Silaban",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "hendra_hadiprana",
+    "name": "Hendra Hadiprana",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "kenzo_tange",
+    "name": "Kenzo Tange",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "sami_angawi",
+    "name": "Sami Angawi",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "omar_khalidi_historian_researcher",
+    "name": "Omar Khalidi (historian/researcher)",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "gulzar_haider",
+    "name": "Gulzar Haider",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "sami_a_angawi",
+    "name": "Sami A. Angawi",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "nasser_rabbat_historian",
+    "name": "Nasser Rabbat (historian)",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "g_lru_necipo_lu_historian",
+    "name": "Gülru Necipoğlu (historian)",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "oleg_grabar_historian",
+    "name": "Oleg Grabar (historian)",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  },
+  {
+    "id": "robert_hillenbrand_historian",
+    "name": "Robert Hillenbrand (historian)",
+    "life_status": "verify",
+    "regions": [],
+    "mosque_ids": [],
+    "sources": [],
+    "verification": "research_queue_do_not_publish_as_factual_profile_until_reviewed"
+  }
+]

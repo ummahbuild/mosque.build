@@ -1,0 +1,55 @@
+{
+  "principle": "Shared backend and domain model; platform-appropriate UX rather than forced pixel-identical parity.",
+  "parity_matrix": [
+    {
+      "capability": "Public mosque directory",
+      "web": "full",
+      "expo": "full"
+    },
+    {
+      "capability": "SEO/AEO public content",
+      "web": "primary",
+      "expo": "reader/deep link"
+    },
+    {
+      "capability": "Project workspace",
+      "web": "full",
+      "expo": "full core"
+    },
+    {
+      "capability": "Three.js professional editor",
+      "web": "primary",
+      "expo": "view + light edits initially"
+    },
+    {
+      "capability": "Site camera/photo capture",
+      "web": "basic",
+      "expo": "primary"
+    },
+    {
+      "capability": "Offline inspections/checklists",
+      "web": "PWA supported subset",
+      "expo": "primary"
+    },
+    {
+      "capability": "Push reminders",
+      "web": "supported browsers",
+      "expo": "full native"
+    },
+    {
+      "capability": "Bulk editorial/admin",
+      "web": "primary",
+      "expo": "not required"
+    },
+    {
+      "capability": "Asset QR scanning",
+      "web": "optional",
+      "expo": "primary"
+    },
+    {
+      "capability": "Donations",
+      "web": "full",
+      "expo": "full subject to store/payment policies"
+    }
+  ]
+}

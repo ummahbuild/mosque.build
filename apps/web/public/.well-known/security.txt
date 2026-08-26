@@ -1,0 +1,5 @@
+Contact: mailto:security@ummah.build
+Canonical: https://mosque.build/.well-known/security.txt
+Preferred-Languages: en
+Policy: https://mosque.build/trust
+Expires: 2027-08-20T00:00:00.000Z

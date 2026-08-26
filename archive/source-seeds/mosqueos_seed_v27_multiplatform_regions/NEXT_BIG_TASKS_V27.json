@@ -1,0 +1,62 @@
+[
+  {
+    "rank": 1,
+    "task": "Implement Babylon web renderer adapter against SceneGraph interface",
+    "status": "next"
+  },
+  {
+    "rank": 2,
+    "task": "Implement React Native Filament renderer adapter",
+    "status": "next"
+  },
+  {
+    "rank": 3,
+    "task": "Keep Three/R3F as supported web adapter, remove any domain-model dependency on THREE classes",
+    "status": "next"
+  },
+  {
+    "rank": 4,
+    "task": "Implement glTF export/import normalization and mobile/web LOD variants",
+    "status": "next"
+  },
+  {
+    "rank": 5,
+    "task": "Implement KTX2 texture pipeline",
+    "status": "next"
+  },
+  {
+    "rank": 6,
+    "task": "Implement That Open/web-ifc BIM preprocessing service",
+    "status": "next"
+  },
+  {
+    "rank": 7,
+    "task": "Implement MapLibre web/native shared site-map abstraction",
+    "status": "next"
+  },
+  {
+    "rank": 8,
+    "task": "Test renderer parity using the same warehouse-to-mosque design version",
+    "status": "next"
+  },
+  {
+    "rank": 9,
+    "task": "Populate all 38 regional packs with source-backed mosque/style/material/craft examples",
+    "status": "next"
+  },
+  {
+    "rank": 10,
+    "task": "Populate vendors/products/costs/regulatory sources by region without treating queue counts as facts",
+    "status": "next"
+  },
+  {
+    "rank": 11,
+    "task": "Add region-aware onboarding: country → regional packs → climate/construction/sourcing defaults",
+    "status": "next"
+  },
+  {
+    "rank": 12,
+    "task": "Build global coverage dashboard showing verified depth rather than binary coverage",
+    "status": "next"
+  }
+]

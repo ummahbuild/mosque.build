@@ -1,0 +1,153 @@
+[
+  {
+    "id": "gen_pattern_panel",
+    "inputs": [
+      "pattern_id",
+      "width",
+      "height",
+      "border",
+      "density",
+      "material"
+    ],
+    "outputs": [
+      "2D vector",
+      "3D relief/perforation",
+      "quantity"
+    ],
+    "uses": [
+      "jali",
+      "tile",
+      "stone",
+      "wood"
+    ]
+  },
+  {
+    "id": "gen_jali",
+    "inputs": [
+      "pattern_id",
+      "panel_size",
+      "open_ratio_target",
+      "member_width",
+      "depth"
+    ],
+    "outputs": [
+      "panel geometry",
+      "open_ratio",
+      "fabrication cells"
+    ]
+  },
+  {
+    "id": "gen_muqarnas",
+    "inputs": [
+      "cell_family",
+      "tier_count",
+      "span",
+      "depth"
+    ],
+    "outputs": [
+      "3D cells",
+      "module schedule",
+      "complexity score"
+    ]
+  },
+  {
+    "id": "gen_iwan",
+    "inputs": [
+      "width",
+      "height",
+      "depth",
+      "arch_family"
+    ],
+    "outputs": [
+      "shell geometry",
+      "surface areas"
+    ]
+  },
+  {
+    "id": "gen_arcade",
+    "inputs": [
+      "bay_count",
+      "bay_width",
+      "column_type",
+      "arch_family"
+    ],
+    "outputs": [
+      "arcade geometry",
+      "counts"
+    ]
+  },
+  {
+    "id": "gen_minaret",
+    "inputs": [
+      "family",
+      "height",
+      "shaft_ratio",
+      "balcony_count",
+      "top_type"
+    ],
+    "outputs": [
+      "concept geometry",
+      "surface quantities"
+    ],
+    "guardrail": "conceptual only; structural design separate"
+  },
+  {
+    "id": "gen_dome",
+    "inputs": [
+      "family",
+      "diameter",
+      "rise",
+      "drum_height",
+      "shell_type"
+    ],
+    "outputs": [
+      "concept geometry",
+      "surface area"
+    ],
+    "guardrail": "conceptual only; structural design separate"
+  },
+  {
+    "id": "gen_mihrab",
+    "inputs": [
+      "family",
+      "width",
+      "height",
+      "depth",
+      "frame_pattern",
+      "material"
+    ],
+    "outputs": [
+      "geometry",
+      "finish quantities"
+    ]
+  },
+  {
+    "id": "gen_sahn",
+    "inputs": [
+      "width",
+      "length",
+      "arcade_depth",
+      "fountain_optional"
+    ],
+    "outputs": [
+      "courtyard geometry",
+      "arcades",
+      "paving area"
+    ]
+  },
+  {
+    "id": "gen_style_apply",
+    "inputs": [
+      "style_pack",
+      "project_objects",
+      "ornament_budget",
+      "authenticity_mode"
+    ],
+    "outputs": [
+      "suggested materials",
+      "patterns",
+      "elements",
+      "warnings"
+    ]
+  }
+]

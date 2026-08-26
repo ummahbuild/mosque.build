@@ -1,0 +1,54 @@
+{
+  "stages": [
+    "discovered",
+    "identity_checked",
+    "source_verified",
+    "catalog_ingested",
+    "reference_projects_submitted",
+    "reference_projects_verified",
+    "claimed",
+    "active_marketplace"
+  ],
+  "vendor_profile_fields": [
+    "legal/display name",
+    "country/city",
+    "website",
+    "institutional email",
+    "categories",
+    "manufacturing vs reseller vs installer",
+    "delivery regions",
+    "languages",
+    "lead times",
+    "MOQ",
+    "warranty",
+    "certifications",
+    "catalog",
+    "price snapshots",
+    "project references",
+    "claim state"
+  ],
+  "reference_verification": [
+    "self-reported",
+    "document evidence",
+    "mosque confirmation",
+    "architect/contractor confirmation",
+    "public project source",
+    "reviewer verified",
+    "disputed"
+  ],
+  "ranking_guardrails": [
+    "do not rank paid vendors above technical match without sponsored label",
+    "verification level visible",
+    "review counts not sufficient alone",
+    "project fit/geography/lead time matters",
+    "do not infer certification"
+  ],
+  "claim_flow": [
+    "shadow vendor profile",
+    "claim vendor",
+    "domain DNS TXT verification",
+    "legal/business evidence where needed",
+    "admin approval",
+    "vendor gains storefront management"
+  ]
+}

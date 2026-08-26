@@ -1,0 +1,125 @@
+{
+  "objectives": [
+    "reduce landed cost",
+    "reduce lead time",
+    "increase local repairability",
+    "use local craft responsibly",
+    "reduce import dependency",
+    "support regional vendors",
+    "retain technical compliance"
+  ],
+  "search_radius_modes": [
+    "same city",
+    "same county/state/province",
+    "same country",
+    "regional economic bloc",
+    "international"
+  ],
+  "sourcing_ladder": [
+    "reuse existing item",
+    "local repair/refurbish",
+    "local stock item",
+    "local manufacturer/craftsperson",
+    "national supplier",
+    "regional supplier",
+    "import"
+  ],
+  "locality_fields": [
+    "manufacturer_location",
+    "fabrication_location",
+    "supplier_location",
+    "installer_location",
+    "material_origin",
+    "distance_to_site",
+    "delivery_mode"
+  ],
+  "substitution_checks": [
+    "technical/spec compliance",
+    "dimensions",
+    "finish",
+    "fire/life-safety attribute",
+    "warranty",
+    "reference projects",
+    "sample/mockup",
+    "maintenance",
+    "spares",
+    "installer skill",
+    "lead time",
+    "landed cost",
+    "lifecycle cost",
+    "environment/climate suitability"
+  ],
+  "style_process": [
+    "select regional design/craft language",
+    "identify local material/craft candidates",
+    "map pattern/component to fabrication method",
+    "find local craft/vendor capability",
+    "build mockup/sample",
+    "architect/technical review",
+    "cost/lead time compare",
+    "approve project-specific substitution"
+  ],
+  "style_examples": [
+    {
+      "region": "East African coast",
+      "candidates": [
+        "lime-plaster finish",
+        "local stone where suitable",
+        "carved timber doors/screens",
+        "shaded veranda/courtyard elements"
+      ],
+      "rule": "use local historic/craft review; do not copy motifs without provenance"
+    },
+    {
+      "region": "Sahel/West Africa",
+      "candidates": [
+        "earth construction where technically suitable",
+        "timber/earth craft",
+        "deep shade/buttress rhythms"
+      ],
+      "rule": "climate, moisture and local construction expertise required"
+    },
+    {
+      "region": "Türkiye/Balkans",
+      "candidates": [
+        "stone/brick",
+        "tile",
+        "timber joinery",
+        "local carpet/manufacturing networks"
+      ],
+      "rule": "project-specific sourcing"
+    },
+    {
+      "region": "Maghreb",
+      "candidates": [
+        "zellige/ceramic craft",
+        "lime/stucco",
+        "stone",
+        "timber"
+      ],
+      "rule": "craft source and rights/provenance retained"
+    },
+    {
+      "region": "South Asia",
+      "candidates": [
+        "stone carving",
+        "jali fabrication",
+        "tile",
+        "timber/metalwork",
+        "local carpet"
+      ],
+      "rule": "technical and labor conditions reviewed"
+    }
+  ],
+  "score_weights_default": {
+    "technical_fit": 30,
+    "landed_cost": 15,
+    "lead_time": 15,
+    "local_repairability": 10,
+    "reference_evidence": 10,
+    "maintenance": 10,
+    "local_economic_value": 5,
+    "carbon_transport_note": 5
+  },
+  "guardrail": "local preference never overrides hard technical, safety or legal requirements"
+}

@@ -1,0 +1,66 @@
+{
+  "navigation": [
+    "AppShell",
+    "Sidebar",
+    "Topbar",
+    "BottomTabs",
+    "Breadcrumbs",
+    "ProjectSwitcher"
+  ],
+  "data": [
+    "DataTable",
+    "FilterBar",
+    "SearchBox",
+    "EntityCard",
+    "SourceBadge",
+    "VerificationBadge",
+    "FreshnessBadge"
+  ],
+  "design": [
+    "CanvasToolbar",
+    "ObjectTree",
+    "Inspector",
+    "LayerPanel",
+    "VersionTimeline",
+    "DiffViewer",
+    "CompatibilityBadge"
+  ],
+  "commerce": [
+    "ProductCard",
+    "PriceSnapshot",
+    "LandedCostCard",
+    "LeadTimeBadge",
+    "ProjectCartLine",
+    "QuoteCompare"
+  ],
+  "construction": [
+    "ProgressCard",
+    "DailyReportForm",
+    "InspectionChecklist",
+    "RFIItem",
+    "SubmittalItem",
+    "DeliveryCard",
+    "PunchItem"
+  ],
+  "finance": [
+    "MoneySummary",
+    "FundingProgress",
+    "RestrictedFundBadge",
+    "CampaignCard",
+    "ReconciliationStatus"
+  ],
+  "operations": [
+    "AssetCard",
+    "QRScanner",
+    "WorkOrderCard",
+    "MaintenanceCalendar"
+  ],
+  "system": [
+    "OfflineBanner",
+    "SyncQueue",
+    "ConflictResolver",
+    "PermissionGate",
+    "AuditTrail",
+    "NotificationCenter"
+  ]
+}

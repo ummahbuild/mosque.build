@@ -1,0 +1,61 @@
+{
+  "conversion_targets": [
+    "prayer room",
+    "women/family prayer room",
+    "temporary musalla",
+    "Jumuah overflow",
+    "wudu",
+    "accessible wudu",
+    "madrasa classroom",
+    "Quran room",
+    "community room",
+    "library",
+    "imam office",
+    "counseling room",
+    "janazah room",
+    "shoe transition",
+    "storage",
+    "nursery/child room",
+    "iftar dining",
+    "temporary Ramadan overflow"
+  ],
+  "workflow": [
+    "select existing room",
+    "choose target use",
+    "run fit checks",
+    "apply qibla",
+    "generate layout options",
+    "identify demolition/new work",
+    "identify MEP changes",
+    "identify accessibility/fire/egress considerations",
+    "estimate cost",
+    "estimate duration",
+    "show permit/change-of-use flags",
+    "save as design scenario"
+  ],
+  "fit_checks": [
+    "room dimensions",
+    "qibla orientation",
+    "usable floor area",
+    "columns/obstructions",
+    "doors and circulation",
+    "existing toilets/wudu proximity",
+    "accessible route",
+    "ceiling height",
+    "ventilation/HVAC",
+    "lighting",
+    "acoustics",
+    "electrical capacity",
+    "plumbing/drainage",
+    "storage",
+    "shoe transition",
+    "privacy",
+    "fire/egress review"
+  ],
+  "scenario_outputs": [
+    "minimal intervention",
+    "balanced conversion",
+    "full conversion",
+    "temporary/phase-1 conversion"
+  ]
+}

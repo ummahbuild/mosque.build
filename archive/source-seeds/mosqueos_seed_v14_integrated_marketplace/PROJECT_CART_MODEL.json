@@ -1,0 +1,58 @@
+{
+  "cart_types": [
+    "design_palette",
+    "project_cart",
+    "procurement_cart",
+    "approved_purchase_list"
+  ],
+  "item_states": [
+    "saved",
+    "placed_in_mockup",
+    "quantity_estimated",
+    "technical_review_required",
+    "sample_requested",
+    "sample_approved",
+    "submittal_required",
+    "approved_for_project",
+    "rfq_ready",
+    "quote_received",
+    "commercially_compared",
+    "selected",
+    "po_ready",
+    "ordered",
+    "in_transit",
+    "delivered",
+    "accepted",
+    "installed",
+    "commissioned",
+    "asset_handed_over"
+  ],
+  "core_fields": [
+    "project_id",
+    "scenario_id",
+    "design_version",
+    "product_id",
+    "vendor_id",
+    "quantity",
+    "unit",
+    "placement_refs",
+    "technical_status",
+    "commercial_status",
+    "price_snapshot",
+    "landed_cost_snapshot",
+    "lead_time_snapshot",
+    "schedule_impact",
+    "budget_cost_code",
+    "funding_source",
+    "submittal_id",
+    "rfq_id",
+    "po_id"
+  ],
+  "rules": [
+    "Add to cart never means technically approved.",
+    "Placing a product in a mockup creates a design selection and provisional quantity.",
+    "Approved purchase list requires technical approval and accepted commercial basis.",
+    "Historical cart selections preserve the product/price/lead-time snapshot used at that design version.",
+    "Changing a product can invalidate quantities, submittals, quotes, schedule assumptions and public campaign costs."
+  ]
+}

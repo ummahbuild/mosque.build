@@ -1,0 +1,32 @@
+{
+  "one_liner": "mosque.build is the lifecycle operating system for mosques: global discovery, planning, 3D design, permitting, budgeting, funding, sourcing, construction, management, waqf, and preservation.",
+  "why_now": [
+    "Mosque communities increasingly coordinate digitally but still lack a purpose-built end-to-end project and operations platform.",
+    "Mapping, payments, geospatial data, 3D web technology, open architectural archives, mobile apps, and structured cloud backends now make a unified platform technically feasible.",
+    "Mosque construction and operations knowledge remains highly fragmented across countries, firms, committees, and generations.",
+    "Many communities need smaller, more sustainable, locally appropriate mosques rather than prestige construction without operating capacity."
+  ],
+  "moat": [
+    "Mosque-specific architecture and component ontology",
+    "Global mosque knowledge graph and provenance layer",
+    "Historical + contemporary design dataset",
+    "Mosque-specific geometry, qibla, saff, wudu, program and circulation intelligence",
+    "Capital + operating cost model",
+    "Jurisdictional regulatory source graph",
+    "Supplier and construction marketplace",
+    "Operations and waqf data",
+    "Longitudinal project and maintenance records",
+    "Network effects across mosque admins, builders, architects, donors and suppliers"
+  ],
+  "business_models": [
+    "Free public mosque directory and museum",
+    "Paid mosque project workspaces",
+    "Professional architect/engineering tools",
+    "Mosque operations subscriptions",
+    "Verified supplier marketplace and lead fees subject to transparent policies",
+    "Optional payment processing / donation software revenue",
+    "Enterprise/portfolio tools for foundations, waqf networks and mosque associations",
+    "Data/API products for approved partners",
+    "Sponsored education and industry research with editorial separation"
+  ]
+}

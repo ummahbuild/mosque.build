@@ -1,0 +1,3194 @@
+[
+  {
+    "id": "V9-0001",
+    "workstream": "canonical_db",
+    "epic": "organizations",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0002",
+    "workstream": "canonical_db",
+    "epic": "organizations",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0003",
+    "workstream": "canonical_db",
+    "epic": "organizations",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0004",
+    "workstream": "canonical_db",
+    "epic": "organizations",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0005",
+    "workstream": "canonical_db",
+    "epic": "profiles",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0006",
+    "workstream": "canonical_db",
+    "epic": "profiles",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0007",
+    "workstream": "canonical_db",
+    "epic": "profiles",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0008",
+    "workstream": "canonical_db",
+    "epic": "profiles",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0009",
+    "workstream": "canonical_db",
+    "epic": "mosques",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0010",
+    "workstream": "canonical_db",
+    "epic": "mosques",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0011",
+    "workstream": "canonical_db",
+    "epic": "mosques",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0012",
+    "workstream": "canonical_db",
+    "epic": "mosques",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0013",
+    "workstream": "canonical_db",
+    "epic": "provider links",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0014",
+    "workstream": "canonical_db",
+    "epic": "provider links",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0015",
+    "workstream": "canonical_db",
+    "epic": "provider links",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0016",
+    "workstream": "canonical_db",
+    "epic": "provider links",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0017",
+    "workstream": "canonical_db",
+    "epic": "projects",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0018",
+    "workstream": "canonical_db",
+    "epic": "projects",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0019",
+    "workstream": "canonical_db",
+    "epic": "projects",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0020",
+    "workstream": "canonical_db",
+    "epic": "projects",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0021",
+    "workstream": "canonical_db",
+    "epic": "members",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0022",
+    "workstream": "canonical_db",
+    "epic": "members",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0023",
+    "workstream": "canonical_db",
+    "epic": "members",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0024",
+    "workstream": "canonical_db",
+    "epic": "members",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0025",
+    "workstream": "canonical_db",
+    "epic": "scenarios",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0026",
+    "workstream": "canonical_db",
+    "epic": "scenarios",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0027",
+    "workstream": "canonical_db",
+    "epic": "scenarios",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0028",
+    "workstream": "canonical_db",
+    "epic": "scenarios",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0029",
+    "workstream": "canonical_db",
+    "epic": "design versions",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0030",
+    "workstream": "canonical_db",
+    "epic": "design versions",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0031",
+    "workstream": "canonical_db",
+    "epic": "design versions",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0032",
+    "workstream": "canonical_db",
+    "epic": "design versions",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0033",
+    "workstream": "canonical_db",
+    "epic": "cost estimates",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0034",
+    "workstream": "canonical_db",
+    "epic": "cost estimates",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0035",
+    "workstream": "canonical_db",
+    "epic": "cost estimates",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0036",
+    "workstream": "canonical_db",
+    "epic": "cost estimates",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0037",
+    "workstream": "canonical_db",
+    "epic": "requirements",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0038",
+    "workstream": "canonical_db",
+    "epic": "requirements",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0039",
+    "workstream": "canonical_db",
+    "epic": "requirements",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0040",
+    "workstream": "canonical_db",
+    "epic": "requirements",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0041",
+    "workstream": "canonical_db",
+    "epic": "assets",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0042",
+    "workstream": "canonical_db",
+    "epic": "assets",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0043",
+    "workstream": "canonical_db",
+    "epic": "assets",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0044",
+    "workstream": "canonical_db",
+    "epic": "assets",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0045",
+    "workstream": "canonical_db",
+    "epic": "audit logs",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0046",
+    "workstream": "canonical_db",
+    "epic": "audit logs",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0047",
+    "workstream": "canonical_db",
+    "epic": "audit logs",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0048",
+    "workstream": "canonical_db",
+    "epic": "audit logs",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0049",
+    "workstream": "rls",
+    "epic": "org isolation",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0050",
+    "workstream": "rls",
+    "epic": "org isolation",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0051",
+    "workstream": "rls",
+    "epic": "org isolation",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0052",
+    "workstream": "rls",
+    "epic": "org isolation",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0053",
+    "workstream": "rls",
+    "epic": "project capabilities",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0054",
+    "workstream": "rls",
+    "epic": "project capabilities",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0055",
+    "workstream": "rls",
+    "epic": "project capabilities",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0056",
+    "workstream": "rls",
+    "epic": "project capabilities",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0057",
+    "workstream": "rls",
+    "epic": "mosque claims",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0058",
+    "workstream": "rls",
+    "epic": "mosque claims",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0059",
+    "workstream": "rls",
+    "epic": "mosque claims",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0060",
+    "workstream": "rls",
+    "epic": "mosque claims",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0061",
+    "workstream": "rls",
+    "epic": "finance restrictions",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0062",
+    "workstream": "rls",
+    "epic": "finance restrictions",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0063",
+    "workstream": "rls",
+    "epic": "finance restrictions",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0064",
+    "workstream": "rls",
+    "epic": "finance restrictions",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0065",
+    "workstream": "rls",
+    "epic": "incident restrictions",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0066",
+    "workstream": "rls",
+    "epic": "incident restrictions",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0067",
+    "workstream": "rls",
+    "epic": "incident restrictions",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0068",
+    "workstream": "rls",
+    "epic": "incident restrictions",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0069",
+    "workstream": "rls",
+    "epic": "server webhook writes",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0070",
+    "workstream": "rls",
+    "epic": "server webhook writes",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0071",
+    "workstream": "rls",
+    "epic": "server webhook writes",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0072",
+    "workstream": "rls",
+    "epic": "server webhook writes",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0073",
+    "workstream": "rls",
+    "epic": "audit immutability",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0074",
+    "workstream": "rls",
+    "epic": "audit immutability",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0075",
+    "workstream": "rls",
+    "epic": "audit immutability",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0076",
+    "workstream": "rls",
+    "epic": "audit immutability",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0077",
+    "workstream": "ingestion",
+    "epic": "mosque pipeline",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0078",
+    "workstream": "ingestion",
+    "epic": "mosque pipeline",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0079",
+    "workstream": "ingestion",
+    "epic": "mosque pipeline",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0080",
+    "workstream": "ingestion",
+    "epic": "mosque pipeline",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0081",
+    "workstream": "ingestion",
+    "epic": "person pipeline",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0082",
+    "workstream": "ingestion",
+    "epic": "person pipeline",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0083",
+    "workstream": "ingestion",
+    "epic": "person pipeline",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0084",
+    "workstream": "ingestion",
+    "epic": "person pipeline",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0085",
+    "workstream": "ingestion",
+    "epic": "drawing pipeline",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0086",
+    "workstream": "ingestion",
+    "epic": "drawing pipeline",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0087",
+    "workstream": "ingestion",
+    "epic": "drawing pipeline",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0088",
+    "workstream": "ingestion",
+    "epic": "drawing pipeline",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0089",
+    "workstream": "ingestion",
+    "epic": "supplier pipeline",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0090",
+    "workstream": "ingestion",
+    "epic": "supplier pipeline",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0091",
+    "workstream": "ingestion",
+    "epic": "supplier pipeline",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0092",
+    "workstream": "ingestion",
+    "epic": "supplier pipeline",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0093",
+    "workstream": "ingestion",
+    "epic": "regulatory pipeline",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0094",
+    "workstream": "ingestion",
+    "epic": "regulatory pipeline",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0095",
+    "workstream": "ingestion",
+    "epic": "regulatory pipeline",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0096",
+    "workstream": "ingestion",
+    "epic": "regulatory pipeline",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0097",
+    "workstream": "ingestion",
+    "epic": "cost pipeline",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0098",
+    "workstream": "ingestion",
+    "epic": "cost pipeline",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0099",
+    "workstream": "ingestion",
+    "epic": "cost pipeline",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0100",
+    "workstream": "ingestion",
+    "epic": "cost pipeline",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0101",
+    "workstream": "ingestion",
+    "epic": "source health",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0102",
+    "workstream": "ingestion",
+    "epic": "source health",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0103",
+    "workstream": "ingestion",
+    "epic": "source health",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0104",
+    "workstream": "ingestion",
+    "epic": "source health",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0105",
+    "workstream": "search",
+    "epic": "FTS",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0106",
+    "workstream": "search",
+    "epic": "FTS",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0107",
+    "workstream": "search",
+    "epic": "FTS",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0108",
+    "workstream": "search",
+    "epic": "FTS",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0109",
+    "workstream": "search",
+    "epic": "trigram",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0110",
+    "workstream": "search",
+    "epic": "trigram",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0111",
+    "workstream": "search",
+    "epic": "trigram",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0112",
+    "workstream": "search",
+    "epic": "trigram",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0113",
+    "workstream": "search",
+    "epic": "PostGIS radius",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0114",
+    "workstream": "search",
+    "epic": "PostGIS radius",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0115",
+    "workstream": "search",
+    "epic": "PostGIS radius",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0116",
+    "workstream": "search",
+    "epic": "PostGIS radius",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0117",
+    "workstream": "search",
+    "epic": "filters",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0118",
+    "workstream": "search",
+    "epic": "filters",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0119",
+    "workstream": "search",
+    "epic": "filters",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0120",
+    "workstream": "search",
+    "epic": "filters",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0121",
+    "workstream": "search",
+    "epic": "ranking",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0122",
+    "workstream": "search",
+    "epic": "ranking",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0123",
+    "workstream": "search",
+    "epic": "ranking",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0124",
+    "workstream": "search",
+    "epic": "ranking",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0125",
+    "workstream": "search",
+    "epic": "dedupe",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0126",
+    "workstream": "search",
+    "epic": "dedupe",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0127",
+    "workstream": "search",
+    "epic": "dedupe",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0128",
+    "workstream": "search",
+    "epic": "dedupe",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0129",
+    "workstream": "search",
+    "epic": "closed mosque behavior",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0130",
+    "workstream": "search",
+    "epic": "closed mosque behavior",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0131",
+    "workstream": "search",
+    "epic": "closed mosque behavior",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0132",
+    "workstream": "search",
+    "epic": "closed mosque behavior",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0133",
+    "workstream": "search",
+    "epic": "multilingual aliases",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0134",
+    "workstream": "search",
+    "epic": "multilingual aliases",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0135",
+    "workstream": "search",
+    "epic": "multilingual aliases",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0136",
+    "workstream": "search",
+    "epic": "multilingual aliases",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0137",
+    "workstream": "content",
+    "epic": "copy registry",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0138",
+    "workstream": "content",
+    "epic": "copy registry",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0139",
+    "workstream": "content",
+    "epic": "copy registry",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0140",
+    "workstream": "content",
+    "epic": "copy registry",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0141",
+    "workstream": "content",
+    "epic": "review workflow",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0142",
+    "workstream": "content",
+    "epic": "review workflow",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0143",
+    "workstream": "content",
+    "epic": "review workflow",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0144",
+    "workstream": "content",
+    "epic": "review workflow",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0145",
+    "workstream": "content",
+    "epic": "corrections",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0146",
+    "workstream": "content",
+    "epic": "corrections",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0147",
+    "workstream": "content",
+    "epic": "corrections",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0148",
+    "workstream": "content",
+    "epic": "corrections",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0149",
+    "workstream": "content",
+    "epic": "religious review",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0150",
+    "workstream": "content",
+    "epic": "religious review",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0151",
+    "workstream": "content",
+    "epic": "religious review",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0152",
+    "workstream": "content",
+    "epic": "religious review",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0153",
+    "workstream": "content",
+    "epic": "regulatory review",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0154",
+    "workstream": "content",
+    "epic": "regulatory review",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0155",
+    "workstream": "content",
+    "epic": "regulatory review",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0156",
+    "workstream": "content",
+    "epic": "regulatory review",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0157",
+    "workstream": "content",
+    "epic": "rights review",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0158",
+    "workstream": "content",
+    "epic": "rights review",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0159",
+    "workstream": "content",
+    "epic": "rights review",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0160",
+    "workstream": "content",
+    "epic": "rights review",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0161",
+    "workstream": "content",
+    "epic": "translation status",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0162",
+    "workstream": "content",
+    "epic": "translation status",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0163",
+    "workstream": "content",
+    "epic": "translation status",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0164",
+    "workstream": "content",
+    "epic": "translation status",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0165",
+    "workstream": "launch_kenya",
+    "epic": "Nairobi mosque ingest",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0166",
+    "workstream": "launch_kenya",
+    "epic": "Nairobi mosque ingest",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0167",
+    "workstream": "launch_kenya",
+    "epic": "Nairobi mosque ingest",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0168",
+    "workstream": "launch_kenya",
+    "epic": "Nairobi mosque ingest",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0169",
+    "workstream": "launch_kenya",
+    "epic": "Nairobi regulations",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0170",
+    "workstream": "launch_kenya",
+    "epic": "Nairobi regulations",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0171",
+    "workstream": "launch_kenya",
+    "epic": "Nairobi regulations",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0172",
+    "workstream": "launch_kenya",
+    "epic": "Nairobi regulations",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0173",
+    "workstream": "launch_kenya",
+    "epic": "Kenya costs",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0174",
+    "workstream": "launch_kenya",
+    "epic": "Kenya costs",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0175",
+    "workstream": "launch_kenya",
+    "epic": "Kenya costs",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0176",
+    "workstream": "launch_kenya",
+    "epic": "Kenya costs",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0177",
+    "workstream": "launch_kenya",
+    "epic": "Kenya suppliers",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0178",
+    "workstream": "launch_kenya",
+    "epic": "Kenya suppliers",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0179",
+    "workstream": "launch_kenya",
+    "epic": "Kenya suppliers",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0180",
+    "workstream": "launch_kenya",
+    "epic": "Kenya suppliers",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0181",
+    "workstream": "launch_kenya",
+    "epic": "East Africa architects",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0182",
+    "workstream": "launch_kenya",
+    "epic": "East Africa architects",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0183",
+    "workstream": "launch_kenya",
+    "epic": "East Africa architects",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0184",
+    "workstream": "launch_kenya",
+    "epic": "East Africa architects",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0185",
+    "workstream": "launch_kenya",
+    "epic": "adaptive reuse cases",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0186",
+    "workstream": "launch_kenya",
+    "epic": "adaptive reuse cases",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0187",
+    "workstream": "launch_kenya",
+    "epic": "adaptive reuse cases",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0188",
+    "workstream": "launch_kenya",
+    "epic": "adaptive reuse cases",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0189",
+    "workstream": "launch_kenya",
+    "epic": "operations cases",
+    "slice": "spec",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0190",
+    "workstream": "launch_kenya",
+    "epic": "operations cases",
+    "slice": "schema",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0191",
+    "workstream": "launch_kenya",
+    "epic": "operations cases",
+    "slice": "implementation",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0192",
+    "workstream": "launch_kenya",
+    "epic": "operations cases",
+    "slice": "tests/review",
+    "priority": "P0",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0193",
+    "workstream": "platform",
+    "epic": "API envelopes",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0194",
+    "workstream": "platform",
+    "epic": "API envelopes",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0195",
+    "workstream": "platform",
+    "epic": "API envelopes",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0196",
+    "workstream": "platform",
+    "epic": "API envelopes",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0197",
+    "workstream": "platform",
+    "epic": "idempotency",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0198",
+    "workstream": "platform",
+    "epic": "idempotency",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0199",
+    "workstream": "platform",
+    "epic": "idempotency",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0200",
+    "workstream": "platform",
+    "epic": "idempotency",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0201",
+    "workstream": "platform",
+    "epic": "optimistic concurrency",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0202",
+    "workstream": "platform",
+    "epic": "optimistic concurrency",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0203",
+    "workstream": "platform",
+    "epic": "optimistic concurrency",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0204",
+    "workstream": "platform",
+    "epic": "optimistic concurrency",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0205",
+    "workstream": "platform",
+    "epic": "offline sync",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0206",
+    "workstream": "platform",
+    "epic": "offline sync",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0207",
+    "workstream": "platform",
+    "epic": "offline sync",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0208",
+    "workstream": "platform",
+    "epic": "offline sync",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0209",
+    "workstream": "platform",
+    "epic": "notifications",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0210",
+    "workstream": "platform",
+    "epic": "notifications",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0211",
+    "workstream": "platform",
+    "epic": "notifications",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0212",
+    "workstream": "platform",
+    "epic": "notifications",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0213",
+    "workstream": "platform",
+    "epic": "analytics",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0214",
+    "workstream": "platform",
+    "epic": "analytics",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0215",
+    "workstream": "platform",
+    "epic": "analytics",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0216",
+    "workstream": "platform",
+    "epic": "analytics",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0217",
+    "workstream": "platform",
+    "epic": "observability",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0218",
+    "workstream": "platform",
+    "epic": "observability",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0219",
+    "workstream": "platform",
+    "epic": "observability",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0220",
+    "workstream": "platform",
+    "epic": "observability",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0221",
+    "workstream": "platform",
+    "epic": "backups",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0222",
+    "workstream": "platform",
+    "epic": "backups",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0223",
+    "workstream": "platform",
+    "epic": "backups",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0224",
+    "workstream": "platform",
+    "epic": "backups",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0225",
+    "workstream": "platform",
+    "epic": "restore",
+    "slice": "spec",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0226",
+    "workstream": "platform",
+    "epic": "restore",
+    "slice": "schema",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0227",
+    "workstream": "platform",
+    "epic": "restore",
+    "slice": "implementation",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  },
+  {
+    "id": "V9-0228",
+    "workstream": "platform",
+    "epic": "restore",
+    "slice": "tests/review",
+    "priority": "P1",
+    "status": "backlog",
+    "done_when": [
+      "Canonical contract implemented",
+      "Older conflicting definition marked superseded",
+      "Tests/review complete",
+      "Documentation updated"
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "inputs": [
+    "room polygon",
+    "qibla bearing",
+    "doors",
+    "windows",
+    "columns",
+    "fixed furniture",
+    "ceiling height",
+    "existing finishes",
+    "adjacent circulation",
+    "women/family allocation",
+    "accessible positions"
+  ],
+  "outputs": [
+    "qibla wall recommendation",
+    "saff lines",
+    "theoretical capacity",
+    "comfortable capacity",
+    "usable capacity",
+    "imam position",
+    "accessible prayer positions",
+    "shoe zone",
+    "entry conflict warnings",
+    "storage recommendations",
+    "audio recommendations",
+    "lighting recommendations",
+    "carpet quantity"
+  ],
+  "layout_variants": [
+    "rotate whole room usage",
+    "angled prayer rows within rectangular room",
+    "partial partition",
+    "multi-room overflow",
+    "street-aligned envelope with rotated prayer zone"
+  ],
+  "rules": [
+    "geometric prayer capacity is not code occupant load",
+    "show lost triangular area from qibla rotation",
+    "entrances crossing rows are flagged",
+    "columns reducing row continuity are flagged",
+    "women/family arrangement is project-defined and not hardcoded as a universal percentage"
+  ]
+}

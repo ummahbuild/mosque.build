@@ -1,0 +1,578 @@
+[
+  {
+    "id": "IA-001",
+    "group": "typology_intelligence",
+    "feature": "hypostyle plan generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-002",
+    "group": "typology_intelligence",
+    "feature": "four-iwan plan generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-003",
+    "group": "typology_intelligence",
+    "feature": "central-dome plan generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-004",
+    "group": "typology_intelligence",
+    "feature": "courtyard mosque generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-005",
+    "group": "typology_intelligence",
+    "feature": "multi-dome hall generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-006",
+    "group": "typology_intelligence",
+    "feature": "vernacular flat-roof mosque generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-007",
+    "group": "typology_intelligence",
+    "feature": "adaptive-reuse Islamic spatial layer",
+    "status": "specified"
+  },
+  {
+    "id": "IA-008",
+    "group": "typology_intelligence",
+    "feature": "regional typology compare",
+    "status": "specified"
+  },
+  {
+    "id": "IA-009",
+    "group": "typology_intelligence",
+    "feature": "typology lineage viewer",
+    "status": "specified"
+  },
+  {
+    "id": "IA-010",
+    "group": "typology_intelligence",
+    "feature": "typology suitability by climate/site/program",
+    "status": "specified"
+  },
+  {
+    "id": "IA-011",
+    "group": "pattern_geometry",
+    "feature": "8-point star grid",
+    "status": "specified"
+  },
+  {
+    "id": "IA-012",
+    "group": "pattern_geometry",
+    "feature": "10-point star grid",
+    "status": "specified"
+  },
+  {
+    "id": "IA-013",
+    "group": "pattern_geometry",
+    "feature": "12-point star grid",
+    "status": "specified"
+  },
+  {
+    "id": "IA-014",
+    "group": "pattern_geometry",
+    "feature": "6-fold rosette grid",
+    "status": "specified"
+  },
+  {
+    "id": "IA-015",
+    "group": "pattern_geometry",
+    "feature": "square-and-octagon grid",
+    "status": "specified"
+  },
+  {
+    "id": "IA-016",
+    "group": "pattern_geometry",
+    "feature": "girih-style strapwork generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-017",
+    "group": "pattern_geometry",
+    "feature": "interlace width control",
+    "status": "specified"
+  },
+  {
+    "id": "IA-018",
+    "group": "pattern_geometry",
+    "feature": "repeat-cell generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-019",
+    "group": "pattern_geometry",
+    "feature": "radial rosette generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-020",
+    "group": "pattern_geometry",
+    "feature": "border-band generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-021",
+    "group": "pattern_geometry",
+    "feature": "corner-resolution tool",
+    "status": "specified"
+  },
+  {
+    "id": "IA-022",
+    "group": "pattern_geometry",
+    "feature": "pattern crop/fit to panel",
+    "status": "specified"
+  },
+  {
+    "id": "IA-023",
+    "group": "pattern_geometry",
+    "feature": "pattern symmetry analyzer",
+    "status": "specified"
+  },
+  {
+    "id": "IA-024",
+    "group": "pattern_geometry",
+    "feature": "pattern density slider",
+    "status": "specified"
+  },
+  {
+    "id": "IA-025",
+    "group": "pattern_geometry",
+    "feature": "negative-space analyzer",
+    "status": "specified"
+  },
+  {
+    "id": "IA-026",
+    "group": "arabesque_vegetal",
+    "feature": "arabesque vine generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-027",
+    "group": "arabesque_vegetal",
+    "feature": "palmette motif library",
+    "status": "specified"
+  },
+  {
+    "id": "IA-028",
+    "group": "arabesque_vegetal",
+    "feature": "lotus/leaf motif library",
+    "status": "specified"
+  },
+  {
+    "id": "IA-029",
+    "group": "arabesque_vegetal",
+    "feature": "scroll density control",
+    "status": "specified"
+  },
+  {
+    "id": "IA-030",
+    "group": "arabesque_vegetal",
+    "feature": "mirror/rotate arabesque",
+    "status": "specified"
+  },
+  {
+    "id": "IA-031",
+    "group": "arabesque_vegetal",
+    "feature": "vegetal border generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-032",
+    "group": "arabesque_vegetal",
+    "feature": "panel fill grammar",
+    "status": "specified"
+  },
+  {
+    "id": "IA-033",
+    "group": "arabesque_vegetal",
+    "feature": "floral-geometric hybrid generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-034",
+    "group": "muqarnas_vaulting",
+    "feature": "muqarnas cell library",
+    "status": "specified"
+  },
+  {
+    "id": "IA-035",
+    "group": "muqarnas_vaulting",
+    "feature": "muqarnas tier generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-036",
+    "group": "muqarnas_vaulting",
+    "feature": "squinch transition generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-037",
+    "group": "muqarnas_vaulting",
+    "feature": "pendentive comparison",
+    "status": "specified"
+  },
+  {
+    "id": "IA-038",
+    "group": "muqarnas_vaulting",
+    "feature": "karbandi/rib-vault pattern generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-039",
+    "group": "muqarnas_vaulting",
+    "feature": "dome transition designer",
+    "status": "specified"
+  },
+  {
+    "id": "IA-040",
+    "group": "muqarnas_vaulting",
+    "feature": "muqarnas depth control",
+    "status": "specified"
+  },
+  {
+    "id": "IA-041",
+    "group": "muqarnas_vaulting",
+    "feature": "fabrication complexity estimate",
+    "status": "specified"
+  },
+  {
+    "id": "IA-042",
+    "group": "facade_screen",
+    "feature": "jali screen generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-043",
+    "group": "facade_screen",
+    "feature": "mashrabiya lattice generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-044",
+    "group": "facade_screen",
+    "feature": "geometric perforation generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-045",
+    "group": "facade_screen",
+    "feature": "privacy/daylight slider",
+    "status": "specified"
+  },
+  {
+    "id": "IA-046",
+    "group": "facade_screen",
+    "feature": "solar-shading analysis overlay",
+    "status": "specified"
+  },
+  {
+    "id": "IA-047",
+    "group": "facade_screen",
+    "feature": "screen panelization",
+    "status": "specified"
+  },
+  {
+    "id": "IA-048",
+    "group": "facade_screen",
+    "feature": "panel fabrication nesting",
+    "status": "specified"
+  },
+  {
+    "id": "IA-049",
+    "group": "facade_screen",
+    "feature": "facade motif mapping",
+    "status": "specified"
+  },
+  {
+    "id": "IA-050",
+    "group": "calligraphy_integration",
+    "feature": "calligraphy placement zones",
+    "status": "specified"
+  },
+  {
+    "id": "IA-051",
+    "group": "calligraphy_integration",
+    "feature": "frieze path generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-052",
+    "group": "calligraphy_integration",
+    "feature": "mihrab inscription zone",
+    "status": "specified"
+  },
+  {
+    "id": "IA-053",
+    "group": "calligraphy_integration",
+    "feature": "dome drum inscription zone",
+    "status": "specified"
+  },
+  {
+    "id": "IA-054",
+    "group": "calligraphy_integration",
+    "feature": "entrance inscription zone",
+    "status": "specified"
+  },
+  {
+    "id": "IA-055",
+    "group": "calligraphy_integration",
+    "feature": "placeholder-script mode",
+    "status": "specified"
+  },
+  {
+    "id": "IA-056",
+    "group": "calligraphy_integration",
+    "feature": "text-fit without distorting calligraphy",
+    "status": "specified"
+  },
+  {
+    "id": "IA-057",
+    "group": "calligraphy_integration",
+    "feature": "calligrapher review workflow",
+    "status": "specified"
+  },
+  {
+    "id": "IA-058",
+    "group": "mosque_elements",
+    "feature": "mihrab proportion presets",
+    "status": "specified"
+  },
+  {
+    "id": "IA-059",
+    "group": "mosque_elements",
+    "feature": "minbar style presets",
+    "status": "specified"
+  },
+  {
+    "id": "IA-060",
+    "group": "mosque_elements",
+    "feature": "dome proportion presets",
+    "status": "specified"
+  },
+  {
+    "id": "IA-061",
+    "group": "mosque_elements",
+    "feature": "minaret family presets",
+    "status": "specified"
+  },
+  {
+    "id": "IA-062",
+    "group": "mosque_elements",
+    "feature": "courtyard/sahn proportion tool",
+    "status": "specified"
+  },
+  {
+    "id": "IA-063",
+    "group": "mosque_elements",
+    "feature": "riwaq/arcade generator",
+    "status": "specified"
+  },
+  {
+    "id": "IA-064",
+    "group": "mosque_elements",
+    "feature": "iwan proportion tool",
+    "status": "specified"
+  },
+  {
+    "id": "IA-065",
+    "group": "mosque_elements",
+    "feature": "ablution courtyard integration",
+    "status": "specified"
+  },
+  {
+    "id": "IA-066",
+    "group": "materials_craft",
+    "feature": "zellige palette",
+    "status": "specified"
+  },
+  {
+    "id": "IA-067",
+    "group": "materials_craft",
+    "feature": "Iznik-inspired tile palette",
+    "status": "specified"
+  },
+  {
+    "id": "IA-068",
+    "group": "materials_craft",
+    "feature": "Persian glazed-tile palette",
+    "status": "specified"
+  },
+  {
+    "id": "IA-069",
+    "group": "materials_craft",
+    "feature": "brick pattern library",
+    "status": "specified"
+  },
+  {
+    "id": "IA-070",
+    "group": "materials_craft",
+    "feature": "carved stucco pattern mapping",
+    "status": "specified"
+  },
+  {
+    "id": "IA-071",
+    "group": "materials_craft",
+    "feature": "stone carving pattern mapping",
+    "status": "specified"
+  },
+  {
+    "id": "IA-072",
+    "group": "materials_craft",
+    "feature": "wood marquetry lattice",
+    "status": "specified"
+  },
+  {
+    "id": "IA-073",
+    "group": "materials_craft",
+    "feature": "painted timber ceiling palette",
+    "status": "specified"
+  },
+  {
+    "id": "IA-074",
+    "group": "materials_craft",
+    "feature": "earthen plaster palette",
+    "status": "specified"
+  },
+  {
+    "id": "IA-075",
+    "group": "materials_craft",
+    "feature": "local craft substitution suggestions",
+    "status": "specified"
+  },
+  {
+    "id": "IA-076",
+    "group": "regional_style_systems",
+    "feature": "Maghrebi-Andalusi style pack",
+    "status": "specified"
+  },
+  {
+    "id": "IA-077",
+    "group": "regional_style_systems",
+    "feature": "Ottoman style pack",
+    "status": "specified"
+  },
+  {
+    "id": "IA-078",
+    "group": "regional_style_systems",
+    "feature": "Persian/Iranian style pack",
+    "status": "specified"
+  },
+  {
+    "id": "IA-079",
+    "group": "regional_style_systems",
+    "feature": "Mamluk Egyptian style pack",
+    "status": "specified"
+  },
+  {
+    "id": "IA-080",
+    "group": "regional_style_systems",
+    "feature": "Sudano-Sahelian style pack",
+    "status": "specified"
+  },
+  {
+    "id": "IA-081",
+    "group": "regional_style_systems",
+    "feature": "Swahili coastal style pack",
+    "status": "specified"
+  },
+  {
+    "id": "IA-082",
+    "group": "regional_style_systems",
+    "feature": "South Asian Sultanate/Mughal style pack",
+    "status": "specified"
+  },
+  {
+    "id": "IA-083",
+    "group": "regional_style_systems",
+    "feature": "Malay-Indonesian style pack",
+    "status": "specified"
+  },
+  {
+    "id": "IA-084",
+    "group": "regional_style_systems",
+    "feature": "Chinese mosque regional pack",
+    "status": "specified"
+  },
+  {
+    "id": "IA-085",
+    "group": "regional_style_systems",
+    "feature": "Balkan mosque style pack",
+    "status": "specified"
+  },
+  {
+    "id": "IA-086",
+    "group": "regional_style_systems",
+    "feature": "contemporary minimal mosque pack",
+    "status": "specified"
+  },
+  {
+    "id": "IA-087",
+    "group": "design_guardrails",
+    "feature": "historic-source provenance badges",
+    "status": "specified"
+  },
+  {
+    "id": "IA-088",
+    "group": "design_guardrails",
+    "feature": "regional authenticity confidence",
+    "status": "specified"
+  },
+  {
+    "id": "IA-089",
+    "group": "design_guardrails",
+    "feature": "avoid-style-mixing warning",
+    "status": "specified"
+  },
+  {
+    "id": "IA-090",
+    "group": "design_guardrails",
+    "feature": "anachronism warning",
+    "status": "specified"
+  },
+  {
+    "id": "IA-091",
+    "group": "design_guardrails",
+    "feature": "craft feasibility warning",
+    "status": "specified"
+  },
+  {
+    "id": "IA-092",
+    "group": "design_guardrails",
+    "feature": "maintenance complexity score",
+    "status": "specified"
+  },
+  {
+    "id": "IA-093",
+    "group": "design_guardrails",
+    "feature": "local material substitution mode",
+    "status": "specified"
+  },
+  {
+    "id": "IA-094",
+    "group": "design_guardrails",
+    "feature": "ornament budget cap",
+    "status": "specified"
+  },
+  {
+    "id": "IA-095",
+    "group": "design_guardrails",
+    "feature": "ornament hierarchy by sacred/secondary spaces",
+    "status": "specified"
+  },
+  {
+    "id": "IA-096",
+    "group": "design_guardrails",
+    "feature": "copy/reference licensing",
+    "status": "specified"
+  }
+]

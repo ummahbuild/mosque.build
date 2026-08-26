@@ -1,0 +1,668 @@
+[
+  {
+    "id": "P3D-001",
+    "name": "3D Product Library",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-002",
+    "name": "Product 3D Viewer",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-003",
+    "name": "Place Product",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-004",
+    "name": "Compatibility Inspector",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-005",
+    "name": "Clearance Viewer",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-006",
+    "name": "Services Overlay",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-007",
+    "name": "Product Configurator",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-008",
+    "name": "Variant Compare",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-009",
+    "name": "Product Details",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-010",
+    "name": "Product References",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-011",
+    "name": "Project Product Palette",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-012",
+    "name": "Approved Product Library",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-013",
+    "name": "Generic Specification Library",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-014",
+    "name": "Vendor Product Upload",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-015",
+    "name": "Vendor 3D Upload",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-016",
+    "name": "CAD/BIM Upload",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-017",
+    "name": "3D Processing",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-018",
+    "name": "Dimension Verification",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-019",
+    "name": "Anchor Editor",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-020",
+    "name": "Connection Editor",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-021",
+    "name": "Clearance Zone Editor",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-022",
+    "name": "LOD Preview",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-023",
+    "name": "Texture Optimizer",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-024",
+    "name": "3D QA",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-025",
+    "name": "Technical Review",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-026",
+    "name": "Vendor Preview",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-027",
+    "name": "Publish Product",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-028",
+    "name": "Designer Onboarding",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-029",
+    "name": "Vendor Onboarding",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-030",
+    "name": "Modeler Onboarding",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-031",
+    "name": "Project Team Onboarding",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-032",
+    "name": "Tutorial Project",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-033",
+    "name": "Product Placement Tutorial",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-034",
+    "name": "Cost Impact Tutorial",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-035",
+    "name": "Lead Time Tutorial",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-036",
+    "name": "Design Product Status",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  },
+  {
+    "id": "P3D-037",
+    "name": "As-Built Product View",
+    "states": [
+      "default",
+      "loading",
+      "processing",
+      "empty",
+      "error",
+      "review_required",
+      "permission_denied"
+    ],
+    "must_show": [
+      "product/version",
+      "verification status",
+      "project approval status if applicable"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "jurisdiction": "Kenya",
+  "observed": "2026-08-16",
+  "source_id": "src_kra_import",
+  "components": [
+    {
+      "name": "import_duty",
+      "rate_rule": "depends on HS item; KRA page states common rates 0%, 10%, 25%; sensitive items may be higher",
+      "apply_to": "customs value",
+      "exact_rate_requires_hs": true
+    },
+    {
+      "name": "VAT",
+      "rate": 0.16,
+      "apply_to": "tax base per applicable law",
+      "note": "KRA page states normal VAT rate 16%; exemptions/zero-rating may apply."
+    },
+    {
+      "name": "IDF",
+      "rate": 0.035,
+      "apply_to": "value of imports per KRA page",
+      "note": "Verify current statute before production calculation."
+    },
+    {
+      "name": "RDL",
+      "rate": 0.02,
+      "apply_to": "value of imports per KRA page",
+      "note": "Verify current statute before production calculation."
+    },
+    {
+      "name": "excise",
+      "rate_rule": "only if product is excisable",
+      "exact_rate_requires_product_law": true
+    }
+  ],
+  "required_import_docs": [
+    "commercial/pro-forma invoice",
+    "bill of lading/airway bill",
+    "certificate of origin",
+    "freight invoice for sea cargo",
+    "packing list",
+    "PVoC/CoC or standards documents when applicable",
+    "permits for restricted goods"
+  ],
+  "engine_guardrail": "Never apply a generic 25% duty to all mosque products. Resolve HS classification/current tariff or mark duty unknown."
+}

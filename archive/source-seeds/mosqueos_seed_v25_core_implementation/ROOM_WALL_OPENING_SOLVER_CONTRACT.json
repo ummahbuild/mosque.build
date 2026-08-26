@@ -1,0 +1,37 @@
+{
+  "entities": [
+    "wall segment",
+    "wall join",
+    "opening",
+    "room loop",
+    "column/obstacle",
+    "level"
+  ],
+  "algorithms": [
+    "normalize wall endpoints",
+    "merge near-coincident endpoints",
+    "build planar adjacency graph",
+    "find closed cycles",
+    "discard exterior/infinite face candidate",
+    "create room polygons",
+    "associate openings to host walls",
+    "detect dangling walls",
+    "detect overlapping walls",
+    "detect duplicate walls",
+    "detect invalid crossing walls",
+    "repair small gaps within tolerance",
+    "preserve unresolved large gaps as model-health issues"
+  ],
+  "outputs": [
+    "room polygons",
+    "wall-room adjacency",
+    "opening-room adjacency",
+    "model health issues"
+  ],
+  "tolerances": {
+    "snap_m": 0.01,
+    "gap_repair_m": 0.03,
+    "angle_deg": 0.5
+  },
+  "rule": "Automatic repair only applies inside explicit tolerance; larger geometry uncertainty requires user review."
+}

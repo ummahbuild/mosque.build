@@ -1,0 +1,52 @@
+[
+  {
+    "rank": 1,
+    "task": "implement core SQL migrations + tested RLS",
+    "why": "all application data depends on it"
+  },
+  {
+    "rank": 2,
+    "task": "implement geometry kernel primitives + tests",
+    "why": "design, scan, takeoff, products depend on deterministic geometry"
+  },
+  {
+    "rank": 3,
+    "task": "implement project/scenario/version APIs",
+    "why": "unblocks real editor persistence"
+  },
+  {
+    "rank": 4,
+    "task": "implement Expo offline outbox",
+    "why": "field workflows need reliable disconnected operation"
+  },
+  {
+    "rank": 5,
+    "task": "implement takeoff + assembly engine",
+    "why": "connects design to cost/procurement"
+  },
+  {
+    "rank": 6,
+    "task": "implement project cart + RFQ",
+    "why": "connects marketplace to real projects"
+  },
+  {
+    "rank": 7,
+    "task": "implement construction activities/inspection backend",
+    "why": "moves product from planning into delivery"
+  },
+  {
+    "rank": 8,
+    "task": "populate Nairobi launch mosque/vendor/product/cost data",
+    "why": "turns app from demo into useful launch product"
+  },
+  {
+    "rank": 9,
+    "task": "complete Nairobi/Kenya regulatory pack",
+    "why": "critical for conversion/build guidance"
+  },
+  {
+    "rank": 10,
+    "task": "implement public transparency snapshots",
+    "why": "connects fundraising trust to project delivery"
+  }
+]

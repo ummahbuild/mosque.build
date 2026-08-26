@@ -1,0 +1,48 @@
+{
+  "lead_time_components": [
+    "design/spec approval",
+    "sample approval",
+    "submittal approval",
+    "quote validity",
+    "deposit/payment prerequisite",
+    "manufacturing",
+    "origin inland",
+    "export docs",
+    "international freight",
+    "customs clearance",
+    "destination inland",
+    "site storage readiness",
+    "installation mobilization",
+    "installation",
+    "commissioning"
+  ],
+  "schedule_logic": [
+    "required_on_site_date = construction activity need date - project buffer",
+    "latest_order_date = required_on_site_date - total procurement lead time",
+    "float = latest_order_date - today_or_planned_order_date",
+    "negative float creates schedule risk alert"
+  ],
+  "shipping_modes": [
+    "local delivery",
+    "truck regional",
+    "sea LCL",
+    "sea FCL",
+    "air freight",
+    "courier/small parcel"
+  ],
+  "uncertainty": [
+    "supplier stated lead time",
+    "historic project lead time",
+    "customs range",
+    "shipping range",
+    "confidence"
+  ],
+  "alerts": [
+    "order-by date approaching",
+    "quote expires before approval",
+    "sample delays order",
+    "customs docs missing",
+    "arrival after install activity",
+    "storage not ready"
+  ]
+}

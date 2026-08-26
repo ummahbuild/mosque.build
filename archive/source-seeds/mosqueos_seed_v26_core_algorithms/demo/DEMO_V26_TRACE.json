@@ -1,0 +1,31 @@
+{
+  "rooms": 1,
+  "roomArea": 60,
+  "saff": {
+    "usable": 75,
+    "rows": 5
+  },
+  "takeoff": [
+    {
+      "objectId": "prayer",
+      "ruleKey": "carpet",
+      "quantity": 64.2,
+      "unit": "m2"
+    }
+  ],
+  "cost": {
+    "total": 1605,
+    "priced": 1,
+    "unknown": 0,
+    "details": [
+      {
+        "objectId": "prayer",
+        "ruleKey": "carpet",
+        "quantity": 64.2,
+        "unit": "m2",
+        "rate": 25,
+        "cost": 1605
+      }
+    ]
+  }
+}

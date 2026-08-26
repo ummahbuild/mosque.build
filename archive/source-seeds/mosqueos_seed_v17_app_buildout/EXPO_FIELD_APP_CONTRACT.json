@@ -1,0 +1,83 @@
+{
+  "home_cards": [
+    "today plan",
+    "deliveries",
+    "inspections",
+    "overdue RFIs",
+    "open punch items",
+    "weather",
+    "crew summary",
+    "sync queue"
+  ],
+  "daily_report": [
+    "crew",
+    "trade",
+    "activities",
+    "quantities",
+    "equipment",
+    "deliveries",
+    "visitors",
+    "safety",
+    "quality",
+    "delays",
+    "photos",
+    "tomorrow"
+  ],
+  "photo_capture": [
+    "project",
+    "floor",
+    "room/zone",
+    "drawing pin",
+    "trade",
+    "activity",
+    "orientation",
+    "timestamp",
+    "optional GPS",
+    "offline queue"
+  ],
+  "delivery": [
+    "PO",
+    "supplier",
+    "items",
+    "quantity",
+    "damage",
+    "documents",
+    "photos",
+    "accepted/rejected/quarantine"
+  ],
+  "inspection": [
+    "ITP",
+    "checklist",
+    "measurement",
+    "photo",
+    "pass/fail",
+    "defects",
+    "signature",
+    "reinspection"
+  ],
+  "issue": [
+    "type",
+    "priority",
+    "location",
+    "object",
+    "photo",
+    "assignee",
+    "due",
+    "cost/schedule potential"
+  ],
+  "qr_scan": [
+    "asset",
+    "product",
+    "delivery",
+    "room",
+    "document",
+    "inspection point"
+  ],
+  "offline": [
+    "SQLite/local store",
+    "mutation outbox",
+    "attachment queue",
+    "conflict center",
+    "retry status"
+  ]
+}

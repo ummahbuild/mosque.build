@@ -1,0 +1,73 @@
+{
+  "modes": [
+    "Select",
+    "Draw",
+    "Rooms",
+    "Structure",
+    "Systems",
+    "Products",
+    "Prayer",
+    "Wudu",
+    "Accessibility",
+    "Circulation",
+    "Measure",
+    "Issues",
+    "Review"
+  ],
+  "selection_inspector": [
+    "identity",
+    "dimensions",
+    "type",
+    "host",
+    "materials",
+    "requirements",
+    "cost",
+    "schedule",
+    "product",
+    "procurement",
+    "quality",
+    "asset"
+  ],
+  "commands": [
+    "undo",
+    "redo",
+    "duplicate",
+    "delete",
+    "hide",
+    "lock",
+    "isolate",
+    "measure",
+    "comment",
+    "issue",
+    "swap product",
+    "make generic"
+  ],
+  "view_modes": [
+    "3D",
+    "2D",
+    "Split",
+    "Section",
+    "Site",
+    "Systems",
+    "Progress",
+    "Procurement",
+    "Funding",
+    "Maintenance"
+  ],
+  "status_overlays": [
+    "design maturity",
+    "compatibility",
+    "cost risk",
+    "permit risk",
+    "procurement status",
+    "construction progress",
+    "inspection status",
+    "funding status",
+    "asset condition"
+  ],
+  "autosave": {
+    "local_draft": true,
+    "server_checkpoint": "debounced/version-aware",
+    "manual_milestone": "explicit saved version"
+  }
+}

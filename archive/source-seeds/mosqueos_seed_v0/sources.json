@@ -1,0 +1,248 @@
+[
+  {
+    "id": "src_archnet_cad_collection",
+    "name": "Archnet CAD drawing (.dwg) files collection",
+    "url": "https://www.archnet.org/collections/843",
+    "domain": "archnet.org",
+    "type": "architectural_archive",
+    "use": [
+      "blueprints",
+      "plans",
+      "sections",
+      "elevations",
+      "cad"
+    ],
+    "rights_note": "Index metadata and link to source. Respect item-level copyright/terms; do not mirror DWG files without permission.",
+    "review_status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_archnet_mosque_course",
+    "name": "Archnet — The Architecture of the Mosque: Historical Roots and Contemporary Expressions",
+    "url": "https://www.archnet.org/collections/2531",
+    "domain": "archnet.org",
+    "type": "educational_collection",
+    "use": [
+      "styles",
+      "history",
+      "contemporary_mosques",
+      "curriculum"
+    ],
+    "rights_note": "Index and summarize; preserve source attribution.",
+    "review_status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_mosquebuild_shop",
+    "name": "MosqueBuild / Stoneplus shop",
+    "url": "https://www.mosquebuild.com/shop/",
+    "domain": "mosquebuild.com",
+    "type": "supplier_catalog",
+    "use": [
+      "components",
+      "supplier_discovery",
+      "price_snapshot",
+      "product_taxonomy"
+    ],
+    "rights_note": "Do not republish proprietary product photos/descriptions. Store product/category metadata, URL, observed price/date and permission status.",
+    "review_status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_akdn_bait_ur_rouf",
+    "name": "AKDN — Bait Ur Rouf Mosque",
+    "url": "https://the.akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/bait-ur-rouf-mosque",
+    "domain": "the.akdn",
+    "type": "project_archive",
+    "use": [
+      "mosque_record",
+      "architect",
+      "qibla_geometry",
+      "brick",
+      "daylight",
+      "ventilation",
+      "community_funding"
+    ],
+    "rights_note": "Metadata/reference; images are credited and not presumed reusable.",
+    "review_status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_akdn_niono",
+    "name": "AKDN — Great Mosque of Niono",
+    "url": "https://the.akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/great-mosque-niono",
+    "domain": "the.akdn",
+    "type": "project_archive",
+    "use": [
+      "mosque_record",
+      "vernacular",
+      "mud_brick",
+      "local_craft",
+      "west_africa"
+    ],
+    "rights_note": "Metadata/reference; images are credited and not presumed reusable.",
+    "review_status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_akdn_yaama",
+    "name": "AKDN — Yaama Mosque",
+    "url": "https://the.akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/yaama-mosque",
+    "domain": "the.akdn",
+    "type": "project_archive",
+    "use": [
+      "mosque_record",
+      "mud_brick",
+      "hypostyle",
+      "niger",
+      "community_build"
+    ],
+    "rights_note": "Metadata/reference; images are credited and not presumed reusable.",
+    "review_status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_akdn_said_naum",
+    "name": "AKDN — Saïd Naum Mosque",
+    "url": "https://the.akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/sa%C3%AFd-naum-mosque",
+    "domain": "the.akdn",
+    "type": "project_archive",
+    "use": [
+      "mosque_record",
+      "indonesia",
+      "regional_modernism"
+    ],
+    "rights_note": "Metadata/reference; images are credited and not presumed reusable.",
+    "review_status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_akdn_grand_national_assembly",
+    "name": "AKDN — Mosque of the Grand National Assembly",
+    "url": "https://the.akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/mosque-grand-national-assembly",
+    "domain": "the.akdn",
+    "type": "project_archive",
+    "use": [
+      "mosque_record",
+      "turkiye",
+      "modern",
+      "glazed_qibla_wall"
+    ],
+    "rights_note": "Metadata/reference; images are credited and not presumed reusable.",
+    "review_status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_akdn_chandgaon",
+    "name": "AKDN — Chandgaon Mosque",
+    "url": "https://the.akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/chandgaon-mosque",
+    "domain": "the.akdn",
+    "type": "project_archive",
+    "use": [
+      "mosque_record",
+      "bangladesh",
+      "contemporary",
+      "light"
+    ],
+    "rights_note": "Metadata/reference; images are credited and not presumed reusable.",
+    "review_status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_akdn_corniche",
+    "name": "AKDN — Corniche Mosque",
+    "url": "https://the.akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/corniche-mosque",
+    "domain": "the.akdn",
+    "type": "project_archive",
+    "use": [
+      "mosque_record",
+      "brick",
+      "vault",
+      "dome",
+      "minaret",
+      "traditional_methods"
+    ],
+    "rights_note": "Metadata/reference; images are credited and not presumed reusable.",
+    "review_status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_akdn_bhong",
+    "name": "AKDN — Bhong Mosque",
+    "url": "https://the.akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/bhong-mosque",
+    "domain": "the.akdn",
+    "type": "project_archive",
+    "use": [
+      "mosque_record",
+      "craft",
+      "pakistan",
+      "multi_style"
+    ],
+    "rights_note": "Metadata/reference; images are credited and not presumed reusable.",
+    "review_status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_akdn_qaraouiyine",
+    "name": "AKDN — Rehabilitation of Al-Qaraouiyine Mosque",
+    "url": "https://the.akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/rehabilitation-al-qaraouiyine-mosque",
+    "domain": "the.akdn",
+    "type": "restoration_archive",
+    "use": [
+      "restoration",
+      "historic_mosque",
+      "madrasa_university",
+      "morocco"
+    ],
+    "rights_note": "Metadata/reference; images are credited and not presumed reusable.",
+    "review_status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_akdn_white_mosque",
+    "name": "AKDN — Sherefudin's White Mosque",
+    "url": "https://the.akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/akaa/sherefudins-white-mosque",
+    "domain": "the.akdn",
+    "type": "project_archive",
+    "use": [
+      "bosnia",
+      "modern_mosque",
+      "community_center",
+      "daylight"
+    ],
+    "rights_note": "Metadata/reference; images are credited and not presumed reusable.",
+    "review_status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_archnet_hazrat_bilal_drawings",
+    "name": "Archnet — Hazrat Bilal Mosque Drawings",
+    "url": "https://www.archnet.org/publications/10196",
+    "domain": "archnet.org",
+    "type": "drawing_package",
+    "use": [
+      "site_plan",
+      "floor_plan",
+      "elevation",
+      "section",
+      "restoration"
+    ],
+    "rights_note": "Link/index only unless reuse permission is verified.",
+    "review_status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_archnet_shah_sultan_dwg",
+    "name": "Archnet — Shah Sultan Mosque floor plan and elevation",
+    "url": "https://www.archnet.org/publications/1455",
+    "domain": "archnet.org",
+    "type": "cad_drawing",
+    "use": [
+      "floor_plan",
+      "elevation",
+      "dwg"
+    ],
+    "rights_note": "Download/reuse only according to item-level copyright terms.",
+    "review_status": "verified_2026-08-16"
+  },
+  {
+    "id": "src_archnet_ibn_tulun_dwg",
+    "name": "Archnet — Ibn Tulun Mosque floor plan",
+    "url": "https://www.archnet.org/publications/1245",
+    "domain": "archnet.org",
+    "type": "cad_drawing",
+    "use": [
+      "floor_plan",
+      "dwg",
+      "historic_mosque"
+    ],
+    "rights_note": "Download/reuse only according to item-level copyright terms.",
+    "review_status": "verified_2026-08-16"
+  }
+]

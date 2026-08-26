@@ -1,0 +1,76 @@
+{
+  "systems": [
+    {
+      "id": "facade_trellis_vine",
+      "name": "Independent trellis + climber",
+      "risk": "lower facade moisture risk than direct attachment",
+      "checks": [
+        "trellis structure",
+        "offset from wall",
+        "irrigation",
+        "access",
+        "plant weight/wind",
+        "fire clearance"
+      ]
+    },
+    {
+      "id": "facade_cable_green",
+      "name": "Cable-supported climber system",
+      "checks": [
+        "anchors",
+        "cable tension",
+        "wall waterproofing isolation",
+        "plant load",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "facade_planter_screen",
+      "name": "Planter + screen facade",
+      "checks": [
+        "planter load",
+        "drainage",
+        "overflow",
+        "waterproofing",
+        "root containment",
+        "access"
+      ]
+    },
+    {
+      "id": "facade_living_wall",
+      "name": "Living wall/module system",
+      "checks": [
+        "support load",
+        "continuous irrigation",
+        "drainage",
+        "fertigation if used",
+        "replacement access",
+        "power/pumps if applicable"
+      ],
+      "maintenance": "high"
+    },
+    {
+      "id": "facade_green_pergola",
+      "name": "Vegetated pergola",
+      "checks": [
+        "structure",
+        "shade geometry",
+        "plant support",
+        "irrigation",
+        "leaf/fruit drop",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "facade_green_jali",
+      "name": "Planted jali/secondary screen hybrid",
+      "checks": [
+        "do not block required ventilation/egress",
+        "plant growth clearance",
+        "pattern visibility",
+        "irrigation isolation"
+      ]
+    }
+  ],
+  "rule": "Vegetation is modeled as a separate maintainable system from the weatherproof building envelope unless a professionally designed integrated system explicitly says otherwise."
+}

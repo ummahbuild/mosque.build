@@ -1,0 +1,688 @@
+[
+  {
+    "id": "AUTH-001",
+    "domain": "identity",
+    "name": "Authenticate user",
+    "trigger": "login/signup/deep link",
+    "inputs": [
+      "email/phone/oauth credential",
+      "device/session"
+    ],
+    "auth": "Supabase Auth",
+    "validation": [
+      "credential validity",
+      "rate limits",
+      "MFA if required"
+    ],
+    "writes": [
+      "auth.users session",
+      "profile bootstrap if new"
+    ],
+    "events": [
+      "user.authenticated"
+    ],
+    "downstream": [
+      "load org memberships",
+      "load entitlements",
+      "load permissions"
+    ],
+    "failures": [
+      "invalid credential",
+      "MFA required",
+      "provider unavailable"
+    ],
+    "audit": "security auth event",
+    "ui_state": "authenticated / verification required / error"
+  },
+  {
+    "id": "DIR-001",
+    "domain": "directory",
+    "name": "Ingest mosque candidate",
+    "trigger": "scheduled import/manual discovery/provider event",
+    "inputs": [
+      "OSM/Google/Wikidata/official source candidate"
+    ],
+    "auth": "server ingestion role",
+    "validation": [
+      "source allowed",
+      "provider terms",
+      "minimum identity fields"
+    ],
+    "writes": [
+      "ingestion_candidate",
+      "provider_link"
+    ],
+    "events": [
+      "mosque.candidate_discovered"
+    ],
+    "downstream": [
+      "normalize",
+      "dedupe/entity match",
+      "review queue"
+    ],
+    "failures": [
+      "source timeout",
+      "invalid coordinates",
+      "duplicate"
+    ],
+    "audit": "ingestion job log",
+    "ui_state": "internal candidate only"
+  },
+  {
+    "id": "DIR-002",
+    "domain": "directory",
+    "name": "Verify and publish mosque profile",
+    "trigger": "candidate reviewed or mosque claim",
+    "inputs": [
+      "candidate",
+      "official evidence",
+      "claimed admin edits"
+    ],
+    "auth": "reviewer/platform editor or scoped mosque admin",
+    "validation": [
+      "identity",
+      "active status",
+      "location",
+      "rights",
+      "source freshness"
+    ],
+    "writes": [
+      "mosques",
+      "aliases",
+      "facilities",
+      "hours",
+      "services",
+      "provider links"
+    ],
+    "events": [
+      "mosque.verified",
+      "mosque.published"
+    ],
+    "downstream": [
+      "search index",
+      "SEO page",
+      "map cache",
+      "related content links"
+    ],
+    "failures": [
+      "conflicting sources",
+      "unverified status",
+      "rights issue"
+    ],
+    "audit": "field-level provenance + change log",
+    "ui_state": "published / limited info / disputed"
+  },
+  {
+    "id": "DES-001",
+    "domain": "design",
+    "name": "Create/branch mosque design scenario",
+    "trigger": "user starts mockup or duplicates public design",
+    "inputs": [
+      "project",
+      "base template or public design",
+      "site/program goals"
+    ],
+    "auth": "project edit capability",
+    "validation": [
+      "license/copy permission if based on public design",
+      "project membership"
+    ],
+    "writes": [
+      "design_scenario",
+      "design_version",
+      "source_design_reference"
+    ],
+    "events": [
+      "design.scenario_created"
+    ],
+    "downstream": [
+      "geometry kernel",
+      "cost estimate",
+      "permit checks",
+      "render previews"
+    ],
+    "failures": [
+      "unsupported import",
+      "license restriction",
+      "invalid geometry"
+    ],
+    "audit": "scenario lineage",
+    "ui_state": "working design"
+  },
+  {
+    "id": "DES-002",
+    "domain": "design",
+    "name": "Publish reusable mosque design",
+    "trigger": "designer/owner publishes approved concept/template",
+    "inputs": [
+      "approved design version",
+      "license",
+      "credits",
+      "render set",
+      "floor plans",
+      "metadata"
+    ],
+    "auth": "owner/designer + publish capability",
+    "validation": [
+      "rights ownership",
+      "no confidential project data",
+      "structural/legal disclaimer",
+      "license selected"
+    ],
+    "writes": [
+      "public_design",
+      "design_license",
+      "design_files",
+      "credits",
+      "copy_count"
+    ],
+    "events": [
+      "design.published_public"
+    ],
+    "downstream": [
+      "design gallery",
+      "SEO page",
+      "copy/fork action",
+      "architect portfolio"
+    ],
+    "failures": [
+      "rights unclear",
+      "confidential content",
+      "missing license"
+    ],
+    "audit": "publication and revision history",
+    "ui_state": "public template / reference-only / copyable"
+  },
+  {
+    "id": "DES-003",
+    "domain": "design",
+    "name": "Re-upload external architect revision",
+    "trigger": "DWG/DXF/IFC/PDF/image upload",
+    "inputs": [
+      "external file",
+      "target project/scenario"
+    ],
+    "auth": "project edit + file permission",
+    "validation": [
+      "file type",
+      "malware scan",
+      "rights/source metadata"
+    ],
+    "writes": [
+      "source_asset",
+      "import_job",
+      "design_diff"
+    ],
+    "events": [
+      "design.external_revision_uploaded"
+    ],
+    "downstream": [
+      "parse",
+      "calibrate",
+      "diff",
+      "manual reconciliation",
+      "new design version"
+    ],
+    "failures": [
+      "parse failure",
+      "unsupported geometry",
+      "conflict"
+    ],
+    "audit": "source file hash + accepted changes",
+    "ui_state": "diff review / import failed / merged"
+  },
+  {
+    "id": "COST-001",
+    "domain": "cost",
+    "name": "Generate versioned estimate",
+    "trigger": "design/program/material change or manual estimate",
+    "inputs": [
+      "design version",
+      "regional cost book",
+      "FX snapshot",
+      "supplier quotes",
+      "assemblies"
+    ],
+    "auth": "project cost capability",
+    "validation": [
+      "price freshness",
+      "currency/source",
+      "unknown values flagged"
+    ],
+    "writes": [
+      "cost_estimate",
+      "cost_lines",
+      "fx_snapshot",
+      "confidence"
+    ],
+    "events": [
+      "cost.estimate_created"
+    ],
+    "downstream": [
+      "budget dashboard",
+      "funding gap",
+      "campaign drift check",
+      "cash flow"
+    ],
+    "failures": [
+      "missing price data",
+      "stale quote",
+      "unknown duty"
+    ],
+    "audit": "immutable estimate inputs",
+    "ui_state": "low/base/high or P10/P50/P90"
+  },
+  {
+    "id": "SRC-001",
+    "domain": "sourcing",
+    "name": "Vendor publishes product/service",
+    "trigger": "vendor creates listing/feed",
+    "inputs": [
+      "vendor identity",
+      "product/service",
+      "technical docs",
+      "price/quote fields",
+      "media",
+      "delivery regions"
+    ],
+    "auth": "verified vendor role",
+    "validation": [
+      "vendor verification",
+      "category",
+      "technical fields",
+      "rights",
+      "claims moderation"
+    ],
+    "writes": [
+      "supplier",
+      "product",
+      "offer",
+      "technical_doc",
+      "price_snapshot"
+    ],
+    "events": [
+      "vendor.listing_submitted"
+    ],
+    "downstream": [
+      "moderation",
+      "search index",
+      "product gallery",
+      "supplier profile"
+    ],
+    "failures": [
+      "unverified vendor",
+      "copyright issue",
+      "misleading certification"
+    ],
+    "audit": "vendor + reviewer history",
+    "ui_state": "draft / under review / published / suspended"
+  },
+  {
+    "id": "SRC-002",
+    "domain": "sourcing",
+    "name": "Vendor adds real mosque reference project",
+    "trigger": "vendor submits portfolio reference",
+    "inputs": [
+      "mosque/project identity",
+      "scope supplied/work performed",
+      "dates",
+      "photos/docs",
+      "client contact/evidence optional"
+    ],
+    "auth": "verified vendor",
+    "validation": [
+      "match real mosque/project",
+      "evidence review",
+      "permission for media",
+      "no false endorsement"
+    ],
+    "writes": [
+      "vendor_reference",
+      "mosque_vendor_link",
+      "reference_evidence"
+    ],
+    "events": [
+      "vendor.reference_submitted"
+    ],
+    "downstream": [
+      "mosque-side confirmation request",
+      "review",
+      "portfolio badge"
+    ],
+    "failures": [
+      "unverifiable project",
+      "client disputes claim",
+      "rights issue"
+    ],
+    "audit": "evidence + reviewer + mosque confirmation",
+    "ui_state": "self-reported / verified / disputed"
+  },
+  {
+    "id": "PROC-001",
+    "domain": "procurement",
+    "name": "RFQ and quote comparison",
+    "trigger": "project item ready for sourcing",
+    "inputs": [
+      "approved spec",
+      "shortlisted vendors",
+      "quantity",
+      "delivery location"
+    ],
+    "auth": "procurement role",
+    "validation": [
+      "spec completeness",
+      "vendor eligibility"
+    ],
+    "writes": [
+      "rfq",
+      "quote",
+      "quote_normalization",
+      "award_recommendation"
+    ],
+    "events": [
+      "rfq.issued",
+      "quote.received"
+    ],
+    "downstream": [
+      "technical review",
+      "commercial compare",
+      "PO"
+    ],
+    "failures": [
+      "quote expired",
+      "spec deviation",
+      "currency ambiguity"
+    ],
+    "audit": "bid/award history",
+    "ui_state": "open / compare / awarded"
+  },
+  {
+    "id": "FUND-001",
+    "domain": "fundraising",
+    "name": "Create campaign from approved project baseline",
+    "trigger": "fundraising team starts campaign",
+    "inputs": [
+      "verified recipient entity",
+      "project/design version",
+      "cost baseline",
+      "fund restriction",
+      "campaign story"
+    ],
+    "auth": "fundraising + finance approval",
+    "validation": [
+      "recipient verification",
+      "tax disclosure status",
+      "restricted fund terms",
+      "public-safe design assets"
+    ],
+    "writes": [
+      "campaign",
+      "campaign_version",
+      "campaign_budget",
+      "funding_channel_links"
+    ],
+    "events": [
+      "campaign.created"
+    ],
+    "downstream": [
+      "Stripe/PayPal/direct channels",
+      "LaunchGood external link",
+      "public campaign page",
+      "share kit"
+    ],
+    "failures": [
+      "recipient unverified",
+      "tax status unknown",
+      "budget not approved"
+    ],
+    "audit": "campaign version history",
+    "ui_state": "draft / review / live"
+  },
+  {
+    "id": "FUND-002",
+    "domain": "fundraising",
+    "name": "Aggregate fundraising across channels",
+    "trigger": "payment webhook/manual sync/external campaign refresh",
+    "inputs": [
+      "Stripe",
+      "PayPal",
+      "LaunchGood snapshot",
+      "bank transfer",
+      "M-Pesa",
+      "cash deposit",
+      "pledges",
+      "grants",
+      "in-kind"
+    ],
+    "auth": "server connectors + finance role",
+    "validation": [
+      "idempotency",
+      "currency conversion",
+      "channel/source ID",
+      "settlement state"
+    ],
+    "writes": [
+      "funding_transactions",
+      "external_campaign_snapshots",
+      "pledges",
+      "grants",
+      "in_kind_contributions",
+      "reconciliation_entries"
+    ],
+    "events": [
+      "funding.aggregate_updated"
+    ],
+    "downstream": [
+      "campaign progress",
+      "fund balances",
+      "cash-flow",
+      "public transparency",
+      "3D funded objects"
+    ],
+    "failures": [
+      "provider unavailable",
+      "unmatched transfer",
+      "duplicate webhook",
+      "FX missing"
+    ],
+    "audit": "source transaction IDs + reconciliation log",
+    "ui_state": "gross / fees / net / pledged / received"
+  },
+  {
+    "id": "FUND-003",
+    "domain": "fundraising",
+    "name": "Verify nonprofit/charity/fiscal sponsor status",
+    "trigger": "recipient onboarding or periodic review",
+    "inputs": [
+      "legal name",
+      "EIN/registration",
+      "IRS/charity evidence",
+      "fiscal sponsorship agreement",
+      "authorized representative"
+    ],
+    "auth": "finance/legal reviewer",
+    "validation": [
+      "jurisdiction source",
+      "document validity",
+      "recipient bank/entity match"
+    ],
+    "writes": [
+      "legal_entity_status",
+      "tax_receipt_policy",
+      "verification_record"
+    ],
+    "events": [
+      "recipient.verification_updated"
+    ],
+    "downstream": [
+      "tax-deductible display gate",
+      "receipt issuer config",
+      "campaign eligibility"
+    ],
+    "failures": [
+      "status unclear",
+      "expired documentation",
+      "entity mismatch"
+    ],
+    "audit": "reviewer + evidence + date",
+    "ui_state": "verified / pending / unverified / expired"
+  },
+  {
+    "id": "FUND-004",
+    "domain": "fundraising",
+    "name": "Publish financial and construction transparency page",
+    "trigger": "campaign/project goes public or scheduled update",
+    "inputs": [
+      "approved budget version",
+      "fundraising aggregates",
+      "approved progress",
+      "approved photos",
+      "change-order summary"
+    ],
+    "auth": "project/fundraising publish capability",
+    "validation": [
+      "no confidential contract/donor data",
+      "numbers reconcile",
+      "design/budget version current"
+    ],
+    "writes": [
+      "public_transparency_snapshot"
+    ],
+    "events": [
+      "transparency.snapshot_published"
+    ],
+    "downstream": [
+      "public campaign",
+      "donor updates",
+      "SEO/share cards"
+    ],
+    "failures": [
+      "reconciliation mismatch",
+      "stale project baseline",
+      "privacy conflict"
+    ],
+    "audit": "snapshot hash + approver",
+    "ui_state": "public raised/spent/progress report"
+  },
+  {
+    "id": "BUILD-001",
+    "domain": "construction",
+    "name": "Record field progress",
+    "trigger": "daily report/photo/inspection/quantity update",
+    "inputs": [
+      "activity",
+      "location",
+      "quantity",
+      "photos",
+      "crew",
+      "inspection evidence"
+    ],
+    "auth": "field/project role",
+    "validation": [
+      "project scope",
+      "offline mutation ID",
+      "evidence"
+    ],
+    "writes": [
+      "daily_report",
+      "progress_update",
+      "site_media"
+    ],
+    "events": [
+      "progress.updated"
+    ],
+    "downstream": [
+      "schedule",
+      "payment review",
+      "public progress candidate",
+      "3D status"
+    ],
+    "failures": [
+      "offline conflict",
+      "invalid activity",
+      "missing evidence"
+    ],
+    "audit": "reporter/device/time",
+    "ui_state": "reported / verified / certified"
+  },
+  {
+    "id": "BUILD-002",
+    "domain": "construction",
+    "name": "Certify progress/payment",
+    "trigger": "payment application or milestone review",
+    "inputs": [
+      "schedule of values",
+      "reported progress",
+      "verified quantities",
+      "inspections",
+      "changes"
+    ],
+    "auth": "authorized certifier/finance",
+    "validation": [
+      "baseline",
+      "approved changes",
+      "evidence",
+      "retainage rules"
+    ],
+    "writes": [
+      "payment_application",
+      "certified_progress",
+      "payment_certificate"
+    ],
+    "events": [
+      "payment.certified"
+    ],
+    "downstream": [
+      "cash flow",
+      "funding need",
+      "contract balance",
+      "transparency summary"
+    ],
+    "failures": [
+      "claim exceeds evidence",
+      "unapproved change",
+      "missing inspection"
+    ],
+    "audit": "certifier + evidence",
+    "ui_state": "submitted / certified / rejected"
+  },
+  {
+    "id": "OPS-001",
+    "domain": "operations",
+    "name": "Handover installed item into asset register",
+    "trigger": "commissioning/handover acceptance",
+    "inputs": [
+      "PO/submittal/install record",
+      "manufacturer/model",
+      "serial",
+      "warranty",
+      "manual",
+      "location"
+    ],
+    "auth": "handover/facilities role",
+    "validation": [
+      "commissioning status",
+      "asset minimum fields"
+    ],
+    "writes": [
+      "asset",
+      "maintenance_plan",
+      "warranty_record"
+    ],
+    "events": [
+      "asset.handed_over"
+    ],
+    "downstream": [
+      "preventive maintenance",
+      "QR tag",
+      "replacement reserve"
+    ],
+    "failures": [
+      "missing O&M",
+      "missing serial/model",
+      "commissioning unresolved"
+    ],
+    "audit": "handover package",
+    "ui_state": "active asset"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "order": 1,
+    "source": "archive/source-seeds/mosqueos_seed_v9_canonical_impl/0001_CANONICAL_SCHEMA_DRAFT.sql",
+    "file": "0001_mosqueos-seed-v9-canonical-impl_0001-canonical-schema-draft.sql"
+  },
+  {
+    "order": 2,
+    "source": "archive/source-seeds/mosqueos_seed_v12_shadow_claims/0002_SHADOW_PROFILE_CLAIMS.sql",
+    "file": "0002_mosqueos-seed-v12-shadow-claims_0002-shadow-profile-claims.sql"
+  },
+  {
+    "order": 3,
+    "source": "archive/source-seeds/mosqueos_seed_v20_executable_foundation/0003_EXECUTABLE_FOUNDATION.sql",
+    "file": "0003_mosqueos-seed-v20-executable-foundation_0003-executable-foundation.sql"
+  },
+  {
+    "order": 4,
+    "source": "archive/source-seeds/mosqueos_seed_v22_engineering_local_sourcing/migrations/0004_engineering_local_sourcing.sql",
+    "file": "0004_mosqueos-seed-v22-engineering-local-sourcing_0004-engineering-local-sourcing.sql"
+  },
+  {
+    "order": 5,
+    "source": "archive/source-seeds/mosqueos_seed_v23_next_tasks/migrations/0005_next_tasks.sql",
+    "file": "0005_mosqueos-seed-v23-next-tasks_0005-next-tasks.sql"
+  },
+  {
+    "order": 6,
+    "source": "archive/source-seeds/mosqueos_seed_v24_gardens_natural_facades/migrations/0006_landscape_biophilic.sql",
+    "file": "0006_mosqueos-seed-v24-gardens-natural-facades_0006-landscape-biophilic.sql"
+  },
+  {
+    "order": 7,
+    "source": "archive/source-seeds/mosqueos_seed_v25_core_implementation/migrations/0007_rls_policy_draft.sql",
+    "file": "0007_mosqueos-seed-v25-core-implementation_0007-rls-policy-draft.sql"
+  },
+  {
+    "order": 8,
+    "source": "archive/source-seeds/mosqueos_seed_v26_core_algorithms/migrations/0008_rls_expansion.sql",
+    "file": "0008_mosqueos-seed-v26-core-algorithms_0008-rls-expansion.sql"
+  }
+]

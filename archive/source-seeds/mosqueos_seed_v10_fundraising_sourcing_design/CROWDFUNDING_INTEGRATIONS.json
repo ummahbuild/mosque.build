@@ -1,0 +1,98 @@
+{
+  "channels": [
+    {
+      "name": "LaunchGood",
+      "mode": "external_campaign_channel",
+      "features": [
+        "campaign URL",
+        "campaign ID if accessible",
+        "goal",
+        "raised snapshot",
+        "campaign status",
+        "updates",
+        "public campaign link",
+        "UTM/referral tracking"
+      ],
+      "integration_strategy": "Start with outbound campaign creation/checklist + link/snapshot tracking; add API only if a supported partner API/contract is available.",
+      "use_cases": [
+        "mosque construction",
+        "renovation",
+        "solar",
+        "community projects",
+        "Ramadan campaigns"
+      ]
+    },
+    {
+      "name": "Stripe",
+      "mode": "direct payment processor",
+      "features": [
+        "one-time giving",
+        "recurring giving",
+        "Payment Links/Checkout",
+        "cards/wallets",
+        "webhooks",
+        "refunds",
+        "receipts",
+        "subscription-like recurring donation schedules"
+      ],
+      "integration_strategy": "Native server integration through payment intents/checkout/payment links as chosen."
+    },
+    {
+      "name": "PayPal",
+      "mode": "direct/nonprofit fundraising channel",
+      "features": [
+        "donate button/link",
+        "recurring giving where supported",
+        "nonprofit account",
+        "Giving Fund relationships where eligible"
+      ],
+      "integration_strategy": "Provider adapter; nonprofit verification handled by PayPal."
+    },
+    {
+      "name": "Bank transfer/ACH",
+      "mode": "direct",
+      "features": [
+        "instructions",
+        "reference code",
+        "manual/automated reconciliation",
+        "pledge matching"
+      ]
+    },
+    {
+      "name": "Cash",
+      "mode": "offline",
+      "features": [
+        "cash box session",
+        "two-person count",
+        "deposit tracking",
+        "restricted allocation",
+        "receipt if policy permits"
+      ]
+    },
+    {
+      "name": "Mobile money",
+      "mode": "regional_adapter",
+      "features": [
+        "M-Pesa and future country-specific adapters",
+        "webhook/reconciliation",
+        "campaign allocation"
+      ]
+    }
+  ],
+  "campaign_sync_fields": [
+    "channel",
+    "external URL",
+    "external campaign ID",
+    "currency",
+    "goal",
+    "raised externally",
+    "raised internally",
+    "last synced",
+    "sync source",
+    "fees",
+    "net received",
+    "restricted fund",
+    "receipt issuer"
+  ],
+  "rule": "mosque.build campaign total must distinguish gross pledged, gross collected, fees, refunds/chargebacks, net received, and externally raised amounts."
+}

@@ -1,0 +1,2472 @@
+[
+  {
+    "id": "COSTF-0001",
+    "domain": "cost_intelligence",
+    "name": "live FX snapshot",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0002",
+    "domain": "cost_intelligence",
+    "name": "historical FX",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0003",
+    "domain": "cost_intelligence",
+    "name": "central bank source priority",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0004",
+    "domain": "cost_intelligence",
+    "name": "currency lock per estimate",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0005",
+    "domain": "cost_intelligence",
+    "name": "FX sensitivity",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0006",
+    "domain": "cost_intelligence",
+    "name": "CIPI escalation",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0007",
+    "domain": "cost_intelligence",
+    "name": "commodity sensitivity",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0008",
+    "domain": "cost_intelligence",
+    "name": "local quote normalization",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0009",
+    "domain": "cost_intelligence",
+    "name": "price age warning",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0010",
+    "domain": "cost_intelligence",
+    "name": "cost confidence score",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0011",
+    "domain": "cost_intelligence",
+    "name": "P10/P50/P90 ranges",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0012",
+    "domain": "cost_intelligence",
+    "name": "cost per m2",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0013",
+    "domain": "cost_intelligence",
+    "name": "cost per prayer place",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0014",
+    "domain": "cost_intelligence",
+    "name": "cost per madrasa seat",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0015",
+    "domain": "cost_intelligence",
+    "name": "cost per annual attendee",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0016",
+    "domain": "cost_intelligence",
+    "name": "lifecycle cost",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0017",
+    "domain": "cost_intelligence",
+    "name": "replacement reserve",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0018",
+    "domain": "cost_intelligence",
+    "name": "inflation scenario",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0019",
+    "domain": "cost_intelligence",
+    "name": "cash vs donated-value cost",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0020",
+    "domain": "cost_intelligence",
+    "name": "regional location factor",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0021",
+    "domain": "cost_intelligence",
+    "name": "remote-site factor",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0022",
+    "domain": "cost_intelligence",
+    "name": "quality-tier switch",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0023",
+    "domain": "cost_intelligence",
+    "name": "quantity economies",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0024",
+    "domain": "cost_intelligence",
+    "name": "waste factors",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0025",
+    "domain": "imports",
+    "name": "origin country",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0026",
+    "domain": "imports",
+    "name": "HS-code workflow",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0027",
+    "domain": "imports",
+    "name": "tariff source",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0028",
+    "domain": "imports",
+    "name": "duty unknown state",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0029",
+    "domain": "imports",
+    "name": "VAT",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0030",
+    "domain": "imports",
+    "name": "IDF",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0031",
+    "domain": "imports",
+    "name": "RDL",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0032",
+    "domain": "imports",
+    "name": "excise eligibility",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0033",
+    "domain": "imports",
+    "name": "freight quote",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0034",
+    "domain": "imports",
+    "name": "container mode",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0035",
+    "domain": "imports",
+    "name": "air freight",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0036",
+    "domain": "imports",
+    "name": "insurance",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0037",
+    "domain": "imports",
+    "name": "port handling",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0038",
+    "domain": "imports",
+    "name": "customs agent fee",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0039",
+    "domain": "imports",
+    "name": "inland transport",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0040",
+    "domain": "imports",
+    "name": "currency exposure",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0041",
+    "domain": "imports",
+    "name": "customs documents",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0042",
+    "domain": "imports",
+    "name": "certificate of origin",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0043",
+    "domain": "imports",
+    "name": "PVoC/CoC tracking",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0044",
+    "domain": "imports",
+    "name": "import lead-time",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0045",
+    "domain": "imports",
+    "name": "landed cost",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0046",
+    "domain": "imports",
+    "name": "local-vs-import compare",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0047",
+    "domain": "imports",
+    "name": "duty scenario",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0048",
+    "domain": "imports",
+    "name": "shipping delay buffer",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0049",
+    "domain": "materials",
+    "name": "material master",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0050",
+    "domain": "materials",
+    "name": "material aliases",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0051",
+    "domain": "materials",
+    "name": "local names",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0052",
+    "domain": "materials",
+    "name": "technical properties",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0053",
+    "domain": "materials",
+    "name": "climate fit",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0054",
+    "domain": "materials",
+    "name": "fire performance field",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0055",
+    "domain": "materials",
+    "name": "acoustic field",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0056",
+    "domain": "materials",
+    "name": "thermal field",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0057",
+    "domain": "materials",
+    "name": "water resistance",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0058",
+    "domain": "materials",
+    "name": "maintenance",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0059",
+    "domain": "materials",
+    "name": "service life",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0060",
+    "domain": "materials",
+    "name": "repairability",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0061",
+    "domain": "materials",
+    "name": "recyclability",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0062",
+    "domain": "materials",
+    "name": "reuse",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0063",
+    "domain": "materials",
+    "name": "salvage value",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0064",
+    "domain": "materials",
+    "name": "local availability",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0065",
+    "domain": "materials",
+    "name": "supplier count",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0066",
+    "domain": "materials",
+    "name": "country of origin",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0067",
+    "domain": "materials",
+    "name": "samples",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0068",
+    "domain": "materials",
+    "name": "mockup approval",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0069",
+    "domain": "materials",
+    "name": "technical submittal",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0070",
+    "domain": "materials",
+    "name": "BIM object",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0071",
+    "domain": "materials",
+    "name": "spec sheet",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0072",
+    "domain": "materials",
+    "name": "approved alternate",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0073",
+    "domain": "materials",
+    "name": "price history",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0074",
+    "domain": "design_scenarios",
+    "name": "save mockup",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0075",
+    "domain": "design_scenarios",
+    "name": "duplicate mockup",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0076",
+    "domain": "design_scenarios",
+    "name": "branch design",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0077",
+    "domain": "design_scenarios",
+    "name": "version history",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0078",
+    "domain": "design_scenarios",
+    "name": "milestone lock",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0079",
+    "domain": "design_scenarios",
+    "name": "scenario tags",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0080",
+    "domain": "design_scenarios",
+    "name": "scenario notes",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0081",
+    "domain": "design_scenarios",
+    "name": "object comments",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0082",
+    "domain": "design_scenarios",
+    "name": "compare two",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0083",
+    "domain": "design_scenarios",
+    "name": "compare six",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0084",
+    "domain": "design_scenarios",
+    "name": "geometry diff",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0085",
+    "domain": "design_scenarios",
+    "name": "cost diff",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0086",
+    "domain": "design_scenarios",
+    "name": "capacity diff",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0087",
+    "domain": "design_scenarios",
+    "name": "maintenance diff",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0088",
+    "domain": "design_scenarios",
+    "name": "permit-risk diff",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0089",
+    "domain": "design_scenarios",
+    "name": "timeline diff",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0090",
+    "domain": "design_scenarios",
+    "name": "energy diff",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0091",
+    "domain": "design_scenarios",
+    "name": "water diff",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0092",
+    "domain": "design_scenarios",
+    "name": "local sourcing diff",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0093",
+    "domain": "design_scenarios",
+    "name": "restore version",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0094",
+    "domain": "design_scenarios",
+    "name": "rebase prices",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0095",
+    "domain": "design_scenarios",
+    "name": "freeze tender baseline",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0096",
+    "domain": "design_scenarios",
+    "name": "share read-only",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0097",
+    "domain": "design_scenarios",
+    "name": "public donor view",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0098",
+    "domain": "design_scenarios",
+    "name": "scenario archive",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0099",
+    "domain": "estimating",
+    "name": "BOQ generator",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0100",
+    "domain": "estimating",
+    "name": "assembly rates",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0101",
+    "domain": "estimating",
+    "name": "quantity takeoff",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0102",
+    "domain": "estimating",
+    "name": "room-based estimate",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0103",
+    "domain": "estimating",
+    "name": "elemental estimate",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0104",
+    "domain": "estimating",
+    "name": "trade estimate",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0105",
+    "domain": "estimating",
+    "name": "allowances",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0106",
+    "domain": "estimating",
+    "name": "provisional sums",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0107",
+    "domain": "estimating",
+    "name": "contingency",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0108",
+    "domain": "estimating",
+    "name": "design contingency",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0109",
+    "domain": "estimating",
+    "name": "construction contingency",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0110",
+    "domain": "estimating",
+    "name": "owner contingency",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0111",
+    "domain": "estimating",
+    "name": "escalation",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0112",
+    "domain": "estimating",
+    "name": "professional fees",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0113",
+    "domain": "estimating",
+    "name": "permit fees",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0114",
+    "domain": "estimating",
+    "name": "utility connection",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0115",
+    "domain": "estimating",
+    "name": "testing/commissioning",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0116",
+    "domain": "estimating",
+    "name": "FF&E",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0117",
+    "domain": "estimating",
+    "name": "opening reserve",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0118",
+    "domain": "estimating",
+    "name": "working capital",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0119",
+    "domain": "estimating",
+    "name": "defects reserve",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0120",
+    "domain": "estimating",
+    "name": "soft costs",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0121",
+    "domain": "estimating",
+    "name": "VAT/tax treatment",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0122",
+    "domain": "estimating",
+    "name": "exclusions",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0123",
+    "domain": "procurement_cost",
+    "name": "RFQ compare",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0124",
+    "domain": "procurement_cost",
+    "name": "quote expiry",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0125",
+    "domain": "procurement_cost",
+    "name": "quote currency",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0126",
+    "domain": "procurement_cost",
+    "name": "quote normalization",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0127",
+    "domain": "procurement_cost",
+    "name": "incoterm",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0128",
+    "domain": "procurement_cost",
+    "name": "payment terms",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0129",
+    "domain": "procurement_cost",
+    "name": "deposit",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0130",
+    "domain": "procurement_cost",
+    "name": "milestone payments",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0131",
+    "domain": "procurement_cost",
+    "name": "retention",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0132",
+    "domain": "procurement_cost",
+    "name": "price adjustment clause",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0133",
+    "domain": "procurement_cost",
+    "name": "bulk discount",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0134",
+    "domain": "procurement_cost",
+    "name": "minimum order",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0135",
+    "domain": "procurement_cost",
+    "name": "manufacturing lead time",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0136",
+    "domain": "procurement_cost",
+    "name": "shipping lead time",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0137",
+    "domain": "procurement_cost",
+    "name": "customs lead time",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0138",
+    "domain": "procurement_cost",
+    "name": "delivery date",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0139",
+    "domain": "procurement_cost",
+    "name": "storage cost",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0140",
+    "domain": "procurement_cost",
+    "name": "damage allowance",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0141",
+    "domain": "procurement_cost",
+    "name": "warranty value",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0142",
+    "domain": "procurement_cost",
+    "name": "installation included",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0143",
+    "domain": "procurement_cost",
+    "name": "commissioning included",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0144",
+    "domain": "procurement_cost",
+    "name": "total landed cost",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0145",
+    "domain": "procurement_cost",
+    "name": "award recommendation",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0146",
+    "domain": "operations_cost",
+    "name": "cleaning labor",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0147",
+    "domain": "operations_cost",
+    "name": "cleaning supplies",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0148",
+    "domain": "operations_cost",
+    "name": "electricity",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0149",
+    "domain": "operations_cost",
+    "name": "water",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0150",
+    "domain": "operations_cost",
+    "name": "gas/fuel",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0151",
+    "domain": "operations_cost",
+    "name": "internet",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0152",
+    "domain": "operations_cost",
+    "name": "security",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0153",
+    "domain": "operations_cost",
+    "name": "insurance",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0154",
+    "domain": "operations_cost",
+    "name": "imam staffing",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0155",
+    "domain": "operations_cost",
+    "name": "admin staffing",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0156",
+    "domain": "operations_cost",
+    "name": "madrasa staffing",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0157",
+    "domain": "operations_cost",
+    "name": "maintenance contracts",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0158",
+    "domain": "operations_cost",
+    "name": "landscape",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0159",
+    "domain": "operations_cost",
+    "name": "pest control",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0160",
+    "domain": "operations_cost",
+    "name": "waste",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0161",
+    "domain": "operations_cost",
+    "name": "software subscriptions",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0162",
+    "domain": "operations_cost",
+    "name": "payment fees",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0163",
+    "domain": "operations_cost",
+    "name": "annual inspections",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0164",
+    "domain": "operations_cost",
+    "name": "Ramadan uplift",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0165",
+    "domain": "operations_cost",
+    "name": "Eid uplift",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0166",
+    "domain": "operations_cost",
+    "name": "replacement reserve",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0167",
+    "domain": "operations_cost",
+    "name": "waqf coverage",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0168",
+    "domain": "operations_cost",
+    "name": "monthly burn",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0169",
+    "domain": "operations_cost",
+    "name": "annual burn",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0170",
+    "domain": "operations_cost",
+    "name": "per-attendee operating cost",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0171",
+    "domain": "data_quality",
+    "name": "source rank",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0172",
+    "domain": "data_quality",
+    "name": "quote verification",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0173",
+    "domain": "data_quality",
+    "name": "duplicate quote detection",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0174",
+    "domain": "data_quality",
+    "name": "outlier flag",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0175",
+    "domain": "data_quality",
+    "name": "stale-price flag",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0176",
+    "domain": "data_quality",
+    "name": "unit mismatch flag",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0177",
+    "domain": "data_quality",
+    "name": "currency mismatch flag",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0178",
+    "domain": "data_quality",
+    "name": "tax ambiguity",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0179",
+    "domain": "data_quality",
+    "name": "delivery ambiguity",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0180",
+    "domain": "data_quality",
+    "name": "installation ambiguity",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0181",
+    "domain": "data_quality",
+    "name": "confidence calibration",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0182",
+    "domain": "data_quality",
+    "name": "manual reviewer",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0183",
+    "domain": "data_quality",
+    "name": "supplier dispute",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0184",
+    "domain": "data_quality",
+    "name": "price correction",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0185",
+    "domain": "data_quality",
+    "name": "audit trail",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0186",
+    "domain": "data_quality",
+    "name": "snapshot hashing",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0187",
+    "domain": "data_quality",
+    "name": "estimate reproducibility",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0188",
+    "domain": "data_quality",
+    "name": "source removal handling",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0189",
+    "domain": "data_quality",
+    "name": "license/terms state",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  },
+  {
+    "id": "COSTF-0190",
+    "domain": "data_quality",
+    "name": "data export provenance",
+    "status": "specified",
+    "acceptance": [
+      "Works with versioned estimate snapshots",
+      "External factual values carry source/date",
+      "Unknown values remain unknown rather than guessed",
+      "Updates do not mutate historical estimates",
+      "Mobile read/edit state defined where appropriate"
+    ]
+  }
+]

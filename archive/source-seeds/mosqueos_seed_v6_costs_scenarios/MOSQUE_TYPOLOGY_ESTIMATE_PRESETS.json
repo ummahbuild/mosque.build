@@ -1,0 +1,95 @@
+[
+  {
+    "id": "musalla_50",
+    "name": "50-person Musalla",
+    "gross_area_range_m2": [
+      90,
+      160
+    ],
+    "default_spaces": [
+      "prayer",
+      "shoe",
+      "WC",
+      "small wudu",
+      "storage"
+    ],
+    "estimate_basis": "area + assemblies"
+  },
+  {
+    "id": "neighborhood_150",
+    "name": "150-person Neighborhood Mosque",
+    "gross_area_range_m2": [
+      250,
+      450
+    ],
+    "default_spaces": [
+      "prayer",
+      "women/family",
+      "wudu",
+      "WC",
+      "imam",
+      "storage",
+      "1 flex room"
+    ],
+    "estimate_basis": "area + program"
+  },
+  {
+    "id": "mosque_madrasa_300",
+    "name": "300-person Mosque + Madrasa",
+    "gross_area_range_m2": [
+      650,
+      1200
+    ],
+    "default_spaces": [
+      "prayer",
+      "women/family",
+      "wudu",
+      "WC",
+      "4 classrooms",
+      "admin",
+      "library/flex",
+      "storage"
+    ],
+    "estimate_basis": "area + program"
+  },
+  {
+    "id": "community_600",
+    "name": "600-person Mosque + Community Center",
+    "gross_area_range_m2": [
+      1500,
+      3000
+    ],
+    "default_spaces": [
+      "prayer",
+      "women/family",
+      "wudu",
+      "WC",
+      "madrasa",
+      "community hall",
+      "kitchen",
+      "offices",
+      "youth",
+      "library",
+      "storage"
+    ],
+    "estimate_basis": "area + elemental"
+  },
+  {
+    "id": "conversion_warehouse",
+    "name": "Warehouse Conversion",
+    "gross_area_range_m2": [
+      400,
+      2500
+    ],
+    "default_spaces": [
+      "existing shell",
+      "prayer fitout",
+      "wudu",
+      "WC",
+      "MEP upgrades",
+      "fire/accessibility",
+      "madrasa/flex"
+    ],
+    "estimate_basis": "existing-condition repairs + conversion assemblies"
+  }
+]

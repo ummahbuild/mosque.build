@@ -1,0 +1,2642 @@
+[
+  {
+    "queue_id": "funding_001",
+    "theme": "capital_campaign",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_002",
+    "theme": "crowdfunding",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_003",
+    "theme": "major_gifts",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_004",
+    "theme": "matching",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_005",
+    "theme": "monthly_pledges",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_006",
+    "theme": "land_donation",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_007",
+    "theme": "in_kind",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_008",
+    "theme": "phased_build",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_009",
+    "theme": "grant",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_010",
+    "theme": "community_bonds_or_equivalent_review",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_011",
+    "theme": "capital_campaign",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_012",
+    "theme": "crowdfunding",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_013",
+    "theme": "major_gifts",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_014",
+    "theme": "matching",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_015",
+    "theme": "monthly_pledges",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_016",
+    "theme": "land_donation",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_017",
+    "theme": "in_kind",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_018",
+    "theme": "phased_build",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_019",
+    "theme": "grant",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_020",
+    "theme": "community_bonds_or_equivalent_review",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_021",
+    "theme": "capital_campaign",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_022",
+    "theme": "crowdfunding",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_023",
+    "theme": "major_gifts",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_024",
+    "theme": "matching",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_025",
+    "theme": "monthly_pledges",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_026",
+    "theme": "land_donation",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_027",
+    "theme": "in_kind",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_028",
+    "theme": "phased_build",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_029",
+    "theme": "grant",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_030",
+    "theme": "community_bonds_or_equivalent_review",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_031",
+    "theme": "capital_campaign",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_032",
+    "theme": "crowdfunding",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_033",
+    "theme": "major_gifts",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_034",
+    "theme": "matching",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_035",
+    "theme": "monthly_pledges",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_036",
+    "theme": "land_donation",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_037",
+    "theme": "in_kind",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_038",
+    "theme": "phased_build",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_039",
+    "theme": "grant",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_040",
+    "theme": "community_bonds_or_equivalent_review",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_041",
+    "theme": "capital_campaign",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_042",
+    "theme": "crowdfunding",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_043",
+    "theme": "major_gifts",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_044",
+    "theme": "matching",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_045",
+    "theme": "monthly_pledges",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_046",
+    "theme": "land_donation",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_047",
+    "theme": "in_kind",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_048",
+    "theme": "phased_build",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_049",
+    "theme": "grant",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_050",
+    "theme": "community_bonds_or_equivalent_review",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_051",
+    "theme": "capital_campaign",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_052",
+    "theme": "crowdfunding",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_053",
+    "theme": "major_gifts",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_054",
+    "theme": "matching",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_055",
+    "theme": "monthly_pledges",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_056",
+    "theme": "land_donation",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_057",
+    "theme": "in_kind",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_058",
+    "theme": "phased_build",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_059",
+    "theme": "grant",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_060",
+    "theme": "community_bonds_or_equivalent_review",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_061",
+    "theme": "capital_campaign",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_062",
+    "theme": "crowdfunding",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_063",
+    "theme": "major_gifts",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_064",
+    "theme": "matching",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_065",
+    "theme": "monthly_pledges",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_066",
+    "theme": "land_donation",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_067",
+    "theme": "in_kind",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_068",
+    "theme": "phased_build",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_069",
+    "theme": "grant",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_070",
+    "theme": "community_bonds_or_equivalent_review",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_071",
+    "theme": "capital_campaign",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_072",
+    "theme": "crowdfunding",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_073",
+    "theme": "major_gifts",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_074",
+    "theme": "matching",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_075",
+    "theme": "monthly_pledges",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_076",
+    "theme": "land_donation",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_077",
+    "theme": "in_kind",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_078",
+    "theme": "phased_build",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_079",
+    "theme": "grant",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_080",
+    "theme": "community_bonds_or_equivalent_review",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_081",
+    "theme": "capital_campaign",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_082",
+    "theme": "crowdfunding",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_083",
+    "theme": "major_gifts",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_084",
+    "theme": "matching",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_085",
+    "theme": "monthly_pledges",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_086",
+    "theme": "land_donation",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_087",
+    "theme": "in_kind",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_088",
+    "theme": "phased_build",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_089",
+    "theme": "grant",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_090",
+    "theme": "community_bonds_or_equivalent_review",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_091",
+    "theme": "capital_campaign",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_092",
+    "theme": "crowdfunding",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_093",
+    "theme": "major_gifts",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_094",
+    "theme": "matching",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_095",
+    "theme": "monthly_pledges",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_096",
+    "theme": "land_donation",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_097",
+    "theme": "in_kind",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_098",
+    "theme": "phased_build",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_099",
+    "theme": "grant",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_100",
+    "theme": "community_bonds_or_equivalent_review",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_101",
+    "theme": "capital_campaign",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_102",
+    "theme": "crowdfunding",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_103",
+    "theme": "major_gifts",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_104",
+    "theme": "matching",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_105",
+    "theme": "monthly_pledges",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_106",
+    "theme": "land_donation",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_107",
+    "theme": "in_kind",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_108",
+    "theme": "phased_build",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_109",
+    "theme": "grant",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_110",
+    "theme": "community_bonds_or_equivalent_review",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_111",
+    "theme": "capital_campaign",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_112",
+    "theme": "crowdfunding",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_113",
+    "theme": "major_gifts",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_114",
+    "theme": "matching",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_115",
+    "theme": "monthly_pledges",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_116",
+    "theme": "land_donation",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_117",
+    "theme": "in_kind",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_118",
+    "theme": "phased_build",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_119",
+    "theme": "grant",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  },
+  {
+    "queue_id": "funding_120",
+    "theme": "community_bonds_or_equivalent_review",
+    "preferred_sources": [
+      "mosque annual report",
+      "charity filing",
+      "campaign platform",
+      "audited accounts",
+      "official project site"
+    ],
+    "required_fields": [
+      "project_or_org",
+      "location",
+      "date_range",
+      "facts",
+      "outcomes",
+      "source_ids",
+      "rights_status",
+      "last_verified"
+    ],
+    "status": "queued_not_ingested"
+  }
+]

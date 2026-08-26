@@ -1,0 +1,44 @@
+{
+  "stages": [
+    "product discovered/created",
+    "collect authoritative dimensions/specs",
+    "ingest vendor BIM/CAD if available",
+    "ingest vendor render mesh if available",
+    "normalize units and coordinate orientation",
+    "generate/rebuild lightweight GLB",
+    "set origin and anchors",
+    "add connection ports",
+    "add clearance/maintenance zones",
+    "map product parameters/variants",
+    "generate LODs",
+    "optimize textures",
+    "run geometry QA",
+    "run metadata completeness QA",
+    "vendor preview",
+    "technical review",
+    "publish to 3D library"
+  ],
+  "auto_checks": [
+    "file parses",
+    "unit sanity",
+    "bounding box vs stated dimensions",
+    "missing normals/materials",
+    "polygon threshold",
+    "texture size",
+    "origin placement",
+    "anchor existence",
+    "required service ports",
+    "clearance zones",
+    "duplicate geometry",
+    "mobile performance estimate"
+  ],
+  "human_checks": [
+    "visual fidelity",
+    "dimension verification",
+    "mounting interpretation",
+    "service interpretation",
+    "technical data accuracy",
+    "license/right to publish"
+  ],
+  "fallback": "If no 3D asset exists, generate a parametric placeholder from verified dimensions; clearly label as schematic until reviewed."
+}

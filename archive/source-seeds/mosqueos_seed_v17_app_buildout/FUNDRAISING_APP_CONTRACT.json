@@ -1,0 +1,59 @@
+{
+  "dashboard": [
+    "goal",
+    "gross raised",
+    "net received",
+    "pledged",
+    "spent",
+    "committed",
+    "available",
+    "restricted",
+    "funding gap",
+    "cash need"
+  ],
+  "campaign_builder": [
+    "recipient",
+    "fund",
+    "project/design version",
+    "budget version",
+    "story",
+    "media",
+    "milestones",
+    "channels",
+    "tax disclosure",
+    "publish review"
+  ],
+  "channels": [
+    "Stripe",
+    "PayPal",
+    "LaunchGood external",
+    "bank",
+    "M-Pesa",
+    "cash",
+    "grants",
+    "major gifts",
+    "pledges"
+  ],
+  "public_campaign": [
+    "render",
+    "floor plan",
+    "capacity",
+    "budget",
+    "raised",
+    "progress",
+    "milestones",
+    "updates",
+    "team",
+    "project status",
+    "transparency"
+  ],
+  "admin_controls": [
+    "pause",
+    "update budget",
+    "publish update",
+    "reconcile",
+    "refund workflow",
+    "close campaign",
+    "export donor report"
+  ]
+}
