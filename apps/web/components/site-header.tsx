@@ -28,6 +28,8 @@ export function SiteHeader() {
   useEffect(()=>{try{const draft=JSON.parse(localStorage.getItem("mosque-build.project-draft.v2")||"null");if(!draft?.name?.trim())return;const complete=!!(draft.location?.trim()&&draft.needs?.length&&draft.priorities?.length&&draft.constraints?.length&&draft.owner?.trim()&&draft.team?.length&&draft.funding?.length);setProjectEntry(complete?{href:"/my-project",label:"Continue project"}:{href:"/start",label:"Continue brief"})}catch{}},[pathname]);
   useEffect(() => {
     if (!open) return;
+    const previousOverflow=document.body.style.overflow;
+    document.body.style.overflow="hidden";
     const closeOnEscape = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
         setOpen(false);
@@ -39,9 +41,17 @@ export function SiteHeader() {
     };
     window.addEventListener("keydown", closeOnEscape);
     window.addEventListener("pointerdown", closeOutside);
+    const focusable=header.current?.querySelectorAll<HTMLElement>('#mobile-navigation a, .menuButton');
+    const keepFocus=(event:KeyboardEvent)=>{if(event.key!=="Tab"||!focusable?.length)return;const first=focusable[0],last=focusable[focusable.length-1];if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus()}else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus()}};
+    const closeWide=()=>{if(innerWidth>1100)setOpen(false)};
+    window.addEventListener("keydown",keepFocus);
+    window.addEventListener("resize",closeWide,{passive:true});
     return () => {
+      document.body.style.overflow=previousOverflow;
       window.removeEventListener("keydown", closeOnEscape);
       window.removeEventListener("pointerdown", closeOutside);
+      window.removeEventListener("keydown",keepFocus);
+      window.removeEventListener("resize",closeWide);
     };
   }, [open]);
 
@@ -54,10 +64,12 @@ export function SiteHeader() {
       <Link className="button small" href={projectEntry.href} aria-current={pathname === projectEntry.href ? "page" : undefined}>{projectEntry.label}</Link>
       <button ref={menuButton} className="menuButton" type="button" aria-expanded={open} aria-controls="mobile-navigation" aria-label={`${open ? "Close" : "Open"} navigation menu`} onClick={() => setOpen(value => !value)}><span aria-hidden="true">{open ? "×" : "☰"}</span></button>
     </div>
-    <nav id="mobile-navigation" className={`mobileNav${open ? " open" : ""}`} aria-label="Mobile navigation" aria-hidden={!open}>
+    <nav id="mobile-navigation" className={`mobileNav${open ? " open" : ""}`} aria-label="Mobile navigation" aria-hidden={!open} inert={!open?true:undefined}>
+      <strong>Explore mosque.build</strong>
       {links.map(([href, label]) => <Link href={href} key={href} aria-current={isCurrent(href) ? "page" : undefined} tabIndex={open ? 0 : -1}>{label}</Link>)}
       <Link href="/prototypes" aria-current={pathname.startsWith("/prototypes") ? "page" : undefined} tabIndex={open ? 0 : -1}>Concepts</Link>
       <Link href="/my-project" aria-current={pathname === "/my-project" ? "page" : undefined} tabIndex={open ? 0 : -1}>My project</Link>
+      <Link className="mobileProjectAction" href={projectEntry.href} tabIndex={open?0:-1}>{projectEntry.label}</Link>
     </nav>
   </header>;
 }
