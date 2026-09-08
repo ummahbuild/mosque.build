@@ -11,3 +11,5 @@ The construction route now supports factual site-update capture, area/type class
 Both workflows require RLS-backed project storage, permissions, server audit history and integration tests before authenticated collaboration can move beyond `scaffolded` status.
 
 The operations route now continues handover into a device-local asset register. It records asset and room references without requesting addresses or personal names, separates project-team commissioning state from statutory approval, calculates deterministic service dates only from user-entered dates and intervals, and exports the full review boundary. It does not provide manufacturer instructions, verified warranties, statutory inspection evidence or notifications.
+
+Asset-linked work orders extend the same local record into reported maintenance needs, priorities, target dates and evidence-gated closure. A closed task remains a project-team state: it does not certify an inspection, technical adequacy, payment entitlement or safe return to service.
