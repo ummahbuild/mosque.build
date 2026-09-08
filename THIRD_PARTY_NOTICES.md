@@ -11,3 +11,7 @@ This repository contains historical research seeds, external-source references a
 - Contributors must not add copied text, imagery, fonts, product data or sacred/religious content without source, rights and review metadata.
 
 See `docs/NEXT_BUILD.md` for the asset-rights inventory release blocker. This notice is not a substitute for legal review or a final software license.
+
+## Country flags
+
+Country flag SVGs under `apps/web/public/flags` are sourced from the public-domain renders in [`hampusborgos/country-flags`](https://github.com/hampusborgos/country-flags). `de.svg` is an equivalent repository-authored geometric rendering of Germany's public-domain national flag. Flags identify the country attached to a jurisdiction record and must not imply government affiliation or approval.
