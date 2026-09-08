@@ -15,6 +15,8 @@ The design workspace now includes a device-local parametric brief with:
 - six explainable indicators per alternative;
 - questions carried into later community and professional review; and
 - an explicit boundary against treating the output as a ruling, forecast, code check, cost estimate, engineering result or design approval.
+- an explicit handoff from the selected direction into the schematic form; and
+- inclusion in share-safe and full local project packages.
 
 Status: `executable`.
 
@@ -24,7 +26,7 @@ The current values are transparent comparison heuristics derived only from the v
 
 ## Next increments
 
-1. Connect brief fields to the room-program model through a versioned renderer-neutral schema.
+1. Extend the current selected-direction handoff into a versioned room-program model without implying calculated capacity.
 2. Let users compare and annotate alternatives side by side.
 3. Attach input provenance, dates and confidence to site and climate evidence.
 4. Add accessible journey and adjacency checks with explainable rule identifiers.

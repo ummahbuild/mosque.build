@@ -17,3 +17,8 @@ test("restore writes only allowlisted supported sections",()=>{
   const input={schema:PROJECT_PACKAGE_SCHEMA,product:"mosque.build",privacy:"share-safe",exportedAt:"2026-09-08T10:00:00.000Z",sections:{brief:{name:"Restored"},patterns:["one"],unknown:{unsafe:true}}};
   const checked=validateProjectPackage(input);assert.equal(checked.ok,true);if(!checked.ok)return;const written=new Map();const count=restoreProjectPackage(checked.data,(key,value)=>written.set(key,value));assert.equal(count,2);assert.equal(written.size,2);assert.equal(written.has(projectSections.find(item=>item.id==="brief").key),true);assert.equal([...written.values()].some(value=>value.includes("unsafe")),false);
 });
+
+test("design intelligence is a portable allowlisted section",()=>{
+  const section=projectSections.find(item=>item.id==="designIntelligence");assert.equal(section?.key,"mosque-build.masjid-intelligence.v1");
+  const values=new Map([[section.key,JSON.stringify({schemaVersion:"mosque.build/masjid-intelligence@1",selected:"phased"})]]);const result=createProjectPackage(key=>values.get(key)??null,"share-safe","2026-09-08T10:00:00.000Z");assert.equal(result.sections.designIntelligence.selected,"phased");
+});

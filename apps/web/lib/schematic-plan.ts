@@ -8,6 +8,7 @@ export type SchematicInputs={
   wallM:number;
   qiblaDeg:number;
   verification:VerificationState;
+  strategySource?:"worship"|"community"|"phased";
 };
 
 export type SchematicRoom={id:string;name:string;x:number;y:number;width:number;depth:number;kind:"prayer"|"support"|"learning"|"circulation"|"courtyard"};

@@ -15,7 +15,8 @@ export const projectSections = [
   {id:"construction", label:"Construction log", key:"mosque-build.construction-log.v1"},
   {id:"records", label:"Decision + evidence register", key:"mosque-build.project-records.v1"},
   {id:"constructionPackage", label:"Construction package", key:"mosque-build.construction-package.v1"},
-  {id:"socialArchitecture", label:"Social architecture study", key:"mosque-build.social-architecture.v1"}
+  {id:"socialArchitecture", label:"Social architecture study", key:"mosque-build.social-architecture.v1"},
+  {id:"designIntelligence", label:"Masjid design intelligence", key:"mosque-build.masjid-intelligence.v1"}
 ] as const;
 
 export type ProjectSectionId = typeof projectSections[number]["id"];
