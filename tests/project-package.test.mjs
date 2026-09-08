@@ -26,6 +26,7 @@ test("quote comparison is a portable allowlisted section",()=>{assert.equal(proj
 test("asset register is a portable allowlisted section",()=>{assert.equal(projectSections.find(item=>item.id==="assetRegister")?.key,"mosque-build.asset-register.v1")});
 test("work orders are a portable allowlisted section",()=>{assert.equal(projectSections.find(item=>item.id==="workOrders")?.key,"mosque-build.work-orders.v1")});
 test("emergency readiness is a portable allowlisted section",()=>{assert.equal(projectSections.find(item=>item.id==="emergencyReadiness")?.key,"mosque-build.emergency-readiness.v1")});
+test("people privacy plan is a portable allowlisted section",()=>{assert.equal(projectSections.find(item=>item.id==="peoplePrivacy")?.key,"mosque-build.people-privacy.v1")});
 
 test("validator rejects prototype keys and resource-exhaustion shapes",()=>{
   const base={schema:PROJECT_PACKAGE_SCHEMA,product:"mosque.build",privacy:"share-safe",exportedAt:"2026-09-08T10:00:00.000Z"};
