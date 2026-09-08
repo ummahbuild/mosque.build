@@ -1,0 +1,4 @@
+import test from "node:test";import assert from "node:assert/strict";import fs from "node:fs";
+const read=path=>fs.readFileSync(new URL(`../${path}`,import.meta.url),"utf8");
+test("canonical render model stays renderer-neutral",()=>{const domain=read("apps/web/lib/render-model.ts");assert.doesNotMatch(domain,/from ["']three|THREE\.|Mesh|WebGLRenderer/);assert.match(domain,/mosque\.build\/render-model@1/);assert.match(domain,/reviewGate/)});
+test("Three adapter and viewer preserve export, accessibility and cleanup boundaries",()=>{const adapter=read("apps/web/lib/three-scene-adapter.ts"),viewer=read("apps/web/components/three-schematic-viewer.tsx");assert.match(adapter,/disposeThreeTree/);assert.match(viewer,/GLTFExporter/);assert.match(viewer,/Accessible room model/);assert.match(viewer,/renderer\.dispose/);assert.match(viewer,/Math\.min\(devicePixelRatio,2\)/);assert.match(viewer,/conceptual—not construction output/)});
