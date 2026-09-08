@@ -23,7 +23,7 @@ This queue converts the broad roadmap into contributor-sized outcomes. Create or
 1. glTF/WebGL renderer consuming the renderer-neutral massing model.
 2. Deterministic 2D/3D synchronization and geometry tests. Status: `scaffolded` — the SVG plan and massing view now share stable scenario IDs; explicit 2D/3D geometry synchronization remains.
 3. Site boundary and qibla inputs with source/accuracy metadata—not inferred precise location.
-4. Room program, accessibility routes, wudu flow and scenario comparison. Status: `scaffolded` — a dimensioned room schedule and three plan forms are executable; editable rooms, routes and flow validation remain.
+4. Room program, accessibility routes, wudu flow and scenario comparison. Status: `scaffolded` — a dimensioned room schedule, three plan forms and an 18-provision social architecture study are executable. The study covers priority journeys, operating modes, privacy/acoustic gradients, adjacency prompts, failure flags and intervention scales; editable rooms, measured route geometry and validated flow simulation remain.
 5. Professional export handoff clearly labeled conceptual until reviewed. Status: `scaffolded` — versioned JSON and SVG exports are executable; IFC mapping, validation and review signatures remain.
 
 ## P1 — permits, cost and procurement
