@@ -31,7 +31,7 @@ This queue converts the broad roadmap into contributor-sized outcomes. Create or
 
 1. Expand official-source jurisdiction packs with staleness monitoring and reviewer ownership. Status: `executable` — fourteen permit jurisdictions now expose source/date/rights metadata, accurate locally hosted country flags, persistent per-requirement investigation states and notes, progress, search and source-preserving export. Automated source-change monitoring and accountable reviewer assignment remain.
 2. Cost assumptions with geography, currency, date, source, maturity, confidence and exclusions.
-3. RFQ/quote comparison with landed-cost components and no invented availability.
+3. RFQ/quote comparison with landed-cost components and no invented availability. Status: `scaffolded` — an 18-scope mosque needs catalog, region-aware marketplace search handoffs, five source-backed observed records, three-record evidence comparison and a versioned scope export are executable. Quote ingestion, normalized landed-cost components, supplier identity checks and approval gates remain.
 4. Regulated-work review gates and evidence attachments.
 
 ## P2 — construction and operations
