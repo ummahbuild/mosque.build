@@ -29,7 +29,7 @@ This queue converts the broad roadmap into contributor-sized outcomes. Create or
 
 ## P1 — permits, cost and procurement
 
-1. Expand official-source jurisdiction packs with staleness monitoring and reviewer ownership.
+1. Expand official-source jurisdiction packs with staleness monitoring and reviewer ownership. Status: `executable` — twelve permit jurisdictions now expose source/date/rights metadata, persistent per-requirement investigation states and notes, progress, search and source-preserving export. Automated source-change monitoring and accountable reviewer assignment remain.
 2. Cost assumptions with geography, currency, date, source, maturity, confidence and exclusions.
 3. RFQ/quote comparison with landed-cost components and no invented availability.
 4. Regulated-work review gates and evidence attachments.

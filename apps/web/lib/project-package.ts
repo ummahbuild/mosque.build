@@ -21,6 +21,8 @@ export const projectSections = [
   ,{id:"materialShortlist", label:"Material assembly shortlist", key:"mosque-build.material-shortlist.v1"}
   ,{id:"siteQiblaEvidence", label:"Site and qibla evidence", key:"mosque-build.site-qibla-evidence.v1"}
   ,{id:"climateResilience", label:"Climate resilience scenarios", key:"mosque-build.climate-resilience.v1"}
+  ,{id:"permitPathway", label:"Permit pathway", key:"mosque-build.permits-pathway.v1"}
+  ,{id:"fundingPathway", label:"Funding pathway", key:"mosque-build.funding-pathway.v1"}
 ] as const;
 
 export type ProjectSectionId = typeof projectSections[number]["id"];
