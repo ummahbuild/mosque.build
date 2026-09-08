@@ -24,6 +24,7 @@ export const projectSections = [
   ,{id:"permitPathway", label:"Permit pathway", key:"mosque-build.permits-pathway.v1"}
   ,{id:"fundingPathway", label:"Funding pathway", key:"mosque-build.funding-pathway.v1"}
   ,{id:"quoteComparison", label:"Quote comparison", key:"mosque-build.quote-comparison.v1"}
+  ,{id:"assetRegister", label:"Handover asset register", key:"mosque-build.asset-register.v1"}
 ] as const;
 
 export type ProjectSectionId = typeof projectSections[number]["id"];

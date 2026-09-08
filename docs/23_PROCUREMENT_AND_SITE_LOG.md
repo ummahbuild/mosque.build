@@ -9,3 +9,5 @@ The landed-cost workspace accepts up to six user-entered quotes. Every compariso
 The construction route now supports factual site-update capture, area/type classification, reported-progress input, evidence references, accountable review status, filtering and empty states. Records remain local to the browser. They are not instructions, certified progress, inspections, payment evidence or an audit-grade server record.
 
 Both workflows require RLS-backed project storage, permissions, server audit history and integration tests before authenticated collaboration can move beyond `scaffolded` status.
+
+The operations route now continues handover into a device-local asset register. It records asset and room references without requesting addresses or personal names, separates project-team commissioning state from statutory approval, calculates deterministic service dates only from user-entered dates and intervals, and exports the full review boundary. It does not provide manufacturer instructions, verified warranties, statutory inspection evidence or notifications.

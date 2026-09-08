@@ -23,6 +23,7 @@ test("design intelligence is a portable allowlisted section",()=>{
   const values=new Map([[section.key,JSON.stringify({schemaVersion:"mosque.build/masjid-intelligence@1",selected:"phased"})]]);const result=createProjectPackage(key=>values.get(key)??null,"share-safe","2026-09-08T10:00:00.000Z");assert.equal(result.sections.designIntelligence.selected,"phased");
 });
 test("quote comparison is a portable allowlisted section",()=>{assert.equal(projectSections.find(item=>item.id==="quoteComparison")?.key,"mosque-build.quote-comparison.v1")});
+test("asset register is a portable allowlisted section",()=>{assert.equal(projectSections.find(item=>item.id==="assetRegister")?.key,"mosque-build.asset-register.v1")});
 
 test("validator rejects prototype keys and resource-exhaustion shapes",()=>{
   const base={schema:PROJECT_PACKAGE_SCHEMA,product:"mosque.build",privacy:"share-safe",exportedAt:"2026-09-08T10:00:00.000Z"};

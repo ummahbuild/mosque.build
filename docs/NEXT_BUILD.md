@@ -37,7 +37,7 @@ This queue converts the broad roadmap into contributor-sized outcomes. Create or
 ## P2 — construction and operations
 
 1. Evidence-linked site updates, RFIs, submittals, inspections and changes. Status: `scaffolded` — device-local site records, conceptual assembly studies and seven dependency-aware work packages are executable; file evidence, accountable assignments, immutable revisions and multi-user review remain.
-2. Handover asset register, commissioning records and maintenance schedules.
+2. Handover asset register, commissioning records and maintenance schedules. Status: `executable` locally — up to 100 assets can be recorded with non-personal location and asset references, commissioning state, manual/warranty evidence, responsible role, deterministic maintenance due states, filters and source-preserving export. Attachments, statutory inspection templates, work orders, notifications and multi-user accountability remain future work.
 3. Volunteer/staff privacy model and minimum-data collection.
 4. Offline conflict strategy for field updates.
 5. Climate emergency operating modes for heat, flood, smoke, storms, water scarcity and compound utility disruption, including inclusive warnings, responsible roles, drills and recovery records.
