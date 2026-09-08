@@ -1,0 +1,7 @@
+import test from "node:test";import assert from "node:assert/strict";import fs from "node:fs";
+const domain=fs.readFileSync(new URL("../apps/web/lib/womens-space-planning.ts",import.meta.url),"utf8"),ui=fs.readFileSync(new URL("../apps/web/components/womens-space-studio.tsx",import.meta.url),"utf8"),doc=fs.readFileSync(new URL("../docs/44_WOMENS_SPACE_ACCESSORIES_100.md",import.meta.url),"utf8");
+test("women's space model is portable and consultation bounded",()=>{assert.match(domain,/mosque\.build\/womens-space-plan@1/);assert.doesNotMatch(domain,/THREE\.Mesh|BABYLON|Filament/);assert.match(ui,/does not prescribe one religious or spatial arrangement/)});
+test("review spans equitable journeys space and participation",()=>{for(const x of ["Arrival dignity","Wudu and toilet parity","Prayer quality","Speech intelligibility","Women-led design review","Post-opening evaluation"])assert.match(domain,new RegExp(x))});
+test("accessory schedule covers giving communication storage and welfare",()=>{for(const x of ["Donation box","Information screen","Prayer-time display","Accessible seating","Assistive listening point","Feedback point"])assert.match(domain,new RegExp(x));assert.match(ui,/Prepare accessory brief/)});
+test("project package includes the study",()=>assert.match(fs.readFileSync(new URL("../apps/web/lib/project-package.ts",import.meta.url),"utf8"),/womensSpacePlan/));
+test("ledger records exactly 100 improvements",()=>assert.equal((doc.match(/^\d+\. /gm)||[]).length,100));
