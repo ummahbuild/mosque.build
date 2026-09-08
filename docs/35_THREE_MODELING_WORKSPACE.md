@@ -6,6 +6,8 @@ The design page now derives both its dimensioned SVG and interactive WebGL massi
 
 Implemented: orbit/pan/zoom, isometric/top/elevation views, responsive high-DPI rendering, live plan synchronization, pointer and keyboard-accessible room selection, a semantic property inspector, exploded-volume and edge studies, locally saved viewpoints, PNG and GLB export, WebGL failure messaging, and explicit GPU/resource cleanup.
 
+Selected architecture studies now enter the renderer as analytical guides with provenance and cautions. Hypostyle studies create bay-coordination guides, courtyard lineages create axis and proportion guides, and centralized-volume studies create a coordination ring. These are deliberately not columns, iwans, domes, replicas, structural geometry, or claims of regional authenticity. Compatible shortlisted patterns are shown as contextual records rather than automatically mapped textures.
+
 The output is conceptual visual exchange—not BIM, structure, MEP, fire analysis, code compliance, cost, or construction documentation. GLB user data retains schema, units, status and the professional review gate.
 
 Next implementation slices:
