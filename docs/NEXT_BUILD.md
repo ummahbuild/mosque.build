@@ -25,6 +25,7 @@ This queue converts the broad roadmap into contributor-sized outcomes. Create or
 3. Site boundary and qibla inputs with source/accuracy metadata—not inferred precise location.
 4. Room program, accessibility routes, wudu flow and scenario comparison. Status: `scaffolded` — a dimensioned room schedule, three plan forms, an 18-provision social architecture study and a saved parametric strategy comparison are executable. The comparison exposes its attendance, growth, site, climate and emphasis inputs across worship-first, community and expandable directions; editable rooms, calibrated indicators, measured route geometry and validated flow simulation remain.
 5. Professional export handoff clearly labeled conceptual until reviewed. Status: `scaffolded` — versioned JSON and SVG exports are executable; IFC mapping, validation and review signatures remain.
+6. Climate resilience and environmental evidence. Status: `scaffolded` — seven source-backed user-directed hazard scenarios, compound-priority detection, design/operations checks and project-package persistence are executable. Site-specific official hazard data, future-weather files, calibrated simulation, lifecycle carbon, biodiversity, water metrics and professional sign-off remain.
 
 ## P1 — permits, cost and procurement
 
@@ -39,6 +40,7 @@ This queue converts the broad roadmap into contributor-sized outcomes. Create or
 2. Handover asset register, commissioning records and maintenance schedules.
 3. Volunteer/staff privacy model and minimum-data collection.
 4. Offline conflict strategy for field updates.
+5. Climate emergency operating modes for heat, flood, smoke, storms, water scarcity and compound utility disruption, including inclusive warnings, responsible roles, drills and recovery records.
 
 ## Issue definition of ready
 
