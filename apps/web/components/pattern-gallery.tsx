@@ -26,7 +26,7 @@ export function PatternGallery() {
     </section>
     <div className="patternLayout">
       <section className="patternGrid" aria-label="Illustrative pattern studies">
-        {filtered.map(item => <article className={`patternCard${active.id === item.id ? " active" : ""}`} key={item.id}>
+        {filtered.map(item => <article id={`pattern-${item.id}`} className={`patternCard${active.id === item.id ? " active" : ""}`} key={item.id}>
           <button className={`patternVisual pattern-${item.style}`} type="button" onClick={() => setSelected(item.id)} aria-label={`Inspect ${item.title}`} aria-pressed={active.id === item.id}><span>{item.category}</span></button>
           <div><small>{item.status.replace("_", " ")}</small><h2>{item.title}</h2><p>{item.application}</p><div className="patternActions"><button type="button" onClick={() => setSelected(item.id)}>Review study</button><button type="button" aria-pressed={shortlist.includes(item.id)} onClick={() => toggle(item.id)}>{shortlist.includes(item.id) ? "Saved ✓" : "Save study"}</button></div></div>
         </article>)}

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "hypostyle-courtyard",
+    "title": "Hypostyle hall + courtyard",
+    "region": "Early mosque tradition across multiple regions",
+    "period": "From the seventh century; repeatedly adapted",
+    "summary": "A column-supported prayer hall beside an open courtyard. Treat it as a spatial lineage with many regional expressions, not a single decorative style.",
+    "spatialPrinciples": ["Repeated structural bays", "Broad qibla-side prayer hall", "Courtyard as arrival, overflow and environmental buffer"],
+    "climateAndMaterial": ["Bay depth, courtyard proportion and openings must respond to the actual climate", "Column grid must coordinate prayer rows, sightlines and accessibility", "Material is locally specific; the lineage does not prescribe a finish"],
+    "designMoves": ["Test the structural grid against saff spacing", "Keep an accessible route legible through repeated bays", "Model shade, glare, rain and acoustic behavior around the courtyard"],
+    "avoid": ["Do not copy columns or capitals without a specific documented reference", "Do not assume an open courtyard works in every climate or site", "Do not label a generic arcade as regionally authentic"],
+    "compatiblePatternIds": ["saff-carpet-lines", "square-polygon-vocabulary", "near-east-carved-panel"],
+    "source": {
+      "label": "Smarthistory — Common types of mosque architecture",
+      "url": "https://smarthistory.org/common-types-of-mosque-architecture/",
+      "observedAt": "2026-09-08",
+      "rights": "Original mosque.build summary; linked educational reference is not reproduced",
+      "confidence": "source_backed"
+    },
+    "status": "source_backed"
+  },
+  {
+    "id": "four-iwan-courtyard",
+    "title": "Four-iwan courtyard",
+    "region": "Iran and later adaptations across a wider region",
+    "period": "Established in congregational mosque planning by the medieval period",
+    "summary": "A courtyard organized by four vaulted halls, with the qibla iwan giving directional and spatial emphasis. Its logic is axial and volumetric—not merely an arch motif.",
+    "spatialPrinciples": ["Four iwans address a central courtyard", "Qibla iwan establishes primary orientation", "Layered movement from city edge to court to prayer space"],
+    "climateAndMaterial": ["Courtyard microclimate needs project-specific simulation", "Vault and dome concepts require qualified structural design", "Brick, tile and surface systems need local supply and maintenance studies"],
+    "designMoves": ["Use hierarchy to clarify qibla direction", "Compare courtyard dimensions against capacity and circulation", "Separate historical precedent study from contemporary code resolution"],
+    "avoid": ["Do not reduce the lineage to four decorative arches", "Do not transfer historic proportions without site analysis", "Do not imply structural validity from a concept model"],
+    "compatiblePatternIds": ["iran-cross-star", "nishapur-kite-dart", "muqarnas-transition"],
+    "source": {
+      "label": "Smarthistory — The Great Mosque of Isfahan",
+      "url": "https://smarthistory.org/the-great-mosque-or-masjid-e-jameh-of-isfahan/",
+      "observedAt": "2026-09-08",
+      "rights": "Original mosque.build summary; linked educational reference is not reproduced",
+      "confidence": "source_backed"
+    },
+    "status": "source_backed"
+  },
+  {
+    "id": "ottoman-central-dome",
+    "title": "Ottoman central-dome composition",
+    "region": "Ottoman architectural tradition",
+    "period": "Developed through the fifteenth and sixteenth centuries and beyond",
+    "summary": "A centralized prayer volume shaped by a major dome and supporting semi-domes or subsidiary volumes, commonly paired with a forecourt. The spatial and structural system comes before its silhouette.",
+    "spatialPrinciples": ["Strong centralized worship volume", "Hierarchical dome and support system", "Forecourt mediates arrival and congregational movement"],
+    "climateAndMaterial": ["Large-span geometry requires professional structural and seismic analysis", "High volumes require acoustic, thermal and maintenance strategies", "Daylight openings must manage glare at prayer level"],
+    "designMoves": ["Test speech intelligibility before formal refinement", "Keep entrances and accessible circulation clear around central supports", "Model maintenance access to high-level surfaces and systems"],
+    "avoid": ["Do not begin with a dome silhouette detached from structure", "Do not copy imperial scale into a community brief", "Do not imply that formal resemblance establishes cultural legitimacy"],
+    "compatiblePatternIds": ["muqarnas-transition", "radial-polygon-vocabulary", "mamluk-star-woodwork"],
+    "source": {
+      "label": "Archnet — Şehzade Külliyesi",
+      "url": "https://www.archnet.org/sites/2018",
+      "observedAt": "2026-09-08",
+      "rights": "Original mosque.build summary; linked archive record is not reproduced",
+      "confidence": "source_backed"
+    },
+    "status": "source_backed"
+  },
+  {
+    "id": "sudano-sahelian-earth",
+    "title": "Sudano-Sahelian earthen tradition",
+    "region": "West African savanna and Sahel; locally distinct traditions",
+    "period": "Living building traditions with documented historic examples",
+    "summary": "Earthen mosque traditions shaped by local craft, climatic response, buttressed walls and recurring maintenance. Community knowledge and material cycles are central—not optional styling details.",
+    "spatialPrinciples": ["Massive earthen walls and buttressing shape enclosure", "Roof and projecting timber can participate in maintenance systems", "Form, craft practice and community stewardship are interdependent"],
+    "climateAndMaterial": ["Soil, rainfall, drainage and roof detailing require local testing", "Maintenance cycles must be funded and planned from the outset", "Local craftspeople and conservation knowledge should guide material decisions"],
+    "designMoves": ["Begin with water shedding, raised thresholds and site drainage", "Document local soil mixes and repair practices", "Budget recurring inspection and replastering as building care"],
+    "avoid": ["Do not paste an earthen-looking skin onto an unrelated system", "Do not treat diverse West African traditions as one uniform style", "Do not specify an earth assembly without local material and structural expertise"],
+    "compatiblePatternIds": ["near-east-carved-panel", "square-polygon-vocabulary", "saff-carpet-lines"],
+    "source": {
+      "label": "UNESCO — Sudanese style mosques in northern Côte d’Ivoire",
+      "url": "https://whc.unesco.org/en/list/1648/",
+      "observedAt": "2026-09-08",
+      "rights": "Original mosque.build summary; UNESCO record is linked, not reproduced",
+      "confidence": "source_backed"
+    },
+    "status": "source_backed"
+  },
+  {
+    "id": "pattern-first-contemporary",
+    "title": "Contemporary, locally grounded study",
+    "region": "Project-specific",
+    "period": "Contemporary",
+    "summary": "A process for developing a mosque from worship, climate, community and local construction needs without claiming a historic lineage. Pattern is applied only after spatial and material decisions are understood.",
+    "spatialPrinciples": ["Qibla, prayer rows and inclusive access organize the plan", "Community program and daily operation determine adjacencies", "Structure and envelope remain renderer-neutral and exchangeable"],
+    "climateAndMaterial": ["Use measured site climate and locally serviceable assemblies", "Compare embodied impact, durability and repair access", "Prototype screens and surface patterns for light, heat and cleaning"],
+    "designMoves": ["Record why each precedent is relevant", "Use pattern as a performance-capable layer where appropriate", "Maintain a decision log and professional review gates"],
+    "avoid": ["Do not call a new design traditional or authentic without accountable review", "Do not use sacred text as decorative filler", "Do not let visualization outrun structural, fire or accessibility review"],
+    "compatiblePatternIds": ["interlaced-circle-vocabulary", "radial-polygon-vocabulary", "mughal-jali", "saff-carpet-lines"],
+    "source": {
+      "label": "mosque.build design governance synthesis",
+      "url": "/sources",
+      "observedAt": "2026-09-08",
+      "rights": "Original mosque.build process guidance",
+      "confidence": "conceptual"
+    },
+    "status": "specified"
+  }
+]
