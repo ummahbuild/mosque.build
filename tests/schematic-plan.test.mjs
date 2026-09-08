@@ -1,0 +1,4 @@
+import assert from "node:assert/strict";import {readFile} from "node:fs/promises";import test from "node:test";
+const source=await readFile(new URL("../apps/web/lib/schematic-plan.ts",import.meta.url),"utf8");
+test("schematic domain stays renderer-neutral and portable",()=>{assert.doesNotMatch(source,/THREE\.|Babylon|Filament/);assert.match(source,/mosque\.build\/schematic-plan@1/);assert.match(source,/units:\"m\"/);assert.match(source,/Conceptual only/)});
+test("schematic UI exposes dimensions, provenance state and professional gate",async()=>{const ui=await readFile(new URL("../apps/web/components/schematic-plan-editor.tsx",import.meta.url),"utf8");assert.match(ui,/Overall width/);assert.match(ui,/Measurement status/);assert.match(ui,/professionally_verified/);assert.match(ui,/Professional review gate/);assert.match(ui,/Export SVG drawing/);assert.match(ui,/localStorage/)});
