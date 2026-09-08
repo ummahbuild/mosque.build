@@ -20,7 +20,7 @@ This queue converts the broad roadmap into contributor-sized outcomes. Create or
 
 ## P1 — design workflow
 
-1. glTF/WebGL renderer consuming the renderer-neutral massing model.
+1. glTF/WebGL renderer consuming the renderer-neutral massing model. Status: `executable` — the interactive renderer now consumes portable rooms, perimeter walls, a conceptual entry opening, room adjacency records, cultural guides and material-study metadata. Internal wall editing, multi-level topology and IFC remain future work.
 2. Deterministic 2D/3D synchronization and geometry tests. Status: `executable` — the SVG plan and WebGL massing share a portable room model and stable IDs; plan changes regenerate the model, while schema, bounds, dimensions, overlap and area reconciliation checks produce an exportable quality report. Editable topology and round-trip import remain.
 3. Site boundary and qibla inputs with source/accuracy metadata—not inferred precise location.
 4. Room program, accessibility routes, wudu flow and scenario comparison. Status: `scaffolded` — a dimensioned room schedule, three plan forms, an 18-provision social architecture study and a saved parametric strategy comparison are executable. The comparison exposes its attendance, growth, site, climate and emphasis inputs across worship-first, community and expandable directions; editable rooms, calibrated indicators, measured route geometry and validated flow simulation remain.
