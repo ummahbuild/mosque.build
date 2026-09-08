@@ -3,6 +3,7 @@
 import {useEffect,useMemo,useState} from "react";
 import items from "@/data/procurement-items.json";
 import needs from "@/data/procurement-needs.json";
+import {QuoteComparison} from "@/components/quote-comparison";
 
 const key="mosque-build.procurement.v1";
 const regions={global:{label:"Global search",amazon:"www.amazon.com"},us:{label:"United States",amazon:"www.amazon.com"},gb:{label:"United Kingdom",amazon:"www.amazon.co.uk"},ca:{label:"Canada",amazon:"www.amazon.ca"},au:{label:"Australia",amazon:"www.amazon.com.au"},de:{label:"Germany",amazon:"www.amazon.de"},ae:{label:"United Arab Emirates",amazon:"www.amazon.ae"},sa:{label:"Saudi Arabia",amazon:"www.amazon.sa"}} as const;
@@ -35,5 +36,6 @@ export function ProcurementWorkspace(){
     <p role="status" aria-live="polite">{message}</p>
     {compared.length?<section className="compareTray"><div className="sectionHeading"><div><small>COMPARISON</small><h3>Compare recorded evidence.</h3></div><button type="button" onClick={()=>{setCompare([]);persist({compare:[]})}}>Clear comparison</button></div><div className="compareTable" role="table" aria-label="Product comparison"><div role="row"><b role="columnheader">Field</b>{compared.map(item=><b role="columnheader" key={item.id}>{item.name}</b>)}</div>{[["Vendor",(item:typeof items[number])=>item.vendor],["Category",(item:typeof items[number])=>item.category],["Observed",(item:typeof items[number])=>item.observedAt],["Price evidence",(item:typeof items[number])=>item.price?`${item.price.currency} ${item.price.amount}`:"Not recorded"],["Verification",(item:typeof items[number])=>item.verification.replaceAll("_"," ")]].map(([label,get])=><div role="row" key={String(label)}><b role="rowheader">{String(label)}</b>{compared.map(item=><span role="cell" key={item.id}>{(get as (x:typeof items[number])=>string)(item)}</span>)}</div>)}</div></section>:null}
     <section className="scopeBrief"><div><small>RFQ / SCOPE PREPARATION</small><h3>Package the question before requesting a quote.</h3><p>This export stays on your device until you choose to share it.</p></div><div><label>Delivery geography<input value={region} onChange={event=>{setRegion(event.target.value);persist({region:event.target.value})}} placeholder="Country, city or site"/></label><label>Quantity or scope<input value={quantity} onChange={event=>{setQuantity(event.target.value);persist({quantity:event.target.value})}} placeholder="Describe quantity or measured scope"/></label><label>Requirements and exclusions<textarea value={notes} onChange={event=>{setNotes(event.target.value);persist({notes:event.target.value})}} placeholder="Performance, samples, documents, installation, exclusions…"/></label><button type="button" disabled={!pack.length} onClick={exportBrief}>Export scope brief ({pack.length})</button></div></section>
+    <QuoteComparison/>
   </section>
 }

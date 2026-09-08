@@ -1,0 +1,7 @@
+export const costComponents=["base","freight","duty","tax","installation","other"] as const;
+export type CostComponent=typeof costComponents[number];
+export type QuoteRecord={id:string;label:string;supplierRef:string;geography:string;currency:string;observedAt:string;validUntil:string;source:"supplier-quote"|"supplier-estimate"|"catalog-observation";maturity:"budgetary"|"indicative"|"formal-quote";confidence:"low"|"medium"|"high";components:Record<CostComponent,number>;exclusions:string;reviewerRole:string;reviewState:"unreviewed"|"commercial-review"|"approved-for-order";createdAt:string};
+export const emptyComponents=():Record<CostComponent,number>=>({base:0,freight:0,duty:0,tax:0,installation:0,other:0});
+export const landedTotal=(quote:QuoteRecord)=>costComponents.reduce((total,key)=>total+(Number.isFinite(quote.components[key])?quote.components[key]:0),0);
+export const quoteGaps=(quote:QuoteRecord)=>[!quote.label.trim()?"quote label":"",!quote.supplierRef.trim()?"supplier reference":"",!quote.geography.trim()?"geography":"",!quote.currency.trim()?"currency":"",!quote.observedAt?"observed date":"",!quote.exclusions.trim()?"exclusions or ‘none stated’":"",!quote.reviewerRole.trim()?"responsible reviewer role":"",quote.components.base<=0?"positive base amount":""].filter(Boolean);
+export const currenciesMatch=(quotes:QuoteRecord[])=>new Set(quotes.map(quote=>quote.currency.toUpperCase())).size<=1;
