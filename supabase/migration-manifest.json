@@ -38,5 +38,10 @@
     "order": 8,
     "source": "archive/source-seeds/mosqueos_seed_v26_core_algorithms/migrations/0008_rls_expansion.sql",
     "file": "0008_mosqueos-seed-v26-core-algorithms_0008-rls-expansion.sql"
+  },
+  {
+    "order": 9,
+    "source": "repository-authored security hardening",
+    "file": "0009_security_hardening.sql"
   }
 ]

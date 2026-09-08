@@ -37,6 +37,18 @@ export type ProjectPackage = {
 const sensitiveBriefFields = new Set(["email", "owner", "location", "notes"]);
 
 function isRecord(value:unknown):value is Record<string,unknown>{return !!value&&typeof value==="object"&&!Array.isArray(value)}
+const forbiddenKeys=new Set(["__proto__","prototype","constructor"]);
+function inspectJson(value:unknown,depth=0,budget={nodes:0}):string|null{
+  budget.nodes+=1;
+  if(budget.nodes>20_000)return "The package contains too many nested values.";
+  if(depth>20)return "The package nesting depth exceeds the safety limit.";
+  if(typeof value==="string"&&value.length>100_000)return "The package contains an oversized text value.";
+  if(value===null||["string","number","boolean"].includes(typeof value))return null;
+  if(Array.isArray(value)){for(const item of value){const error=inspectJson(item,depth+1,budget);if(error)return error}return null}
+  if(!isRecord(value))return "The package contains a value that cannot be safely restored.";
+  for(const [key,item] of Object.entries(value)){if(forbiddenKeys.has(key))return `The package contains a forbidden object key: ${key}.`;const error=inspectJson(item,depth+1,budget);if(error)return error}
+  return null;
+}
 
 export function redactBrief(value:unknown){
   if(!isRecord(value))return value;
@@ -67,6 +79,7 @@ export function validateProjectPackage(value:unknown):{ok:true;data:ProjectPacka
   const ignored=Object.keys(value.sections as Record<string,unknown>).filter(id=>!allowed.has(id as ProjectSectionId));
   if(ignored.length)warnings.push(`${ignored.length} unknown ${ignored.length===1?"section was":"sections were"} ignored.`);
   if(!Object.keys(sections).length)errors.push("The package contains no supported project sections.");
+  const unsafe=inspectJson(sections);if(unsafe)errors.push(unsafe);
   if(errors.length)return {ok:false,errors};
   if(value.privacy==="full-local-backup")warnings.push("This full backup may contain contact, location or project notes. Keep it private.");
   return {ok:true,data:{schema:PROJECT_PACKAGE_SCHEMA,exportedAt:value.exportedAt as string,privacy:value.privacy as ProjectPackage["privacy"],product:"mosque.build",sections},warnings};
