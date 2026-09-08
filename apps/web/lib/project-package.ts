@@ -13,7 +13,8 @@ export const projectSections = [
   {id:"resources", label:"Resource plan", key:"mosque-build.resource-plan.v1"},
   {id:"procurement", label:"Procurement workspace", key:"mosque-build.procurement.v1"},
   {id:"construction", label:"Construction log", key:"mosque-build.construction-log.v1"},
-  {id:"records", label:"Decision + evidence register", key:"mosque-build.project-records.v1"}
+  {id:"records", label:"Decision + evidence register", key:"mosque-build.project-records.v1"},
+  {id:"constructionPackage", label:"Construction package", key:"mosque-build.construction-package.v1"}
 ] as const;
 
 export type ProjectSectionId = typeof projectSections[number]["id"];
