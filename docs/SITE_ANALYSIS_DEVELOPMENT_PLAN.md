@@ -10,6 +10,8 @@ Status: `executable` locally.
 
 The design workspace now supports up to eight anonymous candidates across twenty review criteria. Each finding records evidence maturity, an interpreted constraint/opportunity signal, source reference, observation date, reviewer role and limitations. Comparison exposes coverage and unknowns but never ranks or recommends a site. Records persist on device and travel in the allowlisted project package.
 
+The next execution layer is also `executable` locally: sixteen investigation workstreams, five commitment hold points and bounded review snapshots turn unknowns into accountable scopes, evidence references, target dates and next actions. These remain user-entered workflow records rather than verified appointments, completed due diligence or releases to proceed.
+
 ## P0 — evidence integrity and privacy
 
 1. Replace free-text source references with versioned evidence objects: source type, issuer, title, URL/file reference, observed date, effective date, expiry/staleness, rights, confidence and review status.
