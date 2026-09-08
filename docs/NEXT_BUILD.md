@@ -15,8 +15,8 @@ This queue converts the broad roadmap into contributor-sized outcomes. Create or
 
 1. Authenticated projects with organization/member roles and mandatory RLS tests.
 2. Explicit local-to-account migration with preview, consent, rollback and conflict handling.
-3. Project export/import schema with versioning, validation and personal-data warnings.
-4. Audit trail that distinguishes user input, source evidence, professional review and authority decisions.
+3. Project export/import schema with versioning, validation and personal-data warnings. Status: `executable` locally — eleven workflow sections plus the project register now export through an allowlisted `mosque.build/project-package@1` schema; share-safe redaction, full-backup warnings, a 2 MB limit, import preview and confirmation are implemented. Cloud migration and signed archives remain future work.
+4. Audit trail that distinguishes user input, source evidence, professional review and authority decisions. Status: `scaffolded` — the local decision and evidence register separates four record kinds with owner, date, reference, context and review state. It is not tamper-proof, credential verification or an authority system of record.
 
 ## P1 — design workflow
 
