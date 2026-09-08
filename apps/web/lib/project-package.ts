@@ -31,6 +31,7 @@ export const projectSections = [
   ,{id:"fieldSync", label:"Offline field sync history", key:"mosque-build.field-sync.v1"}
   ,{id:"projectSchedule", label:"Integrated project schedule", key:"mosque-build.project-schedule.v1"}
   ,{id:"roomProgram", label:"Versioned room program", key:"mosque-build.room-program.v1"}
+  ,{id:"interiorStudy", label:"Interior and prayer floor study", key:"mosque-build.interior-study.v1"}
 ] as const;
 
 export type ProjectSectionId = typeof projectSections[number]["id"];
