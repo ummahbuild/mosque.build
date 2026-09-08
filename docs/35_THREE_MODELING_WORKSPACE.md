@@ -10,6 +10,8 @@ Selected architecture studies now enter the renderer as analytical guides with p
 
 The model-quality panel now checks schema version, stable IDs, footprint containment, valid dimensions, room overlap, area reconciliation, analytical guides, measurement evidence, linked cultural context and the professional review gate. Results are filterable and export as a versioned JSON report. These deterministic checks catch coordination defects; they do not establish code compliance or design adequacy.
 
+Selected construction assembly studies now travel into the renderer and GLB as sorted semantic IDs. The design workspace exposes each study's evidence requirements, care plan, source date and maturity. It deliberately does not turn a conceptual assembly selection into rendered thickness, certified performance, price, availability or approval.
+
 The output is conceptual visual exchange—not BIM, structure, MEP, fire analysis, code compliance, cost, or construction documentation. GLB user data retains schema, units, status and the professional review gate.
 
 Next implementation slices:
