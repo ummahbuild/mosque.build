@@ -40,7 +40,7 @@ This queue converts the broad roadmap into contributor-sized outcomes. Create or
 2. Handover asset register, commissioning records and maintenance schedules. Status: `executable` locally — up to 100 assets can be recorded with non-personal location and asset references, commissioning state, manual/warranty evidence, responsible role, deterministic maintenance due states, filters and source-preserving export. Asset-linked work orders now add priority, target dates, responsible roles, evidence-gated closure, filters and versioned export. Attachments, statutory inspection templates, notifications and multi-user accountability remain future work.
 3. Volunteer/staff privacy model and minimum-data collection.
 4. Offline conflict strategy for field updates.
-5. Climate emergency operating modes for heat, flood, smoke, storms, water scarcity and compound utility disruption, including inclusive warnings, responsible roles, drills and recovery records.
+5. Climate emergency operating modes for heat, flood, smoke, storms, water scarcity and compound utility disruption, including inclusive warnings, responsible roles, drills and recovery records. Status: `executable` locally — six modes now provide role-based planning, official-warning source fields, primary and offline accessible communication routes, response/recovery prompts, drill records, climate-study context and versioned export. Live alerts, local thresholds, contacts, location-specific procedures, notifications and authority/professional approval remain future work.
 
 ## Issue definition of ready
 
