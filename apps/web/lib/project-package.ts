@@ -34,6 +34,7 @@ export const projectSections = [
   ,{id:"interiorStudy", label:"Interior and prayer floor study", key:"mosque-build.interior-study.v1"}
   ,{id:"knowledgeLibrary", label:"Knowledge library plan", key:"mosque-build.knowledge-library.v1"}
   ,{id:"interiorDecoration", label:"Interior decoration study", key:"mosque-build.interior-decoration.v1"}
+  ,{id:"siteAccessEnvironment", label:"Site, access and environment study", key:"mosque-build.site-access-environment.v1"}
 ] as const;
 
 export type ProjectSectionId = typeof projectSections[number]["id"];
