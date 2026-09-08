@@ -1,0 +1,7 @@
+import test from "node:test";import assert from "node:assert/strict";import fs from "node:fs";
+const source=fs.readFileSync(new URL("../apps/web/lib/wudu-planning.ts",import.meta.url),"utf8"),component=fs.readFileSync(new URL("../apps/web/components/wudu-planning-studio.tsx",import.meta.url),"utf8"),doc=fs.readFileSync(new URL("../docs/43_WUDU_PLANNING_100.md",import.meta.url),"utf8");
+test("wudu model is portable and review bounded",()=>{assert.match(source,/mosque\.build\/wudu-plan@1/);assert.doesNotMatch(source,/THREE\.Mesh|BABYLON|Filament/);assert.match(component,/does not establish religious sufficiency/)});
+test("workflow covers design through operation",()=>{for(const term of ["Peak-use brief","Wet \\+ dry plan","Evidence checks","Handoff","Accessible user trial","Water interruption mode","Waterproofing continuity","Drainage and falls"])assert.match(component+source,new RegExp(term,"i"))});
+test("calculations preserve evidence gaps",()=>{assert.match(source,/waterPromptL:b\.waterPerUseL\?/);assert.match(component,/Leave consumption at zero until measured or supported/);assert.match(component,/planning prompt · verify/)});
+test("module persists in project packages",()=>{const pkg=fs.readFileSync(new URL("../apps/web/lib/project-package.ts",import.meta.url),"utf8");assert.match(pkg,/wuduPlan/);assert.match(pkg,/mosque-build\.wudu-plan\.v1/)});
+test("delivery ledger contains exactly 100 improvements",()=>assert.equal((doc.match(/^\d+\. /gm)||[]).length,100));
