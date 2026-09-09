@@ -9,6 +9,7 @@ export const projectSections = [
   {id:"patterns", label:"Pattern shortlist", key:"mosque-build.pattern-shortlist.v1"},
   {id:"architecture", label:"Architecture direction", key:"mosque-build.architecture-direction.v1"},
   {id:"architecturePrecedentBrief", label:"Architecture precedent brief", key:"mosque-build.architecture-precedent-brief.v1"},
+  {id:"islamicArchitectureFramework", label:"Islamic architecture framework", key:"mosque-build.islamic-architecture-framework.v1"},
   {id:"design", label:"Design studio", key:"mosque-build.design-studio.v1"},
   {id:"schematic", label:"Schematic plan", key:"mosque-build.schematic-plan.v1"},
   {id:"resources", label:"Resource plan", key:"mosque-build.resource-plan.v1"},
