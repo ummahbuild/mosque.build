@@ -42,6 +42,7 @@ export const projectSections = [
   ,{id:"womensSpacePlan", label:"Women’s space and accessories study", key:"mosque-build.womens-space-plan.v1"}
   ,{id:"modelPlanning", label:"Three-dimensional model planning register", key:"mosque-build.model-planning.v1"}
   ,{id:"constructionControls", label:"Construction control register", key:"mosque-build.construction-controls.v1"}
+  ,{id:"constructionDocumentControl", label:"Construction revision and review control", key:"mosque-build.construction-document-control.v1"}
   ,{id:"siteAnalysis", label:"Site due-diligence analysis", key:"mosque-build.site-analysis.v1"}
   ,{id:"siteInvestigation", label:"Site investigation and hold-point plan", key:"mosque-build.site-investigation.v1"}
   ,{id:"materialSelection", label:"Material selection and site acceptance", key:"mosque-build.material-selection.v1"}
