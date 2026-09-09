@@ -46,6 +46,7 @@ export const projectSections = [
   ,{id:"designTemplate", label:"Constraint-led mosque template study", key:"mosque-build.design-template.v1"}
   ,{id:"patternModel", label:"Parametric pattern model", key:"mosque-build.pattern-model.v1"}
   ,{id:"islamicGeometry", label:"Islamic geometry construction study", key:"mosque-build.islamic-geometry.v1"}
+  ,{id:"architectureKit", label:"Architectural component kit", key:"mosque-build.architecture-kit.v1"}
   ,{id:"constructionControls", label:"Construction control register", key:"mosque-build.construction-controls.v1"}
   ,{id:"constructionDocumentControl", label:"Construction revision and review control", key:"mosque-build.construction-document-control.v1"}
   ,{id:"constructionSequence", label:"Construction sequence and compliance gates", key:"mosque-build.construction-sequence.v1"}
