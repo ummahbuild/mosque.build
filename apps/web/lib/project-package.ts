@@ -57,6 +57,7 @@ export const projectSections = [
   ,{id:"buildingSystems", label:"Building systems coordination", key:"mosque-build.building-systems.v1"}
   ,{id:"roofDesign", label:"Roof, dome and wind coordination", key:"mosque-build.roof-design.v1"}
   ,{id:"openingDesign", label:"Door, gate and opening coordination", key:"mosque-build.opening-design.v1"}
+  ,{id:"ornamentalAssemblies", label:"Ornamental gate, screen and surface assemblies", key:"mosque-build.ornamental-assemblies.v1"}
   ,{id:"structuralFoundation", label:"Structural and foundation coordination", key:"mosque-build.structural-foundation.v1"}
   ,{id:"regionalMaterialCost", label:"Regional material cost plan", key:"mosque-build.regional-material-cost.v1"}
 ] as const;
