@@ -5,6 +5,7 @@ import fs from "node:fs";
 const domain=fs.readFileSync("apps/web/lib/islamic-architecture-framework.ts","utf8");
 const ui=fs.readFileSync("apps/web/components/islamic-architecture-framework.tsx","utf8");
 const css=fs.readFileSync("apps/web/components/islamic-architecture-framework.css","utf8");
+const actions=fs.readFileSync("apps/web/components/islamic-architecture-actions.css","utf8");
 const page=fs.readFileSync("apps/web/app/patterns/page.tsx","utf8");
 const pkg=fs.readFileSync("apps/web/lib/project-package.ts","utf8");
 const workflow=fs.readFileSync("apps/web/lib/workflow-integration.ts","utf8");
@@ -45,6 +46,19 @@ test("interactive UI supports authoring, options, review, saving and export",()=
  assert.match(css,/min-height:44px/);
  assert.match(css,/focus-visible/);
  assert.match(css,/safe-area-inset/);
+});
+
+test("workspace explains recovery and always offers a concrete next action",()=>{
+ assert.match(ui,/We could not safely open the saved architecture record/);
+ assert.match(ui,/unreadable record has not been deleted/);
+ assert.match(ui,/Start with a clean framework/);
+ assert.match(ui,/Restore a project backup/);
+ assert.match(ui,/NEXT BEST ACTION/);
+ assert.match(ui,/Review blockers/);
+ assert.match(ui,/Export this work/);
+ assert.match(ui,/role=\{saveFailed\?"alert":"status"\}/);
+ assert.match(actions,/\.architectureNotice/);
+ assert.match(actions,/\.architectureRecoveryActions/);
 });
 
 test("architecture framework is integrated into page, project package and workflow",()=>{
