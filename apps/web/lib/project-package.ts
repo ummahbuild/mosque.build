@@ -23,6 +23,7 @@ export const projectSections = [
   ,{id:"siteQiblaEvidence", label:"Site and qibla evidence", key:"mosque-build.site-qibla-evidence.v1"}
   ,{id:"climateResilience", label:"Climate resilience scenarios", key:"mosque-build.climate-resilience.v1"}
   ,{id:"solarDesign", label:"Solar and resilience design", key:"mosque-build.solar-design.v1"}
+  ,{id:"energyScenario", label:"Monthly energy scenarios", key:"mosque-build.energy-scenario.v1"}
   ,{id:"permitPathway", label:"Permit pathway", key:"mosque-build.permits-pathway.v1"}
   ,{id:"fundingPathway", label:"Funding pathway", key:"mosque-build.funding-pathway.v1"}
   ,{id:"quoteComparison", label:"Quote comparison", key:"mosque-build.quote-comparison.v1"}
