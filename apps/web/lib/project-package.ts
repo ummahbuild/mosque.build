@@ -44,6 +44,7 @@ export const projectSections = [
   ,{id:"materialSelection", label:"Material selection and site acceptance", key:"mosque-build.material-selection.v1"}
   ,{id:"floorPlanWorkspace", label:"Detailed floor-plan workspace", key:"mosque-build.floor-plan.v1"}
   ,{id:"projectPlanning", label:"Project planning workspace", key:"mosque-build.project-planning.v1"}
+  ,{id:"bimView", label:"BIM coordination view settings", key:"mosque-build.bim-view.v1"}
 ] as const;
 
 export type ProjectSectionId = typeof projectSections[number]["id"];
