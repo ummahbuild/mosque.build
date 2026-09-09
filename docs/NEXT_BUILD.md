@@ -1,5 +1,9 @@
 # What to build next
 
+## Architectural Three.js prompt bank
+
+The next architectural-modeling backlog is organized as 100 implementation prompts spanning portable spatial geometry, worship and circulation, site planning, climate, envelope, structure, gates, ornament, Islamic architectural studies, interiors, construction sequencing, BIM exchange, accessibility and production hardening. See `docs/67_ARCHITECTURAL_THREEJS_PROMPTS_100.md`. These are candidate issues—not delivered-feature claims—and each must retain renderer neutrality, provenance and the relevant professional, cultural, community, authority or religious review gate.
+
 ## Latest executable layer: roof, dome and wind coordination
 
 The design workspace now compares eight roof forms and connects conceptual geometry to wind zones, tested-resistance evidence, primary and emergency drainage, climate risks, solar interfaces, assemblies, construction activities and accountable review. See `docs/62_ROOF_DOME_WIND_100.md`. Next depth: editable roof polygons, explicit ridges/valleys/eaves, riser and penetration objects, Three.js roof solids, section cuts, drainage arrows, roof-to-BIM mappings and schedule task selection.
