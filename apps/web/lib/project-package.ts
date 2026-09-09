@@ -14,6 +14,7 @@ export const projectSections = [
   {id:"schematic", label:"Schematic plan", key:"mosque-build.schematic-plan.v1"},
   {id:"resources", label:"Resource plan", key:"mosque-build.resource-plan.v1"},
   {id:"procurement", label:"Procurement workspace", key:"mosque-build.procurement.v1"},
+  {id:"marketplaceCandidates", label:"Marketplace candidate shortlist", key:"mosque-build.marketplace-candidates.v1"},
   {id:"construction", label:"Construction log", key:"mosque-build.construction-log.v1"},
   {id:"records", label:"Decision + evidence register", key:"mosque-build.project-records.v1"},
   {id:"constructionPackage", label:"Construction package", key:"mosque-build.construction-package.v1"},
@@ -24,6 +25,8 @@ export const projectSections = [
   ,{id:"siteQiblaEvidence", label:"Site and qibla evidence", key:"mosque-build.site-qibla-evidence.v1"}
   ,{id:"climateResilience", label:"Climate resilience scenarios", key:"mosque-build.climate-resilience.v1"}
   ,{id:"solarDesign", label:"Solar and resilience design", key:"mosque-build.solar-design.v1"}
+  ,{id:"prayerDaylight", label:"Prayer-time daylight study", key:"mosque-build.prayer-daylight.v1"}
+  ,{id:"prayerOccupancy", label:"Prayer row and occupancy study", key:"mosque-build.prayer-occupancy.v1"}
   ,{id:"energyScenario", label:"Monthly energy scenarios", key:"mosque-build.energy-scenario.v1"}
   ,{id:"permitPathway", label:"Permit pathway", key:"mosque-build.permits-pathway.v1"}
   ,{id:"fundingPathway", label:"Funding pathway", key:"mosque-build.funding-pathway.v1"}
@@ -38,6 +41,7 @@ export const projectSections = [
   ,{id:"interiorStudy", label:"Interior and prayer floor study", key:"mosque-build.interior-study.v1"}
   ,{id:"knowledgeLibrary", label:"Knowledge library plan", key:"mosque-build.knowledge-library.v1"}
   ,{id:"interiorDecoration", label:"Interior decoration study", key:"mosque-build.interior-decoration.v1"}
+  ,{id:"interiorSystems", label:"Interior systems and operations", key:"mosque-build.interior-systems.v1"}
   ,{id:"siteAccessEnvironment", label:"Site, access and environment study", key:"mosque-build.site-access-environment.v1"}
   ,{id:"wuduPlan", label:"Wudu and washroom coordination study", key:"mosque-build.wudu-plan.v1"}
   ,{id:"womensSpacePlan", label:"Women’s space and accessories study", key:"mosque-build.womens-space-plan.v1"}

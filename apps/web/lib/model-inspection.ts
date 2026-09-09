@@ -1,12 +1,12 @@
 import type {RenderModel} from "@/lib/render-model";
 
-export const modelLayers=["spaces","template","architecture","site","walls","openings","guides"] as const;
+export const modelLayers=["spaces","template","architecture","interiors","site","walls","openings","guides"] as const;
 export type ModelLayer=(typeof modelLayers)[number];
 export type ModelView="iso"|"top"|"front"|"rear"|"left"|"right"|"qibla";
 export type InspectionPreferences={view:ModelView;layers:Record<ModelLayer,boolean>;grid:boolean;shadows:boolean;wireframe:boolean;explode:number};
 export type ModelStatistics={spaces:number;walls:number;openings:number;guides:number;footprintM2:number;programAreaM2:number;modeledVolumeM3:number;materialRoles:number;adjacencies:number};
 
-export const defaultInspectionPreferences:InspectionPreferences={view:"iso",layers:{spaces:true,template:true,architecture:true,site:true,walls:true,openings:true,guides:true},grid:true,shadows:true,wireframe:false,explode:0};
+export const defaultInspectionPreferences:InspectionPreferences={view:"iso",layers:{spaces:true,template:true,architecture:true,interiors:true,site:true,walls:true,openings:true,guides:true},grid:true,shadows:true,wireframe:false,explode:0};
 
 export function sanitizeInspectionPreferences(value:unknown):InspectionPreferences{
   if(!value||typeof value!=="object")return structuredClone(defaultInspectionPreferences);

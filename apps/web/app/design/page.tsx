@@ -5,6 +5,8 @@ import {IntegratedSpacePlanner} from "@/components/integrated-space-planner";
 import {ModelPlanningTools} from "@/components/model-planning-tools";
 import {BimCoordinationWorkspace} from "@/components/bim-coordination-workspace";
 import {SolarDesignWorkbench} from "@/components/solar-design-workbench";
+import {PrayerDaylightStudio} from "@/components/prayer-daylight-studio";
+import {PrayerOccupancyStudio} from "@/components/prayer-occupancy-studio";
 import {BuildingSystemsWorkspace} from "@/components/building-systems-workspace";
 import {RoofDesignStudio} from "@/components/roof-design-studio";
 import {OpeningDesignStudio} from "@/components/opening-design-studio";
@@ -16,4 +18,6 @@ import {OrnamentalThreePreview} from "@/components/ornamental-three-preview";
 import {ModelAuthoringWorkbench} from "@/components/model-authoring-workbench";
 import {MosqueTemplateStudio} from "@/components/mosque-template-studio";
 import {ArchitectureKitStudio} from "@/components/architecture-kit-studio";
-export default function Page(){const area=areas.find(item=>item.slug==="design")!;return <ProductAreaPage area={area} insert={<><MasjidIntelligenceWorkbench/><MosqueTemplateStudio/><SiteQiblaEvidence/><SiteAnalysisWorkbench/><SiteInvestigationWorkbench/><StructuralFoundationStudio/><ClimateResilienceStudio/><SiteAccessEnvironmentStudio/><SolarDesignWorkbench/><EnergyScenarioLab/><SiteThreeCoordination/><WuduPlanningStudio/><WomensSpaceStudio/><IntegratedSpacePlanner/><ArchitecturalConsiderationBoard/><MosqueDesignStudio/><SocialArchitectureStudio/><SchematicPlanEditor/><FloorPlanWorkspace/><OpeningDesignStudio/><RoofDesignStudio/><BuildingSystemsWorkspace/><BimCoordinationWorkspace/><RoomProgramWorkbench/><InteriorPlanningStudio/><InteriorDecorationStudio/><OrnamentalAssemblyStudio/><OrnamentalThreePreview/><InteriorThreeWorkspace/><ArchitectureKitStudio/><ModelCulturalContext/><ModelMaterialContext/><ModelAuthoringWorkbench/><ThreeSchematicViewer/><ModelPlanningTools/><ModelQualityPanel/><DesignQuickSelect/></>}/>}
+import {InteriorSystemsWorkbench} from "@/components/interior-systems-workbench";
+import {InteriorSystemsThree} from "@/components/interior-systems-three";
+export default function Page(){const area=areas.find(item=>item.slug==="design")!;return <ProductAreaPage area={area} insert={<><MasjidIntelligenceWorkbench/><MosqueTemplateStudio/><SiteQiblaEvidence/><SiteAnalysisWorkbench/><SiteInvestigationWorkbench/><StructuralFoundationStudio/><ClimateResilienceStudio/><SiteAccessEnvironmentStudio/><SolarDesignWorkbench/><EnergyScenarioLab/><SiteThreeCoordination/><WuduPlanningStudio/><WomensSpaceStudio/><IntegratedSpacePlanner/><ArchitecturalConsiderationBoard/><MosqueDesignStudio/><SocialArchitectureStudio/><SchematicPlanEditor/><FloorPlanWorkspace/><OpeningDesignStudio/><RoofDesignStudio/><BuildingSystemsWorkspace/><BimCoordinationWorkspace/><RoomProgramWorkbench/><InteriorPlanningStudio/><InteriorDecorationStudio/><InteriorSystemsWorkbench/><InteriorSystemsThree/><OrnamentalAssemblyStudio/><OrnamentalThreePreview/><InteriorThreeWorkspace/><ArchitectureKitStudio/><ModelCulturalContext/><ModelMaterialContext/><ModelAuthoringWorkbench/><PrayerDaylightStudio/><PrayerOccupancyStudio/><ThreeSchematicViewer/><ModelPlanningTools/><ModelQualityPanel/><DesignQuickSelect/></>}/>}
