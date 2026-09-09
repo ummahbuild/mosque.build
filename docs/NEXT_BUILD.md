@@ -1,5 +1,9 @@
 # What to build next
 
+## Latest executable layer: roof, dome and wind coordination
+
+The design workspace now compares eight roof forms and connects conceptual geometry to wind zones, tested-resistance evidence, primary and emergency drainage, climate risks, solar interfaces, assemblies, construction activities and accountable review. See `docs/62_ROOF_DOME_WIND_100.md`. Next depth: editable roof polygons, explicit ridges/valleys/eaves, riser and penetration objects, Three.js roof solids, section cuts, drainage arrows, roof-to-BIM mappings and schedule task selection.
+
 ## Latest executable layer: coordinated building systems
 
 The design workspace now carries room-linked water, drainage, ventilation, electrical, fire/life-safety, data/AV and rainwater records into coordination checks, construction activity links, asset tags and portable handoff. See `docs/61_BUILDING_SYSTEMS_100.md`. Next depth: explicit risers, editable waypoints, clearance volumes, model overlays, schedule pickers, commissioning requirements and IFC distribution mappings, all subject to qualified review.
