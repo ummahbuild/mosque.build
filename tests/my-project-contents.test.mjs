@@ -8,7 +8,7 @@ const contents=fs.readFileSync("apps/web/components/my-project-contents.tsx","ut
 test("project contents links resolve to unique workspace targets",()=>{
   const hrefs=[...contents.matchAll(/href=\{`#\$\{item\.id\}`\}/g)];
   assert.equal(hrefs.length,1,"contents should build local fragment links");
-  for(const id of ["project-action-plan","connected-project-map","project-controls","project-planning","project-schedule","project-records","project-lifecycle","project-data"]){
+  for(const id of ["project-action-plan","connected-project-map","project-controls","project-planning","project-schedule","project-shura","project-records","project-lifecycle","project-data"]){
     assert.equal((page.match(new RegExp(`id=\\"${id}\\"`,"g"))||[]).length,1,`${id} should have one target`);
     assert.match(contents,new RegExp(`id:\\"${id}\\"`));
   }

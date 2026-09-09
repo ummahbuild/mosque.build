@@ -16,9 +16,10 @@ const groups:{label:string;items:ContentsItem[]}[]=[
     {id:"project-schedule",number:"05",label:"Integrated schedule",description:"Dates, dependencies and evidence",keys:["mosque-build.project-schedule.v1"]},
   ]},
   {label:"Evidence and handoff",items:[
-    {id:"project-records",number:"06",label:"Decision and evidence register",description:"Owned records and review state",keys:["mosque-build.project-records.v1"]},
-    {id:"project-lifecycle",number:"07",label:"Lifecycle checklist",description:"Preparation prompts by stage",keys:["mosque-build.process-progress.v1"]},
-    {id:"project-data",number:"08",label:"Backup and handoff",description:"Export or restore local work",keys:allKeys},
+    {id:"project-shura",number:"06",label:"Community decisions",description:"Alternatives, voices and review history",keys:["mosque-build.shura-workspace.v1"]},
+    {id:"project-records",number:"07",label:"Decision and evidence register",description:"Owned records and review state",keys:["mosque-build.project-records.v1"]},
+    {id:"project-lifecycle",number:"08",label:"Lifecycle checklist",description:"Preparation prompts by stage",keys:["mosque-build.process-progress.v1"]},
+    {id:"project-data",number:"09",label:"Backup and handoff",description:"Export or restore local work",keys:allKeys},
   ]},
 ];
 const items=groups.flatMap(group=>group.items);
