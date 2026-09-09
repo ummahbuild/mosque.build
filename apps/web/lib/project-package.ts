@@ -57,6 +57,7 @@ export const projectSections = [
   ,{id:"roofDesign", label:"Roof, dome and wind coordination", key:"mosque-build.roof-design.v1"}
   ,{id:"openingDesign", label:"Door, gate and opening coordination", key:"mosque-build.opening-design.v1"}
   ,{id:"structuralFoundation", label:"Structural and foundation coordination", key:"mosque-build.structural-foundation.v1"}
+  ,{id:"regionalMaterialCost", label:"Regional material cost plan", key:"mosque-build.regional-material-cost.v1"}
 ] as const;
 
 export type ProjectSectionId = typeof projectSections[number]["id"];
