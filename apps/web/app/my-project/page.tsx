@@ -10,6 +10,7 @@ import {MyProjectContents} from "@/components/my-project-contents";
 import {ShuraWorkspacePanel} from "@/components/shura-workspace";
 import {SiteFooter} from "@/components/site-footer";
 import {SiteHeader} from "@/components/site-header";
+import "./project-workspace-fixes.css";
 
 export const metadata={title:"My Local Project",description:"Continue a mosque.build project brief with a private, device-local action workspace.",robots:{index:false,follow:false}};
 

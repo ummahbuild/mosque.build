@@ -12,9 +12,18 @@ const ledger=fs.readFileSync("docs/66_ISLAMIC_ARCHITECTURE_100.md","utf8");
 
 test("architecture framework is versioned, bounded and renderer-neutral",()=>{
  assert.match(domain,/mosque\.build\/islamic-architecture-framework@1/);
- assert.match(domain,/responses\.length>100/);
+ assert.match(domain,/responses\.length!==architecturePrompts\.length/);
  assert.match(domain,/options\.length>20/);
  assert.doesNotMatch(domain,/THREE\.Mesh|WebGLRenderer|Babylon/);
+});
+
+test("saved architecture records reject partial duplicate and oversized shapes",()=>{
+ assert.match(domain,/responses\.length!==architecturePrompts\.length/);
+ assert.match(domain,/expected\.has\(r\.promptId\)/);
+ assert.match(domain,/!seen\.has\(r\.promptId\)/);
+ assert.match(domain,/short\(r\.projectResponse,1400\)/);
+ assert.match(domain,/o\.principleIds\.length<=architecturePrompts\.length/);
+ assert.match(domain,/selectedOptionId&&!x\.options\.some/);
 });
 
 test("framework covers worship, place, performance, culture and stewardship",()=>{

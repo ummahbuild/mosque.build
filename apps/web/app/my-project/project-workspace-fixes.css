@@ -1,0 +1,13 @@
+/* Prevent intrinsically sized schedule controls from escaping their grid track. */
+.taskEditor,
+.taskEditor > * {
+  min-width: 0;
+}
+
+.taskEditor input,
+.taskEditor select,
+.taskEditor textarea {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+}
