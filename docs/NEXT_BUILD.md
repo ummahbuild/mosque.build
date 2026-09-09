@@ -1,5 +1,9 @@
 # What to build next
 
+## Latest executable layer: coordinated building systems
+
+The design workspace now carries room-linked water, drainage, ventilation, electrical, fire/life-safety, data/AV and rainwater records into coordination checks, construction activity links, asset tags and portable handoff. See `docs/61_BUILDING_SYSTEMS_100.md`. Next depth: explicit risers, editable waypoints, clearance volumes, model overlays, schedule pickers, commissioning requirements and IFC distribution mappings, all subject to qualified review.
+
 The completed device-local resource and lifecycle batch is recorded in [`FUNCTIONALITY_BATCH_100.md`](./FUNCTIONALITY_BATCH_100.md). The queue below begins where that executable preparation workflow stops.
 
 This queue converts the broad roadmap into contributor-sized outcomes. Create or link a GitHub issue before implementation. Never mark an item complete solely because a visual reference or schema exists.
