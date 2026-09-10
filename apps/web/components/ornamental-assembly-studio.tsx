@@ -1,6 +1,6 @@
 "use client";
 import {useEffect,useMemo,useState} from "react";
-import patterns from "@/data/pattern-library.json";
+import patterns from "@/lib/pattern-catalog";
 import {blankOrnamentalAssembly,blankOrnamentalState,fabricationMethods,mountingTypes,ornamentalCategories,ornamentalChecks,ornamentalPresets,ornamentalSummary,safeOrnamentalState,substrateTypes,type OrnamentalAssembly,type OrnamentalAssemblyState} from "@/lib/ornamental-assemblies";
 import "./ornamental-assembly-studio.css";
 

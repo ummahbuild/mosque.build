@@ -21,7 +21,10 @@ const nextConfig:NextConfig={
   allowedDevOrigins:["127.0.0.1"],
   poweredByHeader:false,
   turbopack:{root:path.join(__dirname,"../..")},
-  async headers(){return [{source:"/(.*)",headers:securityHeaders}]},
+  async headers(){return [
+    {source:"/sw.js",headers:[{key:"Cache-Control",value:"no-cache, no-store, must-revalidate"},{key:"Service-Worker-Allowed",value:"/"}]},
+    {source:"/(.*)",headers:securityHeaders},
+  ]},
 };
 
 export default nextConfig;

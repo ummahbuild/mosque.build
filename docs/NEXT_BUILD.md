@@ -1,5 +1,9 @@
 # What to build next
 
+## Latest executable slice: qibla-wall performance kit
+
+The Design workspace now coordinates five mihrab studies and five minbar studies with bounded geometry, conceptual daylight slots, a step-free approach zone, sacred-content lifecycle, acoustic/daylight/access/structure/material/community evidence fields, maintenance planning, deterministic review gaps and a Three.js preview generated from renderer-neutral primitives. The record joins project export, the connected workflow and the Project Action Desk. It does not calculate acoustic or daylight performance, establish accessibility compliance, approve religious content or provide construction geometry. See `docs/72_MODERN_PERFORMANCE_ARCHITECTURE_PLAN.md`.
+
 ## Latest integrated feature source: modern performance architecture
 
 The Architecture Delivery Plan now combines the original 100 proposals with 100 additional performance-driven concepts covering sacred-core elements, functional minarets and domes, adaptive envelopes and courtyards, long-span structures, prayer-time light, climate systems, inclusive floors and generative governance. The new `MODERN-001`–`MODERN-100` records begin at `concept`, retain source/rights/review metadata and share the existing project priority, evidence, testing and export workflow. See `docs/72_MODERN_PERFORMANCE_ARCHITECTURE_PLAN.md` for ten executable slices and 30 adjacent features.
@@ -90,3 +94,21 @@ This queue converts the broad roadmap into contributor-sized outcomes. Create or
 ## Issue definition of ready
 
 Every implementation issue needs a user outcome, scoped surface, status, dependencies, acceptance tests, privacy/security/accessibility impact, source burden, mobile/web parity need, and professional/authority/religious-content review gate where applicable.
+# Unified journey UX
+
+- The six-stage project journey is now shared by Design, Permits, Funding, Marketplace, Construction, Operations and My Project.
+- The 100 implemented UX outcomes and remaining review gates are recorded in `73_UNIFIED_PRODUCT_UX_100.md`.
+- Next: progressively mount distant Three.js editors and standardize undo/history across specialist tools.
+
+# Architecture proposal previews
+
+- Every proposal in the architecture delivery plan now resolves to a typed, renderer-neutral component and an interactive Three.js preview. A quick-add action persists that component into the shared mosque design kit, updates both the editable kit and combined scene without a reload, prevents duplicate proposal imports, and preserves source/review context. Status: `executable` locally; geometry remains conceptual and professional/cultural acceptance is not implied.
+- Next: add deliberate placement mode, undo/history, collision feedback, thumbnail caching and component-specific parameter presets before promotion beyond local execution.
+
+# Computational pattern expansion
+
+- Fifty new computational pattern studies now extend the original source-labelled library: Voronoi and Delaunay fields, quasiperiodic systems, strapwork, polygonal stars, growth spirals, circle packing, edge-matched tiles, semiregular tessellations, material set-outs, interlaces, performance gradients and recursive fields. All are searchable, shortlistable, editable in the pattern model and exportable through the existing Three.js adapter. Status: `executable` locally with conceptual provenance; see `74_COMPUTATIONAL_PATTERN_EXPANSION_50.md`.
+
+# Landing hero style sequence
+
+- After the eight-stage construction sequence completes, the landing hero now transitions into six selectable mosque design studies with unique Three.js massing, automatic cycling, an explicit active state and a replay path back to construction. Status: `executable` locally; the 100 delivered interaction, rendering, accessibility, responsive and trust improvements are recorded in `75_HERO_STYLE_SEQUENCE_100.md`.

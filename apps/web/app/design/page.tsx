@@ -9,6 +9,7 @@ import {PrayerDaylightStudio} from "@/components/prayer-daylight-studio";
 import {PrayerOccupancyStudio} from "@/components/prayer-occupancy-studio";
 import {BuildingSystemsWorkspace} from "@/components/building-systems-workspace";
 import {RoofDesignStudio} from "@/components/roof-design-studio";
+import {DomeDesignStudio} from "@/components/dome-design-studio";
 import {OpeningDesignStudio} from "@/components/opening-design-studio";
 import {StructuralFoundationStudio} from "@/components/structural-foundation-studio";
 import {EnergyScenarioLab} from "@/components/energy-scenario-lab";
@@ -20,9 +21,11 @@ import {MosqueTemplateStudio} from "@/components/mosque-template-studio";
 import {ArchitectureKitStudio} from "@/components/architecture-kit-studio";
 import {InteriorSystemsWorkbench} from "@/components/interior-systems-workbench";
 import {InteriorSystemsThree} from "@/components/interior-systems-three";
+import {InteriorDesignWorkbench} from "@/components/interior-design-workbench";
 import {CostSavingRuleEngine} from "@/components/cost-saving-rule-engine";
 import {CostControlIntegrationWorkbench} from "@/components/cost-control-integration-workbench";
 import {LandCostWorkbench} from "@/components/land-cost-workbench";
 import {ArchitectureFeaturePlanner} from "@/components/architecture-feature-planner";
 import {SiteContextAnalysisWorkbench} from "@/components/site-context-analysis-workbench";
-export default function Page(){const area=areas.find(item=>item.slug==="design")!;return <ProductAreaPage area={area} insert={<><ArchitectureFeaturePlanner/><MasjidIntelligenceWorkbench/><MosqueTemplateStudio/><SiteQiblaEvidence/><SiteContextAnalysisWorkbench/><SiteAnalysisWorkbench/><SiteInvestigationWorkbench/><LandCostWorkbench/><StructuralFoundationStudio/><ClimateResilienceStudio/><SiteAccessEnvironmentStudio/><SolarDesignWorkbench/><EnergyScenarioLab/><SiteThreeCoordination/><WuduPlanningStudio/><WomensSpaceStudio/><IntegratedSpacePlanner/><ArchitecturalConsiderationBoard/><MosqueDesignStudio/><SocialArchitectureStudio/><SchematicPlanEditor/><FloorPlanWorkspace/><OpeningDesignStudio/><RoofDesignStudio/><BuildingSystemsWorkspace/><BimCoordinationWorkspace/><RoomProgramWorkbench/><InteriorPlanningStudio/><InteriorDecorationStudio/><InteriorSystemsWorkbench/><InteriorSystemsThree/><OrnamentalAssemblyStudio/><OrnamentalThreePreview/><InteriorThreeWorkspace/><ArchitectureKitStudio/><ModelCulturalContext/><ModelMaterialContext/><ModelAuthoringWorkbench/><PrayerDaylightStudio/><PrayerOccupancyStudio/><CostSavingRuleEngine/><CostControlIntegrationWorkbench/><ThreeSchematicViewer/><ModelPlanningTools/><ModelQualityPanel/><DesignQuickSelect/></>}/>}
+import {QiblaWallPerformanceStudio} from "@/components/qibla-wall-performance-studio";
+export default function Page(){const area=areas.find(item=>item.slug==="design")!;return <ProductAreaPage area={area} insert={<><ArchitectureFeaturePlanner/><MasjidIntelligenceWorkbench/><MosqueTemplateStudio/><SiteQiblaEvidence/><SiteContextAnalysisWorkbench/><SiteAnalysisWorkbench/><SiteInvestigationWorkbench/><LandCostWorkbench/><StructuralFoundationStudio/><ClimateResilienceStudio/><SiteAccessEnvironmentStudio/><SolarDesignWorkbench/><EnergyScenarioLab/><SiteThreeCoordination/><WuduPlanningStudio/><WomensSpaceStudio/><IntegratedSpacePlanner/><ArchitecturalConsiderationBoard/><MosqueDesignStudio/><SocialArchitectureStudio/><SchematicPlanEditor/><FloorPlanWorkspace/><QiblaWallPerformanceStudio/><OpeningDesignStudio/><RoofDesignStudio/><section id="dome-architecture-studio"><DomeDesignStudio/></section><BuildingSystemsWorkspace/><BimCoordinationWorkspace/><RoomProgramWorkbench/><InteriorPlanningStudio/><InteriorDecorationStudio/><InteriorDesignWorkbench/><InteriorSystemsWorkbench/><InteriorSystemsThree/><OrnamentalAssemblyStudio/><OrnamentalThreePreview/><InteriorThreeWorkspace/><ArchitectureKitStudio/><ModelCulturalContext/><ModelMaterialContext/><ModelAuthoringWorkbench/><PrayerDaylightStudio/><PrayerOccupancyStudio/><CostSavingRuleEngine/><CostControlIntegrationWorkbench/><ThreeSchematicViewer/><ModelPlanningTools/><ModelQualityPanel/><DesignQuickSelect/></>}/>}

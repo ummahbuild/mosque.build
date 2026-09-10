@@ -8,9 +8,16 @@ test("share-safe project package redacts sensitive brief fields",()=>{
   assert.equal(result.schema,PROJECT_PACKAGE_SCHEMA);assert.equal(result.privacy,"share-safe");assert.deepEqual(result.sections.brief,{name:"Community project",location:"",owner:"",email:"",notes:"",needs:["Prayer hall"]});assert.deepEqual(result.sections.patterns,["iran-cross-star"]);
 });
 
+test("share-safe redaction reaches nested contact data",()=>{
+  const values=new Map([["mosque-build.project-draft.v2",JSON.stringify({name:"Community project",committee:{contactEmail:"private@example.test",phone:"+1 555 0100"},options:[{address:"Private address",label:"Option A"}]})]]);
+  const result=createProjectPackage(key=>values.get(key)??null,"share-safe","2026-09-08T10:00:00.000Z");
+  assert.deepEqual(result.sections.brief,{name:"Community project",committee:{contactEmail:"",phone:""},options:[{address:"",label:"Option A"}]});
+});
+
 test("validator rejects foreign and empty package data",()=>{
   assert.equal(validateProjectPackage({schema:"other",product:"other",sections:{}}).ok,false);
   assert.equal(validateProjectPackage({schema:PROJECT_PACKAGE_SCHEMA,product:"mosque.build",privacy:"share-safe",exportedAt:"2026-09-08T10:00:00.000Z",sections:{}}).ok,false);
+  assert.equal(validateProjectPackage({schema:PROJECT_PACKAGE_SCHEMA,product:"mosque.build",privacy:"share-safe",exportedAt:"2026-99-99T99:99:99Z",sections:{brief:{}}}).ok,false);
 });
 
 test("restore writes only allowlisted supported sections",()=>{

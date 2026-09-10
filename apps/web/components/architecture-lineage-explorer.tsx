@@ -3,7 +3,7 @@
 import Link from "next/link";
 import {useEffect, useMemo, useState} from "react";
 import lineages from "@/data/architecture-lineages.json";
-import patterns from "@/data/pattern-library.json";
+import patterns from "@/lib/pattern-catalog";
 
 const directionKey = "mosque-build.architecture-direction.v1";
 const shortlistKey = "mosque-build.pattern-shortlist.v1";

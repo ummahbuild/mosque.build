@@ -77,6 +77,9 @@ export const projectSections = [
   ,{id:"projectActionPlan", label:"Connected project action plan", key:"mosque-build.project-action-plan.v1"}
   ,{id:"costControlIntegration", label:"Cost-control coordination packet", key:"mosque-build.cost-control-integration.v1"}
   ,{id:"costOptionComparison", label:"Baseline and alternative cost comparisons", key:"mosque-build.cost-option-comparison.v1"}
+  ,{id:"qiblaWallPerformance", label:"Qibla wall performance study", key:"mosque-build.qibla-wall-performance.v1"}
+  ,{id:"conceptFeatureSelections", label:"Selected concept capabilities", key:"mosque-build.concept-features.v1"}
+  ,{id:"domeDesign", label:"Dome architecture and construction study", key:"mosque-build.dome-design.v1"}
 ] as const;
 
 export type ProjectSectionId = typeof projectSections[number]["id"];
@@ -88,7 +91,7 @@ export type ProjectPackage = {
   sections:Partial<Record<ProjectSectionId, unknown>>;
 };
 
-const sensitiveBriefFields = new Set(["email", "owner", "location", "notes"]);
+const sensitiveBriefFields = new Set(["email", "owner", "location", "notes", "address", "phone", "contact", "contactName", "contactEmail", "contactPhone"]);
 
 function isRecord(value:unknown):value is Record<string,unknown>{return !!value&&typeof value==="object"&&!Array.isArray(value)}
 const forbiddenKeys=new Set(["__proto__","prototype","constructor"]);
@@ -104,9 +107,11 @@ function inspectJson(value:unknown,depth=0,budget={nodes:0}):string|null{
   return null;
 }
 
-export function redactBrief(value:unknown){
+export function redactBrief(value:unknown,depth=0):unknown{
+  if(depth>20)return null;
+  if(Array.isArray(value))return value.map(item=>redactBrief(item,depth+1));
   if(!isRecord(value))return value;
-  return Object.fromEntries(Object.entries(value).map(([field,item])=>sensitiveBriefFields.has(field)?[field,""]:[field,item]));
+  return Object.fromEntries(Object.entries(value).map(([field,item])=>sensitiveBriefFields.has(field)?[field,""]:[field,redactBrief(item,depth+1)]));
 }
 
 export function createProjectPackage(read:(key:string)=>string|null,privacy:ProjectPackage["privacy"],now=new Date().toISOString()):ProjectPackage{
@@ -125,7 +130,7 @@ export function validateProjectPackage(value:unknown):{ok:true;data:ProjectPacka
   if(value.schema!==PROJECT_PACKAGE_SCHEMA)errors.push(`Unsupported schema. Expected ${PROJECT_PACKAGE_SCHEMA}.`);
   if(value.product!=="mosque.build")errors.push("This file is not identified as a mosque.build project package.");
   if(value.privacy!=="share-safe"&&value.privacy!=="full-local-backup")errors.push("The package privacy mode is missing or invalid.");
-  if(typeof value.exportedAt!=="string"||!/^\d{4}-\d{2}-\d{2}T/.test(value.exportedAt))errors.push("The package export date is missing or invalid.");
+  if(typeof value.exportedAt!=="string"||!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?Z$/.test(value.exportedAt)||!Number.isFinite(Date.parse(value.exportedAt)))errors.push("The package export date is missing or invalid.");
   if(!isRecord(value.sections))errors.push("The package sections are missing or invalid.");
   if(errors.length)return {ok:false,errors};
   const allowed=new Set(projectSections.map(item=>item.id));

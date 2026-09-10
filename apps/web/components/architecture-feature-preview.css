@@ -1,0 +1,12 @@
+.featureThreePreview{position:relative;display:grid;min-height:300px;place-items:center;overflow:hidden;border:1px solid rgba(21,58,50,.22);border-radius:16px;background:#f2eee4;color:#21473e}
+.featurePreviewWithCost{display:grid;gap:.7rem}
+.elementCost{border:1px solid #ccd8d2;border-radius:14px;background:#fff;padding:.2rem .8rem .8rem;color:#173e35}.elementCost summary{display:flex;min-height:44px;align-items:center;justify-content:space-between;gap:1rem;cursor:pointer;font-weight:800}.elementCost summary b{color:#276556}.elementCostGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.65rem}.elementCostGrid label{display:grid;gap:.25rem;color:#52665e;font-size:.75rem;font-weight:750}.elementCostGrid input,.elementCostGrid select{width:100%;min-height:44px;border:1px solid #9cafaa;border-radius:9px;background:#fff;color:#173e35;padding:.55rem}.elementCostGrid .wide{grid-column:span 2}.elementCostTotals{display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem;margin-top:.75rem}.elementCostTotals span{display:grid;gap:.15rem;border-radius:9px;background:#edf4f1;padding:.55rem;color:#52665e;font-size:.72rem}.elementCostTotals b{color:#173e35;font-size:.85rem}.costNeedsEvidence,.costHasEvidence{margin:.7rem 0 .3rem;font-size:.78rem}.costNeedsEvidence{color:#805719}.costHasEvidence{color:#276556}.elementCost small{display:block;color:#617169;line-height:1.45}
+.featureThreeCanvas{position:absolute;inset:0}
+.featureThreePreview canvas{display:block;width:100%;height:100%;min-height:300px;cursor:grab;touch-action:none;outline:none}
+.featureThreePreview canvas:active{cursor:grabbing}
+.featureThreePreview canvas:focus-visible{box-shadow:inset 0 0 0 4px #f4b942,inset 0 0 0 7px #153a32}
+.featureModelActions{display:flex;flex-wrap:wrap;gap:.65rem;margin:.8rem 0 1rem}
+.featureModelActions button,.featureModelActions a{display:inline-flex;min-height:44px;align-items:center;justify-content:center;padding:.7rem 1rem;border-radius:999px;font-weight:750;text-decoration:none}
+.featureModelActions a{border:1px solid #315f54;color:#21473e;background:#fff}
+@media(max-width:700px){.featureThreePreview,.featureThreePreview canvas{min-height:240px}.featureModelActions>*{flex:1 1 12rem}.elementCostGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.elementCostGrid .wide{grid-column:1/-1}.elementCostTotals{grid-template-columns:1fr}.elementCost summary{align-items:flex-start;flex-direction:column;justify-content:center;gap:.15rem}}
+@media(forced-colors:active){.featureThreePreview,.featureModelActions a{border:2px solid CanvasText}}

@@ -23,6 +23,8 @@ The ten normalized domains are Sacred Core, Minaret Systems, Roof & Dome, Adapti
 
 Combine MODERN-001–010 with the room model, prayer daylight, occupancy, accessibility, acoustics, sacred-content review and interior systems. Start with parametric wall zones, daylight slots, accessible minbar alternatives and clearance envelopes. Calligraphy remains a reviewed content placeholder. Acoustic behavior remains an imported or professionally reviewed result.
 
+Status: `executable` locally for a bounded qibla-wall study. The Design workspace now edits five mihrab modes, five minbar modes, dimensions, a daylight slot, step-free approach study, content lifecycle, acoustic/daylight/access/structure/material/community references, maintenance notes and deterministic gaps. Portable primitives drive a dedicated Three.js view and export through the project package. Calibrated daylight/acoustics, resolved accessible routes, structural design, construction geometry and accepted religious content remain future work.
+
 ### 2. Functional vertical landmarks
 
 Combine MODERN-011–020 with roof, structure, solar, water, ventilation, lighting, noise, maintenance access and permits. Zero-minaret must remain a valid design mode. Water storage, wind capture, speakers and PV require separate evidence and professional review; symbolic form cannot imply technical performance.
@@ -63,7 +65,10 @@ Combine MODERN-091–100 with templates, local material evidence, climate, budge
 
 1. Cross-feature compatibility graph. 2. Mutually exclusive option warnings. 3. Required-evidence templates by system. 4. Feature-to-room applicability. 5. Feature-to-climate applicability with source gaps. 6. Feature-to-cost-rule links. 7. Feature-to-schedule links. 8. Feature-to-asset handoff. 9. Failure-mode register. 10. Manual override requirements. 11. Maintenance-access envelopes. 12. Commissioning checklists. 13. Community-review prompts. 14. Religious-content review records. 15. Neighbor-impact review. 16. Night-sky review. 17. Water-balance inputs. 18. Acoustic-result import. 19. Thermal-result import. 20. Structural-result import. 21. Fabrication tolerance records. 22. Material sample links. 23. Mockup acceptance records. 24. Reversible option branches. 25. Before-and-after quantity deltas. 26. Lifecycle task deltas. 27. Accessible non-WebGL summaries. 28. Reduced-motion adaptive-system playback. 29. Offline field verification. 30. Post-occupancy learning linked back to feature decisions.
 
+## Interactive preview and canvas handoff
+
+The feature planner now maps every core and modern proposal to a typed portable component. The active proposal has an orbitable Three.js concept preview and can be quick-added to the shared architectural component kit. Duplicate and capacity checks run before persistence, and the editable kit plus combined model refresh through one shared change event. This is an `executable` interaction scaffold, not resolved geometry or evidence of performance, compliance, cultural acceptance or approval.
+
 ## Promotion gates
 
 No proposal advances beyond `concept` merely because it has a Three.js representation. `specified` requires bounded inputs, output semantics, failure states, dependencies and review gates. `executable` requires working domain logic, renderer adapter where useful, persistence/export, unit/integration/accessibility/mobile/provenance tests and explicit human review. `source_backed`, `beta` and `production_ready` require progressively stronger real evidence and governance.
-
