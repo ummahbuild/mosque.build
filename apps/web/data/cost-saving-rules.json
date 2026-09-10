@@ -1,0 +1,1002 @@
+[
+  {
+    "number": 1,
+    "category": "Massing",
+    "strategy": "Use a compact building footprint",
+    "how_it_saves_money": "Less exterior wall, roof, foundation, and circulation area.",
+    "threejs_parameter": "footprint_compactness",
+    "architecture_construction_rule": "Prefer near-rectangular plans with low perimeter-to-area ratio.",
+    "tradeoff_or_risk": "Can reduce flexibility if over-compressed.",
+    "id": "COST-001"
+  },
+  {
+    "number": 2,
+    "category": "Massing",
+    "strategy": "Use simple rectangular geometry",
+    "how_it_saves_money": "Cuts formwork, setting-out, structural, roofing, waterproofing, and finish complexity.",
+    "threejs_parameter": "plan_shape_complexity",
+    "architecture_construction_rule": "Default to orthogonal walls before adding ceremonial geometry.",
+    "tradeoff_or_risk": "Avoid becoming visually bland; focus expression at key zones.",
+    "id": "COST-002"
+  },
+  {
+    "number": 3,
+    "category": "Massing",
+    "strategy": "Use symmetry to reduce unique parts",
+    "how_it_saves_money": "Mirrored plans, bays, windows, screens, and details reuse dimensions and fabrication.",
+    "threejs_parameter": "symmetry_mode",
+    "architecture_construction_rule": "Mirror repetitive wings, façades, arcades, and interior fit-out.",
+    "tradeoff_or_risk": "Site constraints or qibla may make perfect symmetry inefficient.",
+    "id": "COST-003"
+  },
+  {
+    "number": 4,
+    "category": "Massing",
+    "strategy": "Minimize perimeter for required prayer area",
+    "how_it_saves_money": "Lower façade, insulation, waterproofing, and structural edge cost.",
+    "threejs_parameter": "perimeter_area_ratio",
+    "architecture_construction_rule": "Score schemes by perimeter/usable-area ratio.",
+    "tradeoff_or_risk": "Natural ventilation and daylight may need more perimeter.",
+    "id": "COST-004"
+  },
+  {
+    "number": 5,
+    "category": "Massing",
+    "strategy": "Stack compatible functions",
+    "how_it_saves_money": "Put classrooms/offices above community spaces to reduce site, roof, and foundations.",
+    "threejs_parameter": "vertical_stack_count",
+    "architecture_construction_rule": "Enable floor stacking by program adjacency.",
+    "tradeoff_or_risk": "Adds stairs/lift/egress requirements.",
+    "id": "COST-005"
+  },
+  {
+    "number": 6,
+    "category": "Massing",
+    "strategy": "Avoid unnecessary double-height space",
+    "how_it_saves_money": "Double-height volume increases façade, HVAC, lighting, acoustics, and structure.",
+    "threejs_parameter": "double_height_ratio",
+    "architecture_construction_rule": "Limit double height to sacred focal zones.",
+    "tradeoff_or_risk": "May reduce grandeur and daylight.",
+    "id": "COST-006"
+  },
+  {
+    "number": 7,
+    "category": "Massing",
+    "strategy": "Use one dominant architectural gesture",
+    "how_it_saves_money": "Concentrate budget on mihrab, entrance, dome, or courtyard rather than all at once.",
+    "threejs_parameter": "feature_budget_count",
+    "architecture_construction_rule": "Limit landmark-feature count.",
+    "tradeoff_or_risk": "Requires clear design hierarchy.",
+    "id": "COST-007"
+  },
+  {
+    "number": 8,
+    "category": "Massing",
+    "strategy": "Use repeatable structural bays",
+    "how_it_saves_money": "Reduces engineering, formwork, cutting, and site mistakes.",
+    "threejs_parameter": "structural_bay_x_y",
+    "architecture_construction_rule": "Snap walls and columns to module grid.",
+    "tradeoff_or_risk": "Can constrain room dimensions.",
+    "id": "COST-008"
+  },
+  {
+    "number": 9,
+    "category": "Massing",
+    "strategy": "Align walls between floors",
+    "how_it_saves_money": "Simplifies structure and load paths.",
+    "threejs_parameter": "vertical_wall_alignment",
+    "architecture_construction_rule": "Flag transfer conditions when walls do not stack.",
+    "tradeoff_or_risk": "May limit upper-floor freedom.",
+    "id": "COST-009"
+  },
+  {
+    "number": 10,
+    "category": "Massing",
+    "strategy": "Avoid nonessential cantilevers",
+    "how_it_saves_money": "Cuts steel/rebar, waterproofing risk, temporary works, and engineering.",
+    "threejs_parameter": "cantilever_depth",
+    "architecture_construction_rule": "Warn when cantilever exceeds economical threshold.",
+    "tradeoff_or_risk": "Some shading can justify cantilevers.",
+    "id": "COST-010"
+  },
+  {
+    "number": 11,
+    "category": "Structure",
+    "strategy": "Use regular column grids",
+    "how_it_saves_money": "Standardizes beams, slabs, ceilings, and furniture layouts.",
+    "threejs_parameter": "column_grid_regular",
+    "architecture_construction_rule": "Generate repetitive bays.",
+    "tradeoff_or_risk": "Prayer sightlines may require selective long spans.",
+    "id": "COST-011"
+  },
+  {
+    "number": 12,
+    "category": "Structure",
+    "strategy": "Use local conventional spans",
+    "how_it_saves_money": "Avoids custom trusses or deep transfer beams.",
+    "threejs_parameter": "max_span_target",
+    "architecture_construction_rule": "Set span limit by structural system and local market.",
+    "tradeoff_or_risk": "Columns can interrupt prayer rows.",
+    "id": "COST-012"
+  },
+  {
+    "number": 13,
+    "category": "Structure",
+    "strategy": "Use fewer structural systems",
+    "how_it_saves_money": "Avoid mixing steel, concrete, timber, shells, and masonry without need.",
+    "threejs_parameter": "structural_system_count",
+    "architecture_construction_rule": "Penalize hybrid complexity.",
+    "tradeoff_or_risk": "Hybrid systems can be justified for specific spans.",
+    "id": "COST-013"
+  },
+  {
+    "number": 14,
+    "category": "Structure",
+    "strategy": "Use load-bearing masonry where locally economical",
+    "how_it_saves_money": "Can eliminate frames in small mosques.",
+    "threejs_parameter": "wall_structural_mode",
+    "architecture_construction_rule": "Toggle bearing-wall option for low-rise schemes.",
+    "tradeoff_or_risk": "Openings and future flexibility become constrained.",
+    "id": "COST-014"
+  },
+  {
+    "number": 15,
+    "category": "Structure",
+    "strategy": "Use standard steel sections",
+    "how_it_saves_money": "Improves availability and fabrication pricing.",
+    "threejs_parameter": "section_catalog_mode",
+    "architecture_construction_rule": "Restrict frame members to regional section libraries.",
+    "tradeoff_or_risk": "May use slightly more steel than optimization-only designs.",
+    "id": "COST-015"
+  },
+  {
+    "number": 16,
+    "category": "Structure",
+    "strategy": "Standardize column sizes",
+    "how_it_saves_money": "Reduces formwork and reinforcement complexity.",
+    "threejs_parameter": "column_family_count",
+    "architecture_construction_rule": "Cap number of column families.",
+    "tradeoff_or_risk": "May add material but reduce labor cost.",
+    "id": "COST-016"
+  },
+  {
+    "number": 17,
+    "category": "Structure",
+    "strategy": "Standardize beam depths",
+    "how_it_saves_money": "Simplifies formwork, MEP coordination, and ceilings.",
+    "threejs_parameter": "beam_family_count",
+    "architecture_construction_rule": "Use repeated beam templates.",
+    "tradeoff_or_risk": "Some beams may be overdesigned.",
+    "id": "COST-017"
+  },
+  {
+    "number": 18,
+    "category": "Structure",
+    "strategy": "Use simple slab systems",
+    "how_it_saves_money": "Flat slabs, one-way slabs, or repetitive joists reduce complexity.",
+    "threejs_parameter": "slab_system",
+    "architecture_construction_rule": "Compare slab options by cost profile.",
+    "tradeoff_or_risk": "Span and punching constraints matter.",
+    "id": "COST-018"
+  },
+  {
+    "number": 19,
+    "category": "Structure",
+    "strategy": "Avoid transfer structures",
+    "how_it_saves_money": "Transfers are expensive and coordination-heavy.",
+    "threejs_parameter": "transfer_element_count",
+    "architecture_construction_rule": "Flag non-stacked columns/walls.",
+    "tradeoff_or_risk": "Sometimes necessary for large prayer halls.",
+    "id": "COST-019"
+  },
+  {
+    "number": 20,
+    "category": "Structure",
+    "strategy": "Design foundations to soil data early",
+    "how_it_saves_money": "Prevents overdesign and redesign.",
+    "threejs_parameter": "geotech_confidence",
+    "architecture_construction_rule": "Require soil assumptions in cost model.",
+    "tradeoff_or_risk": "Needs early site investigation spend.",
+    "id": "COST-020"
+  },
+  {
+    "number": 21,
+    "category": "Roof",
+    "strategy": "Use simple roof geometry",
+    "how_it_saves_money": "Cuts flashing, valleys, labor, and leak risk.",
+    "threejs_parameter": "roof_complexity",
+    "architecture_construction_rule": "Score number of roof planes/valleys.",
+    "tradeoff_or_risk": "Climate may favor pitched roofs.",
+    "id": "COST-021"
+  },
+  {
+    "number": 22,
+    "category": "Roof",
+    "strategy": "Use one roof material",
+    "how_it_saves_money": "Reduces procurement and detailing.",
+    "threejs_parameter": "roof_material_count",
+    "architecture_construction_rule": "Cap roof material families.",
+    "tradeoff_or_risk": "Different zones can require different systems.",
+    "id": "COST-022"
+  },
+  {
+    "number": 23,
+    "category": "Roof",
+    "strategy": "Use standard truss spacing",
+    "how_it_saves_money": "Reduces engineering and fabrication.",
+    "threejs_parameter": "truss_spacing",
+    "architecture_construction_rule": "Snap trusses to repetitive module.",
+    "tradeoff_or_risk": "Architectural rhythm must coordinate.",
+    "id": "COST-023"
+  },
+  {
+    "number": 24,
+    "category": "Roof",
+    "strategy": "Prefer lightweight roofs for large spans",
+    "how_it_saves_money": "Can reduce columns and foundations.",
+    "threejs_parameter": "roof_dead_load",
+    "architecture_construction_rule": "Compare steel/timber lightweight roof options.",
+    "tradeoff_or_risk": "Acoustics and heat gain need treatment.",
+    "id": "COST-024"
+  },
+  {
+    "number": 25,
+    "category": "Roof",
+    "strategy": "Use insulated metal roofing where appropriate",
+    "how_it_saves_money": "Combines enclosure layers and installs quickly.",
+    "threejs_parameter": "roof_panel_system",
+    "architecture_construction_rule": "Enable sandwich-panel roof preset.",
+    "tradeoff_or_risk": "Not suitable for every aesthetic or climate.",
+    "id": "COST-025"
+  },
+  {
+    "number": 26,
+    "category": "Roof",
+    "strategy": "Avoid decorative domes over noncritical spaces",
+    "how_it_saves_money": "Saves shell, waterproofing, structure, and maintenance.",
+    "threejs_parameter": "dome_count",
+    "architecture_construction_rule": "Require purpose for every dome.",
+    "tradeoff_or_risk": "May affect expected visual identity.",
+    "id": "COST-026"
+  },
+  {
+    "number": 27,
+    "category": "Roof",
+    "strategy": "Use one economical dome instead of many",
+    "how_it_saves_money": "Concentrates symbolic value.",
+    "threejs_parameter": "dome_count",
+    "architecture_construction_rule": "Cost compare single-dome vs multi-dome variants.",
+    "tradeoff_or_risk": "Depends on regional style.",
+    "id": "COST-027"
+  },
+  {
+    "number": 28,
+    "category": "Roof",
+    "strategy": "Make domes lightweight where appropriate",
+    "how_it_saves_money": "Steel/timber/GFRC outer domes can cost less than heavy masonry shells.",
+    "threejs_parameter": "dome_shell_system",
+    "architecture_construction_rule": "Toggle shell material and structural load.",
+    "tradeoff_or_risk": "Needs good detailing and durability review.",
+    "id": "COST-028"
+  },
+  {
+    "number": 29,
+    "category": "Roof",
+    "strategy": "Use false/visual domes where structure allows",
+    "how_it_saves_money": "Separate interior visual shell from weather shell.",
+    "threejs_parameter": "double_shell_cost_mode",
+    "architecture_construction_rule": "Generate lightweight inner or outer shell independently.",
+    "tradeoff_or_risk": "Must not misrepresent structural authenticity.",
+    "id": "COST-029"
+  },
+  {
+    "number": 30,
+    "category": "Roof",
+    "strategy": "Integrate gutters and drainage early",
+    "how_it_saves_money": "Avoid costly post-build fixes and leakage.",
+    "threejs_parameter": "roof_drainage_complete",
+    "architecture_construction_rule": "Require drainage path before design approval.",
+    "tradeoff_or_risk": "Adds early coordination.",
+    "id": "COST-030"
+  },
+  {
+    "number": 31,
+    "category": "Minaret",
+    "strategy": "Make minaret optional",
+    "how_it_saves_money": "Many communities do not need a costly tall tower.",
+    "threejs_parameter": "minaret_enabled",
+    "architecture_construction_rule": "Allow zero-minaret designs.",
+    "tradeoff_or_risk": "Planning/cultural expectations may favor one.",
+    "id": "COST-031"
+  },
+  {
+    "number": 32,
+    "category": "Minaret",
+    "strategy": "Use one minaret instead of two/four",
+    "how_it_saves_money": "Reduces structure, stairs, cladding, lighting, maintenance.",
+    "threejs_parameter": "minaret_count",
+    "architecture_construction_rule": "Cost compare 0/1/2/4.",
+    "tradeoff_or_risk": "Visual symmetry may change.",
+    "id": "COST-032"
+  },
+  {
+    "number": 33,
+    "category": "Minaret",
+    "strategy": "Use a shorter minaret",
+    "how_it_saves_money": "Cuts structural and foundation loads.",
+    "threejs_parameter": "minaret_height",
+    "architecture_construction_rule": "Expose height/cost curve.",
+    "tradeoff_or_risk": "Local planning and visibility goals matter.",
+    "id": "COST-033"
+  },
+  {
+    "number": 34,
+    "category": "Minaret",
+    "strategy": "Use a simple square or slab minaret",
+    "how_it_saves_money": "Cheaper than multi-stage balconies and complex profiles.",
+    "threejs_parameter": "minaret_family",
+    "architecture_construction_rule": "Add low-cost tower presets.",
+    "tradeoff_or_risk": "Less historic ornament.",
+    "id": "COST-034"
+  },
+  {
+    "number": 35,
+    "category": "Minaret",
+    "strategy": "Eliminate unused balconies",
+    "how_it_saves_money": "Cuts railings, waterproofing, access, and corbels.",
+    "threejs_parameter": "minaret_balcony_count",
+    "architecture_construction_rule": "Default balcony count to functional need.",
+    "tradeoff_or_risk": "Aesthetic tradition may use balconies.",
+    "id": "COST-035"
+  },
+  {
+    "number": 36,
+    "category": "Minaret",
+    "strategy": "Simplify minaret maintenance access",
+    "how_it_saves_money": "Avoids oversized stairs/lifts where safer simpler access is permitted.",
+    "threejs_parameter": "minaret_access_mode",
+    "architecture_construction_rule": "Model code-compliant service access options.",
+    "tradeoff_or_risk": "Safety and code compliance are critical.",
+    "id": "COST-036"
+  },
+  {
+    "number": 37,
+    "category": "Envelope",
+    "strategy": "Standardize window sizes",
+    "how_it_saves_money": "Cuts frame fabrication and procurement.",
+    "threejs_parameter": "window_family_count",
+    "architecture_construction_rule": "Limit number of window families.",
+    "tradeoff_or_risk": "Daylight can still vary by quantity.",
+    "id": "COST-037"
+  },
+  {
+    "number": 38,
+    "category": "Envelope",
+    "strategy": "Use repeated door sizes",
+    "how_it_saves_money": "Standardizes frames, hardware, and replacement.",
+    "threejs_parameter": "door_family_count",
+    "architecture_construction_rule": "Use standard door schedule.",
+    "tradeoff_or_risk": "Main ceremonial entrance may remain special.",
+    "id": "COST-038"
+  },
+  {
+    "number": 39,
+    "category": "Envelope",
+    "strategy": "Reduce excessive glazing",
+    "how_it_saves_money": "Cuts glass, framing, cooling loads, glare, and cleaning.",
+    "threejs_parameter": "window_wall_ratio",
+    "architecture_construction_rule": "Expose WWR target by façade.",
+    "tradeoff_or_risk": "Daylight/ventilation needs remain.",
+    "id": "COST-039"
+  },
+  {
+    "number": 40,
+    "category": "Envelope",
+    "strategy": "Place glazing strategically rather than uniformly",
+    "how_it_saves_money": "Uses fewer square meters of glass for more useful daylight.",
+    "threejs_parameter": "daylight_efficiency",
+    "architecture_construction_rule": "Optimize daylight per m² of glazing.",
+    "tradeoff_or_risk": "Requires simulation.",
+    "id": "COST-040"
+  },
+  {
+    "number": 41,
+    "category": "Envelope",
+    "strategy": "Use deep reveals instead of expensive shading devices",
+    "how_it_saves_money": "Walls can provide shade with little extra hardware.",
+    "threejs_parameter": "reveal_depth",
+    "architecture_construction_rule": "Model solar shading depth.",
+    "tradeoff_or_risk": "Thick walls may cost more depending on system.",
+    "id": "COST-041"
+  },
+  {
+    "number": 42,
+    "category": "Envelope",
+    "strategy": "Use standardized screens",
+    "how_it_saves_money": "Repeat panel modules instead of unique patterns per bay.",
+    "threejs_parameter": "screen_family_count",
+    "architecture_construction_rule": "Instance identical screen panels.",
+    "tradeoff_or_risk": "May reduce custom artistry.",
+    "id": "COST-042"
+  },
+  {
+    "number": 43,
+    "category": "Envelope",
+    "strategy": "Use perforated metal or GFRC instead of carved stone where appropriate",
+    "how_it_saves_money": "Achieves depth and pattern at lower weight/labor.",
+    "threejs_parameter": "screen_material",
+    "architecture_construction_rule": "Compare fabrication methods.",
+    "tradeoff_or_risk": "Durability and cultural authenticity vary.",
+    "id": "COST-043"
+  },
+  {
+    "number": 44,
+    "category": "Envelope",
+    "strategy": "Limit custom façade panel sizes",
+    "how_it_saves_money": "Standard sizes reduce waste and shop drawings.",
+    "threejs_parameter": "panel_module",
+    "architecture_construction_rule": "Snap façades to panel grid.",
+    "tradeoff_or_risk": "May create more joints.",
+    "id": "COST-044"
+  },
+  {
+    "number": 45,
+    "category": "Envelope",
+    "strategy": "Use local masonry dimensions as design module",
+    "how_it_saves_money": "Reduces cutting and waste.",
+    "threejs_parameter": "masonry_module",
+    "architecture_construction_rule": "Snap wall lengths/openings to unit sizes.",
+    "tradeoff_or_risk": "Requires regional catalog data.",
+    "id": "COST-045"
+  },
+  {
+    "number": 46,
+    "category": "Envelope",
+    "strategy": "Avoid unnecessary façade articulation",
+    "how_it_saves_money": "Every recess/projection adds corners, waterproofing, structure, and labor.",
+    "threejs_parameter": "facade_depth_changes",
+    "architecture_construction_rule": "Penalize excessive offsets.",
+    "tradeoff_or_risk": "Some articulation helps shade.",
+    "id": "COST-046"
+  },
+  {
+    "number": 47,
+    "category": "Interior",
+    "strategy": "Use one main carpet specification",
+    "how_it_saves_money": "Bulk buying lowers cost and simplifies replacement.",
+    "threejs_parameter": "carpet_family_count",
+    "architecture_construction_rule": "Use same carpet base across compatible halls.",
+    "tradeoff_or_risk": "Special zones may need different pile/performance.",
+    "id": "COST-047"
+  },
+  {
+    "number": 48,
+    "category": "Interior",
+    "strategy": "Design carpet around standard roll widths",
+    "how_it_saves_money": "Reduces seams and waste.",
+    "threejs_parameter": "carpet_roll_width",
+    "architecture_construction_rule": "Optimize room dimensions against roll width.",
+    "tradeoff_or_risk": "Architecture should not be distorted excessively.",
+    "id": "COST-048"
+  },
+  {
+    "number": 49,
+    "category": "Interior",
+    "strategy": "Use repeatable carpet motifs",
+    "how_it_saves_money": "Lowers custom manufacturing setup.",
+    "threejs_parameter": "carpet_repeat_module",
+    "architecture_construction_rule": "Use repeat cells sized to saf spacing.",
+    "tradeoff_or_risk": "Still allow custom qibla border.",
+    "id": "COST-049"
+  },
+  {
+    "number": 50,
+    "category": "Interior",
+    "strategy": "Avoid overly dense carpet ornament",
+    "how_it_saves_money": "Simpler production, less visual distraction, easier patching.",
+    "threejs_parameter": "carpet_pattern_density",
+    "architecture_construction_rule": "Offer low-density mode.",
+    "tradeoff_or_risk": "Some traditions prefer rich carpets.",
+    "id": "COST-050"
+  },
+  {
+    "number": 51,
+    "category": "Interior",
+    "strategy": "Minimize carpet seam waste",
+    "how_it_saves_money": "Digital nesting reduces offcuts.",
+    "threejs_parameter": "carpet_cut_optimizer",
+    "architecture_construction_rule": "Run nesting/cut-plan algorithm.",
+    "tradeoff_or_risk": "Installer tolerances matter.",
+    "id": "COST-051"
+  },
+  {
+    "number": 52,
+    "category": "Interior",
+    "strategy": "Use replaceable carpet zones",
+    "how_it_saves_money": "High-wear entries can be replaced without recarpeting hall.",
+    "threejs_parameter": "carpet_zone_modularity",
+    "architecture_construction_rule": "Separate high-traffic modules.",
+    "tradeoff_or_risk": "Visible transitions need design care.",
+    "id": "COST-052"
+  },
+  {
+    "number": 53,
+    "category": "Interior",
+    "strategy": "Use durable washable wall finishes at high-touch zones",
+    "how_it_saves_money": "Reduces repainting and repairs.",
+    "threejs_parameter": "finish_durability_class",
+    "architecture_construction_rule": "Assign durable dado where needed.",
+    "tradeoff_or_risk": "Higher upfront material cost.",
+    "id": "COST-053"
+  },
+  {
+    "number": 54,
+    "category": "Interior",
+    "strategy": "Limit the number of finish materials",
+    "how_it_saves_money": "Simplifies procurement and labor.",
+    "threejs_parameter": "finish_family_count",
+    "architecture_construction_rule": "Cap finish palette.",
+    "tradeoff_or_risk": "Can reduce richness.",
+    "id": "COST-054"
+  },
+  {
+    "number": 55,
+    "category": "Interior",
+    "strategy": "Use paint/plaster where expensive stone is unnecessary",
+    "how_it_saves_money": "Reserve premium cladding for focal surfaces.",
+    "threejs_parameter": "premium_finish_area",
+    "architecture_construction_rule": "Track premium finish percentage.",
+    "tradeoff_or_risk": "Needs durable substrate.",
+    "id": "COST-055"
+  },
+  {
+    "number": 56,
+    "category": "Interior",
+    "strategy": "Use modular Qur'an shelving",
+    "how_it_saves_money": "Standard cabinetry is cheaper and easier to expand.",
+    "threejs_parameter": "quran_shelf_module",
+    "architecture_construction_rule": "Generate repeated shelving units.",
+    "tradeoff_or_risk": "Custom integration may look more refined.",
+    "id": "COST-056"
+  },
+  {
+    "number": 57,
+    "category": "Interior",
+    "strategy": "Use movable rather than built-in furniture where flexibility matters",
+    "how_it_saves_money": "Avoids future demolition and fit-out changes.",
+    "threejs_parameter": "furniture_fixed_ratio",
+    "architecture_construction_rule": "Prefer loose furniture in multipurpose areas.",
+    "tradeoff_or_risk": "Storage must be planned.",
+    "id": "COST-057"
+  },
+  {
+    "number": 58,
+    "category": "Interior",
+    "strategy": "Use stackable chairs",
+    "how_it_saves_money": "Reduces storage footprint.",
+    "threejs_parameter": "chair_stackability",
+    "architecture_construction_rule": "Calculate storage volume by chair model.",
+    "tradeoff_or_risk": "Comfort must remain acceptable.",
+    "id": "COST-058"
+  },
+  {
+    "number": 59,
+    "category": "Interior",
+    "strategy": "Standardize joinery modules",
+    "how_it_saves_money": "Same cabinet carcasses can serve shoes, Qur'an, storage.",
+    "threejs_parameter": "joinery_module",
+    "architecture_construction_rule": "Use configurable base cabinet families.",
+    "tradeoff_or_risk": "Needs different internal accessories.",
+    "id": "COST-059"
+  },
+  {
+    "number": 60,
+    "category": "Interior",
+    "strategy": "Concentrate premium craftsmanship at mihrab/minbar",
+    "how_it_saves_money": "Keeps symbolic value while limiting expensive custom work.",
+    "threejs_parameter": "feature_finish_budget",
+    "architecture_construction_rule": "Allocate premium finish by zone.",
+    "tradeoff_or_risk": "Overall interior still needs coherent hierarchy.",
+    "id": "COST-060"
+  },
+  {
+    "number": 61,
+    "category": "Wudu",
+    "strategy": "Use standardized wudu stations",
+    "how_it_saves_money": "Bulk procurement and simpler plumbing.",
+    "threejs_parameter": "wudu_station_family_count",
+    "architecture_construction_rule": "Instance one or two station types.",
+    "tradeoff_or_risk": "Accessible/child stations still needed.",
+    "id": "COST-061"
+  },
+  {
+    "number": 62,
+    "category": "Wudu",
+    "strategy": "Place stations back-to-back on a shared service wall",
+    "how_it_saves_money": "Cuts pipe runs and wall area.",
+    "threejs_parameter": "wudu_service_spine",
+    "architecture_construction_rule": "Generate shared plumbing spine.",
+    "tradeoff_or_risk": "Requires enough room depth.",
+    "id": "COST-062"
+  },
+  {
+    "number": 63,
+    "category": "Wudu",
+    "strategy": "Keep toilets and wudu near shared wet cores",
+    "how_it_saves_money": "Reduces drainage and water distribution lengths.",
+    "threejs_parameter": "wet_core_compactness",
+    "architecture_construction_rule": "Cluster wet rooms in adjacency optimizer.",
+    "tradeoff_or_risk": "Privacy and circulation must still work.",
+    "id": "COST-063"
+  },
+  {
+    "number": 64,
+    "category": "Wudu",
+    "strategy": "Use trench drains instead of many individual drains where appropriate",
+    "how_it_saves_money": "Simplifies drainage layout and cleaning.",
+    "threejs_parameter": "drain_strategy",
+    "architecture_construction_rule": "Compare trench vs point drain systems.",
+    "tradeoff_or_risk": "Requires correct slopes and maintenance.",
+    "id": "COST-064"
+  },
+  {
+    "number": 65,
+    "category": "Wudu",
+    "strategy": "Use water-saving taps",
+    "how_it_saves_money": "Reduces utility cost over building life.",
+    "threejs_parameter": "wudu_flow_rate",
+    "architecture_construction_rule": "Model annual water use.",
+    "tradeoff_or_risk": "User acceptance and maintenance matter.",
+    "id": "COST-065"
+  },
+  {
+    "number": 66,
+    "category": "Wudu",
+    "strategy": "Use sensor or timed taps selectively",
+    "how_it_saves_money": "Can reduce water waste where lifecycle economics work.",
+    "threejs_parameter": "tap_control_mode",
+    "architecture_construction_rule": "Compare capex vs water savings.",
+    "tradeoff_or_risk": "Sensors add maintenance and power.",
+    "id": "COST-066"
+  },
+  {
+    "number": 67,
+    "category": "Wudu",
+    "strategy": "Use durable standard anti-slip tile",
+    "how_it_saves_money": "Avoid bespoke wet-area materials.",
+    "threejs_parameter": "wet_tile_module",
+    "architecture_construction_rule": "Use standard wet-area tile catalog.",
+    "tradeoff_or_risk": "Aesthetics can be concentrated in dry zones.",
+    "id": "COST-067"
+  },
+  {
+    "number": 68,
+    "category": "Wudu",
+    "strategy": "Design for easy hose-down cleaning",
+    "how_it_saves_money": "Lowers cleaning labor.",
+    "threejs_parameter": "cleaning_access_score",
+    "architecture_construction_rule": "Check hose reach and floor falls.",
+    "tradeoff_or_risk": "Requires robust waterproofing.",
+    "id": "COST-068"
+  },
+  {
+    "number": 69,
+    "category": "MEP",
+    "strategy": "Stack wet rooms vertically",
+    "how_it_saves_money": "Reduces risers and pipe lengths.",
+    "threejs_parameter": "wet_stack_alignment",
+    "architecture_construction_rule": "Flag unstacked plumbing fixtures.",
+    "tradeoff_or_risk": "May constrain upper-floor planning.",
+    "id": "COST-069"
+  },
+  {
+    "number": 70,
+    "category": "MEP",
+    "strategy": "Use short duct runs",
+    "how_it_saves_money": "Lowers ductwork, fan power, and ceiling complexity.",
+    "threejs_parameter": "duct_length_score",
+    "architecture_construction_rule": "Penalize distant air-handling routes.",
+    "tradeoff_or_risk": "Plant location must balance noise.",
+    "id": "COST-070"
+  },
+  {
+    "number": 71,
+    "category": "MEP",
+    "strategy": "Use natural ventilation where climate allows",
+    "how_it_saves_money": "Cuts HVAC capital and energy use.",
+    "threejs_parameter": "natural_ventilation_mode",
+    "architecture_construction_rule": "Simulate opening area and airflow.",
+    "tradeoff_or_risk": "Not viable for all climates/noise/pollution.",
+    "id": "COST-071"
+  },
+  {
+    "number": 72,
+    "category": "MEP",
+    "strategy": "Use ceiling fans before upsizing cooling where suitable",
+    "how_it_saves_money": "Low-cost comfort extension.",
+    "threejs_parameter": "fan_coverage",
+    "architecture_construction_rule": "Model air movement zones.",
+    "tradeoff_or_risk": "Does not replace cooling everywhere.",
+    "id": "COST-072"
+  },
+  {
+    "number": 73,
+    "category": "MEP",
+    "strategy": "Zone HVAC by occupancy pattern",
+    "how_it_saves_money": "Avoid conditioning empty classrooms/offices.",
+    "threejs_parameter": "hvac_zone_count",
+    "architecture_construction_rule": "Map daily/Jumu'ah/Ramadan modes to zones.",
+    "tradeoff_or_risk": "More controls required.",
+    "id": "COST-073"
+  },
+  {
+    "number": 74,
+    "category": "MEP",
+    "strategy": "Use occupancy sensors for lighting",
+    "how_it_saves_money": "Cuts energy and lamp hours.",
+    "threejs_parameter": "occupancy_sensor_enabled",
+    "architecture_construction_rule": "Add sensor zones.",
+    "tradeoff_or_risk": "Must not switch off during still prayer.",
+    "id": "COST-074"
+  },
+  {
+    "number": 75,
+    "category": "MEP",
+    "strategy": "Use daylight dimming",
+    "how_it_saves_money": "Reduces lighting energy.",
+    "threejs_parameter": "daylight_dimming",
+    "architecture_construction_rule": "Link lux simulation to controls.",
+    "tradeoff_or_risk": "Control commissioning needed.",
+    "id": "COST-075"
+  },
+  {
+    "number": 76,
+    "category": "MEP",
+    "strategy": "Standardize light fixtures",
+    "how_it_saves_money": "Reduces spares and procurement complexity.",
+    "threejs_parameter": "fixture_family_count",
+    "architecture_construction_rule": "Limit luminaire families.",
+    "tradeoff_or_risk": "Special focal lighting may remain.",
+    "id": "COST-076"
+  },
+  {
+    "number": 77,
+    "category": "MEP",
+    "strategy": "Use accessible service zones",
+    "how_it_saves_money": "Reduces maintenance labor.",
+    "threejs_parameter": "service_access_score",
+    "architecture_construction_rule": "Check access to filters, lights, valves.",
+    "tradeoff_or_risk": "May require ceiling panels or plant space.",
+    "id": "COST-077"
+  },
+  {
+    "number": 78,
+    "category": "MEP",
+    "strategy": "Centralize AV/network equipment",
+    "how_it_saves_money": "Reduces duplicated racks and troubleshooting.",
+    "threejs_parameter": "av_rack_count",
+    "architecture_construction_rule": "Centralize compatible systems in one control room.",
+    "tradeoff_or_risk": "Cable lengths and redundancy must be checked.",
+    "id": "COST-078"
+  },
+  {
+    "number": 79,
+    "category": "Site",
+    "strategy": "Choose a site with good utilities",
+    "how_it_saves_money": "Avoid costly transformers, boreholes, road works, and sewer extensions.",
+    "threejs_parameter": "utility_connection_cost",
+    "architecture_construction_rule": "Include utility-distance scoring.",
+    "tradeoff_or_risk": "Site price may be higher.",
+    "id": "COST-079"
+  },
+  {
+    "number": 80,
+    "category": "Site",
+    "strategy": "Use existing access roads where possible",
+    "how_it_saves_money": "Reduces civil works.",
+    "threejs_parameter": "roadwork_length",
+    "architecture_construction_rule": "Measure new pavement length.",
+    "tradeoff_or_risk": "Traffic safety still matters.",
+    "id": "COST-080"
+  },
+  {
+    "number": 81,
+    "category": "Site",
+    "strategy": "Minimize parking overbuild",
+    "how_it_saves_money": "Parking consumes expensive land and paving.",
+    "threejs_parameter": "parking_supply_ratio",
+    "architecture_construction_rule": "Model daily vs Jumu'ah shared/overflow strategies.",
+    "tradeoff_or_risk": "Local code may require minimum parking.",
+    "id": "COST-081"
+  },
+  {
+    "number": 82,
+    "category": "Site",
+    "strategy": "Use permeable/simple paving",
+    "how_it_saves_money": "Can reduce drainage infrastructure.",
+    "threejs_parameter": "paving_system",
+    "architecture_construction_rule": "Compare permeable vs conventional paving.",
+    "tradeoff_or_risk": "Maintenance varies by soil/climate.",
+    "id": "COST-082"
+  },
+  {
+    "number": 83,
+    "category": "Site",
+    "strategy": "Use shade trees instead of large built canopies where feasible",
+    "how_it_saves_money": "Lower capital with long-term shade.",
+    "threejs_parameter": "landscape_shade_ratio",
+    "architecture_construction_rule": "Simulate mature canopy shade.",
+    "tradeoff_or_risk": "Trees take time to mature.",
+    "id": "COST-083"
+  },
+  {
+    "number": 84,
+    "category": "Site",
+    "strategy": "Use landscape to manage stormwater",
+    "how_it_saves_money": "Bioswales and graded planting can reduce hard drainage systems.",
+    "threejs_parameter": "green_infrastructure_ratio",
+    "architecture_construction_rule": "Model runoff zones.",
+    "tradeoff_or_risk": "Needs suitable soil and maintenance.",
+    "id": "COST-084"
+  },
+  {
+    "number": 85,
+    "category": "Site",
+    "strategy": "Phase nonessential landscape",
+    "how_it_saves_money": "Opens mosque earlier; gardens can follow later.",
+    "threejs_parameter": "landscape_phase",
+    "architecture_construction_rule": "Tag landscape as later phase.",
+    "tradeoff_or_risk": "Temporary site appearance may be basic.",
+    "id": "COST-085"
+  },
+  {
+    "number": 86,
+    "category": "Development",
+    "strategy": "Build in phases",
+    "how_it_saves_money": "Construct prayer core first and community expansion later.",
+    "threejs_parameter": "phase_plan",
+    "architecture_construction_rule": "Assign components to phases.",
+    "tradeoff_or_risk": "Future interfaces must be planned from day one.",
+    "id": "COST-086"
+  },
+  {
+    "number": 87,
+    "category": "Development",
+    "strategy": "Design future expansion edges early",
+    "how_it_saves_money": "Avoids demolition during expansion.",
+    "threejs_parameter": "future_expansion_edges",
+    "architecture_construction_rule": "Mark knockout walls and extension joints.",
+    "tradeoff_or_risk": "May slightly increase initial detailing.",
+    "id": "COST-087"
+  },
+  {
+    "number": 88,
+    "category": "Development",
+    "strategy": "Use a standard mosque kit-of-parts",
+    "how_it_saves_money": "Reuse engineering, BIM families, specs, and procurement.",
+    "threejs_parameter": "kit_of_parts_ratio",
+    "architecture_construction_rule": "Measure percent of standardized components.",
+    "tradeoff_or_risk": "Must adapt to site, climate, and culture.",
+    "id": "COST-088"
+  },
+  {
+    "number": 89,
+    "category": "Development",
+    "strategy": "Reuse validated Three.js/BIM component families",
+    "how_it_saves_money": "Cuts design and software implementation time.",
+    "threejs_parameter": "library_reuse_ratio",
+    "architecture_construction_rule": "Prefer catalog components over bespoke geometry.",
+    "tradeoff_or_risk": "Library quality must be maintained.",
+    "id": "COST-089"
+  },
+  {
+    "number": 90,
+    "category": "Development",
+    "strategy": "Automate quantity takeoffs from the model",
+    "how_it_saves_money": "Reduces estimating errors and change surprises.",
+    "threejs_parameter": "boq_auto_enabled",
+    "architecture_construction_rule": "Generate quantities from semantic model objects.",
+    "tradeoff_or_risk": "Requires trustworthy metadata.",
+    "id": "COST-090"
+  },
+  {
+    "number": 91,
+    "category": "Development",
+    "strategy": "Compare alternates automatically",
+    "how_it_saves_money": "Find cheaper roof, wall, dome, carpet, and structural options early.",
+    "threejs_parameter": "option_compare_mode",
+    "architecture_construction_rule": "Generate side-by-side capex/lifecycle scores.",
+    "tradeoff_or_risk": "Cost database must be localized.",
+    "id": "COST-091"
+  },
+  {
+    "number": 92,
+    "category": "Development",
+    "strategy": "Track unique component count",
+    "how_it_saves_money": "Too many unique items drive design/fabrication cost.",
+    "threejs_parameter": "unique_component_score",
+    "architecture_construction_rule": "Count unique doors, windows, panels, columns, details.",
+    "tradeoff_or_risk": "Some uniqueness is intentional.",
+    "id": "COST-092"
+  },
+  {
+    "number": 93,
+    "category": "Development",
+    "strategy": "Use design rules to prevent impossible details",
+    "how_it_saves_money": "Avoids redesign and field fixes.",
+    "threejs_parameter": "validation_rule_count",
+    "architecture_construction_rule": "Run geometry/fabrication validation before issue.",
+    "tradeoff_or_risk": "Rules must be editable by jurisdiction.",
+    "id": "COST-093"
+  },
+  {
+    "number": 94,
+    "category": "Construction",
+    "strategy": "Use prefabrication",
+    "how_it_saves_money": "Off-site panels, steel, joinery, and MEP modules reduce site labor.",
+    "threejs_parameter": "prefab_ratio",
+    "architecture_construction_rule": "Tag components as prefab-ready.",
+    "tradeoff_or_risk": "Transport and crane access matter.",
+    "id": "COST-094"
+  },
+  {
+    "number": 95,
+    "category": "Construction",
+    "strategy": "Design for local fabrication",
+    "how_it_saves_money": "Avoid imported bespoke parts when local workshops can produce them.",
+    "threejs_parameter": "local_fabrication_score",
+    "architecture_construction_rule": "Filter marketplace by local capability.",
+    "tradeoff_or_risk": "Quality control must be defined.",
+    "id": "COST-095"
+  },
+  {
+    "number": 96,
+    "category": "Construction",
+    "strategy": "Reduce wet trades",
+    "how_it_saves_money": "Drywall, panels, prefabricated ceilings, and dry assemblies can speed work.",
+    "threejs_parameter": "wet_trade_ratio",
+    "architecture_construction_rule": "Compare dry vs wet assembly presets.",
+    "tradeoff_or_risk": "Durability, acoustics, and fire ratings still govern.",
+    "id": "COST-096"
+  },
+  {
+    "number": 97,
+    "category": "Construction",
+    "strategy": "Use standard fasteners and connection details",
+    "how_it_saves_money": "Cuts procurement complexity and mistakes.",
+    "threejs_parameter": "connection_family_count",
+    "architecture_construction_rule": "Reuse connection templates.",
+    "tradeoff_or_risk": "Engineering requirements still govern.",
+    "id": "COST-097"
+  },
+  {
+    "number": 98,
+    "category": "Construction",
+    "strategy": "Design access for installation",
+    "how_it_saves_money": "Avoid labor-heavy impossible-to-reach details.",
+    "threejs_parameter": "installability_score",
+    "architecture_construction_rule": "Check crane, scaffold, panel path, and maintenance access.",
+    "tradeoff_or_risk": "May influence visual detailing.",
+    "id": "COST-098"
+  },
+  {
+    "number": 99,
+    "category": "Construction",
+    "strategy": "Simplify waterproofing junctions",
+    "how_it_saves_money": "Reduces leaks, callbacks, and rework.",
+    "threejs_parameter": "waterproofing_detail_count",
+    "architecture_construction_rule": "Flag roof/wet-area junction complexity.",
+    "tradeoff_or_risk": "Quality inspection remains critical.",
+    "id": "COST-099"
+  },
+  {
+    "number": 100,
+    "category": "Construction",
+    "strategy": "Design for maintenance and replacement",
+    "how_it_saves_money": "Lifecycle savings often exceed initial material savings.",
+    "threejs_parameter": "lifecycle_replaceability",
+    "architecture_construction_rule": "Score access, modular replacement, spare parts, and cleanability.",
+    "tradeoff_or_risk": "Some replaceable systems cost slightly more upfront.",
+    "id": "COST-100"
+  }
+]

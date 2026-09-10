@@ -1,5 +1,9 @@
 # What to build next
 
+## Integrated architecture feature delivery plan
+
+The 100-proposal architecture and Three.js brief is now a canonical, machine-readable backlog with an interactive project planner in the Design workspace. Teams can search by domain, add proposals to a project, assign `now / next / later`, retain the full feature-status vocabulary, record accountable roles and evidence, inspect a standard test/review definition, and export the plan. See `docs/68_ARCHITECTURE_FEATURE_INTEGRATION_PLAN.md`. A selected backlog item is not a delivered capability; status must advance only with the declared tests and review gates.
+
 ## Architectural Three.js prompt bank
 
 The next architectural-modeling backlog is organized as 100 implementation prompts spanning portable spatial geometry, worship and circulation, site planning, climate, envelope, structure, gates, ornament, Islamic architectural studies, interiors, construction sequencing, BIM exchange, accessibility and production hardening. See `docs/67_ARCHITECTURAL_THREEJS_PROMPTS_100.md`. These are candidate issues—not delivered-feature claims—and each must retain renderer neutrality, provenance and the relevant professional, cultural, community, authority or religious review gate.

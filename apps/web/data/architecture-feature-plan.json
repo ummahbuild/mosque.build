@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "FEATURE-001",
+    "number": 1,
+    "category": "Site & Context",
+    "feature": "Qibla uncertainty tolerance",
+    "what_it_adds": "Allow multiple qibla confidence modes and surveyed overrides.",
+    "threejs_integration": "qibla_confidence",
+    "threejs_implementation": "Render qibla cone / uncertainty wedge in analysis layer.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-002",
+    "number": 2,
+    "category": "Site & Context",
+    "feature": "Topographic site model",
+    "what_it_adds": "Import or generate terrain with slopes and retaining needs.",
+    "threejs_integration": "terrain_mesh",
+    "threejs_implementation": "Use BufferGeometry terrain + contour overlays.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-003",
+    "number": 3,
+    "category": "Site & Context",
+    "feature": "Flood-risk overlay",
+    "what_it_adds": "Show flood-prone site areas and finished-floor recommendations.",
+    "threejs_integration": "flood_risk_map",
+    "threejs_implementation": "Semi-transparent heatmap plane over terrain.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-004",
+    "number": 4,
+    "category": "Site & Context",
+    "feature": "Wind rose visualization",
+    "what_it_adds": "Show dominant seasonal wind directions for natural ventilation.",
+    "threejs_integration": "wind_rose",
+    "threejs_implementation": "Instanced arrows / animated vector field.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-005",
+    "number": 5,
+    "category": "Site & Context",
+    "feature": "Noise-source mapping",
+    "what_it_adds": "Model roads, airports, markets, mechanical sources.",
+    "threejs_integration": "noise_sources",
+    "threejs_implementation": "3D cones/rings + dB heatmap overlay.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-006",
+    "number": 6,
+    "category": "Site & Context",
+    "feature": "Pedestrian catchment analysis",
+    "what_it_adds": "Estimate walkability from surrounding neighborhoods.",
+    "threejs_integration": "pedestrian_catchment",
+    "threejs_implementation": "Isochrone-style ground overlays.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-007",
+    "number": 7,
+    "category": "Site & Context",
+    "feature": "Transit arrival simulation",
+    "what_it_adds": "Model bus, matatu, rideshare, bicycle, and pedestrian arrivals.",
+    "threejs_integration": "arrival_modes",
+    "threejs_implementation": "Animated route paths with instanced agents.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-008",
+    "number": 8,
+    "category": "Site & Context",
+    "feature": "Neighbor privacy analysis",
+    "what_it_adds": "Check overlooking from minaret, roof, windows, courtyards.",
+    "threejs_integration": "privacy_viewsheds",
+    "threejs_implementation": "Raycast-based visibility cones.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-009",
+    "number": 9,
+    "category": "Site & Context",
+    "feature": "Shadow impact on neighbors",
+    "what_it_adds": "Show seasonal shadow footprints beyond site boundary.",
+    "threejs_integration": "shadow_neighbor_analysis",
+    "threejs_implementation": "Directional-light shadow snapshots by date/time.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-010",
+    "number": 10,
+    "category": "Site & Context",
+    "feature": "Future urban growth buffer",
+    "what_it_adds": "Reserve edges for road widening or adjacent development.",
+    "threejs_integration": "growth_buffer",
+    "threejs_implementation": "Editable setback volumes.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-011",
+    "number": 11,
+    "category": "Programming",
+    "feature": "Dynamic mosque program builder",
+    "what_it_adds": "Generate room schedule from community size and activities.",
+    "threejs_integration": "program_generator",
+    "threejs_implementation": "Color-coded 3D program blocks.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-012",
+    "number": 12,
+    "category": "Programming",
+    "feature": "Daily vs Friday capacity delta",
+    "what_it_adds": "Explicitly model everyday and Jumu'ah occupancy separately.",
+    "threejs_integration": "capacity_modes",
+    "threejs_implementation": "Switchable occupancy overlays.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-013",
+    "number": 13,
+    "category": "Programming",
+    "feature": "Ramadan intensification",
+    "what_it_adds": "Simulate Taraweeh, iftar, water, parking, and shoe surges.",
+    "threejs_integration": "ramadan_mode",
+    "threejs_implementation": "Scene-state presets + crowd instancing.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-014",
+    "number": 14,
+    "category": "Programming",
+    "feature": "Eid off-site mode",
+    "what_it_adds": "Design temporary overflow at field, parking lot, or courtyard.",
+    "threejs_integration": "eid_overflow",
+    "threejs_implementation": "Temporary procedural tents, carpets, speakers.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-015",
+    "number": 15,
+    "category": "Programming",
+    "feature": "Youth after-hours zoning",
+    "what_it_adds": "Allow youth facilities to operate while sacred core is closed.",
+    "threejs_integration": "after_hours_zones",
+    "threejs_implementation": "Visibility/lock-state layer on rooms.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-016",
+    "number": 16,
+    "category": "Programming",
+    "feature": "Women's programming parity score",
+    "what_it_adds": "Compare quality and area of women's facilities to main facilities.",
+    "threejs_integration": "parity_score",
+    "threejs_implementation": "Dashboard + highlighted deficient components.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-017",
+    "number": 17,
+    "category": "Programming",
+    "feature": "Convert support program",
+    "what_it_adds": "Add welcome desk, orientation, translation, and learning spaces.",
+    "threejs_integration": "convert_support",
+    "threejs_implementation": "Semantic furniture/room kit.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-018",
+    "number": 18,
+    "category": "Programming",
+    "feature": "Elder support module",
+    "what_it_adds": "Generate rest points, shorter routes, chair storage, accessible wudu.",
+    "threejs_integration": "elder_support",
+    "threejs_implementation": "Distance heatmap from entry to prayer/wudu.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-019",
+    "number": 19,
+    "category": "Programming",
+    "feature": "Child supervision visibility",
+    "what_it_adds": "Check parent sightlines to children/family zones.",
+    "threejs_integration": "child_visibility",
+    "threejs_implementation": "Raycast viewshed overlays.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-020",
+    "number": 20,
+    "category": "Programming",
+    "feature": "I'tikaf zoning",
+    "what_it_adds": "Generate overnight retreat, lockers, showers, quiet zones.",
+    "threejs_integration": "itikaf_mode",
+    "threejs_implementation": "Temporary bed/locker instancing + night state.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-021",
+    "number": 21,
+    "category": "Prayer Hall",
+    "feature": "Dynamic row compression modes",
+    "what_it_adds": "Compare comfortable, normal, and peak row spacing.",
+    "threejs_integration": "row_density_mode",
+    "threejs_implementation": "Parametric prayer-row geometry.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-022",
+    "number": 22,
+    "category": "Prayer Hall",
+    "feature": "Column obstruction scoring",
+    "what_it_adds": "Quantify how many prayer positions are degraded by columns.",
+    "threejs_integration": "column_obstruction_score",
+    "threejs_implementation": "Highlight affected row cells.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-023",
+    "number": 23,
+    "category": "Prayer Hall",
+    "feature": "Imam-to-congregation sightline test",
+    "what_it_adds": "Check visual connection from imam/minbar.",
+    "threejs_integration": "imam_sightline",
+    "threejs_implementation": "Raycast fan from imam position.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-024",
+    "number": 24,
+    "category": "Prayer Hall",
+    "feature": "Wheelchair row integration",
+    "what_it_adds": "Place wheelchair users within rows instead of only at perimeter.",
+    "threejs_integration": "wheelchair_integration",
+    "threejs_implementation": "Semantic wheelchair slots in row generator.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-025",
+    "number": 25,
+    "category": "Prayer Hall",
+    "feature": "Chair prayer alignment",
+    "what_it_adds": "Align elder chairs without breaking saf continuity.",
+    "threejs_integration": "chair_row_logic",
+    "threejs_implementation": "Instanced chairs snapped to row grid.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-026",
+    "number": 26,
+    "category": "Prayer Hall",
+    "feature": "Temporary partition compatibility",
+    "what_it_adds": "Verify prayer rows after movable partitions shift.",
+    "threejs_integration": "partition_prayer_test",
+    "threejs_implementation": "Recompute rows per scene state.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-027",
+    "number": 27,
+    "category": "Prayer Hall",
+    "feature": "Qur'an circulation pockets",
+    "what_it_adds": "Add reading niches without obstructing rows.",
+    "threejs_integration": "quran_niche_generator",
+    "threejs_implementation": "Inset shelf/niche geometry on perimeter.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-028",
+    "number": 28,
+    "category": "Prayer Hall",
+    "feature": "Late-arrival flow",
+    "what_it_adds": "Model people entering during salah without crossing imam sightline.",
+    "threejs_integration": "late_arrival_paths",
+    "threejs_implementation": "Pathfinding overlay.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-029",
+    "number": 29,
+    "category": "Prayer Hall",
+    "feature": "Exit-after-salah flow",
+    "what_it_adds": "Simulate post-prayer crowd release.",
+    "threejs_integration": "egress_simulation",
+    "threejs_implementation": "Animated instanced agents + density heatmap.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-030",
+    "number": 30,
+    "category": "Prayer Hall",
+    "feature": "Sujood collision checker",
+    "what_it_adds": "Check head/knee clearance near steps, shelves, columns, doors.",
+    "threejs_integration": "sujood_clearance",
+    "threejs_implementation": "Pose proxy collision tests.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-031",
+    "number": 31,
+    "category": "Sacred Core",
+    "feature": "Mihrab acoustic reflector tuning",
+    "what_it_adds": "Shape mihrab to avoid harmful focusing/echo.",
+    "threejs_integration": "mihrab_acoustics",
+    "threejs_implementation": "Ray/bounce visualization from mihrab.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "religious-and-professional"
+  },
+  {
+    "id": "FEATURE-032",
+    "number": 32,
+    "category": "Sacred Core",
+    "feature": "Minbar accessibility alternatives",
+    "what_it_adds": "Generate low-platform or alternate khutbah position.",
+    "threejs_integration": "minbar_access_options",
+    "threejs_implementation": "Switchable minbar variants.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "religious-and-professional"
+  },
+  {
+    "id": "FEATURE-033",
+    "number": 33,
+    "category": "Sacred Core",
+    "feature": "Qibla wall service concealment",
+    "what_it_adds": "Hide cables, speakers, access panels within focal wall.",
+    "threejs_integration": "qibla_service_zone",
+    "threejs_implementation": "Service void geometry behind wall.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "religious-and-professional"
+  },
+  {
+    "id": "FEATURE-034",
+    "number": 34,
+    "category": "Sacred Core",
+    "feature": "Calligraphy safe-zone rules",
+    "what_it_adds": "Prevent sacred text from floors, toilets, or inappropriate heights.",
+    "threejs_integration": "calligraphy_safe_zone",
+    "threejs_implementation": "Placement validation bounding volumes.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "religious-and-professional"
+  },
+  {
+    "id": "FEATURE-035",
+    "number": 35,
+    "category": "Sacred Core",
+    "feature": "Imam control console integration",
+    "what_it_adds": "Lighting, audio, prayer display, HVAC quick controls.",
+    "threejs_integration": "imam_console",
+    "threejs_implementation": "Interactive UI object in scene.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "religious-and-professional"
+  },
+  {
+    "id": "FEATURE-036",
+    "number": 36,
+    "category": "Sacred Core",
+    "feature": "Janazah prayer setup",
+    "what_it_adds": "Temporary bier zone and flow path.",
+    "threejs_integration": "janazah_scene",
+    "threejs_implementation": "Temporary semantic object placement.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "religious-and-professional"
+  },
+  {
+    "id": "FEATURE-037",
+    "number": 37,
+    "category": "Sacred Core",
+    "feature": "Khutbah camera framing",
+    "what_it_adds": "Check livestream camera view without obstructing congregation.",
+    "threejs_integration": "khutbah_camera",
+    "threejs_implementation": "Camera frustum preview.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "religious-and-professional"
+  },
+  {
+    "id": "FEATURE-038",
+    "number": 38,
+    "category": "Sacred Core",
+    "feature": "Mihrab maintenance access",
+    "what_it_adds": "Ensure concealed lighting and AV can be serviced.",
+    "threejs_integration": "mihrab_access",
+    "threejs_implementation": "Service clearance volumes.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "religious-and-professional"
+  },
+  {
+    "id": "FEATURE-039",
+    "number": 39,
+    "category": "Sacred Core",
+    "feature": "Qibla wall visual hierarchy score",
+    "what_it_adds": "Measure focal contrast and clutter.",
+    "threejs_integration": "qibla_visual_score",
+    "threejs_implementation": "Material/emissive contrast analysis.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "religious-and-professional"
+  },
+  {
+    "id": "FEATURE-040",
+    "number": 40,
+    "category": "Sacred Core",
+    "feature": "Alternate imam position for overflow",
+    "what_it_adds": "Coordinate overflow halls with synchronized prayer.",
+    "threejs_integration": "overflow_imam_logic",
+    "threejs_implementation": "Linked scene anchors / audio delays.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "religious-and-professional"
+  },
+  {
+    "id": "FEATURE-041",
+    "number": 41,
+    "category": "Wudu & Sanitation",
+    "feature": "Wudu queue simulation",
+    "what_it_adds": "Estimate wait times at peak Jumu'ah/Ramadan.",
+    "threejs_integration": "wudu_queue_model",
+    "threejs_implementation": "Animated queue agents + station occupancy.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-042",
+    "number": 42,
+    "category": "Wudu & Sanitation",
+    "feature": "Foot-splash envelope",
+    "what_it_adds": "Visualize splash zones around ablution stations.",
+    "threejs_integration": "splash_zone",
+    "threejs_implementation": "Transparent floor/wall envelope.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-043",
+    "number": 43,
+    "category": "Wudu & Sanitation",
+    "feature": "Dry-foot route validator",
+    "what_it_adds": "Check that users can leave wudu without crossing contaminated wet paths.",
+    "threejs_integration": "dry_route",
+    "threejs_implementation": "Pathfinding with wet-zone penalties.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-044",
+    "number": 44,
+    "category": "Wudu & Sanitation",
+    "feature": "Water-use calculator",
+    "what_it_adds": "Estimate liters/day by occupancy and fixture flow.",
+    "threejs_integration": "water_demand",
+    "threejs_implementation": "Live dashboard linked to station count.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-045",
+    "number": 45,
+    "category": "Wudu & Sanitation",
+    "feature": "Greywater reuse model",
+    "what_it_adds": "Estimate reuse for flushing/irrigation.",
+    "threejs_integration": "greywater_system",
+    "threejs_implementation": "MEP pipe network overlay.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-046",
+    "number": 46,
+    "category": "Wudu & Sanitation",
+    "feature": "Drain slope validator",
+    "what_it_adds": "Check floor falls to drains.",
+    "threejs_integration": "floor_slope",
+    "threejs_implementation": "Vector arrows + color gradient.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-047",
+    "number": 47,
+    "category": "Wudu & Sanitation",
+    "feature": "Cleaning reach analysis",
+    "what_it_adds": "Verify hose/squeegee access to all wet-area surfaces.",
+    "threejs_integration": "cleaning_reach",
+    "threejs_implementation": "Radius overlays around hose bibs.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-048",
+    "number": 48,
+    "category": "Wudu & Sanitation",
+    "feature": "Privacy zoning",
+    "what_it_adds": "Check cubicle/screen privacy from doors and corridors.",
+    "threejs_integration": "wet_privacy",
+    "threejs_implementation": "Visibility ray analysis.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-049",
+    "number": 49,
+    "category": "Wudu & Sanitation",
+    "feature": "Odor-pressure strategy",
+    "what_it_adds": "Model negative pressure in toilets vs prayer spaces.",
+    "threejs_integration": "pressure_zones",
+    "threejs_implementation": "Color-coded airflow zones.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-050",
+    "number": 50,
+    "category": "Wudu & Sanitation",
+    "feature": "Accessible wudu transfer simulation",
+    "what_it_adds": "Test wheelchair turning and reach.",
+    "threejs_integration": "accessible_wudu",
+    "threejs_implementation": "Clearance cylinders and reach arcs.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-051",
+    "number": 51,
+    "category": "Envelope & Climate",
+    "feature": "Adaptive screen density",
+    "what_it_adds": "Change perforation based on solar exposure by façade.",
+    "threejs_integration": "screen_density_field",
+    "threejs_implementation": "Shader-driven perforation/instance density.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-052",
+    "number": 52,
+    "category": "Envelope & Climate",
+    "feature": "Operable façade state",
+    "what_it_adds": "Simulate windows/screens open vs closed.",
+    "threejs_integration": "facade_state",
+    "threejs_implementation": "Morph/rotate opening components.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-053",
+    "number": 53,
+    "category": "Envelope & Climate",
+    "feature": "Thermal mass visualization",
+    "what_it_adds": "Show heavy vs lightweight zones.",
+    "threejs_integration": "thermal_mass",
+    "threejs_implementation": "Material metadata heatmap.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-054",
+    "number": 54,
+    "category": "Envelope & Climate",
+    "feature": "Rain-screen cavity model",
+    "what_it_adds": "Represent ventilated cladding systems.",
+    "threejs_integration": "rainscreen_cavity",
+    "threejs_implementation": "Layered wall section geometry.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-055",
+    "number": 55,
+    "category": "Envelope & Climate",
+    "feature": "Dust-control entry mode",
+    "what_it_adds": "Generate vestibule/mat/air-curtain sequence.",
+    "threejs_integration": "dust_entry",
+    "threejs_implementation": "Entry kit components.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-056",
+    "number": 56,
+    "category": "Envelope & Climate",
+    "feature": "Monsoon/tropical rain protection",
+    "what_it_adds": "Check eaves and splash exposure.",
+    "threejs_integration": "rain_exposure",
+    "threejs_implementation": "Directional rain particle simulation.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-057",
+    "number": 57,
+    "category": "Envelope & Climate",
+    "feature": "Solar heat gain by glazing",
+    "what_it_adds": "Estimate and visualize heat gain by façade.",
+    "threejs_integration": "solar_gain",
+    "threejs_implementation": "Window heatmap shader.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-058",
+    "number": 58,
+    "category": "Envelope & Climate",
+    "feature": "Natural-ventilation effectiveness score",
+    "what_it_adds": "Score cross/stack ventilation paths.",
+    "threejs_integration": "vent_score",
+    "threejs_implementation": "Streamlines / arrows.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-059",
+    "number": 59,
+    "category": "Envelope & Climate",
+    "feature": "Courtyard comfort simulation",
+    "what_it_adds": "Shade, wind, planting, and thermal comfort.",
+    "threejs_integration": "courtyard_comfort",
+    "threejs_implementation": "Time-state heatmap.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-060",
+    "number": 60,
+    "category": "Envelope & Climate",
+    "feature": "Night purge mode",
+    "what_it_adds": "Model after-hours ventilation strategy.",
+    "threejs_integration": "night_purge",
+    "threejs_implementation": "Animated opening state + airflow overlay.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-061",
+    "number": 61,
+    "category": "Acoustics & AV",
+    "feature": "RT60 estimator",
+    "what_it_adds": "Calculate reverberation from material areas and room volume.",
+    "threejs_integration": "rt60",
+    "threejs_implementation": "Acoustic dashboard.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-062",
+    "number": 62,
+    "category": "Acoustics & AV",
+    "feature": "Speaker delay optimization",
+    "what_it_adds": "Place delay speakers for long prayer halls.",
+    "threejs_integration": "speaker_delay",
+    "threejs_implementation": "Coverage cones + delay labels.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-063",
+    "number": 63,
+    "category": "Acoustics & AV",
+    "feature": "Feedback-risk map",
+    "what_it_adds": "Check microphone/loudspeaker geometry.",
+    "threejs_integration": "feedback_map",
+    "threejs_implementation": "Danger-zone overlays.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-064",
+    "number": 64,
+    "category": "Acoustics & AV",
+    "feature": "Women/family audio parity",
+    "what_it_adds": "Compare SPL/intelligibility with main hall.",
+    "threejs_integration": "audio_parity",
+    "threejs_implementation": "Coverage score overlay.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-065",
+    "number": 65,
+    "category": "Acoustics & AV",
+    "feature": "Quiet HVAC threshold",
+    "what_it_adds": "Flag mechanical noise above target.",
+    "threejs_integration": "hvac_noise",
+    "threejs_implementation": "dBA tags by zone.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-066",
+    "number": 66,
+    "category": "Acoustics & AV",
+    "feature": "Livestream privacy masking",
+    "what_it_adds": "Define no-camera zones.",
+    "threejs_integration": "camera_privacy",
+    "threejs_implementation": "Camera frustum clipping masks.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-067",
+    "number": 67,
+    "category": "Acoustics & AV",
+    "feature": "Athan exterior coverage",
+    "what_it_adds": "Model neighborhood sound coverage and limits.",
+    "threejs_integration": "athan_coverage",
+    "threejs_implementation": "Outdoor SPL contours.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-068",
+    "number": 68,
+    "category": "Acoustics & AV",
+    "feature": "Emergency voice mode",
+    "what_it_adds": "Use PA system for evacuation messaging.",
+    "threejs_integration": "evac_audio",
+    "threejs_implementation": "Emergency scene state.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-069",
+    "number": 69,
+    "category": "Acoustics & AV",
+    "feature": "Hearing assistance planning",
+    "what_it_adds": "Map hearing loop/IR coverage.",
+    "threejs_integration": "hearing_assist",
+    "threejs_implementation": "Coverage polygon overlay.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-070",
+    "number": 70,
+    "category": "Acoustics & AV",
+    "feature": "AV rack heat load",
+    "what_it_adds": "Include equipment heat in cooling calculations.",
+    "threejs_integration": "av_heat_load",
+    "threejs_implementation": "MEP metadata dashboard.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-071",
+    "number": 71,
+    "category": "Lighting",
+    "feature": "Prayer-mode glare score",
+    "what_it_adds": "Check bright sources in worshipper sightlines.",
+    "threejs_integration": "glare_score",
+    "threejs_implementation": "Viewpoint-based luminance overlay.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-072",
+    "number": 72,
+    "category": "Lighting",
+    "feature": "Dome-light maintenance planner",
+    "what_it_adds": "Visualize lift/scaffold access to high fixtures.",
+    "threejs_integration": "lighting_access",
+    "threejs_implementation": "Access path volumes.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-073",
+    "number": 73,
+    "category": "Lighting",
+    "feature": "Circadian lighting scenes",
+    "what_it_adds": "Tune CCT/intensity by Fajr/day/Isha.",
+    "threejs_integration": "circadian_scene",
+    "threejs_implementation": "Scene lighting presets.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-074",
+    "number": 74,
+    "category": "Lighting",
+    "feature": "Emergency-light coverage",
+    "what_it_adds": "Verify egress illumination.",
+    "threejs_integration": "emergency_lighting",
+    "threejs_implementation": "Lux heatmap on floor.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-075",
+    "number": 75,
+    "category": "Lighting",
+    "feature": "Minaret light pollution control",
+    "what_it_adds": "Check upward spill and neighbor impact.",
+    "threejs_integration": "light_pollution",
+    "threejs_implementation": "Beam volume overlay.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-076",
+    "number": 76,
+    "category": "Lighting",
+    "feature": "Daylight autonomy score",
+    "what_it_adds": "Estimate hours meeting target lux without artificial light.",
+    "threejs_integration": "daylight_autonomy",
+    "threejs_implementation": "Floor heatmap by hour.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-077",
+    "number": 77,
+    "category": "Lighting",
+    "feature": "Screen-shadow composition",
+    "what_it_adds": "Preview geometric shadow patterns through jali.",
+    "threejs_integration": "screen_shadow",
+    "threejs_implementation": "Real-time sun shadow preview.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-078",
+    "number": 78,
+    "category": "Lighting",
+    "feature": "Ramadan night scene",
+    "what_it_adds": "Create lower-energy but festive lighting mode.",
+    "threejs_integration": "ramadan_lighting",
+    "threejs_implementation": "Preset scene state.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-079",
+    "number": 79,
+    "category": "Lighting",
+    "feature": "Cleaning scene",
+    "what_it_adds": "Full-output task lighting state.",
+    "threejs_integration": "cleaning_lighting",
+    "threejs_implementation": "Preset scene state.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-080",
+    "number": 80,
+    "category": "Lighting",
+    "feature": "Light fixture family minimizer",
+    "what_it_adds": "Suggest fewer luminaire SKUs.",
+    "threejs_integration": "fixture_family_optimizer",
+    "threejs_implementation": "Swap similar fixtures in scene.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-081",
+    "number": 81,
+    "category": "Construction & Fabrication",
+    "feature": "Panelization engine",
+    "what_it_adds": "Divide walls/screens/ceilings into manufacturable panels.",
+    "threejs_integration": "panelization",
+    "threejs_implementation": "Generate panel seams and IDs.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-082",
+    "number": 82,
+    "category": "Construction & Fabrication",
+    "feature": "Tile cutting optimization",
+    "what_it_adds": "Nest custom tile shapes to reduce waste.",
+    "threejs_integration": "tile_nesting",
+    "threejs_implementation": "2D nesting preview + BOM.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-083",
+    "number": 83,
+    "category": "Construction & Fabrication",
+    "feature": "Rebar congestion warning",
+    "what_it_adds": "Flag dense reinforcement around dome/minaret transitions.",
+    "threejs_integration": "rebar_congestion",
+    "threejs_implementation": "Technical overlay volumes.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-084",
+    "number": 84,
+    "category": "Construction & Fabrication",
+    "feature": "Crane reach planning",
+    "what_it_adds": "Check whether heavy components can be installed.",
+    "threejs_integration": "crane_reach",
+    "threejs_implementation": "Crane swing/reach volume.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-085",
+    "number": 85,
+    "category": "Construction & Fabrication",
+    "feature": "Scaffold planning",
+    "what_it_adds": "Estimate scaffold zones and quantities.",
+    "threejs_integration": "scaffold_model",
+    "threejs_implementation": "Temporary scaffold geometry.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-086",
+    "number": 86,
+    "category": "Construction & Fabrication",
+    "feature": "Construction sequencing",
+    "what_it_adds": "Animate foundation → structure → enclosure → fit-out.",
+    "threejs_integration": "construction_sequence",
+    "threejs_implementation": "Timeline-driven visibility states.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-087",
+    "number": 87,
+    "category": "Construction & Fabrication",
+    "feature": "Shop-drawing IDs",
+    "what_it_adds": "Assign every fabricated component a persistent ID.",
+    "threejs_integration": "fabrication_id",
+    "threejs_implementation": "userData + label sprites.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-088",
+    "number": 88,
+    "category": "Construction & Fabrication",
+    "feature": "Tolerance checking",
+    "what_it_adds": "Detect interfaces with insufficient construction tolerance.",
+    "threejs_integration": "tolerance_zones",
+    "threejs_implementation": "Clearance envelopes.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-089",
+    "number": 89,
+    "category": "Construction & Fabrication",
+    "feature": "Material waste estimator",
+    "what_it_adds": "Estimate offcuts by panel/roll/board dimensions.",
+    "threejs_integration": "waste_estimator",
+    "threejs_implementation": "Live BOM dashboard.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-090",
+    "number": 90,
+    "category": "Construction & Fabrication",
+    "feature": "Local fabrication matcher",
+    "what_it_adds": "Match modeled items to marketplace/local capabilities.",
+    "threejs_integration": "fabrication_match",
+    "threejs_implementation": "Component metadata → vendor filter.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "FEATURE-091",
+    "number": 91,
+    "category": "Lifecycle & Operations",
+    "feature": "Digital twin asset registry",
+    "what_it_adds": "Track installed equipment, warranties, and replacement dates.",
+    "threejs_integration": "asset_registry",
+    "threejs_implementation": "Clickable semantic assets.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-092",
+    "number": 92,
+    "category": "Lifecycle & Operations",
+    "feature": "Cleaning route optimizer",
+    "what_it_adds": "Generate efficient daily cleaning paths.",
+    "threejs_integration": "cleaning_route",
+    "threejs_implementation": "Animated path overlay.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-093",
+    "number": 93,
+    "category": "Lifecycle & Operations",
+    "feature": "Filter replacement schedule",
+    "what_it_adds": "Track HVAC filter service intervals.",
+    "threejs_integration": "filter_schedule",
+    "threejs_implementation": "Maintenance badges on equipment.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-094",
+    "number": 94,
+    "category": "Lifecycle & Operations",
+    "feature": "Carpet wear map",
+    "what_it_adds": "Predict high-traffic replacement zones.",
+    "threejs_integration": "carpet_wear",
+    "threejs_implementation": "Traffic heatmap on carpet.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-095",
+    "number": 95,
+    "category": "Lifecycle & Operations",
+    "feature": "Water leak alert zones",
+    "what_it_adds": "Map high-risk wet areas and sensors.",
+    "threejs_integration": "leak_zones",
+    "threejs_implementation": "Sensor icons + risk overlay.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-096",
+    "number": 96,
+    "category": "Lifecycle & Operations",
+    "feature": "Energy dashboard",
+    "what_it_adds": "Estimate annual electricity by system.",
+    "threejs_integration": "energy_dashboard",
+    "threejs_implementation": "Linked scene metrics.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-097",
+    "number": 97,
+    "category": "Lifecycle & Operations",
+    "feature": "Expansion readiness score",
+    "what_it_adds": "Check whether future rooms can be added cleanly.",
+    "threejs_integration": "expansion_score",
+    "threejs_implementation": "Highlight expansion edges.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-098",
+    "number": 98,
+    "category": "Lifecycle & Operations",
+    "feature": "Asset replacement simulation",
+    "what_it_adds": "Preview alternate equipment without redesigning room.",
+    "threejs_integration": "asset_swap",
+    "threejs_implementation": "Marketplace-driven component swapping.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-099",
+    "number": 99,
+    "category": "Lifecycle & Operations",
+    "feature": "Community issue pinning",
+    "what_it_adds": "Let admins pin leaks, broken lights, damaged carpet in 3D.",
+    "threejs_integration": "issue_pins",
+    "threejs_implementation": "3D annotation sprites.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  },
+  {
+    "id": "FEATURE-100",
+    "number": 100,
+    "category": "AI & Product",
+    "feature": "Natural-language design operations",
+    "what_it_adds": "Commands like 'cut cost 15% without shrinking prayer capacity'.",
+    "threejs_integration": "ai_design_ops",
+    "threejs_implementation": "Translate intent into parameter changes + diff visualization.",
+    "status": "specified",
+    "source": {
+      "kind": "user-supplied-product-brief",
+      "observedAt": "2026-09-10",
+      "rights": "project input",
+      "confidence": "concept"
+    },
+    "review_gate": "community-and-professional"
+  }
+]

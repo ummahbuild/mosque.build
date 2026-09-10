@@ -69,6 +69,10 @@ export const projectSections = [
   ,{id:"ornamentalAssemblies", label:"Ornamental gate, screen and surface assemblies", key:"mosque-build.ornamental-assemblies.v1"}
   ,{id:"structuralFoundation", label:"Structural and foundation coordination", key:"mosque-build.structural-foundation.v1"}
   ,{id:"regionalMaterialCost", label:"Regional material cost plan", key:"mosque-build.regional-material-cost.v1"}
+  ,{id:"costSavingRules", label:"Cost-control rule study", key:"mosque-build.cost-saving-rules.v1"}
+  ,{id:"landCostStudy", label:"Land and site cost study", key:"mosque-build.land-cost-study.v1"}
+  ,{id:"projectIntegrity", label:"Integrity, capability and value controls", key:"mosque-build.project-integrity.v1"}
+  ,{id:"architectureFeaturePlan", label:"Architecture feature delivery plan", key:"mosque-build.architecture-feature-plan.v1"}
 ] as const;
 
 export type ProjectSectionId = typeof projectSections[number]["id"];
