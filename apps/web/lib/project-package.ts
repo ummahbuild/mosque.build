@@ -80,6 +80,8 @@ export const projectSections = [
   ,{id:"qiblaWallPerformance", label:"Qibla wall performance study", key:"mosque-build.qibla-wall-performance.v1"}
   ,{id:"conceptFeatureSelections", label:"Selected concept capabilities", key:"mosque-build.concept-features.v1"}
   ,{id:"domeDesign", label:"Dome architecture and construction study", key:"mosque-build.dome-design.v1"}
+  ,{id:"campusPlanning", label:"Campus, movement, education and recreation study", key:"mosque-build.campus-planning.v1"}
+  ,{id:"communityNeeds", label:"Aggregate community needs and service-area study", key:"mosque-build.community-needs.v1"}
 ] as const;
 
 export type ProjectSectionId = typeof projectSections[number]["id"];

@@ -16,7 +16,7 @@ test("one journey connects every working product area",()=>{
 });
 
 test("journey distinguishes activity from completion and exposes accessible state",()=>{
-  assert.match(nav,/Saved activity is not approval or completion/);
+  assert.match(nav,/Started means saved here; it does not mean approved or complete/);
   assert.match(nav,/aria-current/);
   assert.match(nav,/aria-label="Mosque project journey"/);
   assert.match(nav,/mosque-build:project-change/);

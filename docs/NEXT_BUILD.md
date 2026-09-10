@@ -42,7 +42,7 @@ This queue converts the broad roadmap into contributor-sized outcomes. Create or
 
 ## P0 — open-source release blockers
 
-1. **Select and publish an outbound license.** Owner/legal decision required. Audit archive and mockup rights before choosing terms. Acceptance: root license file, README badge/link, third-party notices and contribution terms agree.
+1. **Maintain the published MIT license boundary.** The root license, package metadata, README, contribution terms and third-party notices now agree. Remaining acceptance: complete the archive and visual-asset rights inventory so third-party material is never implied to be MIT-licensed.
 2. **Dependency vulnerability review.** Triage current automated security alerts without blind major upgrades. Acceptance: advisory-by-advisory decision, tests/build pass, residual risk documented.
 3. **Asset rights inventory.** Record author/source, rights, permitted redistribution and review state for every public mockup and seed asset. Acceptance: machine-readable inventory and test blocking unknown rights.
 4. **Private-data incident procedure.** Confirm monitored security channel and removal/history-rewrite policy. Acceptance: organizational owner and tested private reporting route.
@@ -112,4 +112,8 @@ Every implementation issue needs a user outcome, scoped surface, status, depende
 
 # Landing hero style sequence
 
-- After the eight-stage construction sequence completes, the landing hero now transitions into six selectable mosque design studies with unique Three.js massing, automatic cycling, an explicit active state and a replay path back to construction. Status: `executable` locally; the 100 delivered interaction, rendering, accessibility, responsive and trust improvements are recorded in `75_HERO_STYLE_SEQUENCE_100.md`.
+- After the eight-stage construction sequence completes, the landing hero now transitions into six selectable mosque design studies with unique Three.js massing, automatic cycling, an explicit active state and a replay path back to construction. All six selectors stay in one desktop row and one swipeable, snap-aligned mobile row; automatic playback keeps the active choice visible and respects reduced motion. Status: `executable` locally; the 100 delivered interaction, rendering, accessibility, responsive and trust improvements are recorded in `75_HERO_STYLE_SEQUENCE_100.md`.
+
+# Landing product truth
+
+- The landing page no longer presents source-frame screenshots as working features. Its primary product preview now reads the canonical workflow map and the visitor's actual device-local records, exposing started/developed states, prerequisite gaps, review gates and direct next actions. The visual frame archive remains available separately under Project concepts for traceability. Status: `executable` locally; authenticated cross-device state remains future work.

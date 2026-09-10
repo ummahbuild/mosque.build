@@ -6,5 +6,5 @@ import {PeoplePrivacyWorkspace} from "@/components/people-privacy-workspace";
 import {ProductAreaPage} from "@/components/product-area-page";
 import {WorkOrderWorkspace} from "@/components/work-order-workspace";
 
-export const metadata={title:"Opening and operations workspace",description:"Build a device-local handover, maintenance and emergency-continuity plan."};
+export const metadata={title:"Opening and mosque care",description:"Prepare handover, maintenance and emergency plans for the mosque."};
 export default function Page(){const area=areas.find(item=>item.slug==="operations")!;return <ProductAreaPage area={area} insert={<><OperationsWorkspace/><WorkOrderWorkspace/><PeoplePrivacyWorkspace/><EmergencyContinuityOverview/><EmergencyReadinessWorkspace/></>}/>}

@@ -13,7 +13,7 @@ const links = [
   ["/funding", "Funding + Waqf"],
   ["/construction", "Build"],
   ["/resources", "Resources"],
-  ["/open-source", "Contribute"],
+  ["/contribute", "Contribute"],
 ] as const;
 
 export function SiteHeader() {
@@ -59,7 +59,7 @@ export function SiteHeader() {
     <Link className="brand" href="/" aria-label="mosque.build home"><span className="brandMark" aria-hidden="true">⌂</span><span>mosque<span className="brandDot">.</span>build</span></Link>
     <nav className="navLinks" aria-label="Primary navigation">{links.map(([href, label]) => <Link href={href} key={href} aria-current={isCurrent(href) ? "page" : undefined}>{label}</Link>)}</nav>
     <div className="navActions">
-      <Link className="textButton" href="/prototypes" aria-current={pathname.startsWith("/prototypes") ? "page" : undefined}>Concepts</Link>
+      <Link className="textButton" href="/prototypes" aria-current={pathname.startsWith("/prototypes") ? "page" : undefined}>Examples</Link>
       <Link className="textButton projectNavLink" href="/my-project" aria-current={pathname === "/my-project" ? "page" : undefined}>My project</Link>
       <Link className="button small" href={projectEntry.href} aria-current={pathname === projectEntry.href ? "page" : undefined}>{projectEntry.label}</Link>
       <button ref={menuButton} className="menuButton" type="button" aria-expanded={open} aria-controls="mobile-navigation" aria-label={`${open ? "Close" : "Open"} navigation menu`} onClick={() => setOpen(value => !value)}><span aria-hidden="true">{open ? "×" : "☰"}</span></button>
@@ -67,7 +67,7 @@ export function SiteHeader() {
     <nav id="mobile-navigation" className={`mobileNav${open ? " open" : ""}`} aria-label="Mobile navigation" aria-hidden={!open} inert={!open?true:undefined}>
       <strong>Explore mosque.build</strong>
       {links.map(([href, label]) => <Link href={href} key={href} aria-current={isCurrent(href) ? "page" : undefined} tabIndex={open ? 0 : -1}>{label}</Link>)}
-      <Link href="/prototypes" aria-current={pathname.startsWith("/prototypes") ? "page" : undefined} tabIndex={open ? 0 : -1}>Concepts</Link>
+      <Link href="/prototypes" aria-current={pathname.startsWith("/prototypes") ? "page" : undefined} tabIndex={open ? 0 : -1}>Examples</Link>
       <Link href="/my-project" aria-current={pathname === "/my-project" ? "page" : undefined} tabIndex={open ? 0 : -1}>My project</Link>
       <Link className="mobileProjectAction" href={projectEntry.href} tabIndex={open?0:-1}>{projectEntry.label}</Link>
     </nav>

@@ -1,0 +1,38 @@
+name: Documentation improvement
+description: Report unclear, missing, outdated, or inaccessible project documentation.
+title: "[Docs]: "
+labels: ["documentation", "needs-triage"]
+body:
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Audience
+      options: ["Mosque community or committee", "New contributor", "Developer or maintainer", "Research or data contributor", "Professional or authority reviewer"]
+    validations: {required: true}
+  - type: input
+    id: location
+    attributes:
+      label: Page or file
+      description: Link the page or provide a repository-relative path.
+    validations: {required: true}
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is unclear or missing?
+      description: Quote only the minimum text needed and do not include private project data.
+    validations: {required: true}
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Suggested improvement
+      description: Explain what the reader should understand or be able to do.
+    validations: {required: true}
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I checked that this is not already covered by an open issue.
+          required: true
+        - label: I removed personal and project-sensitive information.
+          required: true

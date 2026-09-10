@@ -1,1 +1,28 @@
-.buildTimelapse{position:relative;width:100%;color:#173e36}.buildViewport{position:relative;min-height:480px;overflow:hidden;border:1px solid rgba(255,255,255,.45);border-radius:22px 22px 0 0;background:radial-gradient(circle at 50% 45%,#f8f3e5,#dce8e0 68%,#b9cec4);box-shadow:0 40px 90px rgba(0,0,0,.28)}.buildTop{position:absolute;z-index:3;inset:0 0 auto;display:flex;justify-content:space-between;padding:14px 17px;background:rgba(255,255,255,.82);backdrop-filter:blur(12px);font-size:11px}.buildTop span{font-weight:850}.buildTop i{display:inline-block;width:8px;height:8px;margin-right:7px;border-radius:50%;background:#39a875}.buildCanvas{position:absolute;inset:40px 0 0}.buildCanvas canvas{display:block;width:100%;height:100%;touch-action:none}.buildCaption{position:absolute;z-index:3;left:18px;bottom:18px;display:grid;min-width:220px;padding:14px 16px;border:1px solid rgba(255,255,255,.7);border-radius:12px;background:rgba(7,61,52,.9);color:white;backdrop-filter:blur(10px)}.buildCaption small{color:#f1ca77;font-size:8px;font-weight:900;letter-spacing:.14em}.buildCaption strong{margin:.25rem 0;font:500 24px/1 Georgia,serif}.buildCaption span{color:#d0e1db;font-size:10px}.buildControls{border:1px solid #d7dfda;border-top:0;border-radius:0 0 18px 18px;background:#fbfaf5;padding:12px}.buildControls>div{display:flex;gap:6px}.buildControls button{min-height:38px;border:1px solid #b8c6c0;border-radius:7px;background:#fff;color:#173e36;padding:7px 10px;font-size:10px;font-weight:850;cursor:pointer}.buildControls button[aria-pressed=true],.buildControls button[aria-current=step]{background:#075044;color:#fff;border-color:#075044}.buildControls label{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:center;margin:10px 0;color:#52665e;font-size:9px;font-weight:850}.buildControls input{width:100%;accent-color:#b78935}.buildControls ol{display:grid;grid-template-columns:repeat(8,1fr);gap:4px;margin:0;padding:0;list-style:none}.buildControls li button{display:grid;width:100%;min-width:0;padding:6px 3px;font-size:7px}.buildControls li span{font-size:6px;opacity:.75}.buildBoundary{margin:8px 2px 0!important;color:#bcd0c9!important;font-size:9px!important}.srOnly{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}@media(max-width:760px){.buildViewport{min-height:350px}.buildControls ol{grid-template-columns:repeat(4,1fr)}.buildControls li button{min-height:42px;font-size:8px}.buildCaption{right:14px;left:14px;bottom:14px}.buildCanvas{inset:40px -55px 0}}@media(prefers-reduced-motion:reduce){.buildTimelapse *{scroll-behavior:auto!important}}
+.buildTimelapse{position:relative;width:100%;min-width:0;color:#173e36}
+.buildViewport{position:relative;min-height:480px;overflow:hidden;border:1px solid rgba(255,255,255,.45);border-radius:22px 22px 0 0;background:radial-gradient(circle at 50% 45%,#f8f3e5,#dce8e0 68%,#b9cec4);box-shadow:0 40px 90px rgba(0,0,0,.28)}
+.buildTop{position:absolute;z-index:3;inset:0 0 auto;display:flex;justify-content:space-between;padding:14px 17px;background:rgba(255,255,255,.82);backdrop-filter:blur(12px);font-size:11px}
+.buildTop span{font-weight:850}
+.buildTop i{display:inline-block;width:8px;height:8px;margin-right:7px;border-radius:50%;background:#39a875}
+.buildCanvas{position:absolute;inset:40px 0 0}
+.buildCanvas canvas{display:block;width:100%;height:100%;touch-action:none}
+.buildCaption{position:absolute;z-index:3;left:18px;bottom:18px;display:grid;min-width:220px;padding:14px 16px;border:1px solid rgba(255,255,255,.7);border-radius:12px;background:rgba(7,61,52,.9);color:white;backdrop-filter:blur(10px)}
+.buildCaption small{color:#f1ca77;font-size:8px;font-weight:900;letter-spacing:.14em}
+.buildCaption strong{margin:.25rem 0;font:500 24px/1 Georgia,serif}
+.buildCaption span{color:#d0e1db;font-size:10px}
+.buildControls{border:1px solid #d7dfda;border-top:0;border-radius:0 0 18px 18px;background:#fbfaf5;padding:12px}
+.buildControls>div{display:flex;gap:6px}
+.buildControls button{min-height:38px;border:1px solid #b8c6c0;border-radius:7px;background:#fff;color:#173e36;padding:7px 10px;font-size:10px;font-weight:850;cursor:pointer}
+.buildControls button[aria-pressed=true],.buildControls button[aria-current=step]{background:#075044;color:#fff;border-color:#075044}
+.buildControls label{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:center;margin:10px 0;color:#52665e;font-size:9px;font-weight:850}
+.buildControls input{width:100%;accent-color:#b78935}
+.buildControls ol{display:grid;grid-template-columns:repeat(8,1fr);gap:4px;margin:0;padding:0;list-style:none}
+.buildControls li button{display:grid;width:100%;min-width:0;padding:6px 3px;font-size:7px}
+.buildControls li span{font-size:6px;opacity:.75}
+.buildBoundary{margin:8px 2px 0!important;color:#bcd0c9!important;font-size:9px!important}
+.srOnly{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+@media(max-width:760px){.landingHero .heroVisual{width:100%;min-width:0}.buildViewport{width:100%;min-width:0;min-height:350px}
+.buildControls ol{grid-template-columns:repeat(4,1fr)}
+.buildControls li button{min-height:42px;font-size:8px}
+.buildCaption{right:14px;left:14px;bottom:14px}
+.buildCanvas{inset:40px -55px 0}}
+@media(prefers-reduced-motion:reduce){.buildTimelapse *{scroll-behavior:auto!important}}

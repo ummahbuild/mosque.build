@@ -6,7 +6,7 @@ const read = path => fs.readFileSync(new URL(`../${path}`, import.meta.url), "ut
 
 test("universal workspace navigator provides orientation and keyboard behavior", () => {
   const source = read("apps/web/components/workspace-tool-navigator.tsx");
-  for (const contract of ["IntersectionObserver", "MutationObserver", "Workspace tools", "Previous workspace tool", "Next workspace tool", "aria-current", "prefers-reduced-motion", "No tools match", 'event.key==="Escape"']) assert.match(source, new RegExp(contract.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+  for (const contract of ["IntersectionObserver", "MutationObserver", "Jump to a planning tool", "Previous planning tool", "Next planning tool", "aria-current", "prefers-reduced-motion", "No planning tools match", 'event.key==="Escape"']) assert.match(source, new RegExp(contract.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   assert.match(source, /workspaceSectionIntro/);
 });
 

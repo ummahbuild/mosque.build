@@ -1,0 +1,52 @@
+name: Source or data contribution
+description: Propose an external factual record with complete provenance.
+title: "[Source/Data]: "
+labels: ["data", "needs-triage"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Record type
+      options: ["Jurisdiction or authority", "Architecture or cultural reference", "Material or assembly", "Product or supplier candidate", "Cost observation", "Funding or waqf reference", "Religious-content source", "Other external dependency"]
+    validations: {required: true}
+  - type: textarea
+    id: source
+    attributes:
+      label: Primary source and date
+      description: Provide the direct URL, issuer or author, publication date if known, and observation date.
+    validations: {required: true}
+  - type: textarea
+    id: claim
+    attributes:
+      label: Proposed record and user value
+      description: State the narrow fact and its use. Do not infer approval, applicability, availability, or endorsement.
+    validations: {required: true}
+  - type: textarea
+    id: geography
+    attributes:
+      label: Geography, jurisdiction, and limitations
+      description: State where the record may apply and what must still be verified.
+    validations: {required: true}
+  - type: textarea
+    id: rights
+    attributes:
+      label: Rights and redistribution
+      description: Identify the license, permission, quotation limit, or why the contribution should link rather than copy.
+    validations: {required: true}
+  - type: textarea
+    id: review
+    attributes:
+      label: Required review
+      description: Identify authority, professional, cultural, religious-content, privacy, security, or rights review.
+    validations: {required: true}
+  - type: checkboxes
+    id: truth
+    attributes:
+      label: Contributor confirmation
+      options:
+        - label: I have not represented a search result or queue entry as a verified fact.
+          required: true
+        - label: I removed personal and private-project information.
+          required: true
+        - label: I have the right to contribute any copied material or asset.
+          required: true

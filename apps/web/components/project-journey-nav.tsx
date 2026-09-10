@@ -32,7 +32,7 @@ export function ProjectJourneyNav({current,context}:{current?:JourneyStage;conte
   const counts=useMemo(()=>Object.fromEntries(workflowStages.map(stage=>[stage,workflowNodes.filter(node=>node.stage===stage&&signals.find(signal=>signal.id===node.id)?.state!=="no-record").length])) as Record<JourneyStage,number>,[signals]);
   const index=current?workflowStages.indexOf(current):-1,next=index>=0?workflowStages[index+1]:undefined,previous=index>0?workflowStages[index-1]:undefined;
   return <nav className="projectJourney" aria-label="Mosque project journey">
-    <div className="journeyContext"><span>PROJECT JOURNEY</span><b>{context||current||"Whole project"}</b><small>Saved activity is not approval or completion.</small></div>
+    <div className="journeyContext"><span>YOUR PROJECT JOURNEY</span><b>{context||current||"Whole project"}</b><small>Started means saved here; it does not mean approved or complete.</small></div>
     <ol>{workflowStages.map((stage,stageIndex)=><li key={stage} data-current={stage===current} data-past={stageIndex<index}><Link href={stageRoutes[stage]} aria-current={stage===current?"step":undefined}><i>{stageIndex+1}</i><span>{stageShort[stage]}</span><small>{counts[stage]} started</small></Link></li>)}</ol>
     <div className="journeyActions">{previous?<Link href={stageRoutes[previous]} aria-label={`Previous stage: ${previous}`}>← <span>{stageShort[previous]}</span></Link>:<span/>}{next?<Link href={stageRoutes[next]} aria-label={`Next stage: ${next}`}><span>{stageShort[next]}</span> →</Link>:<Link href="/my-project">Project overview →</Link>}</div>
   </nav>
