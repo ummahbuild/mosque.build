@@ -98,12 +98,13 @@ Every implementation issue needs a user outcome, scoped surface, status, depende
 
 - The six-stage project journey is now shared by Design, Permits, Funding, Marketplace, Construction, Operations and My Project.
 - The 100 implemented UX outcomes and remaining review gates are recorded in `73_UNIFIED_PRODUCT_UX_100.md`.
-- Next: progressively mount distant Three.js editors and standardize undo/history across specialist tools.
+- The pattern model now uses a bounded reusable undo/redo history, persists every restored state, clears redo after a branched edit, exposes touch-sized controls and supports standard keyboard shortcuts. Status: `executable` locally; history is session-local and is not a tamper-proof audit record.
+- Next: progressively mount distant Three.js editors and extend the shared history primitive to floor, site and assembly tools with semantic edit grouping.
 
 # Architecture proposal previews
 
 - Every proposal in the architecture delivery plan now resolves to a typed, renderer-neutral component and an interactive Three.js preview. A quick-add action persists that component into the shared mosque design kit, updates both the editable kit and combined scene without a reload, prevents duplicate proposal imports, and preserves source/review context. Status: `executable` locally; geometry remains conceptual and professional/cultural acceptance is not implied.
-- Next: add deliberate placement mode, undo/history, collision feedback, thumbnail caching and component-specific parameter presets before promotion beyond local execution.
+- Next: add deliberate placement mode, collision feedback, thumbnail caching and component-specific parameter presets before promotion beyond local execution. Pattern-model history is now executable; proposal-kit placement history remains open.
 
 # Computational pattern expansion
 
