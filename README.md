@@ -192,6 +192,9 @@ Read [AGENTS.md](AGENTS.md), [Security](SECURITY.md), and [Governance](GOVERNANC
 - [Testing strategy](docs/03_TEST_STRATEGY.md)
 - [Release gates](docs/04_RELEASE_GATES.md)
 - [Next build](docs/NEXT_BUILD.md)
+- [Contributor capacity and partnership roadmap](docs/76_CONTRIBUTOR_CAPACITY_PARTNERSHIPS_100.md)
+- [CAD and BIM authoring development plan](docs/77_CAD_BIM_AUTHORING_DEVELOPMENT_PLAN.md)
+- [Semantic CAD authoring implementation](docs/78_SEMANTIC_CAD_AUTHORING_100.md)
 - [Marketing library](marketing/README.md)
 
 ## Contributing

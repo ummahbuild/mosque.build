@@ -1,5 +1,13 @@
 # What to build next
 
+## Latest executable slice: semantic CAD authoring
+
+The Design workspace now contains a renderer-neutral CAD document with walls, hosted openings and spaces; preview/commit/cancel transactions; blocking geometry validation; committed revision undo/redo; an accessible plan; and associative wall/opening/space schedules. See [`78_SEMANTIC_CAD_AUTHORING_100.md`](./78_SEMANTIC_CAD_AUTHORING_100.md). It is a bounded conceptual slice, not construction-ready CAD/BIM, code analysis or IFC exchange.
+
+## Latest specified expansion: CAD + BIM authoring
+
+The next authoring architecture combines fast direct manipulation, typed building and mosque-specific objects, constraints, reusable modules, associative plans/sections/schedules, options, renovation phases, multidisciplinary coordination and validated open exchange. The 100-feature plan and a narrow first executable slice are defined in [`77_CAD_BIM_AUTHORING_DEVELOPMENT_PLAN.md`](./77_CAD_BIM_AUTHORING_DEVELOPMENT_PLAN.md). These are specified capabilities, not construction-ready BIM or implemented IFC exchange.
+
 ## Latest executable slice: qibla-wall performance kit
 
 The Design workspace now coordinates five mihrab studies and five minbar studies with bounded geometry, conceptual daylight slots, a step-free approach zone, sacred-content lifecycle, acoustic/daylight/access/structure/material/community evidence fields, maintenance planning, deterministic review gaps and a Three.js preview generated from renderer-neutral primitives. The record joins project export, the connected workflow and the Project Action Desk. It does not calculate acoustic or daylight performance, establish accessibility compliance, approve religious content or provide construction geometry. See `docs/72_MODERN_PERFORMANCE_ARCHITECTURE_PLAN.md`.

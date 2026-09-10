@@ -1,0 +1,5 @@
+import test from"node:test";import assert from"node:assert/strict";import fs from"node:fs";
+const plan=fs.readFileSync(new URL("../docs/77_CAD_BIM_AUTHORING_DEVELOPMENT_PLAN.md",import.meta.url),"utf8");
+test("CAD BIM development plan contains exactly 100 ordered capabilities",()=>{const backlog=plan.split("## 100-feature delivery backlog")[1].split("## Delivery sequence")[0],numbers=[...backlog.matchAll(/^(\d+)\. /gm)].map(x=>Number(x[1]));assert.deepEqual(numbers,Array.from({length:100},(_,i)=>i+1))});
+test("plan protects renderer neutrality open exchange and review gates",()=>{for(const phrase of["renderer-neutral","preview → commit/cancel","IFC","glTF/GLB","RLS","professional review","does not make","stable IDs"])assert.ok(plan.toLowerCase().includes(phrase.toLowerCase()),phrase);assert.doesNotMatch(plan,/construction-ready BIM|guaranteed IFC|automatic code compliance/i)});
+test("research references use official primary documentation",()=>{for(const domain of["support.ptc.com","help.autodesk.com","help.graphisoft.com","standards.buildingsmart.org"])assert.match(plan,new RegExp(domain.replaceAll(".","\\.")));assert.match(plan,/Observed 2026-09-10/)});

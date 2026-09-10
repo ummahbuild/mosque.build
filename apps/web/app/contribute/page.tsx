@@ -2,6 +2,7 @@ import type {Metadata} from "next";
 import Link from "next/link";
 import {SiteFooter} from "@/components/site-footer";
 import {SiteHeader} from "@/components/site-header";
+import {ContributorCapacityWorkspace} from "@/components/contributor-capacity-workspace";
 import "./contribute.css";
 
 export const metadata:Metadata={
@@ -48,7 +49,9 @@ export default function ContributePage(){return <><SiteHeader/><main className="
     <aside><span>START HERE</span><h2>A good first contribution is small, verifiable, and useful.</h2><p>Fix one accessible interaction. Clarify one guide. Test one workflow. Review one source record. Document one professional boundary.</p><a href={`${github}/issues`} target="_blank" rel="noopener noreferrer">Browse open issues →</a></aside>
   </section>
 
-  <nav className="contributeJump" aria-label="Contributing page sections"><a href="#ways-to-help">Ways to help</a><a href="#contribution-path">Contribution path</a><a href="#standards">Project standards</a><a href="#verification">Verification</a><a href="#join">Join the community</a></nav>
+  <nav className="contributeJump" aria-label="Contributing page sections"><a href="#capacity-planner-title">Plan capacity</a><a href="#ways-to-help">Ways to help</a><a href="#contribution-path">Contribution path</a><a href="#standards">Project standards</a><a href="#verification">Verification</a><a href="#join">Join the community</a></nav>
+
+  <div className="section"><ContributorCapacityWorkspace/></div>
 
   <section className="section contributeIntro" id="ways-to-help"><div><div className="eyebrow dark">EVERY DISCIPLINE HELPS</div><h2>There is more than one way to contribute.</h2><p className="sectionLead">You do not need to be an architect or developer. mosque.build needs careful questions, usable interfaces, trustworthy sources, robust tests, and professional review.</p></div><div className="contributeRoleGrid">{roles.map(([title,body])=><article key={title}><h3>{title}</h3><p>{body}</p></article>)}</div></section>
 
