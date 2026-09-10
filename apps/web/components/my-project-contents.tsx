@@ -8,18 +8,19 @@ const allKeys=projectSections.map(item=>item.key);
 const groups:{label:string;items:ContentsItem[]}[]=[
   {label:"Start here",items:[
     {id:"project-action-plan",number:"01",label:"First action plan",description:"Brief-led next actions",keys:["mosque-build.project-draft.v2","mosque-build.project-progress.v1"]},
-    {id:"connected-project-map",number:"02",label:"Connected project map",description:"Dependencies and next moves",keys:allKeys},
+    {id:"project-action-desk",number:"02",label:"Project action desk",description:"Roles, dates, blockers and review targets",keys:["mosque-build.project-action-plan.v1"]},
+    {id:"connected-project-map",number:"03",label:"Connected project map",description:"Dependencies and next moves",keys:allKeys},
   ]},
   {label:"Plan and coordinate",items:[
-    {id:"project-controls",number:"03",label:"Project controls",description:"Options, permits, budget and progress",keys:["mosque-build.control-center.v1"]},
-    {id:"project-planning",number:"04",label:"Planning workspace",description:"Roadmap, lookahead and responsibilities",keys:["mosque-build.project-planning.v1"]},
-    {id:"project-schedule",number:"05",label:"Integrated schedule",description:"Dates, dependencies and evidence",keys:["mosque-build.project-schedule.v1"]},
+    {id:"project-controls",number:"04",label:"Project controls",description:"Options, permits, budget and progress",keys:["mosque-build.control-center.v1"]},
+    {id:"project-planning",number:"05",label:"Planning workspace",description:"Roadmap, lookahead and responsibilities",keys:["mosque-build.project-planning.v1"]},
+    {id:"project-schedule",number:"06",label:"Integrated schedule",description:"Dates, dependencies and evidence",keys:["mosque-build.project-schedule.v1"]},
   ]},
   {label:"Evidence and handoff",items:[
-    {id:"project-shura",number:"06",label:"Community decisions",description:"Alternatives, voices and review history",keys:["mosque-build.shura-workspace.v1"]},
-    {id:"project-records",number:"07",label:"Decision and evidence register",description:"Owned records and review state",keys:["mosque-build.project-records.v1"]},
-    {id:"project-lifecycle",number:"08",label:"Lifecycle checklist",description:"Preparation prompts by stage",keys:["mosque-build.process-progress.v1"]},
-    {id:"project-data",number:"09",label:"Backup and handoff",description:"Export or restore local work",keys:allKeys},
+    {id:"project-shura",number:"07",label:"Community decisions",description:"Alternatives, voices and review history",keys:["mosque-build.shura-workspace.v1"]},
+    {id:"project-records",number:"08",label:"Decision and evidence register",description:"Owned records and review state",keys:["mosque-build.project-records.v1"]},
+    {id:"project-lifecycle",number:"09",label:"Lifecycle checklist",description:"Preparation prompts by stage",keys:["mosque-build.process-progress.v1"]},
+    {id:"project-data",number:"10",label:"Backup and handoff",description:"Export or restore local work",keys:allKeys},
   ]},
 ];
 const items=groups.flatMap(group=>group.items);

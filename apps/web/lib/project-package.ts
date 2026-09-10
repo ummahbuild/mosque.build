@@ -74,6 +74,9 @@ export const projectSections = [
   ,{id:"projectIntegrity", label:"Integrity, capability and value controls", key:"mosque-build.project-integrity.v1"}
   ,{id:"architectureFeaturePlan", label:"Architecture feature delivery plan", key:"mosque-build.architecture-feature-plan.v1"}
   ,{id:"siteContextAnalysis", label:"Qibla, terrain and flood analysis", key:"mosque-build.site-context-analysis.v1"}
+  ,{id:"projectActionPlan", label:"Connected project action plan", key:"mosque-build.project-action-plan.v1"}
+  ,{id:"costControlIntegration", label:"Cost-control coordination packet", key:"mosque-build.cost-control-integration.v1"}
+  ,{id:"costOptionComparison", label:"Baseline and alternative cost comparisons", key:"mosque-build.cost-option-comparison.v1"}
 ] as const;
 
 export type ProjectSectionId = typeof projectSections[number]["id"];

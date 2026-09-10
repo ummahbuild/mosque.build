@@ -1,5 +1,17 @@
 # What to build next
 
+## Latest integrated feature source: modern performance architecture
+
+The Architecture Delivery Plan now combines the original 100 proposals with 100 additional performance-driven concepts covering sacred-core elements, functional minarets and domes, adaptive envelopes and courtyards, long-span structures, prayer-time light, climate systems, inclusive floors and generative governance. The new `MODERN-001`–`MODERN-100` records begin at `concept`, retain source/rights/review metadata and share the existing project priority, evidence, testing and export workflow. See `docs/72_MODERN_PERFORMANCE_ARCHITECTURE_PLAN.md` for ten executable slices and 30 adjacent features.
+
+## Latest executable slice: cost-control coordination
+
+All 100 user-supplied cost strategies now connect to category-specific design, quantity/cost, procurement, schedule, construction and operations requirements. Applicable rules expose missing linked records, accountable review roles, coordination questions, a portable project packet and a requirements-led sourcing handoff. The source CSV matches the canonical JSON exactly; its redistribution rights and professional review remain open. See `docs/71_COST_CONTROL_INTEGRATION_PLAN.md` for the implemented slice and 60 adjacent specified features. The system does not predict savings or invent prices.
+
+## Latest executable slice: connected project action desk
+
+The My Project workspace now converts every connected module into an accountable action view with dependency and freshness signals, deterministic attention ordering, role/date/priority/state decisions, definition-of-ready gaps, search and stage filters, local persistence and bounded export. See `docs/70_CONNECTED_PROJECT_ACTIONS_100.md`. Closure remains a user record—not proof of completion or approval. Authenticated collaboration, RLS, immutable history, notifications, attachments and signed review remain future work.
+
 ## Latest executable slice: qibla, terrain and flood context
 
 The Design workspace now records qibla confidence bounds, anonymous local-datum terrain samples and source-linked flood zones; derives transparent slope, level and evidence checks; and renders terrain, flood and three-ray qibla overlays in the shared site model. See `docs/69_SITE_CONTEXT_ANALYSIS_100.md`. Interpolated surfaces, calibrated hydrology, official connectors, cut/fill design and professional acceptance remain future work.

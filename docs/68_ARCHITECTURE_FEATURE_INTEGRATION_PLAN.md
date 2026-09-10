@@ -2,11 +2,11 @@
 
 ## Outcome
 
-Integrate the supplied 100-feature architecture brief as a traceable delivery system, not a list of implied capabilities. The source is preserved in `apps/web/data/architecture-feature-plan.json`; every proposal retains its supplied identifier, category, intended outcome, renderer adapter concept and a provenance record dated 2026-09-10.
+Integrate both supplied 100-feature architecture briefs as a traceable 200-proposal delivery system, not a list of implied capabilities. The sources are preserved in `apps/web/data/architecture-feature-plan.json` and `apps/web/data/modern-architecture-feature-plan.json`; every proposal retains a stable identifier, category, intended outcome, renderer-adapter concept and provenance dated 2026-09-10.
 
 ## Product integration delivered
 
-- A searchable and filterable 100-feature planner in the Design workspace.
+- A searchable and filterable 200-feature planner in the Design workspace, with core and modern-performance collection filters.
 - Project selection with `now`, `next` and `later` priorities.
 - Independent delivery status using `concept | specified | scaffolded | executable | source_backed | beta | production_ready`.
 - Accountable role, evidence/issue reference and acceptance-note fields.

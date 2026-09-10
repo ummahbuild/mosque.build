@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "MODERN-001",
+    "number": 101,
+    "source_number": 1,
+    "category": "Sacred Core",
+    "feature": "Parametric qibla wall",
+    "what_it_adds": "generated from room geometry, daylight, acoustics, and ornament density rather than as a flat backdrop.",
+    "threejs_integration": "parametric_qibla_wall",
+    "threejs_implementation": "Create a renderer adapter for the portable parametric_qibla_wall study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-002",
+    "number": 102,
+    "source_number": 2,
+    "category": "Sacred Core",
+    "feature": "Light-slot mihrab",
+    "what_it_adds": "mihrab formed by concealed daylight rather than heavy ornament.",
+    "threejs_integration": "light_slot_mihrab",
+    "threejs_implementation": "Create a renderer adapter for the portable light_slot_mihrab study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-003",
+    "number": 103,
+    "source_number": 3,
+    "category": "Sacred Core",
+    "feature": "Floating mihrab volume",
+    "what_it_adds": "freestanding or recessed sculptural qibla marker separated from surrounding wall.",
+    "threejs_integration": "floating_mihrab_volume",
+    "threejs_implementation": "Create a renderer adapter for the portable floating_mihrab_volume study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-004",
+    "number": 104,
+    "source_number": 4,
+    "category": "Sacred Core",
+    "feature": "Backlit calligraphic wall",
+    "what_it_adds": "perforated or translucent verified calligraphy with controlled LED backlighting.",
+    "threejs_integration": "backlit_calligraphic_wall",
+    "threejs_implementation": "Create a renderer adapter for the portable backlit_calligraphic_wall study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-005",
+    "number": 105,
+    "source_number": 5,
+    "category": "Sacred Core",
+    "feature": "Minimal monolithic mihrab",
+    "what_it_adds": "carved concrete, stone, rammed earth, or plaster with almost no applied decoration.",
+    "threejs_integration": "minimal_monolithic_mihrab",
+    "threejs_implementation": "Create a renderer adapter for the portable minimal_monolithic_mihrab study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-006",
+    "number": 106,
+    "source_number": 6,
+    "category": "Sacred Core",
+    "feature": "Acoustic mihrab geometry",
+    "what_it_adds": "niche shaped to support speech clarity rather than merely historical appearance.",
+    "threejs_integration": "acoustic_mihrab_geometry",
+    "threejs_implementation": "Create a renderer adapter for the portable acoustic_mihrab_geometry study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-007",
+    "number": 107,
+    "source_number": 7,
+    "category": "Sacred Core",
+    "feature": "Parametric muqarnas",
+    "what_it_adds": "computationally generated transition geometry adapted to arbitrary walls, domes, portals, and ceilings.",
+    "threejs_integration": "parametric_muqarnas",
+    "threejs_implementation": "Create a renderer adapter for the portable parametric_muqarnas study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-008",
+    "number": 108,
+    "source_number": 8,
+    "category": "Sacred Core",
+    "feature": "Contemporary folded minbar",
+    "what_it_adds": "minbar generated from folded metal, timber, stone, or engineered panels.",
+    "threejs_integration": "contemporary_folded_minbar",
+    "threejs_implementation": "Create a renderer adapter for the portable contemporary_folded_minbar study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-009",
+    "number": 109,
+    "source_number": 9,
+    "category": "Sacred Core",
+    "feature": "Accessible integrated minbar",
+    "what_it_adds": "khutbah platform designed with step-free alternative access while retaining architectural dignity.",
+    "threejs_integration": "accessible_integrated_minbar",
+    "threejs_implementation": "Create a renderer adapter for the portable accessible_integrated_minbar study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-010",
+    "number": 110,
+    "source_number": 10,
+    "category": "Sacred Core",
+    "feature": "Retractable minbar",
+    "what_it_adds": "integrated floor/wall system that disappears when the prayer hall needs maximum flexibility.",
+    "threejs_integration": "retractable_minbar",
+    "threejs_implementation": "Create a renderer adapter for the portable retractable_minbar study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-011",
+    "number": 111,
+    "source_number": 11,
+    "category": "Minaret Systems",
+    "feature": "Abstract minaret slab",
+    "what_it_adds": "vertical wall or illuminated blade replacing a conventional tower.",
+    "threejs_integration": "abstract_minaret_slab",
+    "threejs_implementation": "Create a renderer adapter for the portable abstract_minaret_slab study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-authority"
+  },
+  {
+    "id": "MODERN-012",
+    "number": 112,
+    "source_number": 12,
+    "category": "Minaret Systems",
+    "feature": "Perforated minaret",
+    "what_it_adds": "minaret functioning as daylight lantern and ventilation chimney.",
+    "threejs_integration": "perforated_minaret",
+    "threejs_implementation": "Create a renderer adapter for the portable perforated_minaret study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-authority"
+  },
+  {
+    "id": "MODERN-013",
+    "number": 113,
+    "source_number": 13,
+    "category": "Minaret Systems",
+    "feature": "Solar minaret",
+    "what_it_adds": "photovoltaic surfaces integrated into minaret geometry.",
+    "threejs_integration": "solar_minaret",
+    "threejs_implementation": "Create a renderer adapter for the portable solar_minaret study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-authority"
+  },
+  {
+    "id": "MODERN-014",
+    "number": 114,
+    "source_number": 14,
+    "category": "Minaret Systems",
+    "feature": "Wind-catching minaret",
+    "what_it_adds": "tower doubles as natural ventilation stack.",
+    "threejs_integration": "wind_catching_minaret",
+    "threejs_implementation": "Create a renderer adapter for the portable wind_catching_minaret study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-authority"
+  },
+  {
+    "id": "MODERN-015",
+    "number": 115,
+    "source_number": 15,
+    "category": "Minaret Systems",
+    "feature": "Water-tower minaret",
+    "what_it_adds": "symbolic tower conceals functional water storage where structurally appropriate.",
+    "threejs_integration": "water_tower_minaret",
+    "threejs_implementation": "Create a renderer adapter for the portable water_tower_minaret study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-authority"
+  },
+  {
+    "id": "MODERN-016",
+    "number": 116,
+    "source_number": 16,
+    "category": "Minaret Systems",
+    "feature": "Digital-light minaret",
+    "what_it_adds": "programmable low-glare lighting conveys prayer-time states without oversized signage.",
+    "threejs_integration": "digital_light_minaret",
+    "threejs_implementation": "Create a renderer adapter for the portable digital_light_minaret study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-authority"
+  },
+  {
+    "id": "MODERN-017",
+    "number": 117,
+    "source_number": 17,
+    "category": "Minaret Systems",
+    "feature": "Acoustic-only minaret",
+    "what_it_adds": "minimal tower designed primarily around externally mounted loudspeaker coverage.",
+    "threejs_integration": "acoustic_only_minaret",
+    "threejs_implementation": "Create a renderer adapter for the portable acoustic_only_minaret study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-authority"
+  },
+  {
+    "id": "MODERN-018",
+    "number": 118,
+    "source_number": 18,
+    "category": "Minaret Systems",
+    "feature": "Courtyard-integrated minaret",
+    "what_it_adds": "tower emerges from colonnade or garden rather than façade corner.",
+    "threejs_integration": "courtyard_integrated_minaret",
+    "threejs_implementation": "Create a renderer adapter for the portable courtyard_integrated_minaret study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-authority"
+  },
+  {
+    "id": "MODERN-019",
+    "number": 119,
+    "source_number": 19,
+    "category": "Minaret Systems",
+    "feature": "Minaret without balcony",
+    "what_it_adds": "clean contemporary shaft eliminating unused historic balcony elements.",
+    "threejs_integration": "minaret_without_balcony",
+    "threejs_implementation": "Create a renderer adapter for the portable minaret_without_balcony study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-authority"
+  },
+  {
+    "id": "MODERN-020",
+    "number": 120,
+    "source_number": 20,
+    "category": "Minaret Systems",
+    "feature": "Zero-minaret mosque mode",
+    "what_it_adds": "architectural identity comes from qibla orientation, roof, courtyard, material, and light.",
+    "threejs_integration": "zero_minaret_mosque_mode",
+    "threejs_implementation": "Create a renderer adapter for the portable zero_minaret_mosque_mode study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-authority"
+  },
+  {
+    "id": "MODERN-021",
+    "number": 121,
+    "source_number": 21,
+    "category": "Roof & Dome",
+    "feature": "Parametric lightweight dome",
+    "what_it_adds": "steel, timber, ETFE, GFRC, or composite dome optimized by span and weight.",
+    "threejs_integration": "parametric_lightweight_dome",
+    "threejs_implementation": "Create a renderer adapter for the portable parametric_lightweight_dome study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-022",
+    "number": 122,
+    "source_number": 22,
+    "category": "Roof & Dome",
+    "feature": "Daylight dome",
+    "what_it_adds": "perforations or skylight rings turn the dome into a luminous ceiling.",
+    "threejs_integration": "daylight_dome",
+    "threejs_implementation": "Create a renderer adapter for the portable daylight_dome study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-023",
+    "number": 123,
+    "source_number": 23,
+    "category": "Roof & Dome",
+    "feature": "Double-skin climate dome",
+    "what_it_adds": "ventilated outer skin controls heat while inner shell defines prayer space.",
+    "threejs_integration": "double_skin_climate_dome",
+    "threejs_implementation": "Create a renderer adapter for the portable double_skin_climate_dome study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-024",
+    "number": 124,
+    "source_number": 24,
+    "category": "Roof & Dome",
+    "feature": "Solar-panel dome",
+    "what_it_adds": "photovoltaic shingles or integrated solar surfaces follow dome geometry.",
+    "threejs_integration": "solar_panel_dome",
+    "threejs_implementation": "Create a renderer adapter for the portable solar_panel_dome study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-025",
+    "number": 125,
+    "source_number": 25,
+    "category": "Roof & Dome",
+    "feature": "Acoustic dome liner",
+    "what_it_adds": "concealed absorptive inner layer reduces excessive reverberation.",
+    "threejs_integration": "acoustic_dome_liner",
+    "threejs_implementation": "Create a renderer adapter for the portable acoustic_dome_liner study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-026",
+    "number": 126,
+    "source_number": 26,
+    "category": "Roof & Dome",
+    "feature": "Operable dome oculus",
+    "what_it_adds": "apex opening supports stack ventilation.",
+    "threejs_integration": "operable_dome_oculus",
+    "threejs_implementation": "Create a renderer adapter for the portable operable_dome_oculus study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-027",
+    "number": 127,
+    "source_number": 27,
+    "category": "Roof & Dome",
+    "feature": "Tension-ring dome",
+    "what_it_adds": "visually light modern dome supported by optimized perimeter ring.",
+    "threejs_integration": "tension_ring_dome",
+    "threejs_implementation": "Create a renderer adapter for the portable tension_ring_dome study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-028",
+    "number": 128,
+    "source_number": 28,
+    "category": "Roof & Dome",
+    "feature": "Rib-only dome",
+    "what_it_adds": "dome expressed as structural ribs with glazing or lightweight infill.",
+    "threejs_integration": "rib_only_dome",
+    "threejs_implementation": "Create a renderer adapter for the portable rib_only_dome study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-029",
+    "number": 129,
+    "source_number": 29,
+    "category": "Roof & Dome",
+    "feature": "Fragmented dome",
+    "what_it_adds": "recognizable Islamic dome silhouette formed from separated shells or petals.",
+    "threejs_integration": "fragmented_dome",
+    "threejs_implementation": "Create a renderer adapter for the portable fragmented_dome study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-030",
+    "number": 130,
+    "source_number": 30,
+    "category": "Roof & Dome",
+    "feature": "No-dome landmark mosque",
+    "what_it_adds": "roof geometry, daylight, landscape, or structure carries identity instead.",
+    "threejs_integration": "no_dome_landmark_mosque",
+    "threejs_implementation": "Create a renderer adapter for the portable no_dome_landmark_mosque study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-031",
+    "number": 131,
+    "source_number": 31,
+    "category": "Adaptive Envelope",
+    "feature": "Solar-responsive mashrabiya façade",
+    "what_it_adds": "perforation density changes based on orientation and heat gain.",
+    "threejs_integration": "solar_responsive_mashrabiya_fa_ade",
+    "threejs_implementation": "Create a renderer adapter for the portable solar_responsive_mashrabiya_fa_ade study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-032",
+    "number": 132,
+    "source_number": 32,
+    "category": "Adaptive Envelope",
+    "feature": "Operable mashrabiya panels",
+    "what_it_adds": "screens physically rotate or slide in response to sun and privacy.",
+    "threejs_integration": "operable_mashrabiya_panels",
+    "threejs_implementation": "Create a renderer adapter for the portable operable_mashrabiya_panels study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-033",
+    "number": 133,
+    "source_number": 33,
+    "category": "Adaptive Envelope",
+    "feature": "Kinetic geometric façade",
+    "what_it_adds": "repeating Islamic geometry becomes a moving shading system.",
+    "threejs_integration": "kinetic_geometric_fa_ade",
+    "threejs_implementation": "Create a renderer adapter for the portable kinetic_geometric_fa_ade study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-034",
+    "number": 134,
+    "source_number": 34,
+    "category": "Adaptive Envelope",
+    "feature": "Gradient jali",
+    "what_it_adds": "openings transition from dense to open according to daylight needs.",
+    "threejs_integration": "gradient_jali",
+    "threejs_implementation": "Create a renderer adapter for the portable gradient_jali study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-035",
+    "number": 135,
+    "source_number": 35,
+    "category": "Adaptive Envelope",
+    "feature": "Structural ornament façade",
+    "what_it_adds": "geometric lattice actually carries loads rather than being applied decoration.",
+    "threejs_integration": "structural_ornament_fa_ade",
+    "threejs_implementation": "Create a renderer adapter for the portable structural_ornament_fa_ade study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-036",
+    "number": 136,
+    "source_number": 36,
+    "category": "Adaptive Envelope",
+    "feature": "3D-printed screen modules",
+    "what_it_adds": "optimized repetitive modules manufactured locally.",
+    "threejs_integration": "3d_printed_screen_modules",
+    "threejs_implementation": "Create a renderer adapter for the portable 3d_printed_screen_modules study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-037",
+    "number": 137,
+    "source_number": 37,
+    "category": "Adaptive Envelope",
+    "feature": "GFRC Islamic screen system",
+    "what_it_adds": "lightweight large-format geometric panels.",
+    "threejs_integration": "gfrc_islamic_screen_system",
+    "threejs_implementation": "Create a renderer adapter for the portable gfrc_islamic_screen_system study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-038",
+    "number": 138,
+    "source_number": 38,
+    "category": "Adaptive Envelope",
+    "feature": "CNC timber mashrabiya",
+    "what_it_adds": "modular wood screens for warm interior/exterior transitions.",
+    "threejs_integration": "cnc_timber_mashrabiya",
+    "threejs_implementation": "Create a renderer adapter for the portable cnc_timber_mashrabiya study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-039",
+    "number": 139,
+    "source_number": 39,
+    "category": "Adaptive Envelope",
+    "feature": "Perforated recycled-aluminum façade",
+    "what_it_adds": "durable lightweight reinterpretation of traditional screens.",
+    "threejs_integration": "perforated_recycled_aluminum_fa_ade",
+    "threejs_implementation": "Create a renderer adapter for the portable perforated_recycled_aluminum_fa_ade study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-040",
+    "number": 140,
+    "source_number": 40,
+    "category": "Adaptive Envelope",
+    "feature": "Ceramic rainscreen geometry",
+    "what_it_adds": "Islamic-pattern logic expressed through actual façade panel layout.",
+    "threejs_integration": "ceramic_rainscreen_geometry",
+    "threejs_implementation": "Create a renderer adapter for the portable ceramic_rainscreen_geometry study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-041",
+    "number": 141,
+    "source_number": 41,
+    "category": "Courtyard & Landscape",
+    "feature": "Contemporary sahn courtyard",
+    "what_it_adds": "flexible civic plaza usable for prayer, teaching, markets, and gatherings.",
+    "threejs_integration": "contemporary_sahn_courtyard",
+    "threejs_implementation": "Create a renderer adapter for the portable contemporary_sahn_courtyard study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-042",
+    "number": 142,
+    "source_number": 42,
+    "category": "Courtyard & Landscape",
+    "feature": "Climate-buffer courtyard",
+    "what_it_adds": "geometry designed to pre-cool incoming air.",
+    "threejs_integration": "climate_buffer_courtyard",
+    "threejs_implementation": "Create a renderer adapter for the portable climate_buffer_courtyard study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-043",
+    "number": 143,
+    "source_number": 43,
+    "category": "Courtyard & Landscape",
+    "feature": "Retractable courtyard canopy",
+    "what_it_adds": "automated shade based on temperature, rain, and solar position.",
+    "threejs_integration": "retractable_courtyard_canopy",
+    "threejs_implementation": "Create a renderer adapter for the portable retractable_courtyard_canopy study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-044",
+    "number": 144,
+    "source_number": 44,
+    "category": "Courtyard & Landscape",
+    "feature": "PV shade canopy",
+    "what_it_adds": "courtyard shading simultaneously generates electricity.",
+    "threejs_integration": "pv_shade_canopy",
+    "threejs_implementation": "Create a renderer adapter for the portable pv_shade_canopy study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-045",
+    "number": 145,
+    "source_number": 45,
+    "category": "Courtyard & Landscape",
+    "feature": "Rainwater courtyard",
+    "what_it_adds": "paving and rills visibly collect and reuse rainwater.",
+    "threejs_integration": "rainwater_courtyard",
+    "threejs_implementation": "Create a renderer adapter for the portable rainwater_courtyard study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-046",
+    "number": 146,
+    "source_number": 46,
+    "category": "Courtyard & Landscape",
+    "feature": "Bioswale courtyard",
+    "what_it_adds": "landscape becomes stormwater infrastructure.",
+    "threejs_integration": "bioswale_courtyard",
+    "threejs_implementation": "Create a renderer adapter for the portable bioswale_courtyard study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-047",
+    "number": 147,
+    "source_number": 47,
+    "category": "Courtyard & Landscape",
+    "feature": "Edible mosque courtyard",
+    "what_it_adds": "fruit trees/herbs integrated with community programming.",
+    "threejs_integration": "edible_mosque_courtyard",
+    "threejs_implementation": "Create a renderer adapter for the portable edible_mosque_courtyard study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-048",
+    "number": 148,
+    "source_number": 48,
+    "category": "Courtyard & Landscape",
+    "feature": "Night-cooled courtyard",
+    "what_it_adds": "thermal mass designed to release heat after sunset.",
+    "threejs_integration": "night_cooled_courtyard",
+    "threejs_implementation": "Create a renderer adapter for the portable night_cooled_courtyard study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-049",
+    "number": 149,
+    "source_number": 49,
+    "category": "Courtyard & Landscape",
+    "feature": "Multi-level courtyard",
+    "what_it_adds": "sunken and elevated zones create quieter and more social areas.",
+    "threejs_integration": "multi_level_courtyard",
+    "threejs_implementation": "Create a renderer adapter for the portable multi_level_courtyard study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-050",
+    "number": 150,
+    "source_number": 50,
+    "category": "Courtyard & Landscape",
+    "feature": "Indoor-outdoor prayer courtyard",
+    "what_it_adds": "operable walls convert prayer hall and sahn into one continuous space.",
+    "threejs_integration": "indoor_outdoor_prayer_courtyard",
+    "threejs_implementation": "Create a renderer adapter for the portable indoor_outdoor_prayer_courtyard study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-051",
+    "number": 151,
+    "source_number": 51,
+    "category": "Structure & Assembly",
+    "feature": "Column-free prayer hall",
+    "what_it_adds": "long-span timber, steel, cable, or shell system protects sightlines.",
+    "threejs_integration": "column_free_prayer_hall",
+    "threejs_implementation": "Create a renderer adapter for the portable column_free_prayer_hall study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-052",
+    "number": 152,
+    "source_number": 52,
+    "category": "Structure & Assembly",
+    "feature": "Glulam prayer hall",
+    "what_it_adds": "expressed timber structure provides warmth and carbon reduction.",
+    "threejs_integration": "glulam_prayer_hall",
+    "threejs_implementation": "Create a renderer adapter for the portable glulam_prayer_hall study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-053",
+    "number": 153,
+    "source_number": 53,
+    "category": "Structure & Assembly",
+    "feature": "Mass-timber mosque",
+    "what_it_adds": "CLT/glulam system for rapid construction and lower embodied carbon.",
+    "threejs_integration": "mass_timber_mosque",
+    "threejs_implementation": "Create a renderer adapter for the portable mass_timber_mosque study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-054",
+    "number": 154,
+    "source_number": 54,
+    "category": "Structure & Assembly",
+    "feature": "Hybrid timber-steel mosque",
+    "what_it_adds": "timber visual character with optimized structural steel.",
+    "threejs_integration": "hybrid_timber_steel_mosque",
+    "threejs_implementation": "Create a renderer adapter for the portable hybrid_timber_steel_mosque study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-055",
+    "number": 155,
+    "source_number": 55,
+    "category": "Structure & Assembly",
+    "feature": "Shell-structure prayer hall",
+    "what_it_adds": "roof and walls work as one continuous structural surface.",
+    "threejs_integration": "shell_structure_prayer_hall",
+    "threejs_implementation": "Create a renderer adapter for the portable shell_structure_prayer_hall study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-056",
+    "number": 156,
+    "source_number": 56,
+    "category": "Structure & Assembly",
+    "feature": "Folded-plate roof",
+    "what_it_adds": "geometric roof creates identity without a conventional dome.",
+    "threejs_integration": "folded_plate_roof",
+    "threejs_implementation": "Create a renderer adapter for the portable folded_plate_roof study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-057",
+    "number": 157,
+    "source_number": 57,
+    "category": "Structure & Assembly",
+    "feature": "Space-frame prayer hall",
+    "what_it_adds": "long span with integrated lighting/acoustic panels.",
+    "threejs_integration": "space_frame_prayer_hall",
+    "threejs_implementation": "Create a renderer adapter for the portable space_frame_prayer_hall study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-058",
+    "number": 158,
+    "source_number": 58,
+    "category": "Structure & Assembly",
+    "feature": "Tensile mosque roof",
+    "what_it_adds": "lightweight fabric/PTFE/ETFE spans large gathering spaces.",
+    "threejs_integration": "tensile_mosque_roof",
+    "threejs_implementation": "Create a renderer adapter for the portable tensile_mosque_roof study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-059",
+    "number": 159,
+    "source_number": 59,
+    "category": "Structure & Assembly",
+    "feature": "Modular prefabricated mosque",
+    "what_it_adds": "expandable structural bays assembled rapidly.",
+    "threejs_integration": "modular_prefabricated_mosque",
+    "threejs_implementation": "Create a renderer adapter for the portable modular_prefabricated_mosque study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-060",
+    "number": 160,
+    "source_number": 60,
+    "category": "Structure & Assembly",
+    "feature": "Disassemblable mosque",
+    "what_it_adds": "bolted systems designed for relocation or reuse.",
+    "threejs_integration": "disassemblable_mosque",
+    "threejs_implementation": "Create a renderer adapter for the portable disassemblable_mosque study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-061",
+    "number": 161,
+    "source_number": 61,
+    "category": "Prayer-time Light",
+    "feature": "Qibla-oriented skylight",
+    "what_it_adds": "sunlight emphasizes direction rather than ornament alone.",
+    "threejs_integration": "qibla_oriented_skylight",
+    "threejs_implementation": "Create a renderer adapter for the portable qibla_oriented_skylight study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-062",
+    "number": 162,
+    "source_number": 62,
+    "category": "Prayer-time Light",
+    "feature": "Prayer-time daylight choreography",
+    "what_it_adds": "architecture creates different light conditions around Fajr, Dhuhr, Asr, Maghrib.",
+    "threejs_integration": "prayer_time_daylight_choreography",
+    "threejs_implementation": "Create a renderer adapter for the portable prayer_time_daylight_choreography study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-063",
+    "number": 163,
+    "source_number": 63,
+    "category": "Prayer-time Light",
+    "feature": "Geometric shadow ceiling",
+    "what_it_adds": "perforated roof casts Islamic geometric patterns over time.",
+    "threejs_integration": "geometric_shadow_ceiling",
+    "threejs_implementation": "Create a renderer adapter for the portable geometric_shadow_ceiling study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-064",
+    "number": 164,
+    "source_number": 64,
+    "category": "Prayer-time Light",
+    "feature": "Diffuse daylight ceiling",
+    "what_it_adds": "translucent membrane creates shadowless prayer illumination.",
+    "threejs_integration": "diffuse_daylight_ceiling",
+    "threejs_implementation": "Create a renderer adapter for the portable diffuse_daylight_ceiling study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-065",
+    "number": 165,
+    "source_number": 65,
+    "category": "Prayer-time Light",
+    "feature": "Circadian prayer lighting",
+    "what_it_adds": "artificial light changes temperature and brightness with time of day.",
+    "threejs_integration": "circadian_prayer_lighting",
+    "threejs_implementation": "Create a renderer adapter for the portable circadian_prayer_lighting study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-066",
+    "number": 166,
+    "source_number": 66,
+    "category": "Prayer-time Light",
+    "feature": "Low-light tahajjud mode",
+    "what_it_adds": "discreet pathway and qibla illumination for night worship.",
+    "threejs_integration": "low_light_tahajjud_mode",
+    "threejs_implementation": "Create a renderer adapter for the portable low_light_tahajjud_mode study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-067",
+    "number": 167,
+    "source_number": 67,
+    "category": "Prayer-time Light",
+    "feature": "Dynamic Ramadan lighting",
+    "what_it_adds": "programmed scenes for iftar, Taraweeh, qiyam, and cleaning.",
+    "threejs_integration": "dynamic_ramadan_lighting",
+    "threejs_implementation": "Create a renderer adapter for the portable dynamic_ramadan_lighting study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-068",
+    "number": 168,
+    "source_number": 68,
+    "category": "Prayer-time Light",
+    "feature": "Zero-screen prayer mode",
+    "what_it_adds": "digital displays disappear or dim once salah begins.",
+    "threejs_integration": "zero_screen_prayer_mode",
+    "threejs_implementation": "Create a renderer adapter for the portable zero_screen_prayer_mode study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-069",
+    "number": 169,
+    "source_number": 69,
+    "category": "Prayer-time Light",
+    "feature": "Integrated emergency-light architecture",
+    "what_it_adds": "emergency systems concealed inside normal lighting language.",
+    "threejs_integration": "integrated_emergency_light_architecture",
+    "threejs_implementation": "Create a renderer adapter for the portable integrated_emergency_light_architecture study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-070",
+    "number": 170,
+    "source_number": 70,
+    "category": "Prayer-time Light",
+    "feature": "Light-pollution-controlled minaret/façade",
+    "what_it_adds": "upward spill and neighbor impact minimized.",
+    "threejs_integration": "light_pollution_controlled_minaret_fa_ade",
+    "threejs_implementation": "Create a renderer adapter for the portable light_pollution_controlled_minaret_fa_ade study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-071",
+    "number": 171,
+    "source_number": 71,
+    "category": "Climate & Building Systems",
+    "feature": "Climate-adaptive prayer hall",
+    "what_it_adds": "automatically switches between natural ventilation and mechanical cooling.",
+    "threejs_integration": "climate_adaptive_prayer_hall",
+    "threejs_implementation": "Create a renderer adapter for the portable climate_adaptive_prayer_hall study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-072",
+    "number": 172,
+    "source_number": 72,
+    "category": "Climate & Building Systems",
+    "feature": "Stack ventilation through dome/minaret",
+    "what_it_adds": "traditional vertical forms gain real environmental function.",
+    "threejs_integration": "stack_ventilation_through_dome_minaret",
+    "threejs_implementation": "Create a renderer adapter for the portable stack_ventilation_through_dome_minaret study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-073",
+    "number": 173,
+    "source_number": 73,
+    "category": "Climate & Building Systems",
+    "feature": "Underfloor displacement ventilation",
+    "what_it_adds": "quiet low-level air distribution appropriate for large prayer halls.",
+    "threejs_integration": "underfloor_displacement_ventilation",
+    "threejs_implementation": "Create a renderer adapter for the portable underfloor_displacement_ventilation study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-074",
+    "number": 174,
+    "source_number": 74,
+    "category": "Climate & Building Systems",
+    "feature": "Radiant floor conditioning",
+    "what_it_adds": "comfort close to worshippers without excessive air movement.",
+    "threejs_integration": "radiant_floor_conditioning",
+    "threejs_implementation": "Create a renderer adapter for the portable radiant_floor_conditioning study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-075",
+    "number": 175,
+    "source_number": 75,
+    "category": "Climate & Building Systems",
+    "feature": "High-volume low-speed fans",
+    "what_it_adds": "efficient airflow for large halls.",
+    "threejs_integration": "high_volume_low_speed_fans",
+    "threejs_implementation": "Create a renderer adapter for the portable high_volume_low_speed_fans study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-076",
+    "number": 176,
+    "source_number": 76,
+    "category": "Climate & Building Systems",
+    "feature": "Night purge ventilation",
+    "what_it_adds": "cools thermal mass after evening temperatures drop.",
+    "threejs_integration": "night_purge_ventilation",
+    "threejs_implementation": "Create a renderer adapter for the portable night_purge_ventilation study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-077",
+    "number": 177,
+    "source_number": 77,
+    "category": "Climate & Building Systems",
+    "feature": "Earth-coupled cooling",
+    "what_it_adds": "buried ducts or geothermal strategies reduce cooling load where viable.",
+    "threejs_integration": "earth_coupled_cooling",
+    "threejs_implementation": "Create a renderer adapter for the portable earth_coupled_cooling study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-078",
+    "number": 178,
+    "source_number": 78,
+    "category": "Climate & Building Systems",
+    "feature": "Evaporative courtyard cooling",
+    "what_it_adds": "carefully controlled water and shade improve dry-climate comfort.",
+    "threejs_integration": "evaporative_courtyard_cooling",
+    "threejs_implementation": "Create a renderer adapter for the portable evaporative_courtyard_cooling study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-079",
+    "number": 179,
+    "source_number": 79,
+    "category": "Climate & Building Systems",
+    "feature": "Solar chimney architecture",
+    "what_it_adds": "tall sculptural element exhausts hot air naturally.",
+    "threejs_integration": "solar_chimney_architecture",
+    "threejs_implementation": "Create a renderer adapter for the portable solar_chimney_architecture study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-080",
+    "number": 180,
+    "source_number": 80,
+    "category": "Climate & Building Systems",
+    "feature": "Adaptive thermal zoning",
+    "what_it_adds": "Jumu’ah, daily prayer, classroom, and Ramadan modes condition only needed areas.",
+    "threejs_integration": "adaptive_thermal_zoning",
+    "threejs_implementation": "Create a renderer adapter for the portable adaptive_thermal_zoning study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "professional"
+  },
+  {
+    "id": "MODERN-081",
+    "number": 181,
+    "source_number": 81,
+    "category": "Prayer Floor & Services",
+    "feature": "Integrated prayer-row flooring",
+    "what_it_adds": "row orientation subtly embedded into material layout without heavy carpet graphics.",
+    "threejs_integration": "integrated_prayer_row_flooring",
+    "threejs_implementation": "Create a renderer adapter for the portable integrated_prayer_row_flooring study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-082",
+    "number": 182,
+    "source_number": 82,
+    "category": "Prayer Floor & Services",
+    "feature": "Modular mosque carpet system",
+    "what_it_adds": "damaged/high-wear zones replace independently.",
+    "threejs_integration": "modular_mosque_carpet_system",
+    "threejs_implementation": "Create a renderer adapter for the portable modular_mosque_carpet_system study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-083",
+    "number": 183,
+    "source_number": 83,
+    "category": "Prayer Floor & Services",
+    "feature": "Low-pile accessible prayer carpet",
+    "what_it_adds": "easier movement for wheelchairs and walkers.",
+    "threejs_integration": "low_pile_accessible_prayer_carpet",
+    "threejs_implementation": "Create a renderer adapter for the portable low_pile_accessible_prayer_carpet study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-084",
+    "number": 184,
+    "source_number": 84,
+    "category": "Prayer Floor & Services",
+    "feature": "Acoustic carpet underlay",
+    "what_it_adds": "flooring contributes measurably to speech intelligibility.",
+    "threejs_integration": "acoustic_carpet_underlay",
+    "threejs_implementation": "Create a renderer adapter for the portable acoustic_carpet_underlay study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-085",
+    "number": 185,
+    "source_number": 85,
+    "category": "Prayer Floor & Services",
+    "feature": "Heating/cooling-compatible carpet assembly",
+    "what_it_adds": "designed around radiant floor systems.",
+    "threejs_integration": "heating_cooling_compatible_carpet_assembly",
+    "threejs_implementation": "Create a renderer adapter for the portable heating_cooling_compatible_carpet_assembly study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-086",
+    "number": 186,
+    "source_number": 86,
+    "category": "Prayer Floor & Services",
+    "feature": "Digitally woven custom saf carpet",
+    "what_it_adds": "qibla and row geometry generated from actual room dimensions.",
+    "threejs_integration": "digitally_woven_custom_saf_carpet",
+    "threejs_implementation": "Create a renderer adapter for the portable digitally_woven_custom_saf_carpet study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-087",
+    "number": 187,
+    "source_number": 87,
+    "category": "Prayer Floor & Services",
+    "feature": "Carpet-free prayer zones",
+    "what_it_adds": "timber, cork, resilient flooring, or cleanable natural materials where appropriate.",
+    "threejs_integration": "carpet_free_prayer_zones",
+    "threejs_implementation": "Create a renderer adapter for the portable carpet_free_prayer_zones study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-088",
+    "number": 188,
+    "source_number": 88,
+    "category": "Prayer Floor & Services",
+    "feature": "Integrated floor power/service channels",
+    "what_it_adds": "temporary AV/event needs without loose cables.",
+    "threejs_integration": "integrated_floor_power_service_channels",
+    "threejs_implementation": "Create a renderer adapter for the portable integrated_floor_power_service_channels study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-089",
+    "number": 189,
+    "source_number": 89,
+    "category": "Prayer Floor & Services",
+    "feature": "Underfloor air/service access zones",
+    "what_it_adds": "adaptable infrastructure beneath raised floors.",
+    "threejs_integration": "underfloor_air_service_access_zones",
+    "threejs_implementation": "Create a renderer adapter for the portable underfloor_air_service_access_zones study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-090",
+    "number": 190,
+    "source_number": 90,
+    "category": "Prayer Floor & Services",
+    "feature": "Embedded tactile qibla guidance",
+    "what_it_adds": "subtle floor cues assist low-vision worshippers.",
+    "threejs_integration": "embedded_tactile_qibla_guidance",
+    "threejs_implementation": "Create a renderer adapter for the portable embedded_tactile_qibla_guidance study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-religious-content"
+  },
+  {
+    "id": "MODERN-091",
+    "number": 191,
+    "source_number": 91,
+    "category": "Generative Design Systems",
+    "feature": "AI-generated regional-modern hybrid style",
+    "what_it_adds": "e.g. Swahili + contemporary timber, Maghrebi + low-carbon concrete, Ottoman + lightweight shell.",
+    "threejs_integration": "ai_generated_regional_modern_hybrid_style",
+    "threejs_implementation": "Create a renderer adapter for the portable ai_generated_regional_modern_hybrid_style study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-security"
+  },
+  {
+    "id": "MODERN-092",
+    "number": 192,
+    "source_number": 92,
+    "category": "Generative Design Systems",
+    "feature": "Climate-first style generator",
+    "what_it_adds": "architecture begins from climate and local construction before aesthetics.",
+    "threejs_integration": "climate_first_style_generator",
+    "threejs_implementation": "Create a renderer adapter for the portable climate_first_style_generator study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-security"
+  },
+  {
+    "id": "MODERN-093",
+    "number": 193,
+    "source_number": 93,
+    "category": "Generative Design Systems",
+    "feature": "Local-material-first generator",
+    "what_it_adds": "mosque style derives from materials actually available near the project.",
+    "threejs_integration": "local_material_first_generator",
+    "threejs_implementation": "Create a renderer adapter for the portable local_material_first_generator study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-security"
+  },
+  {
+    "id": "MODERN-094",
+    "number": 194,
+    "source_number": 94,
+    "category": "Generative Design Systems",
+    "feature": "Cost-constrained beauty engine",
+    "what_it_adds": "concentrates geometry/light/material where it creates the strongest effect per dollar.",
+    "threejs_integration": "cost_constrained_beauty_engine",
+    "threejs_implementation": "Create a renderer adapter for the portable cost_constrained_beauty_engine study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-security"
+  },
+  {
+    "id": "MODERN-095",
+    "number": 195,
+    "source_number": 95,
+    "category": "Generative Design Systems",
+    "feature": "Fabrication-aware ornament generator",
+    "what_it_adds": "pattern density automatically respects CNC, laser, tile, stone, or timber constraints.",
+    "threejs_integration": "fabrication_aware_ornament_generator",
+    "threejs_implementation": "Create a renderer adapter for the portable fabrication_aware_ornament_generator study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-security"
+  },
+  {
+    "id": "MODERN-096",
+    "number": 196,
+    "source_number": 96,
+    "category": "Generative Design Systems",
+    "feature": "Digital-twin mosque architecture",
+    "what_it_adds": "every fixture/system remains connected to its installed asset and maintenance data.",
+    "threejs_integration": "digital_twin_mosque_architecture",
+    "threejs_implementation": "Create a renderer adapter for the portable digital_twin_mosque_architecture study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-security"
+  },
+  {
+    "id": "MODERN-097",
+    "number": 197,
+    "source_number": 97,
+    "category": "Generative Design Systems",
+    "feature": "Adaptive event architecture",
+    "what_it_adds": "partitions, lights, audio, carpet, furniture, and entries shift between daily/Jumu’ah/Ramadan/Eid modes.",
+    "threejs_integration": "adaptive_event_architecture",
+    "threejs_implementation": "Create a renderer adapter for the portable adaptive_event_architecture study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-security"
+  },
+  {
+    "id": "MODERN-098",
+    "number": 198,
+    "source_number": 98,
+    "category": "Generative Design Systems",
+    "feature": "Community-program-responsive architecture",
+    "what_it_adds": "classroom, youth, counseling, food, library, and worship spaces reshape around actual utilization.",
+    "threejs_integration": "community_program_responsive_architecture",
+    "threejs_implementation": "Create a renderer adapter for the portable community_program_responsive_architecture study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-security"
+  },
+  {
+    "id": "MODERN-099",
+    "number": 199,
+    "source_number": 99,
+    "category": "Generative Design Systems",
+    "feature": "Net-positive mosque mode",
+    "what_it_adds": "optimize solar, water, passive cooling, landscaping, embodied carbon, and energy toward producing more resources than consumed.",
+    "threejs_integration": "net_positive_mosque_mode",
+    "threejs_implementation": "Create a renderer adapter for the portable net_positive_mosque_mode study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-security"
+  },
+  {
+    "id": "MODERN-100",
+    "number": 200,
+    "source_number": 100,
+    "category": "Generative Design Systems",
+    "feature": "Generative mosque DNA system",
+    "what_it_adds": "mosque.build combines qibla, climate, region, budget, structure, material, worship capacity, community program, fabrication, ornament, accessibility, and lifecycle goals into a coherent architectural language.",
+    "threejs_integration": "generative_mosque_dna_system",
+    "threejs_implementation": "Create a renderer adapter for the portable generative_mosque_dna_system study; expose inputs, states, uncertainty and review boundaries.",
+    "status": "concept",
+    "source": {
+      "kind": "user-supplied-modern-architecture-brief",
+      "observedAt": "2026-09-10",
+      "rights": "user supplied; redistribution requires confirmation",
+      "confidence": "concept"
+    },
+    "review_gate": "community-professional-security"
+  }
+]

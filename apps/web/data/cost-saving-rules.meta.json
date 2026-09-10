@@ -1,0 +1,12 @@
+{
+  "schema": "mosque.build/source-metadata@1",
+  "dataset": "cost-saving-rules.json",
+  "sourceLabel": "User-supplied mosque.build 100 cost-saving rules CSV",
+  "sourceFilename": "mosque_build_100_cost_saving_rules.csv",
+  "observedAt": "2026-09-10",
+  "recordCount": 100,
+  "rights": "User supplied; redistribution rights require confirmation before public release.",
+  "confidence": "unreviewed",
+  "reviewStatus": "Requires quantity-surveying, architectural, engineering, construction, operations and community review before project use.",
+  "boundary": "Strategies are prompts. They contain no verified saving amount, price, availability, specification, approval or instruction to build."
+}
