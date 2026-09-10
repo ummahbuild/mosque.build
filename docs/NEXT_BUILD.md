@@ -1,5 +1,9 @@
 # What to build next
 
+## Latest executable slice: qibla, terrain and flood context
+
+The Design workspace now records qibla confidence bounds, anonymous local-datum terrain samples and source-linked flood zones; derives transparent slope, level and evidence checks; and renders terrain, flood and three-ray qibla overlays in the shared site model. See `docs/69_SITE_CONTEXT_ANALYSIS_100.md`. Interpolated surfaces, calibrated hydrology, official connectors, cut/fill design and professional acceptance remain future work.
+
 ## Integrated architecture feature delivery plan
 
 The 100-proposal architecture and Three.js brief is now a canonical, machine-readable backlog with an interactive project planner in the Design workspace. Teams can search by domain, add proposals to a project, assign `now / next / later`, retain the full feature-status vocabulary, record accountable roles and evidence, inspect a standard test/review definition, and export the plan. See `docs/68_ARCHITECTURE_FEATURE_INTEGRATION_PLAN.md`. A selected backlog item is not a delivered capability; status must advance only with the declared tests and review gates.
