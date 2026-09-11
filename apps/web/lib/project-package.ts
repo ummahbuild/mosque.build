@@ -84,6 +84,8 @@ export const projectSections = [
   ,{id:"communityNeeds", label:"Aggregate community needs and service-area study", key:"mosque-build.community-needs.v1"}
   ,{id:"contributorCapacity", label:"Contributor capacity and partnership plan", key:"mosque-build.contributor-capacity.v1"}
   ,{id:"cadAuthoring", label:"Semantic CAD authoring model", key:"mosque-build.cad-authoring.v1"}
+  ,{id:"scheduleBaselines", label:"Schedule baseline and variance register", key:"mosque-build.schedule-baselines.v1"}
+  ,{id:"reviewGates", label:"Review gate coordination register", key:"mosque-build.review-gates.v1"}
 ] as const;
 
 export type ProjectSectionId = typeof projectSections[number]["id"];

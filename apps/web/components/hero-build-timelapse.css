@@ -11,9 +11,9 @@
 .buildCaption span{color:#d0e1db;font-size:10px}
 .buildControls{border:1px solid #d7dfda;border-top:0;border-radius:0 0 18px 18px;background:#fbfaf5;padding:12px}
 .buildControls>div{display:flex;gap:6px}
-.buildControls button{min-height:38px;border:1px solid #b8c6c0;border-radius:7px;background:#fff;color:#173e36;padding:7px 10px;font-size:10px;font-weight:850;cursor:pointer}
+.buildControls button{min-height:44px;border:1px solid #9eafa8;border-radius:8px;background:#fff;color:#173e36;padding:8px 11px;font-size:11px;font-weight:850;cursor:pointer;touch-action:manipulation}
 .buildControls button[aria-pressed=true],.buildControls button[aria-current=step]{background:#075044;color:#fff;border-color:#075044}
-.buildControls label{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:center;margin:10px 0;color:#52665e;font-size:9px;font-weight:850}
+.buildControls label{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:center;margin:10px 0;color:#40574e;font-size:10px;font-weight:850}
 .buildControls input{width:100%;accent-color:#b78935}
 .buildControls ol{display:grid;grid-template-columns:repeat(8,1fr);gap:4px;margin:0;padding:0;list-style:none}
 .buildControls li button{display:grid;width:100%;min-width:0;padding:6px 3px;font-size:7px}
@@ -21,8 +21,10 @@
 .buildBoundary{margin:8px 2px 0!important;color:#bcd0c9!important;font-size:9px!important}
 .srOnly{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 @media(max-width:760px){.landingHero .heroVisual{width:100%;min-width:0}.buildViewport{width:100%;min-width:0;min-height:350px}
+.buildControls>div:first-child{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
 .buildControls ol{grid-template-columns:repeat(4,1fr)}
-.buildControls li button{min-height:42px;font-size:8px}
+.buildControls li button{min-height:44px;font-size:8px}
 .buildCaption{right:14px;left:14px;bottom:14px}
 .buildCanvas{inset:40px -55px 0}}
-@media(prefers-reduced-motion:reduce){.buildTimelapse *{scroll-behavior:auto!important}}
+@media(max-width:420px){.buildCaption span,.buildCaption em{font-size:9px}.buildControls{padding:10px}.buildControls button{padding-inline:6px;font-size:9px}}
+@media(prefers-reduced-motion:reduce){.buildTimelapse *{scroll-behavior:auto!important;transition-duration:.01ms!important}}

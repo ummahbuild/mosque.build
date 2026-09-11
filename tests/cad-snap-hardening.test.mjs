@@ -1,0 +1,2 @@
+import test from"node:test";import assert from"node:assert/strict";import{cadSnapPoint,starterCadDocument}from"../apps/web/lib/cad-authoring-core.ts";
+test("CAD snapping recovers from unsafe grid and tolerance inputs",()=>{const doc=starterCadDocument();assert.deepEqual(cadSnapPoint({x:2.26,y:2.24},doc,0,-1).point,{x:2.5,y:2});assert.deepEqual(cadSnapPoint({x:2.26,y:2.24},doc,Number.NaN,Number.NaN).point,{x:2.5,y:2});assert.ok(Number.isFinite(cadSnapPoint({x:2.26,y:2.24},doc,0).distanceM))});
