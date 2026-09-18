@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "./site-footer-accessibility.css";
 const socials=[
 {name:"X",href:"https://x.com/ummahbuild",path:<path d="M5 4l14 16M19 4L5 20"/>},
 {name:"LinkedIn",href:"https://www.linkedin.com/company/ummah-build",path:<><path d="M6 9v11M6 5v.01M10 20V9m0 5a5 5 0 0 1 10 0v6"/></>},

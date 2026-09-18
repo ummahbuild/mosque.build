@@ -13,6 +13,7 @@ if(!fs.existsSync(path.join(root,"apps/web/app/features/priority-500/page.tsx"))
 if(!fs.existsSync(path.join(root,"apps/web/app/features/priority-600/page.tsx")))failures.push("missing priority 600 feature route");
 if(!fs.existsSync(path.join(root,"apps/web/app/features/priority-700/page.tsx")))failures.push("missing priority 700 feature route");
 if(!fs.existsSync(path.join(root,"apps/web/app/features/priority-800/page.tsx")))failures.push("missing priority 800 feature route");
+if(!fs.existsSync(path.join(root,"apps/web/app/features/priority-900/page.tsx")))failures.push("missing priority 900 feature route");
 for(const r of requiredPublicRoutes){if(!fs.existsSync(path.join(root,"apps/web/app",r,"page.tsx")))failures.push(`missing public route ${r}`)}
 const publicAssets=["manifest.webmanifest","sw.js","offline.html","icons/icon-192.png","icons/icon-512.png","icons/apple-touch-icon.png",".well-known/security.txt"];for(const a of publicAssets){if(!fs.existsSync(path.join(root,"apps/web/public",a)))failures.push(`missing PWA asset ${a}`)}
 const framePublic=path.join(root,"apps/web/public/assets/mockups");for(const f of frames){if(!fs.existsSync(path.join(framePublic,f.source_file)))failures.push(`missing public frame asset ${f.source_file}`)}

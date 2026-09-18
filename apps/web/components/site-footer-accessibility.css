@@ -1,0 +1,4 @@
+.footerGrid a{display:flex;min-height:44px;align-items:center;padding-block:.25rem}
+.footerGrid>div{gap:2px}
+.footerAttribution a{min-height:44px}
+@media(max-width:760px){.footerGrid a{padding-block:.4rem}}

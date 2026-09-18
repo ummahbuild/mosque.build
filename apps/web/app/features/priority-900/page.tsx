@@ -1,0 +1,10 @@
+import Link from "next/link";
+import {PriorityFeatureExplorerLoader} from "@/components/priority-feature-explorer-loader";
+import {SiteFooter} from "@/components/site-footer";
+import {SiteHeader} from "@/components/site-header";
+import {getPriorityFeatureBatch,priorityCandidateCount} from "@/lib/priority-features";
+
+export const metadata={title:"Priority Feature Batch 801–900",description:"The next one hundred mosque.build feature issues, preserving delivery status, evidence burden, dependencies and review gates."};
+const batch=getPriorityFeatureBatch(9);
+
+export default function Page(){return <><SiteHeader/><main><section className="areaHero priorityHero"><div><div className="eyebrow gold">DELIVERY BATCH · RECORDS 801–900</div><h1>Shape the next hundred into implementation-ready issues.</h1><p className="heroLead">Review the ninth distinct set of canonical feature records with status, complexity, evidence burden, external dependencies and professional gates intact.</p><div className="heroActions"><Link className="button" href="/features/priority-800">Review records 701–800</Link><Link className="secondaryButton lightButton" href="/roadmap">Open the full roadmap</Link></div></div></section><section className="section"><div className="batchPrinciples"><article><b>801–900</b><span>distinct canonical issues</span></article><article><b>{priorityCandidateCount}</b><span>eligible registry candidates</span></article><article><b>Testable</b><span>shared acceptance and delivery fields</span></article><article><b>Gate-aware</b><span>evidence and review needs preserved</span></article></div><div className="methodBox batchNotice"><b>Issue and delivery boundary</b><p>These records are implementation candidates, not claims that 100 features shipped. Their canonical maturity remains unchanged. Before delivery, each selected issue still needs scoped acceptance tests, accessibility and mobile checks, provenance tests where external data is involved, and the stated human review gate.</p></div><PriorityFeatureExplorerLoader features={batch} startIndex={801}/></section></main><SiteFooter/></>}

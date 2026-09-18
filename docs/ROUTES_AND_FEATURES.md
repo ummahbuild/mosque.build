@@ -48,7 +48,7 @@ These images are reference material, not screenshots proving implementation, arc
 
 ## Registry explorer routes
 
-`/features/priority-100` through `/features/priority-800` expose prioritized slices of the canonical feature registry. These pages support review and discovery; an entry’s presence does not change its canonical maturity status.
+`/features/priority-100` through `/features/priority-900` expose prioritized slices of the canonical feature registry. These pages support review and discovery; an entry’s presence does not change its canonical maturity status.
 
 ## Framework-generated routes
 
