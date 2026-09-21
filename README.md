@@ -48,6 +48,8 @@ See [Routes and features](docs/ROUTES_AND_FEATURES.md) for the implemented publi
 
 Canonical domain objects remain independent of Three.js. Portable interchange targets include glTF/GLB for rendered assets, IFC for building-model exchange, and GeoJSON/vector tiles for mapping.
 
+The [dimensioned building editor and IFC exchange guide](docs/PARAMETRIC_BUILDING_IFC.md) covers six mosque starting templates, editable solid geometry, attributed visual references, floor-plan handoff, IFC4/GLB exports, verification, and current Revit limitations.
+
 ## Run locally
 
 Requirements:

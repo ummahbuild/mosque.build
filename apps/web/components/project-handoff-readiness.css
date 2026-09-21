@@ -1,0 +1,55 @@
+.handoffReadiness{max-width:1500px;margin:0 auto 4rem;border:1px solid #b9cbc5;border-radius:18px;background:#fffdf7;padding:clamp(1rem,3vw,2rem);box-shadow:0 20px 58px rgba(34,70,58,.08)}
+.handoffReadiness>header{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2rem;align-items:end}
+.handoffReadiness h2{max-width:920px;margin:.35rem 0 .65rem;font:500 clamp(2rem,3.5vw,3.8rem)/.98 Georgia,serif}
+.handoffReadiness p{color:#50655e;line-height:1.6}
+.handoffScore{display:grid;min-width:220px;border-radius:14px;background:#123f37;color:#fff;padding:1rem}
+.handoffScore strong{color:#f2ca75;font:600 2.5rem/1 Georgia,serif}
+.handoffScore span,.handoffScore small{color:#dbe8e3}
+.handoffGrid{display:grid;grid-template-columns:310px minmax(0,1fr);gap:1rem;margin-top:1rem}
+.handoffProfiles{display:grid;gap:.5rem;align-content:start}
+.handoffProfiles button{display:grid;gap:.2rem;min-height:74px;border:1px solid #c7d7d1;border-radius:10px;background:#fff;color:#17483e;padding:.75rem;text-align:left;cursor:pointer}
+.handoffProfiles button:hover{border-color:#075044}
+.handoffProfiles button[aria-pressed=true]{border-color:#075044;background:#ecf5f1;box-shadow:inset 4px 0 0 #075044}
+.handoffProfiles b{font-size:.96rem}
+.handoffProfiles small{color:#5f7069;line-height:1.35}
+.handoffPanel{display:grid;gap:1rem;min-width:0}
+.handoffPanel>header{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1rem;align-items:start;border:1px solid #cbd9d4;border-radius:12px;background:#fff;padding:1rem}
+.handoffPanel h3{margin:.2rem 0;font-size:1.45rem}
+.handoffBadge{display:grid;min-width:170px;border-radius:10px;background:#f5f8f6;padding:.75rem;color:#50655e}
+.handoffBadge b{color:#17483e;font-size:1.2rem}
+.handoffBadge[data-status="ready-for-review"]{background:#e7f5ed}
+.handoffBadge[data-status=assembling]{background:#fff5de}
+.handoffBadge[data-status="not-started"]{background:#f4eeee}
+.handoffActions{display:flex;flex-wrap:wrap;gap:.55rem}
+.handoffActions button,.handoffRecordForm button{min-height:44px;border:1px solid #075044;border-radius:999px;background:#075044;color:#fff;padding:.62rem .9rem;font-weight:850;cursor:pointer}
+.handoffActions button.secondary{background:#fff;color:#075044}
+.handoffActions button:disabled{border-color:#aebcb7;background:#e9efec;color:#60726b;cursor:not-allowed}
+.handoffRequirements{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.55rem}
+.handoffRequirements article{display:grid;gap:.35rem;border:1px solid #cbd9d4;border-left:4px solid #9aaea6;border-radius:10px;background:#fff;padding:.75rem}
+.handoffRequirements article[data-state=ready]{border-left-color:#27735f}
+.handoffRequirements article[data-state=missing]{border-left-color:#b46e25}
+.handoffRequirements article header{display:flex;justify-content:space-between;gap:.5rem;color:#64776f;font-size:.68rem;font-weight:900;text-transform:uppercase}
+.handoffRequirements h4{margin:0;color:#183f37}
+.handoffRequirements p{margin:0;font-size:.8rem;line-height:1.45}
+.handoffGaps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.55rem}
+.handoffGaps section{border:1px solid #d5c59a;border-radius:10px;background:#fff9e9;padding:.75rem}
+.handoffGaps h4{margin:.1rem 0 .4rem;color:#5b4219}
+.handoffGaps ul{margin:0;padding-left:1.1rem;color:#644c23;font-size:.82rem;line-height:1.45}
+.handoffRecordForm{display:grid;gap:.75rem;border:1px solid #cbd9d4;border-radius:12px;background:#f6faf8;padding:1rem}
+.handoffRecordForm h3{margin:0}
+.handoffRecordForm .formGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.6rem}
+.handoffRecordForm label{display:grid;gap:.25rem;color:#31574e;font-size:.75rem;font-weight:850}
+.handoffRecordForm input,.handoffRecordForm textarea{width:100%;box-sizing:border-box;border:1px solid #9aafa8;border-radius:8px;background:#fff;color:#173e36;padding:.65rem;font:inherit}
+.handoffRecordForm input{min-height:44px}
+.handoffRecordForm textarea{min-height:86px;resize:vertical}
+.handoffRecords{border:1px solid #cbd9d4;border-radius:12px;background:#fff;padding:1rem}
+.handoffRecords h3{margin:0 0 .7rem}
+.handoffRecords ol{display:grid;gap:.5rem;margin:0;padding:0;list-style:none}
+.handoffRecords li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.7rem;border-top:1px solid #e0e9e5;padding-top:.6rem}
+.handoffRecords b{display:block;color:#183f37}
+.handoffRecords small{color:#60726b;line-height:1.4}
+.handoffRecords em{align-self:start;border-radius:999px;background:#edf5f1;color:#17483e;padding:.32rem .55rem;font-size:.68rem;font-style:normal;font-weight:850}
+.handoffNotice{border-left:4px solid #c7963d;background:#fff7e5;padding:.8rem 1rem;color:#67552f}
+.handoffNotice p{margin:.2rem 0 0;color:#67552f}
+@media(max-width:980px){.handoffGrid,.handoffRequirements,.handoffGaps,.handoffRecordForm .formGrid{grid-template-columns:1fr}.handoffProfiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.handoffReadiness>header,.handoffPanel>header{grid-template-columns:1fr}.handoffScore,.handoffBadge{min-width:0}.handoffProfiles{grid-template-columns:1fr}.handoffActions{display:grid}.handoffActions button,.handoffRecordForm button{width:100%}.handoffRecords li{grid-template-columns:1fr}}

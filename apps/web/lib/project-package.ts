@@ -2,6 +2,7 @@ export const PROJECT_PACKAGE_SCHEMA = "mosque.build/project-package@1";
 export const PROJECT_PACKAGE_MAX_BYTES = 2_000_000;
 
 export const projectSections = [
+  {id:"parametricBuilding", label:"Dimensioned building study", key:"mosque-build.parametric-building.v1"},
   {id:"brief", label:"Project brief", key:"mosque-build.project-draft.v2"},
   {id:"actions", label:"First actions", key:"mosque-build.project-progress.v1"},
   {id:"controls", label:"Project controls", key:"mosque-build.control-center.v1"},
@@ -9,6 +10,8 @@ export const projectSections = [
   {id:"patterns", label:"Pattern shortlist", key:"mosque-build.pattern-shortlist.v1"},
   {id:"architecture", label:"Architecture direction", key:"mosque-build.architecture-direction.v1"},
   {id:"architecturePrecedentBrief", label:"Architecture precedent brief", key:"mosque-build.architecture-precedent-brief.v1"},
+  {id:"architectureReferenceActions", label:"Architecture reference action shortlist", key:"mosque-build.architecture-reference-actions.v1"},
+  {id:"mosqueArchitectureAtlas", label:"Mosque architecture atlas study", key:"mosque-build.mosque-architecture-atlas.v1"},
   {id:"islamicArchitectureFramework", label:"Islamic architecture framework", key:"mosque-build.islamic-architecture-framework.v1"},
   {id:"design", label:"Design studio", key:"mosque-build.design-studio.v1"},
   {id:"schematic", label:"Schematic plan", key:"mosque-build.schematic-plan.v1"},
@@ -86,6 +89,7 @@ export const projectSections = [
   ,{id:"cadAuthoring", label:"Semantic CAD authoring model", key:"mosque-build.cad-authoring.v1"}
   ,{id:"scheduleBaselines", label:"Schedule baseline and variance register", key:"mosque-build.schedule-baselines.v1"}
   ,{id:"reviewGates", label:"Review gate coordination register", key:"mosque-build.review-gates.v1"}
+  ,{id:"projectHandoff", label:"Project handoff readiness register", key:"mosque-build.project-handoff.v1"}
 ] as const;
 
 export type ProjectSectionId = typeof projectSections[number]["id"];
