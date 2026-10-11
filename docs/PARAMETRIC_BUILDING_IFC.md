@@ -9,7 +9,7 @@ Status: `executable`. Entry point: `/design#building-geometry`. Introduced 2026-
 3. Apply dimensions to regenerate the plan and model together. Invalid dimensions cannot replace the last valid model. Changing a preset retains entered dimensions and observations.
 4. Load 3D on demand, inspect elements, switch perspective/top views and remove roofs to inspect the interior. The HTML element selector provides keyboard access to the same selection. The plan and export tools work without WebGL.
 5. Save locally, restore an editable JSON file, or include the saved study in the existing project package.
-6. Seed an **empty** floor-plan workspace with the hall, arrival, courtyard and hosted openings. Existing rooms, openings, annotations or multiple levels prevent replacement. Subsequent changes are independent; there is no hidden two-way synchronization. The existing floor-plan window model lacks sill elevation, so a handoff note records the 1.2 m sill assumption.
+6. Seed an **empty** floor-plan workspace with the hall, arrival, courtyard and hosted openings. Existing rooms, openings, annotations or multiple levels prevent replacement. Subsequent changes are independent; there is no hidden two-way synchronization. Window sill elevations are carried into the floor plan and BIM view. Older records without a sill preserve their previous zero-elevation behavior.
 7. Export IFC4 for independent BIM review, or GLB for visualization. Export uses applied geometry even if the form contains unapplied edits; the UI identifies that state. GLB includes roofs even when hidden for inspection.
 
 ## Geometry and exchange contract
@@ -56,8 +56,18 @@ Observed 2026-09-21. These are linked technical references, not copied assets; n
 
 ## Next implementation work
 
+### Bug-fix verification — 2026-10-11
+
+- Unit regressions cover courtyard placement with the arcade disabled, malformed imported dimensions, invalid floor-plan levels/IDs/relationships, room removal cleanup, and opening extents.
+- Integration tests verify window sill elevations through building → floor plan → BIM, including nonzero floor elevation. Legacy openings without a sill retain the zero default.
+- Browser verification at 390 × 844 and 1440 × 900: empty dimensions show an accessible error without replacing saved geometry; Escape restores the saved value; valid edits persist after reload. No horizontal page overflow or console warnings/errors were observed in this flow.
+- Invalid stored floor plans are protected from silent replacement and can be exported for recovery. No server writes or new authorization paths were introduced; shared persistence still requires RLS tests before release.
+- Professional review and actual Revit verification remain outstanding. The optional independent IFC test was not run in this pass because its Python environment was unavailable.
+
+### Remaining work
+
 1. Target-version Revit fixtures: verify categories, opening relationships, origin, metre conversion, imported element editability, and retained study IDs. Record versions and failures before claiming compatibility.
 2. Replace the single-study ID namespace with project-scoped persistent IDs and test federated exports.
-3. Extend the room schema with sill elevation and explicit wall hosts; reconcile user-authored floor-plan partitions with the same solid model instead of adding a second independent building generator.
+3. Add explicit wall hosts and reconcile user-authored floor-plan partitions with the same solid model instead of adding a second independent building generator. Optional sill elevation now survives the building → floor-plan → BIM handoff.
 4. Add door/window assemblies, material layers, dimensioned sections, room boundaries, linked quantities and engineering-reviewed roof junctions.
 5. Add measured precedent plans and calibrated multi-view references only with suitable rights, attribution, survey accuracy and professional/cultural review.

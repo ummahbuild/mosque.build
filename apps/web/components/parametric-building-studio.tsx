@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import {useEffect,useMemo,useState} from "react";
-import {applyBuildingPreset,BUILDING_KEY,buildingErrors,buildingLimits,buildingPresets,buildingToFloorPlan,createBuilding,defaultBuilding,safeBuilding,type BuildingParameters} from "@/lib/parametric-building";
+import {applyBuildingPreset,BUILDING_KEY,buildingErrors,buildingLimits,buildingLayout,buildingPresets,buildingToFloorPlan,createBuilding,defaultBuilding,safeBuilding,type BuildingParameters} from "@/lib/parametric-building";
 import {newFloorPlan,safeFloorPlan} from "@/lib/floor-plan-workspace";
 import {exportBuildingIfc} from "@/lib/building-ifc";
 import references from "@/data/architecture-image-references.json";
@@ -22,7 +22,7 @@ export function ParametricBuildingStudio() {
   useEffect(()=>{const choose=(event:Event)=>{const id=(event as CustomEvent<unknown>).detail;if(typeof id!=="string"||!buildingPresets.some(p=>p.id===id))return;setDraft(p=>applyBuildingPreset(p,id));setStatus("Template loaded into the dimension editor. Review and apply it to update your model.");};addEventListener("mosque-build:building-preset",choose);return()=>removeEventListener("mosque-build:building-preset",choose);},[]);
   const save=()=>{try{localStorage.setItem(BUILDING_KEY,JSON.stringify(parameters));dispatchEvent(new Event("mosque-build:project-change"));setStatus("Building study saved on this device and included in your project package.");}catch{setStatus("Could not save on this device. Export the editable study to keep your changes.");}};
   const seedFloor=()=>{try{const raw=localStorage.getItem("mosque-build.floor-plan.v1"),existing=raw?safeFloorPlan(JSON.parse(raw)):newFloorPlan();if(!existing)throw new Error("Your saved floor plan could not be read. Export a project backup before changing it.");const next=buildingToFloorPlan(parameters,existing);localStorage.setItem("mosque-build.floor-plan.v1",JSON.stringify(next));dispatchEvent(new Event("mosque-build:floor-plan-change"));dispatchEvent(new Event("mosque-build:project-change"));setStatus("Hall, arrival, courtyard and openings copied where present. Continue adding rooms in the floor-plan workspace; later edits stay independent.");}catch(error){setStatus(error instanceof Error?error.message:"The floor plan could not be saved. Export the study to keep your work.");}};
-  const totalDepth=parameters.depthM+(["maghrebi-court","mughal-garden-court"].includes(parameters.presetId)?11.8:parameters.arcade?3.8:0),pad=3;
+  const totalDepth=buildingLayout(parameters).totalDepthM,pad=3;
   return <section className="buildingStudio" id="building-geometry" aria-labelledby="building-geometry-title">
     <header><div className="eyebrow dark">BUILDING GEOMETRY</div><h2 id="building-geometry-title">Turn a mosque reference into a dimensioned building study.</h2><p>Start with a hall, courtyard or central-volume template. Edit the actual building dimensions, inspect openings and roof construction, then share geometry with your architect.</p></header>
     <div className="buildingWorkspace"><form className="buildingControls" onSubmit={e=>{e.preventDefault();if(errors.length){setStatus("Correct the dimensions before applying.");return;}setParameters({...draft});setStatus("Dimensions applied. Save the study to keep these changes.");}}>

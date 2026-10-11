@@ -4,7 +4,8 @@ import {mkdtempSync,writeFileSync} from "node:fs";
 import {tmpdir} from "node:os";
 import {join} from "node:path";
 import {spawnSync} from "node:child_process";
-import {applyBuildingPreset,buildingErrors,buildingPresets,buildingToFloorPlan,createBuilding,defaultBuilding,safeBuilding} from "../apps/web/lib/parametric-building.ts";
+import {applyBuildingPreset,buildingErrors,buildingLayout,buildingPresets,buildingToFloorPlan,createBuilding,defaultBuilding,safeBuilding} from "../apps/web/lib/parametric-building.ts";
+import {createBimCoordinationModel} from "../apps/web/lib/bim-coordination.ts";
 import {newFloorPlan,safeFloorPlan,floorPlanChecks} from "../apps/web/lib/floor-plan-workspace.ts";
 import {exportBuildingIfc,buildingIfcGuid,ifcText} from "../apps/web/lib/building-ifc.ts";
 import {projectSections} from "../apps/web/lib/project-package.ts";
@@ -45,6 +46,7 @@ test("entrance and side windows have hosts and no wall solid fills the opening",
   }
 });
 test("invalid imports are rejected without exceptions and unknown fields are removed",()=>{
+  assert.equal(safeBuilding({...defaultBuilding(),doorHeightM:{toString:null,valueOf:null}}),null);
   for(const value of [null,[],{},"abc",{...defaultBuilding(),widthM:NaN},{...defaultBuilding(),roof:"unknown"},{...defaultBuilding(),bays:3.5},{...defaultBuilding(),doorHeightM:4,heightM:3.2},{...defaultBuilding(),referenceNotes:"x".repeat(2001)}])assert.equal(safeBuilding(value),null);
   assert.equal(safeBuilding({...defaultBuilding(),secret:"excluded"}).secret,undefined);
   assert.throws(()=>createBuilding({...defaultBuilding(),depthM:-2}));assert.equal(buildingErrors(defaultBuilding()).length,0);
@@ -60,6 +62,39 @@ test("floor-plan handoff produces valid non-overlapping rooms and never overwrit
     assert.throws(()=>buildingToFloorPlan(p,plan),/already contains work/);
     assert.equal(plan.spaces[0].accessibleJourney,false);
   }
+});
+test("removing an arcade keeps the courtyard connected in geometry and the floor-plan handoff",()=>{
+  for(const presetId of ["maghrebi-court","mughal-garden-court"])for(const arcade of [true,false]){
+    const p={...applyBuildingPreset(defaultBuilding(),presetId),arcade},model=createBuilding(p),plan=buildingToFloorPlan(p,newFloorPlan()),start=p.depthM+(arcade?3.8:0);
+    assert.equal(model.elements.find(e=>e.id==="court").solids[0].origin[1],start);
+    assert.equal(plan.spaces.find(s=>s.kind==="courtyard").yM,start);
+    assert.equal(plan.footprint.depthM,start+8);
+    assert.equal(buildingLayout(p).totalDepthM,plan.footprint.depthM);
+  }
+});
+test("window sill elevations survive building to floor-plan to BIM handoff",()=>{
+  const plan=buildingToFloorPlan(defaultBuilding(),newFloorPlan());plan.levels[0].elevationM=4;
+  const model=createBimCoordinationModel(plan);
+  for(const opening of plan.openings){
+    const element=model.elements.find(e=>e.sourceId===opening.id);
+    assert.equal(opening.sillM,opening.kind==="window"?1.2:0);
+    assert.equal(element.geometry.position[1],Number((4+opening.sillM+opening.heightM/2).toFixed(3)));
+    assert.equal(element.properties.sillM,opening.sillM);
+  }
+});
+test("legacy opening sills default to zero and cross-level hosts are not rendered",()=>{
+  const plan=buildingToFloorPlan(defaultBuilding(),newFloorPlan()),opening=plan.openings[0];
+  delete opening.sillM;
+  const element=createBimCoordinationModel(plan).elements.find(e=>e.sourceId===opening.id);
+  assert.equal(element.geometry.position[1],opening.heightM/2);
+  assert.equal(element.properties.sillM,0);
+  for(const sillM of [-1,NaN,Infinity,"1.2",{}]){
+    const bad=structuredClone(plan);bad.openings[0].sillM=sillM;assert.equal(safeFloorPlan(bad),null);
+  }
+  plan.levels.push({...plan.levels[0],id:"upper",elevationM:4});opening.levelId="upper";
+  assert.ok(safeFloorPlan(plan));
+  assert.ok(floorPlanChecks(plan,"upper").some(c=>c.label==="Unhosted opening"));
+  assert.equal(createBimCoordinationModel(plan).elements.some(e=>e.sourceId===opening.id),false);
 });
 test("IFC exports real solids, containment, voids, unique identifiers and safe strings",()=>{
   const model=createBuilding(defaultBuilding());model.elements[0].name="Test ' ; Café \\ reference";

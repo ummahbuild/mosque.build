@@ -42,8 +42,8 @@ export function buildingErrors(value:unknown):string[] {
   if(!["flat","pitched","dome"].includes(p.roof)) errors.push("Choose a roof form.");
   if(typeof p.arcade!=="boolean") errors.push("Arcade selection is missing.");
   if(typeof p.referenceNotes!=="string" || p.referenceNotes.length>2000) errors.push("Reference notes must be 2,000 characters or fewer.");
-  if(p.doorHeightM>p.heightM-.4) errors.push("Keep at least 0.4 m above the doorway in this study.");
-  if(p.doorWidthM>p.widthM-2*p.wallM-1) errors.push("The doorway must fit between the side walls.");
+  if([p.doorHeightM,p.heightM].every(n=>typeof n==="number"&&Number.isFinite(n))&&p.doorHeightM>p.heightM-.4) errors.push("Keep at least 0.4 m above the doorway in this study.");
+  if([p.doorWidthM,p.widthM,p.wallM].every(n=>typeof n==="number"&&Number.isFinite(n))&&p.doorWidthM>p.widthM-2*p.wallM-1) errors.push("The doorway must fit between the side walls.");
   return errors;
 }
 export function safeBuilding(value:unknown):BuildingParameters|null {
@@ -56,6 +56,11 @@ export function applyBuildingPreset(p:BuildingParameters,id:string):BuildingPara
   const preset=buildingPresets.find(x=>x.id===id);
   if(!preset) return p;
   return {...p,presetId:id,roof:preset.roof,arcade:preset.arcade};
+}
+export function buildingLayout(p:BuildingParameters) {
+  const hasCourt=["maghrebi-court","mughal-garden-court"].includes(p.presetId);
+  const arrivalDepthM=p.arcade?3.8:0;
+  return {hasCourt,courtStartM:p.depthM+arrivalDepthM,totalDepthM:p.depthM+arrivalDepthM+(hasCourt?8:0)};
 }
 const rect=(w:number,d:number):Point2[]=>[[0,0],[w,0],[w,d],[0,d]];
 const extrusion=(profile:Point2[],depth:number,origin:Point3,axis:Extrusion["axis"]="z",holes:Point2[][]=[]):Extrusion=>({kind:"extrusion",profile,holes,origin,axis,depth});
@@ -138,7 +143,8 @@ export function createBuilding(p:BuildingParameters):BuildingModel {
       add(`portico-spandrel-${i}`,`Portico spandrel ${i+1}`,"IfcWall","wall",[extrusion(clean,.3,[.3+(i+.5)*bay,front+.15,spring],"negative-y")]);
     }
   }
-  if(["maghrebi-court","mughal-garden-court"].includes(p.presetId)) add("court","Open courtyard study","IfcSlab","floor",[box(0,d+3.8,-s,w,8,s)]);
+  const layout=buildingLayout(p);
+  if(layout.hasCourt) add("court","Open courtyard study","IfcSlab","floor",[box(0,layout.courtStartM,-s,w,8,s)]);
   return {schema:BUILDING_SCHEMA,units:"m",status:"executable",parameters:{...p},elements,grossHallAreaM2:w*d,internalHallAreaM2:(w-2*t)*(d-2*t)};
 }
 
@@ -150,11 +156,11 @@ export function buildingToFloorPlan(p:BuildingParameters,existing:FloorPlanState
   const add=(id:string,name:string,kind:PlanSpace["kind"],xM:number,yM:number,widthM:number,depthM:number)=>spaces.push({id,levelId,name,kind,xM,yM,widthM,depthM,clearHeightM:p.heightM,capacityInput:0,accessibleJourney:false,privacy:"transition",adjacentTo:[],separateFrom:[],finishRef:"",notes:"From dimensioned building study. Coordinate program, qibla, accessibility, structure and services."});
   add("building-prayer","Prayer hall","prayer",t,t,p.widthM-2*t,p.depthM-2*t);
   if(p.arcade)add("building-arrival","Covered arrival","circulation",0,p.depthM,p.widthM,3.8);
-  const court=["maghrebi-court","mughal-garden-court"].includes(p.presetId);
-  if(court)add("building-court","Open courtyard","courtyard",0,p.depthM+3.8,p.widthM,8);
+  const layout=buildingLayout(p);
+  if(layout.hasCourt)add("building-court","Open courtyard","courtyard",0,layout.courtStartM,p.widthM,8);
   const openings=model.elements.filter(e=>e.role==="opening").map(e=>{
     const solid=e.solids[0] as Extrusion,entry=e.id==="opening-entry",west=e.hostId==="wall-west";
-    return {id:e.id,spaceId:"building-prayer",levelId,kind:entry?"door" as const:"window" as const,label:e.name,hostEdge:entry?"south" as const:west?"west" as const:"east" as const,offsetM:entry?p.widthM/2-t:solid.origin[1]+solid.profile[2][1]/2-t,widthM:entry?p.doorWidthM:solid.profile[2][1],heightM:solid.depth,operation:"Unspecified",fireEvidenceRef:"",accessEvidenceRef:"",notes:entry?"Door assembly and operation require design.":"Window sill 1.2 m in building study; floor-plan opening schema does not yet carry sill elevation."};
+    return {id:e.id,spaceId:"building-prayer",levelId,kind:entry?"door" as const:"window" as const,label:e.name,hostEdge:entry?"south" as const:west?"west" as const:"east" as const,offsetM:entry?p.widthM/2-t:solid.origin[1]+solid.profile[2][1]/2-t,widthM:entry?p.doorWidthM:solid.profile[2][1],heightM:solid.depth,sillM:solid.origin[2],operation:"Unspecified",fireEvidenceRef:"",accessEvidenceRef:"",notes:entry?"Door assembly and operation require design.":"Window sill carried from the building study."};
   });
-  return {...existing,footprint:{widthM:p.widthM,depthM:p.depthM+(court?11.8:p.arcade?3.8:0)},levels:[{...existing.levels[0],elevationM:0,floorToFloorM:p.heightM+p.slabM,status:"working"}],activeLevelId:levelId,spaces,openings,updatedAt:new Date().toISOString()};
+  return {...existing,footprint:{widthM:p.widthM,depthM:layout.totalDepthM},levels:[{...existing.levels[0],elevationM:0,floorToFloorM:p.heightM+p.slabM,status:"working"}],activeLevelId:levelId,spaces,openings,updatedAt:new Date().toISOString()};
 }
