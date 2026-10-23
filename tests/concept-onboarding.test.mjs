@@ -20,3 +20,20 @@ test("onboarding requires explicit acceptance and never fetches an AI model",()=
  assert.match(prompt,/Review detected brief/);assert.match(prompt,/Continue with suggested fields/);
  assert.doesNotMatch(prompt,/fetch\(|XMLHttpRequest/);
 });
+
+test("numeric storeys never masquerade as prayer attendance",()=>{
+ const c=parseMosqueConcept("Build a new mosque for 3 storeys with a library");
+ assert.equal(c.attendance,"");
+ assert.equal(c.storeys,"3");
+});
+test("unknown currency remains unknown instead of being assumed USD",()=>{
+ const c=parseMosqueConcept("Build a mosque under 700000 for 200 worshippers");
+ assert.equal(c.budget,"700000");
+ assert.equal(c.currency,"");
+ assert.equal(c.attendance,"200");
+});
+test("existing project type and imported notes must remain safe",()=>{
+ const src=fs.readFileSync(new URL("../apps/web/components/start-project-wizard.tsx",import.meta.url),"utf8");
+ assert.match(src,/current\.name\.trim\(\)\?current\.type:c\.type/);
+ assert.match(src,/join\("\\n\\n"\)/);
+});
