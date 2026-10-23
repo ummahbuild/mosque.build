@@ -1,4 +1,5 @@
 import Link from "next/link";
+import {MosquePromptStudio} from "@/components/mosque-prompt-studio";
 import {HeroBuildTimelapse} from "@/components/hero-build-timelapse";
 import {LandingProductShowcase} from "@/components/landing-product-showcase";
 import {LandingAreaMotion} from "@/components/landing-area-motion";
@@ -11,6 +12,7 @@ const questions=[["Does this replace architects or engineers?","No. It helps com
 
 export default function Home(){return <><SiteHeader/><main>
 <section className="landingHero"><div className="heroCopy"><div className="eyebrow">FROM COMMUNITY NEED TO A LIVING INSTITUTION</div><h1>Bring mosques<br/><em>to life.</em></h1><p className="heroLead">Plan the journey from community brief and site choice through design, approvals, funding, construction, opening and long-term care.</p><div className="heroActions"><Link className="button" href="/start">Start your mosque project ↗</Link><Link className="secondaryButton" href="/features">See how it works</Link></div><div className="trustLine"><span>Clear sources</span><span>Qualified review</span><span>Community-centered</span><span>Whole journey</span></div></div><div className="heroVisual"><HeroBuildTimelapse/></div></section>
+<MosquePromptStudio/>
 <section className="principleStrip"><span>Plan before you render.</span><span>Verify before you claim.</span><span>Cost before you commit.</span><span>Maintain after you open.</span></section>
 <section className="section splitIntro"><div><div className="eyebrow dark">ONE CONNECTED JOURNEY</div><h2>A mosque project is a chain of decisions.</h2></div><p className="sectionLead">A change to capacity, site or materials can affect cost, approvals, sourcing, construction and long-term care. Keep those decisions together.</p></section>
 <section className="lifecycle sectionNarrow">{lifecycle.map(([number,title,body])=><article className="lifeStep" key={number}><span className="stepNo">{number}</span><div><h3>{title}</h3><p>{body}</p></div></article>)}</section>
