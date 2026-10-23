@@ -1,6 +1,6 @@
-import {starterCadDocument,validateCadDocument} from "./cad-authoring-core";
-import type {ConceptFields} from "./concept-onboarding";
-import {deriveConceptProgram} from "./concept-room-program";
+import {starterCadDocument,validateCadDocument} from "./cad-authoring-core.ts";
+import type {ConceptFields} from "./concept-onboarding.ts";
+import {deriveConceptProgram} from "./concept-room-program.ts";
 export function previewConceptCadHandoff(fields:ConceptFields){
  const program=deriveConceptProgram(fields),starter=starterCadDocument();
  const blockers=validateCadDocument(starter).filter(x=>x.level==="blocker");
