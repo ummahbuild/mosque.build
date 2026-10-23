@@ -1,0 +1,67 @@
+/* Responsive safety layer for public frames and project workspaces.
+   Applied after the regular component styles; avoids changing model coordinates. */
+@media (max-width: 1100px) {
+  .landingHero {grid-template-columns:minmax(0,1fr);gap:28px;min-height:0;padding:clamp(36px,6vw,70px) clamp(16px,4vw,40px)}
+  .landingHero .heroCopy,.landingHero .heroVisual{min-width:0}
+  .landingHero .heroVisual{min-height:0;max-width:900px;width:100%;margin-inline:auto}
+  .landingHero .buildTimelapse{min-width:0}
+  .landingHero .buildViewport{min-height:420px}
+  .showcaseGrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .showcaseDemo{padding:clamp(12px,3vw,28px)}
+  .showcaseDemo .heroVisual{min-height:0}
+  .screenGrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width: 760px) {
+  :where(.landingHero,.section,.sectionNarrow,.screenLibrary,.studioProjects,.studioProfile,.studioTools,.cadStudio){min-width:0}
+  .landingHero{padding:38px 16px 42px}
+  .heroCopy h1{font-size:clamp(46px,12vw,76px);line-height:.98;overflow-wrap:anywhere}
+  .heroLead{font-size:16px}
+  .landingHero .heroVisual{max-width:100%}
+  .landingHero .buildViewport{min-height:340px;border-radius:14px 14px 0 0}
+  .buildCaption{max-width:calc(100% - 24px);min-width:0;left:12px;bottom:12px;padding:10px}
+  .principleStrip{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .principleStrip span{padding:12px 8px;font-size:13px;min-width:0}
+  .section,.sectionNarrow{padding:54px 16px}
+  .splitIntro,.lifecycle{grid-template-columns:minmax(0,1fr);gap:16px}
+  .landingShowcase>header{flex-direction:column;align-items:stretch;gap:10px}
+  .showcaseDemo{padding:10px;border-radius:16px}
+  .showcaseGrid{grid-template-columns:minmax(0,1fr)}
+  .showcaseGrid>a{padding:18px}
+  .screenGrid{grid-template-columns:minmax(0,1fr)}
+  .screenCard,.screenThumb,.screenCardCopy{min-width:0}
+  .screenThumb img{width:100%;height:auto;object-fit:contain}
+  .screenFilters{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+  .screenFilters button{min-height:44px}
+  .screenTools input{min-height:44px;max-width:100%}
+  .studioProfile>header,.studioProjects>header{flex-wrap:wrap}
+  .studioProfileFields,.studioProjectGrid,.studioProjectPair,.studioFilters{grid-template-columns:minmax(0,1fr)}
+  .studioProfileFields input,.studioProfileFields textarea,.studioProjects input,.studioProjects textarea,.studioProjects select{max-width:100%;font-size:16px}
+  .studioDataActions,.studioProjectActions{flex-wrap:wrap}
+  .cadStudio{margin:24px 8px;padding:12px;border-radius:14px}
+  .cadStudio>nav,.cadToolbar{overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+  .cadLayout{grid-template-columns:minmax(0,1fr)}
+  .cadPlan{height:300px;max-width:100%}
+  .cadTable{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .cadTable table{min-width:620px}
+  .cadTransaction{bottom:max(8px,env(safe-area-inset-bottom));flex-wrap:wrap}
+  .mosquePrompt{padding:42px 12px}
+  .mosquePromptHead h2{font-size:clamp(33px,9vw,55px)}
+  .mosquePromptEditor{padding:14px;border-radius:16px;max-width:100%}
+  .mosquePromptField textarea{width:100%;font-size:16px}
+  .mosquePromptActions{align-items:stretch;flex-direction:column}
+  .mosquePromptSave{width:100%;min-height:48px}
+  .mosquePromptChips{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .mosquePromptChips strong{overflow-wrap:anywhere}
+  .mosquePromptReview{overflow-wrap:anywhere}
+}
+@media (max-width: 390px) {
+  .landingHero .buildViewport{min-height:290px}
+  .buildTop{padding:9px;font-size:10px}
+  .heroActions>*{max-width:100%}
+  .mosquePromptChips{grid-template-columns:minmax(0,1fr)}
+  .cadFields,.cadReview{grid-template-columns:minmax(0,1fr)}
+}
+@media (prefers-reduced-motion:reduce){
+  .mosquePromptCaret{animation:none}
+  .showcaseGrid>a,.mosquePromptChips button{transition:none}
+}
