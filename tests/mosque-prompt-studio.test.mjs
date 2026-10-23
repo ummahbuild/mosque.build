@@ -19,3 +19,12 @@ test("prompt inspiration covers reuse, climate, cost and program",()=>{
  for(const phrase of ["Kilimani","mall","Swahili","rural","warehouse","wudu","school","Sahelian","solar"])assert.match(source,new RegExp(phrase,"i"));
  assert.doesNotMatch(source,/fetch\(|XMLHttpRequest|navigator\.geolocation/);
 });
+
+test("prompt reset clears device draft and reports persistence failure",()=>{
+ assert.match(source,/const clear=\(\)=>/);
+ assert.match(source,/localStorage\.removeItem\(STORE_KEY\)/);
+ assert.match(source,/setReview\(false\)/);
+ assert.match(source,/role="alert"/);
+ assert.match(source,/Clear prompt and local draft/);
+ assert.match(source,/setError\("Local storage is unavailable/);
+});
