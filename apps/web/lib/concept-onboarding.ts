@@ -4,7 +4,7 @@ const has=(s:string,r:RegExp)=>r.test(s);
 export function parseMosqueConcept(input:string):ConceptFields{
  const s=input.slice(0,3000);
  const location=(s.match(/\b(?:in|at|near)\s+([A-Za-z][A-Za-z\s-]{2,45}?)(?=\s+(?:for|with|under|below|using|combining|that|to\s+(?:fit|serve))\b|[,.;]|$)/i)?.[1]||"").trim();
- const attendance=s.match(/\b(?:for|fit|fits|serve|serving|capacity(?:\s+for|\s+of)?)\s+(\d{1,6}(?:,\d{3})?)\s*(?:worshippers|people|persons|attendees|praying|seats)?\b/i)?.[1]||s.match(/\b(\d{1,6}(?:,\d{3})?)\s*(?:worshippers|people|persons|attendees)\b/i)?.[1]||"";
+ const attendance=s.match(/\b(?:for|fit|fits|serve|serving|capacity(?:\s+for|\s+of)?)\s+(\d{1,6}(?:,\d{3})?)\s*(?:worshippers|people|persons|attendees|praying|seats)?\b/i)?.[1]||s.match(/\b(\d{1,6}(?:,\d{3})?)\s*[- ]?\s*(?:worshippers|people|persons|attendees)\b/i)?.[1]||"";
  const budgetMatch=s.match(/\b(?:under|below|less than|up to|budget(?: of)?|within)\s*(?:USD|US\$|KES|KSH|GBP|EUR|\$|£|€)?\s*([\d,.]+)\s*(million|m|thousand|k)?\s*(USD|KES|KSH|GBP|EUR|dollars?)?\b/i);
  const prefix=s.match(/\b(?:under|below|less than|up to|budget(?: of)?|within)\s*(USD|US\$|KES|KSH|GBP|EUR|\$|£|€)/i)?.[1]||"";
  const curr=String(budgetMatch?.[3]||prefix).toUpperCase();
