@@ -14,7 +14,38 @@ const stamp=()=>new Date().toISOString(),clone=(x:CadDocument):CadDocument=>stru
 export const wallLength=(w:CadWall)=>Math.hypot(w.end.x-w.start.x,w.end.y-w.start.y);
 const close=(a:Point2,b:Point2,tolerance=.001)=>Math.hypot(a.x-b.x,a.y-b.y)<=tolerance;
 export function cadSnapPoint(point:Point2,doc:CadDocument,gridM=.5,toleranceM=.3){const safeGrid=finite(gridM,.01,100)?gridM:.5,safeTolerance=finite(toleranceM,0,10)?toleranceM:.3,endpoints=doc.walls.flatMap(w=>[w.start,w.end]),nearest=endpoints.map(p=>({p,d:Math.hypot(p.x-point.x,p.y-point.y)})).sort((a,b)=>a.d-b.d)[0];if(nearest&&nearest.d<=safeTolerance)return{point:{...nearest.p},mode:"endpoint" as const,distanceM:nearest.d};const snapped={x:Math.round(point.x/safeGrid)*safeGrid,y:Math.round(point.y/safeGrid)*safeGrid};return{point:snapped,mode:"grid" as const,distanceM:Math.hypot(snapped.x-point.x,snapped.y-point.y)}}
-function polygonAreaFor(space:CadSpace,walls:CadWall[]){const points=space.boundaryWallIds.flatMap(id=>{const w=walls.find(x=>x.id===id);return w?[w.start,w.end]:[]}),unique:Point2[]=[];for(const p of points)if(!unique.some(x=>close(x,p)))unique.push(p);if(unique.length<3)return 0;const center={x:unique.reduce((s,p)=>s+p.x,0)/unique.length,y:unique.reduce((s,p)=>s+p.y,0)/unique.length},ordered=[...unique].sort((a,b)=>Math.atan2(a.y-center.y,a.x-center.x)-Math.atan2(b.y-center.y,b.x-center.x));return Math.abs(ordered.reduce((sum,p,i)=>{const q=ordered[(i+1)%ordered.length];return sum+p.x*q.y-q.x*p.y},0)/2)}
+export function cadClosedBoundaryArea(space:CadSpace,walls:CadWall[]):number|null{
+ const segments=space.boundaryWallIds.map(id=>walls.find(w=>w.id===id));
+ if(segments.length<3||segments.some(w=>!w)||new Set(space.boundaryWallIds).size!==segments.length)return null;
+ const remaining=[...segments] as CadWall[];
+ const first=remaining.shift()!;
+ const start={...first.start};
+ let current={...first.end};
+ const vertices:Point2[]=[start,{...current}];
+ while(remaining.length){
+  const matches=remaining.filter(w=>close(w.start,current)||close(w.end,current));
+  if(matches.length!==1)return null;
+  const wall=matches[0],index=remaining.indexOf(wall);
+  remaining.splice(index,1);
+  current={...(close(wall.start,current)?wall.end:wall.start)};
+  if(vertices.some(v=>close(v,current))&&!close(current,start))return null;
+  vertices.push(current);
+ }
+ if(!close(current,start)||vertices.length<4)return null;
+ const ring=vertices.slice(0,-1);
+ const cross=(a:Point2,b:Point2,c:Point2)=>(b.x-a.x)*(c.y-a.y)-(b.y-a.y)*(c.x-a.x);
+ const intersects=(a:Point2,b:Point2,c:Point2,d:Point2)=>{
+  const ab1=cross(a,b,c),ab2=cross(a,b,d),cd1=cross(c,d,a),cd2=cross(c,d,b);
+  return ab1*ab2<0&&cd1*cd2<0;
+ };
+ for(let i=0;i<ring.length;i++)for(let j=i+1;j<ring.length;j++){
+  if(j===i+1||(i===0&&j===ring.length-1))continue;
+  if(intersects(ring[i],ring[(i+1)%ring.length],ring[j],ring[(j+1)%ring.length]))return null;
+ }
+ const area=Math.abs(ring.reduce((sum,p,i)=>{const q=ring[(i+1)%ring.length];return sum+p.x*q.y-q.x*p.y},0)/2);
+ return Number.isFinite(area)&&area>.0001?+area.toFixed(2):null;
+}
+function polygonAreaFor(space:CadSpace,walls:CadWall[]){return cadClosedBoundaryArea(space,walls)??0}
 export function recalculateCadSpaces(doc:CadDocument):CadDocument{return{...doc,spaces:doc.spaces.map(space=>({...space,areaM2:+polygonAreaFor(space,doc.walls).toFixed(2)}))}}
 export function emptyCadDocument():CadDocument{return{id:"mosque-concept",units:"m",revision:0,level:{id:"level-ground",name:"Ground floor",elevationM:0,heightM:3.6},walls:[],openings:[],spaces:[],updatedAt:""}}
 export function starterCadDocument():CadDocument{const walls:CadWall[]=[[[0,0],[8,0],"south · prayer"],[[12,0],[12,8],"east"],[[12,8],[8,8],"north · support"],[[0,8],[0,0],"west"],[[8,0],[8,8],"partition"],[[8,0],[12,0],"south · support"],[[8,8],[0,8],"north · prayer"]].map(([a,b,name],i)=>({id:`wall-${i+1}`,name:String(name),start:{x:(a as number[])[0],y:(a as number[])[1]},end:{x:(b as number[])[0],y:(b as number[])[1]},thicknessM:.24,heightM:3.6,typeId:"wall-masonry-concept",phase:"new"})) as CadWall[];return{...emptyCadDocument(),revision:1,walls,openings:[{id:"door-1",name:"Prayer hall entry",kind:"door",hostWallId:"wall-5",offsetM:3.2,widthM:1.2,heightM:2.2,sillM:0,typeId:"door-concept"}],spaces:[{id:"space-prayer",name:"Prayer hall",kind:"prayer",boundaryWallIds:["wall-1","wall-5","wall-7","wall-4"],areaM2:64,levelId:"level-ground"},{id:"space-support",name:"Support room",kind:"support",boundaryWallIds:["wall-6","wall-2","wall-3","wall-5"],areaM2:32,levelId:"level-ground"}],updatedAt:stamp()}}
