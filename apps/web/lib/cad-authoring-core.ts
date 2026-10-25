@@ -72,7 +72,7 @@ export function exportCadDetailedSchedulesCsv(doc:CadDocument){
  for(const w of doc.walls)rows.push(["wall",w.id,w.name,doc.level.id,w.typeId,+wallLength(w).toFixed(2),w.thicknessM,w.heightM,"","","",""]);
  for(const o of doc.openings)rows.push(["opening",o.id,o.name,o.hostWallId,o.typeId,"","",o.heightM,o.offsetM,o.widthM,o.sillM,""]);
  for(const s of doc.spaces)rows.push(["space",s.id,s.name,s.levelId,s.kind,"","","","","","",s.areaM2]);
- return rows.map(row=>row.map(cadCsvCell).join(",")).join("\\n");
+ return rows.map(row=>row.map(cadCsvCell).join(",")).join("\n");
 }
 export function exportCadJson(state:CadAuthoringState){return JSON.stringify({schema:CAD_AUTHORING_SCHEMA,exportedAt:stamp(),status:state.status,document:state.document,scope:"conceptual-authoring",professionalReviewRequired:true},null,2)}
 export function importCadJson(text:string):{state:CadAuthoringState|null;error:string|null}{if(text.length>2_000_000)return{state:null,error:"Import exceeds the 2 MB safety limit."};let value:unknown;try{value=JSON.parse(text)}catch{return{state:null,error:"The selected file is not valid JSON."}}if(!value||typeof value!=="object"||Object.getPrototypeOf(value)!==Object.prototype)return{state:null,error:"The import root must be a plain object."};const record=value as Record<string,unknown>,candidate=record.document?{...createCadAuthoringState(),document:record.document}:record,safe=safeCadAuthoringState(candidate);if(!safe)return{state:null,error:"The file does not match the supported CAD schema or contains blocking geometry."};return{state:{...safe,past:[],future:[],transaction:null,selection:[],updatedAt:stamp()},error:null}}
