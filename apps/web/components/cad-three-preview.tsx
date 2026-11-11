@@ -32,7 +32,9 @@ export function CadThreePreview() {
       setMessage("Commit a valid plan to view it in three dimensions.");
       return;
     }
-    let stopped = false, dispose = () => {};
+    let stopped = false;
+    const cleanups: Array<() => void> = [];
+    const dispose = () => { while (cleanups.length) { try { cleanups.pop()!(); } catch { /* Continue releasing remaining graphics resources. */ } } };
     setMessage("Preparing model view…");
     void (async () => {
       try {
@@ -42,8 +44,11 @@ export function CadThreePreview() {
         if (stopped) return;
         const scene = new THREE.Scene(), camera = new THREE.PerspectiveCamera(46, 1, .1, 20000);
         const renderer = new THREE.WebGLRenderer({ antialias: true });
+        cleanups.push(() => { renderer.dispose(); renderer.domElement.remove(); });
         const controls = new OrbitControls(camera, renderer.domElement);
+        cleanups.push(() => controls.dispose());
         const group = buildCadThreeGroup(doc);
+        cleanups.push(() => disposeCadThreeGroup(group));
         const bounds = new THREE.Box3().setFromObject(group), center = bounds.getCenter(new THREE.Vector3());
         const size = bounds.getSize(new THREE.Vector3());
         const radius = Math.max(size.x, size.y, size.z, 2);
@@ -56,24 +61,27 @@ export function CadThreePreview() {
         controls.listenToKeyEvents(renderer.domElement);
         controls.target.copy(center);
         const render = () => { if (!stopped && !document.hidden) renderer.render(scene, camera); };
+        let fitted = false;
         const resize = () => {
           const w = Math.max(1, container.clientWidth), h = Math.max(1, container.clientHeight);
           renderer.setSize(w, h, false);
           camera.aspect = w / h;
           const distance = radius * 1.8 / Math.min(camera.aspect, 1);
-          camera.position.copy(center).add(new THREE.Vector3(distance, distance * .75, distance));
+          if (!fitted) {
+            camera.position.copy(center).add(new THREE.Vector3(distance, distance * .75, distance));
+            fitted = true;
+          }
           camera.updateProjectionMatrix();
           controls.update();
           render();
         };
         const lost = (event: Event) => { event.preventDefault(); setMessage("The model view paused because graphics became unavailable. Retry, or use the floor plan and schedules."); };
         const observer = new ResizeObserver(resize);
-        dispose = () => {
-          observer.disconnect(); controls.removeEventListener("change", render); controls.dispose();
+        cleanups.push(() => {
+          observer.disconnect(); controls.removeEventListener("change", render);
           document.removeEventListener("visibilitychange", render);
           renderer.domElement.removeEventListener("webglcontextlost", lost);
-          disposeCadThreeGroup(group); renderer.dispose(); renderer.domElement.remove();
-        };
+        });
         controls.addEventListener("change", render);
         document.addEventListener("visibilitychange", render);
         renderer.domElement.addEventListener("webglcontextlost", lost);
