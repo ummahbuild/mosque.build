@@ -10,7 +10,7 @@ type Area={slug:string;eyebrow:string;title:string;summary:string;features:strin
 
 export function ProductAreaPage({area,insert}:{area:Area;insert?:ReactNode}){
   const stageByArea:Record<string,JourneyStage>={design:"Design",marketplace:"Approve + resource",construction:"Build",operations:"Open + care",permits:"Approve + resource",funding:"Approve + resource"};
-  return <><SiteHeader/><main>
+  return <><SiteHeader/><main tabIndex={-1} id="main-content">
     <section className={`areaHero${insert?" hasWorkspace":""}`}><div><div className="eyebrow gold">{area.eyebrow}</div><h1>{area.title}</h1><p className="heroLead">{area.summary}</p><div className="heroActions"><Link className="button" href={insert?"#workspace":"/start"}>{insert?"Open workspace":area.cta}</Link><Link className="secondaryButton lightButton" href={area.slug==="design"?"/patterns":"/prototypes"}>{area.slug==="design"?"Explore pattern studies":"See visual references"}</Link></div></div><InteractiveAreaPreview area={area}/></section>
     <ProjectJourneyNav current={stageByArea[area.slug]||"Define"} context={area.eyebrow}/>
     {insert?<nav className="workspaceNav" aria-label={`${area.eyebrow.toLowerCase()} page sections`}><a href="#workspace">Start planning</a><a href="#capabilities">What you can do</a><a href="#project-brief">Project brief</a></nav>:null}

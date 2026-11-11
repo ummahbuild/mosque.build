@@ -53,7 +53,11 @@ export function SiteHeader() {
     window.addEventListener("pointerdown", closeOutside);
     const focusable=header.current?.querySelectorAll<HTMLElement>('#mobile-navigation a, .menuButton');
     const keepFocus=(event:KeyboardEvent)=>{if(event.key!=="Tab"||!focusable?.length)return;const first=focusable[0],last=focusable[focusable.length-1];if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus()}else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus()}};
-    const closeWide=()=>{if(innerWidth>1100)setOpen(false)};
+    const closeWide=()=>{if(menuButton.current&&getComputedStyle(menuButton.current).display==="none"){
+      const menuHadFocus=header.current?.querySelector("#mobile-navigation")?.contains(document.activeElement);
+      setOpen(false);
+      if(menuHadFocus)header.current?.querySelector<HTMLAnchorElement>(".navLinks a")?.focus({preventScroll:true});
+    }};
     window.addEventListener("keydown",keepFocus);
     window.addEventListener("resize",closeWide,{passive:true});
     return () => {
