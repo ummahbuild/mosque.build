@@ -46,6 +46,7 @@ Status: `executable`, device-local. This release extends [project planning](53_P
 40. Sharp and its override are pinned to 0.35.5, which includes the upstream image-library security patches.
 41. A source-map-js override pins the transitive dependency to its patched 1.2.2 release.
 42. CI audits the locked web dependency graph and fails on high or critical advisories.
+43. The mobile landing showcase no longer uses negative margins wider than the page gutter, removing verified four-pixel page overflow at 390px.
 
 The release also includes the previously implemented [draft recovery, concept import and safe backup fixes](ISSUE_BUGFIX_REVIEW_2026_11_11.md).
 
