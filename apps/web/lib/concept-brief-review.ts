@@ -7,6 +7,7 @@ export function mergeReviewedConcept(current:ProjectDraft,concept:ConceptFields,
   const next={...current};
   for(const field of accepted){
     if(!conceptReviewFields.includes(field))throw new Error("Unsupported concept field.");
+    if(concept.evidence?.[field].status!==undefined&&concept.evidence[field].status!=="suggested")continue;
     if(field==="budget"){
       if(!concept.budget)continue;
       // Amount and currency must be reviewed together; never attach an old currency to a new amount.

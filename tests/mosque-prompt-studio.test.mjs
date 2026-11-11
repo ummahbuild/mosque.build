@@ -22,9 +22,9 @@ test("prompt inspiration covers reuse, climate, cost and program",()=>{
 
 test("prompt reset clears device draft and reports persistence failure",()=>{
  assert.match(source,/const clear=\(\)=>/);
- assert.match(source,/localStorage\.removeItem\(STORE_KEY\)/);
+ assert.match(source,/saveConceptPrompt\(localStorage,promptSnapshot\.current,null\)/);
  assert.match(source,/setReview\(false\)/);
  assert.match(source,/role="alert"/);
- assert.match(source,/Clear prompt and local draft/);
- assert.match(source,/setError\("Local storage is unavailable/);
+ assert.match(source,/Clear saved concept/);
+ assert.match(source,/Local storage is unavailable/);
 });

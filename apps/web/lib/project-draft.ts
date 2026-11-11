@@ -11,7 +11,7 @@ export const draftChoices = {
   stage: ["Idea / community need", "Searching for site", "Site identified", "Design started", "Permitting", "Fundraising", "Construction", "Existing mosque / operations"],
   land: ["Not yet", "Site under consideration", "Land owned", "Existing building", "Existing mosque"],
   timeline: ["Not set", "Under 12 months", "1–2 years", "2–5 years", "More than 5 years", "Phased / ongoing"],
-  currency: ["", "USD", "GBP", "EUR", "AED", "SAR", "Other / mixed"],
+  currency: ["", "USD", "GBP", "EUR", "AED", "SAR", "KES", "INR", "MAD", "Other / mixed"],
   governance: ["Informal working group", "Registered charity / nonprofit", "Mosque board / trustees", "Existing institution", "Waqf structure under review", "Other / not decided"],
   needs: ["Prayer hall", "Women / family", "Wudu", "Madrasa / classrooms", "Youth", "Community hall", "Janazah", "Accessibility", "Library", "Kitchen / iftar", "Parking", "Waqf / income-generating space"],
   priorities: ["Clarity on next steps", "Community brief", "Site feasibility", "Design options", "Permit path", "Cost reality", "Fundraising structure", "Products / suppliers", "Construction control", "Opening + operations"],

@@ -47,3 +47,15 @@ test("ranges, dimensions, unit rates and negated needs are not silently promoted
   for(const text of ["A wall under 1m", "budget USD 100 per person", "budget 90 per square metre"]){const c=parseMosqueConcept(text);assert.equal(c.budget,"");assert.ok(c.warnings.length);}
   for(const text of ["A mosque without a school.","A mosque, no madrasa or library.","Do not include classrooms."]){const c=parseMosqueConcept(text);assert.ok(!c.needs.includes("Madrasa / classrooms"));assert.notEqual(c.type,"Mosque + madrasa");assert.ok(c.warnings.length);}
 });
+
+test('explicit regional currencies survive review and draft reload',()=>{
+ for(const currency of ['KES','INR','MAD']){const proposal=parseMosqueConcept(`A mosque in Rabat, budget ${currency} 900000.`);const result=mergeReviewedConcept(existing,proposal,['budget']);assert.equal(result.currency,currency);assert.equal(result.budget,'900000');assert.deepEqual(safeProjectDraft(JSON.parse(JSON.stringify(result))),result)}
+});
+test('ambiguous fields cannot overwrite a populated draft even when explicitly passed for merging',()=>{
+ const unclear=parseMosqueConcept('A mosque near Nairobi or Rabat for 300–500 people, budget USD 1–2 million.');
+ const result=mergeReviewedConcept(existing,unclear,['location','attendance','budget']);
+ assert.deepEqual(result,existing);
+});
+test('bare dollar and rupee symbols do not inherit an existing draft currency',()=>{
+ for(const text of ['Budget $90000','Budget Rs 90000']){const result=mergeReviewedConcept(existing,parseMosqueConcept(text),['budget']);assert.equal(result.currency,'');assert.equal(result.budget,'90000');assert.equal(existing.currency,'EUR')}
+});
