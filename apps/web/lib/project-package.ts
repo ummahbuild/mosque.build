@@ -110,6 +110,7 @@ function inspectJson(value:unknown,depth=0,budget={nodes:0}):string|null{
   if(budget.nodes>20_000)return "The package contains too many nested values.";
   if(depth>20)return "The package nesting depth exceeds the safety limit.";
   if(typeof value==="string"&&value.length>100_000)return "The package contains an oversized text value.";
+  if(typeof value==="number"&&!Number.isFinite(value))return "The package contains a non-finite number.";
   if(value===null||["string","number","boolean"].includes(typeof value))return null;
   if(Array.isArray(value)){for(const item of value){const error=inspectJson(item,depth+1,budget);if(error)return error}return null}
   if(!isRecord(value))return "The package contains a value that cannot be safely restored.";
@@ -128,10 +129,31 @@ export function createProjectPackage(read:(key:string)=>string|null,privacy:Proj
   const sections:ProjectPackage["sections"]={};
   for(const section of projectSections){
     const raw=read(section.key);
-    if(!raw)continue;
-    try{const parsed:unknown=JSON.parse(raw);sections[section.id]=privacy==="share-safe"&&section.id==="brief"?redactBrief(parsed):parsed}catch{}
+    if(raw===null)continue;
+    let parsed:unknown;
+    try{parsed=JSON.parse(raw)}catch{throw new Error(`${section.label} contains unreadable saved data. Export stopped without omitting it. Download original records for recovery.`)}
+    const unsafe=inspectJson(parsed);if(unsafe)throw new Error(`${section.label}: ${unsafe} Download original records for recovery.`);
+    sections[section.id]=privacy==="share-safe"&&section.id==="brief"?redactBrief(parsed):parsed;
   }
   return {schema:PROJECT_PACKAGE_SCHEMA,exportedAt:now,privacy,product:"mosque.build",sections};
+}
+
+// Use the same compact bytes for download and validation, including Unicode text.
+export function serializeProjectPackage(data:ProjectPackage):string{
+  const checked=validateProjectPackage(data);
+  if(!checked.ok)throw new Error(checked.errors.join(" "));
+  return JSON.stringify(checked.data);
+}
+
+export type ProjectRestoreSnapshot=Map<string,string|null>;
+export function snapshotProjectSections(read:(key:string)=>string|null,data?:ProjectPackage):ProjectRestoreSnapshot{
+  return new Map(projectSections.filter(section=>!data||Object.hasOwn(data.sections,section.id)).map(section=>[section.key,read(section.key)]));
+}
+
+export function createOriginalRecordsArchive(snapshot:ProjectRestoreSnapshot,now=new Date().toISOString()){
+  return {schema:"mosque.build/original-records@1",product:"mosque.build",exportedAt:now,
+    boundary:"Private recovery archive of exact saved text. Not a restorable project package; repair records before importing. May contain personal information.",
+    records:Object.fromEntries(projectSections.filter(section=>snapshot.has(section.key)&&snapshot.get(section.key)!==null).map(section=>[section.key,snapshot.get(section.key)]))};
 }
 
 export function validateProjectPackage(value:unknown):{ok:true;data:ProjectPackage;warnings:string[]}|{ok:false;errors:string[]}{
@@ -149,23 +171,27 @@ export function validateProjectPackage(value:unknown):{ok:true;data:ProjectPacka
   if(ignored.length)warnings.push(`${ignored.length} unknown ${ignored.length===1?"section was":"sections were"} ignored.`);
   if(!Object.keys(sections).length)errors.push("The package contains no supported project sections.");
   const unsafe=inspectJson(sections);if(unsafe)errors.push(unsafe);
+  if(!unsafe&&new TextEncoder().encode(JSON.stringify(value)).byteLength>PROJECT_PACKAGE_MAX_BYTES)errors.push("The package exceeds the 2 MB limit. Download original records for recovery instead.");
+  if(typeof value.exportedAt==="string"&&Number.isFinite(Date.parse(value.exportedAt))&&new Date(value.exportedAt).toISOString().slice(0,19)!==value.exportedAt.slice(0,19))errors.push("The package export date is not a valid calendar date.");
   if(errors.length)return {ok:false,errors};
   if(value.privacy==="full-local-backup")warnings.push("This full backup may contain contact, location or project notes. Keep it private.");
+  else warnings.push("Only selected fields in the brief are redacted. Other sections and project names may contain personal information. Review the entire file before sharing.");
   return {ok:true,data:{schema:PROJECT_PACKAGE_SCHEMA,exportedAt:value.exportedAt as string,privacy:value.privacy as ProjectPackage["privacy"],product:"mosque.build",sections},warnings};
 }
 
 export function restoreProjectPackage(data:ProjectPackage,write:(key:string,value:string)=>void){
   let restored=0;
-  for(const section of projectSections){if(!(section.id in data.sections))continue;write(section.key,JSON.stringify(data.sections[section.id]));restored+=1}
+  for(const section of projectSections){if(!Object.hasOwn(data.sections,section.id))continue;write(section.key,JSON.stringify(data.sections[section.id]));restored+=1}
   return restored;
 }
 
-export function restoreProjectPackageSafely(data:ProjectPackage,storage:Pick<Storage,"getItem"|"setItem"|"removeItem">){
-  const targets=projectSections.filter(section=>section.id in data.sections);
+export function restoreProjectPackageSafely(data:ProjectPackage,storage:Pick<Storage,"getItem"|"setItem"|"removeItem">,expected?:ProjectRestoreSnapshot){
+  const targets=projectSections.filter(section=>Object.hasOwn(data.sections,section.id));
   // Read every original before the first write; a read failure must leave storage untouched.
   let previous:Map<string,string|null>;
   try{previous=new Map(targets.map(section=>[section.key,storage.getItem(section.key)]))}
   catch{throw new Error("Browser storage could not be read. No project sections were changed.")}
+  if(expected&&targets.some(section=>!expected.has(section.key)||expected.get(section.key)!==previous.get(section.key)))throw new Error("Your saved project changed after this preview opened. No sections were changed. Cancel and choose the package again to review the latest project.");
   const written:string[]=[];
   try{return restoreProjectPackage(data,(key,value)=>{storage.setItem(key,value);written.push(key)})}
   catch{

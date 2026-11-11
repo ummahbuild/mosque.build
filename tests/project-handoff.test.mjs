@@ -14,7 +14,7 @@ test("handoff domain is portable workflow-aware and bounded",()=>{
 });
 
 test("handoff ui is integrated accessible and mobile-ready",()=>{
-  for(const phrase of["HANDOFF READINESS","aria-label=\"Handoff recipients\"","Export share-safe packet","Save handoff record","Handoff boundary","aria-live"])assert.ok(ui.includes(phrase),phrase);
+  for(const phrase of["HANDOFF READINESS","aria-label=\"Handoff recipients\"","Export review packet","Save handoff record","Handoff boundary","aria-live"])assert.ok(ui.includes(phrase),phrase);
   assert.ok(page.includes("ProjectHandoffReadiness"));
   assert.ok(contents.includes("Handoff readiness"));
   assert.ok(projectPackage.includes("projectHandoff"));
