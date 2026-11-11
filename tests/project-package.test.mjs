@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import {createProjectPackage,PROJECT_PACKAGE_SCHEMA,projectSections,restoreProjectPackage,validateProjectPackage} from "../apps/web/lib/project-package.ts";
+import {createProjectPackage,PROJECT_PACKAGE_SCHEMA,projectSections,restoreProjectPackage,restoreProjectPackageSafely,validateProjectPackage} from "../apps/web/lib/project-package.ts";
 
 test("share-safe project package redacts sensitive brief fields",()=>{
   const values=new Map([["mosque-build.project-draft.v2",JSON.stringify({name:"Community project",location:"Private location",owner:"Private person",email:"private@example.test",notes:"Private notes",needs:["Prayer hall"]})],["mosque-build.pattern-shortlist.v1",JSON.stringify(["iran-cross-star"])]]);
@@ -23,6 +23,27 @@ test("validator rejects foreign and empty package data",()=>{
 test("restore writes only allowlisted supported sections",()=>{
   const input={schema:PROJECT_PACKAGE_SCHEMA,product:"mosque.build",privacy:"share-safe",exportedAt:"2026-09-08T10:00:00.000Z",sections:{brief:{name:"Restored"},patterns:["one"],unknown:{unsafe:true}}};
   const checked=validateProjectPackage(input);assert.equal(checked.ok,true);if(!checked.ok)return;const written=new Map();const count=restoreProjectPackage(checked.data,(key,value)=>written.set(key,value));assert.equal(count,2);assert.equal(written.size,2);assert.equal(written.has(projectSections.find(item=>item.id==="brief").key),true);assert.equal([...written.values()].some(value=>value.includes("unsafe")),false);
+});
+
+test("project restore snapshots before writes and rolls back only successful writes",()=>{
+  const brief=projectSections.find(s=>s.id==="brief").key,patterns=projectSections.find(s=>s.id==="patterns").key;
+  const data={sections:{brief:{name:"Replacement"},patterns:["new"]}};
+  const values=new Map([[brief,"original"]]);let writes=0;
+  const storage={getItem:key=>values.get(key)??null,setItem:(key,value)=>{writes++;if(key===patterns)throw new Error("full");values.set(key,value)},removeItem:key=>values.delete(key)};
+  assert.throws(()=>restoreProjectPackageSafely(data,storage),/previous project sections were kept/);
+  assert.equal(values.get(brief),"original");assert.equal(values.has(patterns),false);assert.equal(writes,3);
+  writes=0;
+  assert.throws(()=>restoreProjectPackageSafely(data,{...storage,getItem:()=>{throw new Error("blocked")}}),/No project sections were changed/);
+  assert.equal(writes,0);
+});
+
+test("project restore reports incomplete rollback honestly and removes newly created sections",()=>{
+  const values=new Map(),brief=projectSections.find(s=>s.id==="brief").key,patterns=projectSections.find(s=>s.id==="patterns").key;
+  const data={sections:{brief:{name:"Replacement"},patterns:["new"]}};
+  const storage={getItem:key=>values.get(key)??null,setItem:(key,value)=>{if(key===patterns)throw new Error("full");values.set(key,value)},removeItem:key=>values.delete(key)};
+  assert.throws(()=>restoreProjectPackageSafely(data,storage),/previous project sections were kept/);assert.equal(values.size,0);
+  assert.throws(()=>restoreProjectPackageSafely(data,{...storage,removeItem:()=>{throw new Error("blocked")}}),/could not be recovered/);
+  assert.equal(values.has(brief),true);
 });
 
 test("design intelligence is a portable allowlisted section",()=>{

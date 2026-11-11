@@ -159,3 +159,20 @@ export function restoreProjectPackage(data:ProjectPackage,write:(key:string,valu
   for(const section of projectSections){if(!(section.id in data.sections))continue;write(section.key,JSON.stringify(data.sections[section.id]));restored+=1}
   return restored;
 }
+
+export function restoreProjectPackageSafely(data:ProjectPackage,storage:Pick<Storage,"getItem"|"setItem"|"removeItem">){
+  const targets=projectSections.filter(section=>section.id in data.sections);
+  // Read every original before the first write; a read failure must leave storage untouched.
+  let previous:Map<string,string|null>;
+  try{previous=new Map(targets.map(section=>[section.key,storage.getItem(section.key)]))}
+  catch{throw new Error("Browser storage could not be read. No project sections were changed.")}
+  const written:string[]=[];
+  try{return restoreProjectPackage(data,(key,value)=>{storage.setItem(key,value);written.push(key)})}
+  catch{
+    let rollbackFailed=false;
+    for(const key of written.reverse()){
+      try{const original=previous.get(key)!;if(original===null)storage.removeItem(key);else storage.setItem(key,original)}catch{rollbackFailed=true}
+    }
+    throw new Error(rollbackFailed?"Restore stopped and some previous sections could not be recovered. Keep your backup file and review the project before editing.":"Restore stopped because browser storage could not be written. Your previous project sections were kept.");
+  }
+}

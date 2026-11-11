@@ -3,6 +3,7 @@
 import Link from "next/link";
 import {usePathname} from "next/navigation";
 import {useEffect, useRef, useState} from "react";
+import {parseProjectDraft,readProjectDraft,initialDraftStep} from "@/lib/project-draft";
 
 const links = [
   ["/features", "How it works"],
@@ -25,7 +26,16 @@ export function SiteHeader() {
   const header = useRef<HTMLElement>(null);
 
   useEffect(() => setOpen(false), [pathname]);
-  useEffect(()=>{try{const draft=JSON.parse(localStorage.getItem("mosque-build.project-draft.v2")||"null");if(!draft?.name?.trim())return;const complete=!!(draft.location?.trim()&&draft.needs?.length&&draft.priorities?.length&&draft.constraints?.length&&draft.owner?.trim()&&draft.team?.length&&draft.funding?.length);setProjectEntry(complete?{href:"/my-project",label:"Continue project"}:{href:"/start",label:"Continue brief"})}catch{}},[pathname]);
+  useEffect(()=>{
+    const update=()=>{try{
+      const stored=readProjectDraft(localStorage);
+      if(stored.raw===null){setProjectEntry({href:"/start",label:"Start a project"});return}
+      const draft=parseProjectDraft(stored.raw);
+      setProjectEntry(!draft?{href:"/start",label:"Recover brief"}:initialDraftStep(draft,null)===5?{href:"/my-project",label:"Continue project"}:{href:"/start",label:"Continue brief"});
+    }catch{setProjectEntry({href:"/start",label:"Open project brief"})}};
+    update();window.addEventListener("mosque-build:project-change",update);window.addEventListener("storage",update);
+    return()=>{window.removeEventListener("mosque-build:project-change",update);window.removeEventListener("storage",update)};
+  },[pathname]);
   useEffect(() => {
     if (!open) return;
     const previousOverflow=document.body.style.overflow;
