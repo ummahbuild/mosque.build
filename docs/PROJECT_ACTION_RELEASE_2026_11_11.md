@@ -42,6 +42,10 @@ Status: `executable`, device-local. This release extends [project planning](53_P
 36. First service-worker installation no longer reloads an already open form.
 37. Review date fields stack on constrained tablet cards, fixing verified horizontal overflow.
 38. Schedule editor fields shrink and stack at the tablet breakpoint, fixing a second verified overflow source.
+39. Next.js is pinned to 16.4.1 to address the advisories reported against the former 16.2.11 installation.
+40. Sharp and its override are pinned to 0.35.5, which includes the upstream image-library security patches.
+41. A source-map-js override pins the transitive dependency to its patched 1.2.2 release.
+42. CI audits the locked web dependency graph and fails on high or critical advisories.
 
 The release also includes the previously implemented [draft recovery, concept import and safe backup fixes](ISSUE_BUGFIX_REVIEW_2026_11_11.md).
 
@@ -53,6 +57,7 @@ The release also includes the previously implemented [draft recovery, concept im
 - Full repository suite: 583 tests, 582 passed, one optional external IFC-parser test skipped. Repository validation and privacy scan passed. Production build/typecheck and hosted release checks are recorded in the delivery response.
 - RLS: no shared persistence, new API or project/member database changes. These controls are device-local, not cross-user access control. Existing RLS gates remain required for future shared project storage.
 - Provenance: no new external factual records, prices, permits or religious claims. Existing source/review boundaries retained.
+- Dependency evidence, observed 2026-11-11: npm audit identified the affected installed versions; published patch ranges were checked against [Next.js GHSA-2464-fhr4-w9xw](https://github.com/advisories/GHSA-2464-fhr4-w9xw), [Sharp GHSA-wq5f-xc86-pv6w](https://github.com/advisories/GHSA-wq5f-xc86-pv6w) and [source-map-js GHSA-68fv-2mgg-jv7q](https://github.com/advisories/GHSA-68fv-2mgg-jv7q). These are vendor/advisory records, not a claim of an independent penetration test. No third-party content was copied into the product.
 - Limits: responsive browser testing is not physical iOS/Android or installed standalone testing. Assistive-technology review, real-device install/update/offline testing and professional review of regulated outputs remain open. Compare-before-write is not an atomic cross-tab database transaction. Working-copy exports may contain unfinished fields or private notes and must be reviewed before restoration/sharing.
 
 ## Next development slices
