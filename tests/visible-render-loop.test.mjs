@@ -88,6 +88,10 @@ for(const name of ['interior-systems-three','interior-three-preview','site-three
  test(`${name} uses the shared lifecycle and stops it before resource disposal`,()=>{
    const component=readFileSync(new URL(`../apps/web/components/${name}.tsx`,import.meta.url),'utf8');
    assert.match(component,/startVisibleRenderLoop\(host.current,/);assert.doesNotMatch(component,/requestAnimationFrame/);
-   assert.match(component,/stopRendering\(\);[\s\S]*controls.dispose\(\)/);
+   if(name==='site-three-coordination') {
+     assert.match(component,/disposers.splice\(0\).reverse\(\)/);
+     assert.ok(component.indexOf('disposers.push(()=>controls.dispose())')<component.indexOf('disposers.push(stopRendering)'));
+     assert.match(component,/disposers.push\(stopRendering\)/);
+   } else assert.match(component,/stopRendering\(\);[\s\S]*controls.dispose\(\)/);
  });
 }
