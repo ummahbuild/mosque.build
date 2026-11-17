@@ -58,6 +58,36 @@ export function readCadRecord(raw: string | null): CadReadResult {
   }
 }
 
+export type CadImportReview = {kind:"ready";state:CadAuthoringState;repair:boolean;history:"included"|"model-only"}|{kind:"error";message:string};
+export function reviewCadImport(text:string):CadImportReview {
+  if(bytes(text)>CAD_MAX_BYTES)return {kind:"error",message:"Import exceeds the 2 MB safety limit."};
+  let value;try{value=JSON.parse(text)}catch{return {kind:"error",message:"The selected file is not valid JSON."};}
+  if(!value||typeof value!=="object"||Array.isArray(value)||value.schema!==CAD_AUTHORING_SCHEMA||value.status!=="executable")return {kind:"error",message:"Unsupported CAD schema or status."};
+  const hasHistory=["past","future","selection","transaction"].some(key=>Object.hasOwn(value,key));
+  if(hasHistory&&value.transaction!==null)return {kind:"error",message:"This backup has an unfinished or missing revision state. Commit or cancel the revision in the original editor, then export a new backup."};
+  // A full backup must validate as a whole. Never fall back to its document and
+  // silently discard damaged or unsupported history.
+  const result=readCadRecord(hasHistory?text:JSON.stringify({...createCadAuthoringState(),...value}));
+  if(result.kind==="recovery")return {kind:"error",message:result.message};
+  return {kind:"ready",state:result.state,repair:result.kind==="legacy",history:hasHistory?"included":"model-only"};
+}
+export function exportCadHistoryJson(state:CadAuthoringState):string {
+  if(state.transaction)throw new Error("Commit or cancel the pending revision before exporting a history backup.");
+  const raw=JSON.stringify(state);
+  if(bytes(raw)>CAD_MAX_BYTES)throw new Error("Model and history exceed the 2 MB import limit. Export the model separately and keep the original saved record for recovery.");
+  if(readCadRecord(raw).kind!=="ready")throw new Error("The model or its history needs recovery before exporting a history backup.");
+  return raw;
+}
+export function createCadImportReader(){
+  let generation=0;
+  return {cancel(){generation++;},async read(file:Pick<File,"name"|"size"|"text">):Promise<(CadImportReview&{fileName:string})|null>{
+    const request=++generation;let review:CadImportReview;
+    try{review=file.size>CAD_MAX_BYTES?{kind:"error",message:"Import exceeds the 2 MB safety limit."}:reviewCadImport(await file.text());}
+    catch{review={kind:"error",message:"This file could not be read. Choose it again or try another JSON backup."};}
+    return request===generation?{...review,fileName:file.name}:null;
+  }};
+}
+
 export type CadWriteResult = { ok: true; raw: string } | { ok: false; error: string };
 export function writeCadRecord(store: Store, expected: string | null | undefined, state: CadAuthoringState, backup = false): CadWriteResult {
   if (expected === undefined) return { ok: false, error: "Storage could not be read. Reload before saving, or export your work." };
