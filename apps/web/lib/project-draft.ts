@@ -81,13 +81,16 @@ export function createDraftImportReader(){
 }
 export type DraftSnapshot={key:string;raw:string|null};
 export type DraftStorage=Pick<Storage,"getItem"|"setItem">;
+export class ProjectDraftConflictError extends Error {
+  constructor(){super("The saved brief changed in another tab. Reload to review it before saving again.");}
+}
 export function readProjectDraft(storage:DraftStorage):DraftSnapshot {
   const current=storage.getItem(PROJECT_DRAFT_KEY);
   return current!==null?{key:PROJECT_DRAFT_KEY,raw:current}:{key:LEGACY_DRAFT_KEY,raw:storage.getItem(LEGACY_DRAFT_KEY)};
 }
 export function persistProjectDraft(storage:DraftStorage,draft:ProjectDraft,expected:DraftSnapshot,backup=false):DraftSnapshot {
   const current=readProjectDraft(storage);
-  if(current.key!==expected.key||current.raw!==expected.raw)throw new Error("The saved brief changed in another tab. Reload to review it before saving again.");
+  if(current.key!==expected.key||current.raw!==expected.raw)throw new ProjectDraftConflictError();
   if(!safeProjectDraft(draft))throw new Error("Some brief fields are not supported. Export your working brief before leaving.");
   const raw=JSON.stringify(draft);
   if(raw.length>MAX_DRAFT_LENGTH)throw new Error("This brief exceeds the saved text limit. Shorten the text or download your working brief before leaving.");
