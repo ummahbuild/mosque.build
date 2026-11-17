@@ -18,8 +18,9 @@ export function PwaRegister() {
     window.addEventListener("offline", offlineHandler);
 
     let refreshing = false;
+    const hadController = !!navigator.serviceWorker?.controller;
     const controllerChanged = () => {
-      if (!refreshing) {
+      if (hadController && !refreshing) {
         refreshing = true;
         window.location.reload();
       }

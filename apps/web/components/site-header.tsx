@@ -3,6 +3,7 @@
 import Link from "next/link";
 import {usePathname} from "next/navigation";
 import {useEffect, useRef, useState} from "react";
+import {parseProjectDraft,readProjectDraft,initialDraftStep} from "@/lib/project-draft";
 
 const links = [
   ["/features", "How it works"],
@@ -25,7 +26,16 @@ export function SiteHeader() {
   const header = useRef<HTMLElement>(null);
 
   useEffect(() => setOpen(false), [pathname]);
-  useEffect(()=>{try{const draft=JSON.parse(localStorage.getItem("mosque-build.project-draft.v2")||"null");if(!draft?.name?.trim())return;const complete=!!(draft.location?.trim()&&draft.needs?.length&&draft.priorities?.length&&draft.constraints?.length&&draft.owner?.trim()&&draft.team?.length&&draft.funding?.length);setProjectEntry(complete?{href:"/my-project",label:"Continue project"}:{href:"/start",label:"Continue brief"})}catch{}},[pathname]);
+  useEffect(()=>{
+    const update=()=>{try{
+      const stored=readProjectDraft(localStorage);
+      if(stored.raw===null){setProjectEntry({href:"/start",label:"Start a project"});return}
+      const draft=parseProjectDraft(stored.raw);
+      setProjectEntry(!draft?{href:"/start",label:"Recover brief"}:initialDraftStep(draft,null)===5?{href:"/my-project",label:"Continue project"}:{href:"/start",label:"Continue brief"});
+    }catch{setProjectEntry({href:"/start",label:"Open project brief"})}};
+    update();window.addEventListener("mosque-build:project-change",update);window.addEventListener("storage",update);
+    return()=>{window.removeEventListener("mosque-build:project-change",update);window.removeEventListener("storage",update)};
+  },[pathname]);
   useEffect(() => {
     if (!open) return;
     const previousOverflow=document.body.style.overflow;
@@ -43,7 +53,11 @@ export function SiteHeader() {
     window.addEventListener("pointerdown", closeOutside);
     const focusable=header.current?.querySelectorAll<HTMLElement>('#mobile-navigation a, .menuButton');
     const keepFocus=(event:KeyboardEvent)=>{if(event.key!=="Tab"||!focusable?.length)return;const first=focusable[0],last=focusable[focusable.length-1];if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus()}else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus()}};
-    const closeWide=()=>{if(innerWidth>1100)setOpen(false)};
+    const closeWide=()=>{if(menuButton.current&&getComputedStyle(menuButton.current).display==="none"){
+      const menuHadFocus=header.current?.querySelector("#mobile-navigation")?.contains(document.activeElement);
+      setOpen(false);
+      if(menuHadFocus)header.current?.querySelector<HTMLAnchorElement>(".navLinks a")?.focus({preventScroll:true});
+    }};
     window.addEventListener("keydown",keepFocus);
     window.addEventListener("resize",closeWide,{passive:true});
     return () => {
@@ -59,7 +73,7 @@ export function SiteHeader() {
     <Link className="brand" href="/" aria-label="mosque.build home"><span className="brandMark" aria-hidden="true">⌂</span><span>mosque<span className="brandDot">.</span>build</span></Link>
     <nav className="navLinks" aria-label="Primary navigation">{links.map(([href, label]) => <Link href={href} key={href} aria-current={isCurrent(href) ? "page" : undefined}>{label}</Link>)}</nav>
     <div className="navActions">
-      <Link className="textButton" href="/studio" aria-current={pathname === "/studio" ? "page" : undefined}>Design studio</Link>
+      <Link className="textButton compactStudioLink" href="/studio" aria-current={pathname === "/studio" ? "page" : undefined}>Design studio</Link>
       <Link className="textButton projectNavLink" href="/my-project" aria-current={pathname === "/my-project" ? "page" : undefined}>My project</Link>
       <Link className="button small" href={projectEntry.href} aria-current={pathname === projectEntry.href ? "page" : undefined}>{projectEntry.label}</Link>
       <button ref={menuButton} className="menuButton" type="button" aria-expanded={open} aria-controls="mobile-navigation" aria-label={`${open ? "Close" : "Open"} navigation menu`} onClick={() => setOpen(value => !value)}><span aria-hidden="true">{open ? "×" : "☰"}</span></button>

@@ -20,3 +20,6 @@ Status: **verified local hardening; hosted penetration testing not performed**
 ## Release checks
 
 Run dependency audit, tests, validation, privacy scan and production build. Verify response headers against a deployed HTTPS origin, test the offline shell without a network, and run RLS tests against an isolated Supabase project before treating cloud persistence as deployable.
+## 2026-11-11 dependency follow-up
+
+The earlier dependency versions below are historical. The web release now pins Next.js 16.4.1, Sharp 0.35.5 and source-map-js 1.2.2; its updated lockfile returned zero advisories from `pnpm --dir apps/web audit --json` on 2026-11-11. CI now fails on high/critical dependency advisories. See the [release evidence and advisory links](PROJECT_ACTION_RELEASE_2026_11_11.md). This check covers the locked web dependency graph, not an independent penetration test or a native-app release.

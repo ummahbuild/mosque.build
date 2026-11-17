@@ -1,4 +1,4 @@
-import type {CadDocument,CadWall,CadSpace} from "./cad-authoring-core";
+import {cadCsvCell,type CadDocument,type CadWall,type CadSpace} from "./cad-authoring-core";
 
 export type CadLevelSummary={id:string;name:string;elevationM:number;storeyHeightM:number;wallCount:number;spaceCount:number;spaceAreaM2:number;conceptualSlabAreaM2:number;reviewNotes:string[]};
 
@@ -16,6 +16,6 @@ export function cadLevelSummary(doc:CadDocument):CadLevelSummary {
 }
 export function exportCadLevelScheduleCsv(doc:CadDocument){
  const s=cadLevelSummary(doc);
- const quote=(v:unknown)=>'"'+String(v).replaceAll('"','""')+'"';
- return [["level_id","name","elevation_m","storey_height_m","walls","spaces","space_area_m2","conceptual_slab_area_m2","review"],[s.id,s.name,s.elevationM,s.storeyHeightM,s.wallCount,s.spaceCount,s.spaceAreaM2,s.conceptualSlabAreaM2,s.reviewNotes.join("; ")]].map(row=>row.map(quote).join(",")).join("\n");
+
+ return [["level_id","name","elevation_m","storey_height_m","walls","spaces","space_area_m2","conceptual_slab_area_m2","review"],[s.id,s.name,s.elevationM,s.storeyHeightM,s.wallCount,s.spaceCount,s.spaceAreaM2,s.conceptualSlabAreaM2,s.reviewNotes.join("; ")]].map(row=>row.map(cadCsvCell).join(",")).join("\n");
 }

@@ -16,7 +16,8 @@ test("no numbers are invented and user input bounded",()=>{
 test("onboarding requires explicit acceptance and never fetches an AI model",()=>{
  const wizard=fs.readFileSync(new URL("../apps/web/components/start-project-wizard.tsx",import.meta.url),"utf8");
  const prompt=fs.readFileSync(new URL("../apps/web/components/mosque-prompt-studio.tsx",import.meta.url),"utf8");
- assert.match(wizard,/Apply suggested fields/);assert.match(wizard,/Keep existing brief/);
+ const review=fs.readFileSync(new URL("../apps/web/components/concept-import-review.tsx",import.meta.url),"utf8");
+ assert.match(wizard,/ConceptImportReview/);assert.match(review,/Apply suggested fields/);assert.match(review,/Keep existing brief/);
  assert.match(prompt,/Review detected brief/);assert.match(prompt,/Continue with suggested fields/);
  assert.doesNotMatch(prompt,/fetch\(|XMLHttpRequest/);
 });
@@ -34,6 +35,6 @@ test("unknown currency remains unknown instead of being assumed USD",()=>{
 });
 test("existing project type and imported notes must remain safe",()=>{
  const src=fs.readFileSync(new URL("../apps/web/components/start-project-wizard.tsx",import.meta.url),"utf8");
- assert.match(src,/current\.name\.trim\(\)\?current\.type:c\.type/);
- assert.match(src,/join\("\\n\\n"\)/);
+ assert.match(src,/mergeReviewedConcept\(draft,concept,fields\)/);
+ assert.match(src,/persistProjectDraft/);
 });

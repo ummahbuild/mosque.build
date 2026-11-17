@@ -1,9 +1,9 @@
-const CACHE="mosque-build-shell-v23";
+const CACHE="mosque-build-shell-v24";
 const SHELL=["/","/start","/my-project","/features","/features/priority-100","/features/priority-200","/features/priority-300","/features/priority-400","/features/priority-500","/features/priority-600","/features/priority-700","/features/priority-800","/resources","/patterns","/prototypes","/open-source","/sources","/roadmap","/manifest.webmanifest","/offline.html","/icons/icon-192.png","/icons/icon-512.png"];
 
 self.addEventListener("install",event=>event.waitUntil(caches.open(CACHE).then(cache=>Promise.allSettled(SHELL.map(async path=>{const response=await fetch(path,{cache:"no-cache"});if(response.ok)await cache.put(path,response)})))));
 self.addEventListener("message",event=>{if(event.data?.type==="SKIP_WAITING")self.skipWaiting()});
-self.addEventListener("activate",event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
+self.addEventListener("activate",event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith("mosque-build-shell-")&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
 self.addEventListener("fetch",event=>{
   if(event.request.method!=="GET")return;
   const url=new URL(event.request.url);if(url.origin!==location.origin)return;

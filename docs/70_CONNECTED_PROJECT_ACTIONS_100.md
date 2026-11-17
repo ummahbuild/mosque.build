@@ -46,3 +46,6 @@ Status: `executable` device-local coordination. This action desk prioritizes rec
 
 Authenticated collaboration, RLS, immutable history, notifications, signed review, evidence attachments, calendar synchronization and server conflict resolution remain future work. Those capabilities must not be implied by this local executable slice.
 
+## 2026-11-11 implementation follow-up
+
+The [action desk release](PROJECT_ACTION_RELEASE_2026_11_11.md) adds explicit saving, recoverable conflicts, complete action browsing, deadline views, portable exports and responsive fixes. Its acceptance evidence and remaining release limits supersede any broader readiness implication in this planning ledger.
