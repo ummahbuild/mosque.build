@@ -1,5 +1,5 @@
 export const CONCEPT_HANDOFF_KEY = "mosque-build.concept-handoff.v1";
-export const CONCEPT_PARSER_VERSION = "mosque.build/concept-parser@3";
+export const CONCEPT_PARSER_VERSION = "mosque.build/concept-parser@4";
 export type ConceptField = "location" | "attendance" | "budget" | "currency" | "type" | "needs" | "style" | "storeys" | "notes";
 export type ConceptSource = { start: number; end: number; quote: string };
 export type ConceptEvidence = { status: "suggested" | "ambiguous" | "unspecified"; confidence: "explicit" | "interpreted" | "none"; sources: ConceptSource[]; reason: string };
@@ -34,6 +34,8 @@ function quantityContext(text:string,start:number,end:number){
 const recurringCost=/\b(?:annual(?:ly)?|yearly|monthly|weekly|daily|operating|operational|maintenance|rent|salar(?:y|ies)|wages|utilities)\b|\b(?:kila mwaka|kila mwezi|uendeshaji)\b|سنوي|شهري|تشغيل|صيانة/iu;
 const componentCost=/\b(?:land|plot|site acquisition|carpets?|dome|roof|solar|equipment|furniture|wudu|parking|donations?|pledges?|grants?|raised|fundraised|available funds)\b|\b(?:ardhi|michango)\b|أرض|ارض|تبرع|تبرعات/iu;
 const overallBudget=/\b(?:overall|entire|total|whole)\s+(?:(?:project|construction|build|mosque)\s+)?(?:budget|cost)\b/iu;
+// These phrases describe time, prayer occasions or planning state, not a locality.
+const nonLocality=/^(?:total|principle|general|advance|the future|future|phases?(?:\s+[\p{L}]+)?|stages?(?:\s+[\p{L}]+)?|peak(?:\s+(?:times?|hours?))?|(?:daily|weekly|monthly|annual)\s+(?:use|operation)|(?:fajr|dhuhr|zuhr|asr|maghrib|isha|jumu[’'‘]?ah?|jummah|friday|eid)(?:\s+(?:prayers?|times?|services?))?|(?:january|february|march|april|may|june|july|august|september|october|november|december|ramadan|summer|winter|spring|autumn|fall))$/iu;
 const costPurpose=/^\s*(?:(?:for|towards?|on|of|is|in|every|each|a)\s+)?(?:the\s+)?((?:[\p{L}-]+\s*){1,4})/iu;
 
 export function parseMosqueConcept(input: string): ConceptFields {
@@ -71,10 +73,13 @@ export function parseMosqueConcept(input: string): ConceptFields {
     const phased=contexts.some(({after})=>
       new RegExp(`^\\s*(?:initially|now|at first|in phase \\d+)\\b[^.;!?]*\\b(?:and|then|to)\\s+${numberPattern}`,"iu").test(after)||
       new RegExp(`^\\s*${rangePattern}\\s*${numberPattern}\\s*(?:(?:${units})(?![\\p{L}])|eventually\\b|later\\b|ultimately\\b|$)`,"iu").test(after));
+    const throughput=field==="attendance"&&contexts.some(({before,after})=>
+      /^\s*(?:(?:per|each|every|a|an|over|across)\s+(?:a\s+|an\s+|the\s+)?(?:day|week|month|year|hour|minute)|\/\s*(?:day|week|month|year|hour|minute)|daily\b|weekly\b|monthly\b|annually\b|kwa\s+(?:siku|wiki|mwezi|mwaka)|kila\s+(?:siku|wiki|mwezi|mwaka)|يومي|أسبوعي|شهري|سنوي)/iu.test(after)||
+      /\b(?:daily|weekly|monthly|annual|hourly)\s*(?:(?:attendance|visitors?|footfall|throughput)\s*(?:of|is|:)?\s*)?$/iu.test(before));
     const dimension=contexts.some(({after})=>/^\s*(?:m[²2³3]?|sq\.?\s*(?:ft|m)|square\s+(?:feet|metres?|meters?)|litres?|liters?)(?![\p{L}])/iu.test(after));
-    if (qualified||population||phased||dimension||matches.some(m=>m[2]||m[3]) || values.some(n => n === null || !Number.isInteger(n) || n < 1 || n > max) || new Set(values).size !== 1) {
+    if (qualified||population||phased||throughput||dimension||matches.some(m=>m[2]||m[3]) || values.some(n => n === null || !Number.isInteger(n) || n < 1 || n > max) || new Set(values).size !== 1) {
       const label=field==="attendance"?"attendance":"storey count";
-      const reason=population?"This looks like a population or neighborhood count. Enter the intended prayer attendance separately.":
+      const reason=throughput?"This count describes visits over time. Enter the number expected at one prayer separately.":population?"This looks like a population or neighborhood count. Enter the intended prayer attendance separately.":
         phased?`More than one phase or future quantity is described. Choose the ${label} for the phase you are planning.`:
         dimension?`This quantity has area or volume units. Enter the intended ${label} separately.`:
         qualified||matches.some(m=>m[3])?`This ${label} is approximate or a limit. Enter one intended value before planning.`:
@@ -92,9 +97,13 @@ export function parseMosqueConcept(input: string): ConceptFields {
   const placeRE = /(?:\b(?:in|at|near|katika|karibu na)\b|بالقرب من|في)\s+([\p{L}][\p{L}\p{M}\s,'’.-]{1,100}?)(?=\s+(?:for|with|under|below|using|combining|that|to|budget|in|at|near|kwa|yenye|bajeti|katika|watu|waumini|but|however|instead|lakini)\b|\s+(?:بسعة|لعدد|بميزانية|لكن|لـ?\s*\d)|[;.!?\n]|$)/giu;
   const places = [...positive.matchAll(placeRE)];
   if (places.length) {
-    const names = places.map(m => m[1].trim().replace(/[,\s]+$/, ""));
-    const sources = places.map(m => { const start = m.index! + m[0].indexOf(m[1]); return source(start, start + names[places.indexOf(m)].length); });
-    if (new Set(names.map(x => x.toLowerCase())).size > 1 || names.some(n => /^(?:St|Mt|Dr)$/i.test(n)||/\b(?:or|and|maybe|somewhere|existing|building|mosque|school|warehouse|courtyard|budget|prayer|storey|style|an?|the)\b|أو|او|مدرسة|مسجد/iu.test(n))) mark("location", "ambiguous", sources, "Location is unclear or contains alternatives. Enter the intended locality; no site is inferred.");
+    const candidates=places.map(m=>{
+      const name=m[1].trim().replace(/[,\s]+$/, ""),start=m.index!+m[0].indexOf(m[1]);
+      return {name,source:source(start,start+name.length)};
+    });
+    const localities=candidates.filter(candidate=>!nonLocality.test(candidate.name));
+    const names=localities.map(candidate=>candidate.name),sources=(localities.length?localities:candidates).map(candidate=>candidate.source);
+    if (!localities.length || new Set(names.map(x => x.toLowerCase())).size > 1 || names.some(n => /^(?:St|Mt|Dr)$/i.test(n)||/\b(?:or|and|maybe|somewhere|existing|building|mosque|school|warehouse|courtyard|budget|prayer|storey|style|an?|the)\b|أو|او|مدرسة|مسجد/iu.test(n))) mark("location", "ambiguous", sources, "Location is unclear or contains alternatives. Enter the intended locality; no site is inferred.");
     else { location = names[0]; mark("location", "suggested", sources, "Place text supplied by you; no address or site has been verified."); }
   }
 
@@ -119,13 +128,15 @@ export function parseMosqueConcept(input: string): ConceptFields {
         /^\s*(?:(?:every|each|a|per)\s+)(?:month|year|week|day)\b/iu.test(context.after)||
         recurringCost.exec(purpose)?.index===0||componentCost.exec(purpose)?.index===0;
       const unsupportedScale=/^\s*(?:billion|trillion|b|t)(?![\p{L}])/iu.test(after);
+      // Do not silently take the leading number of an unsupported expression.
+      const numericExpression=/^\s*(?:[eE]\s*[+−-]?\s*\d|[×*^%٪‰+−]|(?:percent|per cent|pct|plus|minus|times|divided by)\b|[xX]\s*\d|_\d|\d)/u.test(after);
       const amount=n===null?NaN:n*factor;
-      const invalid = contextualCost || unsupportedScale || amount<.01 || Math.abs(amount*100-Math.round(amount*100))>.001 || n === null || n <= 0 || !Number.isSafeInteger(Math.round(n * factor)) || n * factor > 1e12 || /(?:[-−]|\bnot)\s*$/.test(before) || (mag === "m" && !m[2] && !m[5]) || unitRate || range || (!!a && !!b && a !== b);
-      return { amount: invalid ? "" : String(Number((n! * factor).toFixed(2))), code: a || b, rawCurrency: m[2] || m[5] || "",contextualCost,context };
+      const invalid = contextualCost || unsupportedScale || numericExpression || amount<.01 || Math.abs(amount*100-Math.round(amount*100))>.001 || n === null || n <= 0 || !Number.isSafeInteger(Math.round(n * factor)) || n * factor > 1e12 || /(?:[-−]|\bnot)\s*$/.test(before) || (mag === "m" && !m[2] && !m[5]) || unitRate || range || (!!a && !!b && a !== b);
+      return { amount: invalid ? "" : String(Number((n! * factor).toFixed(2))), code: a || b, rawCurrency: m[2] || m[5] || "",contextualCost,numericExpression,context };
     });
     if (parsed.some(p => !p.amount) || new Set(parsed.map(p => `${p.amount}:${p.code}`)).size !== 1) {
       const scoped=parsed.some(p=>p.contextualCost);
-      mark("budget", "ambiguous", scoped?parsed.map(p=>source(p.context.start,p.context.end)):sources, scoped?"This amount may describe land, a component, funding or recurring costs. Enter the overall project budget separately.":"The amount may be a range, alternative, dimension or unit rate. Confirm one overall budget rather than using it as a project total.");
+      mark("budget", "ambiguous", scoped?parsed.map(p=>source(p.context.start,p.context.end)):sources, scoped?"This amount may describe land, a component, funding or recurring costs. Enter the overall project budget separately.":parsed.some(p=>p.numericExpression)?"The amount uses unsupported numeric notation or a percentage. Write one complete monetary amount and confirm its currency.":"The amount may be a range, alternative, dimension or unit rate. Confirm one overall budget rather than using it as a project total.");
       mark("currency", "ambiguous", sources, "Confirm the currency together with the overall budget.");
     } else {
       budget = parsed[0].amount; currency = parsed[0].code;
