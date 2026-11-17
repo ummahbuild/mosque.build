@@ -34,3 +34,7 @@ The existing geometry, exports, interaction handlers, reduced-motion choices and
 - Human/professional review: no engineering, religious or regulatory outputs changed; their existing review requirements remain.
 
 Broader device/performance work in issues #30, #26 and #22 remains open. No battery-life or frame-rate improvement is claimed without hardware measurements.
+
+## Follow-up browser check after PR #44 merged
+
+The browser connection subsequently recovered. The already-loaded production build was checked at 320, 390, 1024 and 1280 px with no page-level horizontal overflow. Site-plan/isometric controls, mobile object selection and schematic keyboard view switching worked, including returning from an offscreen viewer. Site buttons measured 44 px high. No console warnings/errors were captured. These checks supplement the initial automation timeout above; physical-device, full-app and installed standalone coverage remain outstanding.
