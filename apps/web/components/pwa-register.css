@@ -1,0 +1,13 @@
+.appConnectionStatus{display:flex;align-items:center;justify-content:center;gap:12px;padding:8px max(12px,env(safe-area-inset-right)) 8px max(12px,env(safe-area-inset-left));background:#172f2a;color:#fff;font-size:14px;line-height:1.5}
+.appConnectionStatus p,.appInstallPrompt p,.appPromptError p{margin:0}
+.appConnectionStatus button,.appPromptDismiss,.appPromptError button{flex-shrink:0;min-width:44px;min-height:44px;border:1px solid currentColor;border-radius:10px;background:transparent;color:inherit;font-size:22px;cursor:pointer}
+.appInstallPrompt{position:fixed;z-index:120;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));width:min(460px,calc(100% - 32px));max-height:calc(100dvh - 32px);overflow:auto;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;padding:16px;border:1px solid #78988d;border-radius:16px;background:#063c33;color:#fff;box-shadow:0 10px 40px #0003;overflow-wrap:anywhere}
+.appInstallPrompt>div{grid-column:1/-1}
+.appInstallPrompt p{font-size:14px;line-height:1.5;color:#e0ebe7;margin-top:6px}
+.appInstallPrompt>button{min-height:44px;padding:10px 14px;border-radius:10px;border:1px solid #c59a4a;background:#e7be6e;color:#123d33;font:inherit;font-weight:700;cursor:pointer;white-space:normal}
+.appInstallPrompt>.appPromptDismiss{background:transparent;color:white;border-color:#78988d;min-width:44px;font-size:22px;padding:4px 10px}
+.appInstallPrompt button:disabled{opacity:.7;cursor:wait}
+.appPromptError{position:fixed;z-index:121;left:max(12px,env(safe-area-inset-left));right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom));display:flex;align-items:center;gap:12px;max-width:600px;margin:auto;padding:16px;border:2px solid #8a592a;border-radius:12px;background:#fff4df;color:#503511;font-size:14px;line-height:1.5;box-shadow:0 8px 30px #0003}
+.appConnectionStatus button:focus-visible,.appInstallPrompt button:focus-visible,.appPromptError button:focus-visible{outline:3px solid #d9a83d;outline-offset:3px}
+@media(max-width:480px){.appInstallPrompt{left:max(12px,env(safe-area-inset-left));right:max(12px,env(safe-area-inset-right));width:auto;bottom:max(12px,env(safe-area-inset-bottom))}}
+@media print{.appConnectionStatus,.appInstallPrompt,.appPromptError{display:none!important}}

@@ -9,7 +9,7 @@ function worker({network=async()=>new Response('network'),entries=[],storageFail
   let claimed=false,skipped=false;
   const key=r=>typeof r==='string'?r:r.url;
   const cache={match:async r=>saved.get(key(r))?.clone(),put:async(r,response)=>{if(writeFailure)throw Error('Quota');writes.push(key(r));saved.set(key(r),response)}};
-  vm.runInNewContext(source,{URL,Response,location:{origin},fetch:network,self:{addEventListener:(n,fn)=>listeners[n]=fn,clients:{claim:async()=>{claimed=true}},skipWaiting:()=>{skipped=true}},caches:{open:async n=>{opened.push(n);if(storageFailure)throw Error('Blocked');return cache},keys:async()=>['foreign-cache','mosque-build-shell-v24','mosque-build-shell-v25'],delete:async n=>deleted.push(n),match:()=>{throw Error('Global cache lookup must never be used')}}});
+  vm.runInNewContext(source,{URL,Response,location:{origin},fetch:network,self:{addEventListener:(n,fn)=>listeners[n]=fn,clients:{claim:async()=>{claimed=true}},skipWaiting:()=>{skipped=true}},caches:{open:async n=>{opened.push(n);if(storageFailure)throw Error('Blocked');return cache},keys:async()=>['foreign-cache','mosque-build-shell-v24','mosque-build-shell-v26'],delete:async n=>deleted.push(n),match:()=>{throw Error('Global cache lookup must never be used')}}});
   async function lifecycle(name){let pending;listeners[name]({waitUntil:p=>{pending=p}});await pending}
   async function request(path='/',{method='GET',mode='navigate',destination=''}={}){
     const pending=[];let response;
@@ -39,7 +39,7 @@ test('offline navigation uses only current app cache and preserves exact query m
   assert.equal(await (await w.request('/start?step=2')).text(),'Exact');
   assert.equal(await (await w.request('/start?step=3')).text(),'Shell');
   assert.equal(await (await w.request('/uncached')).text(),'Offline');
-  assert.ok(w.opened.every(n=>n==='mosque-build-shell-v25'));
+  assert.ok(w.opened.every(n=>n==='mosque-build-shell-v26'));
 });
 test('missing or unavailable caches return a real 503 response instead of undefined',async()=>{
   for(const storageFailure of [false,true]){

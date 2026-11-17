@@ -1,4 +1,4 @@
-const CACHE="mosque-build-shell-v25";
+const CACHE="mosque-build-shell-v26";
 const SHELL=["/","/start","/my-project","/features","/features/priority-100","/features/priority-200","/features/priority-300","/features/priority-400","/features/priority-500","/features/priority-600","/features/priority-700","/features/priority-800","/resources","/patterns","/prototypes","/open-source","/sources","/roadmap","/manifest.webmanifest","/icons/icon-192.png","/icons/icon-512.png"];
 
 self.addEventListener("install",event=>event.waitUntil((async()=>{
