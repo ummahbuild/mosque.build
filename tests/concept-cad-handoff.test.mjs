@@ -39,3 +39,15 @@ test("invalid attendance keeps comparisons unresolved rather than suggesting a f
   assert.ok(result.unresolvedSpaceIds.includes("prayer"));
  }
 });
+
+test('youth, kitchen and janazah requirements remain unresolved in the sample comparison',()=>{
+ const fields=parseMosqueConcept('A mosque for 300 people with youth space, kitchen for iftar and janazah facilities.');
+ const before=structuredClone(fields),result=previewConceptCadHandoff(fields);
+ assert.deepEqual(result.spaceRequirements.map(room=>room.id),['prayer','youth','kitchen','janazah']);
+ assert.deepEqual(result.unresolvedSpaceIds,['youth','kitchen','janazah']);assert.equal(result.requestedPrayerZoneAreaM2,375);
+ assert.equal(result.starterPrayerAreaM2,64);assert.equal(result.modelRevision,1);assert.deepEqual(fields,before);
+});
+test('unknown attendance does not hide requested support spaces in comparison',()=>{
+ const result=previewConceptCadHandoff(parseMosqueConcept('A mosque with youth space, kitchen and janazah facilities.'));
+ assert.deepEqual(result.unresolvedSpaceIds,['prayer','youth','kitchen','janazah']);assert.equal(result.areaDifferenceM2,null);
+});
