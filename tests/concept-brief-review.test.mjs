@@ -59,3 +59,16 @@ test('ambiguous fields cannot overwrite a populated draft even when explicitly p
 test('bare dollar and rupee symbols do not inherit an existing draft currency',()=>{
  for(const text of ['Budget $90000','Budget Rs 90000']){const result=mergeReviewedConcept(existing,parseMosqueConcept(text),['budget']);assert.equal(result.currency,'');assert.equal(result.budget,'90000');assert.equal(existing.currency,'EUR')}
 });
+test('contextual money and uncertain attendance cannot replace existing brief values',()=>{
+ const current={...existing,attendance:'120',budget:'750000',currency:'EUR'};
+ for(const text of ['Land costs USD 50000. A mosque for approximately 400 people.','Annual operating budget USD 50000. A mosque for 300 people initially and 500 eventually.']){
+  assert.deepEqual(mergeReviewedConcept(current,parseMosqueConcept(text),['attendance','budget']),current);
+ }
+});
+test('missing or non-suggested evidence cannot be bypassed with stale numeric fields',()=>{
+ const current={...existing,attendance:'120',budget:'750000',currency:'EUR'};
+ for(const evidence of [{},{attendance:{status:'ambiguous'},budget:{status:'unspecified'}}]){
+  const stale={...parseMosqueConcept('A mosque for 400 people, budget USD 50000.'),evidence};
+  assert.deepEqual(mergeReviewedConcept(current,stale,['attendance','budget']),current);
+ }
+});
