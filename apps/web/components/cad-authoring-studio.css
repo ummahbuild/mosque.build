@@ -13,3 +13,5 @@
 .cadTransaction ul{padding-left:1.25rem;font-size:.875rem;color:#703c23}
 .cadTransaction button{white-space:normal}
 .cadInspector dd,.cadStudio>header{overflow-wrap:anywhere}
+
+.cadImportReview{padding:clamp(16px,3vw,24px);margin-block:16px;border:1px solid #91a69f;border-radius:14px;background:#fffdf9;overflow-wrap:anywhere;scroll-margin-top:145px}.cadImportReview h3{margin-top:0}.cadImportReview button{white-space:normal;overflow-wrap:anywhere}.cadImportReview:focus{outline:3px solid #956000;outline-offset:3px}.cadImportReview .cadRecoveryActions{margin-bottom:0}@media(max-width:430px){.cadImportReview .cadRecoveryActions{display:grid;grid-template-columns:minmax(0,1fr)}}

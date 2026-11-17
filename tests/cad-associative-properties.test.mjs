@@ -15,7 +15,7 @@ test("editing uses existing CAD preview transaction commands instead of changing
   assert.match(studio,/preview\(cmd\("resize-opening"/);
   assert.match(studio,/preview\(cmd\("rename-space"/);
   assert.match(core,/commitCadCommand/);
-  assert.match(studio,/disabled=\{!!state\.transaction/);
+  assert.match(studio,/disabled=\{importBusy\|\|!!state\.transaction/);
 });
 test("schedules can navigate to element inspector",()=>{
   assert.match(studio,/select\(String\(row\.id\)\)/);
