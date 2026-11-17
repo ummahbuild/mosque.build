@@ -1,0 +1,738 @@
+[
+  {
+    "text": "Build a Moroccan mosque in Kilimani Nairobi for 450 worshippers with a madrasa under USD 1 million.",
+    "expect": {
+      "location": "Kilimani Nairobi",
+      "attendance": "450",
+      "budget": "1000000",
+      "currency": "USD",
+      "type": "Mosque + madrasa"
+    }
+  },
+  {
+    "text": "Plan a mosque in Kilimani, Nairobi for 300 people with wudu.",
+    "expect": {
+      "location": "Kilimani, Nairobi",
+      "attendance": "300"
+    }
+  },
+  {
+    "text": "A small mosque near Mombasa for 120 people, budget KES 9 million.",
+    "expect": {
+      "location": "Mombasa",
+      "attendance": "120",
+      "currency": "KES",
+      "budget": "9000000"
+    }
+  },
+  {
+    "text": "A Swahili mosque in Lamu for 200 worshippers under KSh 2m.",
+    "expect": {
+      "location": "Lamu",
+      "currency": "KES",
+      "budget": "2000000"
+    }
+  },
+  {
+    "text": "Build a mosque at Kisumu for 500 worshippers, budget 30 million KES.",
+    "expect": {
+      "location": "Kisumu",
+      "budget": "30000000",
+      "currency": "KES"
+    }
+  },
+  {
+    "text": "A mosque in Nairobi for 300–500 people under USD 1m.",
+    "expect": {
+      "attendance": "",
+      "budget": "1000000"
+    },
+    "ambiguous": [
+      "attendance"
+    ]
+  },
+  {
+    "text": "A mosque in Nakuru for 300 to 500 worshippers, budget KES 20m.",
+    "expect": {
+      "attendance": "",
+      "currency": "KES"
+    },
+    "ambiguous": [
+      "attendance"
+    ]
+  },
+  {
+    "text": "A mosque near Nairobi or Mombasa for 300 people.",
+    "expect": {
+      "location": ""
+    },
+    "ambiguous": [
+      "location"
+    ]
+  },
+  {
+    "text": "A mosque in Nairobi, with a school, budget 700000.",
+    "expect": {
+      "location": "Nairobi",
+      "currency": "",
+      "budget": "700000"
+    }
+  },
+  {
+    "text": "A mosque in Nairobi for 300 people, budget $90k.",
+    "expect": {
+      "budget": "90000",
+      "currency": ""
+    },
+    "ambiguous": [
+      "currency"
+    ]
+  },
+  {
+    "text": "A mosque in Nairobi for 200 people, budget US$90k.",
+    "expect": {
+      "budget": "90000",
+      "currency": "USD"
+    }
+  },
+  {
+    "text": "A mosque in Nairobi for 100 people under 1m.",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A mosque in Nairobi for 100 people below 1 million.",
+    "expect": {
+      "budget": "1000000",
+      "currency": ""
+    }
+  },
+  {
+    "text": "A mosque in Nairobi with a wall under 1 metre.",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A mosque in Nairobi, budget USD 100 per person.",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A mosque in Nairobi, budget KES 90000 per square metre.",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A mosque in Nairobi, budget 90 per m².",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "Convert a warehouse in Nairobi for 500 people with a library.",
+    "expect": {
+      "type": "Adaptive reuse / conversion",
+      "attendance": "500"
+    }
+  },
+  {
+    "text": "Expand a mosque in Nairobi for 600 people, budget KES 20 million.",
+    "expect": {
+      "type": "Mosque expansion",
+      "budget": "20000000"
+    }
+  },
+  {
+    "text": "A 3-storey mosque in Nairobi for 700 worshippers.",
+    "expect": {
+      "storeys": "3",
+      "attendance": "700"
+    }
+  },
+  {
+    "text": "A mosque in Nairobi with 2 or 3 floors for 350 people.",
+    "expect": {
+      "storeys": "",
+      "attendance": "350"
+    },
+    "ambiguous": [
+      "storeys"
+    ]
+  },
+  {
+    "text": "Jenga msikiti katika Nairobi kwa watu 300, bajeti KES 5 milioni.",
+    "expect": {
+      "location": "Nairobi",
+      "budget": "5000000",
+      "currency": "KES",
+      "attendance": "300"
+    }
+  },
+  {
+    "text": "Jenga msikiti katika Mombasa kwa 250 watu, bajeti 3 milioni KES.",
+    "expect": {
+      "location": "Mombasa",
+      "attendance": "250",
+      "budget": "3000000",
+      "currency": "KES"
+    }
+  },
+  {
+    "text": "Msikiti karibu na Lamu kwa 120 waumini, bajeti KSh 900 elfu.",
+    "expect": {
+      "location": "Lamu",
+      "attendance": "120",
+      "budget": "900000"
+    }
+  },
+  {
+    "text": "Msikiti katika Kisumu kwa 300 watu bila shule lakini yenye maktaba.",
+    "expect": {
+      "location": "Kisumu",
+      "attendance": "300"
+    },
+    "includes": [
+      "Library"
+    ],
+    "excludes": [
+      "Madrasa / classrooms"
+    ]
+  },
+  {
+    "text": "Build a Mughal mosque in Hyderabad for 600 people, budget INR 2 crore.",
+    "expect": {
+      "location": "Hyderabad",
+      "budget": "20000000",
+      "currency": "INR"
+    }
+  },
+  {
+    "text": "A mosque in Delhi for 300 people with a budget of INR 80 lakh.",
+    "expect": {
+      "budget": "8000000",
+      "currency": "INR"
+    }
+  },
+  {
+    "text": "A mosque in Mumbai for 500 people under ₹1.5 crore.",
+    "expect": {
+      "budget": "15000000",
+      "currency": "INR"
+    }
+  },
+  {
+    "text": "A mosque in Lucknow for 400 people, budget 75,00,000 INR.",
+    "expect": {
+      "budget": "7500000",
+      "currency": "INR"
+    }
+  },
+  {
+    "text": "A mosque in Chennai for 200 people, budget INR 7,500,000.",
+    "expect": {
+      "budget": "7500000",
+      "currency": "INR"
+    }
+  },
+  {
+    "text": "A mosque in Kochi for 200 people, budget Rs 900000.",
+    "expect": {
+      "budget": "900000",
+      "currency": ""
+    },
+    "ambiguous": [
+      "currency"
+    ]
+  },
+  {
+    "text": "A mosque in Delhi, budget INR 1,5 million.",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A mosque in Hyderabad, budget INR 2–3 crore.",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A mosque in Delhi for 200 people daily and 500 people on Friday.",
+    "expect": {
+      "attendance": ""
+    },
+    "ambiguous": [
+      "attendance"
+    ]
+  },
+  {
+    "text": "A mosque in Mumbai for 1,200 people with 4 floors.",
+    "expect": {
+      "attendance": "1200",
+      "storeys": "4"
+    }
+  },
+  {
+    "text": "A small mosque in Kochi without a school but with a library.",
+    "expect": {
+      "type": "New mosque"
+    },
+    "includes": [
+      "Library"
+    ],
+    "excludes": [
+      "Madrasa / classrooms"
+    ]
+  },
+  {
+    "text": "Convert a mall unit in Delhi into an 80-person prayer room under INR 90 lakh.",
+    "expect": {
+      "attendance": "80",
+      "type": "Adaptive reuse / conversion",
+      "budget": "9000000"
+    }
+  },
+  {
+    "text": "A mosque near Delhi or Mumbai for 300 people.",
+    "expect": {
+      "location": ""
+    },
+    "ambiguous": [
+      "location"
+    ]
+  },
+  {
+    "text": "Design a Moroccan mosque in Rabat for 450 people, budget MAD 4 million.",
+    "expect": {
+      "location": "Rabat",
+      "budget": "4000000",
+      "currency": "MAD"
+    }
+  },
+  {
+    "text": "A mosque in Fes for 300 people under 2 million MAD.",
+    "expect": {
+      "location": "Fes",
+      "budget": "2000000",
+      "currency": "MAD"
+    }
+  },
+  {
+    "text": "A mosque in Marrakech for 500 people, budget 3,000,000 MAD.",
+    "expect": {
+      "budget": "3000000",
+      "currency": "MAD"
+    }
+  },
+  {
+    "text": "A mosque near Casablanca for 250 people under 900000 dirhams.",
+    "expect": {
+      "location": "Casablanca",
+      "currency": "",
+      "budget": "900000"
+    },
+    "ambiguous": [
+      "currency"
+    ]
+  },
+  {
+    "text": "A mosque in Rabat, budget MAD 2 million or EUR 200000.",
+    "expect": {
+      "budget": "",
+      "currency": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A mosque in Fes, budget MAD 900 per m2.",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "مسجد في الرباط بسعة ٣٠٠ مصلين بميزانية MAD ٢ مليون.",
+    "expect": {
+      "location": "الرباط",
+      "attendance": "300",
+      "budget": "2000000",
+      "currency": "MAD"
+    }
+  },
+  {
+    "text": "مسجد في مراكش بسعة ٤٥٠ مصلين بميزانية ٣ مليون MAD.",
+    "expect": {
+      "location": "مراكش",
+      "attendance": "450",
+      "budget": "3000000",
+      "currency": "MAD"
+    }
+  },
+  {
+    "text": "مسجد في فاس بسعة ٣٠٠ إلى ٥٠٠ مصلين.",
+    "expect": {
+      "location": "فاس",
+      "attendance": ""
+    },
+    "ambiguous": [
+      "attendance"
+    ]
+  },
+  {
+    "text": "مسجد في الرباط بسعة ۲۰۰ مصلين بدون مدرسة لكن مكتبة.",
+    "expect": {
+      "attendance": "200"
+    },
+    "includes": [
+      "Library"
+    ],
+    "excludes": [
+      "Madrasa / classrooms"
+    ]
+  },
+  {
+    "text": "مسجد في الرباط بسعة ٣٠٠ مصلين و ٣ طوابق.",
+    "expect": {
+      "storeys": "3",
+      "attendance": "300"
+    }
+  },
+  {
+    "text": "A mosque in Rabat under EUR 1.5 million.",
+    "expect": {
+      "budget": "1500000",
+      "currency": "EUR"
+    }
+  },
+  {
+    "text": "A mosque in Nairobi under GBP 250 thousand.",
+    "expect": {
+      "budget": "250000",
+      "currency": "GBP"
+    }
+  },
+  {
+    "text": "A mosque in Delhi, budget AED 3 million.",
+    "expect": {
+      "currency": "AED",
+      "budget": "3000000"
+    }
+  },
+  {
+    "text": "A mosque in Rabat, budget SAR 4 million.",
+    "expect": {
+      "currency": "SAR",
+      "budget": "4000000"
+    }
+  },
+  {
+    "text": "A mosque in Nairobi, budget XYZ 100000.",
+    "expect": {
+      "budget": "",
+      "currency": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A mosque in Delhi, budget USD 2 million KES.",
+    "expect": {
+      "budget": "",
+      "currency": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A mosque in Rabat, budget -100000 MAD.",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A mosque in Nairobi, budget USD 1 trillion.",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A mosque in Delhi, budget INR 1000000000001.",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A mosque in Rabat for 0 people with 0 floors.",
+    "expect": {
+      "attendance": "",
+      "storeys": ""
+    },
+    "ambiguous": [
+      "attendance",
+      "storeys"
+    ]
+  },
+  {
+    "text": "A mosque in Nairobi for 3.5 people with 2.5 floors.",
+    "expect": {
+      "attendance": "",
+      "storeys": ""
+    },
+    "ambiguous": [
+      "attendance",
+      "storeys"
+    ]
+  },
+  {
+    "text": "A mosque in Delhi for 999999 people.",
+    "expect": {
+      "attendance": ""
+    },
+    "ambiguous": [
+      "attendance"
+    ]
+  },
+  {
+    "text": "A mosque in Rabat, no madrasa or library.",
+    "expect": {
+      "type": "New mosque"
+    },
+    "excludes": [
+      "Madrasa / classrooms",
+      "Library"
+    ]
+  },
+  {
+    "text": "A mosque in Nairobi with no 3-storey tower.",
+    "expect": {
+      "storeys": ""
+    }
+  },
+  {
+    "text": "A mosque in Delhi without Ottoman details but with Moroccan screens.",
+    "styles": [
+      "Moroccan"
+    ],
+    "expect": {
+      "type": "New mosque"
+    }
+  },
+  {
+    "text": "A mosque in Rabat; budget EUR 1000 monthly.",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A mosque in Nairobi, budget per person USD 100.",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A library near a school, with ideas to discuss.",
+    "expect": {
+      "location": "",
+      "type": ""
+    },
+    "ambiguous": [
+      "location"
+    ]
+  },
+  {
+    "text": "A mosque in an existing building for 200 people.",
+    "expect": {
+      "location": ""
+    },
+    "ambiguous": [
+      "location"
+    ]
+  },
+  {
+    "text": "We have a plan to discuss.",
+    "expect": {
+      "location": "",
+      "budget": "",
+      "type": "",
+      "attendance": ""
+    }
+  },
+  {
+    "text": "A mosque in Rabat for 300 people and a budget of USD 900000; budget USD 900000.",
+    "expect": {
+      "budget": "900000",
+      "currency": "USD",
+      "attendance": "300"
+    }
+  },
+  {
+    "text": "A mosque in Nairobi for at least 300 people.",
+    "expect": {
+      "attendance": ""
+    },
+    "ambiguous": [
+      "attendance"
+    ]
+  },
+  {
+    "text": "A mosque near a school in Rabat for 300 people.",
+    "expect": {
+      "location": ""
+    },
+    "excludes": [
+      "Madrasa / classrooms"
+    ],
+    "ambiguous": [
+      "location"
+    ]
+  },
+  {
+    "text": "A mosque in Delhi with capacity 300 and budget INR 500000.",
+    "expect": {
+      "attendance": "300",
+      "currency": "INR"
+    }
+  },
+  {
+    "text": "Msikiti katika Nairobi, ghorofa 3, bajeti KES 2 milioni.",
+    "expect": {
+      "storeys": "3",
+      "budget": "2000000"
+    }
+  },
+  {
+    "text": "A mosque in Rabat, budget 300000 USD or 400000 USD.",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A mosque in Rabat, budget USD 1000.50.",
+    "expect": {
+      "budget": "1000.5",
+      "currency": "USD"
+    }
+  },
+  {
+    "text": "A mosque in Nairobi, budget USD 0.50.",
+    "expect": {
+      "budget": "0.5"
+    }
+  },
+  {
+    "text": "A mosque in Delhi, budget INR 1000.333.",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  },
+  {
+    "text": "A mosque in Rabat, not a school but a library.",
+    "excludes": [
+      "Madrasa / classrooms"
+    ],
+    "includes": [
+      "Library"
+    ]
+  },
+  {
+    "text": "مسجد في الرباط بسعة ٣٠٠ مصلين لا مدرسة لكن مكتبة.",
+    "excludes": [
+      "Madrasa / classrooms"
+    ],
+    "includes": [
+      "Library"
+    ]
+  },
+  {
+    "text": "A mosque in Indianapolis for 300 people.",
+    "styles": [],
+    "expect": {
+      "location": "Indianapolis"
+    }
+  },
+  {
+    "text": "A school in Nairobi for 200 people.",
+    "expect": {
+      "type": ""
+    }
+  },
+  {
+    "text": "A mosque near St. Louis for 300 people.",
+    "expect": {
+      "location": ""
+    },
+    "ambiguous": [
+      "location"
+    ]
+  },
+  {
+    "text": "A mosque in Nairobi; neighborhood population 300 people.",
+    "expect": {
+      "attendance": ""
+    },
+    "ambiguous": [
+      "attendance"
+    ]
+  },
+  {
+    "text": "A mosque in Rabat; not USD 500000.",
+    "expect": {
+      "budget": ""
+    },
+    "ambiguous": [
+      "budget"
+    ]
+  }
+]

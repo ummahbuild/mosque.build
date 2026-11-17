@@ -32,6 +32,8 @@ jobs:
           cache: pnpm
       - name: Install locked dependencies
         run: pnpm --dir apps/web install --frozen-lockfile
+      - name: Audit locked web dependencies
+        run: pnpm --dir apps/web audit --audit-level high
       - name: Run tests
         run: pnpm test
       - name: Validate repository contracts

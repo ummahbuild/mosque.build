@@ -23,7 +23,8 @@ test("mobile navigation is inert when closed and manages focus and scroll", () =
 
 test("global styles cover accessibility and responsive resilience", () => {
   const css = read("apps/web/app/globals.css");
-  for (const contract of [":focus-visible", "pointer:coarse", "prefers-reduced-motion:reduce", "forced-colors:active", "scroll-margin-top", "content-visibility:auto", "env(safe-area-inset-bottom)"]) assert.match(css, new RegExp(contract.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+  assert.match(css, /content-visibility:\s*auto/);
+  for (const contract of [":focus-visible", "pointer:coarse", "prefers-reduced-motion:reduce", "forced-colors:active", "scroll-margin-top", "env(safe-area-inset-bottom)"]) assert.match(css, new RegExp(contract.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
 });
 
 test("UX implementation ledger contains exactly 100 numbered outcomes", () => {

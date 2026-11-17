@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {saveConceptPrompt,CONCEPT_PROMPT_KEY} from '../apps/web/lib/concept-prompt-storage.ts';
+const memory=(raw=null)=>{const map=new Map([[CONCEPT_PROMPT_KEY,raw]]);return {getItem:k=>map.get(k)??null,setItem:(k,v)=>map.set(k,v),removeItem:k=>map.delete(k)};};
+test('saved text retains exact whitespace and line breaks',()=>{const store=memory();const text='  Mosque in Rabat\nfor 300 people.  ';assert.equal(saveConceptPrompt(store,null,text),text);assert.equal(store.getItem(CONCEPT_PROMPT_KEY),text)});
+test('stale tabs cannot overwrite or clear newer concept text',()=>{const store=memory('new');for(const text of ['replacement',null])assert.throws(()=>saveConceptPrompt(store,'old',text),/Another tab/);assert.equal(store.getItem(CONCEPT_PROMPT_KEY),'new')});
+test('failed reads never authorize clearing or overwriting',()=>{const store=memory('original');for(const text of ['replacement',null])assert.throws(()=>saveConceptPrompt(store,undefined,text),/could not be read/);assert.equal(store.getItem(CONCEPT_PROMPT_KEY),'original')});
+test('quota and security failures are surfaced without losing the original',()=>{const store=memory('original');store.setItem=()=>{throw Error('quota')};store.removeItem=()=>{throw Error('blocked')};assert.throws(()=>saveConceptPrompt(store,'original','replacement'),/quota/);assert.throws(()=>saveConceptPrompt(store,'original',null),/blocked/);assert.equal(store.getItem(CONCEPT_PROMPT_KEY),'original')});
+test('empty and oversized writes leave the old text unchanged',()=>{const store=memory('original');for(const value of [' ','a'.repeat(3001)])assert.throws(()=>saveConceptPrompt(store,'original',value),/3,000/);assert.equal(store.getItem(CONCEPT_PROMPT_KEY),'original')});
+test('explicit clear succeeds only against the current saved text',()=>{const store=memory('original');assert.equal(saveConceptPrompt(store,'original',null),null);assert.equal(store.getItem(CONCEPT_PROMPT_KEY),null)});

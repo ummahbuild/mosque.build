@@ -1,4 +1,4 @@
-import {createProjectPackage,type ProjectPackage} from "./project-package";
+import {createProjectPackage,serializeProjectPackage,type ProjectPackage} from "./project-package";
 import {type WorkflowSignal,workflowNodes} from "./workflow-integration";
 
 export const PROJECT_HANDOFF_SCHEMA="mosque.build/project-handoff@1" as const;
@@ -75,12 +75,15 @@ function isHandoffRecord(value:unknown):value is HandoffRecord{
 }
 export function evaluateHandoff(profileId:HandoffProfileId,signals:WorkflowSignal[]):HandoffEvaluation{
   const profile=handoffProfiles.find(item=>item.id===profileId)??handoffProfiles[0],byId=new Map(signals.map(item=>[item.id,item]));
-  const required=profile.requirements.filter(item=>item.required),missingRequired=required.filter(item=>byId.get(item.nodeId)?.state==="no-record"||!byId.has(item.nodeId)).map(item=>item.nodeId),stale=profile.requirements.filter(item=>byId.get(item.nodeId)?.stale).map(item=>item.nodeId),dependencyGaps=[...new Set(profile.requirements.flatMap(item=>byId.get(item.nodeId)?.dependencyGaps??[]))],includedNodes=profile.requirements.filter(item=>byId.get(item.nodeId)?.state!=="no-record").map(item=>item.nodeId),readyCount=required.length-missingRequired.length;
+  const required=profile.requirements.filter(item=>item.required),missingRequired=required.filter(item=>byId.get(item.nodeId)?.state==="no-record"||!byId.has(item.nodeId)).map(item=>item.nodeId),stale=profile.requirements.filter(item=>byId.get(item.nodeId)?.stale).map(item=>item.nodeId),dependencyGaps=[...new Set(profile.requirements.flatMap(item=>byId.get(item.nodeId)?.dependencyGaps??[]))],includedNodes=profile.requirements.filter(item=>byId.has(item.nodeId)&&byId.get(item.nodeId)?.state!=="no-record").map(item=>item.nodeId),readyCount=required.length-missingRequired.length;
   const status:HandoffStatus=readyCount===0?"not-started":missingRequired.length||stale.length||dependencyGaps.length?"assembling":"ready-for-review";
   return{profile,status,readyCount,requiredCount:required.length,missingRequired,stale,dependencyGaps,includedNodes};
 }
 export function handoffNodeLabel(id:string){return nodeById.get(id)?.label??id}
 export function createHandoffPacket(read:(key:string)=>string|null,profileId:HandoffProfileId,signals:WorkflowSignal[],now=new Date().toISOString()):HandoffPacket{
   const evaluation=evaluateHandoff(profileId,signals),{profile,...rest}=evaluation;
-  return{schema:PROJECT_HANDOFF_SCHEMA,exportedAt:now,product:"mosque.build",profile,status:evaluation.status,evaluation:rest,boundary:"Conceptual local planning handoff only. This is not an authority submission, professional certification, construction instruction, cost guarantee, procurement award or approval.",projectPackage:createProjectPackage(read,"share-safe",now)};
+  const keys=new Set(profile.requirements.map(item=>nodeById.get(item.nodeId)?.key).filter((key):key is string=>!!key));
+  const projectPackage=createProjectPackage(key=>keys.has(key)?read(key):null,"share-safe",now);
+  serializeProjectPackage(projectPackage);
+  return{schema:PROJECT_HANDOFF_SCHEMA,exportedAt:now,product:"mosque.build",profile,status:evaluation.status,evaluation:rest,boundary:"Conceptual local planning handoff only. This is not an authority submission, professional certification, construction instruction, cost guarantee, procurement award or approval.",projectPackage};
 }
