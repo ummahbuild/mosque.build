@@ -13,7 +13,8 @@ const specs=[
 ] as const;
 export function deriveConceptProgram(fields:ConceptFields):ConceptProgram{
  const n=Number(fields.attendance);
- const attendance=/^\d{1,6}$/.test(fields.attendance)&&Number.isSafeInteger(n)&&n>0&&n<=50000?n:null;
+ const reviewed=fields.evidence===undefined||fields.evidence.attendance?.status==="suggested";
+ const attendance=reviewed&&/^\d{1,6}$/.test(fields.attendance)&&Number.isSafeInteger(n)&&n>0&&n<=50000?n:null;
  const rooms:ProgramRoom[]=[];
  rooms.push({id:"prayer",label:"Prayer hall",quantity:1,areaM2:attendance===null?null:Math.round(attendance*specs[0][2]),basis:specs[0][3],reviewRequired:true});
  const keyed:[string,string,string][]=[["Wudu","wudu","Ablution / wudu"],["Madrasa / classrooms","classrooms","Madrasa / classrooms"],["Women / family","family","Women / family prayer area"],["Library","library","Library"],["Community hall","community","Community / event hall"],["Accessibility","access","Accessible circulation"],["Parking","parking","Parking"]];
