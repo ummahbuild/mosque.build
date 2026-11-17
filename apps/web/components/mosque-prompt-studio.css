@@ -8,3 +8,5 @@
 .mosquePromptProgram summary{cursor:pointer;min-height:44px;align-content:center;font-weight:700;line-height:1.5;overflow-wrap:anywhere}
 .mosquePromptProgram summary:focus-visible,.mosquePromptProgram>a:focus-visible{outline:3px solid #96752a;outline-offset:3px}
 .mosquePromptProgram>a{display:inline-flex;align-items:center;min-height:44px;color:#145344;text-decoration:underline;font-weight:700}
+
+.mosquePromptProgram li>div{min-width:0;flex:1}.mosquePromptProgram li small{display:block;margin-top:5px;color:#35594d;font-size:13px;line-height:1.5;overflow-wrap:anywhere}.mosquePromptProgram li>span{flex:0 0 auto;max-width:40%;overflow-wrap:anywhere}@media(max-width:460px){.mosquePromptProgram li>span{max-width:100%}}

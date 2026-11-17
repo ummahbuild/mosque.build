@@ -28,3 +28,10 @@ test("prompt reset clears device draft and reports persistence failure",()=>{
  assert.match(source,/Clear saved concept/);
  assert.match(source,/Local storage is unavailable/);
 });
+
+test('room preview explains each space requirement without making up support dimensions',()=>{
+ assert.match(source,/<small>\{room.basis\}<\/small>/);
+ assert.match(source,/room.areaM2===null\?"Area to determine"/);
+ assert.match(styles,/\.mosquePromptProgram li>div\{min-width:0/);
+ assert.match(styles,/\.mosquePromptProgram li small\{[^}]*line-height:1\.5/);
+});
