@@ -1,12 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import {CONCEPT_HANDOFF_KEY,parseMosqueConcept,type ConceptFields} from "@/lib/concept-onboarding";
+import {CONCEPT_HANDOFF_KEY,type ConceptFields} from "@/lib/concept-onboarding";
 import {mergeReviewedConcept,type ConceptReviewField} from "@/lib/concept-brief-review";
+import {clearReviewedConcept,commitReviewedConcept,ConceptHandoffConflictError,parseConceptHandoff} from "@/lib/concept-handoff-storage";
 import {ConceptImportReview} from "./concept-import-review";
 import {useEffect, useMemo, useRef, useState} from "react";
 
-import {draftChoices, newProjectDraft, readProjectDraft, parseProjectDraft, persistProjectDraft, initialDraftStep,  type ProjectDraft as Draft, type DraftSnapshot} from "@/lib/project-draft";
+import {draftChoices, newProjectDraft, readProjectDraft, parseProjectDraft, persistProjectDraft, initialDraftStep, ProjectDraftConflictError, type ProjectDraft as Draft, type DraftSnapshot} from "@/lib/project-draft";
 import {ProjectDraftRecovery} from "./project-draft-recovery";
 
 const stepKey="mosque-build.project-step.v1";
@@ -25,7 +26,15 @@ export function StartProjectWizard(){
   const [conceptPending,setConceptPending]=useState(false);const [step,setStep]=useState(0);const [draft,setDraft]=useState<Draft>(defaults);const [ready,setReady]=useState(false);const [saved,setSaved]=useState(false);const heading=useRef<HTMLHeadingElement>(null);
   const [concept,setConcept]=useState<ConceptFields|null>(null),[conceptNotice,setConceptNotice]=useState("");
   const [blocked,setBlocked]=useState(false),[saveError,setSaveError]=useState(""),[dirty,setDirty]=useState(false);
-  const snapshot=useRef<DraftSnapshot|null>(null);
+  const snapshot=useRef<DraftSnapshot|null>(null),conceptSnapshot=useRef<string|null|undefined>(undefined);
+  const [conceptRevision,setConceptRevision]=useState(0),[conceptStale,setConceptStale]=useState(false),[conceptRefreshAvailable,setConceptRefreshAvailable]=useState(false);
+  const loadConcept=(announce=false)=>{
+    try{
+      const raw=localStorage.getItem(CONCEPT_HANDOFF_KEY),next=parseConceptHandoff(raw);
+      conceptSnapshot.current=raw;setConcept(next);setConceptPending(!!next);setConceptRevision(value=>value+1);setConceptStale(false);setConceptRefreshAvailable(false);
+      if(announce)setConceptNotice(next?"Latest concept loaded. Choose the fields you want to use; nothing is selected automatically.":"No pending concept remains. Your brief is unchanged.");
+    }catch{conceptSnapshot.current=undefined;setConceptStale(true);setConceptRefreshAvailable(true);setConceptNotice("The concept could not be read. Your saved brief is unchanged; retry or return to the concept editor.");}
+  };
   const loadDraft=()=>{
     setDirty(false);setSaved(false);setSaveError("");
     try{
@@ -33,32 +42,44 @@ export function StartProjectWizard(){
       const restored=stored.raw===null?newProjectDraft():parseProjectDraft(stored.raw);
       if(!restored){setBlocked(true);return;}
       setDraft(restored);setBlocked(false);setStep(initialDraftStep(restored,localStorage.getItem(stepKey)));
+      setConceptRevision(value=>value+1);
+      if(conceptPending)setConceptNotice("Saved brief reloaded. Compare the updated values and choose the fields you want to use.");
     }catch{setBlocked(true);setSaveError("Browser storage is unavailable. Your saved brief has not been replaced.");}
     finally{setReady(true);}
   };
-  useEffect(()=>{loadDraft();try{
-    const raw=localStorage.getItem(CONCEPT_HANDOFF_KEY);
-    if(raw&&new URLSearchParams(window.location.search).get("concept")==="1"){
-      if(raw.length>30_000)throw new Error();const entry=JSON.parse(raw);
-      if(entry?.schema!=="mosque.build/concept-handoff@1"||typeof entry.fields?.notes!=="string"||entry.fields.notes.length>3000)throw new Error();
-      setConcept(parseMosqueConcept(entry.fields.notes));setConceptPending(true);
-    }
-  }catch{setConceptNotice("The concept could not be read. Your saved brief is unchanged; return to the concept editor to try again.");}},[]);
+  useEffect(()=>{loadDraft();if(new URLSearchParams(window.location.search).get("concept")==="1")loadConcept()},[]);
   useEffect(()=>{
     if(!ready||blocked||!dirty||!snapshot.current)return;
     try{snapshot.current=persistProjectDraft(localStorage,draft,snapshot.current);setSaved(true);setSaveError("");dispatchEvent(new Event("mosque-build:project-change"));const timer=setTimeout(()=>setSaved(false),1000);return()=>clearTimeout(timer);}
     catch(error){setSaved(false);setSaveError(error instanceof Error?error.message:"Could not save. Export your working brief before leaving.");}
   },[draft,ready,blocked,dirty]);
   const applyConcept=(fields:ConceptReviewField[])=>{
-    if(!concept||!snapshot.current||blocked)return;
+    if(!concept||!snapshot.current||blocked||conceptStale||saveError||!fields.length)return;
     try{
-      const next=mergeReviewedConcept(draft,concept,fields);
-      snapshot.current=persistProjectDraft(localStorage,next,snapshot.current,true);
-      setDraft(next);setDirty(false);setSaved(true);setSaveError("");setConceptNotice("");setConceptPending(false);setStep(0);
+      const result=commitReviewedConcept(localStorage,conceptSnapshot.current,()=>{
+        const next=mergeReviewedConcept(draft,concept,fields);
+        return {draft:next,snapshot:persistProjectDraft(localStorage,next,snapshot.current!,true)};
+      });
+      snapshot.current=result.value.snapshot;
+      setDraft(result.value.draft);setDirty(false);setSaved(true);setSaveError("");setConceptPending(false);setStep(0);setConceptStale(false);
+      setConceptRefreshAvailable(result.cleanup==="changed");
+      setConceptNotice(result.cleanup==="changed"?"Brief saved. A newer concept is waiting for a separate review.":result.cleanup==="unavailable"?"Brief saved, but this browser could not clear the reviewed concept. Do not apply it again.":"Selected suggestions saved. Unselected brief fields were kept.");
       dispatchEvent(new Event("mosque-build:project-change"));
-      try{localStorage.removeItem(CONCEPT_HANDOFF_KEY);localStorage.setItem(stepKey,"0")}catch{setConceptNotice("Brief saved. The concept copy could not be cleared; do not apply it a second time.");}
-    }catch(error){setConceptNotice(error instanceof Error?error.message:"The concept could not be applied. Your existing brief is unchanged.");}
+      try{localStorage.setItem(stepKey,"0")}catch{/* The brief is saved; a progress-marker failure must not imply otherwise. */}
+    }catch(error){
+      if(error instanceof ConceptHandoffConflictError){setConceptStale(true);setConceptRefreshAvailable(true);}
+      if(error instanceof ProjectDraftConflictError)setSaveError(error.message);
+      setConceptNotice(error instanceof Error?error.message:"The concept could not be applied. Your existing brief is unchanged.");
+    }
   };
+  const keepConcept=()=>{
+    setConceptPending(false);setConceptStale(false);
+    try{
+      const cleared=clearReviewedConcept(localStorage,conceptSnapshot.current);setConceptRefreshAvailable(!cleared);
+      setConceptNotice(cleared?"Your brief was kept unchanged.":"Your brief was kept. Another tab changed the pending concept; it has not been cleared.");
+    }catch{setConceptNotice("Your brief was kept. The pending concept could not be cleared from this browser.");}
+  };
+
   const set=<K extends keyof Draft>(field:K,value:Draft[K])=>{setDirty(true);setDraft(current=>({...current,[field]:value}));};
   const completion=useMemo(()=>Math.round([draft.name,draft.location,draft.attendance,draft.budget,draft.needs.length,draft.priorities.length,draft.constraints.length,draft.owner,draft.team.length,draft.funding.length].filter(Boolean).length/10*100),[draft]);
   const actions=useMemo(()=>{const list:string[]=[];if(!draft.owner.trim())list.push("Name the accountable community decision-maker and record how decisions will be approved.");if(["Not yet","Site under consideration"].includes(draft.land))list.push("Complete a site-screening brief before detailed design or publishing a fundraising rendering.");if(draft.constraints.includes("Planning / permit uncertainty"))list.push("Create a source-backed list of likely applicable requirements, then verify it with the relevant authority or professional.");if(!draft.team.includes("Architect"))list.push("Prepare an architect appointment brief covering scope, deliverables, review gates and information ownership.");if(!draft.team.some(x=>x.includes("cost professional")))list.push("Establish a cost baseline with geography, currency, date, source, maturity, confidence and exclusions.");if(!draft.budget.trim())list.push("Set a working affordability range before selecting a design scenario or fundraising target.");if(draft.needs.includes("Accessibility"))list.push("Include disabled worshippers and an accessibility professional in program and route reviews.");if(draft.funding.includes("Waqf income"))list.push("Separate waqf governance and jurisdiction-specific legal review from general fundraising.");return list.slice(0,7)},[draft]);
@@ -84,7 +105,7 @@ export function StartProjectWizard(){
   const reset=()=>{if(window.confirm("Start a new brief? A recovery copy of the current saved brief will be kept on this device. Other project work will remain unchanged."))replaceDraft(newProjectDraft());};
   if(!ready)return <div className="wizard wizardLoading" role="status" aria-live="polite"><div><span className="loadingPulse" aria-hidden="true"/><b>Loading your private project brief…</b><p>Checking for a draft saved on this device.</p></div></div>;
   if(blocked)return <ProjectDraftRecovery raw={snapshot.current?.raw??null} error={saveError} onRetry={loadDraft} onReplace={replaceDraft}/>;
-  return <div className="wizard">{saveError&&<div className="infoBox wizardPersistence" role="alert"><b>Your latest changes are not saved.</b><p>{saveError}</p><button type="button" className="secondaryButton" onClick={download}>Download working brief</button><button type="button" className="secondaryButton" onClick={()=>{if(window.confirm("Reload the saved brief? Download your unsaved work first."))loadDraft()}}>Reload saved brief</button></div>}{conceptNotice&&<p className="infoBox wizardPersistence" role="status">{conceptNotice}</p>}{conceptPending&&concept&&<ConceptImportReview draft={draft} concept={concept} onApply={applyConcept} onKeep={()=>{setConceptPending(false);try{localStorage.removeItem(CONCEPT_HANDOFF_KEY)}catch{setConceptNotice("Your brief was kept. The pending concept could not be cleared from this browser.");}}}/>}<aside className="wizardRail" aria-label="Project brief progress"><div><b>mosque.build project brief</b><p>{completion}% complete · saved only on this device</p><div className="progressTrack" aria-hidden="true"><span style={{width:`${completion}%`}}/></div></div>{steps.map((label,index)=><button type="button" key={label} className={index===step?"active":stepComplete[index]?"complete":""} aria-current={index===step?"step":undefined} aria-label={`${label}: ${index===step?"current step":stepComplete[index]?"requirements complete":"needs information"}`} onClick={()=>move(index)}><span>{stepComplete[index]&&index!==step?"✓":index+1}</span><span className="wizardStepLabel">{label}<small>{index===step?"Current":stepComplete[index]?"Ready":"Needs information"}</small></span></button>)}<small aria-live="polite">{saved?"Draft saved locally":"Private draft · not submitted"}</small></aside><div className="wizardMain">
+  return <div className="wizard">{saveError&&<div className="infoBox wizardPersistence" role="alert"><b>Your latest changes are not saved.</b><p>{saveError}</p><button type="button" className="secondaryButton" onClick={download}>Download working brief</button><button type="button" className="secondaryButton" onClick={()=>{if(window.confirm("Reload the saved brief? Download your unsaved work first."))loadDraft()}}>Reload saved brief</button></div>}{conceptNotice&&<div className="infoBox wizardPersistence"><p role="status">{conceptNotice}</p>{conceptRefreshAvailable&&<button type="button" className="secondaryButton" onClick={()=>loadConcept(true)}>Review latest concept</button>}{conceptRefreshAvailable&&<Link className="secondaryButton" href="/#mosque-prompt-heading">Return to concept editor</Link>}</div>}{conceptPending&&concept&&<ConceptImportReview key={conceptRevision} draft={draft} concept={concept} blocked={conceptStale||!!saveError} onApply={applyConcept} onKeep={keepConcept}/>}<aside className="wizardRail" aria-label="Project brief progress"><div><b>mosque.build project brief</b><p>{completion}% complete · saved only on this device</p><div className="progressTrack" aria-hidden="true"><span style={{width:`${completion}%`}}/></div></div>{steps.map((label,index)=><button type="button" key={label} className={index===step?"active":stepComplete[index]?"complete":""} aria-current={index===step?"step":undefined} aria-label={`${label}: ${index===step?"current step":stepComplete[index]?"requirements complete":"needs information"}`} onClick={()=>move(index)}><span>{stepComplete[index]&&index!==step?"✓":index+1}</span><span className="wizardStepLabel">{label}<small>{index===step?"Current":stepComplete[index]?"Ready":"Needs information"}</small></span></button>)}<small aria-live="polite">{saved?"Draft saved locally":"Private draft · not submitted"}</small></aside><div className="wizardMain">
     {step===0&&<section><div className="eyebrow dark">01 · PROJECT</div><h2 ref={heading} tabIndex={-1}>Name the project and its current reality.</h2><p className="sectionLead">A clear brief starts with what is known now—not with an assumed building solution.</p><div className="fieldGrid"><label>Project name<input required value={draft.name} onChange={e=>set("name",e.target.value)} placeholder="e.g. Community Mosque Project"/></label><label>Project type<select value={draft.type} onChange={e=>set("type",e.target.value)}><option>New mosque</option><option>Mosque expansion</option><option>Adaptive reuse / conversion</option><option>Prayer room / musalla</option><option>Mosque + madrasa</option><option>Community center</option><option>Phased campus</option></select></label><label>City / region / country<input required value={draft.location} onChange={e=>set("location",e.target.value)} placeholder="Enter only the location detail needed for planning" autoComplete="off"/></label><label>Current stage<select value={draft.stage} onChange={e=>set("stage",e.target.value)}><option>Idea / community need</option><option>Searching for site</option><option>Site identified</option><option>Design started</option><option>Permitting</option><option>Fundraising</option><option>Construction</option><option>Existing mosque / operations</option></select></label></div></section>}
     {step===1&&<section><div className="eyebrow dark">02 · COMMUNITY</div><h2 ref={heading} tabIndex={-1}>Define who and what the mosque must serve.</h2><div className="fieldGrid"><label>Expected Jumu’ah attendance<input inputMode="numeric" value={draft.attendance} onChange={e=>set("attendance",e.target.value)} placeholder="e.g. 350"/></label></div><Choices legend="Required programs and spaces" options={needs} value={draft.needs} onChange={value=>set("needs",value)}/><Choices legend="First priorities" options={priorities} value={draft.priorities} onChange={value=>set("priorities",value)}/></section>}
     {step===2&&<section><div className="eyebrow dark">03 · SITE + CONSTRAINTS</div><h2 ref={heading} tabIndex={-1}>Record uncertainty before it becomes rework.</h2><div className="fieldGrid"><label>Land / building status<select value={draft.land} onChange={e=>set("land",e.target.value)}><option>Not yet</option><option>Site under consideration</option><option>Land owned</option><option>Existing building</option><option>Existing mosque</option></select></label><label>Target timeline<select value={draft.timeline} onChange={e=>set("timeline",e.target.value)}><option>Not set</option><option>Under 12 months</option><option>1–2 years</option><option>2–5 years</option><option>More than 5 years</option><option>Phased / ongoing</option></select></label><label>Working budget<input value={draft.budget} onChange={e=>set("budget",e.target.value)} placeholder="Enter a planning range or unknown"/></label><label>Currency<select required value={draft.currency} onChange={e=>set("currency",e.target.value)}><option value="">Select currency</option>{draftChoices.currency.filter(Boolean).map(currency=><option key={currency}>{currency}</option>)}</select></label></div><Choices legend="Known constraints" options={constraints} value={draft.constraints} onChange={value=>set("constraints",value)}/><div className="infoBox"><b>Verification boundary</b><p>Any permit items are <strong>likely applicable / verify with authority or professional</strong>. Site, structural, MEP and fire conclusions remain conceptual until qualified review.</p></div></section>}
