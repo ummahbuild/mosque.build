@@ -84,7 +84,7 @@ test('null, empty and malformed storage do not satisfy upstream dependencies',()
 });
 test('service worker update deletes only obsolete mosque.build shell caches',async()=>{
   const events={},deleted=[];let completion;
-  vm.runInNewContext(fs.readFileSync(new URL('../apps/web/public/sw.js',import.meta.url),'utf8'),{self:{addEventListener:(name,callback)=>events[name]=callback,clients:{claim:async()=>{}}},caches:{keys:async()=>['unrelated-app','mosque-build-shell-v24','mosque-build-shell-v25'],delete:async key=>deleted.push(key)}});
+  vm.runInNewContext(fs.readFileSync(new URL('../apps/web/public/sw.js',import.meta.url),'utf8'),{self:{addEventListener:(name,callback)=>events[name]=callback,clients:{claim:async()=>{}}},caches:{keys:async()=>['unrelated-app','mosque-build-shell-v24','mosque-build-shell-v26'],delete:async key=>deleted.push(key)}});
   events.activate({waitUntil:value=>completion=value});await completion;
   assert.deepEqual(deleted,['mosque-build-shell-v24']);
 });
