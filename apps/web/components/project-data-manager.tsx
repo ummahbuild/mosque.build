@@ -2,7 +2,7 @@
 
 import {useEffect,useRef,useState} from "react";
 import {createOriginalRecordsArchive,createProjectPackage,PROJECT_PACKAGE_MAX_BYTES,projectSections,restoreProjectPackageSafely,serializeProjectPackage,snapshotProjectSections,validateProjectPackage,type ProjectPackage,type ProjectRestoreSnapshot} from "@/lib/project-package";
-import {safeProjectDraft} from "@/lib/project-draft";
+import {parseProjectDraft} from "@/lib/project-draft";
 import {safeActionDeskPlan} from "@/lib/action-desk";
 import "./project-data-manager.css";
 
@@ -40,7 +40,7 @@ export function ProjectDataManager(){
       const text=await file.text();if(token!==request.current)return;
       const result=validateProjectPackage(JSON.parse(text));
       if(!result.ok){setErrors(result.errors);return}
-      if("brief" in result.data.sections&&!safeProjectDraft(result.data.sections.brief)){setErrors(["The project brief contains unsupported fields or an unreadable version. Repair it before importing. Your saved project has not changed."]);return}
+      if("brief" in result.data.sections&&!parseProjectDraft(JSON.stringify(result.data.sections.brief))){setErrors(["The project brief contains unsupported fields, an unreadable version or too much saved text. Repair it before importing. Your saved project has not changed."]);return}
       if("projectActionPlan" in result.data.sections&&!safeActionDeskPlan(result.data.sections.projectActionPlan)){setErrors(["The action plan has unsupported fields, dates or a newer version. Your saved project is unchanged."]);return}
       let snapshot:ProjectRestoreSnapshot;
       try{snapshot=snapshotProjectSections(key=>localStorage.getItem(key),result.data)}catch{setErrors(["Your current project could not be read. Restore is blocked until browser storage is available."]);return}

@@ -53,6 +53,32 @@ export function parseProjectDraft(raw:string):ProjectDraft|null {
   if(raw.length>MAX_DRAFT_LENGTH)return null;
   try{return safeProjectDraft(JSON.parse(raw));}catch{return null;}
 }
+export function parseProjectDraftFile(raw:string):ProjectDraft|null {
+  if(new TextEncoder().encode(raw).byteLength>MAX_DRAFT_FILE_BYTES)return null;
+  try{
+    const value=JSON.parse(raw),draft=safeProjectDraft(value?.schema==="mosque.build/project-brief@1"?value.project:value);
+    // A file must also fit the format that the wizard can reopen after saving.
+    return draft?parseProjectDraft(JSON.stringify(draft)):null;
+  }catch{return null;}
+}
+export type DraftFileReview={kind:"ready";draft:ProjectDraft;fileName:string}|{kind:"error";message:string};
+export function createDraftImportReader(){
+  let generation=0;
+  return {
+    cancel(){generation++;},
+    async read(file:Pick<File,"name"|"size"|"text">):Promise<DraftFileReview|null>{
+      const request=++generation;let result:DraftFileReview;
+      try{
+        if(file.size>MAX_DRAFT_FILE_BYTES)result={kind:"error",message:"Choose a brief smaller than 500 KB. The original is unchanged."};
+        else{
+          const draft=parseProjectDraftFile(await file.text());
+          result=draft?{kind:"ready",draft,fileName:file.name}:{kind:"error",message:"This file is not a supported project brief, or its saved text is too large. Check its fields and version. The original is unchanged."};
+        }
+      }catch{result={kind:"error",message:"This file could not be read. Choose it again or try another backup. The original is unchanged."};}
+      return request===generation?result:null;
+    }
+  };
+}
 export type DraftSnapshot={key:string;raw:string|null};
 export type DraftStorage=Pick<Storage,"getItem"|"setItem">;
 export function readProjectDraft(storage:DraftStorage):DraftSnapshot {
@@ -63,11 +89,13 @@ export function persistProjectDraft(storage:DraftStorage,draft:ProjectDraft,expe
   const current=readProjectDraft(storage);
   if(current.key!==expected.key||current.raw!==expected.raw)throw new Error("The saved brief changed in another tab. Reload to review it before saving again.");
   if(!safeProjectDraft(draft))throw new Error("Some brief fields are not supported. Export your working brief before leaving.");
+  const raw=JSON.stringify(draft);
+  if(raw.length>MAX_DRAFT_LENGTH)throw new Error("This brief exceeds the saved text limit. Shorten the text or download your working brief before leaving.");
   if(backup&&current.raw!==null) {
     // Keep the exact original, even if it is not JSON. If backup fails, do not replace it.
     storage.setItem(DRAFT_RECOVERY_KEY,JSON.stringify({schema:"mosque.build/draft-recovery@1",...current,savedAt:new Date().toISOString()}));
   }
-  const raw=JSON.stringify(draft);storage.setItem(PROJECT_DRAFT_KEY,raw);
+  storage.setItem(PROJECT_DRAFT_KEY,raw);
   return {key:PROJECT_DRAFT_KEY,raw};
 }
 export function initialDraftStep(draft:ProjectDraft,stored:string|null):number {
