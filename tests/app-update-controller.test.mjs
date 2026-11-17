@@ -59,7 +59,7 @@ test('dispose clears a pending activation timer',async(t)=>{
 });
 test('development cleanup removes only this app worker and awaits failures safely',async()=>{
  const removed=[];const registration=(id,url)=>({active:worker('activated',url),waiting:null,installing:null,unregister:async()=>{removed.push(id);if(id==='app')throw Error('Unavailable')}});
- await unregisterDevelopmentWorker({getRegistrations:async()=>[registration('app',script),registration('other','https://mosque.build/other/sw.js'),registration('external','https://example.org/sw.js')]},script);
+ await unregisterDevelopmentWorker({getRegistrations:async()=>[registration('app',script),registration('other','https://mosque.build/other/sw.js'),registration('external','https://example.org/sw.js'),{...registration('mixed',script),installing:worker('installing','https://mosque.build/other/sw.js')}]},script);
  assert.deepEqual(removed,['app']);
 });
 test('install accepted, dismissed and rejected outcomes all settle without uncaught errors',async()=>{

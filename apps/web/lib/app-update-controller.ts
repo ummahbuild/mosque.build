@@ -66,7 +66,7 @@ export function observeAppUpdates(
 export async function unregisterDevelopmentWorker(container:ServiceWorkerContainer,scriptUrl:string){
   const registrations=await container.getRegistrations();
   // Do not unregister other apps/workers that happen to share a development origin.
-  await Promise.allSettled(registrations.filter(registration=>[registration.active,registration.waiting,registration.installing].some(worker=>worker?.scriptURL===scriptUrl)).map(registration=>registration.unregister()));
+  await Promise.allSettled(registrations.filter(registration=>{const workers=[registration.active,registration.waiting,registration.installing].filter(worker=>worker!==null);return workers.length>0&&workers.every(worker=>worker.scriptURL===scriptUrl)}).map(registration=>registration.unregister()));
 }
 
 export type AppInstallPrompt={prompt:()=>Promise<void>;userChoice:Promise<{outcome:"accepted"|"dismissed"}>};
